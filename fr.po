@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-03 13:40+0100\n"
-"PO-Revision-Date: 2020-01-03 14:39+0000\n"
+"PO-Revision-Date: 2020-01-03 14:43+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <https://translate.stg.fedoraproject.org/projects/"
-"cockpit-podman/cockpit-podman/fr/>\n"
+"cockpit-podman/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +38,7 @@ msgstr "CPU"
 
 #: src/ImageRunModal.jsx:343
 msgid "CPU Shares"
-msgstr ""
+msgstr "Parts de CPU"
 
 #: src/ContainerRemoveErrorModal.jsx:19 src/ImageRemoveErrorModal.jsx:19
 #: src/ImageSearchModal.jsx:185 src/ContainerCommitModal.jsx:214
