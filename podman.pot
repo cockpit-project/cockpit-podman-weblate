@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-22 15:44+0000\n"
+"POT-Creation-Date: 2020-01-30 07:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Automatically start podman on boot"
 msgstr ""
 
-#: src/Containers.jsx:221 src/ImageUsedBy.jsx:40
+#: src/Containers.jsx:226 src/ImageUsedBy.jsx:40
 msgid "CPU"
 msgstr ""
 
@@ -58,12 +58,12 @@ msgid "Cancel"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:190 src/ContainerDetails.jsx:35
-#: src/Containers.jsx:221 src/ImageDetails.jsx:24 src/ImageRunModal.jsx:299
+#: src/Containers.jsx:226 src/ImageDetails.jsx:24 src/ImageRunModal.jsx:299
 #: src/ImageRunModal.jsx:303 src/ImageUsedBy.jsx:40
 msgid "Command"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:224 src/Containers.jsx:139
+#: src/ContainerCommitModal.jsx:224 src/Containers.jsx:144
 msgid "Commit"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Commit Image"
 msgstr ""
 
-#: src/Containers.jsx:122
+#: src/Containers.jsx:127
 msgid "Console"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgstr ""
 msgid "Container port"
 msgstr ""
 
-#: src/Containers.jsx:275
+#: src/Containers.jsx:280
 msgid "Containers"
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 msgid "Deleting a container will erase all data in it."
 msgstr ""
 
-#: src/Containers.jsx:118 src/Images.jsx:154
+#: src/Containers.jsx:119 src/Images.jsx:154
 msgid "Details"
 msgstr ""
 
@@ -167,15 +167,15 @@ msgstr ""
 msgid "Failed to download image $0:$1"
 msgstr ""
 
-#: src/Containers.jsx:208
+#: src/Containers.jsx:213
 msgid "Failed to force remove container $0"
 msgstr ""
 
-#: src/Containers.jsx:187
+#: src/Containers.jsx:192
 msgid "Failed to remove container $0"
 msgstr ""
 
-#: src/Containers.jsx:91
+#: src/Containers.jsx:92
 msgid "Failed to restart container $0"
 msgstr ""
 
@@ -183,11 +183,11 @@ msgstr ""
 msgid "Failed to search for new images"
 msgstr ""
 
-#: src/Containers.jsx:78
+#: src/Containers.jsx:79
 msgid "Failed to start container $0"
 msgstr ""
 
-#: src/Containers.jsx:69
+#: src/Containers.jsx:70
 msgid "Failed to stop container $0"
 msgstr ""
 
@@ -195,11 +195,11 @@ msgstr ""
 msgid "Force Delete"
 msgstr ""
 
-#: src/Containers.jsx:153
+#: src/Containers.jsx:158
 msgid "Force Restart"
 msgstr ""
 
-#: src/Containers.jsx:157
+#: src/Containers.jsx:162
 msgid "Force Stop"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: src/ContainerDetails.jsx:33 src/Containers.jsx:221 src/ImageRunModal.jsx:283
+#: src/ContainerDetails.jsx:33 src/Containers.jsx:226 src/ImageRunModal.jsx:283
 msgid "Image"
 msgstr ""
 
@@ -251,11 +251,19 @@ msgstr ""
 msgid "KiB"
 msgstr ""
 
-#: src/Containers.jsx:225 src/ImageUsedBy.jsx:53
+#: src/ContainerLogs.jsx:51
+msgid "Loading logs..."
+msgstr ""
+
+#: src/Containers.jsx:230 src/ImageUsedBy.jsx:53
 msgid "Loading..."
 msgstr ""
 
-#: src/Containers.jsx:221 src/ImageUsedBy.jsx:40
+#: src/Containers.jsx:123
+msgid "Logs"
+msgstr ""
+
+#: src/Containers.jsx:226 src/ImageUsedBy.jsx:40
 msgid "Memory"
 msgstr ""
 
@@ -271,12 +279,12 @@ msgstr ""
 msgid "MiB"
 msgstr ""
 
-#: src/Containers.jsx:221 src/ImageRunModal.jsx:288 src/ImageUsedBy.jsx:40
+#: src/Containers.jsx:226 src/ImageRunModal.jsx:288 src/ImageUsedBy.jsx:40
 #: src/Images.jsx:201
 msgid "Name"
 msgstr ""
 
-#: src/Containers.jsx:223
+#: src/Containers.jsx:228
 msgid "No containers"
 msgstr ""
 
@@ -284,7 +292,7 @@ msgstr ""
 msgid "No containers are using this image"
 msgstr ""
 
-#: src/Containers.jsx:227
+#: src/Containers.jsx:232
 msgid "No containers that match the current filter"
 msgstr ""
 
@@ -300,7 +308,7 @@ msgstr ""
 msgid "No results for $0. Please retry another term."
 msgstr ""
 
-#: src/Containers.jsx:229
+#: src/Containers.jsx:234
 msgid "No running containers"
 msgstr ""
 
@@ -308,7 +316,7 @@ msgstr ""
 msgid "On Build"
 msgstr ""
 
-#: src/Containers.jsx:221 src/Images.jsx:201
+#: src/Containers.jsx:226 src/Images.jsx:201
 msgid "Owner"
 msgstr ""
 
@@ -353,7 +361,7 @@ msgstr ""
 msgid "ReadWrite"
 msgstr ""
 
-#: src/Containers.jsx:152
+#: src/Containers.jsx:157
 msgid "Restart"
 msgstr ""
 
@@ -385,7 +393,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/Containers.jsx:145 src/app.jsx:445
+#: src/Containers.jsx:150 src/app.jsx:445
 msgid "Start"
 msgstr ""
 
@@ -393,11 +401,11 @@ msgstr ""
 msgid "Start podman"
 msgstr ""
 
-#: src/ContainerDetails.jsx:37 src/Containers.jsx:221 src/ImageUsedBy.jsx:40
+#: src/ContainerDetails.jsx:37 src/Containers.jsx:226 src/ImageUsedBy.jsx:40
 msgid "State"
 msgstr ""
 
-#: src/Containers.jsx:156
+#: src/Containers.jsx:161
 msgid "Stop"
 msgstr ""
 
@@ -465,17 +473,17 @@ msgstr ""
 msgid "With terminal"
 msgstr ""
 
-#: src/Containers.jsx:105 src/Containers.jsx:106 src/ImageUsedBy.jsx:13
+#: src/Containers.jsx:106 src/Containers.jsx:107 src/ImageUsedBy.jsx:13
 #: src/ImageUsedBy.jsx:14
 msgid "n/a"
 msgstr ""
 
-#: src/Containers.jsx:105 src/Containers.jsx:106 src/ImageUsedBy.jsx:13
+#: src/Containers.jsx:106 src/Containers.jsx:107 src/ImageUsedBy.jsx:13
 #: src/ImageUsedBy.jsx:14
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:114 src/Images.jsx:146
+#: src/Containers.jsx:115 src/Images.jsx:146
 msgid "system"
 msgstr ""
 
