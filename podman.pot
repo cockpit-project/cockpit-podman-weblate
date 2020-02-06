@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 07:20+0000\n"
+"POT-Creation-Date: 2020-02-06 07:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -473,6 +473,14 @@ msgstr ""
 msgid "With terminal"
 msgstr ""
 
+#: src/manifest.json
+msgid "container"
+msgstr ""
+
+#: src/manifest.json
+msgid "image"
+msgstr ""
+
 #: src/Containers.jsx:106 src/Containers.jsx:107 src/ImageUsedBy.jsx:13
 #: src/ImageUsedBy.jsx:14
 msgid "n/a"
@@ -481,6 +489,10 @@ msgstr ""
 #: src/Containers.jsx:106 src/Containers.jsx:107 src/ImageUsedBy.jsx:13
 #: src/ImageUsedBy.jsx:14
 msgid "not available"
+msgstr ""
+
+#: src/manifest.json
+msgid "podman"
 msgstr ""
 
 #: src/Containers.jsx:115 src/Images.jsx:146
