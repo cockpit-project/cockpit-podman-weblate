@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 08:53+0000\n"
+"POT-Creation-Date: 2020-02-27 08:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,7 +235,7 @@ msgstr ""
 msgid "Image Name"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:147 src/Images.jsx:263
+#: src/ImageSearchModal.jsx:147 src/Images.jsx:260
 msgid "Images"
 msgstr ""
 
@@ -349,7 +349,7 @@ msgstr ""
 msgid "Ports"
 msgstr ""
 
-#: src/Images.jsx:282
+#: src/Images.jsx:279
 msgid "Pulling"
 msgstr ""
 
