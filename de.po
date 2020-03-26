@@ -1,5 +1,6 @@
 # Martin Pitt <mpitt@redhat.com>, 2019. #zanata
 # Mike FABIAN <mfabian@redhat.com>, 2020.
+# Matej Marusak <marusak.matej@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
