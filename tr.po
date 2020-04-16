@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-03 13:40+0100\n"
-"PO-Revision-Date: 2020-04-14 11:40+0000\n"
+"PO-Revision-Date: 2020-04-16 22:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/master/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: src/ImageDeleteModal.jsx:16
 msgid "Are you sure you want to delete this image?"
@@ -205,11 +205,11 @@ msgstr "GiB"
 
 #: src/ImageRunModal.jsx:102
 msgid "Host path"
-msgstr "Ana bilgisayar konumu"
+msgstr "Ana makine yolu"
 
 #: src/ImageRunModal.jsx:49
 msgid "Host port"
-msgstr "Ana bilgisayar bağlantı noktası"
+msgstr "Ana makine bağlantı noktası"
 
 #: src/ContainerDetails.jsx:29 src/ImageDetails.jsx:18
 msgid "ID"
@@ -395,7 +395,7 @@ msgstr "Sistem"
 
 #: src/app.jsx:449
 msgid "System Podman service is also available"
-msgstr "Sistem Podman servisi de mevcuttur"
+msgstr "Sistem Podman servisi de kullanılabilir"
 
 #: src/ImageRunModal.jsx:56
 msgid "TCP"
@@ -439,7 +439,7 @@ msgstr "Kullanan"
 
 #: src/app.jsx:454
 msgid "User Podman service is also available"
-msgstr "Kullanıcı Podman servisi de mevcuttur"
+msgstr "Kullanıcı Podman servisi de kullanılabilir"
 
 #: src/ImageRunModal.jsx:84
 msgid "Value"
@@ -461,7 +461,7 @@ msgstr "yok"
 #: src/ImageUsedBy.jsx:13 src/ImageUsedBy.jsx:14 src/Containers.jsx:105
 #: src/Containers.jsx:106
 msgid "not available"
-msgstr "mevcut değil"
+msgstr "kullanılabilir değil"
 
 #: src/Images.jsx:146 src/Containers.jsx:114
 msgid "system"
