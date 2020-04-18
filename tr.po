@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-03 13:40+0100\n"
-"PO-Revision-Date: 2020-04-16 22:40+0000\n"
+"PO-Revision-Date: 2020-04-18 18:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/master/tr/>\n"
@@ -322,7 +322,7 @@ msgstr "Podman Konteynerleri"
 
 #: src/app.jsx:396
 msgid "Podman Service is Not Active"
-msgstr "Podman Servisi Etkin Değil"
+msgstr "Podman Hizmeti Etkin Değil"
 
 #: src/ContainerDetails.jsx:39 src/ImageRunModal.jsx:370
 #: src/ImageDetails.jsx:30
@@ -395,7 +395,7 @@ msgstr "Sistem"
 
 #: src/app.jsx:449
 msgid "System Podman service is also available"
-msgstr "Sistem Podman servisi de kullanılabilir"
+msgstr "Sistem Podman hizmeti de kullanılabilir"
 
 #: src/ImageRunModal.jsx:56
 msgid "TCP"
@@ -439,7 +439,7 @@ msgstr "Kullanan"
 
 #: src/app.jsx:454
 msgid "User Podman service is also available"
-msgstr "Kullanıcı Podman servisi de kullanılabilir"
+msgstr "Kullanıcı Podman hizmeti de kullanılabilir"
 
 #: src/ImageRunModal.jsx:84
 msgid "Value"
