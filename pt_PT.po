@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-03 13:40+0100\n"
-"PO-Revision-Date: 2020-05-05 10:10+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-05-06 10:40+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese (Portugal) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/master/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -150,7 +150,7 @@ msgstr ""
 
 #: src/ContainerCommitModal.jsx:104
 msgid "Failed to commit container $0"
-msgstr "Não foi possível remover o 'container' $0"
+msgstr "Não foi possível implementar ''container'' $0"
 
 #: src/Images.jsx:72
 msgid "Failed to download image $0:$1"
