@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-01 18:34+0000\n"
+"POT-Creation-Date: 2020-06-09 07:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 #: src/ContainerCommitModal.jsx:231 src/ContainerDeleteModal.jsx:20
 #: src/ContainerRemoveErrorModal.jsx:23 src/ImageDeleteModal.jsx:20
 #: src/ImageRemoveErrorModal.jsx:20 src/ImageRunModal.jsx:425
-#: src/ImageSearchModal.jsx:189
+#: src/ImageSearchModal.jsx:193
 msgid "Cancel"
 msgstr ""
 
@@ -144,11 +144,11 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:186
+#: src/ImageSearchModal.jsx:190
 msgid "Download"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:122
+#: src/ImageSearchModal.jsx:123
 msgid "Download as:"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 msgid "Failed to restart container $0"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:90
+#: src/ImageSearchModal.jsx:91
 msgid "Failed to search for new images"
 msgstr ""
 
@@ -248,7 +248,7 @@ msgstr ""
 msgid "Image Name"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:148 src/Images.jsx:225
+#: src/ImageSearchModal.jsx:149 src/Images.jsx:225
 msgid "Images"
 msgstr ""
 
@@ -317,7 +317,7 @@ msgstr ""
 msgid "No images that match the current filter"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:149
+#: src/ImageSearchModal.jsx:150
 msgid "No results for $0. Please retry another term."
 msgstr ""
 
@@ -398,11 +398,15 @@ msgstr ""
 msgid "Run image"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:172
+#: src/ImageSearchModal.jsx:133
+msgid "Search"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:173
 msgid "Search Image"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:139
+#: src/ImageSearchModal.jsx:140
 msgid "Search by name or description"
 msgstr ""
 
@@ -430,7 +434,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:125
+#: src/ImageSearchModal.jsx:126
 msgid "System"
 msgstr ""
 
@@ -442,7 +446,8 @@ msgstr ""
 msgid "TCP"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:183 src/ImageSearchModal.jsx:182
+#: src/ContainerCommitModal.jsx:183 src/ImageSearchModal.jsx:181
+#: src/ImageSearchModal.jsx:185
 msgid "Tag"
 msgstr ""
 
