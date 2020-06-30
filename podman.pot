@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 08:52+0000\n"
+"POT-Creation-Date: 2020-06-30 10:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Could not open channel: $0"
 msgstr ""
 
-#: src/ContainerDetails.jsx:31 src/ImageDetails.jsx:26 src/Images.jsx:166
+#: src/ContainerDetails.jsx:31 src/ImageDetails.jsx:26 src/Images.jsx:167
 msgid "Created"
 msgstr ""
 
@@ -132,7 +132,7 @@ msgstr ""
 msgid "Delete $0"
 msgstr ""
 
-#: src/Containers.jsx:138 src/Images.jsx:144
+#: src/Containers.jsx:138 src/Images.jsx:145
 msgid "Delete image"
 msgstr ""
 
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Deleting a container will erase all data in it."
 msgstr ""
 
-#: src/Containers.jsx:120 src/Images.jsx:126
+#: src/Containers.jsx:120 src/Images.jsx:127
 msgid "Details"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 msgid "Environment"
 msgstr ""
 
-#: src/Images.jsx:58 src/Notification.jsx:30
+#: src/Images.jsx:59 src/Notification.jsx:30
 msgid "Error message"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Failed to commit container $0"
 msgstr ""
 
-#: src/Images.jsx:56
+#: src/Images.jsx:57
 msgid "Failed to download image $0:$1"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#: src/Images.jsx:177
+#: src/Images.jsx:178
 msgid "Get new image"
 msgstr ""
 
@@ -248,7 +248,7 @@ msgstr ""
 msgid "Image Name"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:149 src/Images.jsx:225
+#: src/ImageSearchModal.jsx:149 src/Images.jsx:226
 msgid "Images"
 msgstr ""
 
@@ -293,7 +293,7 @@ msgid "MiB"
 msgstr ""
 
 #: src/Containers.jsx:232 src/ImageRunModal.jsx:304 src/ImageUsedBy.jsx:40
-#: src/Images.jsx:166
+#: src/Images.jsx:167
 msgid "Name"
 msgstr ""
 
@@ -309,11 +309,11 @@ msgstr ""
 msgid "No containers that match the current filter"
 msgstr ""
 
-#: src/Images.jsx:167
+#: src/Images.jsx:168
 msgid "No images"
 msgstr ""
 
-#: src/Images.jsx:171
+#: src/Images.jsx:172
 msgid "No images that match the current filter"
 msgstr ""
 
@@ -329,7 +329,7 @@ msgstr ""
 msgid "On Build"
 msgstr ""
 
-#: src/Containers.jsx:232 src/Images.jsx:166
+#: src/Containers.jsx:232 src/Images.jsx:167
 msgid "Owner"
 msgstr ""
 
@@ -362,7 +362,7 @@ msgstr ""
 msgid "Ports"
 msgstr ""
 
-#: src/Images.jsx:244
+#: src/Images.jsx:245
 msgid "Pulling"
 msgstr ""
 
@@ -394,7 +394,7 @@ msgstr ""
 msgid "Run Image"
 msgstr ""
 
-#: src/Images.jsx:109
+#: src/Images.jsx:110
 msgid "Run image"
 msgstr ""
 
@@ -414,7 +414,7 @@ msgstr ""
 msgid "Set container on build variables"
 msgstr ""
 
-#: src/Images.jsx:166
+#: src/Images.jsx:167
 msgid "Size"
 msgstr ""
 
@@ -475,7 +475,7 @@ msgstr ""
 msgid "Up since $0"
 msgstr ""
 
-#: src/Images.jsx:131
+#: src/Images.jsx:132
 msgid "Used By"
 msgstr ""
 
@@ -517,7 +517,7 @@ msgstr ""
 msgid "podman"
 msgstr ""
 
-#: src/Containers.jsx:116 src/Images.jsx:118
+#: src/Containers.jsx:116 src/Images.jsx:119
 msgid "system"
 msgstr ""
 
