@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 09:27+0000\n"
+"POT-Creation-Date: 2020-08-21 14:57+0000\n"
 "PO-Revision-Date: 2020-08-08 22:13+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
@@ -36,7 +36,7 @@ msgstr "Všechny registry"
 msgid "An error occured"
 msgstr "Došlo k chybě"
 
-#: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:28
+#: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:26
 msgid "Author"
 msgstr "Autor"
 
@@ -68,8 +68,8 @@ msgstr "Kontrolní bod"
 msgid "Checkpoint container $0"
 msgstr "Kontejner kontrolního bodu $0"
 
-#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:35
-#: src/ImageDetails.jsx:24 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
+#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:34
+#: src/ImageDetails.jsx:22 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
 #: src/ImageUsedBy.jsx:36
 msgid "Command"
 msgstr "Příkaz"
@@ -122,8 +122,8 @@ msgstr "Port kontejneru"
 msgid "Containers"
 msgstr "Kontejnery"
 
-#: src/ContainerDetails.jsx:31 src/ImageDetails.jsx:26 src/Images.jsx:180
-#: src/util.js:9
+#: src/ContainerDetails.jsx:30 src/ImageDetails.jsx:24 src/Images.jsx:181
+#: src/util.js:10
 msgid "Created"
 msgstr "Vytvořeno"
 
@@ -136,7 +136,7 @@ msgstr "Smazat"
 msgid "Delete $0"
 msgstr "Smazat $0"
 
-#: src/Containers.jsx:181 src/Images.jsx:157
+#: src/Containers.jsx:181 src/Images.jsx:158
 msgid "Delete image"
 msgstr "Smazat obraz"
 
@@ -152,7 +152,7 @@ msgstr "Smazání kontejneru smaže veškerá data v něm."
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Smazání tohoto podu odebere následující kontejnery:"
 
-#: src/Containers.jsx:163 src/Images.jsx:139
+#: src/Containers.jsx:163 src/Images.jsx:140
 msgid "Details"
 msgstr "Podrobnosti"
 
@@ -164,7 +164,7 @@ msgstr "Do exportu nezahrnovat změny v kořenovém souborovém systému"
 msgid "Download"
 msgstr "Stáhnout"
 
-#: src/ImageDetails.jsx:22
+#: src/ImageDetails.jsx:20
 msgid "Entrypoint"
 msgstr "Vstupní bod"
 
@@ -172,7 +172,7 @@ msgstr "Vstupní bod"
 msgid "Environment"
 msgstr "Prostředí"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Error"
 msgstr "Chyba"
 
@@ -180,7 +180,7 @@ msgstr "Chyba"
 msgid "Error message"
 msgstr "Chybové hlášení"
 
-#: src/ContainerDetails.jsx:12 src/util.js:9
+#: src/ContainerDetails.jsx:11 src/util.js:10
 msgid "Exited"
 msgstr "Skončilo"
 
@@ -269,11 +269,11 @@ msgstr "Vynutit zastavení"
 msgid "Format"
 msgstr "Formát"
 
-#: src/ContainerDetails.jsx:45
+#: src/ContainerDetails.jsx:44
 msgid "Gateway"
 msgstr "Brána"
 
-#: src/Images.jsx:191
+#: src/Images.jsx:192
 msgid "Get new image"
 msgstr "Získat nový obraz"
 
@@ -281,7 +281,7 @@ msgstr "Získat nový obraz"
 msgid "GiB"
 msgstr "GiB"
 
-#: src/Images.jsx:235
+#: src/Images.jsx:236
 msgid "Hide intermediate images"
 msgstr "Skrýt obrazy mezi tím"
 
@@ -293,15 +293,15 @@ msgstr "Popis umístění hostitele"
 msgid "Host port"
 msgstr "Port hostitele"
 
-#: src/ContainerDetails.jsx:29 src/ImageDetails.jsx:18
+#: src/ContainerDetails.jsx:28 src/ImageDetails.jsx:16
 msgid "ID"
 msgstr "Identif."
 
-#: src/ContainerDetails.jsx:41
+#: src/ContainerDetails.jsx:40
 msgid "IP Address"
 msgstr "IP adresa"
 
-#: src/ContainerDetails.jsx:43
+#: src/ContainerDetails.jsx:42
 msgid "IP Prefix Length"
 msgstr "Délka přepony IP adresy"
 
@@ -313,7 +313,7 @@ msgstr "Pokud je nastavená staticky, IP adresu ignorovat"
 msgid "Ignore MAC address if set statically"
 msgstr "Pokud je nastavená staticky, MAC adresu ignorovat"
 
-#: src/ContainerDetails.jsx:33 src/ImageRunModal.jsx:333
+#: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:333
 msgid "Image"
 msgstr "Obraz"
 
@@ -321,7 +321,7 @@ msgstr "Obraz"
 msgid "Image Name"
 msgstr "Název obrazu"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:251
 msgid "Images"
 msgstr "Obrazy"
 
@@ -353,7 +353,7 @@ msgstr "Načítání…"
 msgid "Logs"
 msgstr "Záznamy událostí"
 
-#: src/ContainerDetails.jsx:47
+#: src/ContainerDetails.jsx:46
 msgid "MAC Address"
 msgstr "MAC adresa"
 
@@ -379,7 +379,7 @@ msgstr ""
 "Pro tento obraz existuje vícero štítků. Vyberte oštítkované obrazy, které "
 "smazat."
 
-#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:180
+#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:181
 msgid "Name"
 msgstr "Název"
 
@@ -403,11 +403,11 @@ msgstr "V tomto podu nejsou žádné kontejnery"
 msgid "No containers that match the current filter"
 msgstr "Stávajícímu filtru neodpovídají žádné kontejnery"
 
-#: src/Images.jsx:181
+#: src/Images.jsx:182
 msgid "No images"
 msgstr "Žádné obrazy"
 
-#: src/Images.jsx:185
+#: src/Images.jsx:186
 msgid "No images that match the current filter"
 msgstr "Žádné obrazy které by odpovídaly stávajícímu filtru"
 
@@ -428,7 +428,7 @@ msgid "Only running"
 msgstr "Pouze spuštěné"
 
 #: src/ContainerHeader.jsx:38 src/Containers.jsx:326
-#: src/ImageSearchModal.jsx:128 src/Images.jsx:180
+#: src/ImageSearchModal.jsx:128 src/Images.jsx:181
 msgid "Owner"
 msgstr "Vlastník"
 
@@ -440,7 +440,7 @@ msgstr "Pozastavit"
 msgid "Pause the container"
 msgstr "Pozastavit kontejner"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Paused"
 msgstr "Pozastaveno"
 
@@ -468,7 +468,7 @@ msgstr "Podman kontejnery"
 msgid "Podman Service is Not Active"
 msgstr "Služba podman není aktivní"
 
-#: src/ContainerDetails.jsx:39 src/ImageDetails.jsx:30
+#: src/ContainerDetails.jsx:38 src/ImageDetails.jsx:28
 #: src/ImageRunModal.jsx:420
 msgid "Ports"
 msgstr "Porty"
@@ -477,7 +477,7 @@ msgstr "Porty"
 msgid "Private"
 msgstr "Soukromé"
 
-#: src/Images.jsx:277
+#: src/Images.jsx:278
 msgid "Pulling"
 msgstr "Stahování"
 
@@ -529,7 +529,7 @@ msgstr "Spustit obraz"
 msgid "Run image"
 msgstr "Spustit obraz"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Running"
 msgstr "Spuštěné"
 
@@ -557,11 +557,11 @@ msgstr "Sdílené"
 msgid "Show"
 msgstr "Zobrazit"
 
-#: src/Images.jsx:235
+#: src/Images.jsx:236
 msgid "Show intermediate images"
 msgstr "Zobrazit obrazy mezi tím"
 
-#: src/Images.jsx:180
+#: src/Images.jsx:181
 msgid "Size"
 msgstr "Velikost"
 
@@ -574,7 +574,7 @@ msgstr "Spustit"
 msgid "Start podman"
 msgstr "Spustit podman"
 
-#: src/ContainerDetails.jsx:37 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
+#: src/ContainerDetails.jsx:36 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
 msgid "State"
 msgstr "Stav"
 
@@ -582,7 +582,7 @@ msgstr "Stav"
 msgid "Stop"
 msgstr "Zastavit"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Stopped"
 msgstr "Zastaveno"
 
@@ -606,7 +606,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Štítek"
 
-#: src/ImageDetails.jsx:20
+#: src/ImageDetails.jsx:18
 msgid "Tags"
 msgstr "Štítky"
 
@@ -622,11 +622,11 @@ msgstr "Filtrujte psaním…"
 msgid "UDP"
 msgstr "UDP"
 
-#: src/ContainerDetails.jsx:10
+#: src/ContainerDetails.jsx:9
 msgid "Up since $0"
 msgstr "V chodu od $0"
 
-#: src/Images.jsx:144
+#: src/Images.jsx:145
 msgid "Used By"
 msgstr "Používáno"
 
@@ -650,7 +650,7 @@ msgstr "Svazky"
 msgid "With terminal"
 msgstr "S terminálem"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "configured"
 msgstr "nastaveno"
 
@@ -658,11 +658,11 @@ msgstr "nastaveno"
 msgid "container"
 msgstr "kontejner"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "created"
 msgstr "vytvořeno"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "exited"
 msgstr "skončilo"
 
@@ -684,7 +684,7 @@ msgstr "n/a"
 msgid "not available"
 msgstr "není k dispozici"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "paused"
 msgstr "pozastaveno"
 
@@ -696,11 +696,11 @@ msgstr "skupina podu"
 msgid "podman"
 msgstr "podman"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "removing"
 msgstr "odebírání"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "running"
 msgstr "spuštěné"
 
@@ -708,11 +708,11 @@ msgstr "spuštěné"
 msgid "select all"
 msgstr "vybrat vše"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "stopped"
 msgstr "zastaveno"
 
-#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:134
+#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
 msgid "system"
 msgstr "systém"
 

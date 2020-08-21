@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 09:27+0000\n"
+"POT-Creation-Date: 2020-08-21 14:57+0000\n"
 "PO-Revision-Date: 2020-08-08 22:13+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -36,7 +36,7 @@ msgstr "Všetky registre"
 msgid "An error occured"
 msgstr "Vyskytla sa chyba"
 
-#: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:28
+#: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:26
 msgid "Author"
 msgstr "Autor"
 
@@ -70,8 +70,8 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr "Nepodarilo sa zastaviť kontajner $0"
 
-#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:35
-#: src/ImageDetails.jsx:24 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
+#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:34
+#: src/ImageDetails.jsx:22 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
 #: src/ImageUsedBy.jsx:36
 msgid "Command"
 msgstr "Príkaz"
@@ -124,8 +124,8 @@ msgstr "Port kontajneru"
 msgid "Containers"
 msgstr "Kontajnery"
 
-#: src/ContainerDetails.jsx:31 src/ImageDetails.jsx:26 src/Images.jsx:180
-#: src/util.js:9
+#: src/ContainerDetails.jsx:30 src/ImageDetails.jsx:24 src/Images.jsx:181
+#: src/util.js:10
 msgid "Created"
 msgstr "Vytvorený"
 
@@ -138,7 +138,7 @@ msgstr "Odstrániť"
 msgid "Delete $0"
 msgstr "Odstrániť $0"
 
-#: src/Containers.jsx:181 src/Images.jsx:157
+#: src/Containers.jsx:181 src/Images.jsx:158
 msgid "Delete image"
 msgstr "Zmazať obraz"
 
@@ -156,7 +156,7 @@ msgstr "Zmazaním kontajneru sa zmažú všetky dáta v ňom."
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Zmazanie tohto podu zmaže nasledujúce kontajnery:"
 
-#: src/Containers.jsx:163 src/Images.jsx:139
+#: src/Containers.jsx:163 src/Images.jsx:140
 msgid "Details"
 msgstr "Podrobnosti"
 
@@ -168,7 +168,7 @@ msgstr ""
 msgid "Download"
 msgstr "Stiahnuť"
 
-#: src/ImageDetails.jsx:22
+#: src/ImageDetails.jsx:20
 msgid "Entrypoint"
 msgstr "Vstupný bod"
 
@@ -176,7 +176,7 @@ msgstr "Vstupný bod"
 msgid "Environment"
 msgstr "Prostredie"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Error"
 msgstr "Chyba"
 
@@ -184,7 +184,7 @@ msgstr "Chyba"
 msgid "Error message"
 msgstr "Chybová správa"
 
-#: src/ContainerDetails.jsx:12 src/util.js:9
+#: src/ContainerDetails.jsx:11 src/util.js:10
 msgid "Exited"
 msgstr "Skončený"
 
@@ -277,11 +277,11 @@ msgstr "Vynútiť zastavenie"
 msgid "Format"
 msgstr "Formát"
 
-#: src/ContainerDetails.jsx:45
+#: src/ContainerDetails.jsx:44
 msgid "Gateway"
 msgstr ""
 
-#: src/Images.jsx:191
+#: src/Images.jsx:192
 msgid "Get new image"
 msgstr "Získať nové obrazy"
 
@@ -289,7 +289,7 @@ msgstr "Získať nové obrazy"
 msgid "GiB"
 msgstr "GiB"
 
-#: src/Images.jsx:235
+#: src/Images.jsx:236
 msgid "Hide intermediate images"
 msgstr ""
 
@@ -301,15 +301,15 @@ msgstr "Cesta na hostiteľovi"
 msgid "Host port"
 msgstr "Port na hostiteľovi"
 
-#: src/ContainerDetails.jsx:29 src/ImageDetails.jsx:18
+#: src/ContainerDetails.jsx:28 src/ImageDetails.jsx:16
 msgid "ID"
 msgstr "ID"
 
-#: src/ContainerDetails.jsx:41
+#: src/ContainerDetails.jsx:40
 msgid "IP Address"
 msgstr "IP adresa"
 
-#: src/ContainerDetails.jsx:43
+#: src/ContainerDetails.jsx:42
 msgid "IP Prefix Length"
 msgstr ""
 
@@ -321,7 +321,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ContainerDetails.jsx:33 src/ImageRunModal.jsx:333
+#: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:333
 msgid "Image"
 msgstr "Obraz"
 
@@ -329,7 +329,7 @@ msgstr "Obraz"
 msgid "Image Name"
 msgstr "Názov obrazu"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:251
 msgid "Images"
 msgstr "Obrazy"
 
@@ -363,7 +363,7 @@ msgstr "Načítanie..."
 msgid "Logs"
 msgstr ""
 
-#: src/ContainerDetails.jsx:47
+#: src/ContainerDetails.jsx:46
 msgid "MAC Address"
 msgstr ""
 
@@ -387,7 +387,7 @@ msgstr "MiB"
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:180
+#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:181
 msgid "Name"
 msgstr "Názov"
 
@@ -413,11 +413,11 @@ msgstr "Tento obraz nepoužívajú žiadne kontajnery"
 msgid "No containers that match the current filter"
 msgstr ""
 
-#: src/Images.jsx:181
+#: src/Images.jsx:182
 msgid "No images"
 msgstr "Žiadne obrazy"
 
-#: src/Images.jsx:185
+#: src/Images.jsx:186
 msgid "No images that match the current filter"
 msgstr ""
 
@@ -438,7 +438,7 @@ msgid "Only running"
 msgstr ""
 
 #: src/ContainerHeader.jsx:38 src/Containers.jsx:326
-#: src/ImageSearchModal.jsx:128 src/Images.jsx:180
+#: src/ImageSearchModal.jsx:128 src/Images.jsx:181
 msgid "Owner"
 msgstr "Vlastník"
 
@@ -450,7 +450,7 @@ msgstr "Pozastaviť"
 msgid "Pause the container"
 msgstr "Pozastaviť kontajner"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Paused"
 msgstr "Pozastavený"
 
@@ -480,7 +480,7 @@ msgstr "Podman kontajnery"
 msgid "Podman Service is Not Active"
 msgstr "Služba Podman nie je aktívna"
 
-#: src/ContainerDetails.jsx:39 src/ImageDetails.jsx:30
+#: src/ContainerDetails.jsx:38 src/ImageDetails.jsx:28
 #: src/ImageRunModal.jsx:420
 msgid "Ports"
 msgstr "Porty"
@@ -489,7 +489,7 @@ msgstr "Porty"
 msgid "Private"
 msgstr ""
 
-#: src/Images.jsx:277
+#: src/Images.jsx:278
 msgid "Pulling"
 msgstr "Sťahuje sa"
 
@@ -543,7 +543,7 @@ msgstr "Spustiť obraz"
 msgid "Run image"
 msgstr "Spustiť obraz"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Running"
 msgstr ""
 
@@ -573,11 +573,11 @@ msgstr "Zdielaný"
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:235
+#: src/Images.jsx:236
 msgid "Show intermediate images"
 msgstr ""
 
-#: src/Images.jsx:180
+#: src/Images.jsx:181
 msgid "Size"
 msgstr "Veľkosť"
 
@@ -590,7 +590,7 @@ msgstr "Spustiť"
 msgid "Start podman"
 msgstr "Spustiť podman"
 
-#: src/ContainerDetails.jsx:37 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
+#: src/ContainerDetails.jsx:36 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
 msgid "State"
 msgstr "Stav"
 
@@ -598,7 +598,7 @@ msgstr "Stav"
 msgid "Stop"
 msgstr "Zastaviť"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Stopped"
 msgstr "Zastavený"
 
@@ -622,7 +622,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Tag"
 
-#: src/ImageDetails.jsx:20
+#: src/ImageDetails.jsx:18
 msgid "Tags"
 msgstr "Tagy"
 
@@ -638,11 +638,11 @@ msgstr ""
 msgid "UDP"
 msgstr "UDP"
 
-#: src/ContainerDetails.jsx:10
+#: src/ContainerDetails.jsx:9
 msgid "Up since $0"
 msgstr "Aktívny od $0"
 
-#: src/Images.jsx:144
+#: src/Images.jsx:145
 msgid "Used By"
 msgstr "Využívaný s"
 
@@ -666,7 +666,7 @@ msgstr "Zväzky"
 msgid "With terminal"
 msgstr "S terminálom"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "configured"
 msgstr ""
 
@@ -674,11 +674,11 @@ msgstr ""
 msgid "container"
 msgstr "kontajner"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "created"
 msgstr "vytvorený"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "exited"
 msgstr "skončený"
 
@@ -700,7 +700,7 @@ msgstr "Nedostupné"
 msgid "not available"
 msgstr "nedostupné"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "paused"
 msgstr "pozastavený"
 
@@ -712,11 +712,11 @@ msgstr ""
 msgid "podman"
 msgstr "podman"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "removing"
 msgstr ""
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "running"
 msgstr ""
 
@@ -724,11 +724,11 @@ msgstr ""
 msgid "select all"
 msgstr ""
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "stopped"
 msgstr ""
 
-#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:134
+#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
 msgid "system"
 msgstr "systém"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 09:27+0000\n"
+"POT-Creation-Date: 2020-08-21 14:57+0000\n"
 "PO-Revision-Date: 2020-05-06 10:40+0000\n"
 "Last-Translator: Álvaro Castillo <sincorchetes@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "An error occured"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:28
+#: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:26
 msgid "Author"
 msgstr "Autor"
 
@@ -75,8 +75,8 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr "Falló hacer el commit en el contenedor $0"
 
-#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:35
-#: src/ImageDetails.jsx:24 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
+#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:34
+#: src/ImageDetails.jsx:22 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
 #: src/ImageUsedBy.jsx:36
 msgid "Command"
 msgstr "Comando"
@@ -133,8 +133,8 @@ msgstr "Puerto del contenedor"
 msgid "Containers"
 msgstr "Contenedores"
 
-#: src/ContainerDetails.jsx:31 src/ImageDetails.jsx:26 src/Images.jsx:180
-#: src/util.js:9
+#: src/ContainerDetails.jsx:30 src/ImageDetails.jsx:24 src/Images.jsx:181
+#: src/util.js:10
 msgid "Created"
 msgstr "Creado"
 
@@ -147,7 +147,7 @@ msgstr "Eliminar"
 msgid "Delete $0"
 msgstr "Eliminar $0"
 
-#: src/Containers.jsx:181 src/Images.jsx:157
+#: src/Containers.jsx:181 src/Images.jsx:158
 #, fuzzy
 #| msgid "Get new image"
 msgid "Delete image"
@@ -167,7 +167,7 @@ msgstr "Eliminando un contenedor se borrará toda la información que hay en él
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/Containers.jsx:163 src/Images.jsx:139
+#: src/Containers.jsx:163 src/Images.jsx:140
 msgid "Details"
 msgstr "Detalles"
 
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Download"
 msgstr "Descarga"
 
-#: src/ImageDetails.jsx:22
+#: src/ImageDetails.jsx:20
 msgid "Entrypoint"
 msgstr "Punto de entrada"
 
@@ -187,7 +187,7 @@ msgstr "Punto de entrada"
 msgid "Environment"
 msgstr "Entorno"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Error"
 msgstr ""
 
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Error message"
 msgstr "Mensaje de error"
 
-#: src/ContainerDetails.jsx:12 src/util.js:9
+#: src/ContainerDetails.jsx:11 src/util.js:10
 msgid "Exited"
 msgstr "Cerrado"
 
@@ -302,11 +302,11 @@ msgstr "Forzar la parada"
 msgid "Format"
 msgstr "Formato"
 
-#: src/ContainerDetails.jsx:45
+#: src/ContainerDetails.jsx:44
 msgid "Gateway"
 msgstr ""
 
-#: src/Images.jsx:191
+#: src/Images.jsx:192
 msgid "Get new image"
 msgstr "Obtener nueva imagen"
 
@@ -314,7 +314,7 @@ msgstr "Obtener nueva imagen"
 msgid "GiB"
 msgstr "GiB"
 
-#: src/Images.jsx:235
+#: src/Images.jsx:236
 msgid "Hide intermediate images"
 msgstr ""
 
@@ -326,15 +326,15 @@ msgstr "Ruta del anfitrión"
 msgid "Host port"
 msgstr "Puerto del anfitrión"
 
-#: src/ContainerDetails.jsx:29 src/ImageDetails.jsx:18
+#: src/ContainerDetails.jsx:28 src/ImageDetails.jsx:16
 msgid "ID"
 msgstr "ID"
 
-#: src/ContainerDetails.jsx:41
+#: src/ContainerDetails.jsx:40
 msgid "IP Address"
 msgstr ""
 
-#: src/ContainerDetails.jsx:43
+#: src/ContainerDetails.jsx:42
 msgid "IP Prefix Length"
 msgstr ""
 
@@ -346,7 +346,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ContainerDetails.jsx:33 src/ImageRunModal.jsx:333
+#: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:333
 msgid "Image"
 msgstr "Imagen"
 
@@ -354,7 +354,7 @@ msgstr "Imagen"
 msgid "Image Name"
 msgstr "Nombre de la imagen"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:251
 msgid "Images"
 msgstr "Imágenes"
 
@@ -386,7 +386,7 @@ msgstr "Cargando..."
 msgid "Logs"
 msgstr "Registros"
 
-#: src/ContainerDetails.jsx:47
+#: src/ContainerDetails.jsx:46
 msgid "MAC Address"
 msgstr ""
 
@@ -410,7 +410,7 @@ msgstr "MiB"
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:180
+#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:181
 msgid "Name"
 msgstr "Nombre"
 
@@ -436,11 +436,11 @@ msgstr "No hay contenedores que utilicen esta imagen"
 msgid "No containers that match the current filter"
 msgstr "No hay contenedores relacionados con los criterios de búsqueda"
 
-#: src/Images.jsx:181
+#: src/Images.jsx:182
 msgid "No images"
 msgstr "No hay imágenes"
 
-#: src/Images.jsx:185
+#: src/Images.jsx:186
 msgid "No images that match the current filter"
 msgstr "No hay imágenes relacionadas con el criterio de búsqueda"
 
@@ -462,7 +462,7 @@ msgid "Only running"
 msgstr ""
 
 #: src/ContainerHeader.jsx:38 src/Containers.jsx:326
-#: src/ImageSearchModal.jsx:128 src/Images.jsx:180
+#: src/ImageSearchModal.jsx:128 src/Images.jsx:181
 msgid "Owner"
 msgstr "Propietario"
 
@@ -474,7 +474,7 @@ msgstr "Pausar"
 msgid "Pause the container"
 msgstr "Pausar el contenedor"
 
-#: src/util.js:9
+#: src/util.js:10
 #, fuzzy
 #| msgid "Pause"
 msgid "Paused"
@@ -508,7 +508,7 @@ msgstr "Contenedores de Podman"
 msgid "Podman Service is Not Active"
 msgstr "El servicio de Podman no está activo"
 
-#: src/ContainerDetails.jsx:39 src/ImageDetails.jsx:30
+#: src/ContainerDetails.jsx:38 src/ImageDetails.jsx:28
 #: src/ImageRunModal.jsx:420
 msgid "Ports"
 msgstr "Puertos"
@@ -517,7 +517,7 @@ msgstr "Puertos"
 msgid "Private"
 msgstr ""
 
-#: src/Images.jsx:277
+#: src/Images.jsx:278
 msgid "Pulling"
 msgstr "Obteniendo"
 
@@ -577,7 +577,7 @@ msgstr "Ejecutar una imagen"
 msgid "Run image"
 msgstr "Ejecutar una imagen"
 
-#: src/util.js:9
+#: src/util.js:10
 msgid "Running"
 msgstr ""
 
@@ -611,11 +611,11 @@ msgstr "CPU compartida"
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:235
+#: src/Images.jsx:236
 msgid "Show intermediate images"
 msgstr ""
 
-#: src/Images.jsx:180
+#: src/Images.jsx:181
 msgid "Size"
 msgstr "Tamaño"
 
@@ -628,7 +628,7 @@ msgstr "Iniciar"
 msgid "Start podman"
 msgstr "Iniciar podman"
 
-#: src/ContainerDetails.jsx:37 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
+#: src/ContainerDetails.jsx:36 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
 msgid "State"
 msgstr "Estado"
 
@@ -636,7 +636,7 @@ msgstr "Estado"
 msgid "Stop"
 msgstr "Parar"
 
-#: src/util.js:9
+#: src/util.js:10
 #, fuzzy
 #| msgid "Stop"
 msgid "Stopped"
@@ -662,7 +662,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Etiqueta"
 
-#: src/ImageDetails.jsx:20
+#: src/ImageDetails.jsx:18
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -678,11 +678,11 @@ msgstr "Escriba para establecer un criterio de búsqueda…"
 msgid "UDP"
 msgstr "UDP"
 
-#: src/ContainerDetails.jsx:10
+#: src/ContainerDetails.jsx:9
 msgid "Up since $0"
 msgstr "Levantado desde $0"
 
-#: src/Images.jsx:144
+#: src/Images.jsx:145
 msgid "Used By"
 msgstr "Usado por"
 
@@ -706,7 +706,7 @@ msgstr "Volúmenes"
 msgid "With terminal"
 msgstr "Con terminal"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "configured"
 msgstr ""
 
@@ -714,13 +714,13 @@ msgstr ""
 msgid "container"
 msgstr "contenedor"
 
-#: src/util.js:6
+#: src/util.js:7
 #, fuzzy
 #| msgid "Created"
 msgid "created"
 msgstr "Creado"
 
-#: src/util.js:6
+#: src/util.js:7
 #, fuzzy
 #| msgid "Exited"
 msgid "exited"
@@ -744,7 +744,7 @@ msgstr "sin/aplicar"
 msgid "not available"
 msgstr "no disponible"
 
-#: src/util.js:6
+#: src/util.js:7
 #, fuzzy
 #| msgid "Pause"
 msgid "paused"
@@ -758,11 +758,11 @@ msgstr ""
 msgid "podman"
 msgstr "podman"
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "removing"
 msgstr ""
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "running"
 msgstr ""
 
@@ -770,11 +770,11 @@ msgstr ""
 msgid "select all"
 msgstr ""
 
-#: src/util.js:6
+#: src/util.js:7
 msgid "stopped"
 msgstr ""
 
-#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:134
+#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
 msgid "system"
 msgstr "sistema"
 
