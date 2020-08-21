@@ -4,15 +4,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Timothée Ravier <tim@siosm.fr>, 2020.
+# Sébastien Pascal-Poher <spoher@pm.me>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 09:27+0000\n"
-"PO-Revision-Date: 2020-08-17 23:29+0000\n"
-"Last-Translator: Timothée Ravier <tim@siosm.fr>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/fr/>\n"
+"PO-Revision-Date: 2020-08-21 17:29+0000\n"
+"Last-Translator: Sébastien Pascal-Poher <spoher@pm.me>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,10 +26,8 @@ msgid "Add item"
 msgstr "Ajouter un élément"
 
 #: src/ContainerCommitModal.jsx:138
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Add on build variable"
-msgstr "Définir le conteneur sur les variables de construction"
+msgstr "Ajouter une variable de construction"
 
 #: src/ContainerHeader.jsx:42 src/Containers.jsx:440
 msgid "All"
@@ -68,13 +67,11 @@ msgstr "Annuler"
 
 #: src/ContainerCheckpointModal.jsx:51 src/Containers.jsx:220
 msgid "Checkpoint"
-msgstr ""
+msgstr "Point de contrôle"
 
 #: src/ContainerCheckpointModal.jsx:30
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Checkpoint container $0"
-msgstr "Échec de la validation du conteneur $0"
+msgstr "Point de contrôle du conteneur $0"
 
 #: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:35
 #: src/ImageDetails.jsx:24 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
@@ -195,10 +192,8 @@ msgid "Exited"
 msgstr "Quittés"
 
 #: src/Containers.jsx:261
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Failed to checkpoint container $0"
-msgstr "Échec de la validation du conteneur $0"
+msgstr "Échec de la création du point de contrôle du conteneur $0"
 
 #: src/ContainerCommitModal.jsx:110
 msgid "Failed to commit container $0"
@@ -339,7 +334,7 @@ msgstr "Images"
 
 #: src/ContainerCheckpointModal.jsx:35 src/ContainerRestoreModal.jsx:38
 msgid "Keep all temporary checkpoint files"
-msgstr ""
+msgstr "Conserver tous les fichiers de points de contrôle temporaires"
 
 #: src/ImageRunModal.jsx:86
 msgid "Key"
@@ -351,7 +346,7 @@ msgstr "Kio"
 
 #: src/ContainerCheckpointModal.jsx:37
 msgid "Leave running after writing checkpoint to disk"
-msgstr ""
+msgstr "Conserver actif après la création du point de contrôle sur le disque"
 
 #: src/ContainerLogs.jsx:51
 msgid "Loading logs..."
@@ -388,6 +383,8 @@ msgstr "Mio"
 #: src/ImageDeleteModal.jsx:59
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
+"Plusieurs tags existent pour cette image. Sélectionnez les images marquées à "
+"supprimer."
 
 #: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:180
 msgid "Name"
@@ -435,7 +432,7 @@ msgstr "En construction"
 
 #: src/Containers.jsx:439
 msgid "Only running"
-msgstr ""
+msgstr "En cours d’exécution seulement"
 
 #: src/ContainerHeader.jsx:38 src/Containers.jsx:326
 #: src/ImageSearchModal.jsx:128 src/Images.jsx:180
@@ -504,34 +501,28 @@ msgid "Remove item"
 msgstr "Supprimer l'élément"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Remove on build variable"
-msgstr "Définir le conteneur sur les variables de construction"
+msgstr "Supprimer la variable de construction"
 
 #: src/Containers.jsx:213 src/PodActions.jsx:84
 msgid "Restart"
 msgstr "Redémarrer"
 
 #: src/ContainerRestoreModal.jsx:54 src/Containers.jsx:200
-#, fuzzy
-#| msgid "Restart"
 msgid "Restore"
-msgstr "Redémarrer"
+msgstr "Restaurer"
 
 #: src/ContainerRestoreModal.jsx:32
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Restore container $0"
-msgstr "Échec de la suppression du conteneur $0"
+msgstr "Restaurer le conteneur $0"
 
 #: src/ContainerRestoreModal.jsx:40
 msgid "Restore with established TCP connections"
-msgstr ""
+msgstr "Restaurer avec les connexions TCP établies"
 
 #: src/PodActions.jsx:114
 msgid "Resume"
-msgstr ""
+msgstr "Reprendre"
 
 #: src/ImageRunModal.jsx:457
 msgid "Run"
@@ -554,10 +545,8 @@ msgid "Search by name or description"
 msgstr "Rechercher par nom ou description"
 
 #: src/ImageSearchModal.jsx:145
-#, fuzzy
-#| msgid "Search Image"
 msgid "Search for"
-msgstr "Chercher image"
+msgstr "Rechercher"
 
 #: src/ImageSearchModal.jsx:203
 msgid "Search for an image"
@@ -568,10 +557,8 @@ msgid "Set container on build variables"
 msgstr "Définir le conteneur sur les variables de construction"
 
 #: src/ImageRunModal.jsx:141
-#, fuzzy
-#| msgid "CPU Shares"
 msgid "Shared"
-msgstr "Parts de CPU"
+msgstr "Partagé"
 
 #: src/Containers.jsx:437
 msgid "Show"
@@ -608,7 +595,7 @@ msgstr "Arrêté"
 
 #: src/ContainerCheckpointModal.jsx:40
 msgid "Support preserving established TCP connections"
-msgstr ""
+msgstr "Prendre en charge le maintien des connexions TCP établies"
 
 #: src/ContainerHeader.jsx:41
 msgid "System"
@@ -683,8 +670,6 @@ msgid "created"
 msgstr "créé"
 
 #: src/util.js:6
-#, fuzzy
-#| msgid "Exited"
 msgid "exited"
 msgstr "Quittés"
 
@@ -694,7 +679,7 @@ msgstr "image"
 
 #: src/ImageSearchModal.jsx:154
 msgid "in"
-msgstr ""
+msgstr "dans"
 
 #: src/Containers.jsx:142 src/Containers.jsx:143 src/ImageUsedBy.jsx:14
 #: src/ImageUsedBy.jsx:15
@@ -707,28 +692,24 @@ msgid "not available"
 msgstr "non disponible"
 
 #: src/util.js:6
-#, fuzzy
-#| msgid "Pause"
 msgid "paused"
-msgstr "Pause"
+msgstr "Mis en pause"
 
 #: src/Containers.jsx:487
 msgid "pod group"
-msgstr ""
+msgstr "groupe de pod"
 
 #: src/manifest.json
-#, fuzzy
-#| msgid "Start podman"
 msgid "podman"
-msgstr "Démarrer podman"
+msgstr "podman"
 
 #: src/util.js:6
 msgid "removing"
-msgstr ""
+msgstr "en cours de suppression"
 
 #: src/util.js:6
 msgid "running"
-msgstr ""
+msgstr "en cours d'exécution"
 
 #: src/ImageDeleteModal.jsx:70
 msgid "select all"
