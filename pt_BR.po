@@ -5,13 +5,14 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2020.
 # Adolfo Ketzer <reztek@gmail.com>, 2020.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2020.
+# Daniel Lara Souza <daniellarasouza@yahoo.com.br>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 14:57+0000\n"
-"PO-Revision-Date: 2020-08-04 14:59+0000\n"
-"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"PO-Revision-Date: 2020-08-25 16:29+0000\n"
+"Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,29 +20,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:156
 msgid "Add item"
-msgstr ""
+msgstr "Adicionar Item"
 
 #: src/ContainerCommitModal.jsx:138
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Add on build variable"
-msgstr "Definir contêiner nas variáveis de construção"
+msgstr "Adicionar variável de construção"
 
 #: src/ContainerHeader.jsx:42 src/Containers.jsx:440
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: src/ImageSearchModal.jsx:164
 msgid "All registries"
-msgstr ""
+msgstr "Todos os registros"
 
 #: src/PodActions.jsx:161
 msgid "An error occured"
-msgstr ""
+msgstr "Um erro ocorreu"
 
 #: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:26
 msgid "Author"
