@@ -3,35 +3,34 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pany <geekpany@gmail.com>, 2020.
+# Harry Chen <harrychen0314@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 14:57+0000\n"
-"PO-Revision-Date: 2020-01-07 10:25+0000\n"
-"Last-Translator: Pany <geekpany@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://translate.stg.fedoraproject.org/"
+"PO-Revision-Date: 2020-09-02 22:29+0000\n"
+"Last-Translator: Harry Chen <harrychen0314@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/master/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:156
 msgid "Add item"
-msgstr ""
+msgstr "添加项目"
 
 #: src/ContainerCommitModal.jsx:138
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Add on build variable"
-msgstr "设置容器构建时的变量"
+msgstr "添加构建变量"
 
 #: src/ContainerHeader.jsx:42 src/Containers.jsx:440
 msgid "All"
-msgstr ""
+msgstr "所有"
 
 #: src/ImageSearchModal.jsx:164
 msgid "All registries"
@@ -39,7 +38,7 @@ msgstr ""
 
 #: src/PodActions.jsx:161
 msgid "An error occured"
-msgstr ""
+msgstr "发生了一个错误"
 
 #: src/ContainerCommitModal.jsx:185 src/ImageDetails.jsx:26
 msgid "Author"
@@ -67,7 +66,7 @@ msgstr "取消"
 
 #: src/ContainerCheckpointModal.jsx:51 src/Containers.jsx:220
 msgid "Checkpoint"
-msgstr ""
+msgstr "检查点"
 
 #: src/ContainerCheckpointModal.jsx:30
 #, fuzzy
@@ -108,10 +107,8 @@ msgid "Container failed to be created"
 msgstr "容器创建失败"
 
 #: src/ImageRunModal.jsx:309
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container failed to be started"
-msgstr "容器创建失败"
+msgstr "容器启动失败"
 
 #: src/ContainerRemoveErrorModal.jsx:17
 msgid "Container is currently running."
@@ -148,16 +145,12 @@ msgid "Delete $0"
 msgstr "删除 $0"
 
 #: src/Containers.jsx:181 src/Images.jsx:158
-#, fuzzy
-#| msgid "Get new image"
 msgid "Delete image"
-msgstr "获取新镜像"
+msgstr "删除镜像"
 
 #: src/ImageDeleteModal.jsx:75
-#, fuzzy
-#| msgid "Get new image"
 msgid "Delete tagged images"
-msgstr "获取新镜像"
+msgstr "删除标记的镜像"
 
 #: src/ContainerDeleteModal.jsx:15
 msgid "Deleting a container will erase all data in it."
@@ -165,7 +158,7 @@ msgstr "删除容器会清空其中的全部数据。"
 
 #: src/PodActions.jsx:162
 msgid "Deleting this pod will remove the following containers:"
-msgstr ""
+msgstr "删除这个 Pod 将会移除这些容器："
 
 #: src/Containers.jsx:163 src/Images.jsx:140
 msgid "Details"
@@ -173,7 +166,7 @@ msgstr "详情"
 
 #: src/ContainerCheckpointModal.jsx:43
 msgid "Do not include root file-system changes when exporting"
-msgstr ""
+msgstr "导出时不包含 root 文件系统更改"
 
 #: src/ImageSearchModal.jsx:220
 msgid "Download"
@@ -189,7 +182,7 @@ msgstr "环境"
 
 #: src/util.js:10
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: src/Images.jsx:61 src/Notification.jsx:30
 msgid "Error message"
@@ -218,16 +211,12 @@ msgid "Failed to force remove container $0"
 msgstr "强制移除容器 $0 失败"
 
 #: src/PodActions.jsx:69
-#, fuzzy
-#| msgid "Failed to force remove container $0"
 msgid "Failed to force stop pod $0"
-msgstr "强制移除容器 $0 失败"
+msgstr "强制停止 Pod $0 失败"
 
 #: src/PodActions.jsx:125
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to pause pod $0"
-msgstr "重启容器 $0 失败"
+msgstr "暂停 Pod $0 失败"
 
 #: src/Containers.jsx:251
 msgid "Failed to remove container $0"
@@ -250,16 +239,12 @@ msgid "Failed to restore container $0"
 msgstr "重启容器 $0 失败"
 
 #: src/PodActions.jsx:110
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to resume pod $0"
-msgstr "移除容器 $0 失败"
+msgstr "恢复 Pod $0 失败"
 
 #: src/ImageSearchModal.jsx:98
-#, fuzzy
-#| msgid "Failed to search for new images"
 msgid "Failed to search for images: $0"
-msgstr "搜索新镜像失败"
+msgstr "搜索镜像 $0 失败"
 
 #: src/ImageSearchModal.jsx:97
 msgid "Failed to search for new images"
@@ -270,20 +255,16 @@ msgid "Failed to start container $0"
 msgstr "启动容器 $0 失败"
 
 #: src/PodActions.jsx:95
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to start pod $0"
-msgstr "启动容器 $0 失败"
+msgstr "启动 Pod $0 失败"
 
 #: src/Containers.jsx:102
 msgid "Failed to stop container $0"
 msgstr "停止容器 $0 失败"
 
 #: src/PodActions.jsx:58
-#, fuzzy
-#| msgid "Failed to stop container $0"
 msgid "Failed to stop pod $0"
-msgstr "停止容器 $0 失败"
+msgstr "停止 Pod $0 失败"
 
 #: src/ContainerRemoveErrorModal.jsx:22 src/ImageRemoveErrorModal.jsx:19
 #: src/PodActions.jsx:170
@@ -304,7 +285,7 @@ msgstr "格式"
 
 #: src/ContainerDetails.jsx:44
 msgid "Gateway"
-msgstr ""
+msgstr "网关"
 
 #: src/Images.jsx:192
 msgid "Get new image"
@@ -316,7 +297,7 @@ msgstr "GiB"
 
 #: src/Images.jsx:236
 msgid "Hide intermediate images"
-msgstr ""
+msgstr "隐藏中间镜像"
 
 #: src/ImageRunModal.jsx:114
 msgid "Host path"
@@ -332,11 +313,11 @@ msgstr "ID"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP Address"
-msgstr ""
+msgstr "IP 地址"
 
 #: src/ContainerDetails.jsx:42
 msgid "IP Prefix Length"
-msgstr ""
+msgstr "IP 前缀长度"
 
 #: src/ContainerRestoreModal.jsx:43
 msgid "Ignore IP address if set statically"
@@ -344,7 +325,7 @@ msgstr ""
 
 #: src/ContainerRestoreModal.jsx:46
 msgid "Ignore MAC address if set statically"
-msgstr ""
+msgstr "忽略被静态设定的 MAC 地址"
 
 #: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:333
 msgid "Image"
@@ -360,7 +341,7 @@ msgstr "镜像"
 
 #: src/ContainerCheckpointModal.jsx:35 src/ContainerRestoreModal.jsx:38
 msgid "Keep all temporary checkpoint files"
-msgstr ""
+msgstr "保留所有临时检查点文件"
 
 #: src/ImageRunModal.jsx:86
 msgid "Key"
@@ -386,11 +367,11 @@ msgstr "加载中……"
 
 #: src/Containers.jsx:167
 msgid "Logs"
-msgstr ""
+msgstr "日志"
 
 #: src/ContainerDetails.jsx:46
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC 地址"
 
 #: src/Containers.jsx:326 src/ImageUsedBy.jsx:36
 msgid "Memory"
@@ -418,7 +399,7 @@ msgstr "名称"
 
 #: src/ImageRunModal.jsx:138
 msgid "No SELinux label"
-msgstr ""
+msgstr "无 SELinux 标签"
 
 #: src/Containers.jsx:330
 msgid "No containers"
@@ -460,7 +441,7 @@ msgstr "构建时"
 
 #: src/Containers.jsx:439
 msgid "Only running"
-msgstr ""
+msgstr "仅运行"
 
 #: src/ContainerHeader.jsx:38 src/Containers.jsx:326
 #: src/ImageSearchModal.jsx:128 src/Images.jsx:181
@@ -516,7 +497,7 @@ msgstr "端口"
 
 #: src/ImageRunModal.jsx:144
 msgid "Private"
-msgstr ""
+msgstr "私有"
 
 #: src/Images.jsx:278
 msgid "Pulling"
@@ -532,7 +513,7 @@ msgstr "读写"
 
 #: src/ImageRunModal.jsx:68 src/ImageRunModal.jsx:98 src/ImageRunModal.jsx:152
 msgid "Remove item"
-msgstr ""
+msgstr "删除项目"
 
 #: src/ContainerCommitModal.jsx:133
 #, fuzzy
@@ -562,7 +543,7 @@ msgstr ""
 
 #: src/PodActions.jsx:114
 msgid "Resume"
-msgstr ""
+msgstr "继续"
 
 #: src/ImageRunModal.jsx:457
 msgid "Run"
@@ -580,7 +561,7 @@ msgstr "运行镜像"
 
 #: src/util.js:10
 msgid "Running"
-msgstr ""
+msgstr "正在运行"
 
 #: src/ImageSearchModal.jsx:150
 msgid "Search by name or description"
@@ -610,11 +591,11 @@ msgstr "CPU 份额"
 
 #: src/Containers.jsx:437
 msgid "Show"
-msgstr ""
+msgstr "显示"
 
 #: src/Images.jsx:236
 msgid "Show intermediate images"
-msgstr ""
+msgstr "显示中间镜像"
 
 #: src/Images.jsx:181
 msgid "Size"
@@ -689,7 +670,7 @@ msgstr "使用者"
 
 #: src/ContainerHeader.jsx:40
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: src/app.jsx:602
 msgid "User Podman service is also available"
@@ -709,7 +690,7 @@ msgstr "分配伪终端"
 
 #: src/util.js:7
 msgid "configured"
-msgstr ""
+msgstr "已配置"
 
 #: src/manifest.json
 #, fuzzy
@@ -757,7 +738,7 @@ msgstr "暂停"
 
 #: src/Containers.jsx:487
 msgid "pod group"
-msgstr ""
+msgstr "Pod 组"
 
 #: src/manifest.json
 #, fuzzy
@@ -767,19 +748,19 @@ msgstr "启动 podman"
 
 #: src/util.js:7
 msgid "removing"
-msgstr ""
+msgstr "正在删除"
 
 #: src/util.js:7
 msgid "running"
-msgstr ""
+msgstr "正在运行"
 
 #: src/ImageDeleteModal.jsx:70
 msgid "select all"
-msgstr ""
+msgstr "全选"
 
 #: src/util.js:7
 msgid "stopped"
-msgstr ""
+msgstr "已停止"
 
 #: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
 msgid "system"
