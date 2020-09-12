@@ -53,7 +53,7 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/ImageRunModal.jsx:393
-msgid "CPU Shares"
+msgid "CPU shares"
 msgstr "CPU delar"
 
 #: src/ContainerCheckpointModal.jsx:54 src/ContainerCommitModal.jsx:228
@@ -85,7 +85,7 @@ msgid "Commit"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:220
-msgid "Commit Image"
+msgid "Commit image"
 msgstr ""
 
 #: src/Containers.jsx:171
@@ -97,7 +97,7 @@ msgid "Container"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:147 src/ImageRunModal.jsx:342
-msgid "Container Name"
+msgid "Container name"
 msgstr ""
 
 #: src/ImageRunModal.jsx:316
@@ -280,15 +280,15 @@ msgstr "Kunde inte tillskriva container $0"
 
 #: src/ContainerRemoveErrorModal.jsx:22 src/ImageRemoveErrorModal.jsx:19
 #: src/PodActions.jsx:170
-msgid "Force Delete"
+msgid "Force delete"
 msgstr ""
 
 #: src/Containers.jsx:214
-msgid "Force Restart"
+msgid "Force restart"
 msgstr ""
 
 #: src/Containers.jsx:218 src/PodActions.jsx:73
-msgid "Force Stop"
+msgid "Force stop"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:154
@@ -324,11 +324,11 @@ msgid "ID"
 msgstr ""
 
 #: src/ContainerDetails.jsx:40
-msgid "IP Address"
+msgid "IP address"
 msgstr ""
 
 #: src/ContainerDetails.jsx:42
-msgid "IP Prefix Length"
+msgid "IP prefix length"
 msgstr ""
 
 #: src/ContainerRestoreModal.jsx:43
@@ -344,7 +344,7 @@ msgid "Image"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:175
-msgid "Image Name"
+msgid "Image name"
 msgstr ""
 
 #: src/Images.jsx:251
@@ -380,7 +380,7 @@ msgid "Logs"
 msgstr ""
 
 #: src/ContainerDetails.jsx:46
-msgid "MAC Address"
+msgid "MAC address"
 msgstr ""
 
 #: src/Containers.jsx:326 src/ImageUsedBy.jsx:36
@@ -388,7 +388,7 @@ msgid "Memory"
 msgstr ""
 
 #: src/ImageRunModal.jsx:359
-msgid "Memory Limit"
+msgid "Memory limit"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:190
@@ -444,7 +444,7 @@ msgid "No running containers"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:208
-msgid "On Build"
+msgid "On build"
 msgstr ""
 
 #: src/Containers.jsx:439
@@ -485,11 +485,11 @@ msgid "Please confirm forced deletion of $0"
 msgstr ""
 
 #: src/index.html:20 src/manifest.json:0
-msgid "Podman Containers"
+msgid "Podman containers"
 msgstr ""
 
 #: src/app.jsx:548
-msgid "Podman Service is Not Active"
+msgid "Podman service is not active"
 msgstr ""
 
 #: src/ContainerDetails.jsx:38 src/ImageDetails.jsx:28
@@ -548,7 +548,7 @@ msgid "Run"
 msgstr ""
 
 #: src/ImageRunModal.jsx:449
-msgid "Run Image"
+msgid "Run image"
 msgstr ""
 
 #: src/Images.jsx:124
@@ -577,7 +577,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:141
 #, fuzzy
-#| msgid "CPU Shares"
+#| msgid "CPU shares"
 msgid "Shared"
 msgstr "CPU delar"
 
@@ -655,7 +655,7 @@ msgid "Up since $0"
 msgstr ""
 
 #: src/Images.jsx:145
-msgid "Used By"
+msgid "Used by"
 msgstr ""
 
 #: src/ContainerHeader.jsx:40
