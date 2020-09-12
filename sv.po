@@ -547,11 +547,7 @@ msgstr ""
 msgid "Run"
 msgstr ""
 
-#: src/ImageRunModal.jsx:449
-msgid "Run image"
-msgstr ""
-
-#: src/Images.jsx:124
+#: src/ImageRunModal.jsx:449 src/Images.jsx:124
 msgid "Run image"
 msgstr ""
 
