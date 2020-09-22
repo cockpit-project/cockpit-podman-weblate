@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-15 08:12+0000\n"
+"POT-Creation-Date: 2020-09-22 09:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/app.jsx:555
+#: src/app.jsx:581
 msgid "Automatically start podman on boot"
 msgstr ""
 
@@ -296,7 +296,7 @@ msgstr ""
 msgid "GiB"
 msgstr ""
 
-#: src/Images.jsx:236
+#: src/Images.jsx:237
 msgid "Hide intermediate images"
 msgstr ""
 
@@ -336,7 +336,7 @@ msgstr ""
 msgid "Image name"
 msgstr ""
 
-#: src/Images.jsx:251
+#: src/Images.jsx:252
 msgid "Images"
 msgstr ""
 
@@ -477,7 +477,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:548
+#: src/app.jsx:574
 msgid "Podman service is not active"
 msgstr ""
 
@@ -490,7 +490,7 @@ msgstr ""
 msgid "Private"
 msgstr ""
 
-#: src/Images.jsx:278
+#: src/Images.jsx:279
 msgid "Pulling"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:236
+#: src/Images.jsx:237
 msgid "Show intermediate images"
 msgstr ""
 
@@ -575,11 +575,11 @@ msgid "Size"
 msgstr ""
 
 #: src/Containers.jsx:199 src/Containers.jsx:205 src/PodActions.jsx:99
-#: src/app.jsx:592
+#: src/app.jsx:618
 msgid "Start"
 msgstr ""
 
-#: src/app.jsx:560
+#: src/app.jsx:586
 msgid "Start podman"
 msgstr ""
 
@@ -603,7 +603,7 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: src/app.jsx:597
+#: src/app.jsx:623
 msgid "System Podman service is also available"
 msgstr ""
 
@@ -619,7 +619,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: src/app.jsx:564
+#: src/app.jsx:590
 msgid "Troubleshoot"
 msgstr ""
 
@@ -639,11 +639,11 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/ContainerHeader.jsx:40
+#: src/app.jsx:66 src/app.jsx:503
 msgid "User"
 msgstr ""
 
-#: src/app.jsx:602
+#: src/app.jsx:628
 msgid "User Podman service is also available"
 msgstr ""
 
@@ -723,8 +723,4 @@ msgstr ""
 
 #: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
 msgid "system"
-msgstr ""
-
-#: src/app.jsx:614 src/app.jsx:630
-msgid "user"
 msgstr ""
