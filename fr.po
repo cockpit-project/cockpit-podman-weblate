@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-12 15:08+0200\n"
-"PO-Revision-Date: 2020-08-21 17:29+0000\n"
-"Last-Translator: Sébastien Pascal-Poher <spoher@pm.me>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/fr/>\n"
+"PO-Revision-Date: 2020-09-25 06:29+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
-"X-Generator: Weblate 4.1.1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:156
 msgid "Add item"
@@ -529,13 +529,8 @@ msgid "Run"
 msgstr "Exécuter"
 
 #: src/ImageRunModal.jsx:449 src/Images.jsx:124
-#, fuzzy
 msgid "Run image"
-msgstr ""
-"#-#-#-#-#  fr.po (PACKAGE_VERSION)  #-#-#-#-#\n"
-"Exécuter image\n"
-"#-#-#-#-#  fr.po (PACKAGE_VERSION)  #-#-#-#-#\n"
-"Exécuter l'image"
+msgstr "Exécuter l'image"
 
 #: src/util.js:10
 msgid "Running"
