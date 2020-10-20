@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 10:11+0000\n"
+"POT-Creation-Date: 2020-10-20 08:44+0000\n"
 "PO-Revision-Date: 2020-08-10 14:29+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -28,7 +28,7 @@ msgstr "Додати запис"
 msgid "Add on build variable"
 msgstr "Додати змінну збирання"
 
-#: src/ContainerHeader.jsx:42 src/Containers.jsx:440
+#: src/Containers.jsx:440 src/ContainerHeader.jsx:42
 msgid "All"
 msgstr "Усі"
 
@@ -44,7 +44,7 @@ msgstr "Сталася помилка"
 msgid "Author"
 msgstr "Автор"
 
-#: src/app.jsx:581
+#: src/app.jsx:582
 msgid "Automatically start podman on boot"
 msgstr "Автоматично запускати podman під час завантаження"
 
@@ -56,11 +56,11 @@ msgstr "Процесор"
 msgid "CPU shares"
 msgstr "Спільне використання процесора"
 
-#: src/ContainerCheckpointModal.jsx:54 src/ContainerCommitModal.jsx:228
-#: src/ContainerDeleteModal.jsx:19 src/ContainerRemoveErrorModal.jsx:23
-#: src/ContainerRestoreModal.jsx:57 src/ImageDeleteModal.jsx:77
-#: src/ImageRemoveErrorModal.jsx:20 src/ImageRunModal.jsx:460
-#: src/ImageSearchModal.jsx:223 src/PodActions.jsx:171
+#: src/ImageDeleteModal.jsx:77 src/ImageSearchModal.jsx:223
+#: src/ContainerCheckpointModal.jsx:54 src/PodActions.jsx:171
+#: src/ContainerRemoveErrorModal.jsx:23 src/ContainerCommitModal.jsx:228
+#: src/ImageRunModal.jsx:460 src/ImageRemoveErrorModal.jsx:20
+#: src/ContainerDeleteModal.jsx:19 src/ContainerRestoreModal.jsx:57
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -72,13 +72,13 @@ msgstr "Контрольна точка"
 msgid "Checkpoint container $0"
 msgstr "Контрольна точка контейнера $0"
 
-#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:34
-#: src/ImageDetails.jsx:22 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
-#: src/ImageUsedBy.jsx:36
+#: src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:34
+#: src/ContainerCommitModal.jsx:195 src/ImageDetails.jsx:22
+#: src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
 msgid "Command"
 msgstr "Команда"
 
-#: src/ContainerCommitModal.jsx:227 src/Containers.jsx:193
+#: src/Containers.jsx:193 src/ContainerCommitModal.jsx:227
 msgid "Commit"
 msgstr "Надіслати"
 
@@ -131,8 +131,8 @@ msgstr "Контейнери"
 msgid "Created"
 msgstr "Створено"
 
-#: src/ContainerDeleteModal.jsx:18 src/PodActions.jsx:139
-#: src/PodActions.jsx:170
+#: src/PodActions.jsx:139 src/PodActions.jsx:170
+#: src/ContainerDeleteModal.jsx:18
 msgid "Delete"
 msgstr "Вилучити"
 
@@ -182,7 +182,7 @@ msgstr "Середовище"
 msgid "Error"
 msgstr "Помилка"
 
-#: src/Images.jsx:61 src/Notification.jsx:30
+#: src/Notification.jsx:30 src/Images.jsx:61
 msgid "Error message"
 msgstr "Повідомлення про помилку"
 
@@ -258,8 +258,8 @@ msgstr "Не вдалося зупинити роботу контейнера $
 msgid "Failed to stop pod $0"
 msgstr "Не вдалося зупинити кокон $0"
 
-#: src/ContainerRemoveErrorModal.jsx:22 src/ImageRemoveErrorModal.jsx:19
-#: src/PodActions.jsx:170
+#: src/PodActions.jsx:170 src/ContainerRemoveErrorModal.jsx:22
+#: src/ImageRemoveErrorModal.jsx:19
 msgid "Force delete"
 msgstr "Примусове вилучення"
 
@@ -385,7 +385,7 @@ msgstr ""
 "Для цього образу існує декілька міток. Виберіть позначені міткою образи для "
 "вилучення."
 
-#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:181
+#: src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:338 src/Images.jsx:181
 msgid "Name"
 msgstr "Назва"
 
@@ -435,12 +435,12 @@ msgstr "При збиранні"
 msgid "Only running"
 msgstr "Лише запущені"
 
-#: src/ContainerHeader.jsx:38 src/Containers.jsx:326
-#: src/ImageSearchModal.jsx:128 src/Images.jsx:181
+#: src/ImageSearchModal.jsx:128 src/Containers.jsx:326 src/Images.jsx:181
+#: src/ContainerHeader.jsx:38
 msgid "Owner"
 msgstr "Власник"
 
-#: src/ContainerCommitModal.jsx:200 src/PodActions.jsx:129
+#: src/PodActions.jsx:129 src/ContainerCommitModal.jsx:200
 msgid "Pause"
 msgstr "Призупинити"
 
@@ -472,7 +472,7 @@ msgstr "Будь ласка, підтвердьте примусове вилу�
 msgid "Podman containers"
 msgstr "Контейнери Podman"
 
-#: src/app.jsx:574
+#: src/app.jsx:575
 msgid "Podman service is not active"
 msgstr "Служба Podman є неактивною"
 
@@ -509,7 +509,7 @@ msgstr "Встановити змінну збирання"
 msgid "Restart"
 msgstr "Перезапустити"
 
-#: src/ContainerRestoreModal.jsx:54 src/Containers.jsx:200
+#: src/Containers.jsx:200 src/ContainerRestoreModal.jsx:54
 msgid "Restore"
 msgstr "Відновити"
 
@@ -569,16 +569,16 @@ msgstr "Показати проміжні образи"
 msgid "Size"
 msgstr "Розмір"
 
-#: src/Containers.jsx:199 src/Containers.jsx:205 src/PodActions.jsx:99
-#: src/app.jsx:618
+#: src/app.jsx:619 src/Containers.jsx:199 src/Containers.jsx:205
+#: src/PodActions.jsx:99
 msgid "Start"
 msgstr "Запустити"
 
-#: src/app.jsx:586
+#: src/app.jsx:587
 msgid "Start podman"
 msgstr "Запустити podman"
 
-#: src/ContainerDetails.jsx:36 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
+#: src/Containers.jsx:326 src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:36
 msgid "State"
 msgstr "Стан"
 
@@ -598,7 +598,7 @@ msgstr "Підтримка збереження встановлених з'єд
 msgid "System"
 msgstr "Система"
 
-#: src/app.jsx:623
+#: src/app.jsx:624
 msgid "System Podman service is also available"
 msgstr "Також доступна загальносистемна служба Podman"
 
@@ -606,7 +606,7 @@ msgstr "Також доступна загальносистемна служб�
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ContainerCommitModal.jsx:180 src/ImageSearchModal.jsx:211
+#: src/ImageSearchModal.jsx:211 src/ContainerCommitModal.jsx:180
 msgid "Tag"
 msgstr "Мітка"
 
@@ -614,7 +614,7 @@ msgstr "Мітка"
 msgid "Tags"
 msgstr "Мітки"
 
-#: src/app.jsx:590
+#: src/app.jsx:591
 msgid "Troubleshoot"
 msgstr "Діагностика проблем"
 
@@ -634,11 +634,11 @@ msgstr "Працює з $0"
 msgid "Used by"
 msgstr "Використовується"
 
-#: src/app.jsx:66 src/app.jsx:503
+#: src/app.jsx:66 src/app.jsx:504
 msgid "User"
 msgstr "Користувач"
 
-#: src/app.jsx:628
+#: src/app.jsx:629
 msgid "User Podman service is also available"
 msgstr "Також доступна служба користувачів Podman"
 
@@ -716,7 +716,7 @@ msgstr "вибрати все"
 msgid "stopped"
 msgstr "зупинився"
 
-#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
+#: src/ImageSearchModal.jsx:133 src/Containers.jsx:156 src/Images.jsx:135
 msgid "system"
 msgstr "система"
 

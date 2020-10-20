@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 10:11+0000\n"
+"POT-Creation-Date: 2020-10-20 08:44+0000\n"
 "PO-Revision-Date: 2020-09-25 06:29+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
@@ -29,7 +29,7 @@ msgstr "Ajouter un élément"
 msgid "Add on build variable"
 msgstr "Ajouter une variable de construction"
 
-#: src/ContainerHeader.jsx:42 src/Containers.jsx:440
+#: src/Containers.jsx:440 src/ContainerHeader.jsx:42
 msgid "All"
 msgstr "Tous"
 
@@ -45,7 +45,7 @@ msgstr "Une erreur s'est produite"
 msgid "Author"
 msgstr "Auteur"
 
-#: src/app.jsx:581
+#: src/app.jsx:582
 msgid "Automatically start podman on boot"
 msgstr "Démarrer automatiquement podman au démarrage"
 
@@ -57,11 +57,11 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "Parts de CPU"
 
-#: src/ContainerCheckpointModal.jsx:54 src/ContainerCommitModal.jsx:228
-#: src/ContainerDeleteModal.jsx:19 src/ContainerRemoveErrorModal.jsx:23
-#: src/ContainerRestoreModal.jsx:57 src/ImageDeleteModal.jsx:77
-#: src/ImageRemoveErrorModal.jsx:20 src/ImageRunModal.jsx:460
-#: src/ImageSearchModal.jsx:223 src/PodActions.jsx:171
+#: src/ImageDeleteModal.jsx:77 src/ImageSearchModal.jsx:223
+#: src/ContainerCheckpointModal.jsx:54 src/PodActions.jsx:171
+#: src/ContainerRemoveErrorModal.jsx:23 src/ContainerCommitModal.jsx:228
+#: src/ImageRunModal.jsx:460 src/ImageRemoveErrorModal.jsx:20
+#: src/ContainerDeleteModal.jsx:19 src/ContainerRestoreModal.jsx:57
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -73,13 +73,13 @@ msgstr "Point de contrôle"
 msgid "Checkpoint container $0"
 msgstr "Point de contrôle du conteneur $0"
 
-#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:34
-#: src/ImageDetails.jsx:22 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
-#: src/ImageUsedBy.jsx:36
+#: src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:34
+#: src/ContainerCommitModal.jsx:195 src/ImageDetails.jsx:22
+#: src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
 msgid "Command"
 msgstr "Commande"
 
-#: src/ContainerCommitModal.jsx:227 src/Containers.jsx:193
+#: src/Containers.jsx:193 src/ContainerCommitModal.jsx:227
 msgid "Commit"
 msgstr "Valider"
 
@@ -132,8 +132,8 @@ msgstr "Conteneurs"
 msgid "Created"
 msgstr "Créé"
 
-#: src/ContainerDeleteModal.jsx:18 src/PodActions.jsx:139
-#: src/PodActions.jsx:170
+#: src/PodActions.jsx:139 src/PodActions.jsx:170
+#: src/ContainerDeleteModal.jsx:18
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -183,7 +183,7 @@ msgstr "Environnement"
 msgid "Error"
 msgstr "Erreur"
 
-#: src/Images.jsx:61 src/Notification.jsx:30
+#: src/Notification.jsx:30 src/Images.jsx:61
 msgid "Error message"
 msgstr "Message d’erreur"
 
@@ -259,8 +259,8 @@ msgstr "Échec de l’arrêt du conteneur $0"
 msgid "Failed to stop pod $0"
 msgstr "Échec de l’arrêt du pod $0"
 
-#: src/ContainerRemoveErrorModal.jsx:22 src/ImageRemoveErrorModal.jsx:19
-#: src/PodActions.jsx:170
+#: src/PodActions.jsx:170 src/ContainerRemoveErrorModal.jsx:22
+#: src/ImageRemoveErrorModal.jsx:19
 msgid "Force delete"
 msgstr "Suppression forcée"
 
@@ -386,7 +386,7 @@ msgstr ""
 "Plusieurs tags existent pour cette image. Sélectionnez les images marquées à "
 "supprimer."
 
-#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:181
+#: src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:338 src/Images.jsx:181
 msgid "Name"
 msgstr "Nom"
 
@@ -434,12 +434,12 @@ msgstr "En construction"
 msgid "Only running"
 msgstr "En cours d’exécution seulement"
 
-#: src/ContainerHeader.jsx:38 src/Containers.jsx:326
-#: src/ImageSearchModal.jsx:128 src/Images.jsx:181
+#: src/ImageSearchModal.jsx:128 src/Containers.jsx:326 src/Images.jsx:181
+#: src/ContainerHeader.jsx:38
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: src/ContainerCommitModal.jsx:200 src/PodActions.jsx:129
+#: src/PodActions.jsx:129 src/ContainerCommitModal.jsx:200
 msgid "Pause"
 msgstr "Pause"
 
@@ -471,7 +471,7 @@ msgstr "Veuillez confirmer la suppression forcée de $0"
 msgid "Podman containers"
 msgstr "Conteneurs Podman"
 
-#: src/app.jsx:574
+#: src/app.jsx:575
 msgid "Podman service is not active"
 msgstr "Le service Podman n’est pas actif"
 
@@ -508,7 +508,7 @@ msgstr "Supprimer la variable de construction"
 msgid "Restart"
 msgstr "Redémarrer"
 
-#: src/ContainerRestoreModal.jsx:54 src/Containers.jsx:200
+#: src/Containers.jsx:200 src/ContainerRestoreModal.jsx:54
 msgid "Restore"
 msgstr "Restaurer"
 
@@ -568,16 +568,16 @@ msgstr "Afficher les images intermédiaires"
 msgid "Size"
 msgstr "Taille"
 
-#: src/Containers.jsx:199 src/Containers.jsx:205 src/PodActions.jsx:99
-#: src/app.jsx:618
+#: src/app.jsx:619 src/Containers.jsx:199 src/Containers.jsx:205
+#: src/PodActions.jsx:99
 msgid "Start"
 msgstr "Démarrer"
 
-#: src/app.jsx:586
+#: src/app.jsx:587
 msgid "Start podman"
 msgstr "Démarrer podman"
 
-#: src/ContainerDetails.jsx:36 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
+#: src/Containers.jsx:326 src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:36
 msgid "State"
 msgstr "État"
 
@@ -597,7 +597,7 @@ msgstr "Prendre en charge le maintien des connexions TCP établies"
 msgid "System"
 msgstr "Système"
 
-#: src/app.jsx:623
+#: src/app.jsx:624
 msgid "System Podman service is also available"
 msgstr "Le service Podman est également disponible"
 
@@ -605,7 +605,7 @@ msgstr "Le service Podman est également disponible"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ContainerCommitModal.jsx:180 src/ImageSearchModal.jsx:211
+#: src/ImageSearchModal.jsx:211 src/ContainerCommitModal.jsx:180
 msgid "Tag"
 msgstr "Tag"
 
@@ -613,7 +613,7 @@ msgstr "Tag"
 msgid "Tags"
 msgstr "Étiquettes"
 
-#: src/app.jsx:590
+#: src/app.jsx:591
 msgid "Troubleshoot"
 msgstr "Dépannage"
 
@@ -633,11 +633,11 @@ msgstr "En cours d’exécution depuis $0"
 msgid "Used by"
 msgstr "Utilisé par"
 
-#: src/app.jsx:66 src/app.jsx:503
+#: src/app.jsx:66 src/app.jsx:504
 msgid "User"
 msgstr "Utilisateur"
 
-#: src/app.jsx:628
+#: src/app.jsx:629
 msgid "User Podman service is also available"
 msgstr "Le service utilisateur Podman est également disponible"
 
@@ -715,7 +715,7 @@ msgstr "tout sélectionner"
 msgid "stopped"
 msgstr "arrêté"
 
-#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
+#: src/ImageSearchModal.jsx:133 src/Containers.jsx:156 src/Images.jsx:135
 msgid "system"
 msgstr "système"
 

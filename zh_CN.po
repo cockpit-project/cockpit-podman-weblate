@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 10:11+0000\n"
+"POT-Creation-Date: 2020-10-20 08:44+0000\n"
 "PO-Revision-Date: 2020-09-02 22:29+0000\n"
 "Last-Translator: Harry Chen <harrychen0314@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -28,7 +28,7 @@ msgstr "添加项目"
 msgid "Add on build variable"
 msgstr "添加构建变量"
 
-#: src/ContainerHeader.jsx:42 src/Containers.jsx:440
+#: src/Containers.jsx:440 src/ContainerHeader.jsx:42
 msgid "All"
 msgstr "所有"
 
@@ -44,7 +44,7 @@ msgstr "发生了一个错误"
 msgid "Author"
 msgstr "作者"
 
-#: src/app.jsx:581
+#: src/app.jsx:582
 msgid "Automatically start podman on boot"
 msgstr "开机自动启动 podman"
 
@@ -56,11 +56,11 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "CPU 份额"
 
-#: src/ContainerCheckpointModal.jsx:54 src/ContainerCommitModal.jsx:228
-#: src/ContainerDeleteModal.jsx:19 src/ContainerRemoveErrorModal.jsx:23
-#: src/ContainerRestoreModal.jsx:57 src/ImageDeleteModal.jsx:77
-#: src/ImageRemoveErrorModal.jsx:20 src/ImageRunModal.jsx:460
-#: src/ImageSearchModal.jsx:223 src/PodActions.jsx:171
+#: src/ImageDeleteModal.jsx:77 src/ImageSearchModal.jsx:223
+#: src/ContainerCheckpointModal.jsx:54 src/PodActions.jsx:171
+#: src/ContainerRemoveErrorModal.jsx:23 src/ContainerCommitModal.jsx:228
+#: src/ImageRunModal.jsx:460 src/ImageRemoveErrorModal.jsx:20
+#: src/ContainerDeleteModal.jsx:19 src/ContainerRestoreModal.jsx:57
 msgid "Cancel"
 msgstr "取消"
 
@@ -74,13 +74,13 @@ msgstr "检查点"
 msgid "Checkpoint container $0"
 msgstr "提交容器 $0 失败"
 
-#: src/ContainerCommitModal.jsx:195 src/ContainerDetails.jsx:34
-#: src/ImageDetails.jsx:22 src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
-#: src/ImageUsedBy.jsx:36
+#: src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:34
+#: src/ContainerCommitModal.jsx:195 src/ImageDetails.jsx:22
+#: src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:353
 msgid "Command"
 msgstr "命令"
 
-#: src/ContainerCommitModal.jsx:227 src/Containers.jsx:193
+#: src/Containers.jsx:193 src/ContainerCommitModal.jsx:227
 msgid "Commit"
 msgstr "提交"
 
@@ -135,8 +135,8 @@ msgstr "容器"
 msgid "Created"
 msgstr "已创建"
 
-#: src/ContainerDeleteModal.jsx:18 src/PodActions.jsx:139
-#: src/PodActions.jsx:170
+#: src/PodActions.jsx:139 src/PodActions.jsx:170
+#: src/ContainerDeleteModal.jsx:18
 msgid "Delete"
 msgstr "删除"
 
@@ -184,7 +184,7 @@ msgstr "环境"
 msgid "Error"
 msgstr "错误"
 
-#: src/Images.jsx:61 src/Notification.jsx:30
+#: src/Notification.jsx:30 src/Images.jsx:61
 msgid "Error message"
 msgstr "错误信息"
 
@@ -266,8 +266,8 @@ msgstr "停止容器 $0 失败"
 msgid "Failed to stop pod $0"
 msgstr "停止 Pod $0 失败"
 
-#: src/ContainerRemoveErrorModal.jsx:22 src/ImageRemoveErrorModal.jsx:19
-#: src/PodActions.jsx:170
+#: src/PodActions.jsx:170 src/ContainerRemoveErrorModal.jsx:22
+#: src/ImageRemoveErrorModal.jsx:19
 msgid "Force delete"
 msgstr "强制删除"
 
@@ -393,7 +393,7 @@ msgstr "MiB"
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageRunModal.jsx:338 src/ImageUsedBy.jsx:36 src/Images.jsx:181
+#: src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:338 src/Images.jsx:181
 msgid "Name"
 msgstr "名称"
 
@@ -443,12 +443,12 @@ msgstr "构建时"
 msgid "Only running"
 msgstr "仅运行"
 
-#: src/ContainerHeader.jsx:38 src/Containers.jsx:326
-#: src/ImageSearchModal.jsx:128 src/Images.jsx:181
+#: src/ImageSearchModal.jsx:128 src/Containers.jsx:326 src/Images.jsx:181
+#: src/ContainerHeader.jsx:38
 msgid "Owner"
 msgstr "所有者"
 
-#: src/ContainerCommitModal.jsx:200 src/PodActions.jsx:129
+#: src/PodActions.jsx:129 src/ContainerCommitModal.jsx:200
 msgid "Pause"
 msgstr "暂停"
 
@@ -486,7 +486,7 @@ msgstr "请确认是否强制删除 $0"
 msgid "Podman containers"
 msgstr "Podman 容器"
 
-#: src/app.jsx:574
+#: src/app.jsx:575
 msgid "Podman service is not active"
 msgstr "Podman 服务未激活"
 
@@ -525,7 +525,7 @@ msgstr "设置容器构建时的变量"
 msgid "Restart"
 msgstr "重启"
 
-#: src/ContainerRestoreModal.jsx:54 src/Containers.jsx:200
+#: src/Containers.jsx:200 src/ContainerRestoreModal.jsx:54
 #, fuzzy
 #| msgid "Restart"
 msgid "Restore"
@@ -595,16 +595,16 @@ msgstr "显示中间镜像"
 msgid "Size"
 msgstr "大小"
 
-#: src/Containers.jsx:199 src/Containers.jsx:205 src/PodActions.jsx:99
-#: src/app.jsx:618
+#: src/app.jsx:619 src/Containers.jsx:199 src/Containers.jsx:205
+#: src/PodActions.jsx:99
 msgid "Start"
 msgstr "启动"
 
-#: src/app.jsx:586
+#: src/app.jsx:587
 msgid "Start podman"
 msgstr "启动 podman"
 
-#: src/ContainerDetails.jsx:36 src/Containers.jsx:326 src/ImageUsedBy.jsx:36
+#: src/Containers.jsx:326 src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:36
 msgid "State"
 msgstr "状态"
 
@@ -626,7 +626,7 @@ msgstr ""
 msgid "System"
 msgstr "系统"
 
-#: src/app.jsx:623
+#: src/app.jsx:624
 msgid "System Podman service is also available"
 msgstr "系统 Podman 服务同样可用"
 
@@ -634,7 +634,7 @@ msgstr "系统 Podman 服务同样可用"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ContainerCommitModal.jsx:180 src/ImageSearchModal.jsx:211
+#: src/ImageSearchModal.jsx:211 src/ContainerCommitModal.jsx:180
 msgid "Tag"
 msgstr "标签"
 
@@ -642,7 +642,7 @@ msgstr "标签"
 msgid "Tags"
 msgstr "标签"
 
-#: src/app.jsx:590
+#: src/app.jsx:591
 msgid "Troubleshoot"
 msgstr "故障排除"
 
@@ -662,11 +662,11 @@ msgstr "自 $0 开始运行"
 msgid "Used by"
 msgstr "使用者"
 
-#: src/app.jsx:66 src/app.jsx:503
+#: src/app.jsx:66 src/app.jsx:504
 msgid "User"
 msgstr "用户"
 
-#: src/app.jsx:628
+#: src/app.jsx:629
 msgid "User Podman service is also available"
 msgstr "用户 Podman 服务同样可用"
 
@@ -756,7 +756,7 @@ msgstr "全选"
 msgid "stopped"
 msgstr "已停止"
 
-#: src/Containers.jsx:156 src/ImageSearchModal.jsx:133 src/Images.jsx:135
+#: src/ImageSearchModal.jsx:133 src/Containers.jsx:156 src/Images.jsx:135
 msgid "system"
 msgstr "系统"
 
