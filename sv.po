@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-20 08:44+0000\n"
-"PO-Revision-Date: 2020-10-16 20:30+0000\n"
+"PO-Revision-Date: 2020-10-26 11:15+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:156
 msgid "Add item"
@@ -103,7 +103,6 @@ msgid "Container failed to be started"
 msgstr "Behållaren misslyckades att startas"
 
 #: src/ContainerRemoveErrorModal.jsx:17
-#, fuzzy
 msgid "Container is currently running."
 msgstr "Behållaren kör för närvarande."
 
@@ -112,7 +111,6 @@ msgid "Container is not running"
 msgstr "Behållaren kör inte"
 
 #: src/ContainerCommitModal.jsx:147 src/ImageRunModal.jsx:342
-#, fuzzy
 msgid "Container name"
 msgstr "Behållarnamn"
 
@@ -179,7 +177,6 @@ msgid "Environment"
 msgstr "Miljö"
 
 #: src/util.js:10
-#, fuzzy
 msgid "Error"
 msgstr "Fel"
 
@@ -241,326 +238,320 @@ msgstr "Misslyckades att söka efter avbilder: $0"
 
 #: src/ImageSearchModal.jsx:97
 msgid "Failed to search for new images"
-msgstr ""
+msgstr "Misslyckades att söka efter nya avbilder"
 
 #: src/Containers.jsx:110
 msgid "Failed to start container $0"
-msgstr ""
+msgstr "Misslyckades att starta behållaren $0"
 
 #: src/PodActions.jsx:95
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Failed to start pod $0"
-msgstr "Kunde inte tillskriva container $0"
+msgstr "Misslyckades att starta kapseln $0"
 
 #: src/Containers.jsx:102
 msgid "Failed to stop container $0"
-msgstr ""
+msgstr "Misslyckades att stoppa behållaren $0"
 
 #: src/PodActions.jsx:58
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Failed to stop pod $0"
-msgstr "Kunde inte tillskriva container $0"
+msgstr "Misslyckades att stoppa kapseln $0"
 
 #: src/PodActions.jsx:170 src/ContainerRemoveErrorModal.jsx:22
 #: src/ImageRemoveErrorModal.jsx:19
 msgid "Force delete"
-msgstr ""
+msgstr "Framtvinga borttagande"
 
 #: src/Containers.jsx:214
 msgid "Force restart"
-msgstr ""
+msgstr "Framtvinga omstart"
 
 #: src/Containers.jsx:218 src/PodActions.jsx:73
 msgid "Force stop"
-msgstr ""
+msgstr "Framtvinga stopp"
 
 #: src/ContainerCommitModal.jsx:154
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: src/ContainerDetails.jsx:44
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #: src/Images.jsx:192
 msgid "Get new image"
-msgstr ""
+msgstr "Hämta ny avbild"
 
 #: src/ImageRunModal.jsx:385
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: src/Images.jsx:237
 msgid "Hide intermediate images"
-msgstr ""
+msgstr "Dölj mellanliggande avbilder"
 
 #: src/ImageRunModal.jsx:114
 msgid "Host path"
-msgstr ""
+msgstr "Värdsökväg"
 
 #: src/ImageRunModal.jsx:51
 msgid "Host port"
-msgstr ""
+msgstr "Värdport"
 
 #: src/ContainerDetails.jsx:28 src/ImageDetails.jsx:16
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP address"
-msgstr ""
+msgstr "IP-adress"
 
 #: src/ContainerDetails.jsx:42
 msgid "IP prefix length"
-msgstr ""
+msgstr "IP-prefixlängd"
 
 #: src/ContainerRestoreModal.jsx:43
 msgid "Ignore IP address if set statically"
-msgstr ""
+msgstr "Ignorera IP-adressen om den är statiskt satt"
 
 #: src/ContainerRestoreModal.jsx:46
 msgid "Ignore MAC address if set statically"
-msgstr ""
+msgstr "Ignorera MAC-adressen om den är statiskt satt"
 
 #: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:333
 msgid "Image"
-msgstr ""
+msgstr "Avbild"
 
 #: src/ContainerCommitModal.jsx:175
 msgid "Image name"
-msgstr ""
+msgstr "Avbildsnamn"
 
 #: src/Images.jsx:252
 msgid "Images"
-msgstr ""
+msgstr "Avbilder"
 
 #: src/ContainerCheckpointModal.jsx:35 src/ContainerRestoreModal.jsx:38
 msgid "Keep all temporary checkpoint files"
-msgstr ""
+msgstr "Behåll alla temporära checkpunktsfiler"
 
 #: src/ImageRunModal.jsx:86
 msgid "Key"
-msgstr ""
+msgstr "Nyckel"
 
 #: src/ImageRunModal.jsx:379
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: src/ContainerCheckpointModal.jsx:37
 msgid "Leave running after writing checkpoint to disk"
-msgstr ""
+msgstr "Låt fortsätta köra efter att skriva checkpunkt till disk"
 
 #: src/ContainerLogs.jsx:51
 msgid "Loading logs..."
-msgstr ""
+msgstr "Läser in loggar …"
 
 #: src/Containers.jsx:333 src/ImageUsedBy.jsx:49
 msgid "Loading..."
-msgstr ""
+msgstr "Läser in …"
 
 #: src/Containers.jsx:167
 msgid "Logs"
-msgstr ""
+msgstr "Loggar"
 
 #: src/ContainerDetails.jsx:46
 msgid "MAC address"
-msgstr ""
+msgstr "MAC-adress"
 
 #: src/Containers.jsx:326 src/ImageUsedBy.jsx:36
 msgid "Memory"
-msgstr ""
+msgstr "Minne"
 
 #: src/ImageRunModal.jsx:359
 msgid "Memory limit"
-msgstr ""
+msgstr "Minnesgräns"
 
 #: src/ContainerCommitModal.jsx:190
 msgid "Message"
-msgstr ""
+msgstr "Meddelande"
 
 #: src/ImageRunModal.jsx:382
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: src/ImageDeleteModal.jsx:59
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
+"Flera taggar finns för denna avbild. Välj vilka taggade avbilder som skall "
+"raderas."
 
 #: src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:338 src/Images.jsx:181
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: src/ImageRunModal.jsx:138
 msgid "No SELinux label"
-msgstr ""
+msgstr "Ingen SELinux-etikett"
 
 #: src/Containers.jsx:330
 msgid "No containers"
-msgstr ""
+msgstr "Inga behållare"
 
 #: src/ImageUsedBy.jsx:37
 msgid "No containers are using this image"
-msgstr ""
+msgstr "Inga behållare använder denna avbild"
 
 #: src/Containers.jsx:331
 msgid "No containers in this pod"
-msgstr ""
+msgstr "Inga behållare i denna kapsel"
 
 #: src/Containers.jsx:335
 msgid "No containers that match the current filter"
-msgstr ""
+msgstr "Inga behållare som stämmer med det aktuella filtret"
 
 #: src/Images.jsx:182
 msgid "No images"
-msgstr ""
+msgstr "Inga avbilder"
 
 #: src/Images.jsx:186
 msgid "No images that match the current filter"
-msgstr ""
+msgstr "Inga avbilder som stämmer med det aktuella filtret"
 
 #: src/ImageSearchModal.jsx:180
 msgid "No results for $0. Please retry another term."
-msgstr ""
+msgstr "Inget resultat för $0. Försök igen med en annan term."
 
 #: src/Containers.jsx:337
 msgid "No running containers"
-msgstr ""
+msgstr "Inga körande behållare"
 
 #: src/ContainerCommitModal.jsx:208
 msgid "On build"
-msgstr ""
+msgstr "Vid bygge"
 
 #: src/Containers.jsx:439
 msgid "Only running"
-msgstr ""
+msgstr "Endast körande"
 
 #: src/ImageSearchModal.jsx:128 src/Containers.jsx:326 src/Images.jsx:181
 #: src/ContainerHeader.jsx:38
 msgid "Owner"
-msgstr ""
+msgstr "Ägare"
 
 #: src/PodActions.jsx:129 src/ContainerCommitModal.jsx:200
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
 #: src/ContainerCommitModal.jsx:204
 msgid "Pause the container"
-msgstr ""
+msgstr "Pausa behållaren"
 
 #: src/util.js:10
 msgid "Paused"
-msgstr ""
+msgstr "Pausad"
 
 #: src/ContainerDeleteModal.jsx:12
 msgid "Please confirm deletion of $0"
-msgstr ""
+msgstr "Bekräfta att $0 skall tas bort"
 
 #: src/PodActions.jsx:157
 msgid "Please confirm deletion of pod $0"
-msgstr ""
+msgstr "Bekräfta att kapseln $0 skall tas bort"
 
 #: src/PodActions.jsx:157
 msgid "Please confirm force deletion of pod $0"
-msgstr ""
+msgstr "Bekräfta att kapseln $0 skall raderas tvingande"
 
 #: src/ContainerRemoveErrorModal.jsx:14 src/ImageRemoveErrorModal.jsx:13
 msgid "Please confirm forced deletion of $0"
-msgstr ""
+msgstr "Bekräfta att $0 skall raderas tvingande"
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
-msgstr ""
+msgstr "Podman-behållare"
 
 #: src/app.jsx:575
 msgid "Podman service is not active"
-msgstr ""
+msgstr "Podman-tjänsten är inte aktiv"
 
 #: src/ContainerDetails.jsx:38 src/ImageDetails.jsx:28
 #: src/ImageRunModal.jsx:420
 msgid "Ports"
-msgstr ""
+msgstr "Portar"
 
 #: src/ImageRunModal.jsx:144
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: src/Images.jsx:279
 msgid "Pulling"
-msgstr ""
+msgstr "Hämtar"
 
 #: src/ImageRunModal.jsx:127
 msgid "ReadOnly"
-msgstr ""
+msgstr "LäsEndast"
 
 #: src/ImageRunModal.jsx:130
 msgid "ReadWrite"
-msgstr ""
+msgstr "LäsSkriv"
 
 #: src/ImageRunModal.jsx:68 src/ImageRunModal.jsx:98 src/ImageRunModal.jsx:152
 msgid "Remove item"
-msgstr ""
+msgstr "Ta bort post"
 
 #: src/ContainerCommitModal.jsx:133
 msgid "Remove on build variable"
-msgstr ""
+msgstr "Ta bort byggvariabel"
 
 #: src/Containers.jsx:213 src/PodActions.jsx:84
 msgid "Restart"
-msgstr ""
+msgstr "Starta om"
 
 #: src/Containers.jsx:200 src/ContainerRestoreModal.jsx:54
 msgid "Restore"
-msgstr ""
+msgstr "Återställ"
 
 #: src/ContainerRestoreModal.jsx:32
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Restore container $0"
-msgstr "Kunde inte tillskriva container $0"
+msgstr "Återställ behållaren $0"
 
 #: src/ContainerRestoreModal.jsx:40
 msgid "Restore with established TCP connections"
-msgstr ""
+msgstr "Återställ med etablerade TCP-förbindelser"
 
 #: src/PodActions.jsx:114
 msgid "Resume"
-msgstr ""
+msgstr "Återuppta"
 
 #: src/ImageRunModal.jsx:457
 msgid "Run"
-msgstr ""
+msgstr "Kör"
 
 #: src/ImageRunModal.jsx:449 src/Images.jsx:124
 msgid "Run image"
-msgstr ""
+msgstr "Kör avbild"
 
 #: src/util.js:10
 msgid "Running"
-msgstr ""
+msgstr "Kör"
 
 #: src/ImageSearchModal.jsx:150
 msgid "Search by name or description"
-msgstr ""
+msgstr "Sök efter namn eller beskrivning"
 
 #: src/ImageSearchModal.jsx:145
 msgid "Search for"
-msgstr ""
+msgstr "Sök efter"
 
 #: src/ImageSearchModal.jsx:203
 msgid "Search for an image"
-msgstr ""
+msgstr "Sök efter en avbild"
 
 #: src/ContainerCommitModal.jsx:212
 msgid "Set container on build variables"
-msgstr ""
+msgstr "Sätt behållare på byggvariabler"
 
 #: src/ImageRunModal.jsx:141
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Shared"
-msgstr "CPU delar"
+msgstr "Delad"
 
 #: src/Containers.jsx:437
 msgid "Show"
