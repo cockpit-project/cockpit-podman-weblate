@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-10 18:09+0000\n"
+"POT-Creation-Date: 2020-11-17 18:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,9 +68,9 @@ msgid "CPU shares"
 msgstr ""
 
 #: src/ImageRunModal.jsx:455 src/ImageRemoveErrorModal.jsx:16
-#: src/ContainerRestoreModal.jsx:39 src/ImageSearchModal.jsx:219
-#: src/ImageDeleteModal.jsx:62 src/ContainerCommitModal.jsx:225
-#: src/ContainerCheckpointModal.jsx:37 src/ContainerDeleteModal.jsx:15
+#: src/ContainerRestoreModal.jsx:40 src/ImageSearchModal.jsx:219
+#: src/ImageDeleteModal.jsx:62 src/ContainerCommitModal.jsx:235
+#: src/ContainerCheckpointModal.jsx:38 src/ContainerDeleteModal.jsx:15
 #: src/ContainerRemoveErrorModal.jsx:21 src/PodActions.jsx:159
 msgid "Cancel"
 msgstr ""
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Command"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:224 src/Containers.jsx:193
+#: src/ContainerCommitModal.jsx:229 src/Containers.jsx:193
 msgid "Commit"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: src/ContainerCheckpointModal.jsx:50
+#: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
 msgstr ""
 
@@ -320,11 +320,11 @@ msgstr ""
 msgid "IP prefix length"
 msgstr ""
 
-#: src/ContainerRestoreModal.jsx:49
+#: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
 msgstr ""
 
-#: src/ContainerRestoreModal.jsx:52
+#: src/ContainerRestoreModal.jsx:53
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
@@ -340,7 +340,7 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
-#: src/ContainerRestoreModal.jsx:44 src/ContainerCheckpointModal.jsx:42
+#: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
 msgstr ""
 
@@ -352,7 +352,7 @@ msgstr ""
 msgid "KiB"
 msgstr ""
 
-#: src/ContainerCheckpointModal.jsx:44
+#: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
 msgstr ""
 
@@ -522,7 +522,7 @@ msgstr ""
 msgid "Restore container $0"
 msgstr ""
 
-#: src/ContainerRestoreModal.jsx:46
+#: src/ContainerRestoreModal.jsx:47
 msgid "Restore with established TCP connections"
 msgstr ""
 
@@ -595,7 +595,7 @@ msgstr ""
 msgid "Stopped"
 msgstr ""
 
-#: src/ContainerCheckpointModal.jsx:47
+#: src/ContainerCheckpointModal.jsx:48
 msgid "Support preserving established TCP connections"
 msgstr ""
 
