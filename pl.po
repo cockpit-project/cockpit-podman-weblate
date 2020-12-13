@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-08 18:17+0000\n"
-"PO-Revision-Date: 2020-08-08 10:57+0000\n"
+"PO-Revision-Date: 2020-12-13 18:45+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:101 src/ImageRunModal.jsx:130
 msgid "Add item"
@@ -187,7 +187,7 @@ msgstr "Komunikat o błędzie"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Error occured while connecting console"
-msgstr ""
+msgstr "Wystąpił błąd podczas łączenia konsoli"
 
 #: src/util.js:10 src/ContainerDetails.jsx:11
 msgid "Exited"
@@ -299,10 +299,8 @@ msgid "Host path"
 msgstr "Ścieżka do gospodarza"
 
 #: src/ImageRunModal.jsx:40 src/ImageRunModal.jsx:45
-#, fuzzy
-#| msgid "Host port"
 msgid "Host port (optional)"
-msgstr "Port gospodarza"
+msgstr "Port gospodarza (opcjonalnie)"
 
 #: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
@@ -310,7 +308,7 @@ msgstr "Identyfikator"
 
 #: src/ImageRunModal.jsx:35 src/ImageRunModal.jsx:37
 msgid "IP (optional)"
-msgstr ""
+msgstr "IP (opcjonalnie)"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP address"
@@ -423,10 +421,8 @@ msgid "No images"
 msgstr "Brak obrazów"
 
 #: src/ImageSearchModal.jsx:167
-#, fuzzy
-#| msgid "No images"
 msgid "No images found"
-msgstr "Brak obrazów"
+msgstr "Nie odnaleziono obrazów"
 
 #: src/Images.jsx:186
 msgid "No images that match the current filter"
@@ -434,7 +430,7 @@ msgstr "Żadne obrazy nie pasują do obecnego filtru"
 
 #: src/ImageSearchModal.jsx:171
 msgid "No results for $0"
-msgstr ""
+msgstr "Brak wyników dla zapytania „$0”"
 
 #: src/Containers.jsx:341
 msgid "No running containers"
@@ -478,14 +474,12 @@ msgid "Please confirm forced deletion of $0"
 msgstr "Proszę potwierdzić wymuszenie usunięcia $0"
 
 #: src/ImageSearchModal.jsx:172
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr "Brak wyników dla zapytania „$0”. Proszę spróbować innych słów."
+msgstr "Proszę spróbować innych słów."
 
 #: src/ImageSearchModal.jsx:167
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "Proszę zacząć pisać, aby wyszukać obrazy."
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -569,10 +563,8 @@ msgid "Search for an image"
 msgstr "Znajdź obraz"
 
 #: src/ImageSearchModal.jsx:165
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching..."
-msgstr "Wczytywanie…"
+msgstr "Wyszukiwanie…"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
