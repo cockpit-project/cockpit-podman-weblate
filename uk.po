@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-08 18:17+0000\n"
-"PO-Revision-Date: 2020-08-10 14:29+0000\n"
+"PO-Revision-Date: 2020-12-15 15:35+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:101 src/ImageRunModal.jsx:130
 msgid "Add item"
@@ -188,7 +188,7 @@ msgstr "Повідомлення про помилку"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Error occured while connecting console"
-msgstr ""
+msgstr "Під час спроби встановити з'єднання з консоллю сталася помилка"
 
 #: src/util.js:10 src/ContainerDetails.jsx:11
 msgid "Exited"
@@ -300,10 +300,8 @@ msgid "Host path"
 msgstr "Шлях у основній системі"
 
 #: src/ImageRunModal.jsx:40 src/ImageRunModal.jsx:45
-#, fuzzy
-#| msgid "Host port"
 msgid "Host port (optional)"
-msgstr "Порт основної системи"
+msgstr "Порт основної системи (необов'язковий)"
 
 #: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
@@ -311,7 +309,7 @@ msgstr "Ід."
 
 #: src/ImageRunModal.jsx:35 src/ImageRunModal.jsx:37
 msgid "IP (optional)"
-msgstr ""
+msgstr "IP-адреса (необов'язкова)"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP address"
@@ -424,10 +422,8 @@ msgid "No images"
 msgstr "Немає образів"
 
 #: src/ImageSearchModal.jsx:167
-#, fuzzy
-#| msgid "No images"
 msgid "No images found"
-msgstr "Немає образів"
+msgstr "Образів не знайдено"
 
 #: src/Images.jsx:186
 msgid "No images that match the current filter"
@@ -435,7 +431,7 @@ msgstr "Немає образів, які проходять поточні ум
 
 #: src/ImageSearchModal.jsx:171
 msgid "No results for $0"
-msgstr ""
+msgstr "Немає результатів, що відповідають $0"
 
 #: src/Containers.jsx:341
 msgid "No running containers"
@@ -479,16 +475,12 @@ msgid "Please confirm forced deletion of $0"
 msgstr "Будь ласка, підтвердьте примусове вилучення $0"
 
 #: src/ImageSearchModal.jsx:172
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr ""
-"Нічого не знайдено для $0. Будь ласка, повторіть спробу із іншим ключем "
-"пошуку."
+msgstr "Будь ласка, повторіть спробу із іншим ключем пошуку."
 
 #: src/ImageSearchModal.jsx:167
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "Будь ласка, почніть щось вводити, щоб виконати пошук образів."
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -572,10 +564,8 @@ msgid "Search for an image"
 msgstr "Шукати образ"
 
 #: src/ImageSearchModal.jsx:165
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching..."
-msgstr "Завантаження…"
+msgstr "Пошук…"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
