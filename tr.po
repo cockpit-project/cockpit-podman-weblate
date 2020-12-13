@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-08 18:17+0000\n"
-"PO-Revision-Date: 2020-10-20 09:15+0000\n"
+"PO-Revision-Date: 2020-12-15 15:35+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1-dev\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:101 src/ImageRunModal.jsx:130
 msgid "Add item"
@@ -185,7 +185,7 @@ msgstr "Hata iletisi"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Error occured while connecting console"
-msgstr ""
+msgstr "Konsola bağlanırken hata meydana geldi"
 
 #: src/util.js:10 src/ContainerDetails.jsx:11
 msgid "Exited"
@@ -297,10 +297,8 @@ msgid "Host path"
 msgstr "Anamakine yolu"
 
 #: src/ImageRunModal.jsx:40 src/ImageRunModal.jsx:45
-#, fuzzy
-#| msgid "Host port"
 msgid "Host port (optional)"
-msgstr "Anamakine bağlantı noktası"
+msgstr "Anamakine bağlantı noktası (isteğe bağlı)"
 
 #: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
@@ -308,7 +306,7 @@ msgstr "Kimlik"
 
 #: src/ImageRunModal.jsx:35 src/ImageRunModal.jsx:37
 msgid "IP (optional)"
-msgstr ""
+msgstr "IP (isteğe bağlı)"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP address"
@@ -421,10 +419,8 @@ msgid "No images"
 msgstr "Kalıplar yok"
 
 #: src/ImageSearchModal.jsx:167
-#, fuzzy
-#| msgid "No images"
 msgid "No images found"
-msgstr "Kalıplar yok"
+msgstr "Bulunan kalıplar yok"
 
 #: src/Images.jsx:186
 msgid "No images that match the current filter"
@@ -432,7 +428,7 @@ msgstr "Şu anki süzgeçle eşleşen kalıplar yok"
 
 #: src/ImageSearchModal.jsx:171
 msgid "No results for $0"
-msgstr ""
+msgstr "$0 için sonuçlar yok"
 
 #: src/Containers.jsx:341
 msgid "No running containers"
@@ -476,14 +472,12 @@ msgid "Please confirm forced deletion of $0"
 msgstr "Lütfen $0 için zorla silme işlemini onaylayın"
 
 #: src/ImageSearchModal.jsx:172
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr "$0 için sonuç yok. Lütfen başka bir terim ile tekrar deneyin."
+msgstr "Lütfen başka bir terim ile yeniden deneyin."
 
 #: src/ImageSearchModal.jsx:167
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "Lütfen kalıpları aramak için yazmaya başlayın."
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -567,10 +561,8 @@ msgid "Search for an image"
 msgstr "Kalıp ara"
 
 #: src/ImageSearchModal.jsx:165
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching..."
-msgstr "Yükleniyor..."
+msgstr "Aranıyor..."
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
