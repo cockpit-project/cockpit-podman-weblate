@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-08 18:17+0000\n"
-"PO-Revision-Date: 2020-10-27 20:15+0000\n"
+"PO-Revision-Date: 2020-12-15 15:35+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:101 src/ImageRunModal.jsx:130
 msgid "Add item"
@@ -76,7 +76,7 @@ msgstr "Ta checkpunkt på behållare $0"
 #: src/ImageRunModal.jsx:349 src/ImageRunModal.jsx:351
 #: src/ContainerDetails.jsx:34 src/ImageUsedBy.jsx:36
 msgid "Command"
-msgstr "Kommand"
+msgstr "Kommando"
 
 #: src/ContainerCommitModal.jsx:216 src/Containers.jsx:197
 msgid "Commit"
@@ -186,7 +186,7 @@ msgstr "Felmeddelande"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Error occured while connecting console"
-msgstr ""
+msgstr "Ett fel uppstod vid anslutning till konsolen"
 
 #: src/util.js:10 src/ContainerDetails.jsx:11
 msgid "Exited"
@@ -198,7 +198,7 @@ msgstr "Kunde inte ta checkpunkt av behållare $0"
 
 #: src/ContainerCommitModal.jsx:104
 msgid "Failed to commit container $0"
-msgstr "Kunde inte tillskriva container $0"
+msgstr "Kunde inte fastställa behållaren $0"
 
 #: src/Images.jsx:63
 msgid "Failed to download image $0:$1"
@@ -298,10 +298,8 @@ msgid "Host path"
 msgstr "Värdsökväg"
 
 #: src/ImageRunModal.jsx:40 src/ImageRunModal.jsx:45
-#, fuzzy
-#| msgid "Host port"
 msgid "Host port (optional)"
-msgstr "Värdport"
+msgstr "Värdport (valfri)"
 
 #: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
@@ -309,7 +307,7 @@ msgstr "ID"
 
 #: src/ImageRunModal.jsx:35 src/ImageRunModal.jsx:37
 msgid "IP (optional)"
-msgstr ""
+msgstr "IP (valfri)"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP address"
@@ -341,7 +339,7 @@ msgstr "Avbilder"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
-msgstr "Behåll alla temporära checkpunktsfiler"
+msgstr "Behåll alla tillfälliga checkpunktsfiler"
 
 #: src/ImageRunModal.jsx:81 src/ImageRunModal.jsx:83
 msgid "Key"
@@ -422,10 +420,8 @@ msgid "No images"
 msgstr "Inga avbilder"
 
 #: src/ImageSearchModal.jsx:167
-#, fuzzy
-#| msgid "No images"
 msgid "No images found"
-msgstr "Inga avbilder"
+msgstr "Inga avbilder funna"
 
 #: src/Images.jsx:186
 msgid "No images that match the current filter"
@@ -433,7 +429,7 @@ msgstr "Inga avbilder som stämmer med det aktuella filtret"
 
 #: src/ImageSearchModal.jsx:171
 msgid "No results for $0"
-msgstr ""
+msgstr "Inga resultat för $0"
 
 #: src/Containers.jsx:341
 msgid "No running containers"
@@ -477,14 +473,12 @@ msgid "Please confirm forced deletion of $0"
 msgstr "Bekräfta att $0 skall raderas tvingande"
 
 #: src/ImageSearchModal.jsx:172
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr "Inget resultat för $0. Försök igen med en annan term."
+msgstr "Försök igen med en annan term."
 
 #: src/ImageSearchModal.jsx:167
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "Börja skriva för att leta efter avbilder."
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -568,10 +562,8 @@ msgid "Search for an image"
 msgstr "Sök efter en avbild"
 
 #: src/ImageSearchModal.jsx:165
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching..."
-msgstr "Läser in …"
+msgstr "Söker …"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
