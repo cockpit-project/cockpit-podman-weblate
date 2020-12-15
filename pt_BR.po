@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-08 18:17+0000\n"
+"POT-Creation-Date: 2020-12-15 18:13+0000\n"
 "PO-Revision-Date: 2020-08-25 16:29+0000\n"
 "Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -192,7 +192,7 @@ msgstr "Ambiente"
 msgid "Error"
 msgstr ""
 
-#: src/Images.jsx:65 src/Notification.jsx:30
+#: src/Images.jsx:65 src/Notification.jsx:42
 msgid "Error message"
 msgstr "Mensagem de erro"
 

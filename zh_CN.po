@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-08 18:17+0000\n"
+"POT-Creation-Date: 2020-12-15 18:13+0000\n"
 "PO-Revision-Date: 2020-09-02 22:29+0000\n"
 "Last-Translator: Harry Chen <harrychen0314@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -184,7 +184,7 @@ msgstr "环境"
 msgid "Error"
 msgstr "错误"
 
-#: src/Images.jsx:65 src/Notification.jsx:30
+#: src/Images.jsx:65 src/Notification.jsx:42
 msgid "Error message"
 msgstr "错误信息"
 

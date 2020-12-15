@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-08 18:17+0000\n"
+"POT-Creation-Date: 2020-12-15 18:13+0000\n"
 "PO-Revision-Date: 2020-09-25 06:29+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
@@ -183,7 +183,7 @@ msgstr "Environnement"
 msgid "Error"
 msgstr "Erreur"
 
-#: src/Images.jsx:65 src/Notification.jsx:30
+#: src/Images.jsx:65 src/Notification.jsx:42
 msgid "Error message"
 msgstr "Message d’erreur"
 
