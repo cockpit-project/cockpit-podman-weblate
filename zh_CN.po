@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-15 18:13+0000\n"
-"PO-Revision-Date: 2020-09-02 22:29+0000\n"
-"Last-Translator: Harry Chen <harrychen0314@gmail.com>\n"
+"PO-Revision-Date: 2021-02-19 12:40+0000\n"
+"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/master/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 4.2.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/ImageRunModal.jsx:72 src/ImageRunModal.jsx:101 src/ImageRunModal.jsx:130
 msgid "Add item"
@@ -190,7 +190,7 @@ msgstr "错误信息"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Error occured while connecting console"
-msgstr ""
+msgstr "连接到控制台时出现错误"
 
 #: src/util.js:10 src/ContainerDetails.jsx:11
 msgid "Exited"
