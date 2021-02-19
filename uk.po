@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-16 18:14+0000\n"
-"PO-Revision-Date: 2020-12-15 15:35+0000\n"
+"PO-Revision-Date: 2021-02-20 15:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/ImageRunModal.jsx:70 src/ImageRunModal.jsx:99 src/ImageRunModal.jsx:128
 msgid "Add item"
@@ -211,10 +211,8 @@ msgid "Failed to force remove container $0"
 msgstr "Не вдалося примусово вилучити контейнер $0"
 
 #: src/Images.jsx:118
-#, fuzzy
-#| msgid "Failed to force remove container $0"
 msgid "Failed to force remove image $0"
-msgstr "Не вдалося примусово вилучити контейнер $0"
+msgstr "Не вдалося примусово вилучити образ $0"
 
 #: src/PodActions.jsx:68
 msgid "Failed to force stop pod $0"
@@ -229,10 +227,8 @@ msgid "Failed to remove container $0"
 msgstr "Не вдалося вилучити контейнер $0"
 
 #: src/Images.jsx:103
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to remove image $0"
-msgstr "Не вдалося вилучити контейнер $0"
+msgstr "Не вдалося вилучити образ $0"
 
 #: src/Containers.jsx:126
 msgid "Failed to restart container $0"
