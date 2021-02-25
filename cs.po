@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-16 18:14+0000\n"
-"PO-Revision-Date: 2020-08-08 22:13+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/cs/>\n"
+"PO-Revision-Date: 2021-02-26 21:40+0000\n"
+"Last-Translator: Ondřej Kolín <ondrej.kolin@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Weblate 4.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/ImageRunModal.jsx:70 src/ImageRunModal.jsx:99 src/ImageRunModal.jsx:128
 msgid "Add item"
@@ -182,7 +182,7 @@ msgstr "Chybové hlášení"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Error occured while connecting console"
-msgstr ""
+msgstr "Nastala chyba při připojování ke konzoli"
 
 #: src/util.js:10 src/ContainerDetails.jsx:11
 msgid "Exited"
@@ -205,10 +205,8 @@ msgid "Failed to force remove container $0"
 msgstr "Nepodařilo se vynutit odebrání kontejneru $0"
 
 #: src/Images.jsx:118
-#, fuzzy
-#| msgid "Failed to force remove container $0"
 msgid "Failed to force remove image $0"
-msgstr "Nepodařilo se vynutit odebrání kontejneru $0"
+msgstr "Nepodařilo se vynutit odebrání obrazu $0"
 
 #: src/PodActions.jsx:68
 msgid "Failed to force stop pod $0"
@@ -223,10 +221,8 @@ msgid "Failed to remove container $0"
 msgstr "Nepodařilo se odebrat kontejner $0"
 
 #: src/Images.jsx:103
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to remove image $0"
-msgstr "Nepodařilo se odebrat kontejner $0"
+msgstr "Nepodařilo se odebrat obraz $0"
 
 #: src/Containers.jsx:126
 msgid "Failed to restart container $0"
@@ -305,10 +301,8 @@ msgid "Host path"
 msgstr "Popis umístění hostitele"
 
 #: src/ImageRunModal.jsx:42 src/ImageRunModal.jsx:47
-#, fuzzy
-#| msgid "Host port"
 msgid "Host port (optional)"
-msgstr "Port hostitele"
+msgstr "Port hostitele (volitelně)"
 
 #: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
@@ -316,7 +310,7 @@ msgstr "Identif."
 
 #: src/ImageRunModal.jsx:37 src/ImageRunModal.jsx:39
 msgid "IP (optional)"
-msgstr ""
+msgstr "IP (volitelně)"
 
 #: src/ContainerDetails.jsx:40
 msgid "IP address"
@@ -429,10 +423,8 @@ msgid "No images"
 msgstr "Žádné obrazy"
 
 #: src/ImageSearchModal.jsx:158
-#, fuzzy
-#| msgid "No images"
 msgid "No images found"
-msgstr "Žádné obrazy"
+msgstr "Nebyly nalezeny žádné obrazy"
 
 #: src/Images.jsx:192
 msgid "No images that match the current filter"
@@ -440,7 +432,7 @@ msgstr "Žádné obrazy které by odpovídaly stávajícímu filtru"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
-msgstr ""
+msgstr "Bez výsledků pro $0"
 
 #: src/Containers.jsx:340
 msgid "No running containers"
@@ -484,14 +476,12 @@ msgid "Please confirm forced deletion of $0"
 msgstr "Potvrďte vynucení smazání $0"
 
 #: src/ImageSearchModal.jsx:163
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr "Žádné výsledky vyhledání $0. Zkuste jiný pojem."
+msgstr "Zkuste jiný pojem."
 
 #: src/ImageSearchModal.jsx:158
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "Začněte psát pro hledání obrazů."
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -575,10 +565,8 @@ msgid "Search for an image"
 msgstr "Hledat obraz"
 
 #: src/ImageSearchModal.jsx:156
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching..."
-msgstr "Načítání…"
+msgstr "Hledání…"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
