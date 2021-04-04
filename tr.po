@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-23 18:17+0000\n"
+"POT-Creation-Date: 2021-03-30 18:14+0000\n"
 "PO-Revision-Date: 2021-02-28 11:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -39,7 +39,7 @@ msgstr "Tüm kayıtlar"
 msgid "An error occured"
 msgstr "Bir hata meydana geldi"
 
-#: src/ContainerCommitModal.jsx:170 src/ImageDetails.jsx:26
+#: src/ImageDetails.jsx:26 src/ContainerCommitModal.jsx:170
 msgid "Author"
 msgstr "Hazırlayan"
 
@@ -55,11 +55,11 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "CPU paylaşımları"
 
-#: src/ImageSearchModal.jsx:213 src/ContainerDeleteModal.jsx:15
-#: src/ImageRunModal.jsx:433 src/ContainerCommitModal.jsx:222
-#: src/ContainerRestoreModal.jsx:40 src/ForceRemoveModal.jsx:21
-#: src/ImageDeleteModal.jsx:62 src/ContainerCheckpointModal.jsx:38
-#: src/PodActions.jsx:159
+#: src/ImageSearchModal.jsx:213 src/ImageDeleteModal.jsx:62
+#: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:15
+#: src/ContainerCheckpointModal.jsx:38 src/ContainerRestoreModal.jsx:40
+#: src/ContainerCommitModal.jsx:222 src/PodActions.jsx:159
+#: src/ImageRunModal.jsx:433
 msgid "Cancel"
 msgstr "İptal"
 
@@ -71,9 +71,9 @@ msgstr "Denetim noktası"
 msgid "Checkpoint container $0"
 msgstr "$0 konteyneri için denetim noktası"
 
-#: src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
-#: src/ContainerCommitModal.jsx:182 src/ContainerDetails.jsx:34
-#: src/ImageDetails.jsx:22
+#: src/ImageDetails.jsx:22 src/ContainerDetails.jsx:34 src/ImageUsedBy.jsx:36
+#: src/ContainerCommitModal.jsx:182 src/ImageRunModal.jsx:342
+#: src/ImageRunModal.jsx:344
 msgid "Command"
 msgstr "Komut"
 
@@ -109,7 +109,7 @@ msgstr "Konteyner şu anda çalışıyor."
 msgid "Container is not running"
 msgstr "Konteyner çalışmıyor"
 
-#: src/ImageRunModal.jsx:337 src/ContainerCommitModal.jsx:139
+#: src/ContainerCommitModal.jsx:139 src/ImageRunModal.jsx:337
 msgid "Container name"
 msgstr "Konteyner Adı"
 
@@ -125,8 +125,8 @@ msgstr "Konteyner bağlantı noktası"
 msgid "Containers"
 msgstr "Konteynerler"
 
-#: src/util.js:10 src/Images.jsx:189 src/ContainerDetails.jsx:30
-#: src/ImageDetails.jsx:24
+#: src/ImageDetails.jsx:24 src/Images.jsx:189 src/util.js:10
+#: src/ContainerDetails.jsx:30
 msgid "Created"
 msgstr "Oluşturuldu"
 
@@ -307,7 +307,7 @@ msgstr "Anamakine yolu"
 msgid "Host port (optional)"
 msgstr "Anamakine bağlantı noktası (isteğe bağlı)"
 
-#: src/ContainerDetails.jsx:28 src/ImageDetails.jsx:16
+#: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
 msgstr "Kimlik"
 
@@ -331,7 +331,7 @@ msgstr "Sabit olarak ayarlanmışsa IP adresini yoksay"
 msgid "Ignore MAC address if set statically"
 msgstr "Sabit olarak ayarlanmışsa MAC adresini yoksay"
 
-#: src/ImageRunModal.jsx:331 src/ContainerDetails.jsx:32
+#: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:331
 msgid "Image"
 msgstr "Kalıp"
 
@@ -343,7 +343,7 @@ msgstr "Kalıp adı"
 msgid "Images"
 msgstr "Kalıplar"
 
-#: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
+#: src/ContainerCheckpointModal.jsx:43 src/ContainerRestoreModal.jsx:45
 msgid "Keep all temporary checkpoint files"
 msgstr "Tüm geçici denetim noktası dosyalarını sakla"
 
@@ -405,7 +405,7 @@ msgstr ""
 "Bu kalıp için birden fazla etiket var. Silinecek etiketlenmiş kalıpları "
 "seçin."
 
-#: src/ImageUsedBy.jsx:36 src/Images.jsx:189 src/ImageRunModal.jsx:335
+#: src/Images.jsx:189 src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:335
 msgid "Name"
 msgstr "Ad"
 
@@ -453,7 +453,7 @@ msgstr "Çalışan konteyner yok"
 msgid "Only running"
 msgstr "Sadece çalışanlar"
 
-#: src/ImageSearchModal.jsx:130 src/Containers.jsx:332 src/Images.jsx:189
+#: src/Containers.jsx:332 src/ImageSearchModal.jsx:130 src/Images.jsx:189
 #: src/ContainerHeader.jsx:38
 msgid "Owner"
 msgstr "Sahibi"
@@ -502,8 +502,8 @@ msgstr "Podman konteynerleri"
 msgid "Podman service is not active"
 msgstr "Podman hizmeti etkin değil"
 
-#: src/ImageRunModal.jsx:396 src/ContainerDetails.jsx:38
-#: src/ImageDetails.jsx:28
+#: src/ImageDetails.jsx:28 src/ContainerDetails.jsx:38
+#: src/ImageRunModal.jsx:396
 msgid "Ports"
 msgstr "Bağlantı Noktaları"
 
@@ -616,7 +616,7 @@ msgstr "Başlat"
 msgid "Start podman"
 msgstr "Podman'ı başlat"
 
-#: src/Containers.jsx:332 src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:36
+#: src/Containers.jsx:332 src/ContainerDetails.jsx:36 src/ImageUsedBy.jsx:36
 msgid "State"
 msgstr "Durum"
 
@@ -668,7 +668,7 @@ msgstr "UDP"
 msgid "Up since $0"
 msgstr "$0'dan beri aktif"
 
-#: src/ImageUsedBy.jsx:54 src/Images.jsx:153
+#: src/Images.jsx:153 src/ImageUsedBy.jsx:54
 msgid "Used by"
 msgstr "Kullanan"
 
@@ -754,7 +754,7 @@ msgstr "tümünü seç"
 msgid "stopped"
 msgstr "durduruldu"
 
-#: src/ImageSearchModal.jsx:131 src/Containers.jsx:161 src/Images.jsx:143
+#: src/Containers.jsx:161 src/ImageSearchModal.jsx:131 src/Images.jsx:143
 msgid "system"
 msgstr "sistem"
 

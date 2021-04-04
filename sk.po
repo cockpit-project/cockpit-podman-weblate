@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-23 18:17+0000\n"
+"POT-Creation-Date: 2021-03-30 18:14+0000\n"
 "PO-Revision-Date: 2020-11-27 16:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -36,7 +36,7 @@ msgstr "Všetky registre"
 msgid "An error occured"
 msgstr "Vyskytla sa chyba"
 
-#: src/ContainerCommitModal.jsx:170 src/ImageDetails.jsx:26
+#: src/ImageDetails.jsx:26 src/ContainerCommitModal.jsx:170
 msgid "Author"
 msgstr "Autor"
 
@@ -52,11 +52,11 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "CPU podiely"
 
-#: src/ImageSearchModal.jsx:213 src/ContainerDeleteModal.jsx:15
-#: src/ImageRunModal.jsx:433 src/ContainerCommitModal.jsx:222
-#: src/ContainerRestoreModal.jsx:40 src/ForceRemoveModal.jsx:21
-#: src/ImageDeleteModal.jsx:62 src/ContainerCheckpointModal.jsx:38
-#: src/PodActions.jsx:159
+#: src/ImageSearchModal.jsx:213 src/ImageDeleteModal.jsx:62
+#: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:15
+#: src/ContainerCheckpointModal.jsx:38 src/ContainerRestoreModal.jsx:40
+#: src/ContainerCommitModal.jsx:222 src/PodActions.jsx:159
+#: src/ImageRunModal.jsx:433
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -68,9 +68,9 @@ msgstr "Vytvoriť kontrolný bod"
 msgid "Checkpoint container $0"
 msgstr "Vytvoriť kontrolný bod pre kontajner $0"
 
-#: src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
-#: src/ContainerCommitModal.jsx:182 src/ContainerDetails.jsx:34
-#: src/ImageDetails.jsx:22
+#: src/ImageDetails.jsx:22 src/ContainerDetails.jsx:34 src/ImageUsedBy.jsx:36
+#: src/ContainerCommitModal.jsx:182 src/ImageRunModal.jsx:342
+#: src/ImageRunModal.jsx:344
 msgid "Command"
 msgstr "Príkaz"
 
@@ -106,7 +106,7 @@ msgstr "Kontajner momentálne beží."
 msgid "Container is not running"
 msgstr "Kontajner nebeží"
 
-#: src/ImageRunModal.jsx:337 src/ContainerCommitModal.jsx:139
+#: src/ContainerCommitModal.jsx:139 src/ImageRunModal.jsx:337
 msgid "Container name"
 msgstr "Názov kontajneru"
 
@@ -122,8 +122,8 @@ msgstr "Port kontajneru"
 msgid "Containers"
 msgstr "Kontajnery"
 
-#: src/util.js:10 src/Images.jsx:189 src/ContainerDetails.jsx:30
-#: src/ImageDetails.jsx:24
+#: src/ImageDetails.jsx:24 src/Images.jsx:189 src/util.js:10
+#: src/ContainerDetails.jsx:30
 msgid "Created"
 msgstr "Vytvorený"
 
@@ -310,7 +310,7 @@ msgstr "Cesta na hostiteľovi"
 msgid "Host port (optional)"
 msgstr "Port na hostiteľovi"
 
-#: src/ContainerDetails.jsx:28 src/ImageDetails.jsx:16
+#: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:28
 msgid "ID"
 msgstr "ID"
 
@@ -334,7 +334,7 @@ msgstr "Ignorovať staticky nastavené IP adresy"
 msgid "Ignore MAC address if set statically"
 msgstr "Ignorovať staticky nastavené MAC adresy"
 
-#: src/ImageRunModal.jsx:331 src/ContainerDetails.jsx:32
+#: src/ContainerDetails.jsx:32 src/ImageRunModal.jsx:331
 msgid "Image"
 msgstr "Obraz"
 
@@ -346,7 +346,7 @@ msgstr "Názov obrazu"
 msgid "Images"
 msgstr "Obrazy"
 
-#: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
+#: src/ContainerCheckpointModal.jsx:43 src/ContainerRestoreModal.jsx:45
 msgid "Keep all temporary checkpoint files"
 msgstr ""
 
@@ -408,7 +408,7 @@ msgstr ""
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageUsedBy.jsx:36 src/Images.jsx:189 src/ImageRunModal.jsx:335
+#: src/Images.jsx:189 src/ImageUsedBy.jsx:36 src/ImageRunModal.jsx:335
 msgid "Name"
 msgstr "Názov"
 
@@ -458,7 +458,7 @@ msgstr "Žiadne spustené kontajnery"
 msgid "Only running"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:130 src/Containers.jsx:332 src/Images.jsx:189
+#: src/Containers.jsx:332 src/ImageSearchModal.jsx:130 src/Images.jsx:189
 #: src/ContainerHeader.jsx:38
 msgid "Owner"
 msgstr "Vlastník"
@@ -509,8 +509,8 @@ msgstr "Podman kontajnery"
 msgid "Podman service is not active"
 msgstr "Služba Podman nie je aktívna"
 
-#: src/ImageRunModal.jsx:396 src/ContainerDetails.jsx:38
-#: src/ImageDetails.jsx:28
+#: src/ImageDetails.jsx:28 src/ContainerDetails.jsx:38
+#: src/ImageRunModal.jsx:396
 msgid "Ports"
 msgstr "Porty"
 
@@ -625,7 +625,7 @@ msgstr "Spustiť"
 msgid "Start podman"
 msgstr "Spustiť podman"
 
-#: src/Containers.jsx:332 src/ImageUsedBy.jsx:36 src/ContainerDetails.jsx:36
+#: src/Containers.jsx:332 src/ContainerDetails.jsx:36 src/ImageUsedBy.jsx:36
 msgid "State"
 msgstr "Stav"
 
@@ -677,7 +677,7 @@ msgstr "UDP"
 msgid "Up since $0"
 msgstr "Aktívny od $0"
 
-#: src/ImageUsedBy.jsx:54 src/Images.jsx:153
+#: src/Images.jsx:153 src/ImageUsedBy.jsx:54
 msgid "Used by"
 msgstr "Využívaný s"
 
@@ -763,7 +763,7 @@ msgstr ""
 msgid "stopped"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:131 src/Containers.jsx:161 src/Images.jsx:143
+#: src/Containers.jsx:161 src/ImageSearchModal.jsx:131 src/Images.jsx:143
 msgid "system"
 msgstr "systém"
 
