@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-20 18:12+0000\n"
+"POT-Creation-Date: 2021-05-04 18:04+0000\n"
 "PO-Revision-Date: 2020-08-25 16:29+0000\n"
 "Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -30,7 +30,7 @@ msgstr "Adicionar Item"
 msgid "Add on build variable"
 msgstr "Adicionar variável de construção"
 
-#: src/Containers.jsx:439 src/ContainerHeader.jsx:49
+#: src/ContainerHeader.jsx:49 src/Containers.jsx:439
 msgid "All"
 msgstr "Todos"
 
@@ -42,7 +42,7 @@ msgstr "Todos os registros"
 msgid "An error occured"
 msgstr "Um erro ocorreu"
 
-#: src/ImageDetails.jsx:38 src/ContainerCommitModal.jsx:170
+#: src/ContainerCommitModal.jsx:170 src/ImageDetails.jsx:38
 msgid "Author"
 msgstr "Autor"
 
@@ -58,11 +58,11 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "Divisão de CPU"
 
-#: src/ContainerCheckpointModal.jsx:38 src/PodActions.jsx:159
+#: src/ContainerCheckpointModal.jsx:38 src/ImageSearchModal.jsx:213
 #: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
-#: src/ImageRunModal.jsx:433 src/ContainerCommitModal.jsx:222
-#: src/ForceRemoveModal.jsx:21 src/ContainerRestoreModal.jsx:40
-#: src/ImageSearchModal.jsx:213
+#: src/ForceRemoveModal.jsx:21 src/ContainerCommitModal.jsx:222
+#: src/PodActions.jsx:159 src/ImageRunModal.jsx:433
+#: src/ContainerRestoreModal.jsx:40
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -76,13 +76,13 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr "Falha ao efetivar contêiner $0"
 
-#: src/ImageUsedBy.jsx:35 src/ContainerDetails.jsx:43 src/ImageDetails.jsx:30
+#: src/ImageUsedBy.jsx:35 src/ContainerCommitModal.jsx:182
 #: src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
-#: src/ContainerCommitModal.jsx:182
+#: src/ContainerDetails.jsx:43 src/ImageDetails.jsx:30
 msgid "Command"
 msgstr "Comando"
 
-#: src/Containers.jsx:191 src/ContainerCommitModal.jsx:216
+#: src/ContainerCommitModal.jsx:216 src/Containers.jsx:191
 msgid "Commit"
 msgstr "Commit"
 
@@ -118,7 +118,7 @@ msgstr "Contêiner está em execução."
 msgid "Container is not running"
 msgstr "Contêiner não está em execução"
 
-#: src/ImageRunModal.jsx:337 src/ContainerCommitModal.jsx:139
+#: src/ContainerCommitModal.jsx:139 src/ImageRunModal.jsx:337
 msgid "Container name"
 msgstr "Nome do contêiner"
 
@@ -134,13 +134,13 @@ msgstr "Porta do contêiner"
 msgid "Containers"
 msgstr "Contêineres"
 
-#: src/ContainerDetails.jsx:35 src/util.js:10 src/ImageDetails.jsx:34
-#: src/Images.jsx:189
+#: src/Images.jsx:189 src/ContainerDetails.jsx:35 src/ImageDetails.jsx:34
+#: src/util.js:10
 msgid "Created"
 msgstr "Criado"
 
-#: src/PodActions.jsx:138 src/PodActions.jsx:158
-#: src/ContainerDeleteModal.jsx:14
+#: src/ContainerDeleteModal.jsx:14 src/PodActions.jsx:138
+#: src/PodActions.jsx:158
 msgid "Delete"
 msgstr "Excluir"
 
@@ -148,7 +148,7 @@ msgstr "Excluir"
 msgid "Delete $0"
 msgstr "Excluir $0"
 
-#: src/Containers.jsx:180 src/Images.jsx:165
+#: src/Images.jsx:165 src/Containers.jsx:180
 #, fuzzy
 #| msgid "Get new image"
 msgid "Delete image"
@@ -168,7 +168,7 @@ msgstr "Excluir um contêiner irá apagar todos os dados que ele contém."
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/Containers.jsx:162 src/Images.jsx:148
+#: src/Images.jsx:148 src/Containers.jsx:162
 msgid "Details"
 msgstr "Detalhes"
 
@@ -192,7 +192,7 @@ msgstr "Ambiente"
 msgid "Error"
 msgstr ""
 
-#: src/Notification.jsx:42 src/Images.jsx:65
+#: src/Images.jsx:65 src/Notification.jsx:42
 msgid "Error message"
 msgstr "Mensagem de erro"
 
@@ -302,7 +302,7 @@ msgstr "Falha ao parar o contêiner $0"
 msgid "Failed to stop pod $0"
 msgstr "Falha ao parar o contêiner $0"
 
-#: src/PodActions.jsx:158 src/ForceRemoveModal.jsx:19
+#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:158
 msgid "Force delete"
 msgstr "Forçar remoção"
 
@@ -368,7 +368,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ContainerDetails.jsx:39 src/ImageRunModal.jsx:331
+#: src/ImageRunModal.jsx:331 src/ContainerDetails.jsx:39
 msgid "Image"
 msgstr "Imagem"
 
@@ -444,7 +444,7 @@ msgstr ""
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:335 src/Images.jsx:189
+#: src/ImageUsedBy.jsx:35 src/Images.jsx:189 src/ImageRunModal.jsx:335
 msgid "Name"
 msgstr "Nome"
 
@@ -496,8 +496,8 @@ msgstr "Nenhum contêiner em execução"
 msgid "Only running"
 msgstr ""
 
-#: src/Containers.jsx:321 src/ImageSearchModal.jsx:130
-#: src/ContainerHeader.jsx:43 src/Images.jsx:189
+#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:130 src/Images.jsx:189
+#: src/Containers.jsx:321
 msgid "Owner"
 msgstr "Proprietário"
 
@@ -553,8 +553,8 @@ msgstr "Contêineres podman"
 msgid "Podman service is not active"
 msgstr "Serviço podman não está ativo"
 
-#: src/ContainerDetails.jsx:51 src/ImageDetails.jsx:42
-#: src/ImageRunModal.jsx:396
+#: src/ImageRunModal.jsx:396 src/ContainerDetails.jsx:51
+#: src/ImageDetails.jsx:42
 msgid "Ports"
 msgstr "Portas"
 
@@ -616,7 +616,7 @@ msgstr ""
 msgid "Run"
 msgstr "Executar"
 
-#: src/ImageRunModal.jsx:426 src/Images.jsx:133
+#: src/Images.jsx:133 src/ImageRunModal.jsx:426
 msgid "Run image"
 msgstr "Executar imagem"
 
@@ -672,7 +672,7 @@ msgstr ""
 msgid "Size"
 msgstr "Tamanho"
 
-#: src/app.jsx:617 src/PodActions.jsx:98 src/Containers.jsx:197
+#: src/PodActions.jsx:98 src/app.jsx:617 src/Containers.jsx:197
 #: src/Containers.jsx:203
 msgid "Start"
 msgstr "Iniciar"
@@ -711,7 +711,7 @@ msgstr ""
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:200
+#: src/ImageSearchModal.jsx:200 src/ContainerCommitModal.jsx:164
 msgid "Tag"
 msgstr "Etiqueta"
 
@@ -841,7 +841,7 @@ msgstr ""
 msgid "stopped"
 msgstr ""
 
-#: src/Containers.jsx:155 src/ImageSearchModal.jsx:131 src/Images.jsx:143
+#: src/ImageSearchModal.jsx:131 src/Images.jsx:143 src/Containers.jsx:155
 #, fuzzy
 msgid "system"
 msgstr "sistema"
