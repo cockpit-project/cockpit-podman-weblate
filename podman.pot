@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-15 18:18+0000\n"
+"POT-Creation-Date: 2021-06-22 18:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,10 +67,11 @@ msgstr ""
 msgid "CPU shares"
 msgstr ""
 
-#: src/ImageRunModal.jsx:433 src/ImageDeleteModal.jsx:62 src/PodActions.jsx:159
-#: src/ForceRemoveModal.jsx:21 src/ContainerCommitModal.jsx:222
-#: src/ContainerCheckpointModal.jsx:38 src/ImageSearchModal.jsx:213
-#: src/ContainerRestoreModal.jsx:40 src/ContainerDeleteModal.jsx:15
+#: src/ContainerDeleteModal.jsx:15 src/ContainerRestoreModal.jsx:40
+#: src/PodActions.jsx:159 src/ImageDeleteModal.jsx:62
+#: src/ForceRemoveModal.jsx:21 src/ContainerCheckpointModal.jsx:38
+#: src/ImageSearchModal.jsx:213 src/ImageRunModal.jsx:433
+#: src/ContainerCommitModal.jsx:222
 msgid "Cancel"
 msgstr ""
 
@@ -82,8 +83,8 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr ""
 
-#: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
-#: src/ContainerDetails.jsx:43 src/ImageDetails.jsx:30
+#: src/ContainerDetails.jsx:43 src/ImageUsedBy.jsx:35 src/ImageDetails.jsx:30
+#: src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
 #: src/ContainerCommitModal.jsx:182
 msgid "Command"
 msgstr ""
@@ -136,13 +137,13 @@ msgstr ""
 msgid "Containers"
 msgstr ""
 
-#: src/Images.jsx:189 src/ContainerDetails.jsx:35 src/ImageDetails.jsx:34
-#: src/util.js:10
+#: src/Images.jsx:189 src/ContainerDetails.jsx:35 src/util.js:10
+#: src/ImageDetails.jsx:34
 msgid "Created"
 msgstr ""
 
-#: src/PodActions.jsx:138 src/PodActions.jsx:158
-#: src/ContainerDeleteModal.jsx:14
+#: src/ContainerDeleteModal.jsx:14 src/PodActions.jsx:138
+#: src/PodActions.jsx:158
 msgid "Delete"
 msgstr ""
 
@@ -286,7 +287,7 @@ msgstr ""
 msgid "Force restart"
 msgstr ""
 
-#: src/PodActions.jsx:72 src/Containers.jsx:216
+#: src/Containers.jsx:216 src/PodActions.jsx:72
 msgid "Force stop"
 msgstr ""
 
@@ -342,7 +343,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ImageRunModal.jsx:331 src/ContainerDetails.jsx:39
+#: src/ContainerDetails.jsx:39 src/ImageRunModal.jsx:331
 msgid "Image"
 msgstr ""
 
@@ -354,7 +355,7 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
-#: src/ContainerCheckpointModal.jsx:43 src/ContainerRestoreModal.jsx:45
+#: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
 msgstr ""
 
@@ -414,7 +415,7 @@ msgstr ""
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:335 src/Images.jsx:189
+#: src/Images.jsx:189 src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:335
 msgid "Name"
 msgstr ""
 
@@ -511,8 +512,8 @@ msgstr ""
 msgid "Podman service is not active"
 msgstr ""
 
-#: src/ImageRunModal.jsx:396 src/ContainerDetails.jsx:51
-#: src/ImageDetails.jsx:42
+#: src/ContainerDetails.jsx:51 src/ImageDetails.jsx:42
+#: src/ImageRunModal.jsx:396
 msgid "Ports"
 msgstr ""
 
@@ -544,7 +545,7 @@ msgstr ""
 msgid "Remove on build variable"
 msgstr ""
 
-#: src/PodActions.jsx:83 src/Containers.jsx:211
+#: src/Containers.jsx:211 src/PodActions.jsx:83
 msgid "Restart"
 msgstr ""
 
@@ -568,7 +569,7 @@ msgstr ""
 msgid "Run"
 msgstr ""
 
-#: src/ImageRunModal.jsx:426 src/Images.jsx:133
+#: src/Images.jsx:133 src/ImageRunModal.jsx:426
 msgid "Run image"
 msgstr ""
 
@@ -616,8 +617,8 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/app.jsx:617 src/PodActions.jsx:98 src/Containers.jsx:197
-#: src/Containers.jsx:203
+#: src/Containers.jsx:197 src/Containers.jsx:203 src/app.jsx:617
+#: src/PodActions.jsx:98
 msgid "Start"
 msgstr ""
 
@@ -625,11 +626,11 @@ msgstr ""
 msgid "Start podman"
 msgstr ""
 
-#: src/ImageUsedBy.jsx:35 src/ContainerDetails.jsx:47 src/Containers.jsx:321
+#: src/ContainerDetails.jsx:47 src/ImageUsedBy.jsx:35 src/Containers.jsx:321
 msgid "State"
 msgstr ""
 
-#: src/PodActions.jsx:61 src/Containers.jsx:215
+#: src/Containers.jsx:215 src/PodActions.jsx:61
 msgid "Stop"
 msgstr ""
 
@@ -653,7 +654,7 @@ msgstr ""
 msgid "TCP"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:200
+#: src/ImageSearchModal.jsx:200 src/ContainerCommitModal.jsx:164
 msgid "Tag"
 msgstr ""
 
@@ -677,7 +678,7 @@ msgstr ""
 msgid "Up since $0"
 msgstr ""
 
-#: src/ImageUsedBy.jsx:53 src/Images.jsx:153
+#: src/Images.jsx:153 src/ImageUsedBy.jsx:53
 msgid "Used by"
 msgstr ""
 
