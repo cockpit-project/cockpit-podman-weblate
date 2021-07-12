@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-04 18:04+0000\n"
+"POT-Creation-Date: 2021-07-06 18:15+0000\n"
 "PO-Revision-Date: 2021-03-24 12:01+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -56,15 +56,15 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "CPU delar"
 
-#: src/ContainerCheckpointModal.jsx:38 src/ImageSearchModal.jsx:213
-#: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
-#: src/ForceRemoveModal.jsx:21 src/ContainerCommitModal.jsx:222
-#: src/PodActions.jsx:159 src/ImageRunModal.jsx:433
-#: src/ContainerRestoreModal.jsx:40
+#: src/PodActions.jsx:159 src/ContainerDeleteModal.jsx:15
+#: src/ContainerRestoreModal.jsx:40 src/ForceRemoveModal.jsx:21
+#: src/ImageRunModal.jsx:433 src/ContainerCommitModal.jsx:222
+#: src/ImageDeleteModal.jsx:62 src/ImageSearchModal.jsx:213
+#: src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/ContainerCheckpointModal.jsx:34 src/Containers.jsx:218
+#: src/Containers.jsx:218 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
 msgstr "Checkpunkt"
 
@@ -72,9 +72,9 @@ msgstr "Checkpunkt"
 msgid "Checkpoint container $0"
 msgstr "Ta checkpunkt på behållare $0"
 
-#: src/ImageUsedBy.jsx:35 src/ContainerCommitModal.jsx:182
-#: src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
-#: src/ContainerDetails.jsx:43 src/ImageDetails.jsx:30
+#: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
+#: src/ContainerCommitModal.jsx:182 src/ContainerDetails.jsx:43
+#: src/ImageDetails.jsx:30
 msgid "Command"
 msgstr "Kommando"
 
@@ -110,7 +110,7 @@ msgstr "Behållaren kör för närvarande."
 msgid "Container is not running"
 msgstr "Behållaren kör inte"
 
-#: src/ContainerCommitModal.jsx:139 src/ImageRunModal.jsx:337
+#: src/ImageRunModal.jsx:337 src/ContainerCommitModal.jsx:139
 msgid "Container name"
 msgstr "Behållarnamn"
 
@@ -126,13 +126,13 @@ msgstr "Behållarport"
 msgid "Containers"
 msgstr "Behållare"
 
-#: src/Images.jsx:189 src/ContainerDetails.jsx:35 src/ImageDetails.jsx:34
-#: src/util.js:10
+#: src/ContainerDetails.jsx:35 src/util.js:10 src/Images.jsx:189
+#: src/ImageDetails.jsx:34
 msgid "Created"
 msgstr "Skapad"
 
-#: src/ContainerDeleteModal.jsx:14 src/PodActions.jsx:138
-#: src/PodActions.jsx:158
+#: src/PodActions.jsx:138 src/PodActions.jsx:158
+#: src/ContainerDeleteModal.jsx:14
 msgid "Delete"
 msgstr "Radera"
 
@@ -140,7 +140,7 @@ msgstr "Radera"
 msgid "Delete $0"
 msgstr "Radera $0"
 
-#: src/Images.jsx:165 src/Containers.jsx:180
+#: src/Containers.jsx:180 src/Images.jsx:165
 msgid "Delete image"
 msgstr "Radera avbild"
 
@@ -156,7 +156,7 @@ msgstr "När en container raderas försvinner även all data i den."
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Att ta bort denna kapsel kommer ta bort följande behållare:"
 
-#: src/Images.jsx:148 src/Containers.jsx:162
+#: src/Containers.jsx:162 src/Images.jsx:148
 msgid "Details"
 msgstr "Detaljer"
 
@@ -180,7 +180,7 @@ msgstr "Miljö"
 msgid "Error"
 msgstr "Fel"
 
-#: src/Images.jsx:65 src/Notification.jsx:42
+#: src/Notification.jsx:42 src/Images.jsx:65
 msgid "Error message"
 msgstr "Felmeddelande"
 
@@ -268,7 +268,7 @@ msgstr "Misslyckades att stoppa behållaren $0"
 msgid "Failed to stop pod $0"
 msgstr "Misslyckades att stoppa kapseln $0"
 
-#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:158
+#: src/PodActions.jsx:158 src/ForceRemoveModal.jsx:19
 msgid "Force delete"
 msgstr "Framtvinga borttagande"
 
@@ -344,7 +344,7 @@ msgstr "Avbildsnamn"
 msgid "Images"
 msgstr "Avbilder"
 
-#: src/ContainerCheckpointModal.jsx:43 src/ContainerRestoreModal.jsx:45
+#: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
 msgstr "Behåll alla tillfälliga checkpunktsfiler"
 
@@ -406,7 +406,7 @@ msgstr ""
 "Flera taggar finns för denna avbild. Välj vilka taggade avbilder som skall "
 "raderas."
 
-#: src/ImageUsedBy.jsx:35 src/Images.jsx:189 src/ImageRunModal.jsx:335
+#: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:335 src/Images.jsx:189
 msgid "Name"
 msgstr "Namn"
 
@@ -454,8 +454,8 @@ msgstr "Inga körande behållare"
 msgid "Only running"
 msgstr "Endast körande"
 
-#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:130 src/Images.jsx:189
-#: src/Containers.jsx:321
+#: src/ContainerHeader.jsx:43 src/Containers.jsx:321
+#: src/ImageSearchModal.jsx:130 src/Images.jsx:189
 msgid "Owner"
 msgstr "Ägare"
 
@@ -540,7 +540,7 @@ msgstr "Ta bort byggvariabel"
 msgid "Restart"
 msgstr "Starta om"
 
-#: src/Containers.jsx:198 src/ContainerRestoreModal.jsx:36
+#: src/ContainerRestoreModal.jsx:36 src/Containers.jsx:198
 msgid "Restore"
 msgstr "Återställ"
 
@@ -560,7 +560,7 @@ msgstr "Återuppta"
 msgid "Run"
 msgstr "Kör"
 
-#: src/Images.jsx:133 src/ImageRunModal.jsx:426
+#: src/ImageRunModal.jsx:426 src/Images.jsx:133
 msgid "Run image"
 msgstr "Kör avbild"
 
@@ -608,8 +608,8 @@ msgstr "Visa mellanliggande avbilder"
 msgid "Size"
 msgstr "Storlek"
 
-#: src/PodActions.jsx:98 src/app.jsx:617 src/Containers.jsx:197
-#: src/Containers.jsx:203
+#: src/PodActions.jsx:98 src/Containers.jsx:197 src/Containers.jsx:203
+#: src/app.jsx:617
 msgid "Start"
 msgstr "Starta"
 
@@ -617,7 +617,7 @@ msgstr "Starta"
 msgid "Start podman"
 msgstr "Starta podman"
 
-#: src/ImageUsedBy.jsx:35 src/ContainerDetails.jsx:47 src/Containers.jsx:321
+#: src/ImageUsedBy.jsx:35 src/Containers.jsx:321 src/ContainerDetails.jsx:47
 msgid "State"
 msgstr "Tillstånd"
 
@@ -645,7 +645,7 @@ msgstr "System-podman-tjänsten är också tillgänglig"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ImageSearchModal.jsx:200 src/ContainerCommitModal.jsx:164
+#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:200
 msgid "Tag"
 msgstr "Tagg"
 
@@ -755,7 +755,7 @@ msgstr "välj alla"
 msgid "stopped"
 msgstr "stoppad"
 
-#: src/ImageSearchModal.jsx:131 src/Images.jsx:143 src/Containers.jsx:155
+#: src/Containers.jsx:155 src/ImageSearchModal.jsx:131 src/Images.jsx:143
 msgid "system"
 msgstr "system"
 
