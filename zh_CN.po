@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-06 18:15+0000\n"
-"PO-Revision-Date: 2021-02-19 12:40+0000\n"
-"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
+"PO-Revision-Date: 2021-07-14 13:48+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
-"projects/cockpit-podman/master/zh_CN/>\n"
+"projects/cockpit-podman/main/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: src/ImageRunModal.jsx:56 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:131
 msgid "Add item"
@@ -34,7 +34,7 @@ msgstr "所有"
 
 #: src/ImageSearchModal.jsx:149
 msgid "All registries"
-msgstr ""
+msgstr "所有 registry"
 
 #: src/PodActions.jsx:163
 msgid "An error occured"
@@ -69,10 +69,8 @@ msgid "Checkpoint"
 msgstr "检查点"
 
 #: src/ContainerCheckpointModal.jsx:29
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Checkpoint container $0"
-msgstr "提交容器 $0 失败"
+msgstr "检查点容器 $0"
 
 #: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:342 src/ImageRunModal.jsx:344
 #: src/ContainerCommitModal.jsx:182 src/ContainerDetails.jsx:43
@@ -93,8 +91,6 @@ msgid "Console"
 msgstr "控制台"
 
 #: src/Containers.jsx:321
-#, fuzzy
-#| msgid "Containers"
 msgid "Container"
 msgstr "容器"
 
@@ -197,10 +193,8 @@ msgid "Exited"
 msgstr "已退出"
 
 #: src/Containers.jsx:258
-#, fuzzy
-#| msgid "Failed to commit container $0"
 msgid "Failed to checkpoint container $0"
-msgstr "提交容器 $0 失败"
+msgstr "检查点容器 $0 失败"
 
 #: src/ContainerCommitModal.jsx:104
 msgid "Failed to commit container $0"
@@ -215,10 +209,8 @@ msgid "Failed to force remove container $0"
 msgstr "强制移除容器 $0 失败"
 
 #: src/Images.jsx:118
-#, fuzzy
-#| msgid "Failed to force remove container $0"
 msgid "Failed to force remove image $0"
-msgstr "强制移除容器 $0 失败"
+msgstr "强制删除镜像失败 $0"
 
 #: src/PodActions.jsx:68
 msgid "Failed to force stop pod $0"
@@ -233,26 +225,20 @@ msgid "Failed to remove container $0"
 msgstr "移除容器 $0 失败"
 
 #: src/Images.jsx:103
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to remove image $0"
-msgstr "移除容器 $0 失败"
+msgstr "删除镜像 $0 失败"
 
 #: src/Containers.jsx:121
 msgid "Failed to restart container $0"
 msgstr "重启容器 $0 失败"
 
 #: src/PodActions.jsx:79
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to restart pod $0"
-msgstr "重启容器 $0 失败"
+msgstr "重启 pod $0 失败"
 
 #: src/Containers.jsx:274
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to restore container $0"
-msgstr "重启容器 $0 失败"
+msgstr "恢复容器 $0 失败"
 
 #: src/PodActions.jsx:109
 msgid "Failed to resume pod $0"
@@ -319,10 +305,8 @@ msgid "Host path"
 msgstr "主机路径"
 
 #: src/ImageRunModal.jsx:42 src/ImageRunModal.jsx:47
-#, fuzzy
-#| msgid "Host port"
 msgid "Host port (optional)"
-msgstr "主机端口"
+msgstr "主机端口（可选）"
 
 #: src/ContainerDetails.jsx:31 src/ImageDetails.jsx:18
 msgid "ID"
@@ -330,7 +314,7 @@ msgstr "ID"
 
 #: src/ImageRunModal.jsx:37 src/ImageRunModal.jsx:39
 msgid "IP (optional)"
-msgstr ""
+msgstr "IP（可选）"
 
 #: src/ContainerDetails.jsx:55
 msgid "IP address"
@@ -342,7 +326,7 @@ msgstr "IP 前缀长度"
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
-msgstr ""
+msgstr "如果以静态方式设置，则忽略 IP 地址"
 
 #: src/ContainerRestoreModal.jsx:53
 msgid "Ignore MAC address if set statically"
@@ -374,13 +358,11 @@ msgstr "KiB"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
-msgstr ""
+msgstr "在将检查点写入磁盘后保持运行"
 
 #: src/ContainerLogs.jsx:53
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading logs..."
-msgstr "加载中……"
+msgstr "正在加载日志..."
 
 #: src/ImageUsedBy.jsx:48 src/Containers.jsx:328
 msgid "Loading..."
@@ -403,10 +385,8 @@ msgid "Memory limit"
 msgstr "内存限制"
 
 #: src/ImageRunModal.jsx:362
-#, fuzzy
-#| msgid "Memory limit"
 msgid "Memory unit"
-msgstr "内存限制"
+msgstr "内存单元"
 
 #: src/ContainerCommitModal.jsx:176
 msgid "Message"
@@ -418,11 +398,11 @@ msgstr "MiB"
 
 #: src/ImageRunModal.jsx:135
 msgid "Mode"
-msgstr ""
+msgstr "模式"
 
 #: src/ImageDeleteModal.jsx:66
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr ""
+msgstr "此镜像存在多个标签。选择标记的镜像以删除。"
 
 #: src/ImageUsedBy.jsx:35 src/ImageRunModal.jsx:335 src/Images.jsx:189
 msgid "Name"
@@ -441,10 +421,8 @@ msgid "No containers are using this image"
 msgstr "没有使用该镜像的容器"
 
 #: src/Containers.jsx:326
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "No containers in this pod"
-msgstr "没有使用该镜像的容器"
+msgstr "此 pod 中没有容器"
 
 #: src/Containers.jsx:330
 msgid "No containers that match the current filter"
@@ -455,10 +433,8 @@ msgid "No images"
 msgstr "没有镜像"
 
 #: src/ImageSearchModal.jsx:158
-#, fuzzy
-#| msgid "No images"
 msgid "No images found"
-msgstr "没有镜像"
+msgstr "没有找到镜像"
 
 #: src/Images.jsx:194
 msgid "No images that match the current filter"
@@ -466,7 +442,7 @@ msgstr "没有符合当前筛选条件的镜像"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
-msgstr ""
+msgstr "没有 $0 的结果"
 
 #: src/Containers.jsx:332
 msgid "No running containers"
@@ -490,40 +466,32 @@ msgid "Pause the container"
 msgstr "暂停该容器"
 
 #: src/util.js:10
-#, fuzzy
-#| msgid "Pause"
 msgid "Paused"
-msgstr "暂停"
+msgstr "已暂停"
 
 #: src/ContainerDeleteModal.jsx:12
 msgid "Please confirm deletion of $0"
 msgstr "请确认是否删除 $0"
 
 #: src/PodActions.jsx:155
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Please confirm deletion of pod $0"
-msgstr "请确认是否删除 $0"
+msgstr "请确认删除 pod $0"
 
 #: src/PodActions.jsx:155
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Please confirm force deletion of pod $0"
-msgstr "请确认是否强制删除 $0"
+msgstr "请确认强制删除 pod $0"
 
 #: src/ForceRemoveModal.jsx:14
 msgid "Please confirm forced deletion of $0"
 msgstr "请确认是否强制删除 $0"
 
 #: src/ImageSearchModal.jsx:163
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr "没有匹配 $0 的结果。请换个关键词重试。"
+msgstr "请重试另一个项。"
 
 #: src/ImageSearchModal.jsx:158
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "请开始输入以查找镜像。"
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -544,7 +512,7 @@ msgstr "私有"
 
 #: src/ImageRunModal.jsx:68
 msgid "Protocol"
-msgstr ""
+msgstr "协议"
 
 #: src/Images.jsx:287
 msgid "Pulling"
@@ -563,30 +531,24 @@ msgid "Remove item"
 msgstr "删除项目"
 
 #: src/ContainerCommitModal.jsx:126
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Remove on build variable"
-msgstr "设置容器构建时的变量"
+msgstr "删除构建变量"
 
 #: src/PodActions.jsx:83 src/Containers.jsx:211
 msgid "Restart"
 msgstr "重启"
 
 #: src/ContainerRestoreModal.jsx:36 src/Containers.jsx:198
-#, fuzzy
-#| msgid "Restart"
 msgid "Restore"
-msgstr "重启"
+msgstr "恢复"
 
 #: src/ContainerRestoreModal.jsx:31
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Restore container $0"
-msgstr "移除容器 $0 失败"
+msgstr "恢复容器 $0"
 
 #: src/ContainerRestoreModal.jsx:47
 msgid "Restore with established TCP connections"
-msgstr ""
+msgstr "使用已建立的 TCP 连接恢复"
 
 #: src/PodActions.jsx:113
 msgid "Resume"
@@ -605,42 +567,32 @@ msgid "Running"
 msgstr "正在运行"
 
 #: src/ImageRunModal.jsx:143
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "SELinux label"
-msgstr "无 SELinux 标签"
+msgstr "SELinux 标签"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
 msgstr "按名称或描述搜索"
 
 #: src/ImageSearchModal.jsx:135
-#, fuzzy
-#| msgid "Search Image"
 msgid "Search for"
-msgstr "搜索镜像"
+msgstr "搜索"
 
 #: src/ImageSearchModal.jsx:196
-#, fuzzy
-#| msgid "Search Image"
 msgid "Search for an image"
 msgstr "搜索镜像"
 
 #: src/ImageSearchModal.jsx:156
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching..."
-msgstr "加载中……"
+msgstr "搜索中..."
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
 msgstr "设置容器构建时的变量"
 
 #: src/ImageRunModal.jsx:147
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Shared"
-msgstr "CPU 份额"
+msgstr "共享"
 
 #: src/Containers.jsx:434
 msgid "Show"
@@ -672,14 +624,12 @@ msgid "Stop"
 msgstr "停止"
 
 #: src/util.js:10
-#, fuzzy
-#| msgid "Stop"
 msgid "Stopped"
-msgstr "停止"
+msgstr "已停止"
 
 #: src/ContainerCheckpointModal.jsx:48
 msgid "Support preserving established TCP connections"
-msgstr ""
+msgstr "支持保留已建立的 TCP 连接"
 
 #: src/ContainerHeader.jsx:48
 msgid "System"
@@ -746,32 +696,24 @@ msgid "configured"
 msgstr "已配置"
 
 #: src/manifest.json
-#, fuzzy
-#| msgid "Containers"
 msgid "container"
 msgstr "容器"
 
 #: src/util.js:7
-#, fuzzy
-#| msgid "Created"
 msgid "created"
-msgstr "已创建"
+msgstr "创建"
 
 #: src/util.js:7
-#, fuzzy
-#| msgid "Exited"
 msgid "exited"
-msgstr "已退出"
+msgstr "退出"
 
 #: src/manifest.json
-#, fuzzy
-#| msgid "Image"
 msgid "image"
 msgstr "镜像"
 
 #: src/ImageSearchModal.jsx:143
 msgid "in"
-msgstr ""
+msgstr "于"
 
 #: src/ImageUsedBy.jsx:13 src/ImageUsedBy.jsx:14 src/Containers.jsx:141
 #: src/Containers.jsx:142
@@ -784,20 +726,16 @@ msgid "not available"
 msgstr "不可用"
 
 #: src/util.js:7
-#, fuzzy
-#| msgid "Pause"
 msgid "paused"
-msgstr "暂停"
+msgstr "已暂停"
 
 #: src/Containers.jsx:488
 msgid "pod group"
-msgstr "Pod 组"
+msgstr "pod 组"
 
 #: src/manifest.json
-#, fuzzy
-#| msgid "Start podman"
 msgid "podman"
-msgstr "启动 podman"
+msgstr "podman"
 
 #: src/util.js:7
 msgid "removing"
