@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-17 18:16+0000\n"
-"PO-Revision-Date: 2021-04-21 13:02+0000\n"
+"PO-Revision-Date: 2021-08-20 15:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: src/ImageRunModal.jsx:56 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:131
 msgid "Add item"
@@ -296,10 +296,8 @@ msgid "GiB"
 msgstr "GiB"
 
 #: src/Images.jsx:196
-#, fuzzy
-#| msgid "No images"
 msgid "Hide images"
-msgstr "이미지 없음"
+msgstr "이미지 숨김"
 
 #: src/Images.jsx:174
 msgid "Hide intermediate images"
@@ -604,10 +602,8 @@ msgid "Show"
 msgstr "보기"
 
 #: src/Images.jsx:196
-#, fuzzy
-#| msgid "No images"
 msgid "Show images"
-msgstr "이미지 없음"
+msgstr "이미지 보여주기"
 
 #: src/Images.jsx:174
 msgid "Show intermediate images"
