@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-17 18:16+0000\n"
-"PO-Revision-Date: 2021-02-27 11:05+0000\n"
+"PO-Revision-Date: 2021-08-19 14:11+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: src/ImageRunModal.jsx:56 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:131
 msgid "Add item"
@@ -297,10 +297,8 @@ msgid "GiB"
 msgstr "GiB"
 
 #: src/Images.jsx:196
-#, fuzzy
-#| msgid "No images"
 msgid "Hide images"
-msgstr "Brak obrazów"
+msgstr "Ukryj obrazy"
 
 #: src/Images.jsx:174
 msgid "Hide intermediate images"
@@ -607,10 +605,8 @@ msgid "Show"
 msgstr "Wyświetl"
 
 #: src/Images.jsx:196
-#, fuzzy
-#| msgid "No images"
 msgid "Show images"
-msgstr "Brak obrazów"
+msgstr "Wyświetl obrazy"
 
 #: src/Images.jsx:174
 msgid "Show intermediate images"
