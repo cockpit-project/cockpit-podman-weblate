@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-24 18:14+0000\n"
+"POT-Creation-Date: 2021-08-31 18:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "An error occured"
 msgstr ""
 
-#: src/ImageDetails.jsx:36 src/ContainerCommitModal.jsx:170
+#: src/ImageDetails.jsx:32 src/ContainerCommitModal.jsx:170
 msgid "Author"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr ""
 
-#: src/ImageDetails.jsx:32 src/ContainerDetails.jsx:44
+#: src/ImageDetails.jsx:28 src/ContainerDetails.jsx:44
 #: src/ContainerCommitModal.jsx:182 src/ImageRunModal.jsx:342
 #: src/ImageRunModal.jsx:344
 msgid "Command"
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/ImageDetails.jsx:28
+#: src/ImageDetails.jsx:24
 msgid "Entrypoint"
 msgstr ""
 
@@ -322,7 +322,7 @@ msgstr ""
 msgid "Host port (optional)"
 msgstr ""
 
-#: src/ImageDetails.jsx:20 src/ContainerDetails.jsx:32
+#: src/ImageDetails.jsx:16 src/ContainerDetails.jsx:32
 msgid "ID"
 msgstr ""
 
@@ -515,7 +515,7 @@ msgstr ""
 msgid "Podman service is not active"
 msgstr ""
 
-#: src/ImageDetails.jsx:40 src/ContainerDetails.jsx:52
+#: src/ImageDetails.jsx:36 src/ContainerDetails.jsx:52
 #: src/ImageRunModal.jsx:396
 msgid "Ports"
 msgstr ""
@@ -665,7 +665,7 @@ msgstr ""
 msgid "Tag"
 msgstr ""
 
-#: src/ImageDetails.jsx:24
+#: src/ImageDetails.jsx:20
 msgid "Tags"
 msgstr ""
 
@@ -685,7 +685,7 @@ msgstr ""
 msgid "Up since $0"
 msgstr ""
 
-#: src/ImageDetails.jsx:44
+#: src/ImageDetails.jsx:40
 msgid "Used by"
 msgstr ""
 
