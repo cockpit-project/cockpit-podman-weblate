@@ -9,33 +9,31 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 18:14+0000\n"
-"PO-Revision-Date: 2021-08-20 15:04+0000\n"
+"PO-Revision-Date: 2021-09-15 15:05+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:72
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "컨테이너"
+msgstr[0] "$0 컨테이너"
 
 #: src/Images.jsx:233
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
+msgstr[0] "$0 이미지 총계, $1"
 
 #: src/Images.jsx:237
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
+msgstr[0] "$0 미사용 이미지, $1"
 
 #: src/ImageRunModal.jsx:56 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:131
 msgid "Add item"
@@ -144,16 +142,12 @@ msgid "Containers"
 msgstr "컨테이너들"
 
 #: src/ImageRunModal.jsx:439
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "생성됨"
+msgstr "생성"
 
 #: src/Images.jsx:348 src/ImageRunModal.jsx:435
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "컨테이너 일시중지"
+msgstr "컨테이너 생성"
 
 #: src/util.js:11 src/Images.jsx:148 src/ContainerDetails.jsx:36
 msgid "Created"
@@ -190,7 +184,7 @@ msgstr "세부 정보"
 
 #: src/Images.jsx:148
 msgid "Disk space"
-msgstr ""
+msgstr "디스크 공간"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -201,10 +195,8 @@ msgid "Download"
 msgstr "내려받기"
 
 #: src/Images.jsx:291
-#, fuzzy
-#| msgid "Get new image"
 msgid "Download new image"
-msgstr "신규 이미지 가져오기"
+msgstr "신규 이미지 내려받기"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -643,7 +635,7 @@ msgstr "시작"
 
 #: src/ImageRunModal.jsx:426
 msgid "Start after creation"
-msgstr ""
+msgstr "생성 후에 시작"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -790,14 +782,12 @@ msgid "system"
 msgstr "systemd"
 
 #: src/Images.jsx:68 src/Images.jsx:75
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "일시정지됨"
+msgstr "미사용"
 
 #: src/Images.jsx:115
 msgid "user:"
-msgstr ""
+msgstr "사용자:"
 
 #~ msgid "Run"
 #~ msgstr "실행"
