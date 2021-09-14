@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-24 18:14+0000\n"
-"PO-Revision-Date: 2021-07-14 13:48+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-14 10:31+0000\n"
+"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/ImageRunModal.jsx:56 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:131
 msgid "Add item"
@@ -296,10 +296,8 @@ msgid "GiB"
 msgstr "GiB"
 
 #: src/Images.jsx:196
-#, fuzzy
-#| msgid "No images"
 msgid "Hide images"
-msgstr "没有镜像"
+msgstr "隐藏镜像"
 
 #: src/Images.jsx:174
 msgid "Hide intermediate images"
@@ -604,10 +602,8 @@ msgid "Show"
 msgstr "显示"
 
 #: src/Images.jsx:196
-#, fuzzy
-#| msgid "No images"
 msgid "Show images"
-msgstr "没有镜像"
+msgstr "显示镜像"
 
 #: src/Images.jsx:174
 msgid "Show intermediate images"
