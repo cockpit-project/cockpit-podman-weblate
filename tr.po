@@ -8,36 +8,34 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 18:14+0000\n"
-"PO-Revision-Date: 2021-08-20 15:04+0000\n"
+"PO-Revision-Date: 2021-09-15 15:05+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:72
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "konteyner"
-msgstr[1] "konteyner"
+msgstr[0] "$0 kapsayıcı"
+msgstr[1] "$0 kapsayıcı"
 
 #: src/Images.jsx:233
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 kalıp toplam, $1"
+msgstr[1] "$0 kalıp toplam, $1"
 
 #: src/Images.jsx:237
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 kullanılmayan kalıp, $1"
+msgstr[1] "$0 kullanılmayan kalıp, $1"
 
 #: src/ImageRunModal.jsx:56 src/ImageRunModal.jsx:102 src/ImageRunModal.jsx:131
 msgid "Add item"
@@ -146,16 +144,12 @@ msgid "Containers"
 msgstr "Konteynerler"
 
 #: src/ImageRunModal.jsx:439
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Oluşturuldu"
+msgstr "Oluştur"
 
 #: src/Images.jsx:348 src/ImageRunModal.jsx:435
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "Konteyneri duraklat"
+msgstr "Kapsayıcı oluştur"
 
 #: src/util.js:11 src/Images.jsx:148 src/ContainerDetails.jsx:36
 msgid "Created"
@@ -192,7 +186,7 @@ msgstr "Ayrıntılar"
 
 #: src/Images.jsx:148
 msgid "Disk space"
-msgstr ""
+msgstr "Disk alanı"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -203,10 +197,8 @@ msgid "Download"
 msgstr "İndir"
 
 #: src/Images.jsx:291
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "Farklı indir:"
+msgstr "Yeni kalıbı indir"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -647,7 +639,7 @@ msgstr "Başlat"
 
 #: src/ImageRunModal.jsx:426
 msgid "Start after creation"
-msgstr ""
+msgstr "Oluşturmadan sonra başlat"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -794,16 +786,12 @@ msgid "system"
 msgstr "sistem"
 
 #: src/Images.jsx:68 src/Images.jsx:75
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "Duraklatıldı"
+msgstr "kullanılmayan"
 
 #: src/Images.jsx:115
-#, fuzzy
-#| msgid "user"
 msgid "user:"
-msgstr "kullanıcı"
+msgstr "kullanıcı:"
 
 #~ msgid "Get new image"
 #~ msgstr "Yeni kalıp al"
