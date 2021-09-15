@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 18:14+0000\n"
-"PO-Revision-Date: 2021-08-20 15:04+0000\n"
+"PO-Revision-Date: 2021-09-19 19:05+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -18,30 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:73
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "контейнер"
-msgstr[1] "контейнер"
-msgstr[2] "контейнер"
+msgstr[0] "$0 контейнер"
+msgstr[1] "$0 контейнери"
+msgstr[2] "$0 контейнерів"
 
 #: src/Images.jsx:242
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 образ загалом, $1"
+msgstr[1] "$0 образи загалом, $1"
+msgstr[2] "$0 образів загалом, $1"
 
 #: src/Images.jsx:246
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 невикористаний образ, $1"
+msgstr[1] "$0 невикористані образи, $1"
+msgstr[2] "$0 невикористаних образів, $1"
 
 #: src/ImageRunModal.jsx:58 src/ImageRunModal.jsx:104 src/ImageRunModal.jsx:133
 msgid "Add item"
@@ -150,16 +148,12 @@ msgid "Containers"
 msgstr "Контейнери"
 
 #: src/ImageRunModal.jsx:466
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Створено"
+msgstr "Створити"
 
 #: src/Images.jsx:357 src/ImageRunModal.jsx:462
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "Призупинити роботу контейнера"
+msgstr "Створити контейнер"
 
 #: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:69
 msgid "Created"
@@ -194,7 +188,7 @@ msgstr "Подробиці"
 
 #: src/Images.jsx:154
 msgid "Disk space"
-msgstr ""
+msgstr "Місце на диску"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -205,10 +199,8 @@ msgid "Download"
 msgstr "Отримати"
 
 #: src/Images.jsx:300
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "Отримати як:"
+msgstr "Отримати новий образ"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -384,7 +376,7 @@ msgstr "Зображення"
 
 #: src/ImageRunModal.jsx:428
 msgid "Integration"
-msgstr ""
+msgstr "Інтеграція"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -648,7 +640,7 @@ msgstr "Запустити"
 
 #: src/ImageRunModal.jsx:424
 msgid "Start after creation"
-msgstr ""
+msgstr "Запустити після створення"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -795,16 +787,12 @@ msgid "system"
 msgstr "система"
 
 #: src/Images.jsx:69 src/Images.jsx:76
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "Призупинено"
+msgstr "не використано"
 
 #: src/Containers.jsx:306 src/Images.jsx:116
-#, fuzzy
-#| msgid "user"
 msgid "user:"
-msgstr "користувач"
+msgstr "користувач:"
 
 #~ msgid "Delete image"
 #~ msgstr "Вилучити зображення"
