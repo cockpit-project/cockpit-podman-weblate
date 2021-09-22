@@ -5,39 +5,37 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 18:14+0000\n"
-"PO-Revision-Date: 2021-04-04 10:01+0000\n"
-"Last-Translator: Zdenek Chmelar <chmelarz@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/cs/>\n"
+"PO-Revision-Date: 2021-09-23 07:05+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:73
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "kontejner"
-msgstr[1] "kontejner"
-msgstr[2] "kontejner"
+msgstr[0] "$0 kontejner"
+msgstr[1] "$0 kontejnery"
+msgstr[2] "$0 kontejnerů"
 
 #: src/Images.jsx:242
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 obraz celkem, $1"
+msgstr[1] "$0 obrazy celkem, $1"
+msgstr[2] "$0 obrazů celkem, $1"
 
 #: src/Images.jsx:246
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 nepoužitý obraz, $1"
+msgstr[1] "$0 nepoužité obrazy, $1"
+msgstr[2] "$0 nepoužitých obrazů, $1"
 
 #: src/ImageRunModal.jsx:58 src/ImageRunModal.jsx:104 src/ImageRunModal.jsx:133
 msgid "Add item"
@@ -146,16 +144,12 @@ msgid "Containers"
 msgstr "Kontejnery"
 
 #: src/ImageRunModal.jsx:466
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Vytvořeno"
+msgstr "Vytvořit"
 
 #: src/Images.jsx:357 src/ImageRunModal.jsx:462
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "Pozastavit kontejner"
+msgstr "Vytvořit kontejner"
 
 #: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:69
 msgid "Created"
@@ -188,7 +182,7 @@ msgstr "Podrobnosti"
 
 #: src/Images.jsx:154
 msgid "Disk space"
-msgstr ""
+msgstr "Prostor na disku"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -199,10 +193,8 @@ msgid "Download"
 msgstr "Stáhnout"
 
 #: src/Images.jsx:300
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "Stáhnout jako:"
+msgstr "Stáhnout si nový obraz"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -329,10 +321,8 @@ msgid "GiB"
 msgstr "GiB"
 
 #: src/Images.jsx:265
-#, fuzzy
-#| msgid "No images"
 msgid "Hide images"
-msgstr "Žádné obrazy"
+msgstr "Skrýt obrazy"
 
 #: src/Images.jsx:224
 msgid "Hide intermediate images"
@@ -380,7 +370,7 @@ msgstr "Obrazy"
 
 #: src/ImageRunModal.jsx:428
 msgid "Integration"
-msgstr ""
+msgstr "Napojení"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -482,7 +472,7 @@ msgstr "Žádné obrazy které by odpovídaly stávajícímu filtru"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
-msgstr "Bez výsledků pro $0"
+msgstr "Žádné výsledky pro $0"
 
 #: src/Containers.jsx:364
 msgid "No running containers"
@@ -616,7 +606,7 @@ msgstr "Hledat obraz"
 
 #: src/ImageSearchModal.jsx:156
 msgid "Searching..."
-msgstr "Hledání…"
+msgstr "Vyhledávání..."
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
@@ -631,10 +621,8 @@ msgid "Show"
 msgstr "Zobrazit"
 
 #: src/Images.jsx:265
-#, fuzzy
-#| msgid "No images"
 msgid "Show images"
-msgstr "Žádné obrazy"
+msgstr "Zobrazit obrazy"
 
 #: src/Images.jsx:224
 msgid "Show intermediate images"
@@ -646,7 +634,7 @@ msgstr "Spustit"
 
 #: src/ImageRunModal.jsx:424
 msgid "Start after creation"
-msgstr ""
+msgstr "Po vytvoření spustit"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -793,16 +781,12 @@ msgid "system"
 msgstr "systém"
 
 #: src/Images.jsx:69 src/Images.jsx:76
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "Pozastaveno"
+msgstr "nepoužito"
 
 #: src/Containers.jsx:306 src/Images.jsx:116
-#, fuzzy
-#| msgid "user"
 msgid "user:"
-msgstr "uživatel"
+msgstr "uživatel:"
 
 #~ msgid "Delete image"
 #~ msgstr "Smazat obraz"
