@@ -9,36 +9,34 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-21 18:15+0000\n"
-"PO-Revision-Date: 2021-08-20 15:04+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2021-09-26 12:05+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:73
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "behållare"
-msgstr[1] "behållare"
+msgstr[0] "$0 behållare"
+msgstr[1] "$0 behållare"
 
 #: src/Images.jsx:242
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 avbild, total, $1"
+msgstr[1] "$0 avbilder, totalt, $1"
 
 #: src/Images.jsx:246
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 oanvänd avbild, $1"
+msgstr[1] "$0 oanvända avbilder, $1"
 
 #: src/ImageRunModal.jsx:58 src/ImageRunModal.jsx:104 src/ImageRunModal.jsx:133
 msgid "Add item"
@@ -147,16 +145,12 @@ msgid "Containers"
 msgstr "Behållare"
 
 #: src/ImageRunModal.jsx:466
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Skapad"
+msgstr "Skapa"
 
 #: src/ImageRunModal.jsx:462 src/Images.jsx:357
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "Pausa behållaren"
+msgstr "Skapa behållare"
 
 #: src/util.js:11 src/ContainerDetails.jsx:69 src/Images.jsx:152
 msgid "Created"
@@ -189,7 +183,7 @@ msgstr "Detaljer"
 
 #: src/Images.jsx:154
 msgid "Disk space"
-msgstr ""
+msgstr "Disk utrymme"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -200,10 +194,8 @@ msgid "Download"
 msgstr "Ladda ner"
 
 #: src/Images.jsx:300
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "Ladda ner som:"
+msgstr "Ladda ner ny avbild"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -379,7 +371,7 @@ msgstr "Avbilder"
 
 #: src/ImageRunModal.jsx:428
 msgid "Integration"
-msgstr ""
+msgstr "Integration"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -790,14 +782,12 @@ msgid "system"
 msgstr "system"
 
 #: src/Images.jsx:69 src/Images.jsx:76
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "Pausad"
+msgstr "oanvänd"
 
 #: src/Containers.jsx:306 src/Images.jsx:116
 msgid "user:"
-msgstr ""
+msgstr "användare:"
 
 #~ msgid "Delete image"
 #~ msgstr "Radera avbild"
