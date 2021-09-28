@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-21 18:15+0000\n"
+"POT-Creation-Date: 2021-09-28 18:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgid "Checkpoint container $0"
 msgstr ""
 
 #: src/ImageRunModal.jsx:365 src/ImageRunModal.jsx:367
-#: src/ContainerDetails.jsx:45 src/ContainerCommitModal.jsx:182
+#: src/ContainerDetails.jsx:54 src/ContainerCommitModal.jsx:182
 #: src/ImageDetails.jsx:15
 msgid "Command"
 msgstr ""
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Create container"
 msgstr ""
 
-#: src/util.js:11 src/ContainerDetails.jsx:69 src/Images.jsx:152
+#: src/util.js:11 src/ContainerDetails.jsx:78 src/Images.jsx:152
 msgid "Created"
 msgstr ""
 
@@ -325,7 +325,7 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#: src/ContainerDetails.jsx:59
+#: src/ContainerDetails.jsx:68
 msgid "Gateway"
 msgstr ""
 
@@ -349,7 +349,7 @@ msgstr ""
 msgid "Host port (optional)"
 msgstr ""
 
-#: src/ContainerDetails.jsx:37 src/Images.jsx:153
+#: src/ContainerDetails.jsx:46 src/Images.jsx:153
 msgid "ID"
 msgstr ""
 
@@ -357,7 +357,7 @@ msgstr ""
 msgid "IP (optional)"
 msgstr ""
 
-#: src/ContainerDetails.jsx:55
+#: src/ContainerDetails.jsx:64
 msgid "IP address"
 msgstr ""
 
@@ -369,7 +369,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ImageRunModal.jsx:361 src/ContainerDetails.jsx:41 src/Images.jsx:150
+#: src/ImageRunModal.jsx:361 src/ContainerDetails.jsx:50 src/Images.jsx:150
 msgid "Image"
 msgstr ""
 
@@ -413,7 +413,7 @@ msgstr ""
 msgid "Logs"
 msgstr ""
 
-#: src/ContainerDetails.jsx:63
+#: src/ContainerDetails.jsx:72
 msgid "MAC address"
 msgstr ""
 
@@ -542,7 +542,7 @@ msgstr ""
 msgid "Podman service is not active"
 msgstr ""
 
-#: src/ImageRunModal.jsx:430 src/ContainerDetails.jsx:51
+#: src/ImageRunModal.jsx:430 src/ContainerDetails.jsx:60
 #: src/ImageDetails.jsx:39
 msgid "Ports"
 msgstr ""
@@ -651,7 +651,7 @@ msgstr ""
 msgid "Start podman"
 msgstr ""
 
-#: src/Containers.jsx:351 src/ContainerDetails.jsx:73
+#: src/Containers.jsx:351 src/ContainerDetails.jsx:82
 msgid "State"
 msgstr ""
 
