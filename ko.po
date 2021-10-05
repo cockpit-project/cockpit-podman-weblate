@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-04 15:37+0000\n"
-"PO-Revision-Date: 2021-09-19 19:05+0000\n"
+"PO-Revision-Date: 2021-10-06 19:05+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,17 +41,15 @@ msgstr "빌드 변수에 추가"
 
 #: src/ImageRunModal.jsx:462
 msgid "Add port mapping"
-msgstr ""
+msgstr "포트 대응을 추가합니다"
 
 #: src/ImageRunModal.jsx:481
-#, fuzzy
-#| msgid "Add on build variable"
 msgid "Add variable"
-msgstr "빌드 변수에 추가"
+msgstr "변수를 추가합니다"
 
 #: src/ImageRunModal.jsx:471
 msgid "Add volume"
-msgstr ""
+msgstr "볼륨 추가"
 
 #: src/Containers.jsx:433 src/ContainerHeader.jsx:49
 msgid "All"
@@ -209,10 +207,8 @@ msgid "Entrypoint"
 msgstr "시작점"
 
 #: src/ImageRunModal.jsx:480
-#, fuzzy
-#| msgid "Environment"
 msgid "Environment variables"
-msgstr "환경"
+msgstr "환경 변수"
 
 #: src/util.js:11
 msgid "Error"
@@ -343,16 +339,12 @@ msgid "Host path"
 msgstr "호스트 경로"
 
 #: src/ImageRunModal.jsx:61
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "호스트 경로"
+msgstr "호스트 포트"
 
 #: src/ImageRunModal.jsx:64
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port help"
-msgstr "호스트 경로"
+msgstr "호스트 포트 도움말"
 
 #: src/ContainerDetails.jsx:46 src/Images.jsx:153
 msgid "ID"
@@ -363,22 +355,20 @@ msgid "IP address"
 msgstr "IP 주소"
 
 #: src/ImageRunModal.jsx:48
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP 주소"
+msgstr "IP 주소 도움말"
 
 #: src/ImageRunModal.jsx:50
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
-msgstr ""
+msgstr "만약 호스트 IP가 0.0.0.0으로 설정되거나 또는 전혀 설정되지 않으면, 포트는 호스트의 모든 IP에서 묶이게 됩니다."
 
 #: src/ImageRunModal.jsx:66
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
-msgstr ""
+msgstr "만약 호스트 포트가 컨테이너에 설정되어 있지 않으면, 포트는 호스트에서 임의 지정된 포트가 됩니다."
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
@@ -486,7 +476,7 @@ msgstr "현재 필터에 일치하는 컨테이너가 없습니다"
 
 #: src/ImageRunModal.jsx:478
 msgid "No environment variables specified"
-msgstr ""
+msgstr "지정된 환경 변수가 없습니다"
 
 #: src/Images.jsx:158
 msgid "No images"
@@ -501,14 +491,12 @@ msgid "No images that match the current filter"
 msgstr "현재 필터에 일치하는 이미지가 없습니다"
 
 #: src/ImageRunModal.jsx:163
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "No label"
-msgstr "SELinux 이름표가 없습니다"
+msgstr "이름표가 없습니다"
 
 #: src/ImageRunModal.jsx:459
 msgid "No ports exposed"
-msgstr ""
+msgstr "노출된 포트가 없습니다"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
@@ -520,7 +508,7 @@ msgstr "실행 중인 컨테이너가 없습니다"
 
 #: src/ImageRunModal.jsx:468
 msgid "No volumes specified"
-msgstr ""
+msgstr "지정된 볼륨이 없습니다"
 
 #: src/Containers.jsx:432
 msgid "Only running"
@@ -577,7 +565,7 @@ msgstr "포드맨 서비스가 동작하지 않습니다"
 
 #: src/ImageRunModal.jsx:461
 msgid "Port mapping"
-msgstr ""
+msgstr "포트 대응"
 
 #: src/ContainerDetails.jsx:60 src/ImageDetails.jsx:39
 msgid "Ports"
@@ -629,10 +617,8 @@ msgid "Running"
 msgstr "작동중"
 
 #: src/ImageRunModal.jsx:159
-#, fuzzy
-#| msgid "SELinux label"
 msgid "SELinux"
-msgstr "SELinux 이름표"
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
@@ -760,7 +746,7 @@ msgstr "터미널 포함"
 
 #: src/ImageRunModal.jsx:154
 msgid "Writable"
-msgstr ""
+msgstr "쓰기 가능"
 
 #: src/util.js:8
 msgid "configured"
