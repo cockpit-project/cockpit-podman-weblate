@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-04 15:37+0000\n"
-"PO-Revision-Date: 2021-09-19 19:05+0000\n"
+"PO-Revision-Date: 2021-10-06 19:05+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -47,17 +47,15 @@ msgstr "Додати змінну збирання"
 
 #: src/ImageRunModal.jsx:462
 msgid "Add port mapping"
-msgstr ""
+msgstr "Додати прив'язку портів"
 
 #: src/ImageRunModal.jsx:481
-#, fuzzy
-#| msgid "Add on build variable"
 msgid "Add variable"
-msgstr "Додати змінну збирання"
+msgstr "Додати змінну"
 
 #: src/ImageRunModal.jsx:471
 msgid "Add volume"
-msgstr ""
+msgstr "Додати том"
 
 #: src/Containers.jsx:433 src/ContainerHeader.jsx:49
 msgid "All"
@@ -217,10 +215,8 @@ msgid "Entrypoint"
 msgstr "Точка входження"
 
 #: src/ImageRunModal.jsx:480
-#, fuzzy
-#| msgid "Environment"
 msgid "Environment variables"
-msgstr "Середовище"
+msgstr "Змінні середовища"
 
 #: src/util.js:11
 msgid "Error"
@@ -351,16 +347,12 @@ msgid "Host path"
 msgstr "Шлях у основній системі"
 
 #: src/ImageRunModal.jsx:61
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "Шлях у основній системі"
+msgstr "Порт в основній системі"
 
 #: src/ImageRunModal.jsx:64
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port help"
-msgstr "Шлях у основній системі"
+msgstr "Довідка щодо порту в основній системі"
 
 #: src/ContainerDetails.jsx:46 src/Images.jsx:153
 msgid "ID"
@@ -371,22 +363,25 @@ msgid "IP address"
 msgstr "IP-адреса"
 
 #: src/ImageRunModal.jsx:48
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP-адреса"
+msgstr "Довідка щодо IP-адреси"
 
 #: src/ImageRunModal.jsx:50
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Якщо встановлено IP-адресу основної системи 0.0.0.0 або адресу не "
+"встановлено взагалі, порт буде пов'язано із усіма IP-адресами в основній "
+"системі."
 
 #: src/ImageRunModal.jsx:66
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
 msgstr ""
+"Якщо порт в основній системі не встановлено, порт контейнера буде випадковим "
+"чином пов'язано із портом в основній системі."
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
@@ -496,7 +491,7 @@ msgstr "Немає контейнерів, які проходять поточ�
 
 #: src/ImageRunModal.jsx:478
 msgid "No environment variables specified"
-msgstr ""
+msgstr "Змінних середовища не визначено"
 
 #: src/Images.jsx:158
 msgid "No images"
@@ -511,14 +506,12 @@ msgid "No images that match the current filter"
 msgstr "Немає образів, які проходять поточні умови фільтрування"
 
 #: src/ImageRunModal.jsx:163
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "No label"
-msgstr "Без мітки SELinux"
+msgstr "Немає мітки"
 
 #: src/ImageRunModal.jsx:459
 msgid "No ports exposed"
-msgstr ""
+msgstr "Не відкрито жодного порту"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
@@ -530,7 +523,7 @@ msgstr "Немає запущених контейнерів"
 
 #: src/ImageRunModal.jsx:468
 msgid "No volumes specified"
-msgstr ""
+msgstr "Томів не визначено"
 
 #: src/Containers.jsx:432
 msgid "Only running"
@@ -587,7 +580,7 @@ msgstr "Служба Podman є неактивною"
 
 #: src/ImageRunModal.jsx:461
 msgid "Port mapping"
-msgstr ""
+msgstr "Прив'язка портів"
 
 #: src/ContainerDetails.jsx:60 src/ImageDetails.jsx:39
 msgid "Ports"
@@ -639,10 +632,8 @@ msgid "Running"
 msgstr "Запущено"
 
 #: src/ImageRunModal.jsx:159
-#, fuzzy
-#| msgid "SELinux label"
 msgid "SELinux"
-msgstr "Мітка SELinux"
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
@@ -770,7 +761,7 @@ msgstr "За допомогою термінала"
 
 #: src/ImageRunModal.jsx:154
 msgid "Writable"
-msgstr ""
+msgstr "Придатний до запису"
 
 #: src/util.js:8
 msgid "configured"
