@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-04 15:37+0000\n"
-"PO-Revision-Date: 2021-09-19 19:05+0000\n"
+"PO-Revision-Date: 2021-10-06 19:05+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,17 +43,15 @@ msgstr "Yapım değişkeninde ekle"
 
 #: src/ImageRunModal.jsx:462
 msgid "Add port mapping"
-msgstr ""
+msgstr "Bağlantı noktası eşlemesi ekle"
 
 #: src/ImageRunModal.jsx:481
-#, fuzzy
-#| msgid "Add on build variable"
 msgid "Add variable"
-msgstr "Yapım değişkeninde ekle"
+msgstr "Değişken ekle"
 
 #: src/ImageRunModal.jsx:471
 msgid "Add volume"
-msgstr ""
+msgstr "Birim ekle"
 
 #: src/Containers.jsx:433 src/ContainerHeader.jsx:49
 msgid "All"
@@ -211,10 +209,8 @@ msgid "Entrypoint"
 msgstr "Giriş noktası"
 
 #: src/ImageRunModal.jsx:480
-#, fuzzy
-#| msgid "Environment"
 msgid "Environment variables"
-msgstr "Ortam"
+msgstr "Ortam değişkenleri"
 
 #: src/util.js:11
 msgid "Error"
@@ -345,16 +341,12 @@ msgid "Host path"
 msgstr "Anamakine yolu"
 
 #: src/ImageRunModal.jsx:61
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "Anamakine yolu"
+msgstr "Anamakine bağlantı noktası"
 
 #: src/ImageRunModal.jsx:64
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port help"
-msgstr "Anamakine yolu"
+msgstr "Anamakine b.noktası yardım"
 
 #: src/ContainerDetails.jsx:46 src/Images.jsx:153
 msgid "ID"
@@ -365,22 +357,24 @@ msgid "IP address"
 msgstr "IP adresi"
 
 #: src/ImageRunModal.jsx:48
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP adresi"
+msgstr "IP adresi yardım"
 
 #: src/ImageRunModal.jsx:50
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Eğer anamakine IP'si 0.0.0.0 olarak ayarlanırsa veya hiç ayarlanmazsa, "
+"bağlantı noktası anamakinedeki tüm IP'lere bağlanır."
 
 #: src/ImageRunModal.jsx:66
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
 msgstr ""
+"Eğer anamakine bağlantı noktası ayarlanmazsa, kapsayıcı bağlantı noktası "
+"anamakinede rastgele bir bağlantı noktasına atanacaktır."
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
@@ -490,7 +484,7 @@ msgstr "Şu anki süzgeçle eşleşen konteynerler yok"
 
 #: src/ImageRunModal.jsx:478
 msgid "No environment variables specified"
-msgstr ""
+msgstr "Belirtilen ortam değişkenleri yok"
 
 #: src/Images.jsx:158
 msgid "No images"
@@ -505,14 +499,12 @@ msgid "No images that match the current filter"
 msgstr "Şu anki süzgeçle eşleşen kalıplar yok"
 
 #: src/ImageRunModal.jsx:163
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "No label"
-msgstr "SELinux etiketi yok"
+msgstr "Etiket yok"
 
 #: src/ImageRunModal.jsx:459
 msgid "No ports exposed"
-msgstr ""
+msgstr "Açığa çıkan bağlantı noktaları yok"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
@@ -524,7 +516,7 @@ msgstr "Çalışan konteyner yok"
 
 #: src/ImageRunModal.jsx:468
 msgid "No volumes specified"
-msgstr ""
+msgstr "Belirtilen birimler yok"
 
 #: src/Containers.jsx:432
 msgid "Only running"
@@ -581,7 +573,7 @@ msgstr "Podman hizmeti etkin değil"
 
 #: src/ImageRunModal.jsx:461
 msgid "Port mapping"
-msgstr ""
+msgstr "Bağlantı noktası eşleme"
 
 #: src/ContainerDetails.jsx:60 src/ImageDetails.jsx:39
 msgid "Ports"
@@ -633,10 +625,8 @@ msgid "Running"
 msgstr "Çalışıyor"
 
 #: src/ImageRunModal.jsx:159
-#, fuzzy
-#| msgid "SELinux label"
 msgid "SELinux"
-msgstr "SELinux etiketi"
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
@@ -764,7 +754,7 @@ msgstr "Terminal ile"
 
 #: src/ImageRunModal.jsx:154
 msgid "Writable"
-msgstr ""
+msgstr "Yazılabilir"
 
 #: src/util.js:8
 msgid "configured"
