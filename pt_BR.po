@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-04 15:37+0000\n"
+"POT-Creation-Date: 2021-10-05 18:26+0000\n"
 "PO-Revision-Date: 2020-08-25 16:29+0000\n"
 "Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -46,17 +46,17 @@ msgstr[1] ""
 msgid "Add on build variable"
 msgstr "Adicionar variável de construção"
 
-#: src/ImageRunModal.jsx:462
+#: src/ImageRunModal.jsx:463
 msgid "Add port mapping"
 msgstr ""
 
-#: src/ImageRunModal.jsx:481
+#: src/ImageRunModal.jsx:482
 #, fuzzy
 #| msgid "Add on build variable"
 msgid "Add variable"
 msgstr "Adicionar variável de construção"
 
-#: src/ImageRunModal.jsx:471
+#: src/ImageRunModal.jsx:472
 msgid "Add volume"
 msgstr ""
 
@@ -84,12 +84,12 @@ msgstr "Iniciar podman automaticamente na inicialização"
 msgid "CPU"
 msgstr "CPU"
 
-#: src/ImageRunModal.jsx:436
+#: src/ImageRunModal.jsx:437
 msgid "CPU shares"
 msgstr "Divisão de CPU"
 
 #: src/ImageDeleteModal.jsx:62 src/ContainerRestoreModal.jsx:40
-#: src/ImageRunModal.jsx:500 src/ImageSearchModal.jsx:213
+#: src/ImageRunModal.jsx:501 src/ImageSearchModal.jsx:213
 #: src/ContainerCheckpointModal.jsx:38 src/ContainerCommitModal.jsx:222
 #: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:15
 #: src/PodActions.jsx:159
@@ -106,7 +106,7 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr "Falha ao efetivar contêiner $0"
 
-#: src/ImageRunModal.jsx:395 src/ImageRunModal.jsx:397
+#: src/ImageRunModal.jsx:396 src/ImageRunModal.jsx:398
 #: src/ContainerDetails.jsx:54 src/ContainerCommitModal.jsx:182
 #: src/ImageDetails.jsx:15
 msgid "Command"
@@ -130,11 +130,11 @@ msgstr "Console"
 msgid "Container"
 msgstr "Contêineres"
 
-#: src/ImageRunModal.jsx:351
+#: src/ImageRunModal.jsx:352
 msgid "Container failed to be created"
 msgstr "Criação do contêiner falhou"
 
-#: src/ImageRunModal.jsx:341
+#: src/ImageRunModal.jsx:342
 #, fuzzy
 #| msgid "Container failed to be created"
 msgid "Container failed to be started"
@@ -148,7 +148,7 @@ msgstr "Contêiner está em execução."
 msgid "Container is not running"
 msgstr "Contêiner não está em execução"
 
-#: src/ImageRunModal.jsx:383 src/ContainerCommitModal.jsx:139
+#: src/ImageRunModal.jsx:384 src/ContainerCommitModal.jsx:139
 msgid "Container name"
 msgstr "Nome do contêiner"
 
@@ -164,13 +164,13 @@ msgstr "Porta do contêiner"
 msgid "Containers"
 msgstr "Contêineres"
 
-#: src/ImageRunModal.jsx:497
+#: src/ImageRunModal.jsx:498
 #, fuzzy
 #| msgid "Created"
 msgid "Create"
 msgstr "Criado"
 
-#: src/ImageRunModal.jsx:493 src/Images.jsx:357
+#: src/ImageRunModal.jsx:494 src/Images.jsx:357
 #, fuzzy
 #| msgid "Pause the container"
 msgid "Create container"
@@ -203,7 +203,7 @@ msgstr "Excluir um contêiner irá apagar todos os dados que ele contém."
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/Containers.jsx:316 src/ImageRunModal.jsx:390 src/Images.jsx:128
+#: src/Containers.jsx:316 src/ImageRunModal.jsx:391 src/Images.jsx:128
 msgid "Details"
 msgstr "Detalhes"
 
@@ -229,7 +229,7 @@ msgstr "Baixar como:"
 msgid "Entrypoint"
 msgstr "Ponto de entrada"
 
-#: src/ImageRunModal.jsx:480
+#: src/ImageRunModal.jsx:481
 #, fuzzy
 #| msgid "Environment"
 msgid "Environment variables"
@@ -369,7 +369,7 @@ msgstr "Formato"
 msgid "Gateway"
 msgstr ""
 
-#: src/ImageRunModal.jsx:430
+#: src/ImageRunModal.jsx:431
 msgid "GiB"
 msgstr "GiB"
 
@@ -431,7 +431,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ImageRunModal.jsx:391 src/ContainerDetails.jsx:50 src/Images.jsx:150
+#: src/ImageRunModal.jsx:392 src/ContainerDetails.jsx:50 src/Images.jsx:150
 msgid "Image"
 msgstr "Imagem"
 
@@ -443,7 +443,7 @@ msgstr "Nome da imagem"
 msgid "Images"
 msgstr "Imagens"
 
-#: src/ImageRunModal.jsx:456
+#: src/ImageRunModal.jsx:457
 msgid "Integration"
 msgstr ""
 
@@ -455,7 +455,7 @@ msgstr ""
 msgid "Key"
 msgstr "Chave"
 
-#: src/ImageRunModal.jsx:428
+#: src/ImageRunModal.jsx:429
 msgid "KiB"
 msgstr "KiB"
 
@@ -485,11 +485,11 @@ msgstr ""
 msgid "Memory"
 msgstr "Memória"
 
-#: src/ImageRunModal.jsx:409
+#: src/ImageRunModal.jsx:410
 msgid "Memory limit"
 msgstr "Limite de memória"
 
-#: src/ImageRunModal.jsx:423
+#: src/ImageRunModal.jsx:424
 #, fuzzy
 #| msgid "Memory limit"
 msgid "Memory unit"
@@ -499,7 +499,7 @@ msgstr "Limite de memória"
 msgid "Message"
 msgstr "Mensagem"
 
-#: src/ImageRunModal.jsx:429
+#: src/ImageRunModal.jsx:430
 msgid "MiB"
 msgstr "MiB"
 
@@ -511,7 +511,7 @@ msgstr ""
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageRunModal.jsx:381
+#: src/ImageRunModal.jsx:382
 msgid "Name"
 msgstr "Nome"
 
@@ -533,7 +533,7 @@ msgstr "Nenhum contêiner está usando está imagem"
 msgid "No containers that match the current filter"
 msgstr "Nenhum contêiner correspondente ao filtro atual"
 
-#: src/ImageRunModal.jsx:478
+#: src/ImageRunModal.jsx:479
 msgid "No environment variables specified"
 msgstr ""
 
@@ -555,7 +555,7 @@ msgstr "Nenhuma imagem correspondente ao filtro atual"
 msgid "No label"
 msgstr ""
 
-#: src/ImageRunModal.jsx:459
+#: src/ImageRunModal.jsx:460
 msgid "No ports exposed"
 msgstr ""
 
@@ -567,7 +567,7 @@ msgstr ""
 msgid "No running containers"
 msgstr "Nenhum contêiner em execução"
 
-#: src/ImageRunModal.jsx:468
+#: src/ImageRunModal.jsx:469
 msgid "No volumes specified"
 msgstr ""
 
@@ -632,7 +632,7 @@ msgstr "Contêineres podman"
 msgid "Podman service is not active"
 msgstr "Serviço podman não está ativo"
 
-#: src/ImageRunModal.jsx:461
+#: src/ImageRunModal.jsx:462
 msgid "Port mapping"
 msgstr ""
 
@@ -745,7 +745,7 @@ msgstr ""
 msgid "Start"
 msgstr "Iniciar"
 
-#: src/ImageRunModal.jsx:452
+#: src/ImageRunModal.jsx:453
 msgid "Start after creation"
 msgstr ""
 
@@ -827,12 +827,12 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: src/ImageRunModal.jsx:470
+#: src/ImageRunModal.jsx:471
 #, fuzzy
 msgid "Volumes"
 msgstr "Volumes"
 
-#: src/ImageRunModal.jsx:405
+#: src/ImageRunModal.jsx:406
 #, fuzzy
 msgid "With terminal"
 msgstr "Com terminal"
