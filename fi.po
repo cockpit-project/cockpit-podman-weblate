@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 18:26+0000\n"
+"POT-Creation-Date: 2021-10-08 08:52+0000\n"
 "PO-Revision-Date: 2021-10-06 19:05+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -54,7 +54,7 @@ msgstr "Lisää muuttuja"
 msgid "Add volume"
 msgstr "Lisää taltio"
 
-#: src/Containers.jsx:433 src/ContainerHeader.jsx:49
+#: src/ContainerHeader.jsx:49 src/Containers.jsx:433
 msgid "All"
 msgstr "Kaikki"
 
@@ -82,15 +82,15 @@ msgstr "Suoritin"
 msgid "CPU shares"
 msgstr "CPU jaot"
 
-#: src/ImageDeleteModal.jsx:62 src/ContainerRestoreModal.jsx:40
-#: src/ImageRunModal.jsx:501 src/ImageSearchModal.jsx:213
-#: src/ContainerCheckpointModal.jsx:38 src/ContainerCommitModal.jsx:222
-#: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:15
-#: src/PodActions.jsx:159
+#: src/ContainerDeleteModal.jsx:15 src/ImageRunModal.jsx:501
+#: src/ImageDeleteModal.jsx:62 src/ForceRemoveModal.jsx:21
+#: src/PodActions.jsx:159 src/ContainerCommitModal.jsx:222
+#: src/ContainerRestoreModal.jsx:40 src/ImageSearchModal.jsx:213
+#: src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/Containers.jsx:189 src/ContainerCheckpointModal.jsx:34
+#: src/ContainerCheckpointModal.jsx:34 src/Containers.jsx:189
 msgid "Checkpoint"
 msgstr "Tarkistuspiste"
 
@@ -99,12 +99,12 @@ msgid "Checkpoint container $0"
 msgstr "Tarkistuspiste kontti $0"
 
 #: src/ImageRunModal.jsx:396 src/ImageRunModal.jsx:398
-#: src/ContainerDetails.jsx:54 src/ContainerCommitModal.jsx:182
-#: src/ImageDetails.jsx:15
+#: src/ContainerCommitModal.jsx:182 src/ImageDetails.jsx:15
+#: src/ContainerDetails.jsx:54
 msgid "Command"
 msgstr "Komento"
 
-#: src/Containers.jsx:198 src/ContainerCommitModal.jsx:216
+#: src/ContainerCommitModal.jsx:216 src/Containers.jsx:198
 msgid "Commit"
 msgstr "Tehdä"
 
@@ -160,12 +160,12 @@ msgstr "Luo"
 msgid "Create container"
 msgstr "Luo kontti"
 
-#: src/util.js:11 src/ContainerDetails.jsx:78 src/Images.jsx:152
+#: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:78
 msgid "Created"
 msgstr "Luotu"
 
-#: src/Containers.jsx:206 src/Images.jsx:370 src/ContainerDeleteModal.jsx:14
-#: src/PodActions.jsx:138 src/PodActions.jsx:158
+#: src/ContainerDeleteModal.jsx:14 src/PodActions.jsx:138
+#: src/PodActions.jsx:158 src/Images.jsx:370 src/Containers.jsx:206
 msgid "Delete"
 msgstr "Poista"
 
@@ -185,7 +185,7 @@ msgstr "Kontin poistaminen tuhoaa kaiken sillä olevan datan."
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Tämän podin poisto poistaa seuraavat kontit:"
 
-#: src/Containers.jsx:316 src/ImageRunModal.jsx:391 src/Images.jsx:128
+#: src/ImageRunModal.jsx:391 src/Images.jsx:128 src/Containers.jsx:316
 msgid "Details"
 msgstr "Yksityiskohdat"
 
@@ -313,7 +313,7 @@ msgstr "Pakota poisto"
 msgid "Force restart"
 msgstr "Pakota uudelleenkäynnistys"
 
-#: src/Containers.jsx:181 src/PodActions.jsx:72
+#: src/PodActions.jsx:72 src/Containers.jsx:181
 msgid "Force stop"
 msgstr "Pakota pysäytys"
 
@@ -349,7 +349,7 @@ msgstr "Koneen portti"
 msgid "Host port help"
 msgstr "Koneen portti ohjeita"
 
-#: src/ContainerDetails.jsx:46 src/Images.jsx:153
+#: src/Images.jsx:153 src/ContainerDetails.jsx:46
 msgid "ID"
 msgstr "TUNNISTE"
 
@@ -385,7 +385,7 @@ msgstr "Ohita IP-osoite, jos se on asetettu staattisesti"
 msgid "Ignore MAC address if set statically"
 msgstr "Ohita MAC-osoite, jos se on asetettu staattisesti"
 
-#: src/ImageRunModal.jsx:392 src/ContainerDetails.jsx:50 src/Images.jsx:150
+#: src/ImageRunModal.jsx:392 src/Images.jsx:150 src/ContainerDetails.jsx:50
 msgid "Image"
 msgstr "Levykuva"
 
@@ -523,8 +523,8 @@ msgstr "Taltiota ei ole määritelty"
 msgid "Only running"
 msgstr "Vain käynnissä olevat"
 
-#: src/Containers.jsx:348 src/ImageSearchModal.jsx:130 src/Images.jsx:151
-#: src/ContainerHeader.jsx:43
+#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:130 src/Images.jsx:151
+#: src/Containers.jsx:348
 msgid "Owner"
 msgstr "omistaja"
 
@@ -576,7 +576,7 @@ msgstr "Podman-palvelu ei ole aktiivinen"
 msgid "Port mapping"
 msgstr "Portin kartoitus"
 
-#: src/ContainerDetails.jsx:60 src/ImageDetails.jsx:39
+#: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:60
 msgid "Ports"
 msgstr "Portit"
 
@@ -601,7 +601,7 @@ msgstr "Poista kohde"
 msgid "Remove on build variable"
 msgstr "Poista koontimuuttujalla"
 
-#: src/Containers.jsx:169 src/PodActions.jsx:83
+#: src/PodActions.jsx:83 src/Containers.jsx:169
 msgid "Restart"
 msgstr "Käynnistä uudelleen"
 
@@ -621,7 +621,7 @@ msgstr "Palauta käyttäen luotuja TCP-yhteyksiä"
 msgid "Resume"
 msgstr "Jatka"
 
-#: src/ImageUsedBy.jsx:32 src/util.js:11
+#: src/util.js:11 src/ImageUsedBy.jsx:32
 msgid "Running"
 msgstr "Käynnissä"
 
@@ -665,7 +665,7 @@ msgstr "Näytä levykuvat"
 msgid "Show intermediate images"
 msgstr "Näytä välivaiheen levykuvat"
 
-#: src/app.jsx:614 src/Containers.jsx:153 src/PodActions.jsx:98
+#: src/PodActions.jsx:98 src/app.jsx:614 src/Containers.jsx:153
 msgid "Start"
 msgstr "Käynnistä"
 
@@ -677,11 +677,11 @@ msgstr "Käynnistä luomisen jälkeen"
 msgid "Start podman"
 msgstr "Käynnistä podman"
 
-#: src/Containers.jsx:351 src/ContainerDetails.jsx:82
+#: src/ContainerDetails.jsx:82 src/Containers.jsx:351
 msgid "State"
 msgstr "Tila"
 
-#: src/Containers.jsx:177 src/PodActions.jsx:61
+#: src/PodActions.jsx:61 src/Containers.jsx:177
 msgid "Stop"
 msgstr "Pysäytä"
 
@@ -705,7 +705,7 @@ msgstr "Järjestelmän Podman-palvelu on myös saatavilla"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ImageSearchModal.jsx:200 src/ContainerCommitModal.jsx:164
+#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:200
 msgid "Tag"
 msgstr "Tunniste"
 
@@ -729,7 +729,7 @@ msgstr "UDP"
 msgid "Up since $0"
 msgstr "Käynnissä $0 lähtien"
 
-#: src/Images.jsx:155 src/ImageDetails.jsx:33
+#: src/ImageDetails.jsx:33 src/Images.jsx:155
 msgid "Used by"
 msgstr "Käyttävä"
 
@@ -817,7 +817,7 @@ msgstr "valitse kaikki"
 msgid "stopped"
 msgstr "pysäytetty"
 
-#: src/Containers.jsx:306 src/ImageSearchModal.jsx:131 src/Images.jsx:116
+#: src/ImageSearchModal.jsx:131 src/Images.jsx:116 src/Containers.jsx:306
 msgid "system"
 msgstr "järjestelmä"
 
@@ -825,7 +825,7 @@ msgstr "järjestelmä"
 msgid "unused"
 msgstr "ei käytössä"
 
-#: src/Containers.jsx:306 src/Images.jsx:116
+#: src/Images.jsx:116 src/Containers.jsx:306
 msgid "user:"
 msgstr "käyttäjä:"
 

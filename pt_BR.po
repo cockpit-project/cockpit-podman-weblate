@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 18:26+0000\n"
+"POT-Creation-Date: 2021-10-08 08:52+0000\n"
 "PO-Revision-Date: 2020-08-25 16:29+0000\n"
 "Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -60,7 +60,7 @@ msgstr "Adicionar variável de construção"
 msgid "Add volume"
 msgstr ""
 
-#: src/Containers.jsx:433 src/ContainerHeader.jsx:49
+#: src/ContainerHeader.jsx:49 src/Containers.jsx:433
 msgid "All"
 msgstr "Todos"
 
@@ -88,15 +88,15 @@ msgstr "CPU"
 msgid "CPU shares"
 msgstr "Divisão de CPU"
 
-#: src/ImageDeleteModal.jsx:62 src/ContainerRestoreModal.jsx:40
-#: src/ImageRunModal.jsx:501 src/ImageSearchModal.jsx:213
-#: src/ContainerCheckpointModal.jsx:38 src/ContainerCommitModal.jsx:222
-#: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:15
-#: src/PodActions.jsx:159
+#: src/ContainerDeleteModal.jsx:15 src/ImageRunModal.jsx:501
+#: src/ImageDeleteModal.jsx:62 src/ForceRemoveModal.jsx:21
+#: src/PodActions.jsx:159 src/ContainerCommitModal.jsx:222
+#: src/ContainerRestoreModal.jsx:40 src/ImageSearchModal.jsx:213
+#: src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/Containers.jsx:189 src/ContainerCheckpointModal.jsx:34
+#: src/ContainerCheckpointModal.jsx:34 src/Containers.jsx:189
 msgid "Checkpoint"
 msgstr ""
 
@@ -107,12 +107,12 @@ msgid "Checkpoint container $0"
 msgstr "Falha ao efetivar contêiner $0"
 
 #: src/ImageRunModal.jsx:396 src/ImageRunModal.jsx:398
-#: src/ContainerDetails.jsx:54 src/ContainerCommitModal.jsx:182
-#: src/ImageDetails.jsx:15
+#: src/ContainerCommitModal.jsx:182 src/ImageDetails.jsx:15
+#: src/ContainerDetails.jsx:54
 msgid "Command"
 msgstr "Comando"
 
-#: src/Containers.jsx:198 src/ContainerCommitModal.jsx:216
+#: src/ContainerCommitModal.jsx:216 src/Containers.jsx:198
 msgid "Commit"
 msgstr "Commit"
 
@@ -176,12 +176,12 @@ msgstr "Criado"
 msgid "Create container"
 msgstr "Pausar o contêiner"
 
-#: src/util.js:11 src/ContainerDetails.jsx:78 src/Images.jsx:152
+#: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:78
 msgid "Created"
 msgstr "Criado"
 
-#: src/Containers.jsx:206 src/Images.jsx:370 src/ContainerDeleteModal.jsx:14
-#: src/PodActions.jsx:138 src/PodActions.jsx:158
+#: src/ContainerDeleteModal.jsx:14 src/PodActions.jsx:138
+#: src/PodActions.jsx:158 src/Images.jsx:370 src/Containers.jsx:206
 msgid "Delete"
 msgstr "Excluir"
 
@@ -203,7 +203,7 @@ msgstr "Excluir um contêiner irá apagar todos os dados que ele contém."
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/Containers.jsx:316 src/ImageRunModal.jsx:391 src/Images.jsx:128
+#: src/ImageRunModal.jsx:391 src/Images.jsx:128 src/Containers.jsx:316
 msgid "Details"
 msgstr "Detalhes"
 
@@ -357,7 +357,7 @@ msgstr "Forçar remoção"
 msgid "Force restart"
 msgstr "Forçar reinício"
 
-#: src/Containers.jsx:181 src/PodActions.jsx:72
+#: src/PodActions.jsx:72 src/Containers.jsx:181
 msgid "Force stop"
 msgstr "Forçar parada"
 
@@ -399,7 +399,7 @@ msgstr "Caminho do host"
 msgid "Host port help"
 msgstr "Caminho do host"
 
-#: src/ContainerDetails.jsx:46 src/Images.jsx:153
+#: src/Images.jsx:153 src/ContainerDetails.jsx:46
 msgid "ID"
 msgstr "ID"
 
@@ -431,7 +431,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ImageRunModal.jsx:392 src/ContainerDetails.jsx:50 src/Images.jsx:150
+#: src/ImageRunModal.jsx:392 src/Images.jsx:150 src/ContainerDetails.jsx:50
 msgid "Image"
 msgstr "Imagem"
 
@@ -575,8 +575,8 @@ msgstr ""
 msgid "Only running"
 msgstr ""
 
-#: src/Containers.jsx:348 src/ImageSearchModal.jsx:130 src/Images.jsx:151
-#: src/ContainerHeader.jsx:43
+#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:130 src/Images.jsx:151
+#: src/Containers.jsx:348
 msgid "Owner"
 msgstr "Proprietário"
 
@@ -636,7 +636,7 @@ msgstr "Serviço podman não está ativo"
 msgid "Port mapping"
 msgstr ""
 
-#: src/ContainerDetails.jsx:60 src/ImageDetails.jsx:39
+#: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:60
 msgid "Ports"
 msgstr "Portas"
 
@@ -663,7 +663,7 @@ msgstr ""
 msgid "Remove on build variable"
 msgstr "Definir contêiner nas variáveis de construção"
 
-#: src/Containers.jsx:169 src/PodActions.jsx:83
+#: src/PodActions.jsx:83 src/Containers.jsx:169
 msgid "Restart"
 msgstr "Reiniciar"
 
@@ -687,7 +687,7 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/ImageUsedBy.jsx:32 src/util.js:11
+#: src/util.js:11 src/ImageUsedBy.jsx:32
 msgid "Running"
 msgstr ""
 
@@ -741,7 +741,7 @@ msgstr "Nenhuma imagem"
 msgid "Show intermediate images"
 msgstr ""
 
-#: src/app.jsx:614 src/Containers.jsx:153 src/PodActions.jsx:98
+#: src/PodActions.jsx:98 src/app.jsx:614 src/Containers.jsx:153
 msgid "Start"
 msgstr "Iniciar"
 
@@ -753,11 +753,11 @@ msgstr ""
 msgid "Start podman"
 msgstr "Iniciar podman"
 
-#: src/Containers.jsx:351 src/ContainerDetails.jsx:82
+#: src/ContainerDetails.jsx:82 src/Containers.jsx:351
 msgid "State"
 msgstr "Estado"
 
-#: src/Containers.jsx:177 src/PodActions.jsx:61
+#: src/PodActions.jsx:61 src/Containers.jsx:177
 msgid "Stop"
 msgstr "Parar"
 
@@ -783,7 +783,7 @@ msgstr ""
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ImageSearchModal.jsx:200 src/ContainerCommitModal.jsx:164
+#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:200
 msgid "Tag"
 msgstr "Etiqueta"
 
@@ -810,7 +810,7 @@ msgstr "UDP"
 msgid "Up since $0"
 msgstr "Executando desde $0"
 
-#: src/Images.jsx:155 src/ImageDetails.jsx:33
+#: src/ImageDetails.jsx:33 src/Images.jsx:155
 #, fuzzy
 msgid "Used by"
 msgstr "Usado por"
@@ -915,7 +915,7 @@ msgstr ""
 msgid "stopped"
 msgstr ""
 
-#: src/Containers.jsx:306 src/ImageSearchModal.jsx:131 src/Images.jsx:116
+#: src/ImageSearchModal.jsx:131 src/Images.jsx:116 src/Containers.jsx:306
 #, fuzzy
 msgid "system"
 msgstr "sistema"
@@ -926,7 +926,7 @@ msgstr "sistema"
 msgid "unused"
 msgstr "Pausar"
 
-#: src/Containers.jsx:306 src/Images.jsx:116
+#: src/Images.jsx:116 src/Containers.jsx:306
 #, fuzzy
 msgid "user:"
 msgstr "usuário"
