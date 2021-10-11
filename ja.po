@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 08:52+0000\n"
-"PO-Revision-Date: 2021-07-14 13:49+0000\n"
+"PO-Revision-Date: 2021-10-11 05:31+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ja/>\n"
@@ -18,24 +18,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:73
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "コンテナー"
+msgstr[0] "$0 コンテナー"
 
 #: src/Images.jsx:242
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
+msgstr[0] "$0 イメージ合計、$1"
 
 #: src/Images.jsx:246
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
+msgstr[0] "$0 の未使用イメージ、$1"
 
 #: src/ContainerCommitModal.jsx:133
 msgid "Add on build variable"
@@ -43,17 +41,15 @@ msgstr "ビルド変数の追加"
 
 #: src/ImageRunModal.jsx:463
 msgid "Add port mapping"
-msgstr ""
+msgstr "ポートマッピングの追加"
 
 #: src/ImageRunModal.jsx:482
-#, fuzzy
-#| msgid "Add on build variable"
 msgid "Add variable"
-msgstr "ビルド変数の追加"
+msgstr "変数の追加"
 
 #: src/ImageRunModal.jsx:472
 msgid "Add volume"
-msgstr ""
+msgstr "ボリュームの追加"
 
 #: src/ContainerHeader.jsx:49 src/Containers.jsx:433
 msgid "All"
@@ -154,16 +150,12 @@ msgid "Containers"
 msgstr "コンテナー"
 
 #: src/ImageRunModal.jsx:498
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "作成済み"
+msgstr "作成"
 
 #: src/ImageRunModal.jsx:494 src/Images.jsx:357
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "コンテナーの一時停止"
+msgstr "コンテナーの作成"
 
 #: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:78
 msgid "Created"
@@ -196,7 +188,7 @@ msgstr "詳細"
 
 #: src/Images.jsx:154
 msgid "Disk space"
-msgstr ""
+msgstr "ディスクの空き容量"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -207,20 +199,16 @@ msgid "Download"
 msgstr "ダウンロード"
 
 #: src/Images.jsx:300
-#, fuzzy
-#| msgid "Get new image"
 msgid "Download new image"
-msgstr "新規イメージの取得"
+msgstr "新規イメージのダウンロード"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
 msgstr "エントリーポイント"
 
 #: src/ImageRunModal.jsx:481
-#, fuzzy
-#| msgid "Environment"
 msgid "Environment variables"
-msgstr "環境"
+msgstr "環境変数"
 
 #: src/util.js:11
 msgid "Error"
@@ -339,10 +327,8 @@ msgid "GiB"
 msgstr "GiB"
 
 #: src/Images.jsx:265
-#, fuzzy
-#| msgid "No images"
 msgid "Hide images"
-msgstr "イメージなし"
+msgstr "イメージを非表示"
 
 #: src/Images.jsx:224
 msgid "Hide intermediate images"
@@ -353,16 +339,12 @@ msgid "Host path"
 msgstr "ホストパス"
 
 #: src/ImageRunModal.jsx:61
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "ホストパス"
+msgstr "ホストポート"
 
 #: src/ImageRunModal.jsx:64
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port help"
-msgstr "ホストパス"
+msgstr "ホストポートヘルプ"
 
 #: src/Images.jsx:153 src/ContainerDetails.jsx:46
 msgid "ID"
@@ -373,22 +355,20 @@ msgid "IP address"
 msgstr "IP アドレス"
 
 #: src/ImageRunModal.jsx:48
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP アドレス"
+msgstr "IP アドレスヘルプ"
 
 #: src/ImageRunModal.jsx:50
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
-msgstr ""
+msgstr "ホスト IP が 0.0.0.0 に設定されているか、全く設定されていない場合、ポートはホスト上のすべての IP　にバインドされます。"
 
 #: src/ImageRunModal.jsx:66
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
-msgstr ""
+msgstr "ホストポートが設定されていない場合、コンテナーポーがホストでランダムに割り当てられます。"
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
@@ -412,7 +392,7 @@ msgstr "イメージ"
 
 #: src/ImageRunModal.jsx:457
 msgid "Integration"
-msgstr ""
+msgstr "インテグレーション"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -498,7 +478,7 @@ msgstr "現在のフィルターに一致するコンテナーがありません
 
 #: src/ImageRunModal.jsx:479
 msgid "No environment variables specified"
-msgstr ""
+msgstr "環境変数が指定されていません"
 
 #: src/Images.jsx:158
 msgid "No images"
@@ -513,14 +493,12 @@ msgid "No images that match the current filter"
 msgstr "現在のフィルターに一致するイメージがありません"
 
 #: src/ImageRunModal.jsx:163
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "No label"
-msgstr "SELinux ラベルがありません"
+msgstr "ラベルがありません"
 
 #: src/ImageRunModal.jsx:460
 msgid "No ports exposed"
-msgstr ""
+msgstr "開放されているポートはありません"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
@@ -532,7 +510,7 @@ msgstr "実行中のコンテナーはありません"
 
 #: src/ImageRunModal.jsx:469
 msgid "No volumes specified"
-msgstr ""
+msgstr "指定されているボリュームはありません"
 
 #: src/Containers.jsx:432
 msgid "Only running"
@@ -589,7 +567,7 @@ msgstr "Podman サービスがアクティブではありません"
 
 #: src/ImageRunModal.jsx:462
 msgid "Port mapping"
-msgstr ""
+msgstr "ポートマッピング"
 
 #: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:60
 msgid "Ports"
@@ -641,10 +619,8 @@ msgid "Running"
 msgstr "実行中"
 
 #: src/ImageRunModal.jsx:159
-#, fuzzy
-#| msgid "SELinux label"
 msgid "SELinux"
-msgstr "SELinux ラベル"
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
@@ -675,10 +651,8 @@ msgid "Show"
 msgstr "表示"
 
 #: src/Images.jsx:265
-#, fuzzy
-#| msgid "No images"
 msgid "Show images"
-msgstr "イメージなし"
+msgstr "イメージの表示"
 
 #: src/Images.jsx:224
 msgid "Show intermediate images"
@@ -690,7 +664,7 @@ msgstr "開始日"
 
 #: src/ImageRunModal.jsx:453
 msgid "Start after creation"
-msgstr ""
+msgstr "作成後に開始"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -774,7 +748,7 @@ msgstr "端末の使用"
 
 #: src/ImageRunModal.jsx:154
 msgid "Writable"
-msgstr ""
+msgstr "書き込み可能"
 
 #: src/util.js:8
 msgid "configured"
@@ -841,14 +815,12 @@ msgid "system"
 msgstr "システム"
 
 #: src/Images.jsx:69 src/Images.jsx:76
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "一時停止"
+msgstr "未使用"
 
 #: src/Images.jsx:116 src/Containers.jsx:306
 msgid "user:"
-msgstr ""
+msgstr "ユーザー:"
 
 #~ msgid "Add item"
 #~ msgstr "アイテムの追加"
