@@ -10,54 +10,50 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 08:52+0000\n"
-"PO-Revision-Date: 2021-05-05 14:02+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/master/fr/>\n"
+"PO-Revision-Date: 2021-10-11 05:31+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:73
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "conteneur"
-msgstr[1] "conteneur"
+msgstr[0] "$0 conteneur"
+msgstr[1] "$0 conteneurs"
 
 #: src/Images.jsx:242
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 image total, $1"
+msgstr[1] "$0 images total, $1"
 
 #: src/Images.jsx:246
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 image non utilisée, $1"
+msgstr[1] "$0 images non utilisées, $1"
 
 #: src/ContainerCommitModal.jsx:133
 msgid "Add on build variable"
-msgstr "Ajouter une variable de construction"
+msgstr "Ajouter une variable de build"
 
 #: src/ImageRunModal.jsx:463
 msgid "Add port mapping"
-msgstr ""
+msgstr "Ajouter un mappage de port"
 
 #: src/ImageRunModal.jsx:482
-#, fuzzy
-#| msgid "Add on build variable"
 msgid "Add variable"
-msgstr "Ajouter une variable de construction"
+msgstr "Ajouter une variable"
 
 #: src/ImageRunModal.jsx:472
 msgid "Add volume"
-msgstr ""
+msgstr "Ajouter volume"
 
 #: src/ContainerHeader.jsx:49 src/Containers.jsx:433
 msgid "All"
@@ -158,16 +154,12 @@ msgid "Containers"
 msgstr "Conteneurs"
 
 #: src/ImageRunModal.jsx:498
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Créé"
+msgstr "Créer"
 
 #: src/ImageRunModal.jsx:494 src/Images.jsx:357
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "Mettre le conteneur en pause"
+msgstr "Créer un conteneur"
 
 #: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:78
 msgid "Created"
@@ -200,7 +192,7 @@ msgstr "Détails"
 
 #: src/Images.jsx:154
 msgid "Disk space"
-msgstr ""
+msgstr "Espace disque"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -213,20 +205,16 @@ msgid "Download"
 msgstr "Télécharger"
 
 #: src/Images.jsx:300
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "Télécharger en tant que :"
+msgstr "Télécharger la nouvelle image"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
 msgstr "Point d’entrée"
 
 #: src/ImageRunModal.jsx:481
-#, fuzzy
-#| msgid "Environment"
 msgid "Environment variables"
-msgstr "Environnement"
+msgstr "Variables d’environnement"
 
 #: src/util.js:11
 msgid "Error"
@@ -345,10 +333,8 @@ msgid "GiB"
 msgstr "Gio"
 
 #: src/Images.jsx:265
-#, fuzzy
-#| msgid "No images"
 msgid "Hide images"
-msgstr "Aucune image"
+msgstr "Cacher les images"
 
 #: src/Images.jsx:224
 msgid "Hide intermediate images"
@@ -359,16 +345,12 @@ msgid "Host path"
 msgstr "Chemin vers l’hôte"
 
 #: src/ImageRunModal.jsx:61
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "Chemin vers l’hôte"
+msgstr "Port d’hôte"
 
 #: src/ImageRunModal.jsx:64
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port help"
-msgstr "Chemin vers l’hôte"
+msgstr "Assistance Port d’hôte"
 
 #: src/Images.jsx:153 src/ContainerDetails.jsx:46
 msgid "ID"
@@ -379,22 +361,24 @@ msgid "IP address"
 msgstr "Adresse IP"
 
 #: src/ImageRunModal.jsx:48
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "Adresse IP"
+msgstr "Assistance Adresse IP"
 
 #: src/ImageRunModal.jsx:50
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Si l’IP de l’hôte est définie ainsi 0.0.0.0 ou si elle n’est pas dutout "
+"définie, le port sera relié à tous les IP de l’hôte."
 
 #: src/ImageRunModal.jsx:66
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
 msgstr ""
+"Si le port de l’hôte n’est pas défini, le port du conteneur sera assigné au "
+"hasard sur l’hôte."
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
@@ -418,7 +402,7 @@ msgstr "Images"
 
 #: src/ImageRunModal.jsx:457
 msgid "Integration"
-msgstr ""
+msgstr "Integration"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -504,7 +488,7 @@ msgstr "Aucun conteneur ne correspond au filtre actuel"
 
 #: src/ImageRunModal.jsx:479
 msgid "No environment variables specified"
-msgstr ""
+msgstr "Aucune variables d’environnement spécifiée"
 
 #: src/Images.jsx:158
 msgid "No images"
@@ -519,14 +503,12 @@ msgid "No images that match the current filter"
 msgstr "Aucune image ne correspond au filtre actuel"
 
 #: src/ImageRunModal.jsx:163
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "No label"
-msgstr "Pas de label SELinux"
+msgstr "Pas de label"
 
 #: src/ImageRunModal.jsx:460
 msgid "No ports exposed"
-msgstr ""
+msgstr "Aucuns ports exposés"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
@@ -538,7 +520,7 @@ msgstr "Aucun conteneur en cours d’exécution"
 
 #: src/ImageRunModal.jsx:469
 msgid "No volumes specified"
-msgstr ""
+msgstr "Aucuns volumes spécifiés"
 
 #: src/Containers.jsx:432
 msgid "Only running"
@@ -595,7 +577,7 @@ msgstr "Le service Podman n’est pas actif"
 
 #: src/ImageRunModal.jsx:462
 msgid "Port mapping"
-msgstr ""
+msgstr "Mappage de port"
 
 #: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:60
 msgid "Ports"
@@ -647,10 +629,8 @@ msgid "Running"
 msgstr "En fonctionnement"
 
 #: src/ImageRunModal.jsx:159
-#, fuzzy
-#| msgid "SELinux label"
 msgid "SELinux"
-msgstr "Label SELinux"
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
@@ -681,10 +661,8 @@ msgid "Show"
 msgstr "Afficher"
 
 #: src/Images.jsx:265
-#, fuzzy
-#| msgid "No images"
 msgid "Show images"
-msgstr "Aucune image"
+msgstr "Afficher les images"
 
 #: src/Images.jsx:224
 msgid "Show intermediate images"
@@ -696,7 +674,7 @@ msgstr "Démarrer"
 
 #: src/ImageRunModal.jsx:453
 msgid "Start after creation"
-msgstr ""
+msgstr "Démarrer après création"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -780,7 +758,7 @@ msgstr "Avec le terminal"
 
 #: src/ImageRunModal.jsx:154
 msgid "Writable"
-msgstr ""
+msgstr "Accessible en écriture"
 
 #: src/util.js:8
 msgid "configured"
@@ -847,16 +825,12 @@ msgid "system"
 msgstr "système"
 
 #: src/Images.jsx:69 src/Images.jsx:76
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "En pause"
+msgstr "non utilisé"
 
 #: src/Images.jsx:116 src/Containers.jsx:306
-#, fuzzy
-#| msgid "user"
 msgid "user:"
-msgstr "utilisateur"
+msgstr "utilisateur :"
 
 #~ msgid "Add item"
 #~ msgstr "Ajouter un élément"
