@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 08:52+0000\n"
-"PO-Revision-Date: 2021-09-14 10:31+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2021-10-11 05:31+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -21,21 +21,19 @@ msgstr ""
 "X-Generator: Weblate 4.8\n"
 
 #: src/Images.jsx:73
-#, fuzzy
-#| msgid "container"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "容器"
+msgstr[0] "$0容器"
 
 #: src/Images.jsx:242
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
+msgstr[0] "共$0个镜像，$1"
 
 #: src/Images.jsx:246
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
+msgstr[0] "$0个未使用镜像，$1"
 
 #: src/ContainerCommitModal.jsx:133
 msgid "Add on build variable"
@@ -43,17 +41,15 @@ msgstr "添加构建变量"
 
 #: src/ImageRunModal.jsx:463
 msgid "Add port mapping"
-msgstr ""
+msgstr "添加端口映射"
 
 #: src/ImageRunModal.jsx:482
-#, fuzzy
-#| msgid "Add on build variable"
 msgid "Add variable"
-msgstr "添加构建变量"
+msgstr "添加变量"
 
 #: src/ImageRunModal.jsx:472
 msgid "Add volume"
-msgstr ""
+msgstr "添加卷"
 
 #: src/ContainerHeader.jsx:49 src/Containers.jsx:433
 msgid "All"
@@ -154,16 +150,12 @@ msgid "Containers"
 msgstr "容器"
 
 #: src/ImageRunModal.jsx:498
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "已创建"
+msgstr "创建"
 
 #: src/ImageRunModal.jsx:494 src/Images.jsx:357
-#, fuzzy
-#| msgid "Pause the container"
 msgid "Create container"
-msgstr "暂停该容器"
+msgstr "创建容器"
 
 #: src/util.js:11 src/Images.jsx:152 src/ContainerDetails.jsx:78
 msgid "Created"
@@ -196,7 +188,7 @@ msgstr "详情"
 
 #: src/Images.jsx:154
 msgid "Disk space"
-msgstr ""
+msgstr "磁盘空间"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -207,20 +199,16 @@ msgid "Download"
 msgstr "下载"
 
 #: src/Images.jsx:300
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "另存为："
+msgstr "现在新镜像"
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
 msgstr "入口点"
 
 #: src/ImageRunModal.jsx:481
-#, fuzzy
-#| msgid "Environment"
 msgid "Environment variables"
-msgstr "环境"
+msgstr "环境变量"
 
 #: src/util.js:11
 msgid "Error"
@@ -351,16 +339,12 @@ msgid "Host path"
 msgstr "主机路径"
 
 #: src/ImageRunModal.jsx:61
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "主机路径"
+msgstr "主机端口"
 
 #: src/ImageRunModal.jsx:64
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port help"
-msgstr "主机路径"
+msgstr "主机端口帮助"
 
 #: src/Images.jsx:153 src/ContainerDetails.jsx:46
 msgid "ID"
@@ -371,22 +355,20 @@ msgid "IP address"
 msgstr "IP 地址"
 
 #: src/ImageRunModal.jsx:48
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP 地址"
+msgstr "IP 地址帮助"
 
 #: src/ImageRunModal.jsx:50
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
-msgstr ""
+msgstr "如果主机 IP 设置为 0.0.0.0 或没有设置，端口将被绑定到主机上的所有 IP。"
 
 #: src/ImageRunModal.jsx:66
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
-msgstr ""
+msgstr "如果主机端口没有设置，容器端口将被随机分配到主机上的一个端口。"
 
 #: src/ContainerRestoreModal.jsx:50
 msgid "Ignore IP address if set statically"
@@ -410,7 +392,7 @@ msgstr "镜像"
 
 #: src/ImageRunModal.jsx:457
 msgid "Integration"
-msgstr ""
+msgstr "集成"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -494,7 +476,7 @@ msgstr "没有符合当前筛选条件的容器"
 
 #: src/ImageRunModal.jsx:479
 msgid "No environment variables specified"
-msgstr ""
+msgstr "没有指定环境变量"
 
 #: src/Images.jsx:158
 msgid "No images"
@@ -509,14 +491,12 @@ msgid "No images that match the current filter"
 msgstr "没有符合当前筛选条件的镜像"
 
 #: src/ImageRunModal.jsx:163
-#, fuzzy
-#| msgid "No SELinux label"
 msgid "No label"
-msgstr "无 SELinux 标签"
+msgstr "无标签"
 
 #: src/ImageRunModal.jsx:460
 msgid "No ports exposed"
-msgstr ""
+msgstr "没有公开的端口"
 
 #: src/ImageSearchModal.jsx:162
 msgid "No results for $0"
@@ -528,7 +508,7 @@ msgstr "没有正在运行的容器"
 
 #: src/ImageRunModal.jsx:469
 msgid "No volumes specified"
-msgstr ""
+msgstr "没有指定卷"
 
 #: src/Containers.jsx:432
 msgid "Only running"
@@ -585,7 +565,7 @@ msgstr "Podman 服务未激活"
 
 #: src/ImageRunModal.jsx:462
 msgid "Port mapping"
-msgstr ""
+msgstr "端口映射"
 
 #: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:60
 msgid "Ports"
@@ -637,10 +617,8 @@ msgid "Running"
 msgstr "正在运行"
 
 #: src/ImageRunModal.jsx:159
-#, fuzzy
-#| msgid "SELinux label"
 msgid "SELinux"
-msgstr "SELinux 标签"
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:138
 msgid "Search by name or description"
@@ -684,7 +662,7 @@ msgstr "启动"
 
 #: src/ImageRunModal.jsx:453
 msgid "Start after creation"
-msgstr ""
+msgstr "创建后启动"
 
 #: src/app.jsx:580
 msgid "Start podman"
@@ -768,7 +746,7 @@ msgstr "分配伪终端"
 
 #: src/ImageRunModal.jsx:154
 msgid "Writable"
-msgstr ""
+msgstr "可写入"
 
 #: src/util.js:8
 msgid "configured"
@@ -835,16 +813,12 @@ msgid "system"
 msgstr "系统"
 
 #: src/Images.jsx:69 src/Images.jsx:76
-#, fuzzy
-#| msgid "Paused"
 msgid "unused"
-msgstr "已暂停"
+msgstr "未使用"
 
 #: src/Images.jsx:116 src/Containers.jsx:306
-#, fuzzy
-#| msgid "user"
 msgid "user:"
-msgstr "用户"
+msgstr "用户："
 
 #~ msgid "Add item"
 #~ msgstr "添加项目"
