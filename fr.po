@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 08:52+0000\n"
 "PO-Revision-Date: 2021-10-11 05:31+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/fr/>\n"
 "Language: fr\n"
@@ -402,7 +402,7 @@ msgstr "Images"
 
 #: src/ImageRunModal.jsx:457
 msgid "Integration"
-msgstr "Integration"
+msgstr "Intégration"
 
 #: src/ContainerRestoreModal.jsx:45 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
