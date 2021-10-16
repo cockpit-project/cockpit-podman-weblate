@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-11 02:52+0000\n"
+"POT-Creation-Date: 2021-10-16 02:56+0000\n"
 "PO-Revision-Date: 2021-10-16 08:05+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
-"cockpit-podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
+"podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +57,7 @@ msgstr "Přidat svazek"
 msgid "All"
 msgstr "Vše"
 
-#: src/ImageSearchModal.jsx:149
+#: src/ImageSearchModal.jsx:152
 msgid "All registries"
 msgstr "Všechny registry"
 
@@ -84,7 +84,7 @@ msgstr "Sdílení procesoru"
 #: src/ContainerDeleteModal.jsx:15 src/ImageRunModal.jsx:501
 #: src/ImageDeleteModal.jsx:62 src/ForceRemoveModal.jsx:21
 #: src/PodActions.jsx:159 src/ContainerCommitModal.jsx:222
-#: src/ContainerRestoreModal.jsx:40 src/ImageSearchModal.jsx:213
+#: src/ContainerRestoreModal.jsx:40 src/ImageSearchModal.jsx:216
 #: src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr "Storno"
@@ -196,7 +196,7 @@ msgstr "Prostor na disku"
 msgid "Do not include root file-system changes when exporting"
 msgstr "Do exportu nezahrnovat změny v kořenovém souborovém systému"
 
-#: src/ImageSearchModal.jsx:210
+#: src/ImageSearchModal.jsx:213
 msgid "Download"
 msgstr "Stáhnout"
 
@@ -490,7 +490,7 @@ msgstr "Nezadány žádné proměnné prostředí"
 msgid "No images"
 msgstr "Žádné obrazy"
 
-#: src/ImageSearchModal.jsx:158
+#: src/ImageSearchModal.jsx:161
 msgid "No images found"
 msgstr "Nebyly nalezeny žádné obrazy"
 
@@ -506,7 +506,7 @@ msgstr "Žádný štítek"
 msgid "No ports exposed"
 msgstr "Nejsou vystavené žádné porty"
 
-#: src/ImageSearchModal.jsx:162
+#: src/ImageSearchModal.jsx:165
 msgid "No results for $0"
 msgstr "Žádné výsledky pro $0"
 
@@ -522,7 +522,7 @@ msgstr "Nejsou určeny žádné svazky"
 msgid "Only running"
 msgstr "Pouze spuštěné"
 
-#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:130 src/Images.jsx:151
+#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:133 src/Images.jsx:151
 #: src/Containers.jsx:348
 msgid "Owner"
 msgstr "Vlastník"
@@ -555,11 +555,11 @@ msgstr "Potvrďte vynucení smazání podu $0"
 msgid "Please confirm forced deletion of $0"
 msgstr "Potvrďte vynucení smazání $0"
 
-#: src/ImageSearchModal.jsx:163
+#: src/ImageSearchModal.jsx:166
 msgid "Please retry another term."
 msgstr "Zkuste jiný pojem."
 
-#: src/ImageSearchModal.jsx:158
+#: src/ImageSearchModal.jsx:161
 msgid "Please start typing to look for images."
 msgstr "Začněte psát pro hledání obrazů."
 
@@ -628,19 +628,19 @@ msgstr "Spuštěné"
 msgid "SELinux"
 msgstr "SELinux"
 
-#: src/ImageSearchModal.jsx:138
+#: src/ImageSearchModal.jsx:141
 msgid "Search by name or description"
 msgstr "Hledat název nebo popis"
 
-#: src/ImageSearchModal.jsx:135
+#: src/ImageSearchModal.jsx:138
 msgid "Search for"
 msgstr "Hledat"
 
-#: src/ImageSearchModal.jsx:196
+#: src/ImageSearchModal.jsx:199
 msgid "Search for an image"
 msgstr "Hledat obraz"
 
-#: src/ImageSearchModal.jsx:156
+#: src/ImageSearchModal.jsx:159
 msgid "Searching..."
 msgstr "Vyhledávání..."
 
@@ -704,7 +704,7 @@ msgstr "Systémová služba Podman je k dispozici také"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:200
+#: src/ContainerCommitModal.jsx:164 src/ImageSearchModal.jsx:203
 msgid "Tag"
 msgstr "Štítek"
 
@@ -776,7 +776,7 @@ msgstr "skončilo"
 msgid "image"
 msgstr "obraz"
 
-#: src/ImageSearchModal.jsx:143
+#: src/ImageSearchModal.jsx:146
 msgid "in"
 msgstr "v"
 
@@ -816,7 +816,7 @@ msgstr "vybrat vše"
 msgid "stopped"
 msgstr "zastaveno"
 
-#: src/ImageSearchModal.jsx:131 src/Images.jsx:116 src/Containers.jsx:306
+#: src/ImageSearchModal.jsx:134 src/Images.jsx:116 src/Containers.jsx:306
 msgid "system"
 msgstr "systém"
 
