@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 02:54+0000\n"
-"PO-Revision-Date: 2021-10-06 19:05+0000\n"
+"PO-Revision-Date: 2021-11-13 13:53+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -165,7 +165,7 @@ msgstr "Oluşturuldu"
 
 #: src/ImageRunModal.jsx:735
 msgid "Default with single selectable"
-msgstr ""
+msgstr "Tek seçilebilir ile varsayılan"
 
 #: src/PodActions.jsx:138 src/PodActions.jsx:158
 #: src/ContainerDeleteModal.jsx:14 src/Containers.jsx:210 src/Images.jsx:400
@@ -181,16 +181,12 @@ msgid "Delete tagged images"
 msgstr "Etiketli kalıpları sil"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused system images:"
-msgstr "Etiketli kalıpları sil"
+msgstr "Kullanılmayan sistem kalıplarını sil:"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused user images:"
-msgstr "Etiketli kalıpları sil"
+msgstr "Kullanılmayan kullanıcı kalıplarını sil:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -242,33 +238,31 @@ msgstr "Konsola bağlanırken hata meydana geldi"
 
 #: src/ImageRunModal.jsx:757
 msgid "Example: $0"
-msgstr ""
+msgstr "Örnek: $0"
 
 #: src/util.js:11 src/ContainerDetails.jsx:13
 msgid "Exited"
-msgstr "Çıkış yaptı"
+msgstr "Çıkıldı"
 
 #: src/Containers.jsx:113
 msgid "Failed to checkpoint container $0"
-msgstr "$0 konteyneri için denetim noktası oluşturulamadı"
+msgstr "$0 kapsayıcısını denetleme noktası başarısız oldu"
 
 #: src/ContainerCommitModal.jsx:104
 msgid "Failed to commit container $0"
-msgstr "$0 konteyneri işlenemedi"
+msgstr "$0 kapsayıcısını işleme başarısız oldu"
 
 #: src/ImageRunModal.jsx:436
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
-msgstr "$0 konteyneri geri yüklenemedi"
+msgstr "$0 kapsayıcısını geri yükleme başarısız oldu"
 
 #: src/Images.jsx:52
 msgid "Failed to download image $0:$1"
-msgstr "$0:$1 kalıbı indirilemedi"
+msgstr "$0:$1 kalıbını indirme başarısız oldu"
 
 #: src/Containers.jsx:146
 msgid "Failed to force remove container $0"
-msgstr "$0 konteyneri zorla kaldırılamadı"
+msgstr "$0 kapsayıcısını zorla kaldırma başarısız oldu"
 
 #: src/Images.jsx:371
 msgid "Failed to force remove image $0"
@@ -283,16 +277,12 @@ msgid "Failed to pause pod $0"
 msgstr "$0 bölmesi duraklatılamadı"
 
 #: src/PruneUnusedImagesModal.jsx:74
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to prune unused images"
-msgstr "$0 kalıbını kaldırma başarısız oldu"
+msgstr "Kullanılmayan kalıpları ayıklama başarısız oldu"
 
 #: src/ImageRunModal.jsx:442
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to pull image $0"
-msgstr "$0 kalıbını kaldırma başarısız oldu"
+msgstr "$0 kalıbını çekme başarısız oldu"
 
 #: src/Containers.jsx:102
 msgid "Failed to remove container $0"
@@ -319,10 +309,8 @@ msgid "Failed to resume pod $0"
 msgstr "$0 bölmesi sürdürülemedi"
 
 #: src/ImageRunModal.jsx:429
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
-msgstr "$0 konteyneri başlatılamadı"
+msgstr "$0 kapsayıcısını çalıştırma başarısız oldu"
 
 #: src/ImageSearchModal.jsx:109 src/ImageRunModal.jsx:515
 msgid "Failed to search for images: $0"
@@ -439,7 +427,7 @@ msgstr "Kalıp adı"
 
 #: src/ImageRunModal.jsx:752
 msgid "Image selection help"
-msgstr ""
+msgstr "Kalıp seçim yardımı"
 
 #: src/Images.jsx:239 src/Images.jsx:267
 msgid "Images"
@@ -475,13 +463,11 @@ msgstr "Yükleniyor..."
 
 #: src/ImageRunModal.jsx:701
 msgid "Local"
-msgstr ""
+msgstr "Yerel"
 
 #: src/ImageRunModal.jsx:603
-#, fuzzy
-#| msgid "No images"
 msgid "Local images"
-msgstr "Kalıplar yok"
+msgstr "Yerel kalıplar"
 
 #: src/Containers.jsx:351
 msgid "Logs"
@@ -648,20 +634,15 @@ msgstr "Protokol"
 
 #: src/PruneUnusedImagesModal.jsx:100
 msgid "Prune"
-msgstr ""
+msgstr "Ayıkla"
 
 #: src/PruneUnusedImagesModal.jsx:93 src/Images.jsx:330
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0 kullanılmayan kalıp, $1"
+msgstr "Kullanılmayan kalıpları ayıkla"
 
 #: src/PruneUnusedImagesModal.jsx:96 src/PruneUnusedImagesModal.jsx:100
-#, fuzzy
-#| msgid "Run image"
 msgid "Pruning images"
-msgstr "Kalıbı çalıştır"
+msgstr "Kalıplar ayıklanıyor"
 
 #: src/Images.jsx:302
 msgid "Pulling"
@@ -706,11 +687,11 @@ msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:156
 msgid "Search by name or description"
-msgstr "İsme veya açıklamaya göre ara"
+msgstr "Ada veya açıklamaya göre ara"
 
 #: src/ImageRunModal.jsx:691
 msgid "Search by registry"
-msgstr ""
+msgstr "Kayıt defterine göre ara"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -722,21 +703,19 @@ msgstr "Kalıp ara"
 
 #: src/ImageRunModal.jsx:780
 msgid "Search string or container location"
-msgstr ""
+msgstr "Arama dizgisi veya kapsayıcı konumu"
 
 #: src/ImageSearchModal.jsx:174
 msgid "Searching..."
 msgstr "Aranıyor..."
 
 #: src/ImageRunModal.jsx:758
-#, fuzzy
-#| msgid "Searching..."
 msgid "Searching: $0"
-msgstr "Aranıyor..."
+msgstr "Aranan: $0"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
-msgstr "Yapım değişkenlerinde konteyneri ayarla"
+msgstr "Yapım değişkenlerinde kapsayıcıyı ayarla"
 
 #: src/ImageRunModal.jsx:172
 msgid "Shared"
@@ -755,10 +734,8 @@ msgid "Show intermediate images"
 msgstr "Ara kalıpları göster"
 
 #: src/PruneUnusedImagesModal.jsx:43
-#, fuzzy
-#| msgid "Show images"
 msgid "Show more"
-msgstr "Kalıpları göster"
+msgstr "Daha fazlasını göster"
 
 #: src/PodActions.jsx:98 src/app.jsx:613 src/Containers.jsx:157
 msgid "Start"
@@ -814,7 +791,7 @@ msgstr "Sorun Giderme"
 
 #: src/ContainerHeader.jsx:56
 msgid "Type to filter…"
-msgstr "Filtrelemek için yazın…"
+msgstr "Süzmek için yazın…"
 
 #: src/ImageRunModal.jsx:107
 msgid "UDP"
@@ -837,10 +814,8 @@ msgid "User Podman service is also available"
 msgstr "Kullanıcı Podman hizmeti de kullanılabilir"
 
 #: src/ImageRunModal.jsx:738
-#, fuzzy
-#| msgid "User"
 msgid "User:"
-msgstr "Kullanıcı"
+msgstr "Kullanıcı:"
 
 #: src/ImageRunModal.jsx:130
 msgid "Value"
@@ -848,7 +823,7 @@ msgstr "Değer"
 
 #: src/ImageRunModal.jsx:874
 msgid "Volumes"
-msgstr "Bölümler"
+msgstr "Birimler"
 
 #: src/ImageRunModal.jsx:809
 msgid "With terminal"
@@ -864,25 +839,23 @@ msgstr "yapılandırıldı"
 
 #: src/manifest.json
 msgid "container"
-msgstr "konteyner"
+msgstr "kapsayıcı"
 
 #: src/util.js:8
 msgid "created"
 msgstr "oluşturuldu"
 
 #: src/ImageRunModal.jsx:413
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
-msgstr "İndir"
+msgstr "indiriliyor"
 
 #: src/util.js:8
 msgid "exited"
-msgstr "çıkış yaptı"
+msgstr "çıkıldı"
 
 #: src/ImageRunModal.jsx:756
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "anamakine[:b.noktası]/[kullanıcı]/kapsayıcı[:etiket]"
 
 #: src/manifest.json
 msgid "image"
