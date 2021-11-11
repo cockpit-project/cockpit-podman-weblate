@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 02:54+0000\n"
-"PO-Revision-Date: 2021-10-06 19:05+0000\n"
+"PO-Revision-Date: 2021-11-13 13:53+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -163,7 +163,7 @@ msgstr "생성됨"
 
 #: src/ImageRunModal.jsx:735
 msgid "Default with single selectable"
-msgstr ""
+msgstr "단일 선택 가능한 기본값"
 
 #: src/PodActions.jsx:138 src/PodActions.jsx:158
 #: src/ContainerDeleteModal.jsx:14 src/Containers.jsx:210 src/Images.jsx:400
@@ -179,16 +179,12 @@ msgid "Delete tagged images"
 msgstr "태그가 지정된 이미지 삭제"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused system images:"
-msgstr "태그가 지정된 이미지 삭제"
+msgstr "사용하지 않는 시스템 이미지 삭제:"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused user images:"
-msgstr "태그가 지정된 이미지 삭제"
+msgstr "사용하지 않는 사용자 이미지 삭제:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -240,7 +236,7 @@ msgstr "콘솔 연결 중에 오류가 발생했습니다"
 
 #: src/ImageRunModal.jsx:757
 msgid "Example: $0"
-msgstr ""
+msgstr "예제: $0"
 
 #: src/util.js:11 src/ContainerDetails.jsx:13
 msgid "Exited"
@@ -255,10 +251,8 @@ msgid "Failed to commit container $0"
 msgstr "컨테이너 $0 수행에 실패"
 
 #: src/ImageRunModal.jsx:436
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
-msgstr "컨테이너 $0 복구에 실패"
+msgstr "컨테이너 $0 생성에 실패"
 
 #: src/Images.jsx:52
 msgid "Failed to download image $0:$1"
@@ -281,16 +275,12 @@ msgid "Failed to pause pod $0"
 msgstr "pod $0 일시정지에 실패"
 
 #: src/PruneUnusedImagesModal.jsx:74
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to prune unused images"
-msgstr "이미지 $0 제거에 실패"
+msgstr "사용하지 않는 이미지 정리 실패"
 
 #: src/ImageRunModal.jsx:442
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to pull image $0"
-msgstr "이미지 $0 제거에 실패"
+msgstr "이미지 $0를 가져오는 데 실패"
 
 #: src/Containers.jsx:102
 msgid "Failed to remove container $0"
@@ -317,10 +307,8 @@ msgid "Failed to resume pod $0"
 msgstr "pod $0 재개에 실패"
 
 #: src/ImageRunModal.jsx:429
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
-msgstr "컨테이너 $0 시작에 실패"
+msgstr "컨테이너 $0를 실행하는 데 실패"
 
 #: src/ImageSearchModal.jsx:109 src/ImageRunModal.jsx:515
 msgid "Failed to search for images: $0"
@@ -437,7 +425,7 @@ msgstr "이미지 이름"
 
 #: src/ImageRunModal.jsx:752
 msgid "Image selection help"
-msgstr ""
+msgstr "이미지 선택 도움말"
 
 #: src/Images.jsx:239 src/Images.jsx:267
 msgid "Images"
@@ -473,13 +461,11 @@ msgstr "적재 중..."
 
 #: src/ImageRunModal.jsx:701
 msgid "Local"
-msgstr ""
+msgstr "로컬"
 
 #: src/ImageRunModal.jsx:603
-#, fuzzy
-#| msgid "No images"
 msgid "Local images"
-msgstr "이미지 없음"
+msgstr "로컬 이미지"
 
 #: src/Containers.jsx:351
 msgid "Logs"
@@ -644,20 +630,15 @@ msgstr "통신규약"
 
 #: src/PruneUnusedImagesModal.jsx:100
 msgid "Prune"
-msgstr ""
+msgstr "프룬"
 
 #: src/PruneUnusedImagesModal.jsx:93 src/Images.jsx:330
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0 미사용 이미지, $1"
+msgstr "프룬 사용하지 않은 이미지"
 
 #: src/PruneUnusedImagesModal.jsx:96 src/PruneUnusedImagesModal.jsx:100
-#, fuzzy
-#| msgid "Run image"
 msgid "Pruning images"
-msgstr "이미지 실행"
+msgstr "프루닝 이미지"
 
 #: src/Images.jsx:302
 msgid "Pulling"
@@ -706,7 +687,7 @@ msgstr "이름 또는 설명으로 찾기"
 
 #: src/ImageRunModal.jsx:691
 msgid "Search by registry"
-msgstr ""
+msgstr "레지스터리로 검색"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -718,17 +699,15 @@ msgstr "이미지로 찾기"
 
 #: src/ImageRunModal.jsx:780
 msgid "Search string or container location"
-msgstr ""
+msgstr "문자열 또는 컨테이너 위치 검색"
 
 #: src/ImageSearchModal.jsx:174
 msgid "Searching..."
 msgstr "검색 중..."
 
 #: src/ImageRunModal.jsx:758
-#, fuzzy
-#| msgid "Searching..."
 msgid "Searching: $0"
-msgstr "검색 중..."
+msgstr "검색 중: $0"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
@@ -751,10 +730,8 @@ msgid "Show intermediate images"
 msgstr "중간 이미지 보기"
 
 #: src/PruneUnusedImagesModal.jsx:43
-#, fuzzy
-#| msgid "Show images"
 msgid "Show more"
-msgstr "이미지 보여주기"
+msgstr "더 보여주기"
 
 #: src/PodActions.jsx:98 src/app.jsx:613 src/Containers.jsx:157
 msgid "Start"
@@ -833,10 +810,8 @@ msgid "User Podman service is also available"
 msgstr "사용자 포드맨 서비스가 사용 할 수 없습니다"
 
 #: src/ImageRunModal.jsx:738
-#, fuzzy
-#| msgid "User"
 msgid "User:"
-msgstr "사용자"
+msgstr "사용자:"
 
 #: src/ImageRunModal.jsx:130
 msgid "Value"
@@ -867,10 +842,8 @@ msgid "created"
 msgstr "생성 됨"
 
 #: src/ImageRunModal.jsx:413
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
-msgstr "내려받기"
+msgstr "내려받기 중"
 
 #: src/util.js:8
 msgid "exited"
@@ -878,7 +851,7 @@ msgstr "종료됨"
 
 #: src/ImageRunModal.jsx:756
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "host[:port]/[user]/container[:tag]"
 
 #: src/manifest.json
 msgid "image"
