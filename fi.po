@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 02:54+0000\n"
-"PO-Revision-Date: 2021-10-06 19:05+0000\n"
+"PO-Revision-Date: 2021-11-13 13:53+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -166,7 +166,7 @@ msgstr "Luotu"
 
 #: src/ImageRunModal.jsx:735
 msgid "Default with single selectable"
-msgstr ""
+msgstr "Oletusarvo kun yksi valittavissa"
 
 #: src/PodActions.jsx:138 src/PodActions.jsx:158
 #: src/ContainerDeleteModal.jsx:14 src/Containers.jsx:210 src/Images.jsx:400
@@ -182,16 +182,12 @@ msgid "Delete tagged images"
 msgstr "Poista merkityt kuvat"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused system images:"
-msgstr "Poista merkityt kuvat"
+msgstr "Poista käyttämättömät järjestelmälevykuvat:"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused user images:"
-msgstr "Poista merkityt kuvat"
+msgstr "Poista käyttämättömät käyttäjän levykuvat:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -243,7 +239,7 @@ msgstr "Virhe konsolia liitettäessä"
 
 #: src/ImageRunModal.jsx:757
 msgid "Example: $0"
-msgstr ""
+msgstr "Esimerkki: $0"
 
 #: src/util.js:11 src/ContainerDetails.jsx:13
 msgid "Exited"
@@ -258,10 +254,8 @@ msgid "Failed to commit container $0"
 msgstr "Kontin $0 kommitointi epäonnistui"
 
 #: src/ImageRunModal.jsx:436
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
-msgstr "Kontin $0 palauttaminen epäonnistui"
+msgstr "Kontin $0 luominen epäonnistui"
 
 #: src/Images.jsx:52
 msgid "Failed to download image $0:$1"
@@ -284,16 +278,12 @@ msgid "Failed to pause pod $0"
 msgstr "Podin $0 keskeyttäminen epäonnistui"
 
 #: src/PruneUnusedImagesModal.jsx:74
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to prune unused images"
-msgstr "Levykuvan $0 poistaminen epäonnistui"
+msgstr "Käyttämättömien levykuvien karsiminen epäonnistui"
 
 #: src/ImageRunModal.jsx:442
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to pull image $0"
-msgstr "Levykuvan $0 poistaminen epäonnistui"
+msgstr "Levykuvan $0 hakeminen epäonnistui"
 
 #: src/Containers.jsx:102
 msgid "Failed to remove container $0"
@@ -320,10 +310,8 @@ msgid "Failed to resume pod $0"
 msgstr "Podin $0 käytön jatkaminen epäonnistui"
 
 #: src/ImageRunModal.jsx:429
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
-msgstr "Kontin $0 käynnistäminen epäonnistui"
+msgstr "Kontin $0 suorittaminen epäonnistui"
 
 #: src/ImageSearchModal.jsx:109 src/ImageRunModal.jsx:515
 msgid "Failed to search for images: $0"
@@ -440,7 +428,7 @@ msgstr "Levykuvan nimi"
 
 #: src/ImageRunModal.jsx:752
 msgid "Image selection help"
-msgstr ""
+msgstr "Ohjeita levykuvan valintaan"
 
 #: src/Images.jsx:239 src/Images.jsx:267
 msgid "Images"
@@ -476,13 +464,11 @@ msgstr "Ladataan..."
 
 #: src/ImageRunModal.jsx:701
 msgid "Local"
-msgstr ""
+msgstr "Paikallinen"
 
 #: src/ImageRunModal.jsx:603
-#, fuzzy
-#| msgid "No images"
 msgid "Local images"
-msgstr "Ei levykuvia"
+msgstr "Paikallisia levykuvia"
 
 #: src/Containers.jsx:351
 msgid "Logs"
@@ -649,20 +635,15 @@ msgstr "Protokolla"
 
 #: src/PruneUnusedImagesModal.jsx:100
 msgid "Prune"
-msgstr ""
+msgstr "Karsi"
 
 #: src/PruneUnusedImagesModal.jsx:93 src/Images.jsx:330
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0 käyttämätön levykuva, $1"
+msgstr "Karsi käyttämättömät levykuvat"
 
 #: src/PruneUnusedImagesModal.jsx:96 src/PruneUnusedImagesModal.jsx:100
-#, fuzzy
-#| msgid "Hide images"
 msgid "Pruning images"
-msgstr "Piilota levykuvat"
+msgstr "Karsitaan levykuvia"
 
 #: src/Images.jsx:302
 msgid "Pulling"
@@ -711,7 +692,7 @@ msgstr "Hae nimen tai kuvauksen perusteella"
 
 #: src/ImageRunModal.jsx:691
 msgid "Search by registry"
-msgstr ""
+msgstr "Haku rekisterin perusteella"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -723,17 +704,15 @@ msgstr "Etsi levykuvaa"
 
 #: src/ImageRunModal.jsx:780
 msgid "Search string or container location"
-msgstr ""
+msgstr "Hae merkkijonon tai kontin sijaintia"
 
 #: src/ImageSearchModal.jsx:174
 msgid "Searching..."
 msgstr "Etsitään..."
 
 #: src/ImageRunModal.jsx:758
-#, fuzzy
-#| msgid "Searching..."
 msgid "Searching: $0"
-msgstr "Etsitään..."
+msgstr "Etsitään: $0"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
@@ -756,10 +735,8 @@ msgid "Show intermediate images"
 msgstr "Näytä välivaiheen levykuvat"
 
 #: src/PruneUnusedImagesModal.jsx:43
-#, fuzzy
-#| msgid "Show images"
 msgid "Show more"
-msgstr "Näytä levykuvat"
+msgstr "Näytä lisää"
 
 #: src/PodActions.jsx:98 src/app.jsx:613 src/Containers.jsx:157
 msgid "Start"
@@ -838,10 +815,8 @@ msgid "User Podman service is also available"
 msgstr "Käyttäjän Podman-palvelu on myös saatavilla"
 
 #: src/ImageRunModal.jsx:738
-#, fuzzy
-#| msgid "User"
 msgid "User:"
-msgstr "Käyttäjä"
+msgstr "Käyttäjä:"
 
 #: src/ImageRunModal.jsx:130
 msgid "Value"
@@ -872,10 +847,8 @@ msgid "created"
 msgstr "luotu"
 
 #: src/ImageRunModal.jsx:413
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
-msgstr "Lataa"
+msgstr "ladataan"
 
 #: src/util.js:8
 msgid "exited"
@@ -883,7 +856,7 @@ msgstr "päättyi"
 
 #: src/ImageRunModal.jsx:756
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "host[:port]/[user]/container[:tag]"
 
 #: src/manifest.json
 msgid "image"
