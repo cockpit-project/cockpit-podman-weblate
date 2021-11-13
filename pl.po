@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 02:54+0000\n"
-"PO-Revision-Date: 2021-10-10 10:18+0000\n"
+"PO-Revision-Date: 2021-11-13 13:53+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -169,7 +169,7 @@ msgstr "Utworzono"
 
 #: src/ImageRunModal.jsx:735
 msgid "Default with single selectable"
-msgstr ""
+msgstr "Domyślne z jednym wyborem"
 
 #: src/PodActions.jsx:138 src/PodActions.jsx:158
 #: src/ContainerDeleteModal.jsx:14 src/Containers.jsx:210 src/Images.jsx:400
@@ -185,16 +185,12 @@ msgid "Delete tagged images"
 msgstr "Usuń oznaczone obrazy"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused system images:"
-msgstr "Usuń oznaczone obrazy"
+msgstr "Usunięcie nieużywanych obrazów systemowych:"
 
 #: src/PruneUnusedImagesModal.jsx:27
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused user images:"
-msgstr "Usuń oznaczone obrazy"
+msgstr "Usunięcie nieużywanych obrazów użytkownika:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -247,7 +243,7 @@ msgstr "Wystąpił błąd podczas łączenia konsoli"
 
 #: src/ImageRunModal.jsx:757
 msgid "Example: $0"
-msgstr ""
+msgstr "Przykład: $0"
 
 #: src/util.js:11 src/ContainerDetails.jsx:13
 msgid "Exited"
@@ -262,10 +258,8 @@ msgid "Failed to commit container $0"
 msgstr "Zatwierdzenie kontenera $0 się nie powiodło"
 
 #: src/ImageRunModal.jsx:436
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
-msgstr "Przywrócenie kontenera $0 się nie powiodło"
+msgstr "Utworzenie kontenera $0 się nie powiodło"
 
 #: src/Images.jsx:52
 msgid "Failed to download image $0:$1"
@@ -288,16 +282,12 @@ msgid "Failed to pause pod $0"
 msgstr "Wstrzymanie pojemnika $0 się nie powiodło"
 
 #: src/PruneUnusedImagesModal.jsx:74
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to prune unused images"
-msgstr "Usunięcie obrazu $0 się nie powiodło"
+msgstr "Wyczyszczenie nieużywanych obrazów się nie powiodło"
 
 #: src/ImageRunModal.jsx:442
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to pull image $0"
-msgstr "Usunięcie obrazu $0 się nie powiodło"
+msgstr "Pobranie obrazu $0 się nie powiodło"
 
 #: src/Containers.jsx:102
 msgid "Failed to remove container $0"
@@ -324,8 +314,6 @@ msgid "Failed to resume pod $0"
 msgstr "Wznowienie pojemnika $0 się nie powiodło"
 
 #: src/ImageRunModal.jsx:429
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
 msgstr "Uruchomienie kontenera $0 się nie powiodło"
 
@@ -444,7 +432,7 @@ msgstr "Nazwa obrazu"
 
 #: src/ImageRunModal.jsx:752
 msgid "Image selection help"
-msgstr ""
+msgstr "Pomoc przy wyborze obrazu"
 
 #: src/Images.jsx:239 src/Images.jsx:267
 msgid "Images"
@@ -480,13 +468,11 @@ msgstr "Wczytywanie…"
 
 #: src/ImageRunModal.jsx:701
 msgid "Local"
-msgstr ""
+msgstr "Lokalne"
 
 #: src/ImageRunModal.jsx:603
-#, fuzzy
-#| msgid "No images"
 msgid "Local images"
-msgstr "Brak obrazów"
+msgstr "Lokalne obrazy"
 
 #: src/Containers.jsx:351
 msgid "Logs"
@@ -653,20 +639,15 @@ msgstr "Protokół"
 
 #: src/PruneUnusedImagesModal.jsx:100
 msgid "Prune"
-msgstr ""
+msgstr "Wyczyść"
 
 #: src/PruneUnusedImagesModal.jsx:93 src/Images.jsx:330
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0 nieużywany obraz, $1"
+msgstr "Wyczyść nieużywane obrazy"
 
 #: src/PruneUnusedImagesModal.jsx:96 src/PruneUnusedImagesModal.jsx:100
-#, fuzzy
-#| msgid "Run image"
 msgid "Pruning images"
-msgstr "Uruchom obraz"
+msgstr "Czyszczenie obrazów"
 
 #: src/Images.jsx:302
 msgid "Pulling"
@@ -715,7 +696,7 @@ msgstr "Szukaj według nazwy lub opisu"
 
 #: src/ImageRunModal.jsx:691
 msgid "Search by registry"
-msgstr ""
+msgstr "Szukaj według rejestru"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -727,17 +708,15 @@ msgstr "Znajdź obraz"
 
 #: src/ImageRunModal.jsx:780
 msgid "Search string or container location"
-msgstr ""
+msgstr "Szukaj ciągu lub położenia kontenera"
 
 #: src/ImageSearchModal.jsx:174
 msgid "Searching..."
 msgstr "Wyszukiwanie…"
 
 #: src/ImageRunModal.jsx:758
-#, fuzzy
-#| msgid "Searching..."
 msgid "Searching: $0"
-msgstr "Wyszukiwanie…"
+msgstr "Wyszukiwanie: $0"
 
 #: src/ContainerCommitModal.jsx:199
 msgid "Set container on build variables"
@@ -760,10 +739,8 @@ msgid "Show intermediate images"
 msgstr "Wyświetl pośrednie obrazy"
 
 #: src/PruneUnusedImagesModal.jsx:43
-#, fuzzy
-#| msgid "Show images"
 msgid "Show more"
-msgstr "Wyświetl obrazy"
+msgstr "Wyświetl więcej"
 
 #: src/PodActions.jsx:98 src/app.jsx:613 src/Containers.jsx:157
 msgid "Start"
@@ -842,10 +819,8 @@ msgid "User Podman service is also available"
 msgstr "Dostępna jest także usługa Podman użytkownika"
 
 #: src/ImageRunModal.jsx:738
-#, fuzzy
-#| msgid "User"
 msgid "User:"
-msgstr "Użytkownik"
+msgstr "Użytkownik:"
 
 #: src/ImageRunModal.jsx:130
 msgid "Value"
@@ -876,10 +851,8 @@ msgid "created"
 msgstr "utworzone"
 
 #: src/ImageRunModal.jsx:413
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
-msgstr "Pobierz"
+msgstr "pobieranie"
 
 #: src/util.js:8
 msgid "exited"
@@ -887,7 +860,7 @@ msgstr "zakończone"
 
 #: src/ImageRunModal.jsx:756
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "komputer[:port]/[użytkownik]/kontener[:etykieta]"
 
 #: src/manifest.json
 msgid "image"
