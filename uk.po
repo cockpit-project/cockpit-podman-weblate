@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-30 02:47+0000\n"
-"PO-Revision-Date: 2021-11-30 11:34+0000\n"
+"PO-Revision-Date: 2021-11-30 16:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -107,10 +107,8 @@ msgid "Commit"
 msgstr "Надіслати"
 
 #: src/ContainerCommitModal.jsx:146
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "Немає контейнерів"
+msgstr "Внести контейнер"
 
 #: src/Containers.jsx:356
 msgid "Console"
@@ -158,7 +156,7 @@ msgstr "Створити"
 
 #: src/ContainerCommitModal.jsx:147
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Створити образ на основі поточного стану контейнера $0."
 
 #: src/Containers.jsx:497 src/Images.jsx:387 src/ImageRunModal.jsx:914
 msgid "Create container"
@@ -186,10 +184,8 @@ msgid "Delete tagged images"
 msgstr "Вилучити позначені міткою образи"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "Delete unused user images:"
 msgid "Delete unused $0 images:"
-msgstr "Вилучити невикористані образи користувача:"
+msgstr "Вилучити невикористані $0 образів:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -217,6 +213,8 @@ msgstr "Не включати зміни у кореневій файловій 
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Формат Docker корисний, якщо ви захочете використовувати образ спільно у "
+"середовищах Docker або Moby Engine"
 
 #: src/ImageSearchModal.jsx:228
 msgid "Download"
@@ -248,7 +246,7 @@ msgstr "Під час спроби встановити з'єднання з к�
 
 #: src/ContainerCommitModal.jsx:118
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "Приклад: Ваше Ім'я <vasheimya@example.com>"
 
 #: src/ImageRunModal.jsx:772
 msgid "Example: $0"
@@ -263,10 +261,8 @@ msgid "Failed to checkpoint container $0"
 msgstr "Не вдалося створити контрольну точку контейнера $0"
 
 #: src/ImageRunModal.jsx:396
-#, fuzzy
-#| msgid "Failed to create container $0"
 msgid "Failed to clean up container"
-msgstr "Не вдалося створити контейнер $0"
+msgstr "Не вдалося очистити контейнер"
 
 #: src/ContainerCommitModal.jsx:90
 msgid "Failed to commit container $0"
@@ -357,10 +353,8 @@ msgid "Failed to stop pod $0"
 msgstr "Не вдалося зупинити кокон $0"
 
 #: src/ContainerCommitModal.jsx:162
-#, fuzzy
-#| msgid "Force stop"
 msgid "Force commit"
-msgstr "Примусово зупинити"
+msgstr "Примусово внести"
 
 #: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:157
 msgid "Force delete"
@@ -526,10 +520,8 @@ msgid "Name"
 msgstr "Назва"
 
 #: src/ContainerCommitModal.jsx:100
-#, fuzzy
-#| msgid "Image name"
 msgid "New image name"
-msgstr "Назви предметів"
+msgstr "Назва нового образу"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -589,7 +581,7 @@ msgstr "Лише запущені"
 
 #: src/ImageRunModal.jsx:864 src/ContainerCommitModal.jsx:129
 msgid "Options"
-msgstr ""
+msgstr "Параметри"
 
 #: src/Containers.jsx:380 src/Images.jsx:161 src/ImageRunModal.jsx:750
 #: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:148
@@ -601,10 +593,8 @@ msgid "Pause"
 msgstr "Призупинити"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "Pause container when creating image"
-msgstr "Цей образ не використовує жоден контейнер"
+msgstr "Призупинити роботу контейнера при створенні образу"
 
 #: src/util.js:11
 msgid "Paused"
@@ -821,7 +811,7 @@ msgstr "Працює з $0"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Скористатися застарілим форматом Docker"
 
 #: src/Images.jsx:165 src/ImageDetails.jsx:33
 msgid "Used by"
@@ -933,10 +923,8 @@ msgid "unused"
 msgstr "не використано"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "user:"
 msgid "user"
-msgstr "користувач:"
+msgstr "користувач"
 
 #: src/Containers.jsx:335 src/Images.jsx:123
 msgid "user:"
