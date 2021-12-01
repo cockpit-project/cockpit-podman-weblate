@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-01 02:57+0000\n"
-"PO-Revision-Date: 2021-11-17 05:42+0000\n"
+"PO-Revision-Date: 2021-12-01 16:52+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -107,10 +107,8 @@ msgid "Commit"
 msgstr "Zatwierdź"
 
 #: src/ContainerCommitModal.jsx:146
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "Brak kontenerów"
+msgstr "Zatwierdź kontener"
 
 #: src/Containers.jsx:356
 msgid "Console"
@@ -158,7 +156,7 @@ msgstr "Utwórz"
 
 #: src/ContainerCommitModal.jsx:147
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Utwórz nowy obraz na podstawie obecnego stanu kontenera $0."
 
 #: src/Containers.jsx:497 src/Images.jsx:387 src/ImageRunModal.jsx:914
 msgid "Create container"
@@ -186,10 +184,8 @@ msgid "Delete tagged images"
 msgstr "Usuń oznaczone obrazy"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "Delete unused user images:"
 msgid "Delete unused $0 images:"
-msgstr "Usunięcie nieużywanych obrazów użytkownika:"
+msgstr "Usunięcie nieużywanych obrazów $0:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -216,6 +212,8 @@ msgstr "Bez dołączania zmian głównego systemu plików podczas eksportowania"
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Format Docker jest przydatny podczas udostępniania obrazu za pomocą Dockera "
+"lub Moby Engine"
 
 #: src/ImageSearchModal.jsx:228
 msgid "Download"
@@ -247,7 +245,7 @@ msgstr "Wystąpił błąd podczas łączenia konsoli"
 
 #: src/ContainerCommitModal.jsx:118
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "Przykład, Imię Nazwisko <imięnazwisko@example.com>"
 
 #: src/ImageRunModal.jsx:772
 msgid "Example: $0"
@@ -262,10 +260,8 @@ msgid "Failed to checkpoint container $0"
 msgstr "Punkt kontrolny kontenera $0 się nie powiódł"
 
 #: src/ImageRunModal.jsx:396
-#, fuzzy
-#| msgid "Failed to create container $0"
 msgid "Failed to clean up container"
-msgstr "Utworzenie kontenera $0 się nie powiodło"
+msgstr "Wyczyszczenie kontenera się nie powiodło"
 
 #: src/ContainerCommitModal.jsx:90
 msgid "Failed to commit container $0"
@@ -356,10 +352,8 @@ msgid "Failed to stop pod $0"
 msgstr "Zatrzymanie pojemnika $0 się nie powiodło"
 
 #: src/ContainerCommitModal.jsx:162
-#, fuzzy
-#| msgid "Force stop"
 msgid "Force commit"
-msgstr "Wymuś zatrzymanie"
+msgstr "Wymuś zatwierdzenie"
 
 #: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:157
 msgid "Force delete"
@@ -524,10 +518,8 @@ msgid "Name"
 msgstr "Nazwa"
 
 #: src/ContainerCommitModal.jsx:100
-#, fuzzy
-#| msgid "Image name"
 msgid "New image name"
-msgstr "Nazwa obrazu"
+msgstr "Nazwa nowego obrazu"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -587,7 +579,7 @@ msgstr "Tylko uruchomione"
 
 #: src/ImageRunModal.jsx:864 src/ContainerCommitModal.jsx:129
 msgid "Options"
-msgstr ""
+msgstr "Opcje"
 
 #: src/Containers.jsx:380 src/Images.jsx:161 src/ImageRunModal.jsx:750
 #: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:148
@@ -599,10 +591,8 @@ msgid "Pause"
 msgstr "Wstrzymaj"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "Pause container when creating image"
-msgstr "Żadne kontenery nie używają tego obrazu"
+msgstr "Wstrzymaj kontener podczas tworzenia obrazu"
 
 #: src/util.js:11
 msgid "Paused"
@@ -819,7 +809,7 @@ msgstr "Uruchomione od $0"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Przestarzały format Docker"
 
 #: src/Images.jsx:165 src/ImageDetails.jsx:33
 msgid "Used by"
@@ -931,10 +921,8 @@ msgid "unused"
 msgstr "nieużywane"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "user:"
 msgid "user"
-msgstr "użytkownik:"
+msgstr "użytkownika"
 
 #: src/Containers.jsx:335 src/Images.jsx:123
 msgid "user:"
