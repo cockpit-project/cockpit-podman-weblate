@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-01 02:57+0000\n"
-"PO-Revision-Date: 2021-11-17 05:42+0000\n"
+"PO-Revision-Date: 2021-12-02 19:16+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -104,10 +104,8 @@ msgid "Commit"
 msgstr "Tehdä"
 
 #: src/ContainerCommitModal.jsx:146
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "Ei kontteja"
+msgstr "Kommitoi kontti"
 
 #: src/Containers.jsx:356
 msgid "Console"
@@ -155,7 +153,7 @@ msgstr "Luo"
 
 #: src/ContainerCommitModal.jsx:147
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Luo uusi levykuva $0-kontin nykyisen tilan perusteella."
 
 #: src/Containers.jsx:497 src/Images.jsx:387 src/ImageRunModal.jsx:914
 msgid "Create container"
@@ -183,10 +181,8 @@ msgid "Delete tagged images"
 msgstr "Poista merkityt kuvat"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "Delete unused user images:"
 msgid "Delete unused $0 images:"
-msgstr "Poista käyttämättömät käyttäjän levykuvat:"
+msgstr "Poista käyttämättömät $0 levykuvat:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -212,6 +208,8 @@ msgstr "Älä sisällytä juuritiedostojärjestelmän muutoksia vientiä varten"
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Docker-muoto on hyödyllinen, kun levykuvaa jaetaan Dockerin tai Moby Enginen "
+"kanssa"
 
 #: src/ImageSearchModal.jsx:228
 msgid "Download"
@@ -243,7 +241,7 @@ msgstr "Virhe konsolia liitettäessä"
 
 #: src/ContainerCommitModal.jsx:118
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "Esimerkki: Nimesi <nimesi@esimerkki.fi>"
 
 #: src/ImageRunModal.jsx:772
 msgid "Example: $0"
@@ -258,10 +256,8 @@ msgid "Failed to checkpoint container $0"
 msgstr "Kontin $0 tarkistuspisteen luominen epäonnistui"
 
 #: src/ImageRunModal.jsx:396
-#, fuzzy
-#| msgid "Failed to create container $0"
 msgid "Failed to clean up container"
-msgstr "Kontin $0 luominen epäonnistui"
+msgstr "Kontin poistaminen epäonnistui"
 
 #: src/ContainerCommitModal.jsx:90
 msgid "Failed to commit container $0"
@@ -352,10 +348,8 @@ msgid "Failed to stop pod $0"
 msgstr "Podin $0 pysäyttäminen epäonnistui"
 
 #: src/ContainerCommitModal.jsx:162
-#, fuzzy
-#| msgid "Force stop"
 msgid "Force commit"
-msgstr "Pakota pysäytys"
+msgstr "Pakota kommitti"
 
 #: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:157
 msgid "Force delete"
@@ -520,10 +514,8 @@ msgid "Name"
 msgstr "Nimi"
 
 #: src/ContainerCommitModal.jsx:100
-#, fuzzy
-#| msgid "Image name"
 msgid "New image name"
-msgstr "Levykuvan nimi"
+msgstr "Uusi levykuvan nimi"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -583,7 +575,7 @@ msgstr "Vain käynnissä olevat"
 
 #: src/ImageRunModal.jsx:864 src/ContainerCommitModal.jsx:129
 msgid "Options"
-msgstr ""
+msgstr "Valinnat"
 
 #: src/Containers.jsx:380 src/Images.jsx:161 src/ImageRunModal.jsx:750
 #: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:148
@@ -595,10 +587,8 @@ msgid "Pause"
 msgstr "Keskeytä"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "Pause container when creating image"
-msgstr "Yksikään kontti ei käytä tätä levykuvaa"
+msgstr "Pysäytä kontti levykuvan luomisen ajaksi"
 
 #: src/util.js:11
 msgid "Paused"
@@ -815,7 +805,7 @@ msgstr "Käynnissä $0 lähtien"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Käytä vanhaa Docker-muotoa"
 
 #: src/Images.jsx:165 src/ImageDetails.jsx:33
 msgid "Used by"
@@ -927,10 +917,8 @@ msgid "unused"
 msgstr "ei käytössä"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "user:"
 msgid "user"
-msgstr "käyttäjä:"
+msgstr "käyttäjä"
 
 #: src/Containers.jsx:335 src/Images.jsx:123
 msgid "user:"
