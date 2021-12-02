@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 02:57+0000\n"
+"POT-Creation-Date: 2021-12-02 02:55+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -147,7 +147,7 @@ msgstr "Behållarsökväg"
 msgid "Container port"
 msgstr "Behållarport"
 
-#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:552
+#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:554
 msgid "Containers"
 msgstr "Behållare"
 
@@ -926,7 +926,7 @@ msgstr "inte tillgängligt"
 msgid "paused"
 msgstr "pausad"
 
-#: src/Containers.jsx:563
+#: src/Containers.jsx:565
 msgid "pod group"
 msgstr "kapselgrupp"
 

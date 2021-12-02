@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 02:57+0000\n"
+"POT-Creation-Date: 2021-12-02 02:55+0000\n"
 "PO-Revision-Date: 2021-12-01 06:38+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
@@ -140,7 +140,7 @@ msgstr "컨테이너 경로"
 msgid "Container port"
 msgstr "컨테이너 포트"
 
-#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:552
+#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:554
 msgid "Containers"
 msgstr "컨테이너들"
 
@@ -877,7 +877,7 @@ msgstr "사용할 수 없음"
 msgid "paused"
 msgstr "일시 중지됨"
 
-#: src/Containers.jsx:563
+#: src/Containers.jsx:565
 msgid "pod group"
 msgstr "포드 그룹"
 

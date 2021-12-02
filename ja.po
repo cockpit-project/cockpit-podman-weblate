@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 02:57+0000\n"
+"POT-Creation-Date: 2021-12-02 02:55+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -142,7 +142,7 @@ msgstr "コンテナーパス"
 msgid "Container port"
 msgstr "コンテナーポート"
 
-#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:552
+#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:554
 msgid "Containers"
 msgstr "コンテナー"
 
@@ -913,7 +913,7 @@ msgstr "利用できません"
 msgid "paused"
 msgstr "一時停止"
 
-#: src/Containers.jsx:563
+#: src/Containers.jsx:565
 msgid "pod group"
 msgstr "Pod グループ"
 

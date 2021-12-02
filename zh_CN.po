@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 02:57+0000\n"
+"POT-Creation-Date: 2021-12-02 02:55+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -142,7 +142,7 @@ msgstr "容器路径"
 msgid "Container port"
 msgstr "容器端口"
 
-#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:552
+#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:554
 msgid "Containers"
 msgstr "容器"
 
@@ -907,7 +907,7 @@ msgstr "不可用"
 msgid "paused"
 msgstr "已暂停"
 
-#: src/Containers.jsx:563
+#: src/Containers.jsx:565
 msgid "pod group"
 msgstr "pod 组"
 

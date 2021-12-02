@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 02:57+0000\n"
+"POT-Creation-Date: 2021-12-02 02:55+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -148,7 +148,7 @@ msgstr "Cesta v kontajneri"
 msgid "Container port"
 msgstr "Port kontajneru"
 
-#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:552
+#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:554
 msgid "Containers"
 msgstr "Kontajnery"
 
@@ -942,7 +942,7 @@ msgstr "nedostupné"
 msgid "paused"
 msgstr "pozastavený"
 
-#: src/Containers.jsx:563
+#: src/Containers.jsx:565
 msgid "pod group"
 msgstr ""
 
