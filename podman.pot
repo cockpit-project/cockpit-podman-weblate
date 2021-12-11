@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 02:55+0000\n"
+"POT-Creation-Date: 2021-12-11 02:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,15 +50,15 @@ msgid_plural "$0 unused images, $1"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ImageRunModal.jsx:875
+#: src/ImageRunModal.jsx:886
 msgid "Add port mapping"
 msgstr ""
 
-#: src/ImageRunModal.jsx:894
+#: src/ImageRunModal.jsx:905
 msgid "Add variable"
 msgstr ""
 
-#: src/ImageRunModal.jsx:884
+#: src/ImageRunModal.jsx:895
 msgid "Add volume"
 msgstr ""
 
@@ -86,11 +86,22 @@ msgstr ""
 msgid "CPU"
 msgstr ""
 
-#: src/ImageRunModal.jsx:848
+#: src/ImageRunModal.jsx:852
+msgid "CPU Shares help"
+msgstr ""
+
+#: src/ImageRunModal.jsx:850
 msgid "CPU shares"
 msgstr ""
 
-#: src/ImageRunModal.jsx:921 src/ForceRemoveModal.jsx:21
+#: src/ImageRunModal.jsx:854
+msgid ""
+"CPU shares determine the priority of running containers. Default priority is "
+"1024. A higher number prioritizes this container. A lower number decreases "
+"priority."
+msgstr ""
+
+#: src/ImageRunModal.jsx:932 src/ForceRemoveModal.jsx:21
 #: src/ContainerCommitModal.jsx:168 src/PruneUnusedImagesModal.jsx:104
 #: src/ContainerDeleteModal.jsx:15 src/ContainerRestoreModal.jsx:39
 #: src/ContainerCheckpointModal.jsx:38 src/ImageSearchModal.jsx:231
@@ -159,7 +170,7 @@ msgstr ""
 msgid "Containers"
 msgstr ""
 
-#: src/ImageRunModal.jsx:918
+#: src/ImageRunModal.jsx:929
 msgid "Create"
 msgstr ""
 
@@ -167,7 +178,7 @@ msgstr ""
 msgid "Create a new image based on the current state of the $0 container."
 msgstr ""
 
-#: src/ImageRunModal.jsx:914 src/Containers.jsx:497 src/Images.jsx:387
+#: src/ImageRunModal.jsx:925 src/Containers.jsx:497 src/Images.jsx:387
 msgid "Create container"
 msgstr ""
 
@@ -233,7 +244,7 @@ msgstr ""
 msgid "Entrypoint"
 msgstr ""
 
-#: src/ImageRunModal.jsx:893
+#: src/ImageRunModal.jsx:904
 msgid "Environment variables"
 msgstr ""
 
@@ -445,7 +456,7 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
-#: src/ImageRunModal.jsx:869
+#: src/ImageRunModal.jsx:880
 msgid "Integration"
 msgstr ""
 
@@ -537,7 +548,7 @@ msgstr ""
 msgid "No containers that match the current filter"
 msgstr ""
 
-#: src/ImageRunModal.jsx:891
+#: src/ImageRunModal.jsx:902
 msgid "No environment variables specified"
 msgstr ""
 
@@ -557,7 +568,7 @@ msgstr ""
 msgid "No label"
 msgstr ""
 
-#: src/ImageRunModal.jsx:872
+#: src/ImageRunModal.jsx:883
 msgid "No ports exposed"
 msgstr ""
 
@@ -569,7 +580,7 @@ msgstr ""
 msgid "No running containers"
 msgstr ""
 
-#: src/ImageRunModal.jsx:881
+#: src/ImageRunModal.jsx:892
 msgid "No volumes specified"
 msgstr ""
 
@@ -577,7 +588,7 @@ msgstr ""
 msgid "Only running"
 msgstr ""
 
-#: src/ImageRunModal.jsx:864 src/ContainerCommitModal.jsx:129
+#: src/ImageRunModal.jsx:875 src/ContainerCommitModal.jsx:129
 msgid "Options"
 msgstr ""
 
@@ -630,7 +641,7 @@ msgstr ""
 msgid "Podman service is not active"
 msgstr ""
 
-#: src/ImageRunModal.jsx:874
+#: src/ImageRunModal.jsx:885
 msgid "Port mapping"
 msgstr ""
 
@@ -747,7 +758,7 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#: src/ImageRunModal.jsx:866
+#: src/ImageRunModal.jsx:877
 msgid "Start after creation"
 msgstr ""
 
@@ -831,7 +842,7 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: src/ImageRunModal.jsx:883
+#: src/ImageRunModal.jsx:894
 msgid "Volumes"
 msgstr ""
 
