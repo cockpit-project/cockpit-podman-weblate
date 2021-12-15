@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-15 02:56+0000\n"
-"PO-Revision-Date: 2021-12-01 06:38+0000\n"
+"PO-Revision-Date: 2021-12-17 17:16+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,8 +58,6 @@ msgid "All registries"
 msgstr "Tüm kayıtlar"
 
 #: src/PodActions.jsx:162
-#, fuzzy
-#| msgid "An error occured"
 msgid "An error occurred"
 msgstr "Bir hata meydana geldi"
 
@@ -76,10 +74,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/ImageRunModal.jsx:884
-#, fuzzy
-#| msgid "IP address help"
 msgid "CPU Shares help"
-msgstr "IP adresi yardım"
+msgstr "CPU Paylaşımları yardımı"
 
 #: src/ImageRunModal.jsx:882
 msgid "CPU shares"
@@ -91,6 +87,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"CPU paylaşımları, kapsayıcıları çalıştırmanın önceliğini belirler. "
+"Varsayılan öncelik 1024'dür. Daha yüksek bir sayı bu kapsayıcıya öncelik "
+"verir. Daha düşük bir sayı önceliği azaltır."
 
 #: src/ImageRunModal.jsx:965 src/ForceRemoveModal.jsx:21
 #: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
@@ -249,8 +248,6 @@ msgid "Error message"
 msgstr "Hata iletisi"
 
 #: src/ContainerTerminal.jsx:261
-#, fuzzy
-#| msgid "Error occured while connecting console"
 msgid "Error occurred while connecting console"
 msgstr "Konsola bağlanırken hata meydana geldi"
 
@@ -601,6 +598,8 @@ msgstr "Sahibi"
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
+"Toplu içe aktarma için herhangi bir alana bir veya daha fazla anahtar=değer "
+"çifti satırı yapıştırın"
 
 #: src/PodActions.jsx:127
 msgid "Pause"
