@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 02:56+0000\n"
+"POT-Creation-Date: 2021-12-16 02:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgstr ""
 msgid "All registries"
 msgstr ""
 
-#: src/PodActions.jsx:162
+#: src/PodActions.jsx:167
 msgid "An error occurred"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 #: src/ImageRunModal.jsx:965 src/ForceRemoveModal.jsx:21
 #: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
 #: src/ImageSearchModal.jsx:231 src/ContainerCommitModal.jsx:168
-#: src/PodActions.jsx:158 src/ContainerRestoreModal.jsx:39
+#: src/PodActions.jsx:163 src/ContainerRestoreModal.jsx:39
 #: src/PruneUnusedImagesModal.jsx:104 src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr ""
@@ -191,7 +191,7 @@ msgid "Default with single selectable"
 msgstr ""
 
 #: src/Containers.jsx:210 src/ContainerDeleteModal.jsx:14 src/Images.jsx:400
-#: src/PodActions.jsx:137 src/PodActions.jsx:157
+#: src/PodActions.jsx:140 src/PodActions.jsx:162
 msgid "Delete"
 msgstr ""
 
@@ -211,7 +211,7 @@ msgstr ""
 msgid "Deleting a container will erase all data in it."
 msgstr ""
 
-#: src/PodActions.jsx:163
+#: src/PodActions.jsx:168
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Force commit"
 msgstr ""
 
-#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:157
+#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:162
 msgid "Force delete"
 msgstr ""
 
@@ -618,11 +618,11 @@ msgstr ""
 msgid "Please confirm deletion of $0"
 msgstr ""
 
-#: src/PodActions.jsx:154
+#: src/PodActions.jsx:159
 msgid "Please confirm deletion of pod $0"
 msgstr ""
 
-#: src/PodActions.jsx:154
+#: src/PodActions.jsx:159
 msgid "Please confirm force deletion of pod $0"
 msgstr ""
 
