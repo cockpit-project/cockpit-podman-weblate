@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 02:56+0000\n"
+"POT-Creation-Date: 2021-12-17 02:58+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -25,35 +25,35 @@ msgstr[0] "kontajner"
 msgstr[1] "kontajner"
 msgstr[2] "kontajner"
 
-#: src/Images.jsx:252
+#: src/Images.jsx:253
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/Images.jsx:256
+#: src/Images.jsx:257
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/ImageRunModal.jsx:918
+#: src/ImageRunModal.jsx:984
 msgid "Add port mapping"
 msgstr ""
 
-#: src/ImageRunModal.jsx:937
+#: src/ImageRunModal.jsx:1003
 #, fuzzy
 #| msgid "not available"
 msgid "Add variable"
 msgstr "nedostupné"
 
-#: src/ImageRunModal.jsx:927
+#: src/ImageRunModal.jsx:993
 msgid "Add volume"
 msgstr ""
 
-#: src/ImageRunModal.jsx:739 src/Containers.jsx:489 src/ContainerHeader.jsx:49
+#: src/ImageRunModal.jsx:762 src/Containers.jsx:489 src/ContainerHeader.jsx:49
 msgid "All"
 msgstr "Všetky"
 
@@ -61,7 +61,11 @@ msgstr "Všetky"
 msgid "All registries"
 msgstr "Všetky registre"
 
-#: src/PodActions.jsx:162
+#: src/ImageRunModal.jsx:952
+msgid "Always"
+msgstr ""
+
+#: src/PodActions.jsx:167
 #, fuzzy
 #| msgid "An error occured"
 msgid "An error occurred"
@@ -71,7 +75,7 @@ msgstr "Vyskytla sa chyba"
 msgid "Author"
 msgstr "Autor"
 
-#: src/app.jsx:577
+#: src/app.jsx:588
 msgid "Automatically start podman on boot"
 msgstr "Spúšťať podman pri zavádzaní systému"
 
@@ -79,27 +83,27 @@ msgstr "Spúšťať podman pri zavádzaní systému"
 msgid "CPU"
 msgstr "CPU"
 
-#: src/ImageRunModal.jsx:884
+#: src/ImageRunModal.jsx:908
 #, fuzzy
 #| msgid "IP address"
 msgid "CPU Shares help"
 msgstr "IP adresa"
 
-#: src/ImageRunModal.jsx:882
+#: src/ImageRunModal.jsx:906
 msgid "CPU shares"
 msgstr "CPU podiely"
 
-#: src/ImageRunModal.jsx:886
+#: src/ImageRunModal.jsx:910
 msgid ""
 "CPU shares determine the priority of running containers. Default priority is "
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
 
-#: src/ImageRunModal.jsx:965 src/ForceRemoveModal.jsx:21
+#: src/ImageRunModal.jsx:1031 src/ForceRemoveModal.jsx:21
 #: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
 #: src/ImageSearchModal.jsx:231 src/ContainerCommitModal.jsx:168
-#: src/PodActions.jsx:158 src/ContainerRestoreModal.jsx:39
+#: src/PodActions.jsx:163 src/ContainerRestoreModal.jsx:39
 #: src/PruneUnusedImagesModal.jsx:104 src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr "Zrušiť"
@@ -112,7 +116,7 @@ msgstr "Vytvoriť kontrolný bod"
 msgid "Checkpoint container $0"
 msgstr "Vytvoriť kontrolný bod pre kontajner $0"
 
-#: src/ImageRunModal.jsx:840 src/ImageDetails.jsx:15
+#: src/ImageRunModal.jsx:863 src/ImageDetails.jsx:15
 #: src/ContainerDetails.jsx:54 src/ContainerCommitModal.jsx:123
 msgid "Command"
 msgstr "Príkaz"
@@ -135,11 +139,11 @@ msgstr "Konzola"
 msgid "Container"
 msgstr "Kontajner"
 
-#: src/ImageRunModal.jsx:439
+#: src/ImageRunModal.jsx:453
 msgid "Container failed to be created"
 msgstr "Kontajner sa nepodarilo vytvoriť"
 
-#: src/ImageRunModal.jsx:422
+#: src/ImageRunModal.jsx:436
 msgid "Container failed to be started"
 msgstr "Kontajner sa nepodarilo spustiť"
 
@@ -151,7 +155,7 @@ msgstr "Kontajner momentálne beží."
 msgid "Container is not running"
 msgstr "Kontajner nebeží"
 
-#: src/ImageRunModal.jsx:777
+#: src/ImageRunModal.jsx:800
 msgid "Container name"
 msgstr "Názov kontajneru"
 
@@ -163,11 +167,11 @@ msgstr "Cesta v kontajneri"
 msgid "Container port"
 msgstr "Port kontajneru"
 
-#: src/Containers.jsx:519 src/Containers.jsx:526 src/Containers.jsx:554
+#: src/Containers.jsx:520 src/Containers.jsx:527 src/Containers.jsx:555
 msgid "Containers"
 msgstr "Kontajnery"
 
-#: src/ImageRunModal.jsx:962
+#: src/ImageRunModal.jsx:1028
 #, fuzzy
 #| msgid "Created"
 msgid "Create"
@@ -177,22 +181,22 @@ msgstr "Vytvorený"
 msgid "Create a new image based on the current state of the $0 container."
 msgstr ""
 
-#: src/ImageRunModal.jsx:958 src/Containers.jsx:497 src/Images.jsx:387
+#: src/ImageRunModal.jsx:1024 src/Containers.jsx:497 src/Images.jsx:388
 #, fuzzy
 #| msgid "Pause the container"
 msgid "Create container"
 msgstr "Pozastaviť kontajner"
 
-#: src/util.js:11 src/Images.jsx:162 src/ContainerDetails.jsx:78
+#: src/util.js:11 src/Images.jsx:163 src/ContainerDetails.jsx:78
 msgid "Created"
 msgstr "Vytvorený"
 
-#: src/ImageRunModal.jsx:783
+#: src/ImageRunModal.jsx:806
 msgid "Default with single selectable"
 msgstr ""
 
-#: src/Containers.jsx:210 src/ContainerDeleteModal.jsx:14 src/Images.jsx:400
-#: src/PodActions.jsx:137 src/PodActions.jsx:157
+#: src/Containers.jsx:210 src/ContainerDeleteModal.jsx:14 src/Images.jsx:401
+#: src/PodActions.jsx:140 src/PodActions.jsx:162
 msgid "Delete"
 msgstr "Odstrániť"
 
@@ -214,15 +218,15 @@ msgstr "Zmazať označené obrazy"
 msgid "Deleting a container will erase all data in it."
 msgstr "Zmazaním kontajneru sa zmažú všetky dáta v ňom."
 
-#: src/PodActions.jsx:163
+#: src/PodActions.jsx:168
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Zmazanie tohto podu zmaže nasledujúce kontajnery:"
 
-#: src/ImageRunModal.jsx:795 src/Containers.jsx:348 src/Images.jsx:138
+#: src/ImageRunModal.jsx:818 src/Containers.jsx:348 src/Images.jsx:139
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: src/Images.jsx:164
+#: src/Images.jsx:165
 msgid "Disk space"
 msgstr ""
 
@@ -239,7 +243,7 @@ msgstr ""
 msgid "Download"
 msgstr "Stiahnuť"
 
-#: src/Images.jsx:321
+#: src/Images.jsx:322
 #, fuzzy
 #| msgid "Download as:"
 msgid "Download new image"
@@ -249,7 +253,7 @@ msgstr "Stiahnuť ako:"
 msgid "Entrypoint"
 msgstr "Vstupný bod"
 
-#: src/ImageRunModal.jsx:936
+#: src/ImageRunModal.jsx:1002
 #, fuzzy
 #| msgid "Environment"
 msgid "Environment variables"
@@ -271,7 +275,7 @@ msgstr ""
 msgid "Example, Your Name <yourname@example.com>"
 msgstr ""
 
-#: src/ImageRunModal.jsx:804
+#: src/ImageRunModal.jsx:827
 msgid "Example: $0"
 msgstr ""
 
@@ -283,7 +287,7 @@ msgstr "Skončený"
 msgid "Failed to checkpoint container $0"
 msgstr "Nepodarilo sa vytvoriť kontrolný bod pre kontajner $0"
 
-#: src/ImageRunModal.jsx:428
+#: src/ImageRunModal.jsx:442
 #, fuzzy
 #| msgid "Failed to restore container $0"
 msgid "Failed to clean up container"
@@ -293,7 +297,7 @@ msgstr "Nepodarilo sa obnoviť kontajner $0"
 msgid "Failed to commit container $0"
 msgstr ""
 
-#: src/ImageRunModal.jsx:483
+#: src/ImageRunModal.jsx:497
 #, fuzzy
 #| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
@@ -307,7 +311,7 @@ msgstr "Nepodarilo sa stiahnuť obraz $0:$1"
 msgid "Failed to force remove container $0"
 msgstr "Nepodarilo sa vynútiť zmazanie kontajneru $0"
 
-#: src/Images.jsx:371
+#: src/Images.jsx:372
 #, fuzzy
 #| msgid "Failed to force remove container $0"
 msgid "Failed to force remove image $0"
@@ -327,7 +331,7 @@ msgstr "Nepodarilo sa zastaviť pod $0"
 msgid "Failed to prune unused images"
 msgstr "Nepodarilo sa zmazať kontajner $0"
 
-#: src/ImageRunModal.jsx:489
+#: src/ImageRunModal.jsx:503
 #, fuzzy
 #| msgid "Failed to remove container $0"
 msgid "Failed to pull image $0"
@@ -337,7 +341,7 @@ msgstr "Nepodarilo sa zmazať kontajner $0"
 msgid "Failed to remove container $0"
 msgstr "Nepodarilo sa zmazať kontajner $0"
 
-#: src/Images.jsx:361
+#: src/Images.jsx:362
 #, fuzzy
 #| msgid "Failed to remove container $0"
 msgid "Failed to remove image $0"
@@ -359,17 +363,17 @@ msgstr "Nepodarilo sa obnoviť kontajner $0"
 msgid "Failed to resume pod $0"
 msgstr "Nepodarilo sa znovuspustiť pod $0"
 
-#: src/ImageRunModal.jsx:476
+#: src/ImageRunModal.jsx:490
 #, fuzzy
 #| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
 msgstr "Nepodarilo sa spustiť kontajner $0"
 
-#: src/ImageRunModal.jsx:562 src/ImageSearchModal.jsx:109
+#: src/ImageRunModal.jsx:576 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
 msgstr "Nepodarilo sa nájsť obrazy: $0"
 
-#: src/ImageRunModal.jsx:560 src/ImageSearchModal.jsx:108
+#: src/ImageRunModal.jsx:574 src/ImageSearchModal.jsx:108
 msgid "Failed to search for new images"
 msgstr "Nepodarilo sa nájsť nové obrazy"
 
@@ -395,7 +399,7 @@ msgstr "Nepodarilo sa zastaviť pod $0"
 msgid "Force commit"
 msgstr "Vynútiť zastavenie"
 
-#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:157
+#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:162
 msgid "Force delete"
 msgstr "Vynútiť odstránenie"
 
@@ -411,17 +415,17 @@ msgstr "Vynútiť zastavenie"
 msgid "Gateway"
 msgstr "Brána"
 
-#: src/ImageRunModal.jsx:874
+#: src/ImageRunModal.jsx:898
 msgid "GiB"
 msgstr "GiB"
 
-#: src/Images.jsx:279
+#: src/Images.jsx:280
 #, fuzzy
 #| msgid "No images"
 msgid "Hide images"
 msgstr "Žiadne obrazy"
 
-#: src/Images.jsx:234
+#: src/Images.jsx:235
 msgid "Hide intermediate images"
 msgstr "Skryť dočasné obrazy"
 
@@ -441,7 +445,7 @@ msgstr "Cesta na hostiteľovi"
 msgid "Host port help"
 msgstr "Cesta na hostiteľovi"
 
-#: src/Images.jsx:163 src/ContainerDetails.jsx:46
+#: src/Images.jsx:164 src/ContainerDetails.jsx:46
 msgid "ID"
 msgstr "ID"
 
@@ -475,19 +479,19 @@ msgstr "Ignorovať staticky nastavené IP adresy"
 msgid "Ignore MAC address if set statically"
 msgstr "Ignorovať staticky nastavené MAC adresy"
 
-#: src/ImageRunModal.jsx:797 src/Images.jsx:160 src/ContainerDetails.jsx:50
+#: src/ImageRunModal.jsx:820 src/Images.jsx:161 src/ContainerDetails.jsx:50
 msgid "Image"
 msgstr "Obraz"
 
-#: src/ImageRunModal.jsx:799
+#: src/ImageRunModal.jsx:822
 msgid "Image selection help"
 msgstr ""
 
-#: src/Images.jsx:239 src/Images.jsx:267
+#: src/Images.jsx:240 src/Images.jsx:268
 msgid "Images"
 msgstr "Obrazy"
 
-#: src/ImageRunModal.jsx:912
+#: src/ImageRunModal.jsx:978
 msgid "Integration"
 msgstr ""
 
@@ -499,7 +503,7 @@ msgstr ""
 msgid "Key"
 msgstr "Kľúč"
 
-#: src/ImageRunModal.jsx:872
+#: src/ImageRunModal.jsx:896
 msgid "KiB"
 msgstr "KiB"
 
@@ -515,11 +519,11 @@ msgstr "Načítanie záznamov udalostí..."
 msgid "Loading..."
 msgstr "Načítanie..."
 
-#: src/ImageRunModal.jsx:748
+#: src/ImageRunModal.jsx:771
 msgid "Local"
 msgstr ""
 
-#: src/ImageRunModal.jsx:650
+#: src/ImageRunModal.jsx:664
 #, fuzzy
 #| msgid "No images"
 msgid "Local images"
@@ -533,21 +537,25 @@ msgstr "Záznamy udalostí"
 msgid "MAC address"
 msgstr "MAC adresa"
 
+#: src/ImageRunModal.jsx:958
+msgid "Maximum retries"
+msgstr ""
+
 #: src/Containers.jsx:382
 msgid "Memory"
 msgstr "Pamäť"
 
-#: src/ImageRunModal.jsx:853
+#: src/ImageRunModal.jsx:876
 msgid "Memory limit"
 msgstr "Pamäťový limit"
 
-#: src/ImageRunModal.jsx:867
+#: src/ImageRunModal.jsx:891
 #, fuzzy
 #| msgid "Memory limit"
 msgid "Memory unit"
 msgstr "Pamäťový limit"
 
-#: src/ImageRunModal.jsx:873
+#: src/ImageRunModal.jsx:897
 msgid "MiB"
 msgstr "MiB"
 
@@ -559,7 +567,7 @@ msgstr ""
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ImageRunModal.jsx:774
+#: src/ImageRunModal.jsx:797
 msgid "Name"
 msgstr "Názov"
 
@@ -568,6 +576,10 @@ msgstr "Názov"
 #| msgid "Image name"
 msgid "New image name"
 msgstr "Názov obrazu"
+
+#: src/ImageRunModal.jsx:950
+msgid "No"
+msgstr ""
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -585,21 +597,21 @@ msgstr "V tomto pode nie sú žiadne kontajnery"
 msgid "No containers that match the current filter"
 msgstr ""
 
-#: src/ImageRunModal.jsx:934
+#: src/ImageRunModal.jsx:1000
 msgid "No environment variables specified"
 msgstr ""
 
-#: src/Images.jsx:168
+#: src/Images.jsx:169
 msgid "No images"
 msgstr "Žiadne obrazy"
 
-#: src/ImageRunModal.jsx:822 src/ImageSearchModal.jsx:176
+#: src/ImageRunModal.jsx:845 src/ImageSearchModal.jsx:176
 #, fuzzy
 #| msgid "No images"
 msgid "No images found"
 msgstr "Žiadne obrazy"
 
-#: src/Images.jsx:172
+#: src/Images.jsx:173
 msgid "No images that match the current filter"
 msgstr ""
 
@@ -607,7 +619,7 @@ msgstr ""
 msgid "No label"
 msgstr ""
 
-#: src/ImageRunModal.jsx:915
+#: src/ImageRunModal.jsx:981
 msgid "No ports exposed"
 msgstr ""
 
@@ -619,24 +631,28 @@ msgstr ""
 msgid "No running containers"
 msgstr "Žiadne spustené kontajnery"
 
-#: src/ImageRunModal.jsx:924
+#: src/ImageRunModal.jsx:990
 msgid "No volumes specified"
+msgstr ""
+
+#: src/ImageRunModal.jsx:951
+msgid "On failure"
 msgstr ""
 
 #: src/Containers.jsx:488
 msgid "Only running"
 msgstr ""
 
-#: src/ImageRunModal.jsx:907 src/ContainerCommitModal.jsx:129
+#: src/ImageRunModal.jsx:973 src/ContainerCommitModal.jsx:129
 msgid "Options"
 msgstr ""
 
-#: src/ImageRunModal.jsx:782 src/Containers.jsx:380 src/Images.jsx:161
+#: src/ImageRunModal.jsx:805 src/Containers.jsx:380 src/Images.jsx:162
 #: src/ImageSearchModal.jsx:148 src/ContainerHeader.jsx:43
 msgid "Owner"
 msgstr "Vlastník"
 
-#: src/ImageRunModal.jsx:940
+#: src/ImageRunModal.jsx:1006
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
@@ -659,11 +675,11 @@ msgstr "Pozastavený"
 msgid "Please confirm deletion of $0"
 msgstr "Potvrďte zmazanie $0"
 
-#: src/PodActions.jsx:154
+#: src/PodActions.jsx:159
 msgid "Please confirm deletion of pod $0"
 msgstr "Potvrďte zmazanie podu $0"
 
-#: src/PodActions.jsx:154
+#: src/PodActions.jsx:159
 msgid "Please confirm force deletion of pod $0"
 msgstr "Potvrďte vynútené zmazanie podu $0"
 
@@ -685,11 +701,11 @@ msgstr ""
 msgid "Podman containers"
 msgstr "Podman kontajnery"
 
-#: src/app.jsx:573
+#: src/app.jsx:584
 msgid "Podman service is not active"
 msgstr "Služba Podman nie je aktívna"
 
-#: src/ImageRunModal.jsx:917
+#: src/ImageRunModal.jsx:983
 msgid "Port mapping"
 msgstr ""
 
@@ -709,7 +725,7 @@ msgstr ""
 msgid "Prune"
 msgstr ""
 
-#: src/Images.jsx:330 src/PruneUnusedImagesModal.jsx:95
+#: src/Images.jsx:331 src/PruneUnusedImagesModal.jsx:95
 #, fuzzy
 #| msgid "Get new image"
 msgid "Prune unused images"
@@ -721,7 +737,7 @@ msgstr "Získať nové obrazy"
 msgid "Pruning images"
 msgstr "Spustiť obraz"
 
-#: src/Images.jsx:302
+#: src/Images.jsx:303
 msgid "Pulling"
 msgstr "Sťahuje sa"
 
@@ -733,6 +749,22 @@ msgstr ""
 #: src/Containers.jsx:173 src/PodActions.jsx:82
 msgid "Restart"
 msgstr "Reštartovať"
+
+#: src/ImageRunModal.jsx:935
+#, fuzzy
+#| msgid "Restart"
+msgid "Restart policy"
+msgstr "Reštartovať"
+
+#: src/ImageRunModal.jsx:937 src/ImageRunModal.jsx:947
+#, fuzzy
+#| msgid "Host path"
+msgid "Restart policy help"
+msgstr "Cesta na hostiteľovi"
+
+#: src/ImageRunModal.jsx:939
+msgid "Restart policy to follow when containers exit."
+msgstr ""
 
 #: src/Containers.jsx:165 src/ContainerRestoreModal.jsx:35
 msgid "Restore"
@@ -762,7 +794,7 @@ msgstr ""
 msgid "Search by name or description"
 msgstr "Hľadať podľa mena alebo popisu"
 
-#: src/ImageRunModal.jsx:738
+#: src/ImageRunModal.jsx:761
 msgid "Search by registry"
 msgstr ""
 
@@ -774,7 +806,7 @@ msgstr ""
 msgid "Search for an image"
 msgstr "Hľadanie obrazu"
 
-#: src/ImageRunModal.jsx:827
+#: src/ImageRunModal.jsx:850
 msgid "Search string or container location"
 msgstr ""
 
@@ -784,7 +816,7 @@ msgstr ""
 msgid "Searching..."
 msgstr "Načítanie..."
 
-#: src/ImageRunModal.jsx:805
+#: src/ImageRunModal.jsx:828
 #, fuzzy
 #| msgid "Loading..."
 msgid "Searching: $0"
@@ -798,13 +830,13 @@ msgstr "Zdielaný"
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:279
+#: src/Images.jsx:280
 #, fuzzy
 #| msgid "No images"
 msgid "Show images"
 msgstr "Žiadne obrazy"
 
-#: src/Images.jsx:234
+#: src/Images.jsx:235
 msgid "Show intermediate images"
 msgstr ""
 
@@ -814,15 +846,15 @@ msgstr ""
 msgid "Show more"
 msgstr "Žiadne obrazy"
 
-#: src/app.jsx:614 src/Containers.jsx:157 src/PodActions.jsx:97
+#: src/app.jsx:625 src/Containers.jsx:157 src/PodActions.jsx:97
 msgid "Start"
 msgstr "Spustiť"
 
-#: src/ImageRunModal.jsx:909
+#: src/ImageRunModal.jsx:975
 msgid "Start after creation"
 msgstr ""
 
-#: src/app.jsx:580
+#: src/app.jsx:591
 msgid "Start podman"
 msgstr "Spustiť podman"
 
@@ -842,11 +874,11 @@ msgstr "Zastavený"
 msgid "Support preserving established TCP connections"
 msgstr ""
 
-#: src/ImageRunModal.jsx:784 src/ContainerHeader.jsx:48
+#: src/ImageRunModal.jsx:807 src/ContainerHeader.jsx:48
 msgid "System"
 msgstr "Systém"
 
-#: src/app.jsx:619
+#: src/app.jsx:630
 msgid "System Podman service is also available"
 msgstr "Systémový podman je tiež dostupný"
 
@@ -862,7 +894,7 @@ msgstr "Tag"
 msgid "Tags"
 msgstr "Tagy"
 
-#: src/app.jsx:585
+#: src/app.jsx:596
 msgid "Troubleshoot"
 msgstr "Riešiť problém"
 
@@ -882,19 +914,19 @@ msgstr "Aktívny od $0"
 msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/Images.jsx:165 src/ImageDetails.jsx:33
+#: src/Images.jsx:166 src/ImageDetails.jsx:33
 msgid "Used by"
 msgstr "Využívaný s"
 
-#: src/app.jsx:65 src/app.jsx:502
+#: src/app.jsx:66 src/app.jsx:513
 msgid "User"
 msgstr ""
 
-#: src/app.jsx:624
+#: src/app.jsx:635
 msgid "User Podman service is also available"
 msgstr "Užívateľský podman je tiež dostupný"
 
-#: src/ImageRunModal.jsx:786
+#: src/ImageRunModal.jsx:809
 #, fuzzy
 #| msgid "user"
 msgid "User:"
@@ -904,11 +936,11 @@ msgstr "používateľ"
 msgid "Value"
 msgstr "Hodnota"
 
-#: src/ImageRunModal.jsx:926
+#: src/ImageRunModal.jsx:992
 msgid "Volumes"
 msgstr "Zväzky"
 
-#: src/ImageRunModal.jsx:849
+#: src/ImageRunModal.jsx:872
 msgid "With terminal"
 msgstr "S terminálom"
 
@@ -928,7 +960,7 @@ msgstr "kontajner"
 msgid "created"
 msgstr "vytvorený"
 
-#: src/ImageRunModal.jsx:460
+#: src/ImageRunModal.jsx:474
 #, fuzzy
 #| msgid "Download"
 msgid "downloading"
@@ -938,7 +970,7 @@ msgstr "Stiahnuť"
 msgid "exited"
 msgstr "skončený"
 
-#: src/ImageRunModal.jsx:803
+#: src/ImageRunModal.jsx:826
 msgid "host[:port]/[user]/container[:tag]"
 msgstr ""
 
@@ -962,7 +994,7 @@ msgstr "nedostupné"
 msgid "paused"
 msgstr "pozastavený"
 
-#: src/Containers.jsx:565
+#: src/Containers.jsx:566
 msgid "pod group"
 msgstr ""
 
