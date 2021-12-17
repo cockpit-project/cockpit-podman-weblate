@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-17 02:58+0000\n"
-"PO-Revision-Date: 2021-11-30 16:38+0000\n"
+"PO-Revision-Date: 2021-12-18 10:59+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -63,11 +63,9 @@ msgstr "Усі реєстри"
 
 #: src/ImageRunModal.jsx:952
 msgid "Always"
-msgstr ""
+msgstr "Завжди"
 
 #: src/PodActions.jsx:167
-#, fuzzy
-#| msgid "An error occured"
 msgid "An error occurred"
 msgstr "Сталася помилка"
 
@@ -84,10 +82,8 @@ msgid "CPU"
 msgstr "Процесор"
 
 #: src/ImageRunModal.jsx:908
-#, fuzzy
-#| msgid "IP address help"
 msgid "CPU Shares help"
-msgstr "Довідка щодо IP-адреси"
+msgstr "Довідка щодо спільних процесорів"
 
 #: src/ImageRunModal.jsx:906
 msgid "CPU shares"
@@ -99,6 +95,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"Спільні процесори визначають пріоритетність запуску контейнерів. Типовою "
+"пріоритетністю є 1024. Більші числа роблять контейнер пріоритетнішим. Менші "
+"числа зменшують пріоритетність."
 
 #: src/ImageRunModal.jsx:1031 src/ForceRemoveModal.jsx:21
 #: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
@@ -260,8 +259,6 @@ msgid "Error message"
 msgstr "Повідомлення про помилку"
 
 #: src/ContainerTerminal.jsx:261
-#, fuzzy
-#| msgid "Error occured while connecting console"
 msgid "Error occurred while connecting console"
 msgstr "Під час спроби встановити з'єднання з консоллю сталася помилка"
 
@@ -512,7 +509,7 @@ msgstr "MAC-адреса"
 
 #: src/ImageRunModal.jsx:958
 msgid "Maximum retries"
-msgstr ""
+msgstr "Максимум повторних спроб"
 
 #: src/Containers.jsx:382
 msgid "Memory"
@@ -550,7 +547,7 @@ msgstr "Назва нового образу"
 
 #: src/ImageRunModal.jsx:950
 msgid "No"
-msgstr ""
+msgstr "Ні"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -606,7 +603,7 @@ msgstr "Томів не визначено"
 
 #: src/ImageRunModal.jsx:951
 msgid "On failure"
-msgstr ""
+msgstr "При помилці"
 
 #: src/Containers.jsx:488
 msgid "Only running"
@@ -625,6 +622,8 @@ msgstr "Власник"
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
+"Вставте один або декілька рядків у форматі парт «ключ=значення» до будь-"
+"якого поля для пакетного імпортування"
 
 #: src/PodActions.jsx:127
 msgid "Pause"
@@ -712,20 +711,16 @@ msgid "Restart"
 msgstr "Перезапустити"
 
 #: src/ImageRunModal.jsx:935
-#, fuzzy
-#| msgid "Restart"
 msgid "Restart policy"
-msgstr "Перезапустити"
+msgstr "Правила перезапуску"
 
 #: src/ImageRunModal.jsx:937 src/ImageRunModal.jsx:947
-#, fuzzy
-#| msgid "Host port help"
 msgid "Restart policy help"
-msgstr "Довідка щодо порту в основній системі"
+msgstr "Довідка щодо правил перезапуску"
 
 #: src/ImageRunModal.jsx:939
 msgid "Restart policy to follow when containers exit."
-msgstr ""
+msgstr "Правила перезапуску, які слід виконувати при виході з контейнерів."
 
 #: src/Containers.jsx:165 src/ContainerRestoreModal.jsx:35
 msgid "Restore"
