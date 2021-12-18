@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-17 02:58+0000\n"
-"PO-Revision-Date: 2021-12-17 17:16+0000\n"
+"PO-Revision-Date: 2021-12-18 10:58+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -63,7 +63,7 @@ msgstr "Wszystkie rejestry"
 
 #: src/ImageRunModal.jsx:952
 msgid "Always"
-msgstr ""
+msgstr "Zawsze"
 
 #: src/PodActions.jsx:167
 msgid "An error occurred"
@@ -82,10 +82,8 @@ msgid "CPU"
 msgstr "Procesor"
 
 #: src/ImageRunModal.jsx:908
-#, fuzzy
-#| msgid "IP address help"
 msgid "CPU Shares help"
-msgstr "Pomoc adresu IP"
+msgstr "Pomoc udziałów procesora"
 
 #: src/ImageRunModal.jsx:906
 msgid "CPU shares"
@@ -97,6 +95,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"Udziały procesora ustalają priorytety uruchomionych kontenerów. Domyślny "
+"priorytet to 1024. Wyższa liczba zwiększa priorytet danego kontenera. "
+"Mniejsza liczba zmniejsza priorytet."
 
 #: src/ImageRunModal.jsx:1031 src/ForceRemoveModal.jsx:21
 #: src/ContainerDeleteModal.jsx:15 src/ImageDeleteModal.jsx:62
@@ -506,7 +507,7 @@ msgstr "Adres MAC"
 
 #: src/ImageRunModal.jsx:958
 msgid "Maximum retries"
-msgstr ""
+msgstr "Maksymalna liczba ponownych prób"
 
 #: src/Containers.jsx:382
 msgid "Memory"
@@ -544,7 +545,7 @@ msgstr "Nazwa nowego obrazu"
 
 #: src/ImageRunModal.jsx:950
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -600,7 +601,7 @@ msgstr "Nie podano woluminów"
 
 #: src/ImageRunModal.jsx:951
 msgid "On failure"
-msgstr ""
+msgstr "Przy niepowodzeniu"
 
 #: src/Containers.jsx:488
 msgid "Only running"
@@ -619,6 +620,8 @@ msgstr "Właściciel"
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
+"Należy wkleić jeden lub więcej wierszy par klucz=wartość do dowolnego pola, "
+"aby zaimportować hurtowo"
 
 #: src/PodActions.jsx:127
 msgid "Pause"
@@ -706,20 +709,16 @@ msgid "Restart"
 msgstr "Uruchom ponownie"
 
 #: src/ImageRunModal.jsx:935
-#, fuzzy
-#| msgid "Restart"
 msgid "Restart policy"
-msgstr "Uruchom ponownie"
+msgstr "Zasada ponownego uruchamiania"
 
 #: src/ImageRunModal.jsx:937 src/ImageRunModal.jsx:947
-#, fuzzy
-#| msgid "Host port help"
 msgid "Restart policy help"
-msgstr "Pomoc portu gospodarza"
+msgstr "Pomoc zasady ponownego uruchamiania"
 
 #: src/ImageRunModal.jsx:939
 msgid "Restart policy to follow when containers exit."
-msgstr ""
+msgstr "Zasada ponownego uruchamiania używana podczas wyłączania kontenerów."
 
 #: src/Containers.jsx:165 src/ContainerRestoreModal.jsx:35
 msgid "Restore"
