@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-18 03:01+0000\n"
-"PO-Revision-Date: 2021-12-17 17:16+0000\n"
+"PO-Revision-Date: 2021-12-20 20:16+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -60,7 +60,7 @@ msgstr "Kaikki rekisterit"
 
 #: src/ImageRunModal.jsx:952
 msgid "Always"
-msgstr ""
+msgstr "Aina"
 
 #: src/PodActions.jsx:167
 msgid "An error occurred"
@@ -503,7 +503,7 @@ msgstr "MAC-osoite"
 
 #: src/ImageRunModal.jsx:958
 msgid "Maximum retries"
-msgstr ""
+msgstr "Uudelleenyritysten enimmäismäärä"
 
 #: src/Containers.jsx:382
 msgid "Memory"
@@ -541,7 +541,7 @@ msgstr "Uusi levykuvan nimi"
 
 #: src/ImageRunModal.jsx:950
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -597,7 +597,7 @@ msgstr "Taltiota ei ole määritelty"
 
 #: src/ImageRunModal.jsx:951
 msgid "On failure"
-msgstr ""
+msgstr "Epäonnistumisesta"
 
 #: src/Containers.jsx:488
 msgid "Only running"
@@ -705,20 +705,16 @@ msgid "Restart"
 msgstr "Käynnistä uudelleen"
 
 #: src/ImageRunModal.jsx:935
-#, fuzzy
-#| msgid "Restart"
 msgid "Restart policy"
-msgstr "Käynnistä uudelleen"
+msgstr "Uudelleenkäynnistyksen käytäntö"
 
 #: src/ImageRunModal.jsx:937 src/ImageRunModal.jsx:947
-#, fuzzy
-#| msgid "Host port help"
 msgid "Restart policy help"
-msgstr "Ohjeita koneen portista"
+msgstr "Ohjeita uudelleenkäynnistyksen käytännöstä"
 
 #: src/ImageRunModal.jsx:939
 msgid "Restart policy to follow when containers exit."
-msgstr ""
+msgstr "Noudata uudelleenkäynnistyskäytäntöä, kun kontit poistuvat."
 
 #: src/Containers.jsx:165 src/ContainerRestoreModal.jsx:35
 msgid "Restore"
