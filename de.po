@@ -6,16 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-20 03:00+0000\n"
-"PO-Revision-Date: 2021-12-06 18:16+0000\n"
+"PO-Revision-Date: 2021-12-28 21:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -57,11 +57,9 @@ msgstr "Alle Registries"
 
 #: src/ImageRunModal.jsx:952
 msgid "Always"
-msgstr ""
+msgstr "Immer"
 
 #: src/PodActions.jsx:167
-#, fuzzy
-#| msgid "An error occured"
 msgid "An error occurred"
 msgstr "Ein Fehler ist aufgetreten"
 
@@ -78,10 +76,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/ImageRunModal.jsx:908
-#, fuzzy
-#| msgid "IP address help"
 msgid "CPU Shares help"
-msgstr "Hilfe zur IP-Adresse"
+msgstr ""
 
 #: src/ImageRunModal.jsx:906
 msgid "CPU shares"
@@ -120,10 +116,8 @@ msgid "Commit"
 msgstr "Committen"
 
 #: src/ContainerCommitModal.jsx:146
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "Keine Container"
+msgstr ""
 
 #: src/Containers.jsx:356
 msgid "Console"
@@ -254,8 +248,6 @@ msgid "Error message"
 msgstr "Fehlermeldung"
 
 #: src/ContainerTerminal.jsx:261
-#, fuzzy
-#| msgid "Error occured while connecting console"
 msgid "Error occurred while connecting console"
 msgstr "Beim Verbinden der Konsole ist ein Fehler aufgetreten"
 
@@ -388,10 +380,8 @@ msgid "Failed to stop pod $0"
 msgstr "Konnte Pod $0 nicht stoppen"
 
 #: src/ContainerCommitModal.jsx:162
-#, fuzzy
-#| msgid "Force stop"
 msgid "Force commit"
-msgstr "Stoppen erzwingen"
+msgstr ""
 
 #: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:162
 msgid "Force delete"
@@ -471,7 +461,7 @@ msgstr "Image"
 
 #: src/ImageRunModal.jsx:822
 msgid "Image selection help"
-msgstr ""
+msgstr "Abbildauswahl-Hilfe"
 
 #: src/Images.jsx:240 src/Images.jsx:268
 msgid "Images"
@@ -507,13 +497,11 @@ msgstr "Wird geladen ..."
 
 #: src/ImageRunModal.jsx:771
 msgid "Local"
-msgstr ""
+msgstr "Lokal"
 
 #: src/ImageRunModal.jsx:664
-#, fuzzy
-#| msgid "No images"
 msgid "Local images"
-msgstr "Keine Images"
+msgstr "Lokale Abbilder"
 
 #: src/Containers.jsx:352
 msgid "Logs"
@@ -536,10 +524,8 @@ msgid "Memory limit"
 msgstr "Speicher-Limit"
 
 #: src/ImageRunModal.jsx:891
-#, fuzzy
-#| msgid "Memory limit"
 msgid "Memory unit"
-msgstr "Speicher-Limit"
+msgstr "Speichereinheit"
 
 #: src/ImageRunModal.jsx:897
 msgid "MiB"
@@ -558,14 +544,12 @@ msgid "Name"
 msgstr "Name"
 
 #: src/ContainerCommitModal.jsx:100
-#, fuzzy
-#| msgid "Image name"
 msgid "New image name"
-msgstr "Image-Name"
+msgstr "Neuer Abbildname"
 
 #: src/ImageRunModal.jsx:950
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: src/Containers.jsx:389
 msgid "No containers"
@@ -576,10 +560,8 @@ msgid "No containers are using this image"
 msgstr "Keine Container benutzen dieses Abbild"
 
 #: src/Containers.jsx:390
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "No containers in this pod"
-msgstr "Kein Container benutzt dieses Image"
+msgstr ""
 
 #: src/Containers.jsx:394
 msgid "No containers that match the current filter"
@@ -619,11 +601,11 @@ msgstr "Keine laufenden Container"
 
 #: src/ImageRunModal.jsx:990
 msgid "No volumes specified"
-msgstr ""
+msgstr "Keine Volumen angegeben"
 
 #: src/ImageRunModal.jsx:951
 msgid "On failure"
-msgstr ""
+msgstr "Bei einem Ausfall"
 
 #: src/Containers.jsx:488
 msgid "Only running"
@@ -631,7 +613,7 @@ msgstr "Nur laufenlassen"
 
 #: src/ImageRunModal.jsx:973 src/ContainerCommitModal.jsx:129
 msgid "Options"
-msgstr ""
+msgstr "Optionen"
 
 #: src/ImageRunModal.jsx:805 src/Containers.jsx:380 src/Images.jsx:162
 #: src/ImageSearchModal.jsx:148 src/ContainerHeader.jsx:43
@@ -648,10 +630,8 @@ msgid "Pause"
 msgstr "Anhalten"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "Pause container when creating image"
-msgstr "Keine Container benutzen dieses Abbild"
+msgstr "Container bei der Abbilderstellung pausieren"
 
 #: src/util.js:11
 msgid "Paused"
@@ -674,10 +654,8 @@ msgid "Please confirm forced deletion of $0"
 msgstr "Bitte bestätigen Sie das erzwungene Löschen von $0"
 
 #: src/ImageSearchModal.jsx:181
-#, fuzzy
-#| msgid "No results for $0. Please retry another term."
 msgid "Please retry another term."
-msgstr "Keine Resultate für $0. Bitte versuchen Sie einen anderen Term."
+msgstr ""
 
 #: src/ImageSearchModal.jsx:176
 msgid "Please start typing to look for images."
@@ -693,7 +671,7 @@ msgstr "Podman-Service ist nicht aktiv"
 
 #: src/ImageRunModal.jsx:983
 msgid "Port mapping"
-msgstr ""
+msgstr "Portzuordnung"
 
 #: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:60
 msgid "Ports"
@@ -712,17 +690,12 @@ msgid "Prune"
 msgstr ""
 
 #: src/Images.jsx:331 src/PruneUnusedImagesModal.jsx:95
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0 ungenutztes Abbild, $1"
+msgstr ""
 
 #: src/PruneUnusedImagesModal.jsx:98 src/PruneUnusedImagesModal.jsx:102
-#, fuzzy
-#| msgid "Run image"
 msgid "Pruning images"
-msgstr "Image starten"
+msgstr ""
 
 #: src/Images.jsx:303
 msgid "Pulling"
@@ -738,16 +711,12 @@ msgid "Restart"
 msgstr "Neustart"
 
 #: src/ImageRunModal.jsx:935
-#, fuzzy
-#| msgid "Restart"
 msgid "Restart policy"
-msgstr "Neustart"
+msgstr "Neustartrichtlinie"
 
 #: src/ImageRunModal.jsx:937 src/ImageRunModal.jsx:947
-#, fuzzy
-#| msgid "Host port help"
 msgid "Restart policy help"
-msgstr "Hilfe zum Host-Port"
+msgstr "Neustartrichtlinien-Hilfe"
 
 #: src/ImageRunModal.jsx:939
 msgid "Restart policy to follow when containers exit."
@@ -802,10 +771,8 @@ msgid "Searching..."
 msgstr "Wird gesucht ..."
 
 #: src/ImageRunModal.jsx:828
-#, fuzzy
-#| msgid "Searching..."
 msgid "Searching: $0"
-msgstr "Wird gesucht ..."
+msgstr "Wird gesucht: $0"
 
 #: src/ImageRunModal.jsx:196
 msgid "Shared"
@@ -821,13 +788,11 @@ msgstr "Abbilder anzeigen"
 
 #: src/Images.jsx:235
 msgid "Show intermediate images"
-msgstr ""
+msgstr "Zwischenabbilder anzeigen"
 
 #: src/PruneUnusedImagesModal.jsx:45
-#, fuzzy
-#| msgid "Show images"
 msgid "Show more"
-msgstr "Abbilder anzeigen"
+msgstr "Mehr anzeigen"
 
 #: src/app.jsx:625 src/Containers.jsx:157 src/PodActions.jsx:97
 msgid "Start"
@@ -855,7 +820,7 @@ msgstr "Angehalten"
 
 #: src/ContainerCheckpointModal.jsx:48
 msgid "Support preserving established TCP connections"
-msgstr ""
+msgstr "Unterstützung der Aufrechterhaltung bestehender TCP-Verbindungen"
 
 #: src/ImageRunModal.jsx:807 src/ContainerHeader.jsx:48
 msgid "System"
@@ -895,7 +860,7 @@ msgstr "Läuft seit $0"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Veraltetes Docker-Format verwenden"
 
 #: src/Images.jsx:166 src/ImageDetails.jsx:33
 msgid "Used by"
@@ -910,10 +875,8 @@ msgid "User Podman service is also available"
 msgstr "Benutzer Podman ist auch verfügbar"
 
 #: src/ImageRunModal.jsx:809
-#, fuzzy
-#| msgid "User"
 msgid "User:"
-msgstr "Benutzer"
+msgstr "Benutzer:"
 
 #: src/ImageRunModal.jsx:154
 msgid "Value"
@@ -944,10 +907,8 @@ msgid "created"
 msgstr "erstellt"
 
 #: src/ImageRunModal.jsx:474
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
-msgstr "Herunterladen"
+msgstr "wird heruntergeladen"
 
 #: src/util.js:8
 msgid "exited"
@@ -955,7 +916,7 @@ msgstr "beendet"
 
 #: src/ImageRunModal.jsx:826
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "Host[:Port]/[Benutzer]/Container[:Tag]"
 
 #: src/manifest.json
 msgid "image"
@@ -1011,10 +972,8 @@ msgid "unused"
 msgstr "ungenutzt"
 
 #: src/PruneUnusedImagesModal.jsx:29
-#, fuzzy
-#| msgid "user:"
 msgid "user"
-msgstr "Benutzer:"
+msgstr "Benutzer"
 
 #: src/Containers.jsx:335 src/Images.jsx:123
 msgid "user:"
