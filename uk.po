@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-28 02:59+0000\n"
-"PO-Revision-Date: 2021-12-18 10:59+0000\n"
+"PO-Revision-Date: 2021-12-29 12:17+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -181,16 +181,12 @@ msgid "Create container"
 msgstr "Створити контейнер"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in $0"
-msgstr "Створити контейнер"
+msgstr "Створити контейнер у $0"
 
 #: src/Containers.jsx:575
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in pod"
-msgstr "Створити контейнер"
+msgstr "Створити контейнер у стручку"
 
 #: src/util.js:11 src/Images.jsx:163 src/ContainerDetails.jsx:78
 msgid "Created"
