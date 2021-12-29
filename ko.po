@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-28 02:59+0000\n"
-"PO-Revision-Date: 2021-12-20 20:16+0000\n"
+"PO-Revision-Date: 2021-12-29 12:17+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -175,16 +175,12 @@ msgid "Create container"
 msgstr "컨테이너 생성"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in $0"
-msgstr "컨테이너 생성"
+msgstr "$0에서 컨테이너 생성"
 
 #: src/Containers.jsx:575
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in pod"
-msgstr "컨테이너 생성"
+msgstr "포드에서 컨테이너 생성"
 
 #: src/util.js:11 src/Images.jsx:163 src/ContainerDetails.jsx:78
 msgid "Created"
