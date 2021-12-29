@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 02:58+0000\n"
-"PO-Revision-Date: 2021-12-20 20:16+0000\n"
+"PO-Revision-Date: 2021-12-31 15:16+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -178,16 +178,12 @@ msgid "Create container"
 msgstr "Luo kontti"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in $0"
-msgstr "Luo kontti"
+msgstr "Luo kontti kohteeseen $0"
 
 #: src/Containers.jsx:575
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in pod"
-msgstr "Luo kontti"
+msgstr "Luo kontti podiin"
 
 #: src/util.js:11 src/Images.jsx:163 src/ContainerDetails.jsx:78
 msgid "Created"
