@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 02:58+0000\n"
-"PO-Revision-Date: 2021-12-10 11:16+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2021-12-31 15:16+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: src/Images.jsx:78
 msgid "$0 container"
@@ -60,11 +60,9 @@ msgstr "Alla register"
 
 #: src/ImageRunModal.jsx:956
 msgid "Always"
-msgstr ""
+msgstr "Alltid"
 
 #: src/PodActions.jsx:167
-#, fuzzy
-#| msgid "An error occured"
 msgid "An error occurred"
 msgstr "Ett fel uppstod"
 
