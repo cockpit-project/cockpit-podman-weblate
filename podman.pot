@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-14 03:02+0000\n"
+"POT-Creation-Date: 2022-01-15 03:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,7 +158,7 @@ msgstr ""
 msgid "Container is currently running."
 msgstr ""
 
-#: src/ContainerTerminal.jsx:258
+#: src/ContainerTerminal.jsx:262
 msgid "Container is not running"
 msgstr ""
 
@@ -272,7 +272,7 @@ msgstr ""
 msgid "Error message"
 msgstr ""
 
-#: src/ContainerTerminal.jsx:261
+#: src/ContainerTerminal.jsx:265
 msgid "Error occurred while connecting console"
 msgstr ""
 
