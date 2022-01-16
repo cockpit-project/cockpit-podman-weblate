@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-15 03:02+0000\n"
+"POT-Creation-Date: 2022-01-16 03:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,7 +220,11 @@ msgid "Delete tagged images"
 msgstr ""
 
 #: src/PruneUnusedImagesModal.jsx:29
-msgid "Delete unused $0 images:"
+msgid "Delete unused system images:"
+msgstr ""
+
+#: src/PruneUnusedImagesModal.jsx:29
+msgid "Delete unused user images:"
 msgstr ""
 
 #: src/ContainerDeleteModal.jsx:18
@@ -955,17 +959,12 @@ msgstr ""
 msgid "select all"
 msgstr ""
 
-#: src/Images.jsx:123 src/PruneUnusedImagesModal.jsx:29 src/Containers.jsx:378
-#: src/ImageSearchModal.jsx:149
+#: src/Images.jsx:123 src/Containers.jsx:378 src/ImageSearchModal.jsx:149
 msgid "system"
 msgstr ""
 
 #: src/Images.jsx:74 src/Images.jsx:81
 msgid "unused"
-msgstr ""
-
-#: src/PruneUnusedImagesModal.jsx:29
-msgid "user"
 msgstr ""
 
 #: src/Images.jsx:123 src/Containers.jsx:378
