@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-31 03:01+0000\n"
-"PO-Revision-Date: 2021-12-31 15:16+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2022-01-23 00:16+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,16 +179,12 @@ msgid "Create container"
 msgstr "Skapa behållare"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in $0"
-msgstr "Skapa behållare"
+msgstr "Skapa behållare i $0"
 
 #: src/Containers.jsx:575
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in pod"
-msgstr "Skapa behållare"
+msgstr "Skapa behållare i kapsel"
 
 #: src/util.js:11 src/Images.jsx:163 src/ContainerDetails.jsx:78
 msgid "Created"
@@ -219,7 +215,7 @@ msgstr "Radera taggade avbilder"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
-msgstr "När en container raderas försvinner även all data i den."
+msgstr "När en behållare raderas försvinner även all data i den."
 
 #: src/PodActions.jsx:168
 msgid "Deleting this pod will remove the following containers:"
@@ -256,7 +252,7 @@ msgstr "Ingångspunkt"
 
 #: src/ImageRunModal.jsx:1006
 msgid "Environment variables"
-msgstr "Miljö variabler"
+msgstr "Miljövariabler"
 
 #: src/util.js:11
 msgid "Error"
@@ -299,10 +295,8 @@ msgid "Failed to commit container $0"
 msgstr "Kunde inte fastställa behållaren $0"
 
 #: src/ImageRunModal.jsx:501
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
-msgstr "Misslyckades att återställa behållaren $0"
+msgstr "Misslyckades att skapa behållaren $0"
 
 #: src/Images.jsx:52
 msgid "Failed to download image $0:$1"
@@ -318,7 +312,7 @@ msgstr "Misslyckades att tvingande ta bort avbilden $0"
 
 #: src/PodActions.jsx:67
 msgid "Failed to force stop pod $0"
-msgstr "Misslyckades att tvinga stopp av behållare $0"
+msgstr "Misslyckades att tvinga stopp av kapsel $0"
 
 #: src/PodActions.jsx:123
 msgid "Failed to pause pod $0"
@@ -361,10 +355,8 @@ msgid "Failed to resume pod $0"
 msgstr "Misslyckades att återuppta kapseln $0"
 
 #: src/ImageRunModal.jsx:494
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
-msgstr "Misslyckades att starta behållaren $0"
+msgstr "Misslyckades att köra behållaren $0"
 
 #: src/ImageRunModal.jsx:580 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
