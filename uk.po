@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-22 02:52+0000\n"
-"PO-Revision-Date: 2021-12-29 12:17+0000\n"
+"PO-Revision-Date: 2022-01-23 11:07+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -129,10 +129,8 @@ msgid "Commit container"
 msgstr "Внести контейнер"
 
 #: src/util.js:8
-#, fuzzy
-#| msgid "configured"
 msgid "Configured"
-msgstr "налаштовано"
+msgstr "Налаштовано"
 
 #: src/Containers.jsx:402
 msgid "Console"
@@ -220,10 +218,8 @@ msgid "Delete unused system images:"
 msgstr "Вилучити невикористані образи системи:"
 
 #: src/PruneUnusedImagesModal.jsx:28
-#, fuzzy
-#| msgid "Delete unused system images:"
 msgid "Delete unused user images:"
-msgstr "Вилучити невикористані образи системи:"
+msgstr "Вилучити невикористані образи користувача:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -323,20 +319,16 @@ msgid "Failed to force remove image $0"
 msgstr "Не вдалося примусово вилучити образ $0"
 
 #: src/PodActions.jsx:89
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to force restart pod $0"
-msgstr "Не вдалося перезапустити кокон $0"
+msgstr "Не вдалося примусово перезапустити кокон $0"
 
 #: src/PodActions.jsx:67
 msgid "Failed to force stop pod $0"
 msgstr "Не вдалося примусово зупинити кокон $0"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to run container $0"
 msgid "Failed to pause container $0"
-msgstr "Не вдалося запустити контейнер $0"
+msgstr "Не вдалося призупинити роботу контейнера $0"
 
 #: src/PodActions.jsx:134
 msgid "Failed to pause pod $0"
@@ -371,10 +363,8 @@ msgid "Failed to restore container $0"
 msgstr "Не вдалося відновити контейнер $0"
 
 #: src/Containers.jsx:86
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to resume container $0"
-msgstr "Не вдалося вилучити контейнер $0"
+msgstr "Не вдалося відновити роботу контейнера $0"
 
 #: src/PodActions.jsx:119
 msgid "Failed to resume pod $0"
@@ -491,7 +481,7 @@ msgstr "Ігнорувати MAC-адресу, якщо її встановле�
 
 #: src/ContainerDetails.jsx:50 src/ImageRunModal.jsx:833 src/Images.jsx:161
 msgid "Image"
-msgstr "Зображення"
+msgstr "Образ"
 
 #: src/ImageRunModal.jsx:835
 msgid "Image selection help"
@@ -499,7 +489,7 @@ msgstr "Довідка щодо вибору образу"
 
 #: src/Images.jsx:240 src/Images.jsx:268
 msgid "Images"
-msgstr "Зображення"
+msgstr "Образи"
 
 #: src/ImageRunModal.jsx:1001
 msgid "Integration"
@@ -736,10 +726,8 @@ msgid "Pruning images"
 msgstr "Позбуваємося образів"
 
 #: src/ImageRunModal.jsx:879
-#, fuzzy
-#| msgid "Delete image"
 msgid "Pull latest image"
-msgstr "Вилучити зображення"
+msgstr "Отримати найсвіжіший образ"
 
 #: src/Images.jsx:303
 msgid "Pulling"
@@ -751,10 +739,8 @@ msgid "Remove item"
 msgstr "Вилучити запис"
 
 #: src/util.js:8
-#, fuzzy
-#| msgid "removing"
 msgid "Removing"
-msgstr "вилучення"
+msgstr "Вилучення"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:186
 msgid "Restart"
