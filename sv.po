@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 02:58+0000\n"
 "PO-Revision-Date: 2022-01-28 21:16+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/sv/>\n"
 "Language: sv\n"
@@ -79,10 +79,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/ImageRunModal.jsx:929
-#, fuzzy
-#| msgid "IP address help"
 msgid "CPU Shares help"
-msgstr "IP-adress hjälp"
+msgstr "CPU-andelar hjälp"
 
 #: src/ImageRunModal.jsx:927
 msgid "CPU shares"
@@ -124,16 +122,12 @@ msgid "Commit"
 msgstr "Fastställ"
 
 #: src/ContainerCommitModal.jsx:146
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "Inga behållare"
+msgstr "Commit behållare"
 
 #: src/util.js:8
-#, fuzzy
-#| msgid "configured"
 msgid "Configured"
-msgstr "konfigurerad"
+msgstr "Konfigurerad"
 
 #: src/Containers.jsx:402
 msgid "Console"
@@ -181,7 +175,7 @@ msgstr "Skapa"
 
 #: src/ContainerCommitModal.jsx:147
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Skapa en ny avbild baserad på det aktuella läget för $0 behållaren."
 
 #: src/ImageRunModal.jsx:1047 src/Images.jsx:388 src/Containers.jsx:543
 msgid "Create container"
@@ -217,16 +211,12 @@ msgid "Delete tagged images"
 msgstr "Radera taggade avbilder"
 
 #: src/PruneUnusedImagesModal.jsx:28
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused system images:"
-msgstr "Radera taggade avbilder"
+msgstr "Ta bort oanvända systemavbilder:"
 
 #: src/PruneUnusedImagesModal.jsx:28
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused user images:"
-msgstr "Radera taggade avbilder"
+msgstr "Ta bort oanvända användaravbilder:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -252,6 +242,8 @@ msgstr "Inkludera inte rotfilsystemsändringar vid export"
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Docker-format är användbart när du delar avbilden med Docker eller Moby "
+"Engine"
 
 #: src/ImageSearchModal.jsx:228
 msgid "Download"
@@ -298,10 +290,8 @@ msgid "Failed to checkpoint container $0"
 msgstr "Kunde inte ta checkpunkt av behållare $0"
 
 #: src/ImageRunModal.jsx:448
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to clean up container"
-msgstr "Misslyckades att återställa behållaren $0"
+msgstr "Misslyckades med att rensa upp behållaren"
 
 #: src/ContainerCommitModal.jsx:90
 msgid "Failed to commit container $0"
@@ -324,20 +314,16 @@ msgid "Failed to force remove image $0"
 msgstr "Misslyckades att tvingande ta bort avbilden $0"
 
 #: src/PodActions.jsx:89
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to force restart pod $0"
-msgstr "Misslyckades att starta om kapseln $0"
+msgstr "Misslyckades med tvingad omstart av kapseln $0"
 
 #: src/PodActions.jsx:67
 msgid "Failed to force stop pod $0"
 msgstr "Misslyckades att tvinga stopp av kapsel $0"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to run container $0"
 msgid "Failed to pause container $0"
-msgstr "Misslyckades att köra behållaren $0"
+msgstr "Misslyckades med att pausa behållaren $0"
 
 #: src/PodActions.jsx:134
 msgid "Failed to pause pod $0"
@@ -348,10 +334,8 @@ msgid "Failed to prune unused images"
 msgstr "Misslyckades att rensa oanvända avbilder"
 
 #: src/ImageRunModal.jsx:515
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to pull image $0"
-msgstr "Misslyckades att ta bort avbilden $0"
+msgstr "Misslyckades med att hämta avbilden $0"
 
 #: src/Containers.jsx:123
 msgid "Failed to remove container $0"
@@ -410,10 +394,8 @@ msgid "Failed to stop pod $0"
 msgstr "Misslyckades att stoppa kapseln $0"
 
 #: src/ContainerCommitModal.jsx:162
-#, fuzzy
-#| msgid "Force stop"
 msgid "Force commit"
-msgstr "Framtvinga stopp"
+msgstr "Framtvinga commit"
 
 #: src/PodActions.jsx:173 src/ForceRemoveModal.jsx:19
 msgid "Force delete"
@@ -472,12 +454,16 @@ msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Om värd-IP är inställd på 0.0.0.0 eller inte alls, kommer porten att bindas "
+"till alla IP-adresser på värden."
 
 #: src/ImageRunModal.jsx:76
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
 msgstr ""
+"Om värdporten inte är inställd kommer behållareporten att slumpmässigt "
+"tilldelas en port på värden."
 
 #: src/ContainerRestoreModal.jsx:49
 msgid "Ignore IP address if set statically"
@@ -493,7 +479,7 @@ msgstr "Avbild"
 
 #: src/ImageRunModal.jsx:835
 msgid "Image selection help"
-msgstr ""
+msgstr "Avbildsval hjälp"
 
 #: src/Images.jsx:240 src/Images.jsx:268
 msgid "Images"
@@ -545,7 +531,7 @@ msgstr "MAC-adress"
 
 #: src/ImageRunModal.jsx:979
 msgid "Maximum retries"
-msgstr ""
+msgstr "Maximalt antal försök igen"
 
 #: src/Containers.jsx:428
 msgid "Memory"
@@ -583,7 +569,7 @@ msgstr "Nytt Avbildsnamn"
 
 #: src/ImageRunModal.jsx:971
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: src/Containers.jsx:435
 msgid "No containers"
@@ -639,7 +625,7 @@ msgstr "Inga volymer specificerade"
 
 #: src/ImageRunModal.jsx:972
 msgid "On failure"
-msgstr ""
+msgstr "Vid misslyckande"
 
 #: src/Containers.jsx:534
 msgid "Only running"
@@ -658,16 +644,16 @@ msgstr "Ägare"
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
+"Klistra in en eller flera rader med nyckel=värdepar i valfritt fält för "
+"massimport"
 
 #: src/PodActions.jsx:138 src/Containers.jsx:198
 msgid "Pause"
 msgstr "Pausa"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "Pause container when creating image"
-msgstr "Inga behållare använder denna avbild"
+msgstr "Pausa behållaren när du skapar en avbild"
 
 #: src/util.js:8 src/util.js:11
 msgid "Paused"
@@ -707,7 +693,7 @@ msgstr "Podman-tjänsten är inte aktiv"
 
 #: src/ImageRunModal.jsx:1006
 msgid "Port mapping"
-msgstr ""
+msgstr "Portkartering"
 
 #: src/ContainerDetails.jsx:60 src/ImageDetails.jsx:39
 msgid "Ports"
@@ -734,10 +720,8 @@ msgid "Pruning images"
 msgstr "Rensar avbilder"
 
 #: src/ImageRunModal.jsx:879
-#, fuzzy
-#| msgid "Delete image"
 msgid "Pull latest image"
-msgstr "Radera avbild"
+msgstr "Hämta senaste avbild"
 
 #: src/Images.jsx:303
 msgid "Pulling"
@@ -749,30 +733,24 @@ msgid "Remove item"
 msgstr "Ta bort post"
 
 #: src/util.js:8
-#, fuzzy
-#| msgid "removing"
 msgid "Removing"
-msgstr "tar bort"
+msgstr "Tar bort"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:186
 msgid "Restart"
 msgstr "Starta om"
 
 #: src/ImageRunModal.jsx:956
-#, fuzzy
-#| msgid "Restart"
 msgid "Restart policy"
-msgstr "Starta om"
+msgstr "Starta om policy"
 
 #: src/ImageRunModal.jsx:958 src/ImageRunModal.jsx:968
-#, fuzzy
-#| msgid "Host port help"
 msgid "Restart policy help"
-msgstr "Värdport hjälp"
+msgstr "Starta om policy hjälp"
 
 #: src/ImageRunModal.jsx:960
 msgid "Restart policy to follow when containers exit."
-msgstr ""
+msgstr "Starta om policy att följa när behållare avslutas."
 
 #: src/ContainerRestoreModal.jsx:35 src/Containers.jsx:233
 msgid "Restore"
@@ -804,7 +782,7 @@ msgstr "Sök efter namn eller beskrivning"
 
 #: src/ImageRunModal.jsx:774
 msgid "Search by registry"
-msgstr ""
+msgstr "Sök efter register"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -816,7 +794,7 @@ msgstr "Sök efter en avbild"
 
 #: src/ImageRunModal.jsx:863
 msgid "Search string or container location"
-msgstr ""
+msgstr "Söksträng eller behållareplats"
 
 #: src/ImageSearchModal.jsx:174
 msgid "Searching..."
@@ -912,7 +890,7 @@ msgstr "Uppe sedan $0"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Använd gammalt Docker-format"
 
 #: src/Images.jsx:166 src/ImageDetails.jsx:33
 msgid "Used by"
@@ -956,7 +934,7 @@ msgstr "hämtar"
 
 #: src/ImageRunModal.jsx:839
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "värd[:port]/[användare]/behållare[:tagg]"
 
 #: src/manifest.json
 msgid "image"
