@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 02:58+0000\n"
-"PO-Revision-Date: 2022-01-23 00:16+0000\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2022-01-28 21:16+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -86,7 +86,7 @@ msgstr "IP-adress hjälp"
 
 #: src/ImageRunModal.jsx:927
 msgid "CPU shares"
-msgstr "CPU delar"
+msgstr "CPU-andelar"
 
 #: src/ImageRunModal.jsx:931
 msgid ""
@@ -94,6 +94,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"CPU-andelar avgör prioriteten på körande behållare. Standardprioriteten är "
+"1024. Ett högre tal prioriterar denna behållare. Ett lägre tal sänker "
+"prioriteten."
 
 #: src/ImageRunModal.jsx:1054 src/ContainerRestoreModal.jsx:39
 #: src/ContainerCommitModal.jsx:168 src/ContainerCheckpointModal.jsx:38
@@ -198,7 +201,7 @@ msgstr "Skapad"
 
 #: src/ImageRunModal.jsx:819
 msgid "Default with single selectable"
-msgstr ""
+msgstr "Standard med enkel valbar"
 
 #: src/Images.jsx:401 src/PodActions.jsx:151 src/PodActions.jsx:173
 #: src/Containers.jsx:251 src/ContainerDeleteModal.jsx:14
@@ -275,8 +278,6 @@ msgid "Error message"
 msgstr "Felmeddelande"
 
 #: src/ContainerTerminal.jsx:265
-#, fuzzy
-#| msgid "Error occured while connecting console"
 msgid "Error occurred while connecting console"
 msgstr "Ett fel uppstod vid anslutning till konsolen"
 
@@ -343,10 +344,8 @@ msgid "Failed to pause pod $0"
 msgstr "Misslyckades att pausa kapseln $0"
 
 #: src/PruneUnusedImagesModal.jsx:75
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to prune unused images"
-msgstr "Misslyckades att ta bort avbilden $0"
+msgstr "Misslyckades att rensa oanvända avbilder"
 
 #: src/ImageRunModal.jsx:515
 #, fuzzy
@@ -375,10 +374,8 @@ msgid "Failed to restore container $0"
 msgstr "Misslyckades att återställa behållaren $0"
 
 #: src/Containers.jsx:86
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to resume container $0"
-msgstr "Misslyckades att ta bort behållaren $0"
+msgstr "Misslyckades att återuppta behållaren $0"
 
 #: src/PodActions.jsx:119
 msgid "Failed to resume pod $0"
@@ -726,20 +723,15 @@ msgstr "Protokoll"
 
 #: src/PruneUnusedImagesModal.jsx:101
 msgid "Prune"
-msgstr ""
+msgstr "Rensa"
 
 #: src/Images.jsx:331 src/PruneUnusedImagesModal.jsx:94
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0 oanvänd avbild, $1"
+msgstr "Rensa oanvända avbilder"
 
 #: src/PruneUnusedImagesModal.jsx:97 src/PruneUnusedImagesModal.jsx:101
-#, fuzzy
-#| msgid "Run image"
 msgid "Pruning images"
-msgstr "Kör avbild"
+msgstr "Rensar avbilder"
 
 #: src/ImageRunModal.jsx:879
 #, fuzzy
