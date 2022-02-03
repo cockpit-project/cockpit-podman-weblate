@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-31 02:51+0000\n"
-"PO-Revision-Date: 2021-12-28 21:16+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/de/>\n"
+"PO-Revision-Date: 2022-02-04 16:16+0000\n"
+"Last-Translator: Philipp Trulson <philipp@trulson.de>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -180,16 +180,12 @@ msgid "Create container"
 msgstr "Container erstellen"
 
 #: src/ImageRunModal.jsx:1052
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in $0"
-msgstr "Container erstellen"
+msgstr "Container in $0 erstellen"
 
 #: src/Containers.jsx:620
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in pod"
-msgstr "Container erstellen"
+msgstr "Container in Pod erstellen"
 
 #: src/util.js:8 src/util.js:11 src/ContainerDetails.jsx:84 src/Images.jsx:163
 msgid "Created"
@@ -217,10 +213,8 @@ msgid "Delete unused system images:"
 msgstr "Nicht verwendete Systemabbilder löschen:"
 
 #: src/PruneUnusedImagesModal.jsx:28
-#, fuzzy
-#| msgid "Delete unused system images:"
 msgid "Delete unused user images:"
-msgstr "Nicht verwendete Systemabbilder löschen:"
+msgstr "Nicht verwendete Benutzerabbilder löschen:"
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -236,7 +230,7 @@ msgstr "Details"
 
 #: src/Images.jsx:165
 msgid "Disk space"
-msgstr "Festplattenplatz"
+msgstr "Speicherplatz"
 
 #: src/ContainerCheckpointModal.jsx:51
 msgid "Do not include root file-system changes when exporting"
@@ -246,6 +240,8 @@ msgstr "Keine root-Dateisystem-Änderungen beifügen, wenn exportieren"
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Docker-Format ist hilfreich, wenn das Image mit Docker oder Moby Engine "
+"geteilt wird"
 
 #: src/ImageSearchModal.jsx:228
 msgid "Download"
@@ -316,28 +312,20 @@ msgid "Failed to force remove image $0"
 msgstr "Fehler bei der erzwungenen Entfernung des Abbilds $0"
 
 #: src/PodActions.jsx:89
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to force restart pod $0"
-msgstr "Konnte Container $0 nicht neu starten"
+msgstr "Konnte Pod $0 nicht neu starten"
 
 #: src/PodActions.jsx:67
-#, fuzzy
-#| msgid "Failed to stop container $0"
 msgid "Failed to force stop pod $0"
-msgstr "Konnte Container $0 nicht stoppen"
+msgstr "Konnte Pod $0 nicht stoppen"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to pause container $0"
-msgstr "Konnte Container $0 nicht starten"
+msgstr "Konnte Container $0 nicht pausieren"
 
 #: src/PodActions.jsx:134
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to pause pod $0"
-msgstr "Konnte Container $0 nicht neu starten"
+msgstr "Konnte Pod $0 nicht pausieren"
 
 #: src/PruneUnusedImagesModal.jsx:75
 #, fuzzy
@@ -346,10 +334,8 @@ msgid "Failed to prune unused images"
 msgstr "Konnte Container $0 nicht neu entfernen"
 
 #: src/ImageRunModal.jsx:515
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to pull image $0"
-msgstr "Konnte Container $0 nicht neu entfernen"
+msgstr "Image $0 konnte nicht gepullt werden"
 
 #: src/Containers.jsx:123
 msgid "Failed to remove container $0"
@@ -364,40 +350,28 @@ msgid "Failed to restart container $0"
 msgstr "Konnte Container $0 nicht neu starten"
 
 #: src/PodActions.jsx:78
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to restart pod $0"
-msgstr "Konnte Container $0 nicht neu starten"
+msgstr "Konnte Pod $0 nicht neu starten"
 
 #: src/Containers.jsx:149
-#, fuzzy
-#| msgid "Failed to restart container $0"
 msgid "Failed to restore container $0"
-msgstr "Konnte Container $0 nicht neu starten"
+msgstr "Konnte Container $0 nicht wiederherstellen"
 
 #: src/Containers.jsx:86
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to resume container $0"
-msgstr "Konnte Container $0 nicht neu entfernen"
+msgstr "Konnte Container $0 nicht wieder starten"
 
 #: src/PodActions.jsx:119
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to resume pod $0"
-msgstr "Konnte Container $0 nicht neu entfernen"
+msgstr "Konnte Pod $0 nicht wieder starten"
 
 #: src/ImageRunModal.jsx:502
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
 msgstr "Konnte Container $0 nicht starten"
 
 #: src/ImageSearchModal.jsx:109 src/ImageRunModal.jsx:588
-#, fuzzy
-#| msgid "Failed to search for new images"
 msgid "Failed to search for images: $0"
-msgstr "Konnte nicht nach neuen Images suchen"
+msgstr "Konnte nicht nach Images suchen: $0"
 
 #: src/ImageSearchModal.jsx:108 src/ImageRunModal.jsx:586
 msgid "Failed to search for new images"
@@ -408,10 +382,8 @@ msgid "Failed to start container $0"
 msgstr "Konnte Container $0 nicht starten"
 
 #: src/PodActions.jsx:104
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to start pod $0"
-msgstr "Konnte Container $0 nicht starten"
+msgstr "Konnte Pod $0 nicht starten"
 
 #: src/Containers.jsx:66
 msgid "Failed to stop container $0"
@@ -482,12 +454,16 @@ msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Wenn die Host-IP auf 0.0.0.0 oder gar nicht gesetzt ist, wird der Port an "
+"alle IPs des Hosts gebunden."
 
 #: src/ImageRunModal.jsx:76
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
 msgstr ""
+"Wenn der Host-Port nicht gesetzt ist, wird dem Container-Port ein zufälliger "
+"Port auf dem Host zugewiesen."
 
 #: src/ContainerRestoreModal.jsx:49
 msgid "Ignore IP address if set statically"
@@ -555,7 +531,7 @@ msgstr "MAC-Adresse"
 
 #: src/ImageRunModal.jsx:984
 msgid "Maximum retries"
-msgstr ""
+msgstr "Maximale Versuche"
 
 #: src/Containers.jsx:428
 msgid "Memory"
@@ -580,6 +556,8 @@ msgstr "Modus"
 #: src/ImageDeleteModal.jsx:66
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
+"Mehrere Tags für dieses Image vorhanden. Getagte Images zum Löschen "
+"auswählen."
 
 #: src/ImageRunModal.jsx:815
 msgid "Name"
@@ -603,7 +581,7 @@ msgstr "Keine Container benutzen dieses Abbild"
 
 #: src/Containers.jsx:436
 msgid "No containers in this pod"
-msgstr ""
+msgstr "Keine Container in diesem Pod"
 
 #: src/Containers.jsx:440
 msgid "No containers that match the current filter"
@@ -697,11 +675,11 @@ msgstr "Bitte bestätigen Sie das erzwungene Löschen von $0"
 
 #: src/ImageSearchModal.jsx:181
 msgid "Please retry another term."
-msgstr ""
+msgstr "Bitte versuchen Sie es mit einem anderen Begriff."
 
 #: src/ImageSearchModal.jsx:176
 msgid "Please start typing to look for images."
-msgstr ""
+msgstr "Tippen, um nach Images zu suchen."
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -740,10 +718,8 @@ msgid "Pruning images"
 msgstr ""
 
 #: src/ImageRunModal.jsx:884
-#, fuzzy
-#| msgid "Delete image"
 msgid "Pull latest image"
-msgstr "Image löschen"
+msgstr "Neuestes Image pullen"
 
 #: src/Images.jsx:303
 msgid "Pulling"
@@ -806,7 +782,7 @@ msgstr "Nach Name oder Beschreibung suchen"
 
 #: src/ImageRunModal.jsx:779
 msgid "Search by registry"
-msgstr ""
+msgstr "Nach Registry suchen"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -938,7 +914,7 @@ msgstr "Wert"
 
 #: src/ImageRunModal.jsx:1020
 msgid "Volumes"
-msgstr "Volumen"
+msgstr "Datenträger"
 
 #: src/ImageRunModal.jsx:898
 msgid "With terminal"
@@ -950,7 +926,7 @@ msgstr "Beschreibbar"
 
 #: src/manifest.json
 msgid "container"
-msgstr "Container"
+msgstr "container"
 
 #: src/ImageRunModal.jsx:486
 msgid "downloading"
