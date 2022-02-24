@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-23 02:54+0000\n"
+"POT-Creation-Date: 2022-02-24 02:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid "Checkpoint container $0"
 msgstr ""
 
 #: src/ImageDetails.jsx:15 src/ImageRunModal.jsx:889
-#: src/ContainerDetails.jsx:60 src/ContainerCommitModal.jsx:123
+#: src/ContainerDetails.jsx:61 src/ContainerCommitModal.jsx:123
 msgid "Command"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgstr ""
 msgid "Create container in pod"
 msgstr ""
 
-#: src/ContainerDetails.jsx:84 src/Images.jsx:164 src/util.js:8 src/util.js:11
+#: src/ContainerDetails.jsx:89 src/Images.jsx:164 src/util.js:8 src/util.js:11
 msgid "Created"
 msgstr ""
 
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Force stop"
 msgstr ""
 
-#: src/ContainerDetails.jsx:74
+#: src/ContainerDetails.jsx:77
 msgid "Gateway"
 msgstr ""
 
@@ -445,11 +445,11 @@ msgstr ""
 msgid "Host port help"
 msgstr ""
 
-#: src/ContainerDetails.jsx:52 src/Images.jsx:165
+#: src/ContainerDetails.jsx:53 src/Images.jsx:165
 msgid "ID"
 msgstr ""
 
-#: src/ImageRunModal.jsx:55 src/ContainerDetails.jsx:70
+#: src/ImageRunModal.jsx:55 src/ContainerDetails.jsx:73
 msgid "IP address"
 msgstr ""
 
@@ -477,7 +477,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ImageRunModal.jsx:838 src/ContainerDetails.jsx:56 src/Images.jsx:162
+#: src/ImageRunModal.jsx:838 src/ContainerDetails.jsx:57 src/Images.jsx:162
 msgid "Image"
 msgstr ""
 
@@ -529,7 +529,7 @@ msgstr ""
 msgid "Logs"
 msgstr ""
 
-#: src/ContainerDetails.jsx:78
+#: src/ContainerDetails.jsx:81
 msgid "MAC address"
 msgstr ""
 
@@ -695,7 +695,7 @@ msgstr ""
 msgid "Port mapping"
 msgstr ""
 
-#: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:66
+#: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:69
 msgid "Ports"
 msgstr ""
 
@@ -836,7 +836,7 @@ msgstr ""
 msgid "Start podman"
 msgstr ""
 
-#: src/Containers.jsx:429 src/ContainerDetails.jsx:88
+#: src/Containers.jsx:429 src/ContainerDetails.jsx:93
 msgid "State"
 msgstr ""
 
