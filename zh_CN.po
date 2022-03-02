@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-16 02:54+0000\n"
-"PO-Revision-Date: 2021-11-17 05:42+0000\n"
-"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
+"PO-Revision-Date: 2022-03-02 10:32+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.11\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -57,13 +57,11 @@ msgstr "所有 registry"
 
 #: src/ImageRunModal.jsx:978
 msgid "Always"
-msgstr ""
+msgstr "总是"
 
 #: src/PodActions.jsx:178
-#, fuzzy
-#| msgid "An error occured"
 msgid "An error occurred"
-msgstr "发生了一个错误"
+msgstr "发生了错误"
 
 #: src/ContainerCommitModal.jsx:116
 msgid "Author"
@@ -78,10 +76,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/ImageRunModal.jsx:934
-#, fuzzy
-#| msgid "IP address help"
 msgid "CPU Shares help"
-msgstr "IP 地址帮助"
+msgstr "CPU 份额帮助"
 
 #: src/ImageRunModal.jsx:932
 msgid "CPU shares"
@@ -92,7 +88,8 @@ msgid ""
 "CPU shares determine the priority of running containers. Default priority is "
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
-msgstr ""
+msgstr "CPU 份额决定了运行容器的优先级。默认优先级为 "
+"1024。数字越大，容器的优先级越高。数字越小，优先级越低。"
 
 #: src/ContainerRestoreModal.jsx:39 src/ImageRunModal.jsx:1059
 #: src/PruneUnusedImagesModal.jsx:103 src/PodActions.jsx:174
@@ -120,14 +117,10 @@ msgid "Commit"
 msgstr "提交"
 
 #: src/ContainerCommitModal.jsx:146
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "没有容器"
+msgstr "提交容器"
 
 #: src/util.js:8
-#, fuzzy
-#| msgid "configured"
 msgid "Configured"
 msgstr "已配置"
 
@@ -177,7 +170,7 @@ msgstr "创建"
 
 #: src/ContainerCommitModal.jsx:147
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "根据 $0 容器的当前状态创建一个新镜像。"
 
 #: src/Containers.jsx:544 src/ImageRunModal.jsx:1052 src/Images.jsx:390
 #: src/Images.jsx:404
@@ -185,16 +178,12 @@ msgid "Create container"
 msgstr "创建容器"
 
 #: src/ImageRunModal.jsx:1052
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in $0"
-msgstr "创建容器"
+msgstr "在 $0 中创建容器"
 
 #: src/Containers.jsx:620
-#, fuzzy
-#| msgid "Create container"
 msgid "Create container in pod"
-msgstr "创建容器"
+msgstr "在 pod 中创建容器"
 
 #: src/ContainerDetails.jsx:84 src/Images.jsx:164 src/util.js:8 src/util.js:11
 msgid "Created"
@@ -202,7 +191,7 @@ msgstr "已创建"
 
 #: src/ImageRunModal.jsx:824
 msgid "Default with single selectable"
-msgstr ""
+msgstr "默认使用单选"
 
 #: src/Containers.jsx:251 src/PodActions.jsx:151 src/PodActions.jsx:173
 #: src/Images.jsx:410 src/ContainerDeleteModal.jsx:14
@@ -218,16 +207,12 @@ msgid "Delete tagged images"
 msgstr "删除标记的镜像"
 
 #: src/PruneUnusedImagesModal.jsx:28
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused system images:"
-msgstr "删除标记的镜像"
+msgstr "删除未使用的系统镜像："
 
 #: src/PruneUnusedImagesModal.jsx:28
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused user images:"
-msgstr "删除标记的镜像"
+msgstr "删除未使用的用户镜像："
 
 #: src/ContainerDeleteModal.jsx:18
 msgid "Deleting a container will erase all data in it."
@@ -252,7 +237,7 @@ msgstr "导出时不包含 root 文件系统更改"
 #: src/ContainerCommitModal.jsx:137
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr ""
+msgstr "当与 Docker 或 Moby Engine 共享镜像时，Docker 格式非常有用"
 
 #: src/ImageSearchModal.jsx:228
 msgid "Download"
@@ -279,18 +264,16 @@ msgid "Error message"
 msgstr "错误信息"
 
 #: src/ContainerTerminal.jsx:265
-#, fuzzy
-#| msgid "Error occured while connecting console"
 msgid "Error occurred while connecting console"
 msgstr "连接到控制台时出现错误"
 
 #: src/ContainerCommitModal.jsx:118
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "示例，您的名字 <yourname@example.com>"
 
 #: src/ImageRunModal.jsx:845
 msgid "Example: $0"
-msgstr ""
+msgstr "示例：$0"
 
 #: src/ContainerDetails.jsx:13 src/util.js:8 src/util.js:11
 msgid "Exited"
@@ -301,20 +284,16 @@ msgid "Failed to checkpoint container $0"
 msgstr "检查点容器 $0 失败"
 
 #: src/ImageRunModal.jsx:448
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to clean up container"
-msgstr "恢复容器 $0 失败"
+msgstr "清理容器失败"
 
 #: src/ContainerCommitModal.jsx:90
 msgid "Failed to commit container $0"
 msgstr "提交容器 $0 失败"
 
 #: src/ImageRunModal.jsx:509
-#, fuzzy
-#| msgid "Failed to restore container $0"
 msgid "Failed to create container $0"
-msgstr "恢复容器 $0 失败"
+msgstr "创建容器 $0 失败"
 
 #: src/Images.jsx:53
 msgid "Failed to download image $0:$1"
@@ -329,36 +308,28 @@ msgid "Failed to force remove image $0"
 msgstr "强制删除镜像失败 $0"
 
 #: src/PodActions.jsx:89
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to force restart pod $0"
-msgstr "重启 pod $0 失败"
+msgstr "强制重启 pod $0 失败"
 
 #: src/PodActions.jsx:67
 msgid "Failed to force stop pod $0"
 msgstr "强制停止 Pod $0 失败"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to pause container $0"
-msgstr "启动容器 $0 失败"
+msgstr "暂停容器 $0 失败"
 
 #: src/PodActions.jsx:134
 msgid "Failed to pause pod $0"
 msgstr "暂停 Pod $0 失败"
 
 #: src/PruneUnusedImagesModal.jsx:75
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to prune unused images"
-msgstr "删除镜像 $0 失败"
+msgstr "删除未使用的映像失败"
 
 #: src/ImageRunModal.jsx:515
-#, fuzzy
-#| msgid "Failed to remove image $0"
 msgid "Failed to pull image $0"
-msgstr "删除镜像 $0 失败"
+msgstr "拉取镜像 $0 失败"
 
 #: src/Containers.jsx:123
 msgid "Failed to remove container $0"
@@ -381,20 +352,16 @@ msgid "Failed to restore container $0"
 msgstr "恢复容器 $0 失败"
 
 #: src/Containers.jsx:86
-#, fuzzy
-#| msgid "Failed to remove container $0"
 msgid "Failed to resume container $0"
-msgstr "移除容器 $0 失败"
+msgstr "恢复容器 $0 失败"
 
 #: src/PodActions.jsx:119
 msgid "Failed to resume pod $0"
 msgstr "恢复 Pod $0 失败"
 
 #: src/ImageRunModal.jsx:502
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to run container $0"
-msgstr "启动容器 $0 失败"
+msgstr "运行容器 $0 失败"
 
 #: src/ImageRunModal.jsx:588 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
@@ -421,10 +388,8 @@ msgid "Failed to stop pod $0"
 msgstr "停止 Pod $0 失败"
 
 #: src/ContainerCommitModal.jsx:162
-#, fuzzy
-#| msgid "Force stop"
 msgid "Force commit"
-msgstr "强制停止"
+msgstr "强制提交"
 
 #: src/PodActions.jsx:173 src/ForceRemoveModal.jsx:19
 msgid "Force delete"
@@ -504,7 +469,7 @@ msgstr "镜像"
 
 #: src/ImageRunModal.jsx:840
 msgid "Image selection help"
-msgstr ""
+msgstr "镜像选择帮助"
 
 #: src/Images.jsx:240 src/Images.jsx:269
 msgid "Images"
@@ -540,13 +505,11 @@ msgstr "加载中……"
 
 #: src/ImageRunModal.jsx:789
 msgid "Local"
-msgstr ""
+msgstr "本地"
 
 #: src/ImageRunModal.jsx:676
-#, fuzzy
-#| msgid "No images"
 msgid "Local images"
-msgstr "没有镜像"
+msgstr "本地镜像"
 
 #: src/Containers.jsx:398
 msgid "Logs"
@@ -558,7 +521,7 @@ msgstr "MAC 地址"
 
 #: src/ImageRunModal.jsx:984
 msgid "Maximum retries"
-msgstr ""
+msgstr "最大重试次数"
 
 #: src/Containers.jsx:428
 msgid "Memory"
@@ -589,14 +552,12 @@ msgid "Name"
 msgstr "名称"
 
 #: src/ContainerCommitModal.jsx:100
-#, fuzzy
-#| msgid "Image name"
 msgid "New image name"
-msgstr "镜像名称"
+msgstr "新镜像名称"
 
 #: src/ImageRunModal.jsx:976
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: src/Containers.jsx:435
 msgid "No containers"
@@ -652,7 +613,7 @@ msgstr "没有指定卷"
 
 #: src/ImageRunModal.jsx:977
 msgid "On failure"
-msgstr ""
+msgstr "失败时"
 
 #: src/Containers.jsx:534
 msgid "Only running"
@@ -660,7 +621,7 @@ msgstr "仅运行"
 
 #: src/ImageRunModal.jsx:999 src/ContainerCommitModal.jsx:129
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: src/Containers.jsx:426 src/ImageRunModal.jsx:823 src/Images.jsx:163
 #: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:148
@@ -670,17 +631,15 @@ msgstr "所有者"
 #: src/ImageRunModal.jsx:1034
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
-msgstr ""
+msgstr "将一个或多个 key=value 对行粘贴到批量导入的任何字段"
 
 #: src/Containers.jsx:198 src/PodActions.jsx:138
 msgid "Pause"
 msgstr "暂停"
 
 #: src/ContainerCommitModal.jsx:133
-#, fuzzy
-#| msgid "No containers are using this image"
 msgid "Pause container when creating image"
-msgstr "没有使用该镜像的容器"
+msgstr "创建镜像时暂停容器"
 
 #: src/util.js:8 src/util.js:11
 msgid "Paused"
@@ -736,26 +695,19 @@ msgstr "协议"
 
 #: src/PruneUnusedImagesModal.jsx:101
 msgid "Prune"
-msgstr ""
+msgstr "删除"
 
 #: src/PruneUnusedImagesModal.jsx:94 src/Images.jsx:333
-#, fuzzy
-#| msgid "$0 unused image, $1"
-#| msgid_plural "$0 unused images, $1"
 msgid "Prune unused images"
-msgstr "$0个未使用镜像，$1"
+msgstr "删除未使用的镜像"
 
 #: src/PruneUnusedImagesModal.jsx:97 src/PruneUnusedImagesModal.jsx:101
-#, fuzzy
-#| msgid "Run image"
 msgid "Pruning images"
-msgstr "运行镜像"
+msgstr "删除镜像"
 
 #: src/ImageRunModal.jsx:884
-#, fuzzy
-#| msgid "Delete image"
 msgid "Pull latest image"
-msgstr "删除镜像"
+msgstr "拉取最新的镜像"
 
 #: src/Images.jsx:305
 msgid "Pulling"
@@ -767,30 +719,24 @@ msgid "Remove item"
 msgstr "删除项目"
 
 #: src/util.js:8
-#, fuzzy
-#| msgid "removing"
 msgid "Removing"
-msgstr "正在删除"
+msgstr "删除"
 
 #: src/Containers.jsx:186 src/PodActions.jsx:82
 msgid "Restart"
 msgstr "重启"
 
 #: src/ImageRunModal.jsx:961
-#, fuzzy
-#| msgid "Restart"
 msgid "Restart policy"
-msgstr "重启"
+msgstr "重启策略"
 
 #: src/ImageRunModal.jsx:963 src/ImageRunModal.jsx:973
-#, fuzzy
-#| msgid "Host port help"
 msgid "Restart policy help"
-msgstr "主机端口帮助"
+msgstr "重启策略帮助"
 
 #: src/ImageRunModal.jsx:965
 msgid "Restart policy to follow when containers exit."
-msgstr ""
+msgstr "容器退出时遵循重启策略。"
 
 #: src/ContainerRestoreModal.jsx:35 src/Containers.jsx:233
 msgid "Restore"
@@ -822,7 +768,7 @@ msgstr "按名称或描述搜索"
 
 #: src/ImageRunModal.jsx:779
 msgid "Search by registry"
-msgstr ""
+msgstr "按照注册表搜索"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Search for"
@@ -834,17 +780,15 @@ msgstr "搜索镜像"
 
 #: src/ImageRunModal.jsx:868
 msgid "Search string or container location"
-msgstr ""
+msgstr "搜索字符串或容器位置"
 
 #: src/ImageSearchModal.jsx:174
 msgid "Searching..."
 msgstr "搜索中..."
 
 #: src/ImageRunModal.jsx:846
-#, fuzzy
-#| msgid "Searching..."
 msgid "Searching: $0"
-msgstr "搜索中..."
+msgstr "搜索: $0"
 
 #: src/ImageRunModal.jsx:197
 msgid "Shared"
@@ -863,10 +807,8 @@ msgid "Show intermediate images"
 msgstr "显示中间镜像"
 
 #: src/PruneUnusedImagesModal.jsx:44
-#, fuzzy
-#| msgid "Show images"
 msgid "Show more"
-msgstr "显示镜像"
+msgstr "显示更多"
 
 #: src/Containers.jsx:225 src/app.jsx:624 src/PodActions.jsx:108
 msgid "Start"
@@ -934,7 +876,7 @@ msgstr "自 $0 开始运行"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "使用旧的 Docker 格式"
 
 #: src/ImageDetails.jsx:33 src/Images.jsx:167
 msgid "Used by"
@@ -949,10 +891,8 @@ msgid "User Podman service is also available"
 msgstr "用户 Podman 服务同样可用"
 
 #: src/ImageRunModal.jsx:827
-#, fuzzy
-#| msgid "User"
 msgid "User:"
-msgstr "用户"
+msgstr "用户："
 
 #: src/ImageRunModal.jsx:155
 msgid "Value"
@@ -975,14 +915,12 @@ msgid "container"
 msgstr "容器"
 
 #: src/ImageRunModal.jsx:486
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
 msgstr "下载"
 
 #: src/ImageRunModal.jsx:844
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "host[:port]/[user]/container[:tag]"
 
 #: src/manifest.json
 msgid "image"
