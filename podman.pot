@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 02:59+0000\n"
+"POT-Creation-Date: 2022-03-08 02:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -417,12 +417,12 @@ msgstr ""
 msgid "Force stop"
 msgstr ""
 
-#: src/ContainerDetails.jsx:77
-msgid "Gateway"
+#: src/ImageRunModal.jsx:926
+msgid "GB"
 msgstr ""
 
-#: src/ImageRunModal.jsx:926
-msgid "GiB"
+#: src/ContainerDetails.jsx:77
+msgid "Gateway"
 msgstr ""
 
 #: src/Images.jsx:282
@@ -493,16 +493,16 @@ msgstr ""
 msgid "Integration"
 msgstr ""
 
+#: src/ImageRunModal.jsx:924
+msgid "KB"
+msgstr ""
+
 #: src/ContainerRestoreModal.jsx:44 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
 msgstr ""
 
 #: src/ImageRunModal.jsx:150
 msgid "Key"
-msgstr ""
-
-#: src/ImageRunModal.jsx:924
-msgid "KiB"
 msgstr ""
 
 #: src/ContainerCheckpointModal.jsx:45
@@ -533,6 +533,10 @@ msgstr ""
 msgid "MAC address"
 msgstr ""
 
+#: src/ImageRunModal.jsx:925
+msgid "MB"
+msgstr ""
+
 #: src/ImageRunModal.jsx:986
 msgid "Maximum retries"
 msgstr ""
@@ -547,10 +551,6 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:919
 msgid "Memory unit"
-msgstr ""
-
-#: src/ImageRunModal.jsx:925
-msgid "MiB"
 msgstr ""
 
 #: src/ImageRunModal.jsx:185
