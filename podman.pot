@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-28 04:20+0000\n"
+"POT-Creation-Date: 2022-04-29 03:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-28 04:20+0000\n"
+"POT-Creation-Date: 2022-04-29 03:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Add volume"
 msgstr ""
 
-#: src/ContainerHeader.jsx:49 src/Containers.jsx:535 src/ImageRunModal.jsx:778
+#: src/ImageRunModal.jsx:778 src/ContainerHeader.jsx:49 src/Containers.jsx:535
 msgid "All"
 msgstr ""
 
@@ -122,15 +122,15 @@ msgid ""
 "priority."
 msgstr ""
 
-#: src/PodActions.jsx:174 src/ImageSearchModal.jsx:231
-#: src/ContainerCommitModal.jsx:168 src/ContainerRestoreModal.jsx:39
-#: src/ContainerDeleteModal.jsx:15 src/ContainerCheckpointModal.jsx:38
-#: src/ImageDeleteModal.jsx:62 src/PruneUnusedImagesModal.jsx:103
-#: src/ForceRemoveModal.jsx:21 src/ImageRunModal.jsx:1055
+#: src/ContainerRestoreModal.jsx:39 src/ContainerDeleteModal.jsx:15
+#: src/ImageSearchModal.jsx:231 src/ForceRemoveModal.jsx:21
+#: src/PodActions.jsx:174 src/ImageDeleteModal.jsx:62
+#: src/ImageRunModal.jsx:1055 src/ContainerCommitModal.jsx:168
+#: src/PruneUnusedImagesModal.jsx:103 src/ContainerCheckpointModal.jsx:38
 msgid "Cancel"
 msgstr ""
 
-#: src/ContainerCheckpointModal.jsx:34 src/Containers.jsx:215
+#: src/Containers.jsx:215 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
 msgstr ""
 
@@ -142,8 +142,8 @@ msgstr ""
 msgid "Cockpit component for Podman containers"
 msgstr ""
 
-#: src/ContainerDetails.jsx:61 src/ContainerCommitModal.jsx:123
-#: src/ImageDetails.jsx:15 src/ImageRunModal.jsx:888
+#: src/ImageDetails.jsx:15 src/ContainerDetails.jsx:61
+#: src/ImageRunModal.jsx:888 src/ContainerCommitModal.jsx:123
 msgid "Command"
 msgstr ""
 
@@ -211,8 +211,8 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/Containers.jsx:544 src/Images.jsx:390 src/Images.jsx:404
-#: src/ImageRunModal.jsx:1045
+#: src/Images.jsx:390 src/Images.jsx:404 src/ImageRunModal.jsx:1045
+#: src/Containers.jsx:544
 msgid "Create container"
 msgstr ""
 
@@ -224,12 +224,12 @@ msgstr ""
 msgid "Create container in pod"
 msgstr ""
 
-#: src/ContainerDetails.jsx:89 src/util.js:8 src/util.js:11 src/Images.jsx:164
+#: src/Images.jsx:164 src/ContainerDetails.jsx:89 src/util.js:8 src/util.js:11
 msgid "Created"
 msgstr ""
 
-#: src/PodActions.jsx:151 src/PodActions.jsx:173
-#: src/ContainerDeleteModal.jsx:14 src/Containers.jsx:251 src/Images.jsx:410
+#: src/Images.jsx:410 src/ContainerDeleteModal.jsx:14 src/PodActions.jsx:151
+#: src/PodActions.jsx:173 src/Containers.jsx:251
 msgid "Delete"
 msgstr ""
 
@@ -257,7 +257,7 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/Containers.jsx:394 src/Images.jsx:140 src/ImageRunModal.jsx:822
+#: src/Images.jsx:140 src/ImageRunModal.jsx:822 src/Containers.jsx:394
 msgid "Details"
 msgstr ""
 
@@ -294,7 +294,7 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: src/Notification.jsx:42 src/Images.jsx:55
+#: src/Images.jsx:55 src/Notification.jsx:42
 msgid "Error message"
 msgstr ""
 
@@ -426,7 +426,7 @@ msgstr ""
 msgid "Force commit"
 msgstr ""
 
-#: src/PodActions.jsx:173 src/ForceRemoveModal.jsx:19
+#: src/ForceRemoveModal.jsx:19 src/PodActions.jsx:173
 msgid "Force delete"
 msgstr ""
 
@@ -466,7 +466,7 @@ msgstr ""
 msgid "Host port help"
 msgstr ""
 
-#: src/ContainerDetails.jsx:53 src/Images.jsx:165
+#: src/Images.jsx:165 src/ContainerDetails.jsx:53
 msgid "ID"
 msgstr ""
 
@@ -498,7 +498,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ContainerDetails.jsx:57 src/Images.jsx:162 src/ImageRunModal.jsx:837
+#: src/Images.jsx:162 src/ContainerDetails.jsx:57 src/ImageRunModal.jsx:837
 msgid "Image"
 msgstr ""
 
@@ -534,7 +534,7 @@ msgstr ""
 msgid "Loading logs..."
 msgstr ""
 
-#: src/Containers.jsx:438 src/ImageUsedBy.jsx:9
+#: src/ImageUsedBy.jsx:9 src/Containers.jsx:438
 msgid "Loading..."
 msgstr ""
 
@@ -658,8 +658,8 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: src/ContainerHeader.jsx:43 src/ImageSearchModal.jsx:148
-#: src/Containers.jsx:426 src/Images.jsx:163 src/ImageRunModal.jsx:824
+#: src/Images.jsx:163 src/ImageSearchModal.jsx:148 src/ImageRunModal.jsx:824
+#: src/ContainerHeader.jsx:43 src/Containers.jsx:426
 msgid "Owner"
 msgstr ""
 
@@ -720,7 +720,7 @@ msgstr ""
 msgid "Port mapping"
 msgstr ""
 
-#: src/ContainerDetails.jsx:69 src/ImageDetails.jsx:39
+#: src/ImageDetails.jsx:39 src/ContainerDetails.jsx:69
 msgid "Ports"
 msgstr ""
 
@@ -736,7 +736,7 @@ msgstr ""
 msgid "Prune"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:94 src/Images.jsx:333
+#: src/Images.jsx:333 src/PruneUnusedImagesModal.jsx:94
 msgid "Prune unused images"
 msgstr ""
 
@@ -793,7 +793,7 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/util.js:8 src/util.js:11 src/ImageUsedBy.jsx:32
+#: src/ImageUsedBy.jsx:32 src/util.js:8 src/util.js:11
 msgid "Running"
 msgstr ""
 
@@ -873,7 +873,7 @@ msgstr ""
 msgid "Support preserving established TCP connections"
 msgstr ""
 
-#: src/ContainerHeader.jsx:48 src/ImageRunModal.jsx:826
+#: src/ImageRunModal.jsx:826 src/ContainerHeader.jsx:48
 msgid "System"
 msgstr ""
 
@@ -989,7 +989,7 @@ msgstr ""
 msgid "select all"
 msgstr ""
 
-#: src/ImageSearchModal.jsx:149 src/Containers.jsx:381 src/Images.jsx:124
+#: src/Images.jsx:124 src/ImageSearchModal.jsx:149 src/Containers.jsx:381
 msgid "system"
 msgstr ""
 
@@ -997,6 +997,6 @@ msgstr ""
 msgid "unused"
 msgstr ""
 
-#: src/Containers.jsx:381 src/Images.jsx:124
+#: src/Images.jsx:124 src/Containers.jsx:381
 msgid "user:"
 msgstr ""
