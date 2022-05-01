@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-26 03:39+0000\n"
-"PO-Revision-Date: 2022-03-02 10:32+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fr/>\n"
+"PO-Revision-Date: 2022-05-02 19:18+0000\n"
+"Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -114,10 +114,8 @@ msgid "Checkpoint container $0"
 msgstr "Point de contrôle du conteneur $0"
 
 #: org.cockpit-project.podman.metainfo.xml:6
-#, fuzzy
-#| msgid "Podman containers"
 msgid "Cockpit component for Podman containers"
-msgstr "Conteneurs Podman"
+msgstr "Composant Cockpit pour les conteneurs Podman"
 
 #: src/ContainerDetails.jsx:61 src/ContainerCommitModal.jsx:123
 #: src/ImageDetails.jsx:15 src/ImageRunModal.jsx:888
@@ -185,10 +183,8 @@ msgid "Create a new image based on the current state of the $0 container."
 msgstr "Créer une nouvelle image basée sur l'état actuel du conteneur $0."
 
 #: src/ImageRunModal.jsx:1049
-#, fuzzy
-#| msgid "Create container"
 msgid "Create and run"
-msgstr "Créer un conteneur"
+msgstr "Créer et démarrer"
 
 #: src/Containers.jsx:544 src/Images.jsx:390 src/Images.jsx:404
 #: src/ImageRunModal.jsx:1045
@@ -282,7 +278,7 @@ msgstr "Message d’erreur"
 
 #: src/ContainerTerminal.jsx:265
 msgid "Error occurred while connecting console"
-msgstr "Une erreur s'est produite lors de la connexion à la console"
+msgstr "Une erreur s’est produite lors de la connexion à la console"
 
 #: src/ContainerCommitModal.jsx:118
 msgid "Example, Your Name <yourname@example.com>"
@@ -421,10 +417,8 @@ msgid "Force stop"
 msgstr "Arrêt forcé"
 
 #: src/ImageRunModal.jsx:923
-#, fuzzy
-#| msgid "GiB"
 msgid "GB"
-msgstr "Gio"
+msgstr "Go"
 
 #: src/ContainerDetails.jsx:77
 msgid "Gateway"
@@ -444,7 +438,7 @@ msgstr "Chemin vers l’hôte"
 
 #: src/ImageRunModal.jsx:71
 msgid "Host port"
-msgstr "Port d’hôte"
+msgstr "Port de l’hôte"
 
 #: src/ImageRunModal.jsx:74
 msgid "Host port help"
@@ -503,10 +497,8 @@ msgid "Integration"
 msgstr "Intégration"
 
 #: src/ImageRunModal.jsx:921
-#, fuzzy
-#| msgid "KiB"
 msgid "KB"
-msgstr "Kio"
+msgstr "Ko"
 
 #: src/ContainerRestoreModal.jsx:44 src/ContainerCheckpointModal.jsx:43
 msgid "Keep all temporary checkpoint files"
@@ -545,10 +537,8 @@ msgid "MAC address"
 msgstr "Adresse MAC"
 
 #: src/ImageRunModal.jsx:922
-#, fuzzy
-#| msgid "MiB"
 msgid "MB"
-msgstr "Mio"
+msgstr "Mo"
 
 #: src/ImageRunModal.jsx:983
 msgid "Maximum retries"
@@ -701,10 +691,8 @@ msgid "Please start typing to look for images."
 msgstr "Commencez à écrire pour chercher une image."
 
 #: org.cockpit-project.podman.metainfo.xml:5
-#, fuzzy
-#| msgid "podman"
 msgid "Podman"
-msgstr "podman"
+msgstr "Podman"
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -765,7 +753,7 @@ msgstr "Redémarrer"
 
 #: src/ImageRunModal.jsx:960
 msgid "Restart policy"
-msgstr "Politique de redémarrage"
+msgstr "Redémarrer la stratégie"
 
 #: src/ImageRunModal.jsx:962 src/ImageRunModal.jsx:972
 msgid "Restart policy help"
@@ -845,7 +833,7 @@ msgstr "Afficher les images intermédiaires"
 
 #: src/PruneUnusedImagesModal.jsx:44
 msgid "Show more"
-msgstr "Afficher davantage"
+msgstr "Montrer plus"
 
 #: src/PodActions.jsx:108 src/Containers.jsx:225 src/app.jsx:625
 msgid "Start"
@@ -893,7 +881,7 @@ msgstr "Étiquettes"
 
 #: org.cockpit-project.podman.metainfo.xml:10
 msgid "The Cockpit user interface for Podman containers."
-msgstr ""
+msgstr "L’interface utilisateur Cockpit pour les conteneur Podman."
 
 #: src/app.jsx:595
 msgid "Troubleshoot"
@@ -929,7 +917,7 @@ msgstr "Le service utilisateur Podman est également disponible"
 
 #: src/ImageRunModal.jsx:831
 msgid "User:"
-msgstr "Utilisateur :"
+msgstr "Utilisateur :"
 
 #: src/ImageRunModal.jsx:155
 msgid "Value"
@@ -953,7 +941,7 @@ msgstr "conteneur"
 
 #: src/ImageRunModal.jsx:484
 msgid "downloading"
-msgstr "téléchargement"
+msgstr "En cours de téléchargement"
 
 #: src/ImageRunModal.jsx:843
 msgid "host[:port]/[user]/container[:tag]"
@@ -997,7 +985,7 @@ msgstr "non utilisé"
 
 #: src/Containers.jsx:381 src/Images.jsx:124
 msgid "user:"
-msgstr "utilisateur :"
+msgstr "utilisateur :"
 
 #~ msgid "Default with single selectable"
 #~ msgstr "Par défaut avec sélection simple"
