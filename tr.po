@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-08 03:43+0000\n"
-"PO-Revision-Date: 2022-03-20 11:21+0000\n"
+"PO-Revision-Date: 2022-06-10 10:18+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -34,8 +34,8 @@ msgstr[1] "$0 kalıp toplam, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 saniye"
+msgstr[1] "$0 saniye"
 
 #: src/Images.jsx:257
 msgid "$0 unused image, $1"
@@ -111,10 +111,8 @@ msgid "Cancel"
 msgstr "İptal"
 
 #: src/Containers.jsx:384
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Checking health"
-msgstr "Denetim noktası"
+msgstr "Sağlık denetleniyor"
 
 #: src/Containers.jsx:243 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
@@ -147,28 +145,20 @@ msgid "Configured"
 msgstr "Yapılandırıldı"
 
 #: src/ContainerDeleteModal.jsx:13
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
-msgstr "Lütfen $0 için silme işlemini onaylayın"
+msgstr "$0 için silme işlemini onaylayın"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
 msgid "Confirm deletion of pod $0"
-msgstr "Lütfen $0 bölmesinin silme işlemini onaylayın"
+msgstr "$0 bölmesinin silme işlemini onaylayın"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
 msgid "Confirm force deletion of pod $0"
-msgstr "Lütfen $0 bölmesinin zorla silme işlemini onaylayın"
+msgstr "$0 bölmesinin zorla silme işlemini onaylayın"
 
 #: src/ForceRemoveModal.jsx:15
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
-msgstr "Lütfen $0 için zorla silme işlemini onaylayın"
+msgstr "$0 için zorla silme işlemini onaylayın"
 
 #: src/Containers.jsx:484
 msgid "Console"
@@ -199,10 +189,8 @@ msgid "Container name"
 msgstr "Kapsayıcı adı"
 
 #: src/ContainerRenameModal.jsx:24 src/ContainerRenameModal.jsx:35
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Kapsayıcı adı"
+msgstr "Kapsayıcı adı gerekli."
 
 #: src/ImageRunModal.jsx:181
 msgid "Container path"
@@ -247,19 +235,19 @@ msgstr "Oluşturuldu"
 
 #: src/ImageRunModal.jsx:1086
 msgid "Decrease interval by one"
-msgstr ""
+msgstr "Aralığı bir azalt"
 
 #: src/ImageRunModal.jsx:1160
 msgid "Decrease retries by one"
-msgstr ""
+msgstr "Yeniden denemeleri bir azalt"
 
 #: src/ImageRunModal.jsx:1136
 msgid "Decrease start period by one"
-msgstr ""
+msgstr "Başlangıç süresini bir azalt"
 
 #: src/ImageRunModal.jsx:1111
 msgid "Decrease timeout by one"
-msgstr ""
+msgstr "Zaman aşımını bir azalt"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -350,7 +338,7 @@ msgstr "Çıkıldı"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Failed health run"
-msgstr ""
+msgstr "Sağlık işlemini çalıştırma başarısız oldu"
 
 #: src/Containers.jsx:153
 msgid "Failed to checkpoint container $0"
@@ -413,10 +401,8 @@ msgid "Failed to remove image $0"
 msgstr "$0 kalıbını kaldırma başarısız oldu"
 
 #: src/ContainerRenameModal.jsx:50
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "$0 kapsayıcısını sürdürme başarısız oldu"
+msgstr "$0 kapsayıcısını yeniden adlandırma başarısız oldu"
 
 #: src/Containers.jsx:124
 msgid "Failed to restart container $0"
@@ -443,10 +429,8 @@ msgid "Failed to run container $0"
 msgstr "$0 kapsayıcısını çalıştırma başarısız oldu"
 
 #: src/Containers.jsx:110 src/ContainerHealthLogs.jsx:91
-#, fuzzy
-#| msgid "Failed to checkpoint container $0"
 msgid "Failed to run health check on container $0"
-msgstr "$0 kapsayıcısını denetleme noktası başarısız oldu"
+msgstr "$0 kapsayıcısında sağlık denetimi çalıştırma başarısız oldu"
 
 #: src/ImageRunModal.jsx:616 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
@@ -474,7 +458,7 @@ msgstr "$0 bölmesini durdurma başarısız oldu"
 
 #: src/ContainerHealthLogs.jsx:81
 msgid "Failing streak"
-msgstr ""
+msgstr "Başarısız olan seri"
 
 #: src/ContainerCommitModal.jsx:162
 msgid "Force commit"
@@ -502,27 +486,27 @@ msgstr "Ağ geçidi"
 
 #: src/Containers.jsx:491 src/ImageRunModal.jsx:1062
 msgid "Health check"
-msgstr ""
+msgstr "Sağlık denetimi"
 
 #: src/ImageRunModal.jsx:1071
 msgid "Health check interval help"
-msgstr ""
+msgstr "Sağlık denetimi aralığı yardımı"
 
 #: src/ImageRunModal.jsx:1146
 msgid "Health check retries help"
-msgstr ""
+msgstr "Sağlık denetimi yeniden denemeleri yardımı"
 
 #: src/ImageRunModal.jsx:1121
 msgid "Health check start period help"
-msgstr ""
+msgstr "Sağlık denetimi başlangıç dönemi yardımı"
 
 #: src/ImageRunModal.jsx:1096
 msgid "Health check timeout help"
-msgstr ""
+msgstr "Sağlık denetimi zaman aşımı yardımı"
 
 #: src/Containers.jsx:380
 msgid "Healthy"
-msgstr ""
+msgstr "Sağlıklı"
 
 #: src/Images.jsx:282
 msgid "Hide images"
@@ -594,39 +578,39 @@ msgstr "Kalıplar"
 
 #: src/ImageRunModal.jsx:1087
 msgid "Increase interval by one"
-msgstr ""
+msgstr "Aralığı bir artır"
 
 #: src/ImageRunModal.jsx:1161
 msgid "Increase retries by one"
-msgstr ""
+msgstr "Yeniden denemeleri bir artır"
 
 #: src/ImageRunModal.jsx:1137
 msgid "Increase start period by one"
-msgstr ""
+msgstr "Başlangıç süresini bir artır"
 
 #: src/ImageRunModal.jsx:1112
 msgid "Increase timeout by one"
-msgstr ""
+msgstr "Zaman aşımını bir artır"
 
 #: src/ImageRunModal.jsx:1031
 msgid "Integration"
 msgstr "Bütünleştirme"
 
 #: src/ImageRunModal.jsx:1069 src/ContainerHealthLogs.jsx:65
-#, fuzzy
-#| msgid "Integration"
 msgid "Interval"
-msgstr "Bütünleştirme"
+msgstr "Aralık"
 
 #: src/ImageRunModal.jsx:1073
 msgid "Interval how often health check is run."
-msgstr ""
+msgstr "Sağlık denetiminin ne sıklıkta çalıştırıldığı aralığı."
 
 #: src/ContainerRenameModal.jsx:28
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"Geçersiz karakterler. Ad sadece harf, sayı ve belirli noktalama işaretlerini "
+"(_ . -) içerebilir."
 
 #: src/ImageRunModal.jsx:953
 msgid "KB"
@@ -642,7 +626,7 @@ msgstr "Anahtar"
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Last 5 runs"
-msgstr ""
+msgstr "Son 5 çalıştırma"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
@@ -707,10 +691,8 @@ msgid "Name"
 msgstr "Ad"
 
 #: src/ContainerRenameModal.jsx:64
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "Kapsayıcı adı"
+msgstr "Yeni kapsayıcı adı"
 
 #: src/ContainerCommitModal.jsx:100
 msgid "New image name"
@@ -791,7 +773,7 @@ msgstr "Sahibi"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Passed health run"
-msgstr ""
+msgstr "Sağlık çalıştırması geçti"
 
 #: src/ImageRunModal.jsx:1059
 msgid ""
@@ -871,13 +853,11 @@ msgstr "Kaldırılıyor"
 
 #: src/Containers.jsx:196 src/ContainerRenameModal.jsx:88
 msgid "Rename"
-msgstr ""
+msgstr "Yeniden adlandır"
 
 #: src/ContainerRenameModal.jsx:81
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "$0 kapsayıcısını geri yükle"
+msgstr "$0 kapsayıcısını yeniden adlandır"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:214
 msgid "Restart"
@@ -913,17 +893,15 @@ msgstr "Sürdür"
 
 #: src/ImageRunModal.jsx:1144 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
-msgstr ""
+msgstr "Yeniden denemeler"
 
 #: src/ImageSearchModal.jsx:181
-#, fuzzy
-#| msgid "Please retry another term."
 msgid "Retry another term."
-msgstr "Lütfen başka bir terim ile yeniden deneyin."
+msgstr "Başka bir terimi yeniden deneyin."
 
 #: src/Containers.jsx:287 src/ContainerHealthLogs.jsx:95
 msgid "Run health check"
-msgstr ""
+msgstr "Sağlık denetimini çalıştır"
 
 #: src/ImageUsedBy.jsx:32 src/util.js:8 src/util.js:11
 msgid "Running"
@@ -986,34 +964,26 @@ msgid "Start"
 msgstr "Başlat"
 
 #: src/ImageRunModal.jsx:1119 src/ContainerHealthLogs.jsx:73
-#, fuzzy
-#| msgid "Start podman"
 msgid "Start period"
-msgstr "Podman'ı başlat"
+msgstr "Başlangıç süresi"
 
 #: src/app.jsx:655
 msgid "Start podman"
 msgstr "Podman'ı başlat"
 
 #: src/ImageSearchModal.jsx:176
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
-msgstr "Lütfen kalıpları aramak için yazmaya başlayın."
+msgstr "Kalıpları aramak için yazmaya başlayın."
 
 #: src/ContainerHealthLogs.jsx:101
-#, fuzzy
-#| msgid "Start"
 msgid "Started at"
-msgstr "Başlat"
+msgstr "Başlama zamanı"
 
 #: src/ContainerDetails.jsx:93 src/Containers.jsx:519
 msgid "State"
 msgstr "Durum"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
 msgstr "Durum"
 
@@ -1055,23 +1025,27 @@ msgstr "Podman kapsayıcıları için Cockpit kullanıcı arayüzü."
 
 #: src/ImageRunModal.jsx:1123
 msgid "The initialization time needed for a container to bootstrap."
-msgstr ""
+msgstr "Bir kapsayıcının önyükleme yapması için gereken başlatma süresi."
 
 #: src/ImageRunModal.jsx:1098
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
 msgstr ""
+"Bir aralığın başarısız olduğu kabul edilmeden önce sağlık denetimini "
+"tamamlanması için izin verilen en fazla süre."
 
 #: src/ImageRunModal.jsx:1148
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
 msgstr ""
+"Bir sağlık denetiminden önce izin verilen yeniden deneme sayısı sağlıksız "
+"olarak kabul edilir."
 
 #: src/ImageRunModal.jsx:1094 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "Zaman aşımı"
 
 #: src/app.jsx:660
 msgid "Troubleshoot"
@@ -1087,7 +1061,7 @@ msgstr "UDP"
 
 #: src/Containers.jsx:382
 msgid "Unhealthy"
-msgstr ""
+msgstr "Sağlıksız"
 
 #: src/ContainerDetails.jsx:11
 msgid "Up since $0"
@@ -1168,7 +1142,7 @@ msgstr "podman"
 #: src/ImageRunModal.jsx:1091 src/ImageRunModal.jsx:1116
 #: src/ImageRunModal.jsx:1141
 msgid "seconds"
-msgstr ""
+msgstr "saniye"
 
 #: src/ImageDeleteModal.jsx:80
 msgid "select all"
