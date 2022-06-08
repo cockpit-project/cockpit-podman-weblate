@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-08 03:43+0000\n"
-"PO-Revision-Date: 2022-03-20 11:21+0000\n"
+"PO-Revision-Date: 2022-06-10 10:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -33,7 +33,7 @@ msgstr[0] "$0 이미지 총계, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
+msgstr[0] "$0 초"
 
 #: src/Images.jsx:257
 msgid "$0 unused image, $1"
@@ -108,10 +108,8 @@ msgid "Cancel"
 msgstr "취소"
 
 #: src/Containers.jsx:384
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Checking health"
-msgstr "점검점"
+msgstr "상태 점검 중"
 
 #: src/Containers.jsx:243 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
@@ -144,28 +142,20 @@ msgid "Configured"
 msgstr "구성됨"
 
 #: src/ContainerDeleteModal.jsx:13
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
-msgstr "$0 삭제를 확인해주세요"
+msgstr "$0 삭제를 확인합니다"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
 msgid "Confirm deletion of pod $0"
-msgstr "pod $0의 삭제를 확인해주세요"
+msgstr "pod $0의 삭제를 확인합니다"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
 msgid "Confirm force deletion of pod $0"
-msgstr "pod $0의 강제 삭제를 확인해주세요"
+msgstr "pod $0의 강제 삭제를 확인합니다"
 
 #: src/ForceRemoveModal.jsx:15
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
-msgstr "$0 강제된 삭제를 확인해주세요"
+msgstr "$0의 강제된 삭제를 확인합니다"
 
 #: src/Containers.jsx:484
 msgid "Console"
@@ -196,10 +186,8 @@ msgid "Container name"
 msgstr "컨테이너 이름"
 
 #: src/ContainerRenameModal.jsx:24 src/ContainerRenameModal.jsx:35
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "컨테이너 이름"
+msgstr "컨테이너 이름이 필요합니다."
 
 #: src/ImageRunModal.jsx:181
 msgid "Container path"
@@ -244,19 +232,19 @@ msgstr "생성됨"
 
 #: src/ImageRunModal.jsx:1086
 msgid "Decrease interval by one"
-msgstr ""
+msgstr "간격을 1씩 감소"
 
 #: src/ImageRunModal.jsx:1160
 msgid "Decrease retries by one"
-msgstr ""
+msgstr "재시도를 1씩 감소"
 
 #: src/ImageRunModal.jsx:1136
 msgid "Decrease start period by one"
-msgstr ""
+msgstr "시작 기간을 1씩 감소"
 
 #: src/ImageRunModal.jsx:1111
 msgid "Decrease timeout by one"
-msgstr ""
+msgstr "시간종료를 1씩 감소"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -347,7 +335,7 @@ msgstr "종료됨"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Failed health run"
-msgstr ""
+msgstr "상태 실행에 실패함"
 
 #: src/Containers.jsx:153
 msgid "Failed to checkpoint container $0"
@@ -410,10 +398,8 @@ msgid "Failed to remove image $0"
 msgstr "이미지 $0 제거에 실패"
 
 #: src/ContainerRenameModal.jsx:50
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "컨테이너 $0를 다시 시작 하는 데 실패"
+msgstr "컨테이너 $0의 이름을 변경하는데 실패함"
 
 #: src/Containers.jsx:124
 msgid "Failed to restart container $0"
@@ -440,10 +426,8 @@ msgid "Failed to run container $0"
 msgstr "컨테이너 $0를 실행하는 데 실패"
 
 #: src/Containers.jsx:110 src/ContainerHealthLogs.jsx:91
-#, fuzzy
-#| msgid "Failed to checkpoint container $0"
 msgid "Failed to run health check on container $0"
-msgstr "컨테이너 $0 점검점에 실패"
+msgstr "컨테이너 $0에서 상태를 점검하는데 실패함"
 
 #: src/ImageRunModal.jsx:616 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
@@ -471,7 +455,7 @@ msgstr "pod $0 멈춤에 실패"
 
 #: src/ContainerHealthLogs.jsx:81
 msgid "Failing streak"
-msgstr ""
+msgstr "연속 실패"
 
 #: src/ContainerCommitModal.jsx:162
 msgid "Force commit"
@@ -499,27 +483,27 @@ msgstr "게이트웨이"
 
 #: src/Containers.jsx:491 src/ImageRunModal.jsx:1062
 msgid "Health check"
-msgstr ""
+msgstr "상태 점검"
 
 #: src/ImageRunModal.jsx:1071
 msgid "Health check interval help"
-msgstr ""
+msgstr "상태 점검 간격 도움말"
 
 #: src/ImageRunModal.jsx:1146
 msgid "Health check retries help"
-msgstr ""
+msgstr "상태 점검 재시도 도움말"
 
 #: src/ImageRunModal.jsx:1121
 msgid "Health check start period help"
-msgstr ""
+msgstr "상태 점검 시작 기간 도움말"
 
 #: src/ImageRunModal.jsx:1096
 msgid "Health check timeout help"
-msgstr ""
+msgstr "상태 점검 시간종료 도움말"
 
 #: src/Containers.jsx:380
 msgid "Healthy"
-msgstr ""
+msgstr "상태좋음"
 
 #: src/Images.jsx:282
 msgid "Hide images"
@@ -591,39 +575,37 @@ msgstr "이미지"
 
 #: src/ImageRunModal.jsx:1087
 msgid "Increase interval by one"
-msgstr ""
+msgstr "간격 1씩 증가"
 
 #: src/ImageRunModal.jsx:1161
 msgid "Increase retries by one"
-msgstr ""
+msgstr "재시도 1씩 증가"
 
 #: src/ImageRunModal.jsx:1137
 msgid "Increase start period by one"
-msgstr ""
+msgstr "시작 기간 1씩 증가"
 
 #: src/ImageRunModal.jsx:1112
 msgid "Increase timeout by one"
-msgstr ""
+msgstr "시간종료 1씩 증가"
 
 #: src/ImageRunModal.jsx:1031
 msgid "Integration"
 msgstr "통합"
 
 #: src/ImageRunModal.jsx:1069 src/ContainerHealthLogs.jsx:65
-#, fuzzy
-#| msgid "Integration"
 msgid "Interval"
-msgstr "통합"
+msgstr "간격"
 
 #: src/ImageRunModal.jsx:1073
 msgid "Interval how often health check is run."
-msgstr ""
+msgstr "얼마나 자주 상태 점검을 실행하는 간격."
 
 #: src/ContainerRenameModal.jsx:28
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
-msgstr ""
+msgstr "잘못된 문자. 이름은 문자, 수자와 특정 구두점(_ . -)만 포함 될 수 있습니다."
 
 #: src/ImageRunModal.jsx:953
 msgid "KB"
@@ -639,7 +621,7 @@ msgstr "키"
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Last 5 runs"
-msgstr ""
+msgstr "최근 5회 실행"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
@@ -702,10 +684,8 @@ msgid "Name"
 msgstr "이름"
 
 #: src/ContainerRenameModal.jsx:64
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "컨테이너 이름"
+msgstr "신규 컨테이너 이름"
 
 #: src/ContainerCommitModal.jsx:100
 msgid "New image name"
@@ -786,7 +766,7 @@ msgstr "소유자"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Passed health run"
-msgstr ""
+msgstr "상태 실행 통과됨"
 
 #: src/ImageRunModal.jsx:1059
 msgid ""
@@ -865,13 +845,11 @@ msgstr "제거 중"
 
 #: src/Containers.jsx:196 src/ContainerRenameModal.jsx:88
 msgid "Rename"
-msgstr ""
+msgstr "이름변경"
 
 #: src/ContainerRenameModal.jsx:81
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "컨테이너$0에서 복구"
+msgstr "컨테이너 $0 이름변경"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:214
 msgid "Restart"
@@ -907,17 +885,15 @@ msgstr "다시 시작"
 
 #: src/ImageRunModal.jsx:1144 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
-msgstr ""
+msgstr "재시도"
 
 #: src/ImageSearchModal.jsx:181
-#, fuzzy
-#| msgid "Please retry another term."
 msgid "Retry another term."
-msgstr "다른 용어를 재시도 해보세요."
+msgstr "다른 용어를 재시도."
 
 #: src/Containers.jsx:287 src/ContainerHealthLogs.jsx:95
 msgid "Run health check"
-msgstr ""
+msgstr "상태 점검을 실행"
 
 #: src/ImageUsedBy.jsx:32 src/util.js:8 src/util.js:11
 msgid "Running"
@@ -980,34 +956,26 @@ msgid "Start"
 msgstr "시작"
 
 #: src/ImageRunModal.jsx:1119 src/ContainerHealthLogs.jsx:73
-#, fuzzy
-#| msgid "Start podman"
 msgid "Start period"
-msgstr "포드맨 시작"
+msgstr "시작 주기"
 
 #: src/app.jsx:655
 msgid "Start podman"
 msgstr "포드맨 시작"
 
 #: src/ImageSearchModal.jsx:176
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
-msgstr "이미지를 찾으려면 입력하기를 시작해주세요."
+msgstr "이미지를 찾으려면 입력을 시작하세요."
 
 #: src/ContainerHealthLogs.jsx:101
-#, fuzzy
-#| msgid "Start"
 msgid "Started at"
-msgstr "시작"
+msgstr "시작 시간"
 
 #: src/ContainerDetails.jsx:93 src/Containers.jsx:519
 msgid "State"
 msgstr "상태"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
 msgstr "상태"
 
@@ -1049,23 +1017,23 @@ msgstr "포드맨 컨테이너를 위한 cockpit 사용자 연결장치."
 
 #: src/ImageRunModal.jsx:1123
 msgid "The initialization time needed for a container to bootstrap."
-msgstr ""
+msgstr "부트스트랩에서 컨테이너를 위해 필요한 초기화 시간."
 
 #: src/ImageRunModal.jsx:1098
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
-msgstr ""
+msgstr "간격이 실패한 것으로 간주되기 전에 상태 점검을 완료하도록 허용되는 최대 시간."
 
 #: src/ImageRunModal.jsx:1148
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
-msgstr ""
+msgstr "상태점검이 좋지 않은 것으로 고려되기 전에 허용되는 재시도 수."
 
 #: src/ImageRunModal.jsx:1094 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "시간종료"
 
 #: src/app.jsx:660
 msgid "Troubleshoot"
@@ -1081,7 +1049,7 @@ msgstr "UDP"
 
 #: src/Containers.jsx:382
 msgid "Unhealthy"
-msgstr ""
+msgstr "상태나쁨"
 
 #: src/ContainerDetails.jsx:11
 msgid "Up since $0"
@@ -1133,7 +1101,7 @@ msgstr "내려받기 중"
 
 #: src/ImageRunModal.jsx:875
 msgid "host[:port]/[user]/container[:tag]"
-msgstr "host[:port]/[user]/container[:tag]"
+msgstr "host[:포트]/[사용자]/컨테이너[:태그]"
 
 #: src/manifest.json:0
 msgid "image"
@@ -1162,7 +1130,7 @@ msgstr "포드맨"
 #: src/ImageRunModal.jsx:1091 src/ImageRunModal.jsx:1116
 #: src/ImageRunModal.jsx:1141
 msgid "seconds"
-msgstr ""
+msgstr "초"
 
 #: src/ImageDeleteModal.jsx:80
 msgid "select all"
