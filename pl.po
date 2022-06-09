@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-08 03:43+0000\n"
-"PO-Revision-Date: 2022-03-20 11:21+0000\n"
+"PO-Revision-Date: 2022-06-10 10:18+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -37,9 +37,9 @@ msgstr[2] "$0 obrazów razem, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 sekunda"
+msgstr[1] "$0 sekundy"
+msgstr[2] "$0 sekund"
 
 #: src/Images.jsx:257
 msgid "$0 unused image, $1"
@@ -152,28 +152,20 @@ msgid "Configured"
 msgstr "Skonfigurowane"
 
 #: src/ContainerDeleteModal.jsx:13
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
-msgstr "Proszę potwierdzić usunięcie $0"
+msgstr "Potwierdź usunięcie $0"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
 msgid "Confirm deletion of pod $0"
-msgstr "Proszę potwierdzić usunięcie pojemnika $0"
+msgstr "Potwierdź usunięcie pojemnika $0"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
 msgid "Confirm force deletion of pod $0"
-msgstr "Proszę potwierdzić wymuszenie usunięcia pojemnika $0"
+msgstr "Potwierdź wymuszenie usunięcia pojemnika $0"
 
 #: src/ForceRemoveModal.jsx:15
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
-msgstr "Proszę potwierdzić wymuszenie usunięcia $0"
+msgstr "Potwierdź wymuszenie usunięcia $0"
 
 #: src/Containers.jsx:484
 msgid "Console"
@@ -204,10 +196,8 @@ msgid "Container name"
 msgstr "Nazwa kontenera"
 
 #: src/ContainerRenameModal.jsx:24 src/ContainerRenameModal.jsx:35
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Nazwa kontenera"
+msgstr "Wymagana jest nazwa kontenera."
 
 #: src/ImageRunModal.jsx:181
 msgid "Container path"
@@ -420,10 +410,8 @@ msgid "Failed to remove image $0"
 msgstr "Usunięcie obrazu $0 się nie powiodło"
 
 #: src/ContainerRenameModal.jsx:50
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "Wznowienie kontenera $0 się nie powiodło"
+msgstr "Zmiana nazwy kontenera $0 się nie powiodła"
 
 #: src/Containers.jsx:124
 msgid "Failed to restart container $0"
@@ -634,6 +622,8 @@ msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"Nieprawidłowe znaki. Nazwa może zawierać tylko litery, cyfry i część znaków "
+"interpunkcyjnych (_ . -)."
 
 #: src/ImageRunModal.jsx:953
 msgid "KB"
@@ -714,10 +704,8 @@ msgid "Name"
 msgstr "Nazwa"
 
 #: src/ContainerRenameModal.jsx:64
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "Nazwa kontenera"
+msgstr "Nowa nazwa kontenera"
 
 #: src/ContainerCommitModal.jsx:100
 msgid "New image name"
@@ -878,13 +866,11 @@ msgstr "Usuwanie"
 
 #: src/Containers.jsx:196 src/ContainerRenameModal.jsx:88
 msgid "Rename"
-msgstr ""
+msgstr "Zmień nazwę"
 
 #: src/ContainerRenameModal.jsx:81
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "Przywróć kontener $0"
+msgstr "Zmień nazwę kontenera $0"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:214
 msgid "Restart"
@@ -923,10 +909,8 @@ msgid "Retries"
 msgstr ""
 
 #: src/ImageSearchModal.jsx:181
-#, fuzzy
-#| msgid "Please retry another term."
 msgid "Retry another term."
-msgstr "Proszę spróbować innych słów."
+msgstr "Spróbuj innych słów."
 
 #: src/Containers.jsx:287 src/ContainerHealthLogs.jsx:95
 msgid "Run health check"
@@ -1003,10 +987,8 @@ msgid "Start podman"
 msgstr "Uruchom usługę podman"
 
 #: src/ImageSearchModal.jsx:176
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
-msgstr "Proszę zacząć pisać, aby wyszukać obrazy."
+msgstr "Zacznij pisać, aby wyszukać obrazy."
 
 #: src/ContainerHealthLogs.jsx:101
 #, fuzzy
@@ -1019,8 +1001,6 @@ msgid "State"
 msgstr "Stan"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
 msgstr "Stan"
 
@@ -1078,7 +1058,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1094 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "Czas oczekiwania"
 
 #: src/app.jsx:660
 msgid "Troubleshoot"
@@ -1175,7 +1155,7 @@ msgstr "podman"
 #: src/ImageRunModal.jsx:1091 src/ImageRunModal.jsx:1116
 #: src/ImageRunModal.jsx:1141
 msgid "seconds"
-msgstr ""
+msgstr "s"
 
 #: src/ImageDeleteModal.jsx:80
 msgid "select all"
