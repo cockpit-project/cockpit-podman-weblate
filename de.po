@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-08 03:43+0000\n"
+"POT-Creation-Date: 2022-06-10 03:37+0000\n"
 "PO-Revision-Date: 2022-05-11 09:18+0000\n"
 "Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
@@ -41,15 +41,15 @@ msgid_plural "$0 unused images, $1"
 msgstr[0] "$0 ungenutztes Abbild, $1"
 msgstr[1] "$0 ungenutzte Abbilder, $1"
 
-#: src/ImageRunModal.jsx:1037
+#: src/ImageRunModal.jsx:1044
 msgid "Add port mapping"
 msgstr "Port-Zuordnung hinzufügen"
 
-#: src/ImageRunModal.jsx:1056
+#: src/ImageRunModal.jsx:1063
 msgid "Add variable"
 msgstr "Variable hinzufügen"
 
-#: src/ImageRunModal.jsx:1046
+#: src/ImageRunModal.jsx:1053
 msgid "Add volume"
 msgstr "Volumen hinzufügen"
 
@@ -61,7 +61,7 @@ msgstr "Alle"
 msgid "All registries"
 msgstr "Alle Registries"
 
-#: src/ImageRunModal.jsx:1009
+#: src/ImageRunModal.jsx:1014
 msgid "Always"
 msgstr "Immer"
 
@@ -81,15 +81,15 @@ msgstr "Podman automatisch beim Hochfahren starten"
 msgid "CPU"
 msgstr "CPU"
 
-#: src/ImageRunModal.jsx:965
+#: src/ImageRunModal.jsx:967
 msgid "CPU Shares help"
 msgstr "CPU Shares Hilfe"
 
-#: src/ImageRunModal.jsx:963
+#: src/ImageRunModal.jsx:965
 msgid "CPU shares"
 msgstr "CPU-Shares"
 
-#: src/ImageRunModal.jsx:967
+#: src/ImageRunModal.jsx:969
 msgid ""
 "CPU shares determine the priority of running containers. Default priority is "
 "1024. A higher number prioritizes this container. A lower number decreases "
@@ -102,7 +102,7 @@ msgstr ""
 #: src/PodActions.jsx:175 src/ContainerDeleteModal.jsx:16
 #: src/ContainerRestoreModal.jsx:39 src/ForceRemoveModal.jsx:22
 #: src/ContainerRenameModal.jsx:93 src/PruneUnusedImagesModal.jsx:103
-#: src/ImageRunModal.jsx:1192 src/ImageDeleteModal.jsx:62
+#: src/ImageRunModal.jsx:1199 src/ImageDeleteModal.jsx:62
 #: src/ContainerCheckpointModal.jsx:38 src/ContainerCommitModal.jsx:168
 #: src/ImageSearchModal.jsx:231
 msgid "Cancel"
@@ -127,7 +127,7 @@ msgid "Cockpit component for Podman containers"
 msgstr "Cockpit Bestandteil für Podman-Container"
 
 #: src/ContainerDetails.jsx:61 src/ImageRunModal.jsx:920
-#: src/ImageRunModal.jsx:1063 src/ContainerHealthLogs.jsx:61
+#: src/ImageRunModal.jsx:1070 src/ContainerHealthLogs.jsx:61
 #: src/ContainerCommitModal.jsx:123 src/ImageDetails.jsx:15
 msgid "Command"
 msgstr "Befehl"
@@ -214,7 +214,7 @@ msgstr "Container-Port"
 msgid "Containers"
 msgstr "Container"
 
-#: src/ImageRunModal.jsx:1189
+#: src/ImageRunModal.jsx:1196
 msgid "Create"
 msgstr "Erstellen"
 
@@ -224,16 +224,16 @@ msgstr ""
 "Ein neues Abbild auf der Grundlage des aktuellen Zustands des Containers $0 "
 "erstellen."
 
-#: src/ImageRunModal.jsx:1186
+#: src/ImageRunModal.jsx:1193
 msgid "Create and run"
 msgstr "Erstellen und ausführen"
 
-#: src/Containers.jsx:645 src/ImageRunModal.jsx:1182 src/Images.jsx:390
+#: src/Containers.jsx:645 src/ImageRunModal.jsx:1189 src/Images.jsx:390
 #: src/Images.jsx:404
 msgid "Create container"
 msgstr "Container erstellen"
 
-#: src/ImageRunModal.jsx:1182
+#: src/ImageRunModal.jsx:1189
 msgid "Create container in $0"
 msgstr "Container in $0 erstellen"
 
@@ -245,20 +245,38 @@ msgstr "Container in Pod erstellen"
 msgid "Created"
 msgstr "Erstellt"
 
-#: src/ImageRunModal.jsx:1086
-msgid "Decrease interval by one"
+#: src/ImageRunModal.jsx:988
+#, fuzzy
+#| msgid "CPU shares"
+msgid "Decrease CPU shares"
+msgstr "CPU-Shares"
+
+#: src/ImageRunModal.jsx:1093
+msgid "Decrease interval"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1160
-msgid "Decrease retries by one"
+#: src/ImageRunModal.jsx:1027
+#, fuzzy
+#| msgid "Maximum retries"
+msgid "Decrease maximum retries"
+msgstr "Maximale Versuche"
+
+#: src/ImageRunModal.jsx:946
+msgid "Decrease memory"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1136
-msgid "Decrease start period by one"
+#: src/ImageRunModal.jsx:1167
+msgid "Decrease retries"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1111
-msgid "Decrease timeout by one"
+#: src/ImageRunModal.jsx:1143
+#, fuzzy
+#| msgid "Start podman"
+msgid "Decrease start period"
+msgstr "Podman starten"
+
+#: src/ImageRunModal.jsx:1118
+msgid "Decrease timeout"
 msgstr ""
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
@@ -321,7 +339,7 @@ msgstr "Neues Abbild herunterladen"
 msgid "Entrypoint"
 msgstr "Einsprungspunkt"
 
-#: src/ImageRunModal.jsx:1055
+#: src/ImageRunModal.jsx:1062
 msgid "Environment variables"
 msgstr "Umgebungsvariablen"
 
@@ -493,7 +511,7 @@ msgstr "Neustart erzwingen"
 msgid "Force stop"
 msgstr "Stoppen erzwingen"
 
-#: src/ImageRunModal.jsx:955
+#: src/ImageRunModal.jsx:957
 msgid "GB"
 msgstr "GB"
 
@@ -501,23 +519,23 @@ msgstr "GB"
 msgid "Gateway"
 msgstr "Gateway"
 
-#: src/Containers.jsx:491 src/ImageRunModal.jsx:1062
+#: src/Containers.jsx:491 src/ImageRunModal.jsx:1069
 msgid "Health check"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1071
+#: src/ImageRunModal.jsx:1078
 msgid "Health check interval help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1146
+#: src/ImageRunModal.jsx:1153
 msgid "Health check retries help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1121
+#: src/ImageRunModal.jsx:1128
 msgid "Health check start period help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1096
+#: src/ImageRunModal.jsx:1103
 msgid "Health check timeout help"
 msgstr ""
 
@@ -593,33 +611,53 @@ msgstr "Abbildauswahl-Hilfe"
 msgid "Images"
 msgstr "Images"
 
-#: src/ImageRunModal.jsx:1087
-msgid "Increase interval by one"
+#: src/ImageRunModal.jsx:989
+#, fuzzy
+#| msgid "CPU shares"
+msgid "Increase CPU shares"
+msgstr "CPU-Shares"
+
+#: src/ImageRunModal.jsx:1094
+#, fuzzy
+#| msgid "Integration"
+msgid "Increase interval"
+msgstr "Integration"
+
+#: src/ImageRunModal.jsx:1028
+#, fuzzy
+#| msgid "Maximum retries"
+msgid "Increase maximum retries"
+msgstr "Maximale Versuche"
+
+#: src/ImageRunModal.jsx:947
+msgid "Increase memory"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1161
-msgid "Increase retries by one"
+#: src/ImageRunModal.jsx:1168
+msgid "Increase retries"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1137
-msgid "Increase start period by one"
+#: src/ImageRunModal.jsx:1144
+#, fuzzy
+#| msgid "Start podman"
+msgid "Increase start period"
+msgstr "Podman starten"
+
+#: src/ImageRunModal.jsx:1119
+msgid "Increase timeout"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1112
-msgid "Increase timeout by one"
-msgstr ""
-
-#: src/ImageRunModal.jsx:1031
+#: src/ImageRunModal.jsx:1038
 msgid "Integration"
 msgstr "Integration"
 
-#: src/ImageRunModal.jsx:1069 src/ContainerHealthLogs.jsx:65
+#: src/ImageRunModal.jsx:1076 src/ContainerHealthLogs.jsx:65
 #, fuzzy
 #| msgid "Integration"
 msgid "Interval"
 msgstr "Integration"
 
-#: src/ImageRunModal.jsx:1073
+#: src/ImageRunModal.jsx:1080
 msgid "Interval how often health check is run."
 msgstr ""
 
@@ -629,7 +667,7 @@ msgid ""
 "punctuation (_ . -)."
 msgstr ""
 
-#: src/ImageRunModal.jsx:953
+#: src/ImageRunModal.jsx:955
 msgid "KB"
 msgstr "KB"
 
@@ -674,11 +712,11 @@ msgstr "Protokolle"
 msgid "MAC address"
 msgstr "MAC-Adresse"
 
-#: src/ImageRunModal.jsx:954
+#: src/ImageRunModal.jsx:956
 msgid "MB"
 msgstr "MB"
 
-#: src/ImageRunModal.jsx:1015
+#: src/ImageRunModal.jsx:1020
 msgid "Maximum retries"
 msgstr "Maximale Versuche"
 
@@ -690,7 +728,7 @@ msgstr "Speicher"
 msgid "Memory limit"
 msgstr "Speicher-Limit"
 
-#: src/ImageRunModal.jsx:948
+#: src/ImageRunModal.jsx:950
 msgid "Memory unit"
 msgstr "Speichereinheit"
 
@@ -718,7 +756,7 @@ msgstr "Container-Name"
 msgid "New image name"
 msgstr "Neuer Abbildname"
 
-#: src/ImageRunModal.jsx:1007
+#: src/ImageRunModal.jsx:1012
 msgid "No"
 msgstr "Nein"
 
@@ -738,7 +776,7 @@ msgstr "Keine Container in diesem Pod"
 msgid "No containers that match the current filter"
 msgstr "Aktueller Filter passt auf keinen Container"
 
-#: src/ImageRunModal.jsx:1053
+#: src/ImageRunModal.jsx:1060
 msgid "No environment variables specified"
 msgstr "Keine Umgebungsvariablen angegeben"
 
@@ -758,7 +796,7 @@ msgstr "Aktueller Filter passt auf kein Image"
 msgid "No label"
 msgstr "Keine Bezeichnung"
 
-#: src/ImageRunModal.jsx:1034
+#: src/ImageRunModal.jsx:1041
 msgid "No ports exposed"
 msgstr "Keine offenen Ports"
 
@@ -770,11 +808,11 @@ msgstr "Keine Ergebnisse für $0"
 msgid "No running containers"
 msgstr "Keine laufenden Container"
 
-#: src/ImageRunModal.jsx:1043
+#: src/ImageRunModal.jsx:1050
 msgid "No volumes specified"
 msgstr "Keine Volumen angegeben"
 
-#: src/ImageRunModal.jsx:1008
+#: src/ImageRunModal.jsx:1013
 msgid "On failure"
 msgstr "Bei einem Ausfall"
 
@@ -795,7 +833,7 @@ msgstr "Eigentümer"
 msgid "Passed health run"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1059
+#: src/ImageRunModal.jsx:1066
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
@@ -826,7 +864,7 @@ msgstr "Podman-Container"
 msgid "Podman service is not active"
 msgstr "Podman-Service ist nicht aktiv"
 
-#: src/ImageRunModal.jsx:1036
+#: src/ImageRunModal.jsx:1043
 msgid "Port mapping"
 msgstr "Portzuordnung"
 
@@ -885,15 +923,15 @@ msgstr "Container $0 wiederherstellen"
 msgid "Restart"
 msgstr "Neustart"
 
-#: src/ImageRunModal.jsx:992
+#: src/ImageRunModal.jsx:997
 msgid "Restart policy"
 msgstr "Neustartrichtlinie"
 
-#: src/ImageRunModal.jsx:994 src/ImageRunModal.jsx:1004
+#: src/ImageRunModal.jsx:999 src/ImageRunModal.jsx:1009
 msgid "Restart policy help"
 msgstr "Neustartrichtlinien-Hilfe"
 
-#: src/ImageRunModal.jsx:996
+#: src/ImageRunModal.jsx:1001
 msgid "Restart policy to follow when containers exit."
 msgstr ""
 "Neustart-Richtlinie, die beim Beenden von Containern befolgt werden soll."
@@ -914,7 +952,7 @@ msgstr "Wiederherstellung mit bestehenden TCP-Verbindungen"
 msgid "Resume"
 msgstr "Fotfahren"
 
-#: src/ImageRunModal.jsx:1144 src/ContainerHealthLogs.jsx:69
+#: src/ImageRunModal.jsx:1151 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
 msgstr ""
 
@@ -988,7 +1026,7 @@ msgstr "Mehr anzeigen"
 msgid "Start"
 msgstr "Starten"
 
-#: src/ImageRunModal.jsx:1119 src/ContainerHealthLogs.jsx:73
+#: src/ImageRunModal.jsx:1126 src/ContainerHealthLogs.jsx:73
 #, fuzzy
 #| msgid "Start podman"
 msgid "Start period"
@@ -1056,23 +1094,23 @@ msgstr "Etiketten"
 msgid "The Cockpit user interface for Podman containers."
 msgstr "Die Cockpit Benutzeroberfläche für Podman Container."
 
-#: src/ImageRunModal.jsx:1123
+#: src/ImageRunModal.jsx:1130
 msgid "The initialization time needed for a container to bootstrap."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1098
+#: src/ImageRunModal.jsx:1105
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1148
+#: src/ImageRunModal.jsx:1155
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1094 src/ContainerHealthLogs.jsx:77
+#: src/ImageRunModal.jsx:1101 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
 msgstr ""
 
@@ -1120,7 +1158,7 @@ msgstr "Benutzer:"
 msgid "Value"
 msgstr "Wert"
 
-#: src/ImageRunModal.jsx:1045
+#: src/ImageRunModal.jsx:1052
 msgid "Volumes"
 msgstr "Datenträger"
 
@@ -1168,8 +1206,8 @@ msgstr "Pod-Gruppe"
 msgid "podman"
 msgstr "podman"
 
-#: src/ImageRunModal.jsx:1091 src/ImageRunModal.jsx:1116
-#: src/ImageRunModal.jsx:1141
+#: src/ImageRunModal.jsx:1098 src/ImageRunModal.jsx:1123
+#: src/ImageRunModal.jsx:1148
 msgid "seconds"
 msgstr ""
 

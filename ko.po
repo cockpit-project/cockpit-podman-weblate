@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-08 03:43+0000\n"
+"POT-Creation-Date: 2022-06-10 03:37+0000\n"
 "PO-Revision-Date: 2022-06-10 10:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,15 +40,15 @@ msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] "$0 미사용 이미지, $1"
 
-#: src/ImageRunModal.jsx:1037
+#: src/ImageRunModal.jsx:1044
 msgid "Add port mapping"
 msgstr "포트 대응을 추가합니다"
 
-#: src/ImageRunModal.jsx:1056
+#: src/ImageRunModal.jsx:1063
 msgid "Add variable"
 msgstr "변수를 추가합니다"
 
-#: src/ImageRunModal.jsx:1046
+#: src/ImageRunModal.jsx:1053
 msgid "Add volume"
 msgstr "볼륨 추가"
 
@@ -60,7 +60,7 @@ msgstr "모두"
 msgid "All registries"
 msgstr "모든 레지스터리"
 
-#: src/ImageRunModal.jsx:1009
+#: src/ImageRunModal.jsx:1014
 msgid "Always"
 msgstr "항상"
 
@@ -80,15 +80,15 @@ msgstr "부트시 자동으로 podman 시작"
 msgid "CPU"
 msgstr "CPU"
 
-#: src/ImageRunModal.jsx:965
+#: src/ImageRunModal.jsx:967
 msgid "CPU Shares help"
 msgstr "CPU 공유 도움말"
 
-#: src/ImageRunModal.jsx:963
+#: src/ImageRunModal.jsx:965
 msgid "CPU shares"
 msgstr "CPU 공유"
 
-#: src/ImageRunModal.jsx:967
+#: src/ImageRunModal.jsx:969
 msgid ""
 "CPU shares determine the priority of running containers. Default priority is "
 "1024. A higher number prioritizes this container. A lower number decreases "
@@ -101,7 +101,7 @@ msgstr ""
 #: src/PodActions.jsx:175 src/ContainerDeleteModal.jsx:16
 #: src/ContainerRestoreModal.jsx:39 src/ForceRemoveModal.jsx:22
 #: src/ContainerRenameModal.jsx:93 src/PruneUnusedImagesModal.jsx:103
-#: src/ImageRunModal.jsx:1192 src/ImageDeleteModal.jsx:62
+#: src/ImageRunModal.jsx:1199 src/ImageDeleteModal.jsx:62
 #: src/ContainerCheckpointModal.jsx:38 src/ContainerCommitModal.jsx:168
 #: src/ImageSearchModal.jsx:231
 msgid "Cancel"
@@ -124,7 +124,7 @@ msgid "Cockpit component for Podman containers"
 msgstr "포드맨 컨테이너를 위한 cockpit 구성요소"
 
 #: src/ContainerDetails.jsx:61 src/ImageRunModal.jsx:920
-#: src/ImageRunModal.jsx:1063 src/ContainerHealthLogs.jsx:61
+#: src/ImageRunModal.jsx:1070 src/ContainerHealthLogs.jsx:61
 #: src/ContainerCommitModal.jsx:123 src/ImageDetails.jsx:15
 msgid "Command"
 msgstr "명령"
@@ -201,7 +201,7 @@ msgstr "컨테이너 포트"
 msgid "Containers"
 msgstr "컨테이너들"
 
-#: src/ImageRunModal.jsx:1189
+#: src/ImageRunModal.jsx:1196
 msgid "Create"
 msgstr "생성"
 
@@ -209,16 +209,16 @@ msgstr "생성"
 msgid "Create a new image based on the current state of the $0 container."
 msgstr "$0 컨테이너의 현재 상태에서 기반된 새로운 이미지를 생성합니다."
 
-#: src/ImageRunModal.jsx:1186
+#: src/ImageRunModal.jsx:1193
 msgid "Create and run"
 msgstr "생성과 실행"
 
-#: src/Containers.jsx:645 src/ImageRunModal.jsx:1182 src/Images.jsx:390
+#: src/Containers.jsx:645 src/ImageRunModal.jsx:1189 src/Images.jsx:390
 #: src/Images.jsx:404
 msgid "Create container"
 msgstr "컨테이너 생성"
 
-#: src/ImageRunModal.jsx:1182
+#: src/ImageRunModal.jsx:1189
 msgid "Create container in $0"
 msgstr "$0에서 컨테이너 생성"
 
@@ -230,20 +230,46 @@ msgstr "포드에서 컨테이너 생성"
 msgid "Created"
 msgstr "생성됨"
 
-#: src/ImageRunModal.jsx:1086
-msgid "Decrease interval by one"
+#: src/ImageRunModal.jsx:988
+#, fuzzy
+#| msgid "CPU shares"
+msgid "Decrease CPU shares"
+msgstr "CPU 공유"
+
+#: src/ImageRunModal.jsx:1093
+#, fuzzy
+#| msgid "Decrease interval by one"
+msgid "Decrease interval"
 msgstr "간격을 1씩 감소"
 
-#: src/ImageRunModal.jsx:1160
-msgid "Decrease retries by one"
+#: src/ImageRunModal.jsx:1027
+#, fuzzy
+#| msgid "Maximum retries"
+msgid "Decrease maximum retries"
+msgstr "최대 재시도"
+
+#: src/ImageRunModal.jsx:946
+#, fuzzy
+#| msgid "Decrease timeout by one"
+msgid "Decrease memory"
+msgstr "시간종료를 1씩 감소"
+
+#: src/ImageRunModal.jsx:1167
+#, fuzzy
+#| msgid "Decrease retries by one"
+msgid "Decrease retries"
 msgstr "재시도를 1씩 감소"
 
-#: src/ImageRunModal.jsx:1136
-msgid "Decrease start period by one"
+#: src/ImageRunModal.jsx:1143
+#, fuzzy
+#| msgid "Decrease start period by one"
+msgid "Decrease start period"
 msgstr "시작 기간을 1씩 감소"
 
-#: src/ImageRunModal.jsx:1111
-msgid "Decrease timeout by one"
+#: src/ImageRunModal.jsx:1118
+#, fuzzy
+#| msgid "Decrease timeout by one"
+msgid "Decrease timeout"
 msgstr "시간종료를 1씩 감소"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
@@ -305,7 +331,7 @@ msgstr "신규 이미지 내려받기"
 msgid "Entrypoint"
 msgstr "시작점"
 
-#: src/ImageRunModal.jsx:1055
+#: src/ImageRunModal.jsx:1062
 msgid "Environment variables"
 msgstr "환경 변수"
 
@@ -473,7 +499,7 @@ msgstr "강제 재시작"
 msgid "Force stop"
 msgstr "강제 멈춤"
 
-#: src/ImageRunModal.jsx:955
+#: src/ImageRunModal.jsx:957
 msgid "GB"
 msgstr "GB"
 
@@ -481,23 +507,23 @@ msgstr "GB"
 msgid "Gateway"
 msgstr "게이트웨이"
 
-#: src/Containers.jsx:491 src/ImageRunModal.jsx:1062
+#: src/Containers.jsx:491 src/ImageRunModal.jsx:1069
 msgid "Health check"
 msgstr "상태 점검"
 
-#: src/ImageRunModal.jsx:1071
+#: src/ImageRunModal.jsx:1078
 msgid "Health check interval help"
 msgstr "상태 점검 간격 도움말"
 
-#: src/ImageRunModal.jsx:1146
+#: src/ImageRunModal.jsx:1153
 msgid "Health check retries help"
 msgstr "상태 점검 재시도 도움말"
 
-#: src/ImageRunModal.jsx:1121
+#: src/ImageRunModal.jsx:1128
 msgid "Health check start period help"
 msgstr "상태 점검 시작 기간 도움말"
 
-#: src/ImageRunModal.jsx:1096
+#: src/ImageRunModal.jsx:1103
 msgid "Health check timeout help"
 msgstr "상태 점검 시간종료 도움말"
 
@@ -573,31 +599,57 @@ msgstr "이미지 선택 도움말"
 msgid "Images"
 msgstr "이미지"
 
-#: src/ImageRunModal.jsx:1087
-msgid "Increase interval by one"
+#: src/ImageRunModal.jsx:989
+#, fuzzy
+#| msgid "CPU shares"
+msgid "Increase CPU shares"
+msgstr "CPU 공유"
+
+#: src/ImageRunModal.jsx:1094
+#, fuzzy
+#| msgid "Increase interval by one"
+msgid "Increase interval"
 msgstr "간격 1씩 증가"
 
-#: src/ImageRunModal.jsx:1161
-msgid "Increase retries by one"
-msgstr "재시도 1씩 증가"
+#: src/ImageRunModal.jsx:1028
+#, fuzzy
+#| msgid "Maximum retries"
+msgid "Increase maximum retries"
+msgstr "최대 재시도"
 
-#: src/ImageRunModal.jsx:1137
-msgid "Increase start period by one"
-msgstr "시작 기간 1씩 증가"
-
-#: src/ImageRunModal.jsx:1112
-msgid "Increase timeout by one"
+#: src/ImageRunModal.jsx:947
+#, fuzzy
+#| msgid "Increase timeout by one"
+msgid "Increase memory"
 msgstr "시간종료 1씩 증가"
 
-#: src/ImageRunModal.jsx:1031
+#: src/ImageRunModal.jsx:1168
+#, fuzzy
+#| msgid "Increase retries by one"
+msgid "Increase retries"
+msgstr "재시도 1씩 증가"
+
+#: src/ImageRunModal.jsx:1144
+#, fuzzy
+#| msgid "Increase start period by one"
+msgid "Increase start period"
+msgstr "시작 기간 1씩 증가"
+
+#: src/ImageRunModal.jsx:1119
+#, fuzzy
+#| msgid "Increase timeout by one"
+msgid "Increase timeout"
+msgstr "시간종료 1씩 증가"
+
+#: src/ImageRunModal.jsx:1038
 msgid "Integration"
 msgstr "통합"
 
-#: src/ImageRunModal.jsx:1069 src/ContainerHealthLogs.jsx:65
+#: src/ImageRunModal.jsx:1076 src/ContainerHealthLogs.jsx:65
 msgid "Interval"
 msgstr "간격"
 
-#: src/ImageRunModal.jsx:1073
+#: src/ImageRunModal.jsx:1080
 msgid "Interval how often health check is run."
 msgstr "얼마나 자주 상태 점검을 실행하는 간격."
 
@@ -605,9 +657,10 @@ msgstr "얼마나 자주 상태 점검을 실행하는 간격."
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
-msgstr "잘못된 문자. 이름은 문자, 수자와 특정 구두점(_ . -)만 포함 될 수 있습니다."
+msgstr ""
+"잘못된 문자. 이름은 문자, 수자와 특정 구두점(_ . -)만 포함 될 수 있습니다."
 
-#: src/ImageRunModal.jsx:953
+#: src/ImageRunModal.jsx:955
 msgid "KB"
 msgstr "KB"
 
@@ -651,11 +704,11 @@ msgstr "기록"
 msgid "MAC address"
 msgstr "맥(mac) 주소"
 
-#: src/ImageRunModal.jsx:954
+#: src/ImageRunModal.jsx:956
 msgid "MB"
 msgstr "MB"
 
-#: src/ImageRunModal.jsx:1015
+#: src/ImageRunModal.jsx:1020
 msgid "Maximum retries"
 msgstr "최대 재시도"
 
@@ -667,7 +720,7 @@ msgstr "메모리"
 msgid "Memory limit"
 msgstr "메모리 제한"
 
-#: src/ImageRunModal.jsx:948
+#: src/ImageRunModal.jsx:950
 msgid "Memory unit"
 msgstr "메모리 장치"
 
@@ -691,7 +744,7 @@ msgstr "신규 컨테이너 이름"
 msgid "New image name"
 msgstr "새로운 이미지 이름"
 
-#: src/ImageRunModal.jsx:1007
+#: src/ImageRunModal.jsx:1012
 msgid "No"
 msgstr "아니오"
 
@@ -711,7 +764,7 @@ msgstr "이 포드에는 컨테이너가 없습니다"
 msgid "No containers that match the current filter"
 msgstr "현재 필터에 일치하는 컨테이너가 없습니다"
 
-#: src/ImageRunModal.jsx:1053
+#: src/ImageRunModal.jsx:1060
 msgid "No environment variables specified"
 msgstr "지정된 환경 변수가 없습니다"
 
@@ -731,7 +784,7 @@ msgstr "현재 필터에 일치하는 이미지가 없습니다"
 msgid "No label"
 msgstr "이름표가 없습니다"
 
-#: src/ImageRunModal.jsx:1034
+#: src/ImageRunModal.jsx:1041
 msgid "No ports exposed"
 msgstr "노출된 포트가 없습니다"
 
@@ -743,11 +796,11 @@ msgstr "$0의 결과를 찾을 수 없습니다"
 msgid "No running containers"
 msgstr "실행 중인 컨테이너가 없습니다"
 
-#: src/ImageRunModal.jsx:1043
+#: src/ImageRunModal.jsx:1050
 msgid "No volumes specified"
 msgstr "지정된 볼륨이 없습니다"
 
-#: src/ImageRunModal.jsx:1008
+#: src/ImageRunModal.jsx:1013
 msgid "On failure"
 msgstr "실패한 경우"
 
@@ -768,7 +821,7 @@ msgstr "소유자"
 msgid "Passed health run"
 msgstr "상태 실행 통과됨"
 
-#: src/ImageRunModal.jsx:1059
+#: src/ImageRunModal.jsx:1066
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
@@ -798,7 +851,7 @@ msgstr "포드맨 컨테이너"
 msgid "Podman service is not active"
 msgstr "포드맨 서비스가 동작하지 않습니다"
 
-#: src/ImageRunModal.jsx:1036
+#: src/ImageRunModal.jsx:1043
 msgid "Port mapping"
 msgstr "포트 대응"
 
@@ -855,15 +908,15 @@ msgstr "컨테이너 $0 이름변경"
 msgid "Restart"
 msgstr "재시작"
 
-#: src/ImageRunModal.jsx:992
+#: src/ImageRunModal.jsx:997
 msgid "Restart policy"
 msgstr "재시작 정책"
 
-#: src/ImageRunModal.jsx:994 src/ImageRunModal.jsx:1004
+#: src/ImageRunModal.jsx:999 src/ImageRunModal.jsx:1009
 msgid "Restart policy help"
 msgstr "정책 도움말 재시작"
 
-#: src/ImageRunModal.jsx:996
+#: src/ImageRunModal.jsx:1001
 msgid "Restart policy to follow when containers exit."
 msgstr "컨테이너를 종료 할 경우에 따라야 할 정책을 재시작 합니다."
 
@@ -883,7 +936,7 @@ msgstr "설정된 TCP 연결로 복구"
 msgid "Resume"
 msgstr "다시 시작"
 
-#: src/ImageRunModal.jsx:1144 src/ContainerHealthLogs.jsx:69
+#: src/ImageRunModal.jsx:1151 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
 msgstr "재시도"
 
@@ -955,7 +1008,7 @@ msgstr "더 보여주기"
 msgid "Start"
 msgstr "시작"
 
-#: src/ImageRunModal.jsx:1119 src/ContainerHealthLogs.jsx:73
+#: src/ImageRunModal.jsx:1126 src/ContainerHealthLogs.jsx:73
 msgid "Start period"
 msgstr "시작 주기"
 
@@ -1015,23 +1068,24 @@ msgstr "태그"
 msgid "The Cockpit user interface for Podman containers."
 msgstr "포드맨 컨테이너를 위한 cockpit 사용자 연결장치."
 
-#: src/ImageRunModal.jsx:1123
+#: src/ImageRunModal.jsx:1130
 msgid "The initialization time needed for a container to bootstrap."
 msgstr "부트스트랩에서 컨테이너를 위해 필요한 초기화 시간."
 
-#: src/ImageRunModal.jsx:1098
+#: src/ImageRunModal.jsx:1105
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
-msgstr "간격이 실패한 것으로 간주되기 전에 상태 점검을 완료하도록 허용되는 최대 시간."
+msgstr ""
+"간격이 실패한 것으로 간주되기 전에 상태 점검을 완료하도록 허용되는 최대 시간."
 
-#: src/ImageRunModal.jsx:1148
+#: src/ImageRunModal.jsx:1155
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
 msgstr "상태점검이 좋지 않은 것으로 고려되기 전에 허용되는 재시도 수."
 
-#: src/ImageRunModal.jsx:1094 src/ContainerHealthLogs.jsx:77
+#: src/ImageRunModal.jsx:1101 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
 msgstr "시간종료"
 
@@ -1079,7 +1133,7 @@ msgstr "사용자:"
 msgid "Value"
 msgstr "값"
 
-#: src/ImageRunModal.jsx:1045
+#: src/ImageRunModal.jsx:1052
 msgid "Volumes"
 msgstr "볼륨"
 
@@ -1127,8 +1181,8 @@ msgstr "포드 그룹"
 msgid "podman"
 msgstr "포드맨"
 
-#: src/ImageRunModal.jsx:1091 src/ImageRunModal.jsx:1116
-#: src/ImageRunModal.jsx:1141
+#: src/ImageRunModal.jsx:1098 src/ImageRunModal.jsx:1123
+#: src/ImageRunModal.jsx:1148
 msgid "seconds"
 msgstr "초"
 
