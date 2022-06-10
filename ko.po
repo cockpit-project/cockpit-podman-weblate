@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-10 03:37+0000\n"
-"PO-Revision-Date: 2022-06-10 10:18+0000\n"
+"PO-Revision-Date: 2022-06-11 18:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -231,46 +231,32 @@ msgid "Created"
 msgstr "생성됨"
 
 #: src/ImageRunModal.jsx:988
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "CPU 공유"
+msgstr "CPU 공유 감소"
 
 #: src/ImageRunModal.jsx:1093
-#, fuzzy
-#| msgid "Decrease interval by one"
 msgid "Decrease interval"
-msgstr "간격을 1씩 감소"
+msgstr "간격 감소"
 
 #: src/ImageRunModal.jsx:1027
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "최대 재시도"
+msgstr "최대 재시도 감소"
 
 #: src/ImageRunModal.jsx:946
-#, fuzzy
-#| msgid "Decrease timeout by one"
 msgid "Decrease memory"
-msgstr "시간종료를 1씩 감소"
+msgstr "메모리 감소"
 
 #: src/ImageRunModal.jsx:1167
-#, fuzzy
-#| msgid "Decrease retries by one"
 msgid "Decrease retries"
-msgstr "재시도를 1씩 감소"
+msgstr "재시도 감소"
 
 #: src/ImageRunModal.jsx:1143
-#, fuzzy
-#| msgid "Decrease start period by one"
 msgid "Decrease start period"
-msgstr "시작 기간을 1씩 감소"
+msgstr "시작 기간 감소"
 
 #: src/ImageRunModal.jsx:1118
-#, fuzzy
-#| msgid "Decrease timeout by one"
 msgid "Decrease timeout"
-msgstr "시간종료를 1씩 감소"
+msgstr "시간종료 감소"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -600,46 +586,32 @@ msgid "Images"
 msgstr "이미지"
 
 #: src/ImageRunModal.jsx:989
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Increase CPU shares"
-msgstr "CPU 공유"
+msgstr "CPU 공유 증가"
 
 #: src/ImageRunModal.jsx:1094
-#, fuzzy
-#| msgid "Increase interval by one"
 msgid "Increase interval"
-msgstr "간격 1씩 증가"
+msgstr "간격 증가"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Increase maximum retries"
-msgstr "최대 재시도"
+msgstr "최대 재시도 증가"
 
 #: src/ImageRunModal.jsx:947
-#, fuzzy
-#| msgid "Increase timeout by one"
 msgid "Increase memory"
-msgstr "시간종료 1씩 증가"
+msgstr "메모리 증가"
 
 #: src/ImageRunModal.jsx:1168
-#, fuzzy
-#| msgid "Increase retries by one"
 msgid "Increase retries"
-msgstr "재시도 1씩 증가"
+msgstr "재시도 증가"
 
 #: src/ImageRunModal.jsx:1144
-#, fuzzy
-#| msgid "Increase start period by one"
 msgid "Increase start period"
-msgstr "시작 기간 1씩 증가"
+msgstr "시작 기간 증가"
 
 #: src/ImageRunModal.jsx:1119
-#, fuzzy
-#| msgid "Increase timeout by one"
 msgid "Increase timeout"
-msgstr "시간종료 1씩 증가"
+msgstr "시간종료 증가"
 
 #: src/ImageRunModal.jsx:1038
 msgid "Integration"
