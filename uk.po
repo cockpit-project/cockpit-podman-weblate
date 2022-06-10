@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-10 03:37+0000\n"
-"PO-Revision-Date: 2022-06-10 10:18+0000\n"
+"PO-Revision-Date: 2022-06-11 18:18+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -239,46 +239,32 @@ msgid "Created"
 msgstr "Створено"
 
 #: src/ImageRunModal.jsx:988
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "Спільне використання процесора"
+msgstr "Зменшити спільне використання процесора"
 
 #: src/ImageRunModal.jsx:1093
-#, fuzzy
-#| msgid "Decrease interval by one"
 msgid "Decrease interval"
-msgstr "Зменшити інтервал на одиницю"
+msgstr "Зменшити інтервал"
 
 #: src/ImageRunModal.jsx:1027
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "Максимум повторних спроб"
+msgstr "Зменшити максимум повторних спроб"
 
 #: src/ImageRunModal.jsx:946
-#, fuzzy
-#| msgid "Decrease timeout by one"
 msgid "Decrease memory"
-msgstr "Зменшити час очікування на одиницю"
+msgstr "Зменшити пам'ять"
 
 #: src/ImageRunModal.jsx:1167
-#, fuzzy
-#| msgid "Decrease retries by one"
 msgid "Decrease retries"
-msgstr "Зменшити кількість повторних спроб на одиницю"
+msgstr "Зменшити кількість повторних спроб"
 
 #: src/ImageRunModal.jsx:1143
-#, fuzzy
-#| msgid "Decrease start period by one"
 msgid "Decrease start period"
-msgstr "Зменшити період запуску на одиницю"
+msgstr "Зменшити період запуску"
 
 #: src/ImageRunModal.jsx:1118
-#, fuzzy
-#| msgid "Decrease timeout by one"
 msgid "Decrease timeout"
-msgstr "Зменшити час очікування на одиницю"
+msgstr "Зменшити час очікування"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -612,46 +598,32 @@ msgid "Images"
 msgstr "Образи"
 
 #: src/ImageRunModal.jsx:989
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Increase CPU shares"
-msgstr "Спільне використання процесора"
+msgstr "Збільшити спільне використання процесора"
 
 #: src/ImageRunModal.jsx:1094
-#, fuzzy
-#| msgid "Increase interval by one"
 msgid "Increase interval"
-msgstr "Збільшити інтервал на одиницю"
+msgstr "Збільшити інтервал"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Increase maximum retries"
-msgstr "Максимум повторних спроб"
+msgstr "Збільшити максимум повторних спроб"
 
 #: src/ImageRunModal.jsx:947
-#, fuzzy
-#| msgid "Increase timeout by one"
 msgid "Increase memory"
-msgstr "Збільшити час очікування на одиницю"
+msgstr "Збільшити пам'ять"
 
 #: src/ImageRunModal.jsx:1168
-#, fuzzy
-#| msgid "Increase retries by one"
 msgid "Increase retries"
-msgstr "Збільшити кількість повторних спроб на одиницю"
+msgstr "Збільшити кількість повторних спроб"
 
 #: src/ImageRunModal.jsx:1144
-#, fuzzy
-#| msgid "Increase start period by one"
 msgid "Increase start period"
-msgstr "Збільшити початковий період на одиницю"
+msgstr "Збільшити початковий період"
 
 #: src/ImageRunModal.jsx:1119
-#, fuzzy
-#| msgid "Increase timeout by one"
 msgid "Increase timeout"
-msgstr "Збільшити час очікування на одиницю"
+msgstr "Збільшити час очікування"
 
 #: src/ImageRunModal.jsx:1038
 msgid "Integration"
