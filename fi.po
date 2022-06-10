@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-10 03:37+0000\n"
-"PO-Revision-Date: 2022-03-26 22:00+0000\n"
+"PO-Revision-Date: 2022-06-11 18:18+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -35,8 +35,8 @@ msgstr[1] "$0 levykuvaa yhteensä, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 sekunti"
+msgstr[1] "$0 sekuntia"
 
 #: src/Images.jsx:257
 msgid "$0 unused image, $1"
@@ -112,10 +112,8 @@ msgid "Cancel"
 msgstr "Peru"
 
 #: src/Containers.jsx:384
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Checking health"
-msgstr "Tarkistuspiste"
+msgstr "Tarkistetaan tilaa"
 
 #: src/Containers.jsx:243 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
@@ -148,26 +146,18 @@ msgid "Configured"
 msgstr "Asetukset asetettu"
 
 #: src/ContainerDeleteModal.jsx:13
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
 msgstr "Vahvista kohteen $0 poistaminen"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
 msgid "Confirm deletion of pod $0"
 msgstr "Vahvista podin $0 poistaminen"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
 msgid "Confirm force deletion of pod $0"
 msgstr "Vahvista podin $0 pakotettu poistaminen"
 
 #: src/ForceRemoveModal.jsx:15
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
 msgstr "Vahvista kohteen $0 pakotettu poistaminen"
 
@@ -200,10 +190,8 @@ msgid "Container name"
 msgstr "Kontin nimi"
 
 #: src/ContainerRenameModal.jsx:24 src/ContainerRenameModal.jsx:35
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Kontin nimi"
+msgstr "Kontin nimi vaaditaan."
 
 #: src/ImageRunModal.jsx:181
 msgid "Container path"
@@ -247,38 +235,32 @@ msgid "Created"
 msgstr "Luotu"
 
 #: src/ImageRunModal.jsx:988
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "Suoritinosuus"
+msgstr "Vähennä suoritinosuuksia"
 
 #: src/ImageRunModal.jsx:1093
 msgid "Decrease interval"
-msgstr ""
+msgstr "Pienennä väliä"
 
 #: src/ImageRunModal.jsx:1027
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "Uudelleenyritysten enimmäismäärä"
+msgstr "Pienennä uudelleenyritysten enimmäismäärää"
 
 #: src/ImageRunModal.jsx:946
 msgid "Decrease memory"
-msgstr ""
+msgstr "Vähennä muistia"
 
 #: src/ImageRunModal.jsx:1167
 msgid "Decrease retries"
-msgstr ""
+msgstr "Vähennä uudelleenyrityksiä"
 
 #: src/ImageRunModal.jsx:1143
-#, fuzzy
-#| msgid "Start podman"
 msgid "Decrease start period"
-msgstr "Käynnistä podman"
+msgstr "Pienennä aloitusaikaa"
 
 #: src/ImageRunModal.jsx:1118
 msgid "Decrease timeout"
-msgstr ""
+msgstr "Pienennä aikakatkaisua"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -370,7 +352,7 @@ msgstr "Päättyi"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Failed health run"
-msgstr ""
+msgstr "Epäonnistunut eheysajo"
 
 #: src/Containers.jsx:153
 msgid "Failed to checkpoint container $0"
@@ -433,10 +415,8 @@ msgid "Failed to remove image $0"
 msgstr "Levykuvan $0 poistaminen epäonnistui"
 
 #: src/ContainerRenameModal.jsx:50
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "Kontin $0 palauttaminen epäonnistui"
+msgstr "Kontin $0 uudelleennimeäminen epäonnistui"
 
 #: src/Containers.jsx:124
 msgid "Failed to restart container $0"
@@ -463,10 +443,8 @@ msgid "Failed to run container $0"
 msgstr "Kontin $0 suorittaminen epäonnistui"
 
 #: src/Containers.jsx:110 src/ContainerHealthLogs.jsx:91
-#, fuzzy
-#| msgid "Failed to checkpoint container $0"
 msgid "Failed to run health check on container $0"
-msgstr "Kontin $0 tarkistuspisteen luominen epäonnistui"
+msgstr "Kontin $0 eheystarkastus epäonnistui"
 
 #: src/ImageRunModal.jsx:616 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
@@ -494,7 +472,7 @@ msgstr "Podin $0 pysäyttäminen epäonnistui"
 
 #: src/ContainerHealthLogs.jsx:81
 msgid "Failing streak"
-msgstr ""
+msgstr "Epäonnistunut sarja"
 
 #: src/ContainerCommitModal.jsx:162
 msgid "Force commit"
@@ -522,27 +500,27 @@ msgstr "Yhdyskäytävä"
 
 #: src/Containers.jsx:491 src/ImageRunModal.jsx:1069
 msgid "Health check"
-msgstr ""
+msgstr "Eheystarkistus"
 
 #: src/ImageRunModal.jsx:1078
 msgid "Health check interval help"
-msgstr ""
+msgstr "Tietoa eheystarkistuksen aikavälistä"
 
 #: src/ImageRunModal.jsx:1153
 msgid "Health check retries help"
-msgstr ""
+msgstr "Tietoa eheystarkistuksen uudelleenyrityksistä"
 
 #: src/ImageRunModal.jsx:1128
 msgid "Health check start period help"
-msgstr ""
+msgstr "Tietoa eheystarkistuksen aloitusjaksosta"
 
 #: src/ImageRunModal.jsx:1103
 msgid "Health check timeout help"
-msgstr ""
+msgstr "Tietoa eheystarkistuksen aikakatkaisusta"
 
 #: src/Containers.jsx:380
 msgid "Healthy"
-msgstr ""
+msgstr "Ehjä"
 
 #: src/Images.jsx:282
 msgid "Hide images"
@@ -613,60 +591,52 @@ msgid "Images"
 msgstr "Levykuvat"
 
 #: src/ImageRunModal.jsx:989
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Increase CPU shares"
-msgstr "Suoritinosuus"
+msgstr "Lisää suoritinosuuksia"
 
 #: src/ImageRunModal.jsx:1094
-#, fuzzy
-#| msgid "Integration"
 msgid "Increase interval"
-msgstr "Integraatio"
+msgstr "Suurenna väliä"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Increase maximum retries"
-msgstr "Uudelleenyritysten enimmäismäärä"
+msgstr "Lisää uudelleenyritysten enimmäismäärää"
 
 #: src/ImageRunModal.jsx:947
 msgid "Increase memory"
-msgstr ""
+msgstr "Lisää muistia"
 
 #: src/ImageRunModal.jsx:1168
 msgid "Increase retries"
-msgstr ""
+msgstr "Lisää uudelleenyrityksiä"
 
 #: src/ImageRunModal.jsx:1144
-#, fuzzy
-#| msgid "Start podman"
 msgid "Increase start period"
-msgstr "Käynnistä podman"
+msgstr "Pidennä aloitusjaksoa"
 
 #: src/ImageRunModal.jsx:1119
 msgid "Increase timeout"
-msgstr ""
+msgstr "Nosta aikakatkaisua"
 
 #: src/ImageRunModal.jsx:1038
 msgid "Integration"
 msgstr "Integraatio"
 
 #: src/ImageRunModal.jsx:1076 src/ContainerHealthLogs.jsx:65
-#, fuzzy
-#| msgid "Integration"
 msgid "Interval"
-msgstr "Integraatio"
+msgstr "Aikaväli"
 
 #: src/ImageRunModal.jsx:1080
 msgid "Interval how often health check is run."
-msgstr ""
+msgstr "Eheystarkistusten aikaväli."
 
 #: src/ContainerRenameModal.jsx:28
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"Virheellisiä merkkejä. Nimi voi sisältää vain kirjaimia, numeroita ja "
+"tiettyjä välimerkkejä (_ . -)."
 
 #: src/ImageRunModal.jsx:955
 msgid "KB"
@@ -682,7 +652,7 @@ msgstr "Avain"
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Last 5 runs"
-msgstr ""
+msgstr "Viimeiset 5 ajoa"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
@@ -747,10 +717,8 @@ msgid "Name"
 msgstr "Nimi"
 
 #: src/ContainerRenameModal.jsx:64
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "Kontin nimi"
+msgstr "Kontin uusi nimi"
 
 #: src/ContainerCommitModal.jsx:100
 msgid "New image name"
@@ -831,7 +799,7 @@ msgstr "omistaja"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Passed health run"
-msgstr ""
+msgstr "Onnistunut eheysajo"
 
 #: src/ImageRunModal.jsx:1066
 msgid ""
@@ -911,13 +879,11 @@ msgstr "Poistetaan"
 
 #: src/Containers.jsx:196 src/ContainerRenameModal.jsx:88
 msgid "Rename"
-msgstr ""
+msgstr "Nimeä uudelleen"
 
 #: src/ContainerRenameModal.jsx:81
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "Palauta kontti $0"
+msgstr "Nimeä kontti $0 uudelleen"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:214
 msgid "Restart"
@@ -953,17 +919,15 @@ msgstr "Jatka"
 
 #: src/ImageRunModal.jsx:1151 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
-msgstr ""
+msgstr "Uudelleenyritykset"
 
 #: src/ImageSearchModal.jsx:181
-#, fuzzy
-#| msgid "Please retry another term."
 msgid "Retry another term."
 msgstr "Yritä toisella termillä uudelleen."
 
 #: src/Containers.jsx:287 src/ContainerHealthLogs.jsx:95
 msgid "Run health check"
-msgstr ""
+msgstr "Aja eheystarkistus"
 
 #: src/ImageUsedBy.jsx:32 src/util.js:8 src/util.js:11
 msgid "Running"
@@ -1026,34 +990,26 @@ msgid "Start"
 msgstr "Käynnistä"
 
 #: src/ImageRunModal.jsx:1126 src/ContainerHealthLogs.jsx:73
-#, fuzzy
-#| msgid "Start podman"
 msgid "Start period"
-msgstr "Käynnistä podman"
+msgstr "Aloitusjakso"
 
 #: src/app.jsx:655
 msgid "Start podman"
 msgstr "Käynnistä podman"
 
 #: src/ImageSearchModal.jsx:176
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
 msgstr "Aloita kirjoittaminen etsiäksesi levykuvia."
 
 #: src/ContainerHealthLogs.jsx:101
-#, fuzzy
-#| msgid "Start"
 msgid "Started at"
-msgstr "Käynnistä"
+msgstr "Käynnistetty klo"
 
 #: src/ContainerDetails.jsx:93 src/Containers.jsx:519
 msgid "State"
 msgstr "Tila"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
 msgstr "Tila"
 
@@ -1095,23 +1051,27 @@ msgstr "Cockpit-käyttöliittymä Podman-konteille."
 
 #: src/ImageRunModal.jsx:1130
 msgid "The initialization time needed for a container to bootstrap."
-msgstr ""
+msgstr "Alustusaika, joka tarvitaan kontin käynnistymiseen."
 
 #: src/ImageRunModal.jsx:1105
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
 msgstr ""
+"Enimmäisaika, joka on sallittu eheystarkastuksen suorittamiseen ennen kuin "
+"se katsotaan epäonnistuneeksi."
 
 #: src/ImageRunModal.jsx:1155
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
 msgstr ""
+"Yritysten enimmäismäärä, joka on sallittu eheystarkastuksen suorittamiseen "
+"ennen kuin se katsotaan epäonnistuneeksi."
 
 #: src/ImageRunModal.jsx:1101 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "Aikakatkaisu"
 
 #: src/app.jsx:660
 msgid "Troubleshoot"
@@ -1127,7 +1087,7 @@ msgstr "UDP"
 
 #: src/Containers.jsx:382
 msgid "Unhealthy"
-msgstr ""
+msgstr "Epäehyt"
 
 #: src/ContainerDetails.jsx:11
 msgid "Up since $0"
@@ -1208,7 +1168,7 @@ msgstr "podman"
 #: src/ImageRunModal.jsx:1098 src/ImageRunModal.jsx:1123
 #: src/ImageRunModal.jsx:1148
 msgid "seconds"
-msgstr ""
+msgstr "sekuntia"
 
 #: src/ImageDeleteModal.jsx:80
 msgid "select all"
