@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-11 03:34+0000\n"
-"PO-Revision-Date: 2022-03-26 19:16+0000\n"
+"PO-Revision-Date: 2022-06-12 14:14+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -35,8 +35,8 @@ msgstr[1] "$0 avbilder, totalt, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 sekund"
+msgstr[1] "$0 sekunder"
 
 #: src/Images.jsx:257
 msgid "$0 unused image, $1"
@@ -112,10 +112,8 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #: src/Containers.jsx:384
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Checking health"
-msgstr "Checkpunkt"
+msgstr "Kontrollerar hälsa"
 
 #: src/Containers.jsx:243 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
@@ -148,28 +146,20 @@ msgid "Configured"
 msgstr "Konfigurerad"
 
 #: src/ContainerDeleteModal.jsx:13
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
-msgstr "Bekräfta att $0 skall tas bort"
+msgstr "Bekräfta borttagning av $0"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
 msgid "Confirm deletion of pod $0"
-msgstr "Bekräfta att kapseln $0 skall tas bort"
+msgstr "Bekräfta borttagning av kapsel $0"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
 msgid "Confirm force deletion of pod $0"
-msgstr "Bekräfta att kapseln $0 skall raderas tvingande"
+msgstr "Bekräfta tvångsradering av kapsel $0"
 
 #: src/ForceRemoveModal.jsx:15
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
-msgstr "Bekräfta att $0 skall raderas tvingande"
+msgstr "Bekräfta tvångsradering av $0"
 
 #: src/Containers.jsx:484
 msgid "Console"
@@ -200,10 +190,8 @@ msgid "Container name"
 msgstr "Behållarnamn"
 
 #: src/ContainerRenameModal.jsx:24 src/ContainerRenameModal.jsx:35
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Behållarnamn"
+msgstr "Behållarnamn krävs."
 
 #: src/ImageRunModal.jsx:181
 msgid "Container path"
@@ -247,24 +235,20 @@ msgid "Created"
 msgstr "Skapad"
 
 #: src/ImageRunModal.jsx:988
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "CPU-andelar"
+msgstr "Minska CPU-andelar"
 
 #: src/ImageRunModal.jsx:1093
 msgid "Decrease interval"
 msgstr ""
 
 #: src/ImageRunModal.jsx:1027
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "Maximalt antal försök igen"
+msgstr "Minska maximalt antal försök igen"
 
 #: src/ImageRunModal.jsx:946
 msgid "Decrease memory"
-msgstr ""
+msgstr "Minska minne"
 
 #: src/ImageRunModal.jsx:1167
 msgid "Decrease retries"
@@ -278,7 +262,7 @@ msgstr "Starta podman"
 
 #: src/ImageRunModal.jsx:1118
 msgid "Decrease timeout"
-msgstr ""
+msgstr "Minska timeout"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -370,7 +354,7 @@ msgstr "Avslutats"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Failed health run"
-msgstr ""
+msgstr "Misslyckad hälsokörning"
 
 #: src/Containers.jsx:153
 msgid "Failed to checkpoint container $0"
@@ -433,10 +417,8 @@ msgid "Failed to remove image $0"
 msgstr "Misslyckades att ta bort avbilden $0"
 
 #: src/ContainerRenameModal.jsx:50
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "Misslyckades att återuppta behållaren $0"
+msgstr "Misslyckades att byta namn på behållaren $0"
 
 #: src/Containers.jsx:124
 msgid "Failed to restart container $0"
@@ -463,10 +445,8 @@ msgid "Failed to run container $0"
 msgstr "Misslyckades att köra behållaren $0"
 
 #: src/Containers.jsx:110 src/ContainerHealthLogs.jsx:91
-#, fuzzy
-#| msgid "Failed to checkpoint container $0"
 msgid "Failed to run health check on container $0"
-msgstr "Kunde inte ta checkpunkt av behållare $0"
+msgstr "Misslyckades att köra hälsokontrollen på behållare $0"
 
 #: src/ImageRunModal.jsx:616 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
@@ -522,7 +502,7 @@ msgstr "Gateway"
 
 #: src/Containers.jsx:491 src/ImageRunModal.jsx:1069
 msgid "Health check"
-msgstr ""
+msgstr "Hälsokontroll"
 
 #: src/ImageRunModal.jsx:1078
 msgid "Health check interval help"
@@ -613,10 +593,8 @@ msgid "Images"
 msgstr "Avbilder"
 
 #: src/ImageRunModal.jsx:989
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Increase CPU shares"
-msgstr "CPU-andelar"
+msgstr "Öka CPU-andelar"
 
 #: src/ImageRunModal.jsx:1094
 #, fuzzy
@@ -625,14 +603,12 @@ msgid "Increase interval"
 msgstr "Integration"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Increase maximum retries"
-msgstr "Maximalt antal försök igen"
+msgstr "Öka maximalt antal försök igen"
 
 #: src/ImageRunModal.jsx:947
 msgid "Increase memory"
-msgstr ""
+msgstr "Öka minne"
 
 #: src/ImageRunModal.jsx:1168
 msgid "Increase retries"
@@ -646,17 +622,15 @@ msgstr "Starta podman"
 
 #: src/ImageRunModal.jsx:1119
 msgid "Increase timeout"
-msgstr ""
+msgstr "Öka timeout"
 
 #: src/ImageRunModal.jsx:1038
 msgid "Integration"
 msgstr "Integration"
 
 #: src/ImageRunModal.jsx:1076 src/ContainerHealthLogs.jsx:65
-#, fuzzy
-#| msgid "Integration"
 msgid "Interval"
-msgstr "Integration"
+msgstr "Intervall"
 
 #: src/ImageRunModal.jsx:1080
 msgid "Interval how often health check is run."
@@ -667,6 +641,8 @@ msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"Ogiltiga tecken. Namn kan bara innehålla bokstäver, siffror och vissa "
+"skiljetecken (_ . -)."
 
 #: src/ImageRunModal.jsx:955
 msgid "KB"
@@ -682,7 +658,7 @@ msgstr "Nyckel"
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Last 5 runs"
-msgstr ""
+msgstr "Senaste 5 körningarna"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
@@ -747,10 +723,8 @@ msgid "Name"
 msgstr "Namn"
 
 #: src/ContainerRenameModal.jsx:64
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "Behållarnamn"
+msgstr "Nytt behållarnamn"
 
 #: src/ContainerCommitModal.jsx:100
 msgid "New image name"
@@ -911,13 +885,11 @@ msgstr "Tar bort"
 
 #: src/Containers.jsx:196 src/ContainerRenameModal.jsx:88
 msgid "Rename"
-msgstr ""
+msgstr "Byt namn"
 
 #: src/ContainerRenameModal.jsx:81
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "Återställ behållaren $0"
+msgstr "Byt namn på behållaren $0"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:214
 msgid "Restart"
@@ -953,7 +925,7 @@ msgstr "Återuppta"
 
 #: src/ImageRunModal.jsx:1151 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
-msgstr ""
+msgstr "Omförsök"
 
 #: src/ImageSearchModal.jsx:181
 #, fuzzy
@@ -963,7 +935,7 @@ msgstr "Försök igen med en annan term."
 
 #: src/Containers.jsx:287 src/ContainerHealthLogs.jsx:95
 msgid "Run health check"
-msgstr ""
+msgstr "Kör hälsokontroll"
 
 #: src/ImageUsedBy.jsx:32 src/util.js:8 src/util.js:11
 msgid "Running"
@@ -1026,18 +998,14 @@ msgid "Start"
 msgstr "Starta"
 
 #: src/ImageRunModal.jsx:1126 src/ContainerHealthLogs.jsx:73
-#, fuzzy
-#| msgid "Start podman"
 msgid "Start period"
-msgstr "Starta podman"
+msgstr "Startperiod"
 
 #: src/app.jsx:655
 msgid "Start podman"
 msgstr "Starta podman"
 
 #: src/ImageSearchModal.jsx:176
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
 msgstr "Börja skriva för att leta efter avbilder."
 
@@ -1052,10 +1020,8 @@ msgid "State"
 msgstr "Tillstånd"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
-msgstr "Tillstånd"
+msgstr "Status"
 
 #: src/PodActions.jsx:60 src/Containers.jsx:206
 msgid "Stop"
@@ -1111,7 +1077,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1101 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "Tidsgräns"
 
 #: src/app.jsx:660
 msgid "Troubleshoot"
@@ -1127,7 +1093,7 @@ msgstr "UDP"
 
 #: src/Containers.jsx:382
 msgid "Unhealthy"
-msgstr ""
+msgstr "Ohälsosam"
 
 #: src/ContainerDetails.jsx:11
 msgid "Up since $0"
@@ -1208,7 +1174,7 @@ msgstr "podman"
 #: src/ImageRunModal.jsx:1098 src/ImageRunModal.jsx:1123
 #: src/ImageRunModal.jsx:1148
 msgid "seconds"
-msgstr ""
+msgstr "sekunder"
 
 #: src/ImageDeleteModal.jsx:80
 msgid "select all"
