@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-12 03:37+0000\n"
-"PO-Revision-Date: 2022-03-21 22:16+0000\n"
+"PO-Revision-Date: 2022-06-24 05:27+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: src/Images.jsx:79
 msgid "$0 container"
@@ -35,8 +35,8 @@ msgstr[1] "$0 გამოსახულება, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 წამი"
+msgstr[1] "$0 წამი"
 
 #: src/Images.jsx:257
 msgid "$0 unused image, $1"
@@ -112,10 +112,8 @@ msgid "Cancel"
 msgstr "გაუქმება"
 
 #: src/Containers.jsx:384
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Checking health"
-msgstr "საკონტროლო წერტილი"
+msgstr "ჯანმრთელობის შემოწმება"
 
 #: src/Containers.jsx:243 src/ContainerCheckpointModal.jsx:34
 msgid "Checkpoint"
@@ -148,26 +146,18 @@ msgid "Configured"
 msgstr "მორგებულია"
 
 #: src/ContainerDeleteModal.jsx:13
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
 msgstr "დაადასტურეთ $0-ის წაშლა"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
 msgid "Confirm deletion of pod $0"
 msgstr "დაადასტურეთ Pod-ის წაშლა: $0"
 
 #: src/PodActions.jsx:171
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
 msgid "Confirm force deletion of pod $0"
 msgstr "დაადასტურეთ pod-ის ძალით წაშლა: $0"
 
 #: src/ForceRemoveModal.jsx:15
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
 msgstr "დაადასტურეთ ძალით წაშლა: $0"
 
@@ -200,10 +190,8 @@ msgid "Container name"
 msgstr "კონტეინერის სახელი"
 
 #: src/ContainerRenameModal.jsx:24 src/ContainerRenameModal.jsx:35
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "კონტეინერის სახელი"
+msgstr "კონტეინერის სახელი აუცილებელია."
 
 #: src/ImageRunModal.jsx:181
 msgid "Container path"
@@ -247,38 +235,32 @@ msgid "Created"
 msgstr "შექმნილია"
 
 #: src/ImageRunModal.jsx:988
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "CPU გაზიარება"
+msgstr "CPU გაზიარებების შემცირება"
 
 #: src/ImageRunModal.jsx:1093
 msgid "Decrease interval"
-msgstr ""
+msgstr "ინტერვალის შემცირება"
 
 #: src/ImageRunModal.jsx:1027
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "ცდების მაქსიმალური რაოდენობა"
+msgstr "ცდების მაქსიმალური რაოდენობის შემცირება"
 
 #: src/ImageRunModal.jsx:946
 msgid "Decrease memory"
-msgstr ""
+msgstr "მეხსიერების შემცირება"
 
 #: src/ImageRunModal.jsx:1167
 msgid "Decrease retries"
-msgstr ""
+msgstr "ცდების რაოდენობის შემცირება"
 
 #: src/ImageRunModal.jsx:1143
-#, fuzzy
-#| msgid "Start podman"
 msgid "Decrease start period"
-msgstr "Podman-ის გაშვება"
+msgstr "გაშვების პერიოდის შემცირება"
 
 #: src/ImageRunModal.jsx:1118
 msgid "Decrease timeout"
-msgstr ""
+msgstr "მოლოდინის დროის შემცირება"
 
 #: src/PodActions.jsx:151 src/PodActions.jsx:174
 #: src/ContainerDeleteModal.jsx:15 src/Containers.jsx:297 src/Images.jsx:410
@@ -370,7 +352,7 @@ msgstr "გამოსული"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Failed health run"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების შეცდომა"
 
 #: src/Containers.jsx:153
 msgid "Failed to checkpoint container $0"
@@ -433,10 +415,8 @@ msgid "Failed to remove image $0"
 msgstr "გამოსახულების ($0) წაშლის შეცდომა"
 
 #: src/ContainerRenameModal.jsx:50
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "კონტეინერის ($0) გაგრძელების შეცდომა"
+msgstr "კონტეინერის ($0) სახელის გადარქმევის შეცდომა"
 
 #: src/Containers.jsx:124
 msgid "Failed to restart container $0"
@@ -463,10 +443,8 @@ msgid "Failed to run container $0"
 msgstr "კონტეინერის ($0) გაშვების შეცდომა"
 
 #: src/Containers.jsx:110 src/ContainerHealthLogs.jsx:91
-#, fuzzy
-#| msgid "Failed to checkpoint container $0"
 msgid "Failed to run health check on container $0"
-msgstr "კონტეინერის ($0) საკონტროლო წერტილის შეცდომა"
+msgstr "კონტეინერის ($0) ჯანმრთელობის შემოწმების შეცდომა"
 
 #: src/ImageRunModal.jsx:616 src/ImageSearchModal.jsx:109
 msgid "Failed to search for images: $0"
@@ -518,31 +496,31 @@ msgstr "გბ"
 
 #: src/ContainerDetails.jsx:77
 msgid "Gateway"
-msgstr "კვანძი"
+msgstr "ნაგულისხმები რაუტერი"
 
 #: src/Containers.jsx:491 src/ImageRunModal.jsx:1069
 msgid "Health check"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმება"
 
 #: src/ImageRunModal.jsx:1078
 msgid "Health check interval help"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების ინტერვალის დახმარება"
 
 #: src/ImageRunModal.jsx:1153
 msgid "Health check retries help"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების ცდების რაოდენობის დახმარება"
 
 #: src/ImageRunModal.jsx:1128
 msgid "Health check start period help"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების გაშვების პერიოდის დახმარება"
 
 #: src/ImageRunModal.jsx:1103
 msgid "Health check timeout help"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების ვადის დახმარება"
 
 #: src/Containers.jsx:380
 msgid "Healthy"
-msgstr ""
+msgstr "ჯანმრთელი"
 
 #: src/Images.jsx:282
 msgid "Hide images"
@@ -613,54 +591,44 @@ msgid "Images"
 msgstr "გამოსახულებები"
 
 #: src/ImageRunModal.jsx:989
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Increase CPU shares"
-msgstr "CPU გაზიარება"
+msgstr "CPU გაზიარებების გაზრდა"
 
 #: src/ImageRunModal.jsx:1094
-#, fuzzy
-#| msgid "Integration"
 msgid "Increase interval"
-msgstr "ინტეგრაცია"
+msgstr "ინტერვალის გაზრდა"
 
 #: src/ImageRunModal.jsx:1028
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Increase maximum retries"
-msgstr "ცდების მაქსიმალური რაოდენობა"
+msgstr "ცდების მაქსიმალური რაოდენობის გაზრდა"
 
 #: src/ImageRunModal.jsx:947
 msgid "Increase memory"
-msgstr ""
+msgstr "მეხსიერების გაზრდა"
 
 #: src/ImageRunModal.jsx:1168
 msgid "Increase retries"
-msgstr ""
+msgstr "ცდების რაოდენობის გაზრდა"
 
 #: src/ImageRunModal.jsx:1144
-#, fuzzy
-#| msgid "Start podman"
 msgid "Increase start period"
-msgstr "Podman-ის გაშვება"
+msgstr "გაშვების პერიოდის გაზრდა"
 
 #: src/ImageRunModal.jsx:1119
 msgid "Increase timeout"
-msgstr ""
+msgstr "მოლოდინის დროის გაზრდა"
 
 #: src/ImageRunModal.jsx:1038
 msgid "Integration"
 msgstr "ინტეგრაცია"
 
 #: src/ImageRunModal.jsx:1076 src/ContainerHealthLogs.jsx:65
-#, fuzzy
-#| msgid "Integration"
 msgid "Interval"
-msgstr "ინტეგრაცია"
+msgstr "ინტერვალი"
 
 #: src/ImageRunModal.jsx:1080
 msgid "Interval how often health check is run."
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების გაშვების ინტერვალი."
 
 #: src/ContainerRenameModal.jsx:28
 msgid ""
@@ -682,7 +650,7 @@ msgstr "გასაღები"
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Last 5 runs"
-msgstr ""
+msgstr "ბოლო 5 გაშვება"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Leave running after writing checkpoint to disk"
@@ -747,10 +715,8 @@ msgid "Name"
 msgstr "სახელი"
 
 #: src/ContainerRenameModal.jsx:64
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "კონტეინერის სახელი"
+msgstr "ახალი კონტეინერის სახელი"
 
 #: src/ContainerCommitModal.jsx:100
 msgid "New image name"
@@ -842,7 +808,7 @@ msgstr ""
 
 #: src/PodActions.jsx:138 src/Containers.jsx:226
 msgid "Pause"
-msgstr "შეჩერება"
+msgstr "პაუზა"
 
 #: src/ContainerCommitModal.jsx:133
 msgid "Pause container when creating image"
@@ -853,7 +819,6 @@ msgid "Paused"
 msgstr "შეჩერებულია"
 
 #: org.cockpit-project.podman.metainfo.xml:5
-#, fuzzy
 msgid "Podman"
 msgstr "Podman"
 
@@ -912,17 +877,15 @@ msgstr "წაშლა"
 
 #: src/Containers.jsx:196 src/ContainerRenameModal.jsx:88
 msgid "Rename"
-msgstr ""
+msgstr "გადარქმევა"
 
 #: src/ContainerRenameModal.jsx:81
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "კონტეინერის აღდგენა ($0)"
+msgstr "კონტეინერის სახელის გადარქმევა ($0)"
 
 #: src/PodActions.jsx:82 src/Containers.jsx:214
 msgid "Restart"
-msgstr "რესტარტი"
+msgstr "გადატვირთვა"
 
 #: src/ImageRunModal.jsx:997
 msgid "Restart policy"
@@ -954,17 +917,15 @@ msgstr "გაგრძელება"
 
 #: src/ImageRunModal.jsx:1151 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
-msgstr ""
+msgstr "თავიდან ცდები"
 
 #: src/ImageSearchModal.jsx:181
-#, fuzzy
-#| msgid "Please retry another term."
 msgid "Retry another term."
-msgstr "სხვა დროს სცადეთ."
+msgstr "სხვა სიტყვა სცადეთ."
 
 #: src/Containers.jsx:287 src/ContainerHealthLogs.jsx:95
 msgid "Run health check"
-msgstr ""
+msgstr "ჯანმრთელობის შემოწმების გაშვება"
 
 #: src/ImageUsedBy.jsx:32 src/util.js:8 src/util.js:11
 msgid "Running"
@@ -1027,36 +988,28 @@ msgid "Start"
 msgstr "დაწყება"
 
 #: src/ImageRunModal.jsx:1126 src/ContainerHealthLogs.jsx:73
-#, fuzzy
-#| msgid "Start podman"
 msgid "Start period"
-msgstr "Podman-ის გაშვება"
+msgstr "გაშვების პერიოდი"
 
 #: src/app.jsx:655
 msgid "Start podman"
 msgstr "Podman-ის გაშვება"
 
 #: src/ImageSearchModal.jsx:176
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
 msgstr "გამოსახულებების მოსაძებნად დაიწყეთ მისი სახელის კრეფა."
 
 #: src/ContainerHealthLogs.jsx:101
-#, fuzzy
-#| msgid "Start"
 msgid "Started at"
-msgstr "დაწყება"
+msgstr "გაშვების დრო"
 
 #: src/ContainerDetails.jsx:93 src/Containers.jsx:519
 msgid "State"
 msgstr "მდგომარეობა"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
-msgstr "მდგომარეობა"
+msgstr "სტატუსი"
 
 #: src/PodActions.jsx:60 src/Containers.jsx:206
 msgid "Stop"
@@ -1112,7 +1065,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1101 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "დროის ამოწურვა"
 
 #: src/app.jsx:660
 msgid "Troubleshoot"
@@ -1128,7 +1081,7 @@ msgstr "UDP"
 
 #: src/Containers.jsx:382
 msgid "Unhealthy"
-msgstr ""
+msgstr "ჯანმრთელი არაა"
 
 #: src/ContainerDetails.jsx:11
 msgid "Up since $0"
@@ -1203,14 +1156,13 @@ msgid "pod group"
 msgstr "pod-ების ჯგუფი"
 
 #: src/manifest.json:0
-#, fuzzy
 msgid "podman"
 msgstr "podman"
 
 #: src/ImageRunModal.jsx:1098 src/ImageRunModal.jsx:1123
 #: src/ImageRunModal.jsx:1148
 msgid "seconds"
-msgstr ""
+msgstr "წამი"
 
 #: src/ImageDeleteModal.jsx:80
 msgid "select all"
