@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 03:53+0000\n"
+"POT-Creation-Date: 2022-07-21 03:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 03:53+0000\n"
+"POT-Creation-Date: 2022-07-21 03:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,7 +131,7 @@ msgstr ""
 #: src/ContainerRenameModal.jsx:95 src/ContainerRestoreModal.jsx:68
 #: src/ImageDeleteModal.jsx:109 src/ContainerCommitModal.jsx:175
 #: src/ImageRunModal.jsx:1205 src/ImageSearchModal.jsx:237
-#: src/PruneUnusedImagesModal.jsx:103 src/ForceRemoveModal.jsx:24
+#: src/PruneUnusedImagesModal.jsx:102 src/ForceRemoveModal.jsx:24
 #: src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
 #: src/ContainerCheckpointModal.jsx:67
 msgid "Cancel"
@@ -422,7 +422,7 @@ msgstr ""
 msgid "Failed to pause pod $0"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:75
+#: src/PruneUnusedImagesModal.jsx:74
 msgid "Failed to prune unused images"
 msgstr ""
 
@@ -862,15 +862,15 @@ msgstr ""
 msgid "Protocol"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:101
+#: src/PruneUnusedImagesModal.jsx:100
 msgid "Prune"
 msgstr ""
 
-#: src/Images.jsx:346 src/PruneUnusedImagesModal.jsx:94
+#: src/Images.jsx:346 src/PruneUnusedImagesModal.jsx:93
 msgid "Prune unused images"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:97 src/PruneUnusedImagesModal.jsx:101
+#: src/PruneUnusedImagesModal.jsx:96 src/PruneUnusedImagesModal.jsx:100
 msgid "Pruning images"
 msgstr ""
 
