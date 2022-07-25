@@ -6,16 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 04:10+0000\n"
-"PO-Revision-Date: 2022-05-11 09:18+0000\n"
-"Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/de/>\n"
+"PO-Revision-Date: 2022-07-26 14:19+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -32,8 +32,8 @@ msgstr[1] "$0 Abbilder insgesamt, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 Sekunde"
+msgstr[1] "$0 Sekunden"
 
 #: src/Images.jsx:264
 msgid "$0 unused image, $1"
@@ -109,10 +109,8 @@ msgid "Cancel"
 msgstr "Abbruch"
 
 #: src/Containers.jsx:311
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Checking health"
-msgstr "Kontrollpunkt"
+msgstr ""
 
 #: src/ContainerCheckpointModal.jsx:63 src/Containers.jsx:224
 msgid "Checkpoint"
@@ -145,10 +143,8 @@ msgid "Configured"
 msgstr "Konfiguriert"
 
 #: src/ContainerDeleteModal.jsx:30
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
 msgid "Confirm deletion of $0"
-msgstr "Bitte bestätigen Sie das Löschen von $0"
+msgstr "Löschen von $0 bestätigen"
 
 #: src/PodActions.jsx:39
 #, fuzzy
@@ -163,10 +159,8 @@ msgid "Confirm force deletion of pod $0"
 msgstr "Bitte bestätigen Sie das erzwungene Löschen von pod $0"
 
 #: src/ForceRemoveModal.jsx:17
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
 msgid "Confirm forced deletion of $0"
-msgstr "Bitte bestätigen Sie das erzwungene Löschen von $0"
+msgstr "Erzwungenes Löschen von $0 bestätigen"
 
 #: src/Containers.jsx:411
 msgid "Console"
@@ -197,10 +191,8 @@ msgid "Container name"
 msgstr "Container-Name"
 
 #: src/ContainerRenameModal.jsx:26 src/ContainerRenameModal.jsx:37
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Container-Name"
+msgstr "Containername ist erforderlich."
 
 #: src/ImageRunModal.jsx:182
 msgid "Container path"
@@ -246,38 +238,32 @@ msgid "Created"
 msgstr "Erstellt"
 
 #: src/ImageRunModal.jsx:994
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "CPU-Shares"
+msgstr "CPU-Anteile verringern"
 
 #: src/ImageRunModal.jsx:1099
 msgid "Decrease interval"
-msgstr ""
+msgstr "Intervall verringern"
 
 #: src/ImageRunModal.jsx:1033
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "Maximale Versuche"
+msgstr "Maximale Wiederholungsversuche verringern"
 
 #: src/ImageRunModal.jsx:952
 msgid "Decrease memory"
-msgstr ""
+msgstr "Speicher verringern"
 
 #: src/ImageRunModal.jsx:1173
 msgid "Decrease retries"
-msgstr ""
+msgstr "Wiederholungsversuche verringern"
 
 #: src/ImageRunModal.jsx:1149
-#, fuzzy
-#| msgid "Start podman"
 msgid "Decrease start period"
-msgstr "Podman starten"
+msgstr "Startzeitraum verringern"
 
 #: src/ImageRunModal.jsx:1124
 msgid "Decrease timeout"
-msgstr ""
+msgstr "Zeitüberschreitung verringern"
 
 #: src/PodActions.jsx:44 src/PodActions.jsx:194 src/ContainerDeleteModal.jsx:32
 #: src/Images.jsx:404 src/Containers.jsx:278
@@ -432,10 +418,8 @@ msgid "Failed to remove image $0"
 msgstr "Fehler bei der Entfernung von Abbild $0"
 
 #: src/ContainerRenameModal.jsx:52
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "Konnte Container $0 nicht wieder starten"
+msgstr "Fehler beim Umbenennen des Containers $0"
 
 #: src/Containers.jsx:143
 msgid "Failed to restart container $0"
@@ -612,50 +596,40 @@ msgid "Images"
 msgstr "Images"
 
 #: src/ImageRunModal.jsx:995
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Increase CPU shares"
-msgstr "CPU-Shares"
+msgstr "CPU-Anteile erhöhen"
 
 #: src/ImageRunModal.jsx:1100
-#, fuzzy
-#| msgid "Integration"
 msgid "Increase interval"
-msgstr "Integration"
+msgstr "Intervall erhöhen"
 
 #: src/ImageRunModal.jsx:1034
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Increase maximum retries"
-msgstr "Maximale Versuche"
+msgstr "Maximale Wiederholungsversuche erhöhen"
 
 #: src/ImageRunModal.jsx:953
 msgid "Increase memory"
-msgstr ""
+msgstr "Speicher erhöhen"
 
 #: src/ImageRunModal.jsx:1174
 msgid "Increase retries"
-msgstr ""
+msgstr "Wiederholungsversuche erhöhen"
 
 #: src/ImageRunModal.jsx:1150
-#, fuzzy
-#| msgid "Start podman"
 msgid "Increase start period"
-msgstr "Podman starten"
+msgstr "Startzeitraum erhöhen"
 
 #: src/ImageRunModal.jsx:1125
 msgid "Increase timeout"
-msgstr ""
+msgstr "Zeitüberschreitung erhöhen"
 
 #: src/ImageRunModal.jsx:1044
 msgid "Integration"
 msgstr "Integration"
 
 #: src/ImageRunModal.jsx:1082 src/ContainerHealthLogs.jsx:65
-#, fuzzy
-#| msgid "Integration"
 msgid "Interval"
-msgstr "Integration"
+msgstr "Intervall"
 
 #: src/ImageRunModal.jsx:1086
 msgid "Interval how often health check is run."
@@ -666,6 +640,8 @@ msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"Ungültige Zeichen. Der Name darf nur Buchstaben, Zahlen und bestimmte "
+"Satzzeichen (_ . -) enthalten."
 
 #: src/ImageRunModal.jsx:961
 msgid "KB"
@@ -681,7 +657,7 @@ msgstr "Schlüssel"
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Last 5 runs"
-msgstr ""
+msgstr "Letzte 5 Durchläufe"
 
 #: src/ContainerCheckpointModal.jsx:74
 msgid "Leave running after writing checkpoint to disk"
@@ -747,10 +723,8 @@ msgid "Name"
 msgstr "Name"
 
 #: src/ContainerRenameModal.jsx:66
-#, fuzzy
-#| msgid "Container name"
 msgid "New container name"
-msgstr "Container-Name"
+msgstr "Neuer Containername"
 
 #: src/ContainerCommitModal.jsx:107
 msgid "New image name"
@@ -911,13 +885,11 @@ msgstr "Wird entfernt"
 
 #: src/ContainerRenameModal.jsx:90 src/Containers.jsx:177
 msgid "Rename"
-msgstr ""
+msgstr "Umbenennen"
 
 #: src/ContainerRenameModal.jsx:83
-#, fuzzy
-#| msgid "Restore container $0"
 msgid "Rename container $0"
-msgstr "Container $0 wiederherstellen"
+msgstr "Container $0 umbenennen"
 
 #: src/PodActions.jsx:123 src/Containers.jsx:195
 msgid "Restart"
@@ -954,7 +926,7 @@ msgstr "Fotfahren"
 
 #: src/ImageRunModal.jsx:1157 src/ContainerHealthLogs.jsx:69
 msgid "Retries"
-msgstr ""
+msgstr "Wiederholungsversuche"
 
 #: src/ImageSearchModal.jsx:187
 #, fuzzy
@@ -1027,36 +999,28 @@ msgid "Start"
 msgstr "Starten"
 
 #: src/ImageRunModal.jsx:1132 src/ContainerHealthLogs.jsx:73
-#, fuzzy
-#| msgid "Start podman"
 msgid "Start period"
-msgstr "Podman starten"
+msgstr "Startzeitraum"
 
 #: src/app.jsx:656
 msgid "Start podman"
 msgstr "Podman starten"
 
 #: src/ImageSearchModal.jsx:182
-#, fuzzy
-#| msgid "Please start typing to look for images."
 msgid "Start typing to look for images."
-msgstr "Tippen, um nach Images zu suchen."
+msgstr "Zum Suchen nach Abbildern mit dem Tippen beginnen."
 
 #: src/ContainerHealthLogs.jsx:101
-#, fuzzy
-#| msgid "Start"
 msgid "Started at"
-msgstr "Starten"
+msgstr "Gestartet am"
 
 #: src/Containers.jsx:447 src/ContainerDetails.jsx:93
 msgid "State"
 msgstr "Zustand"
 
 #: src/ContainerHealthLogs.jsx:57
-#, fuzzy
-#| msgid "State"
 msgid "Status"
-msgstr "Zustand"
+msgstr "Status"
 
 #: src/PodActions.jsx:101 src/Containers.jsx:187
 msgid "Stop"
@@ -1112,7 +1076,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1107 src/ContainerHealthLogs.jsx:77
 msgid "Timeout"
-msgstr ""
+msgstr "Zeitüberschreitung"
 
 #: src/app.jsx:661
 msgid "Troubleshoot"
@@ -1128,7 +1092,7 @@ msgstr "UDP"
 
 #: src/Containers.jsx:309
 msgid "Unhealthy"
-msgstr ""
+msgstr "Ungesund"
 
 #: src/ContainerDetails.jsx:11
 msgid "Up since $0"
@@ -1209,7 +1173,7 @@ msgstr "podman"
 #: src/ImageRunModal.jsx:1104 src/ImageRunModal.jsx:1129
 #: src/ImageRunModal.jsx:1154
 msgid "seconds"
-msgstr ""
+msgstr "Sekunden"
 
 #: src/ImageDeleteModal.jsx:127
 msgid "select all"
