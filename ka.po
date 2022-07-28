@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 04:18+0000\n"
-"PO-Revision-Date: 2022-06-24 05:27+0000\n"
+"PO-Revision-Date: 2022-07-29 21:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -980,10 +980,8 @@ msgid "Show intermediate images"
 msgstr "შუალედური გამოსახულებების ჩვენება"
 
 #: src/ContainerIntegration.jsx:77
-#, fuzzy
-#| msgid "Show images"
 msgid "Show less"
-msgstr "გამოსახულებების ჩვენება"
+msgstr "ნაკლების ჩვენება"
 
 #: src/ContainerIntegration.jsx:77 src/PruneUnusedImagesModal.jsx:44
 msgid "Show more"
