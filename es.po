@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-31 03:52+0000\n"
-"PO-Revision-Date: 2022-07-29 21:19+0000\n"
+"PO-Revision-Date: 2022-08-10 10:19+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -352,7 +352,7 @@ msgstr "Por ejemplo: $0"
 
 #: src/util.js:8 src/util.js:11 src/ContainerDetails.jsx:13
 msgid "Exited"
-msgstr "Cerrado"
+msgstr "Finalizado"
 
 #: src/ContainerHealthLogs.jsx:111
 msgid "Failed health run"
