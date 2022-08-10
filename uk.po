@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-10 03:28+0000\n"
-"PO-Revision-Date: 2022-07-29 21:19+0000\n"
+"PO-Revision-Date: 2022-08-11 18:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -877,13 +877,11 @@ msgstr "Отримання даних"
 
 #: src/ContainerIntegration.jsx:41
 msgid "Read-only access"
-msgstr ""
+msgstr "Доступ лише до читання"
 
 #: src/ContainerIntegration.jsx:40
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Read-write access"
-msgstr "Запис-читання"
+msgstr "Доступ до читання і запису"
 
 #: src/ImageRunModal.jsx:119 src/ImageRunModal.jsx:167
 #: src/ImageRunModal.jsx:207
