@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-31 03:52+0000\n"
+"POT-Creation-Date: 2022-08-10 03:28+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/cockpit-"
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Entrypoint"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1068 src/ContainerIntegration.jsx:109
+#: src/ImageRunModal.jsx:1068 src/ContainerIntegration.jsx:113
 msgid "Environment variables"
 msgstr ""
 
@@ -821,7 +821,7 @@ msgstr ""
 msgid "Port mapping"
 msgstr ""
 
-#: src/ImageDetails.jsx:39 src/ContainerIntegration.jsx:101
+#: src/ImageDetails.jsx:39 src/ContainerIntegration.jsx:105
 msgid "Ports"
 msgstr ""
 
@@ -851,6 +851,14 @@ msgstr ""
 
 #: src/Images.jsx:312
 msgid "Pulling"
+msgstr ""
+
+#: src/ContainerIntegration.jsx:41
+msgid "Read-only access"
+msgstr ""
+
+#: src/ContainerIntegration.jsx:40
+msgid "Read-write access"
 msgstr ""
 
 #: src/ImageRunModal.jsx:119 src/ImageRunModal.jsx:167
@@ -966,11 +974,11 @@ msgstr ""
 msgid "Show intermediate images"
 msgstr ""
 
-#: src/ContainerIntegration.jsx:77
+#: src/ContainerIntegration.jsx:81
 msgid "Show less"
 msgstr ""
 
-#: src/ContainerIntegration.jsx:77 src/PruneUnusedImagesModal.jsx:44
+#: src/ContainerIntegration.jsx:81 src/PruneUnusedImagesModal.jsx:44
 msgid "Show more"
 msgstr ""
 
@@ -1102,7 +1110,7 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1058 src/ContainerIntegration.jsx:105
+#: src/ImageRunModal.jsx:1058 src/ContainerIntegration.jsx:109
 msgid "Volumes"
 msgstr ""
 
