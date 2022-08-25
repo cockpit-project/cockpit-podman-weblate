@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 03:37+0000\n"
-"PO-Revision-Date: 2022-07-12 05:19+0000\n"
+"PO-Revision-Date: 2022-08-26 06:19+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1217,7 +1217,7 @@ msgstr "non disponible"
 
 #: src/Containers.jsx:646
 msgid "pod group"
-msgstr "groupe de pod"
+msgstr "groupe pod"
 
 #: src/manifest.json:0
 msgid "podman"
