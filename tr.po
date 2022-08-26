@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:29+0000\n"
-"PO-Revision-Date: 2022-08-11 18:19+0000\n"
+"PO-Revision-Date: 2022-08-27 12:19+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -133,10 +133,8 @@ msgid "Command"
 msgstr "Komut"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "İşle"
+msgstr "Açıklamalar"
 
 #: src/ContainerCommitModal.jsx:162 src/Containers.jsx:260
 msgid "Commit"
@@ -241,10 +239,8 @@ msgid "Created"
 msgstr "Oluşturuldu"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
-msgstr "Oluşturuldu"
+msgstr "Oluşturan"
 
 #: src/ImageRunModal.jsx:997
 msgid "Decrease CPU shares"
@@ -543,7 +539,7 @@ msgstr "Ara kalıpları gizle"
 
 #: src/Images.jsx:159
 msgid "History"
-msgstr ""
+msgstr "Geçmiş"
 
 #: src/ImageRunModal.jsx:177
 msgid "Host path"
@@ -674,10 +670,8 @@ msgid "Leave running after writing checkpoint to disk"
 msgstr "Denetim noktasını diske yazdıktan sonra çalışır durumda bırak"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Loading logs..."
 msgid "Loading details..."
-msgstr "Günlükler yükleniyor..."
+msgstr "Ayrıntılar yükleniyor..."
 
 #: src/ContainerLogs.jsx:53
 msgid "Loading logs..."
@@ -936,6 +930,10 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"Kapsayıcılar çıktığında izlenecek ilkeyi yeniden başlatın. Otomatik başlatma "
+"kapsayıcıları için geciktirme kullanılması, bir kullanıcı hesabında "
+"ecryptfs, systemd-homed, NFS veya 2FA kullanıldığında olduğu gibi bazı "
+"durumlarda çalışmayabilir."
 
 #: src/ContainerRestoreModal.jsx:64 src/Containers.jsx:246
 msgid "Restore"
@@ -1130,10 +1128,8 @@ msgid "UDP"
 msgstr "UDP"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Failed to download image $0:$1"
 msgid "Unable to load image history"
-msgstr "$0:$1 kalıbını indirme başarısız oldu"
+msgstr "Kalıp geçmişini yükleme başarısız oldu"
 
 #: src/Containers.jsx:310
 msgid "Unhealthy"
