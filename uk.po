@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:29+0000\n"
-"PO-Revision-Date: 2022-08-11 18:19+0000\n"
+"PO-Revision-Date: 2022-08-27 12:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -138,10 +138,8 @@ msgid "Command"
 msgstr "Команда"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "Надіслати"
+msgstr "Коментарі"
 
 #: src/ContainerCommitModal.jsx:162 src/Containers.jsx:260
 msgid "Commit"
@@ -246,8 +244,6 @@ msgid "Created"
 msgstr "Створено"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
 msgstr "Створено"
 
@@ -551,7 +547,7 @@ msgstr "Приховати проміжні образи"
 
 #: src/Images.jsx:159
 msgid "History"
-msgstr ""
+msgstr "Журнал"
 
 #: src/ImageRunModal.jsx:177
 msgid "Host path"
@@ -683,10 +679,8 @@ msgid "Leave running after writing checkpoint to disk"
 msgstr "Лишати запущеним після запису контрольної точки на диск"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Loading logs..."
 msgid "Loading details..."
-msgstr "Завантаження журналу…"
+msgstr "Завантаження подробиць…"
 
 #: src/ContainerLogs.jsx:53
 msgid "Loading logs..."
@@ -945,6 +939,10 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"Перезапускати правила після виходу з контейнерів. Використання очікування "
+"для автозапуску контейнерів може за певних обставин не працювати, зокрема "
+"воно не працює, якщо для облікового запису користувача використано ecryptfs, "
+"systemd-homed, NFS або 2FA."
 
 #: src/ContainerRestoreModal.jsx:64 src/Containers.jsx:246
 msgid "Restore"
@@ -1139,10 +1137,8 @@ msgid "UDP"
 msgstr "UDP"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Failed to download image $0:$1"
 msgid "Unable to load image history"
-msgstr "Не вдалося отримати образ $0:$1"
+msgstr "Не вдалося завантажити журнал образу"
 
 #: src/Containers.jsx:310
 msgid "Unhealthy"
