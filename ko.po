@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:29+0000\n"
-"PO-Revision-Date: 2022-08-11 18:19+0000\n"
+"PO-Revision-Date: 2022-08-27 12:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -130,10 +130,8 @@ msgid "Command"
 msgstr "명령"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "수행"
+msgstr "주석"
 
 #: src/ContainerCommitModal.jsx:162 src/Containers.jsx:260
 msgid "Commit"
@@ -238,8 +236,6 @@ msgid "Created"
 msgstr "생성됨"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
 msgstr "생성됨"
 
@@ -540,7 +536,7 @@ msgstr "중간 이미지 숨기기"
 
 #: src/Images.jsx:159
 msgid "History"
-msgstr ""
+msgstr "기록"
 
 #: src/ImageRunModal.jsx:177
 msgid "Host path"
@@ -670,10 +666,8 @@ msgid "Leave running after writing checkpoint to disk"
 msgstr "점검점을 디스크에 쓰기 후에 계속 진행"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Loading logs..."
 msgid "Loading details..."
-msgstr "기록 적재 중..."
+msgstr "세부정보 적재 중..."
 
 #: src/ContainerLogs.jsx:53
 msgid "Loading logs..."
@@ -929,6 +923,9 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"컨테이너가 종료 될 때 따라야 할 정책을 재시작합니다. 자동으로 시작하는 "
+"컨테이너를 위한 linger를 사용은 ecryptfs, systemd-homed, NFS, 또는 2FA가 "
+"사용자 계정에서 사용되는 것과 같이 특정 상황에서 작동하지 않을 수 있습니다."
 
 #: src/ContainerRestoreModal.jsx:64 src/Containers.jsx:246
 msgid "Restore"
@@ -1120,10 +1117,8 @@ msgid "UDP"
 msgstr "UDP"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Failed to download image $0:$1"
 msgid "Unable to load image history"
-msgstr "이미지 $0:$1 내려받기에 실패"
+msgstr "이미지 기록을 적재 할 수 없음"
 
 #: src/Containers.jsx:310
 msgid "Unhealthy"
