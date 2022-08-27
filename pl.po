@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-27 04:10+0000\n"
-"PO-Revision-Date: 2022-08-10 15:13+0000\n"
+"PO-Revision-Date: 2022-08-27 13:00+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -138,10 +138,8 @@ msgid "Command"
 msgstr "Polecenie"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "Zatwierdź"
+msgstr "Komentarze"
 
 #: src/ContainerCommitModal.jsx:162 src/Containers.jsx:260
 msgid "Commit"
@@ -246,10 +244,8 @@ msgid "Created"
 msgstr "Utworzono"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
-msgstr "Utworzono"
+msgstr "Utworzony przez"
 
 #: src/ImageRunModal.jsx:997
 msgid "Decrease CPU shares"
@@ -550,7 +546,7 @@ msgstr "Ukryj pośrednie obrazy"
 
 #: src/Images.jsx:159
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #: src/ImageRunModal.jsx:177
 msgid "Host path"
@@ -681,10 +677,8 @@ msgid "Leave running after writing checkpoint to disk"
 msgstr "Bez wyłączania po zapisaniu punktu kontrolnego na dysku"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Loading logs..."
 msgid "Loading details..."
-msgstr "Wczytywanie dzienników…"
+msgstr "Wczytywanie szczegółów…"
 
 #: src/ContainerLogs.jsx:53
 msgid "Loading logs..."
@@ -943,6 +937,10 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"Zasada ponownego uruchamiania używana podczas wyłączania kontenerów. "
+"Używanie zwlekania do automatycznego uruchamiania kontenerów może nie "
+"działać w pewnych warunkach, takich jak podczas używania eCryptfs, systemd-"
+"homed, NFS lub uwierzytelniania dwuskładnikowego na koncie użytkownika."
 
 #: src/ContainerRestoreModal.jsx:64 src/Containers.jsx:246
 msgid "Restore"
@@ -1137,10 +1135,8 @@ msgid "UDP"
 msgstr "UDP"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Failed to download image $0:$1"
 msgid "Unable to load image history"
-msgstr "Pobranie obrazu $0:$1 się nie powiodło"
+msgstr "Nie można wczytać historii obrazu"
 
 #: src/Containers.jsx:310
 msgid "Unhealthy"
