@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-27 04:10+0000\n"
-"PO-Revision-Date: 2022-08-11 18:19+0000\n"
+"PO-Revision-Date: 2022-08-28 19:24+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -134,10 +134,8 @@ msgid "Command"
 msgstr "Komento"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "Kommitoi"
+msgstr "Kommentit"
 
 #: src/ContainerCommitModal.jsx:162 src/Containers.jsx:260
 msgid "Commit"
@@ -242,10 +240,8 @@ msgid "Created"
 msgstr "Luotu"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
-msgstr "Luotu"
+msgstr "Tekijä"
 
 #: src/ImageRunModal.jsx:997
 msgid "Decrease CPU shares"
@@ -545,7 +541,7 @@ msgstr "Piilota välivaiheen levykuvat"
 
 #: src/Images.jsx:159
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #: src/ImageRunModal.jsx:177
 msgid "Host path"
@@ -676,10 +672,8 @@ msgid "Leave running after writing checkpoint to disk"
 msgstr "Jätä käyntiin tarkistuspisteen levylle kirjoittamisen jälkeen"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Loading logs..."
 msgid "Loading details..."
-msgstr "Ladataan lokeja..."
+msgstr "Ladataan tietoja..."
 
 #: src/ContainerLogs.jsx:53
 msgid "Loading logs..."
@@ -938,6 +932,10 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"Käytettävä uudelleenkäynnistyskäytäntö, kun kontit poistuvat. Viivyttämisen "
+"käyttäminen konttien automaattiseen käynnistykseen ei välttämättä toimi "
+"joissain olosuhteissa, kuten kun käyttäjätilillä on käytössä ecryptfs, "
+"systemd-homed, NFS tai 2FA."
 
 #: src/ContainerRestoreModal.jsx:64 src/Containers.jsx:246
 msgid "Restore"
@@ -1132,10 +1130,8 @@ msgid "UDP"
 msgstr "UDP"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Failed to download image $0:$1"
 msgid "Unable to load image history"
-msgstr "Levykuvan lataaminen epäonnistui $0:$1"
+msgstr "Levykuvan historian lataaminen epäonnistui"
 
 #: src/Containers.jsx:310
 msgid "Unhealthy"
