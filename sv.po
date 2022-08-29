@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-28 04:05+0000\n"
-"PO-Revision-Date: 2022-08-11 18:19+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2022-08-30 06:12+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -134,10 +134,8 @@ msgid "Command"
 msgstr "Kommando"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "Fastställ"
+msgstr "Kommentarer"
 
 #: src/ContainerCommitModal.jsx:162 src/Containers.jsx:260
 msgid "Commit"
@@ -242,10 +240,8 @@ msgid "Created"
 msgstr "Skapad"
 
 #: src/ImageHistory.jsx:31
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
-msgstr "Skapad"
+msgstr "Skapad av"
 
 #: src/ImageRunModal.jsx:997
 msgid "Decrease CPU shares"
@@ -545,7 +541,7 @@ msgstr "Dölj mellanliggande avbilder"
 
 #: src/Images.jsx:159
 msgid "History"
-msgstr ""
+msgstr "Historik"
 
 #: src/ImageRunModal.jsx:177
 msgid "Host path"
@@ -676,10 +672,8 @@ msgid "Leave running after writing checkpoint to disk"
 msgstr "Låt fortsätta köra efter att skriva checkpunkt till disk"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Loading logs..."
 msgid "Loading details..."
-msgstr "Läser in loggar …"
+msgstr "Läser in detaljer …"
 
 #: src/ContainerLogs.jsx:53
 msgid "Loading logs..."
@@ -938,6 +932,10 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"Starta om policyn till att följa när behållare avslutar. Att använda "
+"fortlevande (linger) för automatstartande behållare fungerar kanske inte i "
+"vissa situationer, som när ecryptfs, systemd-homed, NFS eller 2FA används "
+"för ett användarkonto."
 
 #: src/ContainerRestoreModal.jsx:64 src/Containers.jsx:246
 msgid "Restore"
@@ -1131,10 +1129,8 @@ msgid "UDP"
 msgstr "UDP"
 
 #: src/ImageHistory.jsx:57
-#, fuzzy
-#| msgid "Failed to download image $0:$1"
 msgid "Unable to load image history"
-msgstr "Kunde inte ladda ner avbild $0:$1"
+msgstr "Kunde inte ladda avbildshistoriken"
 
 #: src/Containers.jsx:310
 msgid "Unhealthy"
