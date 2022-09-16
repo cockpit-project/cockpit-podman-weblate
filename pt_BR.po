@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 04:30+0000\n"
+"POT-Creation-Date: 2022-09-16 04:37+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -62,7 +62,7 @@ msgstr "Adicionar variável de construção"
 msgid "Add volume"
 msgstr ""
 
-#: src/ContainerHeader.jsx:22 src/Containers.jsx:581 src/ImageRunModal.jsx:817
+#: src/ContainerHeader.jsx:22 src/Containers.jsx:580 src/ImageRunModal.jsx:817
 msgid "All"
 msgstr "Todos"
 
@@ -254,7 +254,7 @@ msgstr ""
 msgid "Create and run"
 msgstr "Pausar o contêiner"
 
-#: src/Images.jsx:396 src/Images.jsx:410 src/Containers.jsx:590
+#: src/Images.jsx:398 src/Images.jsx:412 src/Containers.jsx:590
 #: src/ImageRunModal.jsx:1198
 #, fuzzy
 #| msgid "Pause the container"
@@ -316,7 +316,7 @@ msgstr "Iniciar podman"
 msgid "Decrease timeout"
 msgstr ""
 
-#: src/ContainerDeleteModal.jsx:32 src/Images.jsx:416 src/PodActions.jsx:44
+#: src/ContainerDeleteModal.jsx:32 src/Images.jsx:418 src/PodActions.jsx:44
 #: src/PodActions.jsx:194 src/Containers.jsx:279
 msgid "Delete"
 msgstr "Excluir"
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Download"
 msgstr "Baixar"
 
-#: src/Images.jsx:344
+#: src/Images.jsx:346
 #, fuzzy
 #| msgid "Download as:"
 msgid "Download new image"
@@ -630,7 +630,7 @@ msgstr ""
 msgid "Healthy"
 msgstr ""
 
-#: src/Images.jsx:299
+#: src/Images.jsx:301
 #, fuzzy
 #| msgid "No images"
 msgid "Hide images"
@@ -700,7 +700,7 @@ msgstr "Imagem"
 msgid "Image selection help"
 msgstr ""
 
-#: src/Images.jsx:257 src/Images.jsx:286
+#: src/Images.jsx:257 src/Images.jsx:287
 msgid "Images"
 msgstr "Imagens"
 
@@ -922,7 +922,7 @@ msgstr ""
 msgid "On failure"
 msgstr ""
 
-#: src/Containers.jsx:580
+#: src/Containers.jsx:581
 msgid "Only running"
 msgstr ""
 
@@ -994,7 +994,7 @@ msgstr ""
 msgid "Prune"
 msgstr ""
 
-#: src/Images.jsx:356 src/PruneUnusedImagesModal.jsx:93
+#: src/Images.jsx:358 src/PruneUnusedImagesModal.jsx:93
 #, fuzzy
 #| msgid "Get new image"
 msgid "Prune unused images"
@@ -1012,7 +1012,7 @@ msgstr "Executar imagem"
 msgid "Pull latest image"
 msgstr "Obter nova imagem"
 
-#: src/Images.jsx:322
+#: src/Images.jsx:324
 msgid "Pulling"
 msgstr "Obtendo"
 
@@ -1160,7 +1160,7 @@ msgstr "Divisão de CPU"
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:299
+#: src/Images.jsx:301
 #, fuzzy
 #| msgid "No images"
 msgid "Show images"
