@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 04:01+0000\n"
+"POT-Creation-Date: 2022-10-05 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 04:01+0000\n"
+"POT-Creation-Date: 2022-10-05 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/app.jsx:663
+#: src/app.jsx:671
 msgid "Automatically start podman on boot"
 msgstr ""
 
@@ -880,7 +880,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:659
+#: src/app.jsx:667
 msgid "Podman service is not active"
 msgstr ""
 
@@ -1059,7 +1059,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/PodActions.jsx:149 src/app.jsx:701 src/Containers.jsx:239
+#: src/PodActions.jsx:149 src/app.jsx:709 src/Containers.jsx:239
 msgid "Start"
 msgstr ""
 
@@ -1067,7 +1067,7 @@ msgstr ""
 msgid "Start period"
 msgstr ""
 
-#: src/app.jsx:666
+#: src/app.jsx:674
 msgid "Start podman"
 msgstr ""
 
@@ -1104,7 +1104,7 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: src/app.jsx:706
+#: src/app.jsx:714
 msgid "System Podman service is also available"
 msgstr ""
 
@@ -1144,7 +1144,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:671
+#: src/app.jsx:679
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1176,11 +1176,11 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/app.jsx:68 src/app.jsx:551
+#: src/app.jsx:68 src/app.jsx:559
 msgid "User"
 msgstr ""
 
-#: src/app.jsx:711
+#: src/app.jsx:719
 msgid "User Podman service is also available"
 msgstr ""
 
