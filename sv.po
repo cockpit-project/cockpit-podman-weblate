@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-17 04:50+0000\n"
-"PO-Revision-Date: 2022-08-30 06:12+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2022-11-03 01:19+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -125,11 +125,11 @@ msgstr "Ta checkpunkt på behållare $0"
 
 #: src/Containers.jsx:510
 msgid "Click to see published ports"
-msgstr ""
+msgstr "Klicka för att se publicerade portar"
 
 #: src/Containers.jsx:525
 msgid "Click to see volumes"
-msgstr ""
+msgstr "Klicka för att se volymer"
 
 #: org.cockpit-project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
@@ -243,10 +243,8 @@ msgid "Create container in pod"
 msgstr "Skapa behållare i kapsel"
 
 #: src/PodCreateModal.jsx:148 src/Containers.jsx:699
-#, fuzzy
-#| msgid "Created"
 msgid "Create pod"
-msgstr "Skapad"
+msgstr "Skapa pod"
 
 #: src/ContainerDetails.jsx:63 src/ImageHistory.jsx:31 src/Images.jsx:181
 #: src/util.js:8 src/util.js:11
@@ -853,14 +851,12 @@ msgid "Paused"
 msgstr "Pausad"
 
 #: src/PodCreateModal.jsx:71
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Pod failed to be created"
-msgstr "Behållaren misslyckades att skapas"
+msgstr "Podden kunde inte skapas"
 
 #: src/PodCreateModal.jsx:99
 msgid "Pod name"
-msgstr ""
+msgstr "Pod namn"
 
 #: org.cockpit-project.podman.metainfo.xml:5
 msgid "Podman"
@@ -1239,10 +1235,8 @@ msgid "podman"
 msgstr "podman"
 
 #: src/Containers.jsx:519
-#, fuzzy
-#| msgid "Ports"
 msgid "ports"
-msgstr "Portar"
+msgstr "portar"
 
 #: src/ImageRunModal.jsx:912 src/ImageRunModal.jsx:937
 #: src/ImageRunModal.jsx:962
@@ -1266,10 +1260,8 @@ msgid "user:"
 msgstr "användare:"
 
 #: src/Containers.jsx:534
-#, fuzzy
-#| msgid "Volumes"
 msgid "volumes"
-msgstr "Volymer"
+msgstr "volymer"
 
 #~ msgid "Default with single selectable"
 #~ msgstr "Standard med enkel valbar"
