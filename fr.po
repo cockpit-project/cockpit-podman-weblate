@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 04:10+0000\n"
+"POT-Creation-Date: 2022-11-13 03:45+0000\n"
 "PO-Revision-Date: 2022-11-13 09:19+0000\n"
 "Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/"
-"cockpit-podman/main/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
+"podman/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,7 +61,7 @@ msgstr "Ajouter volume"
 msgid "All"
 msgstr "Tous"
 
-#: src/ImageSearchModal.jsx:173
+#: src/ImageSearchModal.jsx:176
 msgid "All registries"
 msgstr "Tous les registres"
 
@@ -104,7 +104,7 @@ msgstr ""
 "conteneur. Un nombre inférieur diminue la priorité."
 
 #: src/ContainerRestoreModal.jsx:68 src/ContainerDeleteModal.jsx:33
-#: src/ImageSearchModal.jsx:237 src/ImageDeleteModal.jsx:109
+#: src/ImageSearchModal.jsx:240 src/ImageDeleteModal.jsx:109
 #: src/ContainerRenameModal.jsx:96 src/PruneUnusedImagesModal.jsx:102
 #: src/PodActions.jsx:48 src/ContainerCheckpointModal.jsx:67
 #: src/ForceRemoveModal.jsx:24 src/ImageRunModal.jsx:1013
@@ -333,7 +333,7 @@ msgid ""
 msgstr ""
 "Le format Docker est utile pour partager l'image avec Docker ou Moby Engine"
 
-#: src/ImageSearchModal.jsx:234
+#: src/ImageSearchModal.jsx:237
 msgid "Download"
 msgstr "Télécharger"
 
@@ -783,7 +783,7 @@ msgstr "Aucune variables d’environnement spécifiée"
 msgid "No images"
 msgstr "Aucune image"
 
-#: src/ImageSearchModal.jsx:182 src/ImageRunModal.jsx:708
+#: src/ImageSearchModal.jsx:185 src/ImageRunModal.jsx:708
 msgid "No images found"
 msgstr "Aucune image trouvée"
 
@@ -799,7 +799,7 @@ msgstr "Pas de label"
 msgid "No ports exposed"
 msgstr "Aucuns ports exposés"
 
-#: src/ImageSearchModal.jsx:186
+#: src/ImageSearchModal.jsx:189
 msgid "No results for $0"
 msgstr "Aucun résultat pour $0"
 
@@ -823,7 +823,7 @@ msgstr "En cours d’exécution seulement"
 msgid "Options"
 msgstr "Options"
 
-#: src/ContainerHeader.jsx:16 src/ImageSearchModal.jsx:154 src/Images.jsx:180
+#: src/ContainerHeader.jsx:16 src/ImageSearchModal.jsx:157 src/Images.jsx:180
 #: src/Containers.jsx:549 src/ImageRunModal.jsx:668 src/PodCreateModal.jsx:106
 msgid "Owner"
 msgstr "Propriétaire"
@@ -978,7 +978,7 @@ msgstr "Reprendre"
 msgid "Retries"
 msgstr "Tentatives"
 
-#: src/ImageSearchModal.jsx:187
+#: src/ImageSearchModal.jsx:190
 msgid "Retry another term."
 msgstr "Nouvelle tentative sur autre term."
 
@@ -994,7 +994,7 @@ msgstr "En fonctionnement"
 msgid "SELinux"
 msgstr "SELinux"
 
-#: src/ImageSearchModal.jsx:162
+#: src/ImageSearchModal.jsx:165
 msgid "Search by name or description"
 msgstr "Rechercher par nom ou description"
 
@@ -1002,11 +1002,11 @@ msgstr "Rechercher par nom ou description"
 msgid "Search by registry"
 msgstr "Recherche par registre"
 
-#: src/ImageSearchModal.jsx:159
+#: src/ImageSearchModal.jsx:162
 msgid "Search for"
 msgstr "Rechercher"
 
-#: src/ImageSearchModal.jsx:220
+#: src/ImageSearchModal.jsx:223
 msgid "Search for an image"
 msgstr "Chercher une image"
 
@@ -1014,7 +1014,7 @@ msgstr "Chercher une image"
 msgid "Search string or container location"
 msgstr "Chaîne de recherche ou emplacement du conteneur"
 
-#: src/ImageSearchModal.jsx:180
+#: src/ImageSearchModal.jsx:183
 msgid "Searching..."
 msgstr "Recherche en cours…"
 
@@ -1062,7 +1062,7 @@ msgstr "Période de démarrage"
 msgid "Start podman"
 msgstr "Démarrer podman"
 
-#: src/ImageSearchModal.jsx:182
+#: src/ImageSearchModal.jsx:185
 msgid "Start typing to look for images."
 msgstr "Commencez à saisir les données pour rechercher des images."
 
@@ -1103,7 +1103,7 @@ msgstr "Le service Podman est également disponible"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ImageSearchModal.jsx:224 src/ContainerCommitModal.jsx:116
+#: src/ImageSearchModal.jsx:227 src/ContainerCommitModal.jsx:116
 msgid "Tag"
 msgstr "Tag"
 
@@ -1216,7 +1216,7 @@ msgstr "host[:port]/[user]/container[:tag]"
 msgid "image"
 msgstr "image"
 
-#: src/ImageSearchModal.jsx:167
+#: src/ImageSearchModal.jsx:170
 msgid "in"
 msgstr "dans"
 
@@ -1249,7 +1249,7 @@ msgstr "secondes"
 msgid "select all"
 msgstr "tout sélectionner"
 
-#: src/ImageSearchModal.jsx:155 src/Images.jsx:132 src/Containers.jsx:396
+#: src/ImageSearchModal.jsx:158 src/Images.jsx:132 src/Containers.jsx:396
 msgid "system"
 msgstr "système"
 
