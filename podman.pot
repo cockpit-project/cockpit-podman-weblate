@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-02 03:04+0000\n"
+"POT-Creation-Date: 2022-12-03 02:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-02 03:05+0000\n"
+"POT-Creation-Date: 2022-12-03 02:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: src/ContainerCommitModal.jsx:156 src/ForceRemoveModal.jsx:24
 #: src/ContainerCheckpointModal.jsx:47 src/ContainerRenameModal.jsx:96
 #: src/ContainerDeleteModal.jsx:33 src/PodCreateModal.jsx:156
-#: src/ImageDeleteModal.jsx:109 src/ImageSearchModal.jsx:240
+#: src/ImageDeleteModal.jsx:91 src/ImageSearchModal.jsx:240
 msgid "Cancel"
 msgstr ""
 
@@ -314,11 +314,11 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:103
+#: src/ImageDeleteModal.jsx:85
 msgid "Delete $0"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:107
+#: src/ImageDeleteModal.jsx:89
 msgid "Delete tagged images"
 msgstr ""
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Failed to force remove container $0"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:64
+#: src/ImageDeleteModal.jsx:51
 msgid "Failed to force remove image $0"
 msgstr ""
 
@@ -451,7 +451,7 @@ msgstr ""
 msgid "Failed to remove container $0"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:88
+#: src/ImageDeleteModal.jsx:75
 msgid "Failed to remove image $0"
 msgstr ""
 
@@ -757,7 +757,7 @@ msgstr ""
 msgid "Mode"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:113
+#: src/ImageDeleteModal.jsx:95
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
@@ -1254,7 +1254,7 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:127
+#: src/ImageDeleteModal.jsx:109
 msgid "select all"
 msgstr ""
 
