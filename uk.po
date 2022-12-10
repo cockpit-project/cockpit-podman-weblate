@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-10 02:56+0000\n"
-"PO-Revision-Date: 2022-10-07 15:19+0000\n"
+"PO-Revision-Date: 2022-12-10 11:46+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -612,13 +612,11 @@ msgstr "Образ"
 
 #: src/ContainerCommitModal.jsx:43
 msgid "Image name is not unique"
-msgstr ""
+msgstr "Назва образу не є унікальною"
 
 #: src/ContainerCommitModal.jsx:34
-#, fuzzy
-#| msgid "Container name is required."
 msgid "Image name is required"
-msgstr "Слід вказати назву контейнера."
+msgstr "Слід вказати назву образу"
 
 #: src/ImageRunModal.jsx:685
 msgid "Image selection help"
@@ -971,10 +969,8 @@ msgstr ""
 "systemd-homed, NFS або 2FA."
 
 #: src/util.js:9
-#, fuzzy
-#| msgid "Restart"
 msgid "Restarting"
-msgstr "Перезапустити"
+msgstr "Перезапуск"
 
 #: src/ContainerRestoreModal.jsx:46 src/Containers.jsx:249
 msgid "Restore"
