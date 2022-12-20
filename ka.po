@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 03:04+0000\n"
-"PO-Revision-Date: 2022-10-14 11:19+0000\n"
+"PO-Revision-Date: 2022-12-21 04:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -605,13 +605,11 @@ msgstr "გამოსახულება"
 
 #: src/ContainerCommitModal.jsx:43
 msgid "Image name is not unique"
-msgstr ""
+msgstr "ასლის სახელი უნიკალური არაა"
 
 #: src/ContainerCommitModal.jsx:34
-#, fuzzy
-#| msgid "Container name is required."
 msgid "Image name is required"
-msgstr "კონტეინერის სახელი აუცილებელია."
+msgstr "ასლის სახელი აუცილებელია"
 
 #: src/ImageRunModal.jsx:685
 msgid "Image selection help"
@@ -964,8 +962,6 @@ msgstr ""
 "გამოიყენება."
 
 #: src/util.js:9
-#, fuzzy
-#| msgid "Restart"
 msgid "Restarting"
 msgstr "გადატვირთვა"
 
