@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 02:49+0000\n"
-"PO-Revision-Date: 2022-12-10 11:46+0000\n"
+"PO-Revision-Date: 2022-12-26 07:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -277,16 +277,12 @@ msgid "Delete $0"
 msgstr "Вилучити $0"
 
 #: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0?"
-msgstr "Вилучити $0"
+msgstr "Вилучити $0?"
 
 #: src/PodActions.jsx:39
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete pod $0?"
-msgstr "Вилучити $0"
+msgstr "Вилучити кокон $0?"
 
 #: src/ImageDeleteModal.jsx:89
 msgid "Delete tagged images"
@@ -307,12 +303,10 @@ msgstr ""
 "зберігаються."
 
 #: src/Containers.jsx:70
-#, fuzzy
-#| msgid "Deleting a container will erase all data in it."
 msgid "Deleting a running container will erase all data in it."
 msgstr ""
-"Вилучення контейнера призведе до витирання усіх даних, що на ньому "
-"зберігаються."
+"Вилучення запущеного контейнера призведе до витирання усіх даних, що на "
+"ньому зберігаються."
 
 #: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
@@ -343,7 +337,7 @@ msgstr "Отримати новий образ"
 
 #: src/PodActions.jsx:55
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "Порожній кокон $0 буде остаточно вилучено."
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -510,10 +504,8 @@ msgid "Force delete"
 msgstr "Примусове вилучення"
 
 #: src/PodActions.jsx:38
-#, fuzzy
-#| msgid "Force delete"
 msgid "Force delete pod $0?"
-msgstr "Примусове вилучення"
+msgstr "Примусово вилучити кокон $0?"
 
 #: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
