@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 02:49+0000\n"
-"PO-Revision-Date: 2022-12-10 11:46+0000\n"
+"PO-Revision-Date: 2022-12-26 07:20+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -272,16 +272,12 @@ msgid "Delete $0"
 msgstr "$0 sil"
 
 #: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0?"
-msgstr "$0 sil"
+msgstr "$0 silinsin mi?"
 
 #: src/PodActions.jsx:39
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete pod $0?"
-msgstr "$0 sil"
+msgstr "$0 bölmesi silinsin mi?"
 
 #: src/ImageDeleteModal.jsx:89
 msgid "Delete tagged images"
@@ -297,17 +293,15 @@ msgstr "Kullanılmayan kullanıcı kalıplarını sil:"
 
 #: src/ContainerDeleteModal.jsx:36
 msgid "Deleting a container will erase all data in it."
-msgstr "Bir kapsayıcıyı silmek içindeki tüm verileri silecektir."
+msgstr "Bir kapsayıcıyı silmek içindeki tüm verileri silecek."
 
 #: src/Containers.jsx:70
-#, fuzzy
-#| msgid "Deleting a container will erase all data in it."
 msgid "Deleting a running container will erase all data in it."
-msgstr "Bir kapsayıcıyı silmek içindeki tüm verileri silecektir."
+msgstr "Çalışan bir kapsayıcıyı silmek içindeki tüm verileri silecek."
 
 #: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
-msgstr "Bu bölmeyi silmek aşağıdaki kapsayıcıları kaldıracaktır:"
+msgstr "Bu bölmeyi silmek aşağıdaki kapsayıcıları kaldıracak:"
 
 #: src/Containers.jsx:408 src/ImageRunModal.jsx:666 src/Images.jsx:150
 msgid "Details"
@@ -333,7 +327,7 @@ msgstr "Yeni kalıbı indir"
 
 #: src/PodActions.jsx:55
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "Boş bölme $0 kalıcı olarak kaldırılacaktır."
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -500,10 +494,8 @@ msgid "Force delete"
 msgstr "Silmeye zorla"
 
 #: src/PodActions.jsx:38
-#, fuzzy
-#| msgid "Force delete"
 msgid "Force delete pod $0?"
-msgstr "Silmeye zorla"
+msgstr "$0 bölmesi silmeye zorlansın mı?"
 
 #: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
