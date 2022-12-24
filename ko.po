@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 02:49+0000\n"
-"PO-Revision-Date: 2022-12-12 08:20+0000\n"
+"PO-Revision-Date: 2022-12-26 07:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -269,16 +269,12 @@ msgid "Delete $0"
 msgstr "$0 삭제"
 
 #: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0?"
-msgstr "$0 삭제"
+msgstr "$0 삭제?"
 
 #: src/PodActions.jsx:39
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete pod $0?"
-msgstr "$0 삭제"
+msgstr "pod $0 삭제?"
 
 #: src/ImageDeleteModal.jsx:89
 msgid "Delete tagged images"
@@ -297,10 +293,8 @@ msgid "Deleting a container will erase all data in it."
 msgstr "컨테이너를 삭제는 내부의 모든 자료도 제거됩니다."
 
 #: src/Containers.jsx:70
-#, fuzzy
-#| msgid "Deleting a container will erase all data in it."
 msgid "Deleting a running container will erase all data in it."
-msgstr "컨테이너를 삭제는 내부의 모든 자료도 제거됩니다."
+msgstr "동작 중인 컨테이너 삭제는 내부의 모든 자료도 제거됩니다."
 
 #: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
@@ -330,7 +324,7 @@ msgstr "신규 이미지 내려받기"
 
 #: src/PodActions.jsx:55
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "빈 pod $0는 영구적으로 제거됩니다."
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -497,10 +491,8 @@ msgid "Force delete"
 msgstr "강제 삭제"
 
 #: src/PodActions.jsx:38
-#, fuzzy
-#| msgid "Force delete"
 msgid "Force delete pod $0?"
-msgstr "강제 삭제"
+msgstr "pod $0 강제 삭제?"
 
 #: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
