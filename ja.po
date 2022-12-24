@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 02:52+0000\n"
+"POT-Creation-Date: 2022-12-24 02:49+0000\n"
 "PO-Revision-Date: 2022-09-05 11:54+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -153,22 +153,6 @@ msgstr "コンテナーのコミット"
 msgid "Configured"
 msgstr "設定済み"
 
-#: src/ContainerDeleteModal.jsx:30
-msgid "Confirm deletion of $0"
-msgstr "$0 の削除を確定する"
-
-#: src/PodActions.jsx:39
-msgid "Confirm deletion of pod $0"
-msgstr "Pod $0 の削除を確定する"
-
-#: src/PodActions.jsx:38
-msgid "Confirm force deletion of pod $0"
-msgstr "Pod $0 の強制削除を確定する"
-
-#: src/ForceRemoveModal.jsx:17
-msgid "Confirm forced deletion of $0"
-msgstr "$0 の強制削除を確定する"
-
 #: src/Containers.jsx:420
 msgid "Console"
 msgstr "コンソール"
@@ -184,10 +168,6 @@ msgstr "コンテナーの作成に失敗しました"
 #: src/ImageRunModal.jsx:271
 msgid "Container failed to be started"
 msgstr "コンテナーの開始に失敗しました"
-
-#: src/Containers.jsx:70
-msgid "Container is currently running."
-msgstr "コンテナーは現在実行中です。"
 
 #: src/ContainerTerminal.jsx:262
 msgid "Container is not running"
@@ -282,12 +262,24 @@ msgid "Decrease timeout"
 msgstr "タイムアウトを縮小する"
 
 #: src/Containers.jsx:282 src/Images.jsx:418 src/PodActions.jsx:44
-#: src/PodActions.jsx:174 src/ContainerDeleteModal.jsx:32
+#: src/PodActions.jsx:177 src/ContainerDeleteModal.jsx:32
 msgid "Delete"
 msgstr "削除"
 
 #: src/ImageDeleteModal.jsx:85
 msgid "Delete $0"
+msgstr "$0 の削除"
+
+#: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete $0?"
+msgstr "$0 の削除"
+
+#: src/PodActions.jsx:39
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete pod $0?"
 msgstr "$0 の削除"
 
 #: src/ImageDeleteModal.jsx:89
@@ -306,7 +298,13 @@ msgstr "使用されていないユーザーイメージの削除:"
 msgid "Deleting a container will erase all data in it."
 msgstr "コンテナーを削除すると、コンテナー内のすべてのデータが削除されます。"
 
-#: src/PodActions.jsx:56
+#: src/Containers.jsx:70
+#, fuzzy
+#| msgid "Deleting a container will erase all data in it."
+msgid "Deleting a running container will erase all data in it."
+msgstr "コンテナーを削除すると、コンテナー内のすべてのデータが削除されます。"
+
+#: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
 msgstr "この Pod を削除すると、以下のコンテナーが削除されます:"
 
@@ -331,6 +329,10 @@ msgstr "ダウンロード"
 #: src/Images.jsx:346
 msgid "Download new image"
 msgstr "新規イメージのダウンロード"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr ""
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -396,11 +398,11 @@ msgstr "コンテナー $0 を強制的に削除できませんでした"
 msgid "Failed to force remove image $0"
 msgstr "イメージ $0 の強制削除に失敗しました"
 
-#: src/PodActions.jsx:110
+#: src/PodActions.jsx:113
 msgid "Failed to force restart pod $0"
 msgstr "Pod $0 の強制再起動に失敗しました"
 
-#: src/PodActions.jsx:88
+#: src/PodActions.jsx:91
 msgid "Failed to force stop pod $0"
 msgstr "Pod $0 の強制停止に失敗しました"
 
@@ -408,7 +410,7 @@ msgstr "Pod $0 の強制停止に失敗しました"
 msgid "Failed to pause container $0"
 msgstr "コンテナー $0 の一時停止に失敗しました"
 
-#: src/PodActions.jsx:155
+#: src/PodActions.jsx:158
 msgid "Failed to pause pod $0"
 msgstr "Pod $0 の一時停止に失敗しました"
 
@@ -436,7 +438,7 @@ msgstr "コンテナーの名前変更に失敗しました $0"
 msgid "Failed to restart container $0"
 msgstr "コンテナー $0 の再起動に失敗しました"
 
-#: src/PodActions.jsx:99
+#: src/PodActions.jsx:102
 msgid "Failed to restart pod $0"
 msgstr "Pod $0 の再起動に失敗しました"
 
@@ -448,7 +450,7 @@ msgstr "コンテナー $0 の復元に失敗しました"
 msgid "Failed to resume container $0"
 msgstr "コンテナー $0 のレジュームに失敗しました"
 
-#: src/PodActions.jsx:140
+#: src/PodActions.jsx:143
 msgid "Failed to resume pod $0"
 msgstr "Pod $0 の再開に失敗しました"
 
@@ -472,7 +474,7 @@ msgstr "新規イメージの検索に失敗しました"
 msgid "Failed to start container $0"
 msgstr "コンテナー $0 の起動に失敗しました"
 
-#: src/PodActions.jsx:125
+#: src/PodActions.jsx:128
 msgid "Failed to start pod $0"
 msgstr "Pod $0 の起動に失敗しました"
 
@@ -480,7 +482,7 @@ msgstr "Pod $0 の起動に失敗しました"
 msgid "Failed to stop container $0"
 msgstr "コンテナー $0 の停止に失敗しました"
 
-#: src/PodActions.jsx:77
+#: src/PodActions.jsx:80
 msgid "Failed to stop pod $0"
 msgstr "Pod $0 の停止に失敗しました"
 
@@ -496,11 +498,17 @@ msgstr "強制コミット"
 msgid "Force delete"
 msgstr "削除の強制"
 
-#: src/Containers.jsx:203 src/PodActions.jsx:114
+#: src/PodActions.jsx:38
+#, fuzzy
+#| msgid "Force delete"
+msgid "Force delete pod $0?"
+msgstr "削除の強制"
+
+#: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
 msgstr "再起動の強制"
 
-#: src/Containers.jsx:195 src/PodActions.jsx:92
+#: src/Containers.jsx:195 src/PodActions.jsx:95
 msgid "Force stop"
 msgstr "停止の強制"
 
@@ -841,7 +849,7 @@ msgstr ""
 "一括インポートのために、キー=値ペアからなる 1 つまたは複数の行を任意のフィー"
 "ルドに貼り付けます"
 
-#: src/Containers.jsx:211 src/PodActions.jsx:159
+#: src/Containers.jsx:211 src/PodActions.jsx:162
 msgid "Pause"
 msgstr "一時停止"
 
@@ -935,7 +943,7 @@ msgstr "名前変更"
 msgid "Rename container $0"
 msgstr "コンテナーの名前変更 $0"
 
-#: src/Containers.jsx:199 src/PodActions.jsx:103
+#: src/Containers.jsx:199 src/PodActions.jsx:106
 msgid "Restart"
 msgstr "再起動"
 
@@ -979,7 +987,7 @@ msgstr "コンテナー $0 の復元"
 msgid "Restore with established TCP connections"
 msgstr "確立された TCP 接続での復元"
 
-#: src/Containers.jsx:218 src/PodActions.jsx:144
+#: src/Containers.jsx:218 src/PodActions.jsx:147
 msgid "Resume"
 msgstr "再開"
 
@@ -1059,7 +1067,7 @@ msgstr "詳細表示"
 msgid "Size"
 msgstr "サイズ"
 
-#: src/Containers.jsx:238 src/PodActions.jsx:129 src/app.jsx:714
+#: src/Containers.jsx:238 src/PodActions.jsx:132 src/app.jsx:714
 msgid "Start"
 msgstr "開始"
 
@@ -1087,7 +1095,7 @@ msgstr "状態"
 msgid "Status"
 msgstr "ステータス"
 
-#: src/Containers.jsx:191 src/PodActions.jsx:81
+#: src/Containers.jsx:191 src/PodActions.jsx:84
 msgid "Stop"
 msgstr "停止"
 
@@ -1275,6 +1283,21 @@ msgstr "ユーザー:"
 #| msgid "Volumes"
 msgid "volumes"
 msgstr "ボリューム"
+
+#~ msgid "Confirm deletion of $0"
+#~ msgstr "$0 の削除を確定する"
+
+#~ msgid "Confirm deletion of pod $0"
+#~ msgstr "Pod $0 の削除を確定する"
+
+#~ msgid "Confirm force deletion of pod $0"
+#~ msgstr "Pod $0 の強制削除を確定する"
+
+#~ msgid "Confirm forced deletion of $0"
+#~ msgstr "$0 の強制削除を確定する"
+
+#~ msgid "Container is currently running."
+#~ msgstr "コンテナーは現在実行中です。"
 
 #~ msgid "Do not include root file-system changes when exporting"
 #~ msgstr "エクスポート時に root ファイルシステムの変更を含めないでください"

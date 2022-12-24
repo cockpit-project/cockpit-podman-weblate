@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 02:52+0000\n"
+"POT-Creation-Date: 2022-12-24 02:49+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/cockpit-"
@@ -154,22 +154,6 @@ msgstr ""
 msgid "Configured"
 msgstr ""
 
-#: src/ContainerDeleteModal.jsx:30
-msgid "Confirm deletion of $0"
-msgstr ""
-
-#: src/PodActions.jsx:39
-msgid "Confirm deletion of pod $0"
-msgstr ""
-
-#: src/PodActions.jsx:38
-msgid "Confirm force deletion of pod $0"
-msgstr ""
-
-#: src/ForceRemoveModal.jsx:17
-msgid "Confirm forced deletion of $0"
-msgstr ""
-
 #: src/Containers.jsx:420
 msgid "Console"
 msgstr ""
@@ -184,10 +168,6 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:271
 msgid "Container failed to be started"
-msgstr ""
-
-#: src/Containers.jsx:70
-msgid "Container is currently running."
 msgstr ""
 
 #: src/ContainerTerminal.jsx:262
@@ -281,12 +261,20 @@ msgid "Decrease timeout"
 msgstr ""
 
 #: src/Containers.jsx:282 src/Images.jsx:418 src/PodActions.jsx:44
-#: src/PodActions.jsx:174 src/ContainerDeleteModal.jsx:32
+#: src/PodActions.jsx:177 src/ContainerDeleteModal.jsx:32
 msgid "Delete"
 msgstr ""
 
 #: src/ImageDeleteModal.jsx:85
 msgid "Delete $0"
+msgstr ""
+
+#: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
+msgid "Delete $0?"
+msgstr ""
+
+#: src/PodActions.jsx:39
+msgid "Delete pod $0?"
 msgstr ""
 
 #: src/ImageDeleteModal.jsx:89
@@ -305,7 +293,11 @@ msgstr ""
 msgid "Deleting a container will erase all data in it."
 msgstr ""
 
-#: src/PodActions.jsx:56
+#: src/Containers.jsx:70
+msgid "Deleting a running container will erase all data in it."
+msgstr ""
+
+#: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
@@ -328,6 +320,10 @@ msgstr ""
 
 #: src/Images.jsx:346
 msgid "Download new image"
+msgstr ""
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
 msgstr ""
 
 #: src/ImageDetails.jsx:21
@@ -394,11 +390,11 @@ msgstr ""
 msgid "Failed to force remove image $0"
 msgstr ""
 
-#: src/PodActions.jsx:110
+#: src/PodActions.jsx:113
 msgid "Failed to force restart pod $0"
 msgstr ""
 
-#: src/PodActions.jsx:88
+#: src/PodActions.jsx:91
 msgid "Failed to force stop pod $0"
 msgstr ""
 
@@ -406,7 +402,7 @@ msgstr ""
 msgid "Failed to pause container $0"
 msgstr ""
 
-#: src/PodActions.jsx:155
+#: src/PodActions.jsx:158
 msgid "Failed to pause pod $0"
 msgstr ""
 
@@ -434,7 +430,7 @@ msgstr ""
 msgid "Failed to restart container $0"
 msgstr ""
 
-#: src/PodActions.jsx:99
+#: src/PodActions.jsx:102
 msgid "Failed to restart pod $0"
 msgstr ""
 
@@ -446,7 +442,7 @@ msgstr ""
 msgid "Failed to resume container $0"
 msgstr ""
 
-#: src/PodActions.jsx:140
+#: src/PodActions.jsx:143
 msgid "Failed to resume pod $0"
 msgstr ""
 
@@ -470,7 +466,7 @@ msgstr ""
 msgid "Failed to start container $0"
 msgstr ""
 
-#: src/PodActions.jsx:125
+#: src/PodActions.jsx:128
 msgid "Failed to start pod $0"
 msgstr ""
 
@@ -478,7 +474,7 @@ msgstr ""
 msgid "Failed to stop container $0"
 msgstr ""
 
-#: src/PodActions.jsx:77
+#: src/PodActions.jsx:80
 msgid "Failed to stop pod $0"
 msgstr ""
 
@@ -494,11 +490,15 @@ msgstr ""
 msgid "Force delete"
 msgstr ""
 
-#: src/Containers.jsx:203 src/PodActions.jsx:114
+#: src/PodActions.jsx:38
+msgid "Force delete pod $0?"
+msgstr ""
+
+#: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
 msgstr ""
 
-#: src/Containers.jsx:195 src/PodActions.jsx:92
+#: src/Containers.jsx:195 src/PodActions.jsx:95
 msgid "Force stop"
 msgstr ""
 
@@ -827,7 +827,7 @@ msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
 
-#: src/Containers.jsx:211 src/PodActions.jsx:159
+#: src/Containers.jsx:211 src/PodActions.jsx:162
 msgid "Pause"
 msgstr ""
 
@@ -919,7 +919,7 @@ msgstr ""
 msgid "Rename container $0"
 msgstr ""
 
-#: src/Containers.jsx:199 src/PodActions.jsx:103
+#: src/Containers.jsx:199 src/PodActions.jsx:106
 msgid "Restart"
 msgstr ""
 
@@ -958,7 +958,7 @@ msgstr ""
 msgid "Restore with established TCP connections"
 msgstr ""
 
-#: src/Containers.jsx:218 src/PodActions.jsx:144
+#: src/Containers.jsx:218 src/PodActions.jsx:147
 msgid "Resume"
 msgstr ""
 
@@ -1038,7 +1038,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/Containers.jsx:238 src/PodActions.jsx:129 src/app.jsx:714
+#: src/Containers.jsx:238 src/PodActions.jsx:132 src/app.jsx:714
 msgid "Start"
 msgstr ""
 
@@ -1066,7 +1066,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: src/Containers.jsx:191 src/PodActions.jsx:81
+#: src/Containers.jsx:191 src/PodActions.jsx:84
 msgid "Stop"
 msgstr ""
 

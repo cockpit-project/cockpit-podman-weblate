@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 02:52+0000\n"
+"POT-Creation-Date: 2022-12-24 02:49+0000\n"
 "PO-Revision-Date: 2022-11-03 01:19+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -157,22 +157,6 @@ msgstr "Commit behållare"
 msgid "Configured"
 msgstr "Konfigurerad"
 
-#: src/ContainerDeleteModal.jsx:30
-msgid "Confirm deletion of $0"
-msgstr "Bekräfta borttagning av $0"
-
-#: src/PodActions.jsx:39
-msgid "Confirm deletion of pod $0"
-msgstr "Bekräfta borttagning av kapsel $0"
-
-#: src/PodActions.jsx:38
-msgid "Confirm force deletion of pod $0"
-msgstr "Bekräfta tvångsradering av kapsel $0"
-
-#: src/ForceRemoveModal.jsx:17
-msgid "Confirm forced deletion of $0"
-msgstr "Bekräfta tvångsradering av $0"
-
 #: src/Containers.jsx:420
 msgid "Console"
 msgstr "Konsol"
@@ -188,10 +172,6 @@ msgstr "Behållaren misslyckades att skapas"
 #: src/ImageRunModal.jsx:271
 msgid "Container failed to be started"
 msgstr "Behållaren misslyckades att startas"
-
-#: src/Containers.jsx:70
-msgid "Container is currently running."
-msgstr "Behållaren kör för närvarande."
 
 #: src/ContainerTerminal.jsx:262
 msgid "Container is not running"
@@ -284,12 +264,24 @@ msgid "Decrease timeout"
 msgstr "Minska timeout"
 
 #: src/Containers.jsx:282 src/Images.jsx:418 src/PodActions.jsx:44
-#: src/PodActions.jsx:174 src/ContainerDeleteModal.jsx:32
+#: src/PodActions.jsx:177 src/ContainerDeleteModal.jsx:32
 msgid "Delete"
 msgstr "Radera"
 
 #: src/ImageDeleteModal.jsx:85
 msgid "Delete $0"
+msgstr "Radera $0"
+
+#: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete $0?"
+msgstr "Radera $0"
+
+#: src/PodActions.jsx:39
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete pod $0?"
 msgstr "Radera $0"
 
 #: src/ImageDeleteModal.jsx:89
@@ -308,7 +300,13 @@ msgstr "Ta bort oanvända användaravbilder:"
 msgid "Deleting a container will erase all data in it."
 msgstr "När en behållare raderas försvinner även all data i den."
 
-#: src/PodActions.jsx:56
+#: src/Containers.jsx:70
+#, fuzzy
+#| msgid "Deleting a container will erase all data in it."
+msgid "Deleting a running container will erase all data in it."
+msgstr "När en behållare raderas försvinner även all data i den."
+
+#: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Att ta bort denna kapsel kommer ta bort följande behållare:"
 
@@ -334,6 +332,10 @@ msgstr "Ladda ner"
 #: src/Images.jsx:346
 msgid "Download new image"
 msgstr "Ladda ner ny avbild"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr ""
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -399,11 +401,11 @@ msgstr "Misslyckades att tvingande ta bort behållare $0"
 msgid "Failed to force remove image $0"
 msgstr "Misslyckades att tvingande ta bort avbilden $0"
 
-#: src/PodActions.jsx:110
+#: src/PodActions.jsx:113
 msgid "Failed to force restart pod $0"
 msgstr "Misslyckades med tvingad omstart av kapseln $0"
 
-#: src/PodActions.jsx:88
+#: src/PodActions.jsx:91
 msgid "Failed to force stop pod $0"
 msgstr "Misslyckades att tvinga stopp av kapsel $0"
 
@@ -411,7 +413,7 @@ msgstr "Misslyckades att tvinga stopp av kapsel $0"
 msgid "Failed to pause container $0"
 msgstr "Misslyckades med att pausa behållaren $0"
 
-#: src/PodActions.jsx:155
+#: src/PodActions.jsx:158
 msgid "Failed to pause pod $0"
 msgstr "Misslyckades att pausa kapseln $0"
 
@@ -439,7 +441,7 @@ msgstr "Misslyckades att byta namn på behållaren $0"
 msgid "Failed to restart container $0"
 msgstr "Misslyckades att starta om behållaren $0"
 
-#: src/PodActions.jsx:99
+#: src/PodActions.jsx:102
 msgid "Failed to restart pod $0"
 msgstr "Misslyckades att starta om kapseln $0"
 
@@ -451,7 +453,7 @@ msgstr "Misslyckades att återställa behållaren $0"
 msgid "Failed to resume container $0"
 msgstr "Misslyckades att återuppta behållaren $0"
 
-#: src/PodActions.jsx:140
+#: src/PodActions.jsx:143
 msgid "Failed to resume pod $0"
 msgstr "Misslyckades att återuppta kapseln $0"
 
@@ -475,7 +477,7 @@ msgstr "Misslyckades att söka efter nya avbilder"
 msgid "Failed to start container $0"
 msgstr "Misslyckades att starta behållaren $0"
 
-#: src/PodActions.jsx:125
+#: src/PodActions.jsx:128
 msgid "Failed to start pod $0"
 msgstr "Misslyckades att starta kapseln $0"
 
@@ -483,7 +485,7 @@ msgstr "Misslyckades att starta kapseln $0"
 msgid "Failed to stop container $0"
 msgstr "Misslyckades att stoppa behållaren $0"
 
-#: src/PodActions.jsx:77
+#: src/PodActions.jsx:80
 msgid "Failed to stop pod $0"
 msgstr "Misslyckades att stoppa kapseln $0"
 
@@ -499,11 +501,17 @@ msgstr "Framtvinga commit"
 msgid "Force delete"
 msgstr "Framtvinga borttagande"
 
-#: src/Containers.jsx:203 src/PodActions.jsx:114
+#: src/PodActions.jsx:38
+#, fuzzy
+#| msgid "Force delete"
+msgid "Force delete pod $0?"
+msgstr "Framtvinga borttagande"
+
+#: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
 msgstr "Framtvinga omstart"
 
-#: src/Containers.jsx:195 src/PodActions.jsx:92
+#: src/Containers.jsx:195 src/PodActions.jsx:95
 msgid "Force stop"
 msgstr "Framtvinga stopp"
 
@@ -844,7 +852,7 @@ msgstr ""
 "Klistra in en eller flera rader med nyckel=värdepar i valfritt fält för "
 "massimport"
 
-#: src/Containers.jsx:211 src/PodActions.jsx:159
+#: src/Containers.jsx:211 src/PodActions.jsx:162
 msgid "Pause"
 msgstr "Pausa"
 
@@ -936,7 +944,7 @@ msgstr "Byt namn"
 msgid "Rename container $0"
 msgstr "Byt namn på behållaren $0"
 
-#: src/Containers.jsx:199 src/PodActions.jsx:103
+#: src/Containers.jsx:199 src/PodActions.jsx:106
 msgid "Restart"
 msgstr "Starta om"
 
@@ -981,7 +989,7 @@ msgstr "Återställ behållaren $0"
 msgid "Restore with established TCP connections"
 msgstr "Återställ med etablerade TCP-förbindelser"
 
-#: src/Containers.jsx:218 src/PodActions.jsx:144
+#: src/Containers.jsx:218 src/PodActions.jsx:147
 msgid "Resume"
 msgstr "Återuppta"
 
@@ -1061,7 +1069,7 @@ msgstr "Visa mer"
 msgid "Size"
 msgstr "Storlek"
 
-#: src/Containers.jsx:238 src/PodActions.jsx:129 src/app.jsx:714
+#: src/Containers.jsx:238 src/PodActions.jsx:132 src/app.jsx:714
 msgid "Start"
 msgstr "Starta"
 
@@ -1089,7 +1097,7 @@ msgstr "Tillstånd"
 msgid "Status"
 msgstr "Status"
 
-#: src/Containers.jsx:191 src/PodActions.jsx:81
+#: src/Containers.jsx:191 src/PodActions.jsx:84
 msgid "Stop"
 msgstr "Stoppa"
 
@@ -1274,6 +1282,21 @@ msgstr "användare:"
 #: src/Containers.jsx:533
 msgid "volumes"
 msgstr "volymer"
+
+#~ msgid "Confirm deletion of $0"
+#~ msgstr "Bekräfta borttagning av $0"
+
+#~ msgid "Confirm deletion of pod $0"
+#~ msgstr "Bekräfta borttagning av kapsel $0"
+
+#~ msgid "Confirm force deletion of pod $0"
+#~ msgstr "Bekräfta tvångsradering av kapsel $0"
+
+#~ msgid "Confirm forced deletion of $0"
+#~ msgstr "Bekräfta tvångsradering av $0"
+
+#~ msgid "Container is currently running."
+#~ msgstr "Behållaren kör för närvarande."
 
 #~ msgid "Do not include root file-system changes when exporting"
 #~ msgstr "Inkludera inte rotfilsystemsändringar vid export"

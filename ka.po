@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 02:52+0000\n"
+"POT-Creation-Date: 2022-12-24 02:49+0000\n"
 "PO-Revision-Date: 2022-12-21 04:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -157,22 +157,6 @@ msgstr "კონტეინერის გაგზავნა"
 msgid "Configured"
 msgstr "მორგებულია"
 
-#: src/ContainerDeleteModal.jsx:30
-msgid "Confirm deletion of $0"
-msgstr "დაადასტურეთ $0-ის წაშლა"
-
-#: src/PodActions.jsx:39
-msgid "Confirm deletion of pod $0"
-msgstr "დაადასტურეთ Pod-ის წაშლა: $0"
-
-#: src/PodActions.jsx:38
-msgid "Confirm force deletion of pod $0"
-msgstr "დაადასტურეთ pod-ის ძალით წაშლა: $0"
-
-#: src/ForceRemoveModal.jsx:17
-msgid "Confirm forced deletion of $0"
-msgstr "დაადასტურეთ ძალით წაშლა: $0"
-
 #: src/Containers.jsx:420
 msgid "Console"
 msgstr "კონსოლი"
@@ -188,10 +172,6 @@ msgstr "კონტეინერის შექმნის შეცდო�
 #: src/ImageRunModal.jsx:271
 msgid "Container failed to be started"
 msgstr "კონტეინერის გაშვების შეცდომა"
-
-#: src/Containers.jsx:70
-msgid "Container is currently running."
-msgstr "ამჟამად კონტეინერი გაშვებულია."
 
 #: src/ContainerTerminal.jsx:262
 msgid "Container is not running"
@@ -284,12 +264,24 @@ msgid "Decrease timeout"
 msgstr "მოლოდინის დროის შემცირება"
 
 #: src/Containers.jsx:282 src/Images.jsx:418 src/PodActions.jsx:44
-#: src/PodActions.jsx:174 src/ContainerDeleteModal.jsx:32
+#: src/PodActions.jsx:177 src/ContainerDeleteModal.jsx:32
 msgid "Delete"
 msgstr "წაშლა"
 
 #: src/ImageDeleteModal.jsx:85
 msgid "Delete $0"
+msgstr "$0-ის წაშლა"
+
+#: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete $0?"
+msgstr "$0-ის წაშლა"
+
+#: src/PodActions.jsx:39
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete pod $0?"
 msgstr "$0-ის წაშლა"
 
 #: src/ImageDeleteModal.jsx:89
@@ -308,7 +300,13 @@ msgstr "მომხმარებლის გამოუყენებე�
 msgid "Deleting a container will erase all data in it."
 msgstr "კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
 
-#: src/PodActions.jsx:56
+#: src/Containers.jsx:70
+#, fuzzy
+#| msgid "Deleting a container will erase all data in it."
+msgid "Deleting a running container will erase all data in it."
+msgstr "კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
+
+#: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
 msgstr "ამ Pod-ის წაშლა ასევე წაშლის შემდეგ კონტეინერებს:"
 
@@ -334,6 +332,10 @@ msgstr "გადმოწერა"
 #: src/Images.jsx:346
 msgid "Download new image"
 msgstr "ახალი გამოსახულების გადმოწერა"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr ""
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -399,11 +401,11 @@ msgstr "კონტეინერის ($0) წაშლის შეცდ�
 msgid "Failed to force remove image $0"
 msgstr "გამოსახულების ($0) ძალით წაშლა შეუძლებელია"
 
-#: src/PodActions.jsx:110
+#: src/PodActions.jsx:113
 msgid "Failed to force restart pod $0"
 msgstr "Pod-ის ($0) ძალით რესტარტის შეცდომა"
 
-#: src/PodActions.jsx:88
+#: src/PodActions.jsx:91
 msgid "Failed to force stop pod $0"
 msgstr "Pod-ის ($0) ძალით გაჩერების შეცდომა"
 
@@ -411,7 +413,7 @@ msgstr "Pod-ის ($0) ძალით გაჩერების შეცდ
 msgid "Failed to pause container $0"
 msgstr "კონტეინერის ($0) შეჩერების შეცდომა"
 
-#: src/PodActions.jsx:155
+#: src/PodActions.jsx:158
 msgid "Failed to pause pod $0"
 msgstr "Pod-ის ($0) შეჩერების შეცდომა"
 
@@ -439,7 +441,7 @@ msgstr "კონტეინერის ($0) სახელის გად�
 msgid "Failed to restart container $0"
 msgstr "კონტეინერის ($0) რესტარტის შეცდომა"
 
-#: src/PodActions.jsx:99
+#: src/PodActions.jsx:102
 msgid "Failed to restart pod $0"
 msgstr "Pod-ის ($0) რესტარტის შეცდომა"
 
@@ -451,7 +453,7 @@ msgstr "კონტეინერის ($0) აღდგენის შე�
 msgid "Failed to resume container $0"
 msgstr "კონტეინერის ($0) გაგრძელების შეცდომა"
 
-#: src/PodActions.jsx:140
+#: src/PodActions.jsx:143
 msgid "Failed to resume pod $0"
 msgstr "Pod-ის ($0) გაგრძელების შეცდომა"
 
@@ -475,7 +477,7 @@ msgstr "ახალი გამოსახულებების ძებ�
 msgid "Failed to start container $0"
 msgstr "კონტეინერის ($0) გაშვების შეცდომა"
 
-#: src/PodActions.jsx:125
+#: src/PodActions.jsx:128
 msgid "Failed to start pod $0"
 msgstr "pod-ს ($0) გაშვების შეცდომა"
 
@@ -483,7 +485,7 @@ msgstr "pod-ს ($0) გაშვების შეცდომა"
 msgid "Failed to stop container $0"
 msgstr "კონტეინერის ($0) გაჩერების შეცდომა"
 
-#: src/PodActions.jsx:77
+#: src/PodActions.jsx:80
 msgid "Failed to stop pod $0"
 msgstr "pod-ის ($0) გაჩერების შეცდომა"
 
@@ -499,11 +501,17 @@ msgstr "ძალით გადაგზავნა"
 msgid "Force delete"
 msgstr "ძალით წაშლა"
 
-#: src/Containers.jsx:203 src/PodActions.jsx:114
+#: src/PodActions.jsx:38
+#, fuzzy
+#| msgid "Force delete"
+msgid "Force delete pod $0?"
+msgstr "ძალით წაშლა"
+
+#: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
 msgstr "ძალით რესტარტი"
 
-#: src/Containers.jsx:195 src/PodActions.jsx:92
+#: src/Containers.jsx:195 src/PodActions.jsx:95
 msgid "Force stop"
 msgstr "ძალით გაჩერება"
 
@@ -842,7 +850,7 @@ msgstr ""
 "მრავალი შემოტანისთვის ველებში ჩასვით ერთი ან მეტი გასაღები=მნიშვნელობა-ის "
 "ტიპის წყვილები"
 
-#: src/Containers.jsx:211 src/PodActions.jsx:159
+#: src/Containers.jsx:211 src/PodActions.jsx:162
 msgid "Pause"
 msgstr "პაუზა"
 
@@ -934,7 +942,7 @@ msgstr "გადარქმევა"
 msgid "Rename container $0"
 msgstr "კონტეინერის სახელის გადარქმევა ($0)"
 
-#: src/Containers.jsx:199 src/PodActions.jsx:103
+#: src/Containers.jsx:199 src/PodActions.jsx:106
 msgid "Restart"
 msgstr "გადატვირთვა"
 
@@ -977,7 +985,7 @@ msgstr "კონტეინერის აღდგენა ($0)"
 msgid "Restore with established TCP connections"
 msgstr "დამყარებული TCP კავშირებით აღდგენა"
 
-#: src/Containers.jsx:218 src/PodActions.jsx:144
+#: src/Containers.jsx:218 src/PodActions.jsx:147
 msgid "Resume"
 msgstr "გაგრძელება"
 
@@ -1057,7 +1065,7 @@ msgstr "მეტის ჩვენება"
 msgid "Size"
 msgstr "ზომა"
 
-#: src/Containers.jsx:238 src/PodActions.jsx:129 src/app.jsx:714
+#: src/Containers.jsx:238 src/PodActions.jsx:132 src/app.jsx:714
 msgid "Start"
 msgstr "დაწყება"
 
@@ -1085,7 +1093,7 @@ msgstr "მდგომარეობა"
 msgid "Status"
 msgstr "სტატუსი"
 
-#: src/Containers.jsx:191 src/PodActions.jsx:81
+#: src/Containers.jsx:191 src/PodActions.jsx:84
 msgid "Stop"
 msgstr "გაჩერება"
 
@@ -1270,6 +1278,21 @@ msgstr "მომხმარებელი:"
 #: src/Containers.jsx:533
 msgid "volumes"
 msgstr "ტომები"
+
+#~ msgid "Confirm deletion of $0"
+#~ msgstr "დაადასტურეთ $0-ის წაშლა"
+
+#~ msgid "Confirm deletion of pod $0"
+#~ msgstr "დაადასტურეთ Pod-ის წაშლა: $0"
+
+#~ msgid "Confirm force deletion of pod $0"
+#~ msgstr "დაადასტურეთ pod-ის ძალით წაშლა: $0"
+
+#~ msgid "Confirm forced deletion of $0"
+#~ msgstr "დაადასტურეთ ძალით წაშლა: $0"
+
+#~ msgid "Container is currently running."
+#~ msgstr "ამჟამად კონტეინერი გაშვებულია."
 
 #~ msgid "Do not include root file-system changes when exporting"
 #~ msgstr "გატანისას ფაილური სისტემის ცვლილებების არ-გადატანა"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 02:52+0000\n"
+"POT-Creation-Date: 2022-12-24 02:49+0000\n"
 "PO-Revision-Date: 2022-04-15 20:17+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
@@ -161,30 +161,6 @@ msgstr "Odeslat kontejner"
 msgid "Configured"
 msgstr "Nastaveno"
 
-#: src/ContainerDeleteModal.jsx:30
-#, fuzzy
-#| msgid "Please confirm deletion of $0"
-msgid "Confirm deletion of $0"
-msgstr "Potvrďte smazání $0"
-
-#: src/PodActions.jsx:39
-#, fuzzy
-#| msgid "Please confirm deletion of pod $0"
-msgid "Confirm deletion of pod $0"
-msgstr "Potvrďte smazání podu $0"
-
-#: src/PodActions.jsx:38
-#, fuzzy
-#| msgid "Please confirm force deletion of pod $0"
-msgid "Confirm force deletion of pod $0"
-msgstr "Potvrďte vynucení smazání podu $0"
-
-#: src/ForceRemoveModal.jsx:17
-#, fuzzy
-#| msgid "Please confirm forced deletion of $0"
-msgid "Confirm forced deletion of $0"
-msgstr "Potvrďte vynucení smazání $0"
-
 #: src/Containers.jsx:420
 msgid "Console"
 msgstr "Konzole"
@@ -200,10 +176,6 @@ msgstr "Kontejner se nepodařilo vytvořit"
 #: src/ImageRunModal.jsx:271
 msgid "Container failed to be started"
 msgstr "Kontejner se nepodařilo spustit"
-
-#: src/Containers.jsx:70
-msgid "Container is currently running."
-msgstr "Kontejner je nyní spuštěný."
 
 #: src/ContainerTerminal.jsx:262
 msgid "Container is not running"
@@ -308,12 +280,24 @@ msgid "Decrease timeout"
 msgstr ""
 
 #: src/Containers.jsx:282 src/Images.jsx:418 src/PodActions.jsx:44
-#: src/PodActions.jsx:174 src/ContainerDeleteModal.jsx:32
+#: src/PodActions.jsx:177 src/ContainerDeleteModal.jsx:32
 msgid "Delete"
 msgstr "Smazat"
 
 #: src/ImageDeleteModal.jsx:85
 msgid "Delete $0"
+msgstr "Smazat $0"
+
+#: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete $0?"
+msgstr "Smazat $0"
+
+#: src/PodActions.jsx:39
+#, fuzzy
+#| msgid "Delete $0"
+msgid "Delete pod $0?"
 msgstr "Smazat $0"
 
 #: src/ImageDeleteModal.jsx:89
@@ -332,7 +316,13 @@ msgstr "Smazat nepoužívané uživatelské obrazy:"
 msgid "Deleting a container will erase all data in it."
 msgstr "Smazání kontejneru smaže veškerá data v něm."
 
-#: src/PodActions.jsx:56
+#: src/Containers.jsx:70
+#, fuzzy
+#| msgid "Deleting a container will erase all data in it."
+msgid "Deleting a running container will erase all data in it."
+msgstr "Smazání kontejneru smaže veškerá data v něm."
+
+#: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Smazání tohoto podu odebere následující kontejnery:"
 
@@ -356,6 +346,10 @@ msgstr "Stáhnout"
 #: src/Images.jsx:346
 msgid "Download new image"
 msgstr "Stáhnout si nový obraz"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr ""
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -421,11 +415,11 @@ msgstr "Nepodařilo se vynutit odebrání kontejneru $0"
 msgid "Failed to force remove image $0"
 msgstr "Nepodařilo se vynutit odebrání obrazu $0"
 
-#: src/PodActions.jsx:110
+#: src/PodActions.jsx:113
 msgid "Failed to force restart pod $0"
 msgstr "Nepodařilo se vynutit restart podu $0"
 
-#: src/PodActions.jsx:88
+#: src/PodActions.jsx:91
 msgid "Failed to force stop pod $0"
 msgstr "Nepodařilo se vynutit zastavení podu $0"
 
@@ -433,7 +427,7 @@ msgstr "Nepodařilo se vynutit zastavení podu $0"
 msgid "Failed to pause container $0"
 msgstr "Nepodařilo se pozastavit kontejner $0"
 
-#: src/PodActions.jsx:155
+#: src/PodActions.jsx:158
 msgid "Failed to pause pod $0"
 msgstr "Nepodařilo se pozastavit pod $0"
 
@@ -463,7 +457,7 @@ msgstr "Nepodařilo se obnovit kontejner $0"
 msgid "Failed to restart container $0"
 msgstr "Nepodařilo se restartovat kontejner $0"
 
-#: src/PodActions.jsx:99
+#: src/PodActions.jsx:102
 msgid "Failed to restart pod $0"
 msgstr "Nepodařilo se restartovat pod $0"
 
@@ -475,7 +469,7 @@ msgstr "Nepodařilo se obnovit kontejner $0"
 msgid "Failed to resume container $0"
 msgstr "Nepodařilo se obnovit kontejner $0"
 
-#: src/PodActions.jsx:140
+#: src/PodActions.jsx:143
 msgid "Failed to resume pod $0"
 msgstr "Nepodařilo se pokračovat v chodu podu $0"
 
@@ -501,7 +495,7 @@ msgstr "Nepodařilo se vyhledat nové obrazy"
 msgid "Failed to start container $0"
 msgstr "Nepodařilo se spustit kontejner $0"
 
-#: src/PodActions.jsx:125
+#: src/PodActions.jsx:128
 msgid "Failed to start pod $0"
 msgstr "Nepodařilo se spustit pod $0"
 
@@ -509,7 +503,7 @@ msgstr "Nepodařilo se spustit pod $0"
 msgid "Failed to stop container $0"
 msgstr "Nepodařilo se spustit kontejner $0"
 
-#: src/PodActions.jsx:77
+#: src/PodActions.jsx:80
 msgid "Failed to stop pod $0"
 msgstr "Nepodařilo se zastavit pod $0"
 
@@ -525,11 +519,17 @@ msgstr "Vynutit odeslání"
 msgid "Force delete"
 msgstr "Vynutit smazání"
 
-#: src/Containers.jsx:203 src/PodActions.jsx:114
+#: src/PodActions.jsx:38
+#, fuzzy
+#| msgid "Force delete"
+msgid "Force delete pod $0?"
+msgstr "Vynutit smazání"
+
+#: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
 msgstr "Vynutit restart"
 
-#: src/Containers.jsx:195 src/PodActions.jsx:92
+#: src/Containers.jsx:195 src/PodActions.jsx:95
 msgid "Force stop"
 msgstr "Vynutit zastavení"
 
@@ -882,7 +882,7 @@ msgstr ""
 "Pokud chcete hromadně naimportovat, zadejte do libovolné kolonky jeden či "
 "více řádků s dvojicemi klíč=hodnota"
 
-#: src/Containers.jsx:211 src/PodActions.jsx:159
+#: src/Containers.jsx:211 src/PodActions.jsx:162
 msgid "Pause"
 msgstr "Pozastavit"
 
@@ -980,7 +980,7 @@ msgstr ""
 msgid "Rename container $0"
 msgstr "Obnovit kontejner $0"
 
-#: src/Containers.jsx:199 src/PodActions.jsx:103
+#: src/Containers.jsx:199 src/PodActions.jsx:106
 msgid "Restart"
 msgstr "Restart"
 
@@ -1022,7 +1022,7 @@ msgstr "Obnovit kontejner $0"
 msgid "Restore with established TCP connections"
 msgstr "Obnovit s navázanými TCP spojeními"
 
-#: src/Containers.jsx:218 src/PodActions.jsx:144
+#: src/Containers.jsx:218 src/PodActions.jsx:147
 msgid "Resume"
 msgstr "Pokračovat v chodu"
 
@@ -1106,7 +1106,7 @@ msgstr "zobrazit více"
 msgid "Size"
 msgstr "Velikost"
 
-#: src/Containers.jsx:238 src/PodActions.jsx:129 src/app.jsx:714
+#: src/Containers.jsx:238 src/PodActions.jsx:132 src/app.jsx:714
 msgid "Start"
 msgstr "Spustit"
 
@@ -1142,7 +1142,7 @@ msgstr "Stav"
 msgid "Status"
 msgstr "Stav"
 
-#: src/Containers.jsx:191 src/PodActions.jsx:81
+#: src/Containers.jsx:191 src/PodActions.jsx:84
 msgid "Stop"
 msgstr "Zastavit"
 
@@ -1330,6 +1330,29 @@ msgstr "uživatel:"
 #| msgid "Volumes"
 msgid "volumes"
 msgstr "Svazky"
+
+#, fuzzy
+#~| msgid "Please confirm deletion of $0"
+#~ msgid "Confirm deletion of $0"
+#~ msgstr "Potvrďte smazání $0"
+
+#, fuzzy
+#~| msgid "Please confirm deletion of pod $0"
+#~ msgid "Confirm deletion of pod $0"
+#~ msgstr "Potvrďte smazání podu $0"
+
+#, fuzzy
+#~| msgid "Please confirm force deletion of pod $0"
+#~ msgid "Confirm force deletion of pod $0"
+#~ msgstr "Potvrďte vynucení smazání podu $0"
+
+#, fuzzy
+#~| msgid "Please confirm forced deletion of $0"
+#~ msgid "Confirm forced deletion of $0"
+#~ msgstr "Potvrďte vynucení smazání $0"
+
+#~ msgid "Container is currently running."
+#~ msgstr "Kontejner je nyní spuštěný."
 
 #~ msgid "Do not include root file-system changes when exporting"
 #~ msgstr "Do exportu nezahrnovat změny v kořenovém souborovém systému"
