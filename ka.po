@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-26 02:54+0000\n"
-"PO-Revision-Date: 2022-12-21 04:20+0000\n"
+"PO-Revision-Date: 2022-12-29 11:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -273,16 +273,12 @@ msgid "Delete $0"
 msgstr "$0-ის წაშლა"
 
 #: src/ContainerDeleteModal.jsx:30 src/ForceRemoveModal.jsx:17
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0?"
-msgstr "$0-ის წაშლა"
+msgstr "წავშალო $0?"
 
 #: src/PodActions.jsx:39
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete pod $0?"
-msgstr "$0-ის წაშლა"
+msgstr "წავშალო პოდი $0?"
 
 #: src/ImageDeleteModal.jsx:89
 msgid "Delete tagged images"
@@ -301,10 +297,8 @@ msgid "Deleting a container will erase all data in it."
 msgstr "კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
 
 #: src/Containers.jsx:70
-#, fuzzy
-#| msgid "Deleting a container will erase all data in it."
 msgid "Deleting a running container will erase all data in it."
-msgstr "კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
+msgstr "გაშვებული კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
 
 #: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
@@ -335,7 +329,7 @@ msgstr "ახალი გამოსახულების გადმო�
 
 #: src/PodActions.jsx:55
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "ცარიელი პოდი $0 სამუდამოდ წაიშლება."
 
 #: src/ImageDetails.jsx:21
 msgid "Entrypoint"
@@ -502,10 +496,8 @@ msgid "Force delete"
 msgstr "ძალით წაშლა"
 
 #: src/PodActions.jsx:38
-#, fuzzy
-#| msgid "Force delete"
 msgid "Force delete pod $0?"
-msgstr "ძალით წაშლა"
+msgstr "წავშლო ძალით პოდი $0?"
 
 #: src/Containers.jsx:203 src/PodActions.jsx:117
 msgid "Force restart"
