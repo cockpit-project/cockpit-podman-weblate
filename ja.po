@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-06 02:59+0000\n"
+"POT-Creation-Date: 2023-01-10 04:47+0000\n"
 "PO-Revision-Date: 2022-09-05 11:54+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -461,6 +461,12 @@ msgstr "コンテナー $0 の実行に失敗しました"
 #: src/Containers.jsx:133 src/ContainerHealthLogs.jsx:91
 msgid "Failed to run health check on container $0"
 msgstr "コンテナーでのヘルスチェックの実行に失敗しました $0"
+
+#: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
+#, fuzzy
+#| msgid "Failed to search for images: $0"
+msgid "Failed to search for images."
+msgstr "イメージ $0 の検索に失敗しました"
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
 msgid "Failed to search for images: $0"

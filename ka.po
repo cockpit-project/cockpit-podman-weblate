@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-06 02:59+0000\n"
+"POT-Creation-Date: 2023-01-10 04:47+0000\n"
 "PO-Revision-Date: 2022-12-29 11:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -458,6 +458,12 @@ msgstr "კონტეინერის ($0) გაშვების შე�
 #: src/Containers.jsx:133 src/ContainerHealthLogs.jsx:91
 msgid "Failed to run health check on container $0"
 msgstr "კონტეინერის ($0) ჯანმრთელობის შემოწმების შეცდომა"
+
+#: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
+#, fuzzy
+#| msgid "Failed to search for images: $0"
+msgid "Failed to search for images."
+msgstr "გამოსახულების ძებნის შეცდომა: $0"
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
 msgid "Failed to search for images: $0"

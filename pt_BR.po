@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-06 02:59+0000\n"
+"POT-Creation-Date: 2023-01-10 04:47+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -547,6 +547,12 @@ msgstr "Falha ao iniciar contêiner $0"
 #| msgid "Failed to commit container $0"
 msgid "Failed to run health check on container $0"
 msgstr "Falha ao efetivar contêiner $0"
+
+#: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
+#, fuzzy
+#| msgid "Failed to search for new images"
+msgid "Failed to search for images."
+msgstr "Falha ao pesquisar por novas imagens"
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
 #, fuzzy
