@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-10 04:47+0000\n"
-"PO-Revision-Date: 2022-12-26 07:20+0000\n"
+"PO-Revision-Date: 2023-01-13 20:20+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -460,10 +460,8 @@ msgid "Failed to run health check on container $0"
 msgstr "Kontin $0 eheystarkastus epäonnistui"
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
-#, fuzzy
-#| msgid "Failed to search for images: $0"
 msgid "Failed to search for images."
-msgstr "Levykuvien etsintä epäonnistui: $0"
+msgstr "Levykuvien etsintä epäonnistui."
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
 msgid "Failed to search for images: $0"
