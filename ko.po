@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-10 04:47+0000\n"
-"PO-Revision-Date: 2022-12-26 07:20+0000\n"
+"PO-Revision-Date: 2023-01-13 20:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -455,10 +455,8 @@ msgid "Failed to run health check on container $0"
 msgstr "컨테이너 $0에서 상태를 점검하는데 실패함"
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
-#, fuzzy
-#| msgid "Failed to search for images: $0"
 msgid "Failed to search for images."
-msgstr "이미지를 위한 검색 실패: $0"
+msgstr "이미지 검색을 실패함."
 
 #: src/ImageSearchModal.jsx:113 src/ImageRunModal.jsx:426
 msgid "Failed to search for images: $0"
