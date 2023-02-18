@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 03:07+0000\n"
+"POT-Creation-Date: 2023-02-18 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 03:07+0000\n"
+"POT-Creation-Date: 2023-02-18 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,7 +167,7 @@ msgstr ""
 msgid "Command"
 msgstr ""
 
-#: src/ImageHistory.jsx:31
+#: src/ImageHistory.jsx:33
 msgid "Comments"
 msgstr ""
 
@@ -252,12 +252,12 @@ msgstr ""
 msgid "Create pod"
 msgstr ""
 
-#: src/ImageHistory.jsx:31 src/Images.jsx:181 src/ContainerDetails.jsx:63
+#: src/ImageHistory.jsx:33 src/Images.jsx:181 src/ContainerDetails.jsx:63
 #: src/util.js:9 src/util.js:12
 msgid "Created"
 msgstr ""
 
-#: src/ImageHistory.jsx:31
+#: src/ImageHistory.jsx:33
 msgid "Created by"
 msgstr ""
 
@@ -709,7 +709,7 @@ msgstr ""
 msgid "Leave running after writing checkpoint to disk"
 msgstr ""
 
-#: src/ImageHistory.jsx:57
+#: src/ImageHistory.jsx:59
 msgid "Loading details..."
 msgstr ""
 
@@ -1067,7 +1067,7 @@ msgstr ""
 msgid "Show more"
 msgstr ""
 
-#: src/ImageHistory.jsx:31
+#: src/ImageHistory.jsx:33
 msgid "Size"
 msgstr ""
 
@@ -1168,7 +1168,7 @@ msgstr ""
 msgid "UDP"
 msgstr ""
 
-#: src/ImageHistory.jsx:57
+#: src/ImageHistory.jsx:59
 msgid "Unable to load image history"
 msgstr ""
 
