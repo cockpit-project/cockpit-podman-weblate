@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-22 03:03+0000\n"
 "PO-Revision-Date: 2023-02-27 10:31+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/fr/>\n"
 "Language: fr\n"
@@ -275,7 +275,7 @@ msgstr "Supprimer $0"
 
 #: src/ForceRemoveModal.jsx:18 src/ContainerDeleteModal.jsx:31
 msgid "Delete $0?"
-msgstr "Supprimer $0?"
+msgstr "Supprimer $0 ?"
 
 #: src/PodActions.jsx:39
 msgid "Delete pod $0?"
