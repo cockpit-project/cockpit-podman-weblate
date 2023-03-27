@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-26 02:53+0000\n"
-"PO-Revision-Date: 2023-01-10 21:48+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"PO-Revision-Date: 2023-03-28 06:20+0000\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -119,10 +119,8 @@ msgid "Checkpoint"
 msgstr "Denetim noktası"
 
 #: src/ImageRunModal.jsx:708
-#, fuzzy
-#| msgid "Checkpoint container $0"
 msgid "Checkpoint and restore support"
-msgstr "$0 kapsayıcısı denetim noktası"
+msgstr "Denetim noktası ve geri yükleme desteği"
 
 #: src/ContainerCheckpointModal.jsx:41
 msgid "Checkpoint container $0"
@@ -585,11 +583,11 @@ msgstr "IP adresi yardım"
 
 #: src/ImageRunModal.jsx:719
 msgid "Ideal for development"
-msgstr ""
+msgstr "Geliştirme için ideal"
 
 #: src/ImageRunModal.jsx:702
 msgid "Ideal for running services"
-msgstr ""
+msgstr "Çalışan hizmetler için ideal"
 
 #: src/PublishPort.jsx:22
 msgid ""
@@ -848,10 +846,8 @@ msgid "Owner"
 msgstr "Sahibi"
 
 #: src/ImageRunModal.jsx:694
-#, fuzzy
-#| msgid "Owner"
 msgid "Owner help"
-msgstr "Sahibi"
+msgstr "Sahibi yardımı"
 
 #: src/ContainerHealthLogs.jsx:109
 msgid "Passed health run"
@@ -906,7 +902,7 @@ msgstr "Bağlantı noktaları"
 
 #: src/ImageRunModal.jsx:711
 msgid "Ports under 1024 can be mapped"
-msgstr ""
+msgstr "1024 altındaki bağlantı noktaları eşlenebilir"
 
 #: src/Volume.jsx:40
 msgid "Private"
@@ -962,7 +958,7 @@ msgstr "$0 kapsayıcısını yeniden adlandır"
 
 #: src/ImageRunModal.jsx:705
 msgid "Resource limits can be set"
-msgstr ""
+msgstr "Kaynak sınırları ayarlanabilir"
 
 #: src/PodActions.jsx:108 src/Containers.jsx:198
 msgid "Restart"
@@ -1009,7 +1005,7 @@ msgstr "Kurulu TCP bağlantıları ile geri yükle"
 
 #: src/ImageRunModal.jsx:722
 msgid "Restricted by user account permissions"
-msgstr ""
+msgstr "Kullanıcı hesabı izinleri tarafından kısıtlanmış"
 
 #: src/PodActions.jsx:149 src/Containers.jsx:217
 msgid "Resume"
