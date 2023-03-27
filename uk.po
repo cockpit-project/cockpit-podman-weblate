@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-26 02:53+0000\n"
-"PO-Revision-Date: 2023-01-10 21:48+0000\n"
+"PO-Revision-Date: 2023-03-28 06:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -124,10 +124,8 @@ msgid "Checkpoint"
 msgstr "Контрольна точка"
 
 #: src/ImageRunModal.jsx:708
-#, fuzzy
-#| msgid "Checkpoint container $0"
 msgid "Checkpoint and restore support"
-msgstr "Контрольна точка контейнера $0"
+msgstr "Підтримка контрольних точок і відновлення"
 
 #: src/ContainerCheckpointModal.jsx:41
 msgid "Checkpoint container $0"
@@ -595,11 +593,11 @@ msgstr "Довідка щодо IP-адреси"
 
 #: src/ImageRunModal.jsx:719
 msgid "Ideal for development"
-msgstr ""
+msgstr "Ідеальне для розробки"
 
 #: src/ImageRunModal.jsx:702
 msgid "Ideal for running services"
-msgstr ""
+msgstr "Ідеальне для запуску служб"
 
 #: src/PublishPort.jsx:22
 msgid ""
@@ -859,10 +857,8 @@ msgid "Owner"
 msgstr "Власник"
 
 #: src/ImageRunModal.jsx:694
-#, fuzzy
-#| msgid "Owner"
 msgid "Owner help"
-msgstr "Власник"
+msgstr "Довідка щодо власника"
 
 #: src/ContainerHealthLogs.jsx:109
 msgid "Passed health run"
@@ -917,7 +913,7 @@ msgstr "Порти"
 
 #: src/ImageRunModal.jsx:711
 msgid "Ports under 1024 can be mapped"
-msgstr ""
+msgstr "Можна прив'язувати порти нижче 1024"
 
 #: src/Volume.jsx:40
 msgid "Private"
@@ -973,7 +969,7 @@ msgstr "Перейменувати контейнер $0"
 
 #: src/ImageRunModal.jsx:705
 msgid "Resource limits can be set"
-msgstr ""
+msgstr "Можна встановлювати обмеження на ресурси"
 
 #: src/PodActions.jsx:108 src/Containers.jsx:198
 msgid "Restart"
@@ -1020,7 +1016,7 @@ msgstr "Відновити із встановленими з'єднаннями
 
 #: src/ImageRunModal.jsx:722
 msgid "Restricted by user account permissions"
-msgstr ""
+msgstr "Обмежено правами доступу до облікового запису користувача"
 
 #: src/PodActions.jsx:149 src/Containers.jsx:217
 msgid "Resume"
