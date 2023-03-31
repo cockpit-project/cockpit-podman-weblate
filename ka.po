@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-28 02:52+0000\n"
-"PO-Revision-Date: 2023-01-13 20:20+0000\n"
+"PO-Revision-Date: 2023-04-01 09:21+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -120,10 +120,8 @@ msgid "Checkpoint"
 msgstr "საკონტროლო წერტილი"
 
 #: src/ImageRunModal.jsx:708
-#, fuzzy
-#| msgid "Checkpoint container $0"
 msgid "Checkpoint and restore support"
-msgstr "საკონტროლო წერტილის კონტეინერი ($0)"
+msgstr "საკონტროლო წერტილის და აღდგენის მხარდაჭერა"
 
 #: src/ContainerCheckpointModal.jsx:41
 msgid "Checkpoint container $0"
@@ -587,11 +585,11 @@ msgstr "დახმარება IP მისამართის შეს�
 
 #: src/ImageRunModal.jsx:719
 msgid "Ideal for development"
-msgstr ""
+msgstr "იდეალურია პროგრამირებისთვის"
 
 #: src/ImageRunModal.jsx:702
 msgid "Ideal for running services"
-msgstr ""
+msgstr "იდეალურია სერვისების გასაშვებად"
 
 #: src/PublishPort.jsx:22
 msgid ""
@@ -850,10 +848,8 @@ msgid "Owner"
 msgstr "მფლობელი"
 
 #: src/ImageRunModal.jsx:694
-#, fuzzy
-#| msgid "Owner"
 msgid "Owner help"
-msgstr "მფლობელი"
+msgstr "მფლობელის დახმარება"
 
 #: src/ContainerHealthLogs.jsx:109
 msgid "Passed health run"
@@ -908,7 +904,7 @@ msgstr "პორტები"
 
 #: src/ImageRunModal.jsx:711
 msgid "Ports under 1024 can be mapped"
-msgstr ""
+msgstr "შეგიძლიათ 1024-ზე ნაკლები ნომრის მქონე პორტის მიბმა"
 
 #: src/Volume.jsx:40
 msgid "Private"
@@ -964,7 +960,7 @@ msgstr "კონტეინერის სახელის გადარ�
 
 #: src/ImageRunModal.jsx:705
 msgid "Resource limits can be set"
-msgstr ""
+msgstr "შეგიძლიათ ლიმიტების დაყენება"
 
 #: src/PodActions.jsx:108 src/Containers.jsx:198
 msgid "Restart"
@@ -1011,7 +1007,7 @@ msgstr "დამყარებული TCP კავშირებით ა
 
 #: src/ImageRunModal.jsx:722
 msgid "Restricted by user account permissions"
-msgstr ""
+msgstr "შეზღუდულია მომხმარებლის ანგარიშის წვდომებით"
 
 #: src/PodActions.jsx:149 src/Containers.jsx:217
 msgid "Resume"
