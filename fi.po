@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-01 02:47+0000\n"
-"PO-Revision-Date: 2023-04-01 09:21+0000\n"
+"PO-Revision-Date: 2023-04-02 19:20+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr[1] "$0 käyttämätöntä levykuvaa, $1"
 
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "Toimenpiteet, kun kontti siirtyy epäterveelliseen tilaan."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -501,7 +501,7 @@ msgstr "Epäonnistunut sarja"
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "virhetilan toimenpiteet"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -552,10 +552,8 @@ msgid "Health check timeout help"
 msgstr "Tietoa eheystarkistuksen aikakatkaisusta"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "Tietoa eheystarkistuksen aikakatkaisusta"
+msgstr "Tietoa terveystarkistuksen virhetilan toimenpiteistä"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -793,7 +791,7 @@ msgstr "Ei"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "Ei toimintoa"
 
 #: src/Containers.jsx:557
 msgid "No containers"
