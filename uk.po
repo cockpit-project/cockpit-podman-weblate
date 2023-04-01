@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-01 02:47+0000\n"
-"PO-Revision-Date: 2023-03-28 06:20+0000\n"
+"PO-Revision-Date: 2023-04-02 19:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.2\n"
 
 #: src/Images.jsx:86
@@ -50,7 +50,7 @@ msgstr[2] "$0 невикористаних образів, $1"
 
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "Дія, яку слід виконати після переходу контейнера у небезпечний стан."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -509,7 +509,7 @@ msgstr "Помилкова смужка"
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "Дія при критичній помилці"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -560,10 +560,8 @@ msgid "Health check timeout help"
 msgstr "Довідка з часу очікування перевірки працездатності"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "Довідка з часу очікування перевірки працездатності"
+msgstr "Довідка щодо дії при перевірці небезпечності стану"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -802,7 +800,7 @@ msgstr "Ні"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "Без дії"
 
 #: src/Containers.jsx:557
 msgid "No containers"
