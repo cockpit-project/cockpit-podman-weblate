@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-01 02:47+0000\n"
-"PO-Revision-Date: 2023-03-28 06:20+0000\n"
+"PO-Revision-Date: 2023-04-02 19:20+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +46,7 @@ msgstr[1] "$0 kullanılmayan kalıp, $1"
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
+"Kapsayıcı sağlıksız bir duruma geçtikten sonra gerçekleştirilecek eylem."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -499,7 +500,7 @@ msgstr "Başarısız olan seri"
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "Başarısız eylem"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -550,10 +551,8 @@ msgid "Health check timeout help"
 msgstr "Sağlık denetimi zaman aşımı yardımı"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "Sağlık denetimi zaman aşımı yardımı"
+msgstr "Sağlık denetimi hatası eylem yardımı"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -791,7 +790,7 @@ msgstr "Hayır"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "Eylem yok"
 
 #: src/Containers.jsx:557
 msgid "No containers"
