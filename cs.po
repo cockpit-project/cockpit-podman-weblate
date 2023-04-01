@@ -5,10 +5,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-01 02:47+0000\n"
-"PO-Revision-Date: 2023-04-01 09:21+0000\n"
+"PO-Revision-Date: 2023-04-02 19:20+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,8 @@ msgstr[2] "$0 nepoužitých obrazů, $1"
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
+"Akce kterou podniknout jakmile kontejner přejde do stavu, kdy nebude v "
+"pořádku."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -499,7 +501,7 @@ msgstr "Selhávající streak"
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "Akce při selhání"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -550,10 +552,8 @@ msgid "Health check timeout help"
 msgstr "Nápověda k časovému limitu kontroly vitálnosti"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "Nápověda k časovému limitu kontroly vitálnosti"
+msgstr "Nápověda k akci kontroly selhání"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -791,7 +791,7 @@ msgstr "Ne"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "Žádná akce"
 
 #: src/Containers.jsx:557
 msgid "No containers"
