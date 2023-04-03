@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-02 02:48+0000\n"
-"PO-Revision-Date: 2023-04-01 09:21+0000\n"
+"PO-Revision-Date: 2023-04-05 02:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgstr[0] "$0 미사용 이미지, $1"
 
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "컨테이너가 비정상 상태로 전이되면 수행 할 작업."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -496,7 +496,7 @@ msgstr "연속 실패"
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "장애 작용"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -547,10 +547,8 @@ msgid "Health check timeout help"
 msgstr "상태 점검 시간종료 도움말"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "상태 점검 시간종료 도움말"
+msgstr "상태 장애 점검 작용 도움말"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -785,7 +783,7 @@ msgstr "아니오"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "반응 없음"
 
 #: src/Containers.jsx:557
 msgid "No containers"
