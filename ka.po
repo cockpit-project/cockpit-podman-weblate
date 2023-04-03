@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-02 02:48+0000\n"
-"PO-Revision-Date: 2023-04-01 09:21+0000\n"
+"PO-Revision-Date: 2023-04-05 02:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -47,6 +47,7 @@ msgstr[1] "$0 გამოუყენებელი გამოსახუ�
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
+"ქმედება, რომელიც კონტეინერის არაჯანმრთელ მდომარეობაში გადასვლისას შესრულდება."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -501,7 +502,7 @@ msgstr "მრავალჯერადი წარუმატებლო�
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "ქმედება ავარიისას"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -552,10 +553,8 @@ msgid "Health check timeout help"
 msgstr "ჯანმრთელობის შემოწმების ვადის დახმარება"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "ჯანმრთელობის შემოწმების ვადის დახმარება"
+msgstr "ჯანმრთელობის შემოწმების ქმედების დახმარება"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -793,7 +792,7 @@ msgstr "არა"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "ქმედების გარეშე"
 
 #: src/Containers.jsx:557
 msgid "No containers"
