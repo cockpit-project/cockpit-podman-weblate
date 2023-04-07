@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-04 02:47+0000\n"
-"PO-Revision-Date: 2023-01-13 20:20+0000\n"
+"PO-Revision-Date: 2023-04-08 20:20+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -45,7 +45,7 @@ msgstr[1] "$0 imágenes sin usar, $1"
 
 #: src/ImageRunModal.jsx:1072
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "Acción a tomar una vez que el contenedor pase a un mal estado de salud."
 
 #: src/PodCreateModal.jsx:124 src/ImageRunModal.jsx:938
 msgid "Add port mapping"
@@ -123,10 +123,8 @@ msgid "Checkpoint"
 msgstr "Checkpoint"
 
 #: src/ImageRunModal.jsx:718
-#, fuzzy
-#| msgid "Checkpoint container $0"
 msgid "Checkpoint and restore support"
-msgstr "Crear checkpoint del contenedor $0"
+msgstr "Soporte para checkpoint y restauración"
 
 #: src/ContainerCheckpointModal.jsx:41
 msgid "Checkpoint container $0"
@@ -503,7 +501,7 @@ msgstr "Racha de fallos"
 
 #: src/ImageRunModal.jsx:1068
 msgid "Failure action"
-msgstr ""
+msgstr "Acción al fallo"
 
 #: src/ContainerCommitModal.jsx:151
 msgid "Force commit"
@@ -555,10 +553,8 @@ msgid "Health check timeout help"
 msgstr "Ayuda sobre el tiempo de espera de comprobación del estado de salud"
 
 #: src/ImageRunModal.jsx:1070
-#, fuzzy
-#| msgid "Health check timeout help"
 msgid "Health failure check action help"
-msgstr "Ayuda sobre el tiempo de espera de comprobación del estado de salud"
+msgstr "Ayuda sobre la acción al fallo al comprobar el estado de salud"
 
 #: src/Containers.jsx:310
 msgid "Healthy"
@@ -602,11 +598,11 @@ msgstr "Ayuda sobre la dirección IP"
 
 #: src/ImageRunModal.jsx:729
 msgid "Ideal for development"
-msgstr ""
+msgstr "Idóneo para entornos de desarrollo"
 
 #: src/ImageRunModal.jsx:712
 msgid "Ideal for running services"
-msgstr ""
+msgstr "Idóneo para ejecutar servicios"
 
 #: src/PublishPort.jsx:22
 msgid ""
@@ -796,7 +792,7 @@ msgstr "No"
 
 #: src/ImageRunModal.jsx:57
 msgid "No action"
-msgstr ""
+msgstr "Ninguna acción"
 
 #: src/Containers.jsx:557
 msgid "No containers"
@@ -869,10 +865,8 @@ msgid "Owner"
 msgstr "Propietario"
 
 #: src/ImageRunModal.jsx:704
-#, fuzzy
-#| msgid "Owner"
 msgid "Owner help"
-msgstr "Propietario"
+msgstr "Ayuda sobre el propietario"
 
 #: src/ContainerHealthLogs.jsx:109
 msgid "Passed health run"
@@ -927,7 +921,7 @@ msgstr "Puertos"
 
 #: src/ImageRunModal.jsx:721
 msgid "Ports under 1024 can be mapped"
-msgstr ""
+msgstr "Se pueden mapear puertos inferiores a 1024"
 
 #: src/Volume.jsx:40
 msgid "Private"
@@ -983,7 +977,7 @@ msgstr "Renombrar el contenedor $0"
 
 #: src/ImageRunModal.jsx:715
 msgid "Resource limits can be set"
-msgstr ""
+msgstr "Se pueden establecer límites sobre los recursos"
 
 #: src/Containers.jsx:198 src/PodActions.jsx:108 src/ImageRunModal.jsx:58
 msgid "Restart"
@@ -1030,7 +1024,7 @@ msgstr "Restaurar con las conexiones TCP establecidas"
 
 #: src/ImageRunModal.jsx:732
 msgid "Restricted by user account permissions"
-msgstr ""
+msgstr "Restringido por los permisos de la cuenta de usuario"
 
 #: src/Containers.jsx:217 src/PodActions.jsx:149
 msgid "Resume"
