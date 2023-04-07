@@ -5,10 +5,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-04 02:47+0000\n"
-"PO-Revision-Date: 2023-04-02 19:20+0000\n"
+"PO-Revision-Date: 2023-04-08 20:20+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -247,7 +247,7 @@ msgstr "Vytvořil"
 
 #: src/ImageRunModal.jsx:882
 msgid "Decrease CPU shares"
-msgstr "Snížit sdílení procesoru"
+msgstr "Snížit podíl na procesoru"
 
 #: src/ImageRunModal.jsx:987
 msgid "Decrease interval"
@@ -259,7 +259,7 @@ msgstr "Snížit limit počtu opětovných pokusů"
 
 #: src/ImageRunModal.jsx:840
 msgid "Decrease memory"
-msgstr "Snížit paměť"
+msgstr "Zmenšit paměť"
 
 #: src/ImageRunModal.jsx:1061
 msgid "Decrease retries"
@@ -296,7 +296,7 @@ msgstr "Smazat značkou označené obrazy"
 
 #: src/PruneUnusedImagesModal.jsx:32
 msgid "Delete unused system images:"
-msgstr "Smazat nepoužité systémové obrazy:"
+msgstr "Smazat nepoužívané systémové obrazy:"
 
 #: src/PruneUnusedImagesModal.jsx:32
 msgid "Delete unused user images:"
@@ -373,7 +373,7 @@ msgstr "Skončilo"
 
 #: src/ContainerHealthLogs.jsx:109
 msgid "Failed health run"
-msgstr "Nepodařilo se spuštění kontroly vitálnosti"
+msgstr "Nepodařilo se spustit kontrolu vitálnosti"
 
 #: src/ContainerCheckpointModal.jsx:28
 msgid "Failed to checkpoint container $0"
@@ -457,7 +457,7 @@ msgstr "Nepodařilo se obnovit kontejner $0"
 
 #: src/PodActions.jsx:145
 msgid "Failed to resume pod $0"
-msgstr "Nepodařilo se pokračovat v chodu podu $0"
+msgstr "Nepodařilo se navázat v chodu podu $0"
 
 #: src/ImageRunModal.jsx:350
 msgid "Failed to run container $0"
@@ -465,7 +465,7 @@ msgstr "Nepodařilo se spustit kontejner $0"
 
 #: src/Containers.jsx:132 src/ContainerHealthLogs.jsx:89
 msgid "Failed to run health check on container $0"
-msgstr "Nepodařilo se zkontrolovat vitalitu kontejneru $0"
+msgstr "Nepodařilo se zkontrolovat vitálnost kontejneru $0"
 
 #: src/ImageSearchModal.jsx:117 src/ImageRunModal.jsx:444
 msgid "Failed to search for images."
@@ -609,7 +609,7 @@ msgid ""
 "all IPs on the host."
 msgstr ""
 "Pokud je IP adresa hostitele nastavena na 0.0.0.0 nebo vůbec nenastavena, "
-"port bude navázán na veškeré IP adresy hostitele."
+"port bude navázán na všechny IP adresy hostitele."
 
 #: src/PublishPort.jsx:38
 msgid ""
@@ -649,7 +649,7 @@ msgstr "Obrazy"
 
 #: src/ImageRunModal.jsx:883
 msgid "Increase CPU shares"
-msgstr "Zvýšit sdílení procesoru"
+msgstr "Zvýšit podíl na procesoru"
 
 #: src/ImageRunModal.jsx:988
 msgid "Increase interval"
@@ -819,7 +819,7 @@ msgstr "Žádné obrazy"
 
 #: src/ImageSearchModal.jsx:190 src/ImageRunModal.jsx:782
 msgid "No images found"
-msgstr "Nebyly nalezeny žádné obrazy"
+msgstr "Nenalezeny žádné obrazy"
 
 #: src/Images.jsx:190
 msgid "No images that match the current filter"
@@ -984,16 +984,16 @@ msgstr "Restart"
 
 #: src/ImageRunModal.jsx:891
 msgid "Restart policy"
-msgstr "Zásada restartu"
+msgstr "Pravidlo restartování"
 
 #: src/ImageRunModal.jsx:893 src/ImageRunModal.jsx:903
 msgid "Restart policy help"
-msgstr "Nápověda k zásadě restartování"
+msgstr "Nápověda k pravidlu restartování"
 
 #: src/ImageRunModal.jsx:895
 msgid "Restart policy to follow when containers exit."
 msgstr ""
-"Kterou zásadu ohledně restartování následovat když se kontejnery ukončují."
+"Které pravidlo ohledně restartování následovat když se kontejnery ukončují."
 
 #: src/ImageRunModal.jsx:895
 msgid ""
@@ -1001,10 +1001,10 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
-"Pravidlo ohledně restartu kterým se řídit při ukončení kontejnerů. Pokud je "
-"v rámci uživatelského účtu používán např. ecryptfs, systemd-homed, NFS nebo "
-"2FA, pak se může stávat, že automatické spouštění pomocí linger za určitých "
-"podmínek nemusí zafungovat."
+"Pravidlo ohledně restartování kterým se řídit při ukončení kontejnerů. Pokud "
+"je v rámci uživatelského účtu používán např. ecryptfs, systemd-homed, NFS "
+"nebo 2FA, pak se může stávat, že automatické spouštění pomocí linger za "
+"určitých podmínek nemusí zafungovat."
 
 #: src/util.js:9
 msgid "Restarting"
@@ -1028,7 +1028,7 @@ msgstr "Omezeno oprávněními uživatelského účtu"
 
 #: src/Containers.jsx:217 src/PodActions.jsx:149
 msgid "Resume"
-msgstr "Pokračovat v chodu"
+msgstr "Navázat v chodu"
 
 #: src/ContainerHealthLogs.jsx:67 src/ImageRunModal.jsx:1045
 msgid "Retries"
@@ -1052,11 +1052,11 @@ msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:170
 msgid "Search by name or description"
-msgstr "Hledat název nebo popis"
+msgstr "Hledat podle názvu nebo popisu"
 
 #: src/ImageRunModal.jsx:654
 msgid "Search by registry"
-msgstr "Hledat podle registrů"
+msgstr "Hledat podle registru (repozitáře)"
 
 #: src/ImageSearchModal.jsx:167
 msgid "Search for"
@@ -1100,7 +1100,7 @@ msgstr "Zobrazit méně"
 
 #: src/PruneUnusedImagesModal.jsx:48 src/ContainerIntegration.jsx:84
 msgid "Show more"
-msgstr "zobrazit více"
+msgstr "Zobrazit více"
 
 #: src/ImageHistory.jsx:33
 msgid "Size"
@@ -1112,7 +1112,7 @@ msgstr "Spustit"
 
 #: src/ContainerHealthLogs.jsx:71 src/ImageRunModal.jsx:1020
 msgid "Start period"
-msgstr "Spustit periodu"
+msgstr "Perioda startu"
 
 #: src/app.jsx:680
 msgid "Start podman"
@@ -1153,7 +1153,7 @@ msgstr "Systém"
 
 #: src/app.jsx:723
 msgid "System Podman service is also available"
-msgstr "Systémová služba Podman je k dispozici také"
+msgstr "Je také k dispozici systémová služba Podman"
 
 #: src/PublishPort.jsx:70
 msgid "TCP"
@@ -1233,7 +1233,7 @@ msgstr "Uživatel"
 
 #: src/app.jsx:730
 msgid "User Podman service is also available"
-msgstr "Uživatelská služba Podman je také k dispozici"
+msgstr "Je také k dispozici uživatelská služba Podman"
 
 #: src/PodCreateModal.jsx:114 src/ImageRunModal.jsx:726
 #: src/ImageRunModal.jsx:750
