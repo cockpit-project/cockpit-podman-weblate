@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-11 02:47+0000\n"
+"POT-Creation-Date: 2023-04-12 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-11 02:47+0000\n"
+"POT-Creation-Date: 2023-04-12 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Cockpit component for Podman containers"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:59 src/ImageRunModal.jsx:814
+#: src/ContainerHealthLogs.jsx:67 src/ImageRunModal.jsx:814
 #: src/ImageRunModal.jsx:964 src/ContainerDetails.jsx:40
 #: src/ContainerCommitModal.jsx:112 src/ImageDetails.jsx:15
 msgid "Command"
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Exited"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:109
+#: src/ContainerHealthLogs.jsx:121
 msgid "Failed health run"
 msgstr ""
 
@@ -487,7 +487,7 @@ msgstr ""
 msgid "Failed to run container $0"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:89 src/Containers.jsx:132
+#: src/ContainerHealthLogs.jsx:101 src/Containers.jsx:132
 msgid "Failed to run health check on container $0"
 msgstr ""
 
@@ -519,12 +519,8 @@ msgstr ""
 msgid "Failed to stop pod $0"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:79
+#: src/ContainerHealthLogs.jsx:91
 msgid "Failing streak"
-msgstr ""
-
-#: src/ImageRunModal.jsx:1068
-msgid "Failure action"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:151
@@ -543,7 +539,8 @@ msgstr ""
 msgid "Force restart"
 msgstr ""
 
-#: src/Containers.jsx:194 src/ImageRunModal.jsx:60 src/PodActions.jsx:97
+#: src/ContainerHealthLogs.jsx:42 src/Containers.jsx:194
+#: src/ImageRunModal.jsx:60 src/PodActions.jsx:97
 msgid "Force stop"
 msgstr ""
 
@@ -699,7 +696,7 @@ msgstr ""
 msgid "Integration"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:63 src/ImageRunModal.jsx:970
+#: src/ContainerHealthLogs.jsx:71 src/ImageRunModal.jsx:970
 msgid "Interval"
 msgstr ""
 
@@ -725,7 +722,7 @@ msgstr ""
 msgid "Key"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:99
+#: src/ContainerHealthLogs.jsx:111
 msgid "Last 5 runs"
 msgstr ""
 
@@ -753,7 +750,7 @@ msgstr ""
 msgid "Local images"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:97 src/Containers.jsx:420
+#: src/ContainerHealthLogs.jsx:109 src/Containers.jsx:420
 msgid "Logs"
 msgstr ""
 
@@ -805,7 +802,7 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: src/ImageRunModal.jsx:57
+#: src/ContainerHealthLogs.jsx:39 src/ImageRunModal.jsx:57
 msgid "No action"
 msgstr ""
 
@@ -883,7 +880,7 @@ msgstr ""
 msgid "Owner help"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:109
+#: src/ContainerHealthLogs.jsx:121
 msgid "Passed health run"
 msgstr ""
 
@@ -992,8 +989,8 @@ msgstr ""
 msgid "Resource limits can be set"
 msgstr ""
 
-#: src/Containers.jsx:198 src/ImageRunModal.jsx:58 src/PodActions.jsx:108
-#: src/util.js:9
+#: src/ContainerHealthLogs.jsx:40 src/Containers.jsx:198
+#: src/ImageRunModal.jsx:58 src/PodActions.jsx:108 src/util.js:9
 msgid "Restart"
 msgstr ""
 
@@ -1036,7 +1033,7 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:67 src/ImageRunModal.jsx:1045
+#: src/ContainerHealthLogs.jsx:75 src/ImageRunModal.jsx:1045
 msgid "Retries"
 msgstr ""
 
@@ -1044,7 +1041,7 @@ msgstr ""
 msgid "Retry another term."
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:93 src/Containers.jsx:271
+#: src/ContainerHealthLogs.jsx:105 src/Containers.jsx:271
 msgid "Run health check"
 msgstr ""
 
@@ -1116,7 +1113,7 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:71 src/ImageRunModal.jsx:1020
+#: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1020
 msgid "Start period"
 msgstr ""
 
@@ -1128,7 +1125,7 @@ msgstr ""
 msgid "Start typing to look for images."
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:99
+#: src/ContainerHealthLogs.jsx:111
 msgid "Started at"
 msgstr ""
 
@@ -1136,11 +1133,12 @@ msgstr ""
 msgid "State"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:55
+#: src/ContainerHealthLogs.jsx:63
 msgid "Status"
 msgstr ""
 
-#: src/Containers.jsx:190 src/ImageRunModal.jsx:59 src/PodActions.jsx:86
+#: src/ContainerHealthLogs.jsx:41 src/Containers.jsx:190
+#: src/ImageRunModal.jsx:59 src/PodActions.jsx:86
 msgid "Stop"
 msgstr ""
 
@@ -1193,7 +1191,7 @@ msgid ""
 "unhealthy."
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:75 src/ImageRunModal.jsx:995
+#: src/ContainerHealthLogs.jsx:83 src/ImageRunModal.jsx:995
 msgid "Timeout"
 msgstr ""
 
@@ -1249,6 +1247,10 @@ msgstr ""
 #: src/ContainerIntegration.jsx:112 src/PodCreateModal.jsx:133
 #: src/ImageRunModal.jsx:946
 msgid "Volumes"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:87 src/ImageRunModal.jsx:1068
+msgid "When unhealthy"
 msgstr ""
 
 #: src/ImageRunModal.jsx:823
