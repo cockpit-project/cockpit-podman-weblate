@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 02:49+0000\n"
+"POT-Creation-Date: 2023-04-28 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 02:49+0000\n"
+"POT-Creation-Date: 2023-04-28 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/app.jsx:677
+#: src/app.jsx:673
 msgid "Automatically start podman on boot"
 msgstr ""
 
@@ -215,7 +215,7 @@ msgstr ""
 msgid "Container name"
 msgstr ""
 
-#: src/ContainerRenameModal.jsx:26 src/ContainerRenameModal.jsx:37
+#: src/ContainerRenameModal.jsx:27 src/ContainerRenameModal.jsx:38
 msgid "Container name is required."
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Container port"
 msgstr ""
 
-#: src/Containers.jsx:745 src/Containers.jsx:752 src/Containers.jsx:783
+#: src/Containers.jsx:745 src/Containers.jsx:751 src/Containers.jsx:782
 msgid "Containers"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgstr ""
 msgid "Create container in $0"
 msgstr ""
 
-#: src/Containers.jsx:805
+#: src/Containers.jsx:792
 msgid "Create container in pod"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Failed to clean up container"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:80
+#: src/ContainerCommitModal.jsx:81
 msgid "Failed to commit container $0"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgstr ""
 msgid "Failed to remove image $0"
 msgstr ""
 
-#: src/ContainerRenameModal.jsx:52
+#: src/ContainerRenameModal.jsx:53
 msgid "Failed to rename container $0"
 msgstr ""
 
@@ -648,11 +648,11 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:43
+#: src/ContainerCommitModal.jsx:44
 msgid "Image name is not unique"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:34
+#: src/ContainerCommitModal.jsx:35
 msgid "Image name is required"
 msgstr ""
 
@@ -704,7 +704,7 @@ msgstr ""
 msgid "Interval how often health check is run."
 msgstr ""
 
-#: src/PodCreateModal.jsx:88 src/ContainerRenameModal.jsx:30
+#: src/PodCreateModal.jsx:89 src/ContainerRenameModal.jsx:31
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
@@ -786,15 +786,15 @@ msgstr ""
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/PodCreateModal.jsx:95 src/ImageRunModal.jsx:692
+#: src/PodCreateModal.jsx:96 src/ImageRunModal.jsx:692
 msgid "Name"
 msgstr ""
 
-#: src/ContainerRenameModal.jsx:66
+#: src/ContainerRenameModal.jsx:67
 msgid "New container name"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:89
+#: src/ContainerCommitModal.jsx:90
 msgid "New image name"
 msgstr ""
 
@@ -901,11 +901,11 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: src/PodCreateModal.jsx:71
+#: src/PodCreateModal.jsx:72
 msgid "Pod failed to be created"
 msgstr ""
 
-#: src/PodCreateModal.jsx:100
+#: src/PodCreateModal.jsx:99
 msgid "Pod name"
 msgstr ""
 
@@ -917,7 +917,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:673
+#: src/app.jsx:669
 msgid "Podman service is not active"
 msgstr ""
 
@@ -1109,7 +1109,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/Containers.jsx:237 src/app.jsx:716 src/PodActions.jsx:134
+#: src/Containers.jsx:237 src/app.jsx:713 src/PodActions.jsx:134
 msgid "Start"
 msgstr ""
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "Start period"
 msgstr ""
 
-#: src/app.jsx:680
+#: src/app.jsx:676
 msgid "Start podman"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: src/app.jsx:723
+#: src/app.jsx:720
 msgid "System Podman service is also available"
 msgstr ""
 
@@ -1195,7 +1195,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:685
+#: src/app.jsx:681
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1227,11 +1227,11 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/app.jsx:69 src/app.jsx:564
+#: src/app.jsx:67 src/app.jsx:562
 msgid "User"
 msgstr ""
 
-#: src/app.jsx:730
+#: src/app.jsx:727
 msgid "User Podman service is also available"
 msgstr ""
 
@@ -1289,7 +1289,7 @@ msgstr ""
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:795
+#: src/Containers.jsx:807
 msgid "pod group"
 msgstr ""
 
