@@ -5,10 +5,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 02:48+0000\n"
-"PO-Revision-Date: 2023-04-08 20:20+0000\n"
+"PO-Revision-Date: 2023-05-02 12:09+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1245,10 +1245,8 @@ msgid "Volumes"
 msgstr "Svazky"
 
 #: src/ContainerHealthLogs.jsx:87 src/ImageRunModal.jsx:1068
-#, fuzzy
-#| msgid "Unhealthy"
 msgid "When unhealthy"
-msgstr "Není v pořádku"
+msgstr "Pokud v nepořádku"
 
 #: src/ImageRunModal.jsx:823
 msgid "With terminal"
