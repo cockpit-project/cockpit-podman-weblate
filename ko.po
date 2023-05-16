@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-14 02:48+0000\n"
-"PO-Revision-Date: 2023-05-14 16:20+0000\n"
+"PO-Revision-Date: 2023-05-17 05:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,7 +199,7 @@ msgstr "컨테이너 포트"
 
 #: src/Containers.jsx:745 src/Containers.jsx:751 src/Containers.jsx:782
 msgid "Containers"
-msgstr "컨테이너들"
+msgstr "컨테이너"
 
 #: src/PodCreateModal.jsx:153 src/ImageRunModal.jsx:1110
 msgid "Create"
