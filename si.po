@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-14 02:48+0000\n"
+"POT-Creation-Date: 2023-05-17 02:48+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/cockpit-"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/app.jsx:673
+#: src/app.jsx:675
 msgid "Automatically start podman on boot"
 msgstr ""
 
@@ -888,7 +888,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:669
+#: src/app.jsx:671
 msgid "Podman service is not active"
 msgstr ""
 
@@ -1080,7 +1080,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/PodActions.jsx:134 src/Containers.jsx:237 src/app.jsx:713
+#: src/PodActions.jsx:134 src/Containers.jsx:237 src/app.jsx:717
 msgid "Start"
 msgstr ""
 
@@ -1088,7 +1088,7 @@ msgstr ""
 msgid "Start period"
 msgstr ""
 
-#: src/app.jsx:676
+#: src/app.jsx:678
 msgid "Start podman"
 msgstr ""
 
@@ -1126,7 +1126,7 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: src/app.jsx:720
+#: src/app.jsx:724
 msgid "System Podman service is also available"
 msgstr ""
 
@@ -1166,7 +1166,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:681
+#: src/app.jsx:683
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1202,7 +1202,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: src/app.jsx:727
+#: src/app.jsx:731
 msgid "User Podman service is also available"
 msgstr ""
 
