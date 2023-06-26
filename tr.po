@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-26 03:23+0000\n"
-"PO-Revision-Date: 2023-05-03 12:20+0000\n"
+"PO-Revision-Date: 2023-06-26 15:47+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -28,8 +28,8 @@ msgstr[1] "$0 kapsayıcı"
 #: src/Images.jsx:272
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] "$0 kalıp toplam, $1"
-msgstr[1] "$0 kalıp toplam, $1"
+msgstr[0] "Toplam $0 kalıp, $1"
+msgstr[1] "Toplam $0 kalıp, $1"
 
 #: src/ContainerHealthLogs.jsx:35
 msgid "$0 second"
@@ -388,7 +388,7 @@ msgstr "$0 kapsayıcısını işleme başarısız oldu"
 
 #: src/ImageRunModal.jsx:357
 msgid "Failed to create container $0"
-msgstr "$0 kapsayıcısını geri yükleme başarısız oldu"
+msgstr "$0 kapsayıcısını oluşturma başarısız oldu"
 
 #: src/Images.jsx:53
 msgid "Failed to download image $0:$1"
@@ -419,10 +419,8 @@ msgid "Failed to pause pod $0"
 msgstr "$0 bölmesini duraklatma başarısız oldu"
 
 #: src/PruneUnusedContainersModal.jsx:57
-#, fuzzy
-#| msgid "Failed to prune unused images"
 msgid "Failed to prune unused containers"
-msgstr "Kullanılmayan kalıpları ayıklama başarısız oldu"
+msgstr "Kullanılmayan kapsayıcıları ayıklama başarısız oldu"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -663,7 +661,7 @@ msgstr "En fazla yeniden denemeyi artır"
 
 #: src/ImageRunModal.jsx:841
 msgid "Increase memory"
-msgstr "Zaman aşımını artır"
+msgstr "Belleği artır"
 
 #: src/ImageRunModal.jsx:1062
 msgid "Increase retries"
@@ -938,20 +936,16 @@ msgid "Prune"
 msgstr "Ayıkla"
 
 #: src/PruneUnusedContainersModal.jsx:87 src/Containers.jsx:339
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "Kullanılmayan kalıpları ayıkla"
+msgstr "Kullanılmayan kapsayıcıları ayıkla"
 
 #: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:360
 msgid "Prune unused images"
 msgstr "Kullanılmayan kalıpları ayıkla"
 
 #: src/PruneUnusedContainersModal.jsx:90 src/PruneUnusedContainersModal.jsx:94
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "Çalışan kapsayıcılar yok"
+msgstr "Kapsayıcılar ayıklanıyor"
 
 #: src/PruneUnusedImagesModal.jsx:91 src/PruneUnusedImagesModal.jsx:95
 msgid "Pruning images"
@@ -978,10 +972,8 @@ msgid "Remove item"
 msgstr "Öğeyi kaldır"
 
 #: src/PruneUnusedContainersModal.jsx:99
-#, fuzzy
-#| msgid "Images and running containers"
 msgid "Removes selected non-running containers"
-msgstr "Kalıplar ve çalışan konteynerler"
+msgstr "Seçilen çalışmayan kapsayıcıları kaldırır"
 
 #: src/util.js:9
 msgid "Removing"
