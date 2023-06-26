@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-26 03:23+0000\n"
-"PO-Revision-Date: 2023-04-02 19:20+0000\n"
+"PO-Revision-Date: 2023-06-26 15:47+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -428,10 +428,8 @@ msgid "Failed to pause pod $0"
 msgstr "Не вдалося призупинити кокон $0"
 
 #: src/PruneUnusedContainersModal.jsx:57
-#, fuzzy
-#| msgid "Failed to prune unused images"
 msgid "Failed to prune unused containers"
-msgstr "Не вдалося позбутися невикористаних образів"
+msgstr "Не вдалося позбутися невикористаних контейнерів"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -948,20 +946,16 @@ msgid "Prune"
 msgstr "Позбутися"
 
 #: src/PruneUnusedContainersModal.jsx:87 src/Containers.jsx:339
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "Позбутися невикористаних образів"
+msgstr "Позбутися невикористаних контейнерів"
 
 #: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:360
 msgid "Prune unused images"
 msgstr "Позбутися невикористаних образів"
 
 #: src/PruneUnusedContainersModal.jsx:90 src/PruneUnusedContainersModal.jsx:94
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "Немає запущених контейнерів"
+msgstr "Очищуємо контейнери"
 
 #: src/PruneUnusedImagesModal.jsx:91 src/PruneUnusedImagesModal.jsx:95
 msgid "Pruning images"
@@ -988,10 +982,8 @@ msgid "Remove item"
 msgstr "Вилучити запис"
 
 #: src/PruneUnusedContainersModal.jsx:99
-#, fuzzy
-#| msgid "Images and running containers"
 msgid "Removes selected non-running containers"
-msgstr "Образи і запущені контейнери"
+msgstr "Вилучає позначені незапущені контейнери"
 
 #: src/util.js:9
 msgid "Removing"
@@ -1278,10 +1270,8 @@ msgid "Volumes"
 msgstr "Томи"
 
 #: src/ContainerHealthLogs.jsx:87 src/ImageRunModal.jsx:1068
-#, fuzzy
-#| msgid "Unhealthy"
 msgid "When unhealthy"
-msgstr "Непрацездатний"
+msgstr "Якщо непрацездатні"
 
 #: src/ImageRunModal.jsx:823
 msgid "With terminal"
