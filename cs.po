@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-26 03:23+0000\n"
-"PO-Revision-Date: 2023-05-02 12:09+0000\n"
+"PO-Revision-Date: 2023-06-26 15:47+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -420,10 +420,8 @@ msgid "Failed to pause pod $0"
 msgstr "Nepodařilo se pozastavit pod $0"
 
 #: src/PruneUnusedContainersModal.jsx:57
-#, fuzzy
-#| msgid "Failed to prune unused images"
 msgid "Failed to prune unused containers"
-msgstr "Nepodařilo se prořezat nepoužívané obrazy"
+msgstr "Nepodařilo se prořezat nepoužívané kontejnery"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -459,7 +457,7 @@ msgstr "Nepodařilo se obnovit kontejner $0"
 
 #: src/Containers.jsx:106
 msgid "Failed to resume container $0"
-msgstr "Nepodařilo se obnovit kontejner $0"
+msgstr "Nepodařilo se navázat v chodu kontejneru $0"
 
 #: src/PodActions.jsx:145
 msgid "Failed to resume pod $0"
@@ -495,7 +493,7 @@ msgstr "Nepodařilo se spustit pod $0"
 
 #: src/Containers.jsx:86
 msgid "Failed to stop container $0"
-msgstr "Nepodařilo se spustit kontejner $0"
+msgstr "Nepodařilo se zastavit kontejner $0"
 
 #: src/PodActions.jsx:82
 msgid "Failed to stop pod $0"
@@ -939,20 +937,16 @@ msgid "Prune"
 msgstr "Prořezat"
 
 #: src/PruneUnusedContainersModal.jsx:87 src/Containers.jsx:339
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "Prořezat nepoužívané obrazy"
+msgstr "Prořezat nepoužívané kontejnery"
 
 #: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:360
 msgid "Prune unused images"
 msgstr "Prořezat nepoužívané obrazy"
 
 #: src/PruneUnusedContainersModal.jsx:90 src/PruneUnusedContainersModal.jsx:94
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "Žádné spuštěné kontejnery"
+msgstr "Prořezávání kontejnerů"
 
 #: src/PruneUnusedImagesModal.jsx:91 src/PruneUnusedImagesModal.jsx:95
 msgid "Pruning images"
@@ -979,10 +973,8 @@ msgid "Remove item"
 msgstr "Odebrat položku"
 
 #: src/PruneUnusedContainersModal.jsx:99
-#, fuzzy
-#| msgid "Images and running containers"
 msgid "Removes selected non-running containers"
-msgstr "Obrazy a spuštěné kontejnery"
+msgstr "Odebere označené (a nespuštěné) kontejnery"
 
 #: src/util.js:9
 msgid "Removing"
