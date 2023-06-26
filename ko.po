@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-26 03:23+0000\n"
-"PO-Revision-Date: 2023-05-17 05:20+0000\n"
+"PO-Revision-Date: 2023-06-26 15:47+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -415,10 +415,8 @@ msgid "Failed to pause pod $0"
 msgstr "pod $0 일시정지에 실패"
 
 #: src/PruneUnusedContainersModal.jsx:57
-#, fuzzy
-#| msgid "Failed to prune unused images"
 msgid "Failed to prune unused containers"
-msgstr "사용하지 않는 이미지 정리 실패"
+msgstr "사용하지 않는 컨테이너 정리 실패"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -779,7 +777,7 @@ msgstr "신규 컨테이너 이름"
 
 #: src/ContainerCommitModal.jsx:90
 msgid "New image name"
-msgstr "새로운 이미지 이름"
+msgstr "신규 이미지 이름"
 
 #: src/ImageRunModal.jsx:906
 msgid "No"
@@ -930,20 +928,16 @@ msgid "Prune"
 msgstr "프룬"
 
 #: src/PruneUnusedContainersModal.jsx:87 src/Containers.jsx:339
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "프룬 사용하지 않은 이미지"
+msgstr "사용하지 않은 컨테이너 정리"
 
 #: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:360
 msgid "Prune unused images"
 msgstr "프룬 사용하지 않은 이미지"
 
 #: src/PruneUnusedContainersModal.jsx:90 src/PruneUnusedContainersModal.jsx:94
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "실행 중인 컨테이너가 없습니다"
+msgstr "컨테이너 정리 중"
 
 #: src/PruneUnusedImagesModal.jsx:91 src/PruneUnusedImagesModal.jsx:95
 msgid "Pruning images"
@@ -970,10 +964,8 @@ msgid "Remove item"
 msgstr "항목 제거"
 
 #: src/PruneUnusedContainersModal.jsx:99
-#, fuzzy
-#| msgid "No running containers"
 msgid "Removes selected non-running containers"
-msgstr "실행 중인 컨테이너가 없습니다"
+msgstr "선택된 비-실행 컨테이너를 제거합니다"
 
 #: src/util.js:9
 msgid "Removing"
@@ -1170,11 +1162,11 @@ msgstr "TCP"
 
 #: src/ContainerCommitModal.jsx:98 src/ImageSearchModal.jsx:231
 msgid "Tag"
-msgstr "태그"
+msgstr "꼬리표"
 
 #: src/ImageDetails.jsx:27
 msgid "Tags"
-msgstr "태그"
+msgstr "꼬리표"
 
 #: org.cockpit-project.podman.metainfo.xml:10
 msgid "The Cockpit user interface for Podman containers."
