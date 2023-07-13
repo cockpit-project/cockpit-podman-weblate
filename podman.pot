@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 03:14+0000\n"
+"POT-Creation-Date: 2023-07-13 03:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 03:14+0000\n"
+"POT-Creation-Date: 2023-07-13 03:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Add volume"
 msgstr ""
 
-#: src/ImageRunModal.jsx:655 src/ContainerHeader.jsx:21 src/Containers.jsx:742
+#: src/ImageRunModal.jsx:655 src/ContainerHeader.jsx:21 src/Containers.jsx:751
 msgid "All"
 msgstr ""
 
@@ -109,11 +109,11 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/app.jsx:683
+#: src/app.jsx:653
 msgid "Automatically start podman on boot"
 msgstr ""
 
-#: src/Containers.jsx:523 src/Containers.jsx:526 src/Containers.jsx:585
+#: src/Containers.jsx:532 src/Containers.jsx:535 src/Containers.jsx:594
 msgid "CPU"
 msgstr ""
 
@@ -157,11 +157,11 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr ""
 
-#: src/Containers.jsx:541
+#: src/Containers.jsx:550
 msgid "Click to see published ports"
 msgstr ""
 
-#: src/Containers.jsx:556
+#: src/Containers.jsx:565
 msgid "Click to see volumes"
 msgstr ""
 
@@ -191,11 +191,11 @@ msgstr ""
 msgid "Configured"
 msgstr ""
 
-#: src/Containers.jsx:450
+#: src/Containers.jsx:459
 msgid "Console"
 msgstr ""
 
-#: src/Containers.jsx:583
+#: src/Containers.jsx:592
 msgid "Container"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Container port"
 msgstr ""
 
-#: src/Containers.jsx:796 src/Containers.jsx:802 src/Containers.jsx:833
+#: src/Containers.jsx:805 src/Containers.jsx:811 src/Containers.jsx:842
 msgid "Containers"
 msgstr ""
 
@@ -244,7 +244,7 @@ msgid "Create and run"
 msgstr ""
 
 #: src/ImageRunModal.jsx:1104 src/Images.jsx:401 src/Images.jsx:415
-#: src/Containers.jsx:759
+#: src/Containers.jsx:768
 msgid "Create container"
 msgstr ""
 
@@ -252,11 +252,11 @@ msgstr ""
 msgid "Create container in $0"
 msgstr ""
 
-#: src/Containers.jsx:843
+#: src/Containers.jsx:852
 msgid "Create container in pod"
 msgstr ""
 
-#: src/Containers.jsx:751 src/PodCreateModal.jsx:149
+#: src/Containers.jsx:760 src/PodCreateModal.jsx:149
 msgid "Create pod"
 msgstr ""
 
@@ -338,7 +338,7 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/ImageRunModal.jsx:700 src/Images.jsx:150 src/Containers.jsx:438
+#: src/ImageRunModal.jsx:700 src/Images.jsx:150 src/Containers.jsx:447
 msgid "Details"
 msgstr ""
 
@@ -556,7 +556,7 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#: src/ImageRunModal.jsx:963 src/Containers.jsx:457
+#: src/ImageRunModal.jsx:963 src/Containers.jsx:466
 msgid "Health check"
 msgstr ""
 
@@ -696,7 +696,7 @@ msgstr ""
 msgid "Increase timeout"
 msgstr ""
 
-#: src/ImageRunModal.jsx:932 src/Containers.jsx:442
+#: src/ImageRunModal.jsx:932 src/Containers.jsx:451
 msgid "Integration"
 msgstr ""
 
@@ -742,7 +742,7 @@ msgstr ""
 msgid "Loading logs..."
 msgstr ""
 
-#: src/ImageUsedBy.jsx:12 src/Containers.jsx:597
+#: src/ImageUsedBy.jsx:12 src/Containers.jsx:606
 msgid "Loading..."
 msgstr ""
 
@@ -754,7 +754,7 @@ msgstr ""
 msgid "Local images"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:109 src/Containers.jsx:446
+#: src/ContainerHealthLogs.jsx:109 src/Containers.jsx:455
 msgid "Logs"
 msgstr ""
 
@@ -770,7 +770,7 @@ msgstr ""
 msgid "Maximum retries"
 msgstr ""
 
-#: src/Containers.jsx:530 src/Containers.jsx:533 src/Containers.jsx:586
+#: src/Containers.jsx:539 src/Containers.jsx:542 src/Containers.jsx:595
 msgid "Memory"
 msgstr ""
 
@@ -811,7 +811,7 @@ msgstr ""
 msgid "No action"
 msgstr ""
 
-#: src/Containers.jsx:594
+#: src/Containers.jsx:603
 msgid "No containers"
 msgstr ""
 
@@ -819,11 +819,11 @@ msgstr ""
 msgid "No containers are using this image"
 msgstr ""
 
-#: src/Containers.jsx:595
+#: src/Containers.jsx:604
 msgid "No containers in this pod"
 msgstr ""
 
-#: src/Containers.jsx:599
+#: src/Containers.jsx:608
 msgid "No containers that match the current filter"
 msgstr ""
 
@@ -855,7 +855,7 @@ msgstr ""
 msgid "No results for $0"
 msgstr ""
 
-#: src/Containers.jsx:601
+#: src/Containers.jsx:610
 msgid "No running containers"
 msgstr ""
 
@@ -867,7 +867,7 @@ msgstr ""
 msgid "On failure"
 msgstr ""
 
-#: src/Containers.jsx:743
+#: src/Containers.jsx:752
 msgid "Only running"
 msgstr ""
 
@@ -876,7 +876,7 @@ msgid "Options"
 msgstr ""
 
 #: src/ImageRunModal.jsx:702 src/ImageSearchModal.jsx:158
-#: src/ContainerHeader.jsx:15 src/Images.jsx:180 src/Containers.jsx:584
+#: src/ContainerHeader.jsx:15 src/Images.jsx:180 src/Containers.jsx:593
 #: src/PruneUnusedContainersModal.jsx:69 src/PodCreateModal.jsx:107
 msgid "Owner"
 msgstr ""
@@ -922,7 +922,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:679
+#: src/app.jsx:649
 msgid "Podman service is not active"
 msgstr ""
 
@@ -1102,7 +1102,7 @@ msgstr ""
 msgid "Shared"
 msgstr ""
 
-#: src/Containers.jsx:738
+#: src/Containers.jsx:747
 msgid "Show"
 msgstr ""
 
@@ -1126,7 +1126,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/PodActions.jsx:135 src/app.jsx:725 src/Containers.jsx:238
+#: src/PodActions.jsx:135 src/app.jsx:695 src/Containers.jsx:238
 msgid "Start"
 msgstr ""
 
@@ -1134,7 +1134,7 @@ msgstr ""
 msgid "Start period"
 msgstr ""
 
-#: src/app.jsx:686
+#: src/app.jsx:656
 msgid "Start podman"
 msgstr ""
 
@@ -1146,7 +1146,7 @@ msgstr ""
 msgid "Started at"
 msgstr ""
 
-#: src/ContainerDetails.jsx:68 src/Containers.jsx:587
+#: src/ContainerDetails.jsx:68 src/Containers.jsx:596
 msgid "State"
 msgstr ""
 
@@ -1172,7 +1172,7 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: src/app.jsx:732
+#: src/app.jsx:702
 msgid "System Podman service is also available"
 msgstr ""
 
@@ -1212,7 +1212,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:691
+#: src/app.jsx:661
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1244,11 +1244,11 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/app.jsx:67 src/app.jsx:570
+#: src/app.jsx:67 src/app.jsx:540
 msgid "User"
 msgstr ""
 
-#: src/app.jsx:739
+#: src/app.jsx:709
 msgid "User Podman service is also available"
 msgstr ""
 
@@ -1306,7 +1306,7 @@ msgstr ""
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:858
+#: src/Containers.jsx:867
 msgid "pod group"
 msgstr ""
 
@@ -1314,7 +1314,7 @@ msgstr ""
 msgid "podman"
 msgstr ""
 
-#: src/Containers.jsx:550
+#: src/Containers.jsx:559
 msgid "ports"
 msgstr ""
 
@@ -1341,6 +1341,6 @@ msgstr ""
 msgid "user:"
 msgstr ""
 
-#: src/Containers.jsx:565
+#: src/Containers.jsx:574
 msgid "volumes"
 msgstr ""
