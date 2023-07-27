@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 02:49+0000\n"
+"POT-Creation-Date: 2023-07-27 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 02:49+0000\n"
+"POT-Creation-Date: 2023-07-27 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Exited"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:114
+#: src/ContainerHealthLogs.jsx:115
 msgid "Failed health run"
 msgstr ""
 
@@ -726,8 +726,12 @@ msgstr ""
 msgid "Key"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:104
+#: src/ContainerHealthLogs.jsx:105
 msgid "Last 5 runs"
+msgstr ""
+
+#: src/ContainerDetails.jsx:71
+msgid "Latest checkpoint"
 msgstr ""
 
 #: src/ContainerCheckpointModal.jsx:57
@@ -885,7 +889,7 @@ msgstr ""
 msgid "Owner help"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:114
+#: src/ContainerHealthLogs.jsx:115
 msgid "Passed health run"
 msgstr ""
 
@@ -1142,7 +1146,7 @@ msgstr ""
 msgid "Start typing to look for images."
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:104
+#: src/ContainerHealthLogs.jsx:105
 msgid "Started at"
 msgstr ""
 
@@ -1306,7 +1310,7 @@ msgstr ""
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:872
+#: src/Containers.jsx:874
 msgid "pod group"
 msgstr ""
 
