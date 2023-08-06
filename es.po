@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 03:14+0000\n"
-"PO-Revision-Date: 2023-05-06 15:20+0000\n"
+"PO-Revision-Date: 2023-08-07 04:00+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: src/Images.jsx:86
 msgid "$0 container"
@@ -421,10 +421,8 @@ msgid "Failed to pause pod $0"
 msgstr "Fallo al pausar el pod $0"
 
 #: src/PruneUnusedContainersModal.jsx:57
-#, fuzzy
-#| msgid "Failed to prune unused images"
 msgid "Failed to prune unused containers"
-msgstr "Fallo al eliminar las imágenes no usadas"
+msgstr "Fallo al eliminar los contenedores no utilizados"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -941,20 +939,16 @@ msgid "Prune"
 msgstr "Eliminar"
 
 #: src/Containers.jsx:339 src/PruneUnusedContainersModal.jsx:87
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "Eliminar imágenes no utilizadas"
+msgstr "Eliminar contenedores no utilizados"
 
 #: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:360
 msgid "Prune unused images"
 msgstr "Eliminar imágenes no utilizadas"
 
 #: src/PruneUnusedContainersModal.jsx:90 src/PruneUnusedContainersModal.jsx:94
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "No hay contenedores ejecutándose"
+msgstr "Eliminando contenedores"
 
 #: src/PruneUnusedImagesModal.jsx:91 src/PruneUnusedImagesModal.jsx:95
 msgid "Pruning images"
@@ -981,10 +975,8 @@ msgid "Remove item"
 msgstr "Eliminar elemento"
 
 #: src/PruneUnusedContainersModal.jsx:99
-#, fuzzy
-#| msgid "Images and running containers"
 msgid "Removes selected non-running containers"
-msgstr "Imágenes y contenedores en ejecución"
+msgstr "Elimina los contenedores seleccionados que no se están ejecutando"
 
 #: src/util.js:9
 msgid "Removing"
