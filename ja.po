@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 02:46+0000\n"
-"PO-Revision-Date: 2023-05-30 13:20+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2023-09-01 02:21+0000\n"
+"Last-Translator: Hiroshi Yamanaka <hyamanak@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -415,10 +415,8 @@ msgid "Failed to pause pod $0"
 msgstr "Pod $0 の一時停止に失敗しました"
 
 #: src/PruneUnusedContainersModal.jsx:57
-#, fuzzy
-#| msgid "Failed to prune unused images"
 msgid "Failed to prune unused containers"
-msgstr "使用されていないイメージのpruneに失敗しました"
+msgstr "使用されていないイメージの prune に失敗しました"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -710,10 +708,8 @@ msgid "Last 5 runs"
 msgstr "過去 5 回の実行"
 
 #: src/ContainerDetails.jsx:71
-#, fuzzy
-#| msgid "Checkpoint"
 msgid "Latest checkpoint"
-msgstr "チェックポイント"
+msgstr "最終チェックポイント"
 
 #: src/ContainerCheckpointModal.jsx:57
 msgid "Leave running after writing checkpoint to disk"
@@ -940,20 +936,16 @@ msgid "Prune"
 msgstr "削除"
 
 #: src/Containers.jsx:339 src/PruneUnusedContainersModal.jsx:87
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "未使用イメージの削除"
+msgstr "使用していないコンテナーの削除"
 
 #: src/Images.jsx:357 src/PruneUnusedImagesModal.jsx:88
 msgid "Prune unused images"
 msgstr "未使用イメージの削除"
 
 #: src/PruneUnusedContainersModal.jsx:90 src/PruneUnusedContainersModal.jsx:94
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "実行中のコンテナーはありません"
+msgstr "コンテナーに prune を実行中"
 
 #: src/PruneUnusedImagesModal.jsx:91 src/PruneUnusedImagesModal.jsx:95
 msgid "Pruning images"
@@ -980,10 +972,8 @@ msgid "Remove item"
 msgstr "アイテムの削除"
 
 #: src/PruneUnusedContainersModal.jsx:99
-#, fuzzy
-#| msgid "No running containers"
 msgid "Removes selected non-running containers"
-msgstr "実行中のコンテナーはありません"
+msgstr "選択した実行中でないコンテナーを削除します"
 
 #: src/util.js:22
 msgid "Removing"
