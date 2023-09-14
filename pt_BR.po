@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-05 02:46+0000\n"
-"PO-Revision-Date: 2021-11-17 05:42+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-09-15 20:35+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -20,15 +20,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 5.0.1\n"
 
 #: src/Images.jsx:87
-#, fuzzy
-#| msgid "Containers"
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] "Contêineres"
-msgstr[1] "Contêineres"
+msgstr[0] "$0 contêiner"
+msgstr[1] "$0 contêineres"
 
 #: src/Images.jsx:269
 msgid "$0 image total, $1"
@@ -76,7 +74,7 @@ msgstr "Todos os registros"
 
 #: src/ImageRunModal.jsx:906
 msgid "Always"
-msgstr ""
+msgstr "Sempre"
 
 #: src/PodActions.jsx:55
 #, fuzzy
@@ -164,10 +162,8 @@ msgid "Command"
 msgstr "Comando"
 
 #: src/ImageHistory.jsx:33
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "Commit"
+msgstr "Comentários"
 
 #: src/ContainerCommitModal.jsx:144 src/Containers.jsx:263
 msgid "Commit"
@@ -181,27 +177,23 @@ msgstr "Nenhum contêineres"
 
 #: src/util.js:22
 msgid "Configured"
-msgstr ""
+msgstr "Configurado"
 
 #: src/Containers.jsx:462
 msgid "Console"
 msgstr "Console"
 
 #: src/Containers.jsx:595
-#, fuzzy
-#| msgid "Containers"
 msgid "Container"
-msgstr "Contêineres"
+msgstr "Contêiner"
 
 #: src/ImageRunModal.jsx:303
 msgid "Container failed to be created"
 msgstr "Criação do contêiner falhou"
 
 #: src/ImageRunModal.jsx:286
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container failed to be started"
-msgstr "Criação do contêiner falhou"
+msgstr "Contêiner falhou ao ser iniciado"
 
 #: src/ContainerTerminal.jsx:259
 msgid "Container is not running"
@@ -212,10 +204,8 @@ msgid "Container name"
 msgstr "Nome do contêiner"
 
 #: src/ContainerRenameModal.jsx:28 src/ContainerRenameModal.jsx:39
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Nome do contêiner"
+msgstr "Nome do contêiner é requerido."
 
 #: src/Volume.jsx:22
 msgid "Container path"
@@ -230,10 +220,8 @@ msgid "Containers"
 msgstr "Contêineres"
 
 #: src/ImageRunModal.jsx:1108 src/PodCreateModal.jsx:154
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Criado"
+msgstr "Criar"
 
 #: src/ContainerCommitModal.jsx:137
 msgid "Create a new image based on the current state of the $0 container."
@@ -323,16 +311,12 @@ msgid "Delete $0"
 msgstr "Excluir $0"
 
 #: src/ForceRemoveModal.jsx:18 src/ContainerDeleteModal.jsx:31
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0?"
-msgstr "Excluir $0"
+msgstr "Excluir $0?"
 
 #: src/PodActions.jsx:41
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete pod $0?"
-msgstr "Excluir $0"
+msgstr "Excluir pod $0?"
 
 #: src/ImageDeleteModal.jsx:92
 #, fuzzy
@@ -341,26 +325,20 @@ msgid "Delete tagged images"
 msgstr "Obter nova imagem"
 
 #: src/PruneUnusedImagesModal.jsx:32
-#, fuzzy
-#| msgid "Get new image"
 msgid "Delete unused system images:"
-msgstr "Obter nova imagem"
+msgstr "Excluir imagens de sistema não utilizadas:"
 
 #: src/PruneUnusedImagesModal.jsx:32
-#, fuzzy
-#| msgid "Get new image"
 msgid "Delete unused user images:"
-msgstr "Obter nova imagem"
+msgstr "Excluir imagens de usuário não utilizadas:"
 
 #: src/ContainerDeleteModal.jsx:37
 msgid "Deleting a container will erase all data in it."
 msgstr "Excluir um contêiner irá apagar todos os dados que ele contém."
 
 #: src/Containers.jsx:71
-#, fuzzy
-#| msgid "Deleting a container will erase all data in it."
 msgid "Deleting a running container will erase all data in it."
-msgstr "Excluir um contêiner irá apagar todos os dados que ele contém."
+msgstr "Excluir um contêiner em execução irá apagar todos os dados dentro dele."
 
 #: src/PodActions.jsx:61
 msgid "Deleting this pod will remove the following containers:"
@@ -384,10 +362,8 @@ msgid "Download"
 msgstr "Baixar"
 
 #: src/Images.jsx:345
-#, fuzzy
-#| msgid "Download as:"
 msgid "Download new image"
-msgstr "Baixar como:"
+msgstr "Baixar nova imagem"
 
 #: src/PodActions.jsx:57
 msgid "Empty pod $0 will be permanently removed."
@@ -405,7 +381,7 @@ msgstr "Ambiente"
 
 #: src/util.js:25
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: src/Notification.jsx:42 src/Images.jsx:56
 msgid "Error message"
@@ -566,10 +542,8 @@ msgid "Failed to run health check on container $0"
 msgstr "Falha ao efetivar contêiner $0"
 
 #: src/ImageRunModal.jsx:441 src/ImageSearchModal.jsx:93
-#, fuzzy
-#| msgid "Failed to search for new images"
 msgid "Failed to search for images."
-msgstr "Falha ao pesquisar por novas imagens"
+msgstr "Falha ao pesquisar por imagens."
 
 #: src/ImageRunModal.jsx:441 src/ImageSearchModal.jsx:93
 #, fuzzy
@@ -616,10 +590,8 @@ msgid "Force delete"
 msgstr "Forçar remoção"
 
 #: src/PodActions.jsx:40
-#, fuzzy
-#| msgid "Force delete"
 msgid "Force delete pod $0?"
-msgstr "Forçar remoção"
+msgstr "Excluir pod $0 forçadamente?"
 
 #: src/PodActions.jsx:120 src/Containers.jsx:203
 msgid "Force restart"
@@ -1257,10 +1229,8 @@ msgid "Searching..."
 msgstr "Carregando..."
 
 #: src/ImageRunModal.jsx:763
-#, fuzzy
-#| msgid "Loading..."
 msgid "Searching: $0"
-msgstr "Carregando..."
+msgstr "Procurando: $0"
 
 #: src/Volume.jsx:39
 #, fuzzy
@@ -1440,9 +1410,8 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:724 src/ImageRunModal.jsx:748
 #: src/PodCreateModal.jsx:115
-#, fuzzy
 msgid "User:"
-msgstr "usuário"
+msgstr "Usuário:"
 
 #: src/ImageRunModal.jsx:94
 msgid "Value"
@@ -1542,9 +1511,8 @@ msgstr "Pausar"
 
 #: src/PruneUnusedContainersModal.jsx:28 src/Images.jsx:132
 #: src/Containers.jsx:422
-#, fuzzy
 msgid "user:"
-msgstr "usuário"
+msgstr "usuário:"
 
 #: src/Containers.jsx:577
 #, fuzzy
