@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 02:46+0000\n"
-"PO-Revision-Date: 2023-09-15 20:35+0000\n"
+"PO-Revision-Date: 2023-09-18 23:35+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0.1\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -561,10 +561,8 @@ msgid "Failed to start container $0"
 msgstr "Falha ao iniciar contêiner $0"
 
 #: src/PodActions.jsx:131
-#, fuzzy
-#| msgid "Failed to start container $0"
 msgid "Failed to start pod $0"
-msgstr "Falha ao iniciar contêiner $0"
+msgstr "Falha ao iniciar pod $0"
 
 #: src/Containers.jsx:87
 msgid "Failed to stop container $0"
@@ -604,14 +602,13 @@ msgid "Force stop"
 msgstr "Forçar parada"
 
 #: src/ImageRunModal.jsx:850
-#, fuzzy
-#| msgid "GiB"
 msgid "GB"
-msgstr "GiB"
+msgstr "GB"
 
 #: src/ContainerDetails.jsx:51
+#, fuzzy
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #: src/ImageRunModal.jsx:962 src/Containers.jsx:470
 msgid "Health check"
@@ -653,17 +650,15 @@ msgstr ""
 
 #: src/Images.jsx:156
 msgid "History"
-msgstr ""
+msgstr "História"
 
 #: src/Volume.jsx:17
 msgid "Host path"
 msgstr "Caminho do host"
 
 #: src/PublishPort.jsx:33
-#, fuzzy
-#| msgid "Host path"
 msgid "Host port"
-msgstr "Caminho do host"
+msgstr "Porta do host"
 
 #: src/PublishPort.jsx:36
 #, fuzzy
@@ -677,7 +672,7 @@ msgstr "ID"
 
 #: src/PublishPort.jsx:17 src/ContainerDetails.jsx:47
 msgid "IP address"
-msgstr ""
+msgstr "Endereço IP"
 
 #: src/PublishPort.jsx:20
 msgid "IP address help"
@@ -685,7 +680,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:728
 msgid "Ideal for development"
-msgstr ""
+msgstr "Ideal para desenvolvimento"
 
 #: src/ImageRunModal.jsx:711
 msgid "Ideal for running services"
@@ -756,10 +751,8 @@ msgid "Increase retries"
 msgstr ""
 
 #: src/ImageRunModal.jsx:1037
-#, fuzzy
-#| msgid "Start podman"
 msgid "Increase start period"
-msgstr "Iniciar podman"
+msgstr "Aumentar o período inicial"
 
 #: src/ImageRunModal.jsx:1012
 msgid "Increase timeout"
@@ -787,7 +780,7 @@ msgstr ""
 #, fuzzy
 #| msgid "KiB"
 msgid "KB"
-msgstr "KiB"
+msgstr "KB"
 
 #: src/ContainerRestoreModal.jsx:58 src/ContainerCheckpointModal.jsx:55
 msgid "Keep all temporary checkpoint files"
@@ -816,18 +809,17 @@ msgid "Loading details..."
 msgstr "Carregando..."
 
 #: src/ContainerLogs.jsx:54
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading logs..."
-msgstr "Carregando..."
+msgstr "Carregando logs..."
 
 #: src/ImageUsedBy.jsx:12 src/Containers.jsx:609
 msgid "Loading..."
 msgstr "Carregando..."
 
 #: src/ImageRunModal.jsx:663
+#, fuzzy
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #: src/ImageRunModal.jsx:544
 #, fuzzy
