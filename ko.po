@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 02:46+0000\n"
-"PO-Revision-Date: 2023-11-02 16:08+0000\n"
+"PO-Revision-Date: 2023-11-04 11:09+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ko/>\n"
@@ -798,7 +798,7 @@ msgstr "이름"
 
 #: src/ImageRunModal.jsx:609
 msgid "Name already in use"
-msgstr "이미 사용 중인 이름입니다."
+msgstr "이미 사용 중인 이름입니다"
 
 #: src/ContainerRenameModal.jsx:68
 msgid "New container name"
