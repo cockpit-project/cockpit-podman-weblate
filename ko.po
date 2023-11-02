@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 02:46+0000\n"
 "PO-Revision-Date: 2023-11-02 16:08+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ko/>\n"
 "Language: ko\n"
@@ -43,7 +42,7 @@ msgstr[0] "$0 미사용 이미지, $1"
 
 #: src/PublishPort.jsx:30 src/PublishPort.jsx:41
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 ~ 65535"
 
 #: src/ImageRunModal.jsx:1122
 msgid "Action to take once the container transitions to an unhealthy state."
@@ -200,20 +199,16 @@ msgid "Container path"
 msgstr "컨테이너 경로"
 
 #: src/Volume.jsx:23
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container path must not be empty"
-msgstr "컨테이너 생성에 실패했습니다"
+msgstr "컨테이너 경로는 비워두면 안됩니다"
 
 #: src/PublishPort.jsx:105
 msgid "Container port"
 msgstr "컨테이너 포트"
 
 #: src/PublishPort.jsx:37
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container port must not be empty"
-msgstr "컨테이너 생성에 실패했습니다"
+msgstr "컨테이너 포트는 비워두면 안됩니다"
 
 #: src/Containers.jsx:819 src/Containers.jsx:825 src/Containers.jsx:855
 msgid "Containers"
@@ -722,7 +717,7 @@ msgstr "키"
 
 #: src/Env.jsx:18
 msgid "Key must not be empty"
-msgstr ""
+msgstr "키는 비워두면 안됩니다"
 
 #: src/ContainerHealthLogs.jsx:105
 msgid "Last 5 runs"
@@ -794,7 +789,7 @@ msgstr "다중 태그는 이 이미지에 존재합니다. 삭제에 태그된 �
 
 #: src/PublishPort.jsx:24
 msgid "Must be a valid IP address"
-msgstr ""
+msgstr "유효한 IP 주소이어야 합니다"
 
 #: src/ImageRunModal.jsx:727 src/PruneUnusedContainersModal.jsx:64
 #: src/PodCreateModal.jsx:97
