@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 02:46+0000\n"
-"PO-Revision-Date: 2023-08-07 10:58+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"PO-Revision-Date: 2023-11-02 16:08+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.1.1\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -802,7 +803,7 @@ msgstr "이름"
 
 #: src/ImageRunModal.jsx:609
 msgid "Name already in use"
-msgstr ""
+msgstr "이미 사용 중인 이름입니다."
 
 #: src/ContainerRenameModal.jsx:68
 msgid "New container name"
