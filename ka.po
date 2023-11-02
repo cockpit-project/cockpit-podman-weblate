@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 02:46+0000\n"
-"PO-Revision-Date: 2023-08-07 10:58+0000\n"
+"PO-Revision-Date: 2023-11-04 11:09+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.1.1\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -46,7 +46,7 @@ msgstr[1] "$0 გამოუყენებელი გამოსახუ�
 
 #: src/PublishPort.jsx:30 src/PublishPort.jsx:41
 msgid "1 to 65535"
-msgstr ""
+msgstr "1-დან 65535-მდე"
 
 #: src/ImageRunModal.jsx:1122
 msgid "Action to take once the container transitions to an unhealthy state."
@@ -204,20 +204,16 @@ msgid "Container path"
 msgstr "კონტეინერის ბილიკი"
 
 #: src/Volume.jsx:23
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container path must not be empty"
-msgstr "კონტეინერის შექმნის შეცდომა"
+msgstr "კონტეინერის ბილიკი არ შეიძლება ცარიელი იყოს"
 
 #: src/PublishPort.jsx:105
 msgid "Container port"
 msgstr "კონტეინერის პორტი"
 
 #: src/PublishPort.jsx:37
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container port must not be empty"
-msgstr "კონტეინერის შექმნის შეცდომა"
+msgstr "კონტეინერის პორტი არ შეიძლება ცარიელი იყოს"
 
 #: src/Containers.jsx:819 src/Containers.jsx:825 src/Containers.jsx:855
 msgid "Containers"
@@ -728,7 +724,7 @@ msgstr "გასაღები"
 
 #: src/Env.jsx:18
 msgid "Key must not be empty"
-msgstr ""
+msgstr "გასაღები არ შეიძლება, ცარიელი იყოს"
 
 #: src/ContainerHealthLogs.jsx:105
 msgid "Last 5 runs"
@@ -802,7 +798,7 @@ msgstr ""
 
 #: src/PublishPort.jsx:24
 msgid "Must be a valid IP address"
-msgstr ""
+msgstr "უნდა იყოს სწორი IP მისამართი"
 
 #: src/ImageRunModal.jsx:727 src/PruneUnusedContainersModal.jsx:64
 #: src/PodCreateModal.jsx:97
@@ -811,7 +807,7 @@ msgstr "სახელი"
 
 #: src/ImageRunModal.jsx:609
 msgid "Name already in use"
-msgstr ""
+msgstr "სახელი უკვე გამოიყენება"
 
 #: src/ContainerRenameModal.jsx:68
 msgid "New container name"
