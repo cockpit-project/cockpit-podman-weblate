@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 02:46+0000\n"
+"POT-Creation-Date: 2023-11-14 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 02:46+0000\n"
+"POT-Creation-Date: 2023-11-14 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgstr ""
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
 
-#: src/ImageRunModal.jsx:983 src/PodCreateModal.jsx:125
+#: src/ImageRunModal.jsx:983 src/PodCreateModal.jsx:176
 msgid "Add port mapping"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Add variable"
 msgstr ""
 
-#: src/ImageRunModal.jsx:993 src/PodCreateModal.jsx:135
+#: src/ImageRunModal.jsx:993 src/PodCreateModal.jsx:188
 msgid "Add volume"
 msgstr ""
 
@@ -141,7 +141,7 @@ msgstr ""
 #: src/PruneUnusedImagesModal.jsx:97 src/ImageDeleteModal.jsx:94
 #: src/PodActions.jsx:50 src/ImageSearchModal.jsx:152
 #: src/ForceRemoveModal.jsx:25 src/PruneUnusedContainersModal.jsx:96
-#: src/ContainerCommitModal.jsx:157 src/PodCreateModal.jsx:157
+#: src/ContainerCommitModal.jsx:157 src/PodCreateModal.jsx:210
 #: src/ContainerCheckpointModal.jsx:50
 msgid "Cancel"
 msgstr ""
@@ -244,7 +244,7 @@ msgstr ""
 msgid "Containers"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1160 src/PodCreateModal.jsx:154
+#: src/ImageRunModal.jsx:1160 src/PodCreateModal.jsx:207
 msgid "Create"
 msgstr ""
 
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Create container in pod"
 msgstr ""
 
-#: src/Containers.jsx:774 src/PodCreateModal.jsx:150
+#: src/Containers.jsx:774 src/PodCreateModal.jsx:203
 msgid "Create pod"
 msgstr ""
 
@@ -721,7 +721,7 @@ msgstr ""
 msgid "Interval how often health check is run."
 msgstr ""
 
-#: src/ContainerRenameModal.jsx:32 src/PodCreateModal.jsx:90
+#: src/ContainerRenameModal.jsx:32 src/PodCreateModal.jsx:113
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
@@ -816,7 +816,7 @@ msgid "Must be a valid IP address"
 msgstr ""
 
 #: src/ImageRunModal.jsx:727 src/PruneUnusedContainersModal.jsx:64
-#: src/PodCreateModal.jsx:97
+#: src/PodCreateModal.jsx:141
 msgid "Name"
 msgstr ""
 
@@ -876,7 +876,7 @@ msgstr ""
 msgid "No label"
 msgstr ""
 
-#: src/ImageRunModal.jsx:980 src/PodCreateModal.jsx:122
+#: src/ImageRunModal.jsx:980 src/PodCreateModal.jsx:173
 msgid "No ports exposed"
 msgstr ""
 
@@ -888,7 +888,7 @@ msgstr ""
 msgid "No running containers"
 msgstr ""
 
-#: src/ImageRunModal.jsx:990 src/PodCreateModal.jsx:132
+#: src/ImageRunModal.jsx:990 src/PodCreateModal.jsx:185
 msgid "No volumes specified"
 msgstr ""
 
@@ -906,7 +906,7 @@ msgstr ""
 
 #: src/Containers.jsx:604 src/ImageRunModal.jsx:747 src/ContainerHeader.jsx:15
 #: src/ImageSearchModal.jsx:159 src/PruneUnusedContainersModal.jsx:69
-#: src/Images.jsx:177 src/PodCreateModal.jsx:108
+#: src/Images.jsx:177 src/PodCreateModal.jsx:159
 msgid "Owner"
 msgstr ""
 
@@ -935,11 +935,11 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: src/PodCreateModal.jsx:73
+#: src/PodCreateModal.jsx:89
 msgid "Pod failed to be created"
 msgstr ""
 
-#: src/PodCreateModal.jsx:100
+#: src/PodCreateModal.jsx:144
 msgid "Pod name"
 msgstr ""
 
@@ -955,7 +955,7 @@ msgstr ""
 msgid "Podman service is not active"
 msgstr ""
 
-#: src/ImageRunModal.jsx:982 src/PodCreateModal.jsx:124
+#: src/ImageRunModal.jsx:982 src/PodCreateModal.jsx:175
 msgid "Port mapping"
 msgstr ""
 
@@ -1197,7 +1197,7 @@ msgid "Support preserving established TCP connections"
 msgstr ""
 
 #: src/ImageRunModal.jsx:754 src/ImageRunModal.jsx:789
-#: src/ContainerHeader.jsx:20 src/PodCreateModal.jsx:110
+#: src/ContainerHeader.jsx:20 src/PodCreateModal.jsx:161
 msgid "System"
 msgstr ""
 
@@ -1282,7 +1282,7 @@ msgid "User Podman service is also available"
 msgstr ""
 
 #: src/ImageRunModal.jsx:771 src/ImageRunModal.jsx:795
-#: src/PodCreateModal.jsx:115
+#: src/PodCreateModal.jsx:166
 msgid "User:"
 msgstr ""
 
@@ -1291,7 +1291,7 @@ msgid "Value"
 msgstr ""
 
 #: src/ContainerIntegration.jsx:110 src/ImageRunModal.jsx:992
-#: src/PodCreateModal.jsx:134
+#: src/PodCreateModal.jsx:187
 msgid "Volumes"
 msgstr ""
 
