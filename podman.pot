@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 02:47+0000\n"
+"POT-Creation-Date: 2023-11-22 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 02:47+0000\n"
+"POT-Creation-Date: 2023-11-22 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,7 +94,7 @@ msgid "Add volume"
 msgstr ""
 
 #: src/Containers.jsx:765 src/ImageRunModal.jsx:690
-#: src/ImageDeleteModal.jsx:103 src/ContainerHeader.jsx:21
+#: src/ImageDeleteModal.jsx:104 src/ContainerHeader.jsx:21
 msgid "All"
 msgstr ""
 
@@ -141,7 +141,7 @@ msgstr ""
 #: src/ContainerDeleteModal.jsx:34 src/PruneUnusedImagesModal.jsx:97
 #: src/ImageRunModal.jsx:1163 src/ContainerRestoreModal.jsx:53
 #: src/ForceRemoveModal.jsx:25 src/PodCreateModal.jsx:210
-#: src/ImageDeleteModal.jsx:97 src/ContainerCommitModal.jsx:157
+#: src/ImageDeleteModal.jsx:98 src/ContainerCommitModal.jsx:157
 #: src/PodActions.jsx:50 src/ImageSearchModal.jsx:152
 #: src/PruneUnusedContainersModal.jsx:96
 msgid "Cancel"
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:91
+#: src/ImageDeleteModal.jsx:92
 msgid "Delete $0 image?"
 msgstr ""
 
@@ -325,11 +325,15 @@ msgstr ""
 msgid "Delete $0?"
 msgstr ""
 
+#: src/ImageDeleteModal.jsx:96
+msgid "Delete image"
+msgstr ""
+
 #: src/PodActions.jsx:41
 msgid "Delete pod $0?"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:95
+#: src/ImageDeleteModal.jsx:96
 msgid "Delete tagged images"
 msgstr ""
 
@@ -438,7 +442,7 @@ msgstr ""
 msgid "Failed to force remove container $0"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:48
+#: src/ImageDeleteModal.jsx:49
 msgid "Failed to force remove image $0"
 msgstr ""
 
@@ -474,7 +478,7 @@ msgstr ""
 msgid "Failed to remove container $0"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:72
+#: src/ImageDeleteModal.jsx:73
 msgid "Failed to remove image $0"
 msgstr ""
 
@@ -809,7 +813,7 @@ msgstr ""
 msgid "Mode"
 msgstr ""
 
-#: src/ImageDeleteModal.jsx:101
+#: src/ImageDeleteModal.jsx:102
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
@@ -1327,6 +1331,14 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:172
 msgid "in"
+msgstr ""
+
+#: src/ImageDeleteModal.jsx:79
+msgid "intermediate"
+msgstr ""
+
+#: src/ImageDeleteModal.jsx:59
+msgid "intermediate image"
 msgstr ""
 
 #: src/Containers.jsx:391 src/Containers.jsx:392
