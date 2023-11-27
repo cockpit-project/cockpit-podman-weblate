@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 02:46+0000\n"
-"PO-Revision-Date: 2023-08-07 10:58+0000\n"
+"PO-Revision-Date: 2023-11-27 20:03+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -46,7 +46,7 @@ msgstr[2] "$0 nepoužitých obrazů, $1"
 
 #: src/PublishPort.jsx:30 src/PublishPort.jsx:41
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 až 65535"
 
 #: src/ImageRunModal.jsx:1122
 msgid "Action to take once the container transitions to an unhealthy state."
@@ -205,20 +205,16 @@ msgid "Container path"
 msgstr "Popis umístění kontejneru"
 
 #: src/Volume.jsx:23
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container path must not be empty"
-msgstr "Kontejner se nepodařilo vytvořit"
+msgstr "Je třeba vyplnit popis umístění kontejneru"
 
 #: src/PublishPort.jsx:105
 msgid "Container port"
 msgstr "Port kontejneru"
 
 #: src/PublishPort.jsx:37
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container port must not be empty"
-msgstr "Kontejner se nepodařilo vytvořit"
+msgstr "Je třeba vyplnit port kontejneru"
 
 #: src/Containers.jsx:819 src/Containers.jsx:825 src/Containers.jsx:855
 msgid "Containers"
