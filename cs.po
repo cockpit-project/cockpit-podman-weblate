@@ -6,7 +6,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 02:46+0000\n"
 "PO-Revision-Date: 2023-11-27 20:03+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/cs/>\n"
 "Language: cs\n"
@@ -723,7 +724,7 @@ msgstr "Klíč"
 
 #: src/Env.jsx:18
 msgid "Key must not be empty"
-msgstr ""
+msgstr "Název je třeba vyplnit"
 
 #: src/ContainerHealthLogs.jsx:105
 msgid "Last 5 runs"
