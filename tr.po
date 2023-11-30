@@ -9,7 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-30 02:46+0000\n"
 "PO-Revision-Date: 2023-12-01 18:43+0000\n"
-"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/tr/>\n"
 "Language: tr\n"
@@ -300,10 +301,8 @@ msgid "Delete $0?"
 msgstr "$0 silinsin mi?"
 
 #: src/ImageDeleteModal.jsx:96
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete image"
-msgstr "Etiketli kalıpları sil"
+msgstr "Kalıbı sil"
 
 #: src/PodActions.jsx:41
 msgid "Delete pod $0?"
