@@ -796,7 +796,7 @@ msgstr "名称"
 
 #: src/ImageRunModal.jsx:609
 msgid "Name already in use"
-msgstr "名称已被使用。"
+msgstr "名称已被使用"
 
 #: src/ContainerRenameModal.jsx:68
 msgid "New container name"
