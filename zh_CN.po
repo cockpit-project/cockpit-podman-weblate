@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 02:46+0000\n"
-"PO-Revision-Date: 2023-12-22 13:01+0000\n"
+"PO-Revision-Date: 2023-12-22 22:18+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
@@ -1304,16 +1304,12 @@ msgid "in"
 msgstr "于"
 
 #: src/ImageDeleteModal.jsx:79
-#, fuzzy
-#| msgid "Hide intermediate images"
 msgid "intermediate"
-msgstr "隐藏中间镜像"
+msgstr "中间体"
 
 #: src/ImageDeleteModal.jsx:59
-#, fuzzy
-#| msgid "Hide intermediate images"
 msgid "intermediate image"
-msgstr "隐藏中间镜像"
+msgstr "中间镜像"
 
 #: src/Containers.jsx:391 src/Containers.jsx:392
 msgid "n/a"
