@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-28 02:46+0000\n"
+"POT-Creation-Date: 2024-01-29 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-28 02:46+0000\n"
+"POT-Creation-Date: 2024-01-29 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Add volume"
 msgstr ""
 
-#: src/ImageRunModal.jsx:702 src/Containers.jsx:765 src/ContainerHeader.jsx:21
+#: src/ImageRunModal.jsx:702 src/Containers.jsx:768 src/ContainerHeader.jsx:21
 #: src/ImageDeleteModal.jsx:104
 msgid "All"
 msgstr ""
@@ -241,7 +241,7 @@ msgstr ""
 msgid "Container port must not be empty"
 msgstr ""
 
-#: src/Containers.jsx:819 src/Containers.jsx:825 src/Containers.jsx:855
+#: src/Containers.jsx:822 src/Containers.jsx:828 src/Containers.jsx:858
 msgid "Containers"
 msgstr ""
 
@@ -257,7 +257,7 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1166 src/Containers.jsx:782 src/Images.jsx:405
+#: src/ImageRunModal.jsx:1166 src/Containers.jsx:785 src/Images.jsx:405
 #: src/Images.jsx:419
 msgid "Create container"
 msgstr ""
@@ -266,11 +266,11 @@ msgstr ""
 msgid "Create container in $0"
 msgstr ""
 
-#: src/Containers.jsx:865
+#: src/Containers.jsx:868
 msgid "Create container in pod"
 msgstr ""
 
-#: src/Containers.jsx:774 src/PodCreateModal.jsx:206
+#: src/Containers.jsx:777 src/PodCreateModal.jsx:206
 msgid "Create pod"
 msgstr ""
 
@@ -902,7 +902,7 @@ msgstr ""
 msgid "On failure"
 msgstr ""
 
-#: src/Containers.jsx:766
+#: src/Containers.jsx:769
 msgid "Only running"
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgstr ""
 msgid "Shared"
 msgstr ""
 
-#: src/Containers.jsx:761
+#: src/Containers.jsx:764
 msgid "Show"
 msgstr ""
 
@@ -1349,7 +1349,7 @@ msgstr ""
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:882
+#: src/Containers.jsx:885
 msgid "pod group"
 msgstr ""
 
