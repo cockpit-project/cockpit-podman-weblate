@@ -818,7 +818,7 @@ msgstr "Nimi"
 
 #: src/ImageRunModal.jsx:612
 msgid "Name already in use"
-msgstr ""
+msgstr "Nimi on jo käytössä."
 
 #: src/ContainerRenameModal.jsx:68
 msgid "New container name"
