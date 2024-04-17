@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 02:46+0000\n"
+"POT-Creation-Date: 2024-04-17 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 02:46+0000\n"
+"POT-Creation-Date: 2024-04-17 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Add volume"
 msgstr ""
 
-#: src/ContainerHeader.jsx:21 src/Containers.jsx:730
+#: src/ContainerHeader.jsx:21 src/Containers.jsx:729
 #: src/ImageDeleteModal.jsx:104 src/ImageRunModal.jsx:702
 msgid "All"
 msgstr ""
@@ -241,7 +241,7 @@ msgstr ""
 msgid "Container port must not be empty"
 msgstr ""
 
-#: src/Containers.jsx:784 src/Containers.jsx:790 src/Containers.jsx:820
+#: src/Containers.jsx:783 src/Containers.jsx:789 src/Containers.jsx:819
 msgid "Containers"
 msgstr ""
 
@@ -257,7 +257,7 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/Containers.jsx:747 src/ImageRunModal.jsx:1166 src/Images.jsx:402
+#: src/Containers.jsx:746 src/ImageRunModal.jsx:1166 src/Images.jsx:402
 #: src/Images.jsx:411
 msgid "Create container"
 msgstr ""
@@ -266,11 +266,11 @@ msgstr ""
 msgid "Create container in $0"
 msgstr ""
 
-#: src/Containers.jsx:830
+#: src/Containers.jsx:829
 msgid "Create container in pod"
 msgstr ""
 
-#: src/PodCreateModal.jsx:206 src/Containers.jsx:739
+#: src/PodCreateModal.jsx:206 src/Containers.jsx:738
 msgid "Create pod"
 msgstr ""
 
@@ -385,7 +385,7 @@ msgstr ""
 msgid "Entrypoint"
 msgstr ""
 
-#: src/ContainerIntegration.jsx:114 src/ImageRunModal.jsx:1016
+#: src/ContainerIntegration.jsx:117 src/ImageRunModal.jsx:1016
 msgid "Environment variables"
 msgstr ""
 
@@ -901,7 +901,7 @@ msgstr ""
 msgid "On failure"
 msgstr ""
 
-#: src/Containers.jsx:731
+#: src/Containers.jsx:730
 msgid "Only running"
 msgstr ""
 
@@ -964,7 +964,7 @@ msgstr ""
 msgid "Port mapping"
 msgstr ""
 
-#: src/ContainerIntegration.jsx:106 src/ImageDetails.jsx:39
+#: src/ContainerIntegration.jsx:109 src/ImageDetails.jsx:39
 msgid "Ports"
 msgstr ""
 
@@ -1136,7 +1136,7 @@ msgstr ""
 msgid "Shared"
 msgstr ""
 
-#: src/Containers.jsx:726
+#: src/Containers.jsx:725
 msgid "Show"
 msgstr ""
 
@@ -1295,7 +1295,7 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: src/PodCreateModal.jsx:190 src/ContainerIntegration.jsx:110
+#: src/PodCreateModal.jsx:190 src/ContainerIntegration.jsx:113
 #: src/ImageRunModal.jsx:1004
 msgid "Volumes"
 msgstr ""
@@ -1348,7 +1348,7 @@ msgstr ""
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:847
+#: src/Containers.jsx:846
 msgid "pod group"
 msgstr ""
 
