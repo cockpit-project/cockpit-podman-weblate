@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-10 02:46+0000\n"
-"PO-Revision-Date: 2023-12-22 22:18+0000\n"
-"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
+"PO-Revision-Date: 2024-05-17 02:36+0000\n"
+"Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/Images.jsx:87
 msgid "$0 container"
@@ -349,7 +349,7 @@ msgstr "下载"
 
 #: src/Images.jsx:337
 msgid "Download new image"
-msgstr "现在新镜像"
+msgstr "下载新镜像"
 
 #: src/PodActions.jsx:59
 msgid "Empty pod $0 will be permanently removed."
