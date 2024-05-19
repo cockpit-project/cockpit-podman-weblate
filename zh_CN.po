@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 02:46+0000\n"
-"PO-Revision-Date: 2024-05-17 02:36+0000\n"
+"PO-Revision-Date: 2024-05-20 13:36+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
@@ -293,7 +293,7 @@ msgstr "删除"
 
 #: src/ImageDeleteModal.jsx:92
 msgid "Delete $0 image?"
-msgstr "删除 $0 图片？"
+msgstr "删除 $0 镜像？"
 
 #: src/ContainerDeleteModal.jsx:31 src/ForceRemoveModal.jsx:18
 msgid "Delete $0?"
