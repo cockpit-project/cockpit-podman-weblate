@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 02:48+0000\n"
+"POT-Creation-Date: 2024-06-14 02:49+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://translate.fedoraproject.org/"
@@ -210,7 +210,7 @@ msgstr "Não foi possível criar 'Container'"
 msgid "Container failed to be started"
 msgstr "Não foi possível criar o 'container'"
 
-#: src/ContainerTerminal.jsx:259
+#: src/ContainerTerminal.jsx:256
 msgid "Container is not running"
 msgstr "'Container' não está em execução."
 
@@ -437,7 +437,7 @@ msgstr "Erro"
 msgid "Error message"
 msgstr "Mensagem de erro"
 
-#: src/ContainerTerminal.jsx:263
+#: src/ContainerTerminal.jsx:260
 msgid "Error occurred while connecting console"
 msgstr ""
 

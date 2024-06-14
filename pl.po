@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 02:48+0000\n"
+"POT-Creation-Date: 2024-06-14 02:49+0000\n"
 "PO-Revision-Date: 2024-06-14 18:36+0000\n"
 "Last-Translator: Wojciech Teichert <wojtekt99@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
-"cockpit-podman/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
+"podman/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -196,7 +196,7 @@ msgstr "Utworzenie kontenera się nie powiodło"
 msgid "Container failed to be started"
 msgstr "Uruchomienie kontenera się nie powiodło"
 
-#: src/ContainerTerminal.jsx:259
+#: src/ContainerTerminal.jsx:256
 msgid "Container is not running"
 msgstr "Kontener nie jest uruchomiony"
 
@@ -386,7 +386,7 @@ msgstr "Błąd"
 msgid "Error message"
 msgstr "Komunikat o błędzie"
 
-#: src/ContainerTerminal.jsx:263
+#: src/ContainerTerminal.jsx:260
 msgid "Error occurred while connecting console"
 msgstr "Wystąpił błąd podczas łączenia konsoli"
 
