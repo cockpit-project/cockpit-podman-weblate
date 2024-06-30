@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 06:57+0000\n"
+"POT-Creation-Date: 2024-06-30 02:52+0000\n"
 "PO-Revision-Date: 2023-09-02 07:21+0000\n"
 "Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
@@ -17,13 +17,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.18.2\n"
 
-#: src/Images.jsx:87
+#: src/Images.jsx:93
 msgid "$0 container"
 msgid_plural "$0 containers"
 msgstr[0] "$0 Container"
 msgstr[1] "$0 Container"
 
-#: src/Images.jsx:269
+#: src/Images.jsx:276
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
 msgstr[0] "$0 Abbild insgesamt, $1"
@@ -35,7 +35,7 @@ msgid_plural "$0 seconds"
 msgstr[0] "$0 Sekunde"
 msgstr[1] "$0 Sekunden"
 
-#: src/Images.jsx:273
+#: src/Images.jsx:280
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] "$0 ungenutztes Abbild, $1"
@@ -240,7 +240,7 @@ msgstr ""
 msgid "Create and run"
 msgstr "Erstellen und ausführen"
 
-#: src/Images.jsx:400 src/Images.jsx:409 src/ImageRunModal.jsx:1166
+#: src/Images.jsx:419 src/Images.jsx:428 src/ImageRunModal.jsx:1166
 #: src/Containers.jsx:773
 msgid "Create container"
 msgstr "Container erstellen"
@@ -257,7 +257,7 @@ msgstr "Container in Pod erstellen"
 msgid "Create pod"
 msgstr "Pod erstellen"
 
-#: src/Images.jsx:178 src/util.js:23 src/util.js:26
+#: src/Images.jsx:185 src/util.js:23 src/util.js:26
 #: src/PruneUnusedContainersModal.jsx:65 src/ContainerDetails.jsx:63
 #: src/ImageHistory.jsx:33
 msgid "Created"
@@ -295,7 +295,7 @@ msgstr "Startzeitraum verringern"
 msgid "Decrease timeout"
 msgstr "Zeitüberschreitung verringern"
 
-#: src/Images.jsx:415 src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
+#: src/Images.jsx:439 src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
 #: src/PodActions.jsx:181 src/Containers.jsx:262
 msgid "Delete"
 msgstr "Löschen"
@@ -346,11 +346,11 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Löschen des Pods wird die folgenden Container entfernen:"
 
-#: src/Images.jsx:147 src/ImageRunModal.jsx:757 src/Containers.jsx:442
+#: src/Images.jsx:154 src/ImageRunModal.jsx:757 src/Containers.jsx:442
 msgid "Details"
 msgstr "Details"
 
-#: src/Images.jsx:180
+#: src/Images.jsx:187
 msgid "Disk space"
 msgstr "Speicherplatz"
 
@@ -365,7 +365,7 @@ msgstr ""
 msgid "Download"
 msgstr "Herunterladen"
 
-#: src/Images.jsx:337
+#: src/Images.jsx:345
 msgid "Download new image"
 msgstr "Neues Abbild herunterladen"
 
@@ -385,7 +385,7 @@ msgstr "Umgebungsvariablen"
 msgid "Error"
 msgstr "Fehler"
 
-#: src/Images.jsx:57 src/Notification.jsx:42
+#: src/Images.jsx:59 src/Notification.jsx:42
 msgid "Error message"
 msgstr "Fehlermeldung"
 
@@ -425,7 +425,7 @@ msgstr "Konnte Container $0 nicht committen"
 msgid "Failed to create container $0"
 msgstr "Fehler bei der Erstellung des Containers $0"
 
-#: src/Images.jsx:55
+#: src/Images.jsx:57
 msgid "Failed to download image $0:$1"
 msgstr "Konnte Image $0 nicht herunterladen: $1"
 
@@ -594,15 +594,15 @@ msgstr "Hilfe zur Gesundheitsprüfungs-Aktion"
 msgid "Healthy"
 msgstr "Gesund"
 
-#: src/Images.jsx:300
+#: src/Images.jsx:308
 msgid "Hide images"
 msgstr "Abbilder ausblenden"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:257
 msgid "Hide intermediate images"
 msgstr "Intermediate Images verstecken"
 
-#: src/Images.jsx:156
+#: src/Images.jsx:163
 msgid "History"
 msgstr "Verlauf"
 
@@ -618,7 +618,7 @@ msgstr "Host-Port"
 msgid "Host port help"
 msgstr "Hilfe zum Host-Port"
 
-#: src/Images.jsx:179 src/ContainerDetails.jsx:31
+#: src/Images.jsx:186 src/ContainerDetails.jsx:31
 msgid "ID"
 msgstr "ID"
 
@@ -662,7 +662,7 @@ msgstr "IP-Adresse ignorieren, wenn statisch festgelegt"
 msgid "Ignore MAC address if set statically"
 msgstr "MAC-Adresse ignorieren, wenn statisch festgelegt"
 
-#: src/Images.jsx:176 src/ImageRunModal.jsx:814 src/ContainerDetails.jsx:35
+#: src/Images.jsx:183 src/ImageRunModal.jsx:814 src/ContainerDetails.jsx:35
 msgid "Image"
 msgstr "Image"
 
@@ -678,7 +678,7 @@ msgstr "Abbildname ist erforderlich"
 msgid "Image selection help"
 msgstr "Abbildauswahl-Hilfe"
 
-#: src/Images.jsx:256 src/Images.jsx:286
+#: src/Images.jsx:263 src/Images.jsx:293
 msgid "Images"
 msgstr "Images"
 
@@ -866,7 +866,7 @@ msgstr "Aktueller Filter passt auf keinen Container"
 msgid "No environment variables specified"
 msgstr "Keine Umgebungsvariablen angegeben"
 
-#: src/Images.jsx:183
+#: src/Images.jsx:190
 msgid "No images"
 msgstr "Keine Images"
 
@@ -874,7 +874,7 @@ msgstr "Keine Images"
 msgid "No images found"
 msgstr "Keine Abbilder gefunden"
 
-#: src/Images.jsx:187
+#: src/Images.jsx:194
 msgid "No images that match the current filter"
 msgstr "Aktueller Filter passt auf kein Image"
 
@@ -910,7 +910,7 @@ msgstr "Nur laufenlassen"
 msgid "Options"
 msgstr "Optionen"
 
-#: src/Images.jsx:177 src/ImageRunModal.jsx:759 src/PodCreateModal.jsx:162
+#: src/Images.jsx:184 src/ImageRunModal.jsx:759 src/PodCreateModal.jsx:162
 #: src/PruneUnusedContainersModal.jsx:69 src/ContainerHeader.jsx:15
 #: src/Containers.jsx:593 src/ImageSearchModal.jsx:159
 msgid "Owner"
@@ -991,7 +991,7 @@ msgstr "Reduzieren"
 msgid "Prune unused containers"
 msgstr "Nicht benötigte Abbilder löschen"
 
-#: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:348
+#: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:363
 msgid "Prune unused images"
 msgstr "Reduzierung nicht benötigter Abbilder"
 
@@ -1003,11 +1003,23 @@ msgstr "Räume Container auf"
 msgid "Pruning images"
 msgstr "Reduziere Abbilder"
 
+#: src/Images.jsx:433
+#, fuzzy
+#| msgid "Pulling"
+msgid "Pull"
+msgstr "Herunterladen"
+
+#: src/Images.jsx:352
+#, fuzzy
+#| msgid "Pull latest image"
+msgid "Pull all images"
+msgstr "Neuestes Image pullen"
+
 #: src/ImageRunModal.jsx:860
 msgid "Pull latest image"
 msgstr "Neuestes Image pullen"
 
-#: src/Images.jsx:323
+#: src/Images.jsx:331
 msgid "Pulling"
 msgstr "Herunterladen"
 
@@ -1144,11 +1156,11 @@ msgstr "Freigegeben"
 msgid "Show"
 msgstr "Anzeigen"
 
-#: src/Images.jsx:300
+#: src/Images.jsx:308
 msgid "Show images"
 msgstr "Abbilder anzeigen"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:257
 msgid "Show intermediate images"
 msgstr "Zwischenabbilder anzeigen"
 
@@ -1282,7 +1294,7 @@ msgstr "Läuft seit $0"
 msgid "Use legacy Docker format"
 msgstr "Veraltetes Docker-Format verwenden"
 
-#: src/Images.jsx:181 src/ImageDetails.jsx:33
+#: src/Images.jsx:188 src/ImageDetails.jsx:33
 msgid "Used by"
 msgstr "Benutzt von"
 
@@ -1377,16 +1389,16 @@ msgstr "Ports"
 msgid "seconds"
 msgstr "Sekunden"
 
-#: src/Images.jsx:132 src/PruneUnusedContainersModal.jsx:28
+#: src/Images.jsx:138 src/PruneUnusedContainersModal.jsx:28
 #: src/Containers.jsx:417 src/ImageSearchModal.jsx:160
 msgid "system"
 msgstr "System"
 
-#: src/Images.jsx:83 src/Images.jsx:90
+#: src/Images.jsx:89 src/Images.jsx:96
 msgid "unused"
 msgstr "ungenutzt"
 
-#: src/Images.jsx:132 src/PruneUnusedContainersModal.jsx:28
+#: src/Images.jsx:138 src/PruneUnusedContainersModal.jsx:28
 #: src/Containers.jsx:417
 msgid "user:"
 msgstr "Benutzer:"

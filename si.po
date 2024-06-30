@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 06:57+0000\n"
+"POT-Creation-Date: 2024-06-30 02:52+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/cockpit-"
@@ -20,13 +20,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.9\n"
 
-#: src/Images.jsx:87
+#: src/Images.jsx:93
 msgid "$0 container"
 msgid_plural "$0 containers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Images.jsx:269
+#: src/Images.jsx:276
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
 msgstr[0] ""
@@ -38,7 +38,7 @@ msgid_plural "$0 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Images.jsx:273
+#: src/Images.jsx:280
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] ""
@@ -232,7 +232,7 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/Images.jsx:400 src/Images.jsx:409 src/ImageRunModal.jsx:1166
+#: src/Images.jsx:419 src/Images.jsx:428 src/ImageRunModal.jsx:1166
 #: src/Containers.jsx:773
 msgid "Create container"
 msgstr ""
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Create pod"
 msgstr ""
 
-#: src/Images.jsx:178 src/util.js:23 src/util.js:26
+#: src/Images.jsx:185 src/util.js:23 src/util.js:26
 #: src/PruneUnusedContainersModal.jsx:65 src/ContainerDetails.jsx:63
 #: src/ImageHistory.jsx:33
 msgid "Created"
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Decrease timeout"
 msgstr ""
 
-#: src/Images.jsx:415 src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
+#: src/Images.jsx:439 src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
 #: src/PodActions.jsx:181 src/Containers.jsx:262
 msgid "Delete"
 msgstr ""
@@ -332,11 +332,11 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
-#: src/Images.jsx:147 src/ImageRunModal.jsx:757 src/Containers.jsx:442
+#: src/Images.jsx:154 src/ImageRunModal.jsx:757 src/Containers.jsx:442
 msgid "Details"
 msgstr ""
 
-#: src/Images.jsx:180
+#: src/Images.jsx:187
 msgid "Disk space"
 msgstr ""
 
@@ -349,7 +349,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/Images.jsx:337
+#: src/Images.jsx:345
 msgid "Download new image"
 msgstr ""
 
@@ -369,7 +369,7 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: src/Images.jsx:57 src/Notification.jsx:42
+#: src/Images.jsx:59 src/Notification.jsx:42
 msgid "Error message"
 msgstr ""
 
@@ -409,7 +409,7 @@ msgstr ""
 msgid "Failed to create container $0"
 msgstr ""
 
-#: src/Images.jsx:55
+#: src/Images.jsx:57
 msgid "Failed to download image $0:$1"
 msgstr ""
 
@@ -578,15 +578,15 @@ msgstr ""
 msgid "Healthy"
 msgstr ""
 
-#: src/Images.jsx:300
+#: src/Images.jsx:308
 msgid "Hide images"
 msgstr ""
 
-#: src/Images.jsx:250
+#: src/Images.jsx:257
 msgid "Hide intermediate images"
 msgstr ""
 
-#: src/Images.jsx:156
+#: src/Images.jsx:163
 msgid "History"
 msgstr ""
 
@@ -602,7 +602,7 @@ msgstr ""
 msgid "Host port help"
 msgstr ""
 
-#: src/Images.jsx:179 src/ContainerDetails.jsx:31
+#: src/Images.jsx:186 src/ContainerDetails.jsx:31
 msgid "ID"
 msgstr ""
 
@@ -642,7 +642,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/Images.jsx:176 src/ImageRunModal.jsx:814 src/ContainerDetails.jsx:35
+#: src/Images.jsx:183 src/ImageRunModal.jsx:814 src/ContainerDetails.jsx:35
 msgid "Image"
 msgstr ""
 
@@ -658,7 +658,7 @@ msgstr ""
 msgid "Image selection help"
 msgstr ""
 
-#: src/Images.jsx:256 src/Images.jsx:286
+#: src/Images.jsx:263 src/Images.jsx:293
 msgid "Images"
 msgstr ""
 
@@ -841,7 +841,7 @@ msgstr ""
 msgid "No environment variables specified"
 msgstr ""
 
-#: src/Images.jsx:183
+#: src/Images.jsx:190
 msgid "No images"
 msgstr ""
 
@@ -849,7 +849,7 @@ msgstr ""
 msgid "No images found"
 msgstr ""
 
-#: src/Images.jsx:187
+#: src/Images.jsx:194
 msgid "No images that match the current filter"
 msgstr ""
 
@@ -885,7 +885,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: src/Images.jsx:177 src/ImageRunModal.jsx:759 src/PodCreateModal.jsx:162
+#: src/Images.jsx:184 src/ImageRunModal.jsx:759 src/PodCreateModal.jsx:162
 #: src/PruneUnusedContainersModal.jsx:69 src/ContainerHeader.jsx:15
 #: src/Containers.jsx:593 src/ImageSearchModal.jsx:159
 msgid "Owner"
@@ -964,7 +964,7 @@ msgstr ""
 msgid "Prune unused containers"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:348
+#: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:363
 msgid "Prune unused images"
 msgstr ""
 
@@ -976,11 +976,19 @@ msgstr ""
 msgid "Pruning images"
 msgstr ""
 
+#: src/Images.jsx:433
+msgid "Pull"
+msgstr ""
+
+#: src/Images.jsx:352
+msgid "Pull all images"
+msgstr ""
+
 #: src/ImageRunModal.jsx:860
 msgid "Pull latest image"
 msgstr ""
 
-#: src/Images.jsx:323
+#: src/Images.jsx:331
 msgid "Pulling"
 msgstr ""
 
@@ -1116,11 +1124,11 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:300
+#: src/Images.jsx:308
 msgid "Show images"
 msgstr ""
 
-#: src/Images.jsx:250
+#: src/Images.jsx:257
 msgid "Show intermediate images"
 msgstr ""
 
@@ -1250,7 +1258,7 @@ msgstr ""
 msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/Images.jsx:181 src/ImageDetails.jsx:33
+#: src/Images.jsx:188 src/ImageDetails.jsx:33
 msgid "Used by"
 msgstr ""
 
@@ -1341,16 +1349,16 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
-#: src/Images.jsx:132 src/PruneUnusedContainersModal.jsx:28
+#: src/Images.jsx:138 src/PruneUnusedContainersModal.jsx:28
 #: src/Containers.jsx:417 src/ImageSearchModal.jsx:160
 msgid "system"
 msgstr ""
 
-#: src/Images.jsx:83 src/Images.jsx:90
+#: src/Images.jsx:89 src/Images.jsx:96
 msgid "unused"
 msgstr ""
 
-#: src/Images.jsx:132 src/PruneUnusedContainersModal.jsx:28
+#: src/Images.jsx:138 src/PruneUnusedContainersModal.jsx:28
 #: src/Containers.jsx:417
 msgid "user:"
 msgstr ""

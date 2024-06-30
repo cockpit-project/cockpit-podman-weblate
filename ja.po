@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 06:57+0000\n"
+"POT-Creation-Date: 2024-06-30 02:52+0000\n"
 "PO-Revision-Date: 2024-02-19 03:30+0000\n"
 "Last-Translator: Mie Yamamoto <myamamot@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -20,12 +20,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.4\n"
 
-#: src/Images.jsx:87
+#: src/Images.jsx:93
 msgid "$0 container"
 msgid_plural "$0 containers"
 msgstr[0] "$0 コンテナー"
 
-#: src/Images.jsx:269
+#: src/Images.jsx:276
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
 msgstr[0] "$0 イメージ合計、$1"
@@ -35,7 +35,7 @@ msgid "$0 second"
 msgid_plural "$0 seconds"
 msgstr[0] "$0 2 番目"
 
-#: src/Images.jsx:273
+#: src/Images.jsx:280
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] "$0 の未使用イメージ、$1"
@@ -231,7 +231,7 @@ msgstr "$0 コンテナーの現在の状態に基づいて、新しいイメー
 msgid "Create and run"
 msgstr "作成して実行する"
 
-#: src/Images.jsx:400 src/Images.jsx:409 src/ImageRunModal.jsx:1166
+#: src/Images.jsx:419 src/Images.jsx:428 src/ImageRunModal.jsx:1166
 #: src/Containers.jsx:773
 msgid "Create container"
 msgstr "コンテナーの作成"
@@ -248,7 +248,7 @@ msgstr "Pod でのコンテナーの作成"
 msgid "Create pod"
 msgstr "Pod の作成"
 
-#: src/Images.jsx:178 src/util.js:23 src/util.js:26
+#: src/Images.jsx:185 src/util.js:23 src/util.js:26
 #: src/PruneUnusedContainersModal.jsx:65 src/ContainerDetails.jsx:63
 #: src/ImageHistory.jsx:33
 msgid "Created"
@@ -286,7 +286,7 @@ msgstr "開始期間を縮小する"
 msgid "Decrease timeout"
 msgstr "タイムアウトを縮小する"
 
-#: src/Images.jsx:415 src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
+#: src/Images.jsx:439 src/ContainerDeleteModal.jsx:33 src/PodActions.jsx:48
 #: src/PodActions.jsx:181 src/Containers.jsx:262
 msgid "Delete"
 msgstr "削除"
@@ -331,11 +331,11 @@ msgstr "実行中のコンテナーを削除すると、その中のすべての
 msgid "Deleting this pod will remove the following containers:"
 msgstr "この Pod を削除すると、以下のコンテナーが削除されます:"
 
-#: src/Images.jsx:147 src/ImageRunModal.jsx:757 src/Containers.jsx:442
+#: src/Images.jsx:154 src/ImageRunModal.jsx:757 src/Containers.jsx:442
 msgid "Details"
 msgstr "詳細"
 
-#: src/Images.jsx:180
+#: src/Images.jsx:187
 msgid "Disk space"
 msgstr "ディスクの空き容量"
 
@@ -349,7 +349,7 @@ msgstr ""
 msgid "Download"
 msgstr "ダウンロード"
 
-#: src/Images.jsx:337
+#: src/Images.jsx:345
 msgid "Download new image"
 msgstr "新規イメージのダウンロード"
 
@@ -369,7 +369,7 @@ msgstr "環境変数"
 msgid "Error"
 msgstr "エラー"
 
-#: src/Images.jsx:57 src/Notification.jsx:42
+#: src/Images.jsx:59 src/Notification.jsx:42
 msgid "Error message"
 msgstr "エラーメッセージ"
 
@@ -409,7 +409,7 @@ msgstr "コンテナー $0 のコミットに失敗しました"
 msgid "Failed to create container $0"
 msgstr "コンテナー $0 の作成に失敗しました"
 
-#: src/Images.jsx:55
+#: src/Images.jsx:57
 msgid "Failed to download image $0:$1"
 msgstr "イメージ $0 のダウンロードに失敗しました: $1"
 
@@ -578,15 +578,15 @@ msgstr "ヘルスチェック失敗時のアクションのヘルプ"
 msgid "Healthy"
 msgstr "健全"
 
-#: src/Images.jsx:300
+#: src/Images.jsx:308
 msgid "Hide images"
 msgstr "イメージを非表示"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:257
 msgid "Hide intermediate images"
 msgstr "中間イメージを非表示"
 
-#: src/Images.jsx:156
+#: src/Images.jsx:163
 msgid "History"
 msgstr "履歴"
 
@@ -602,7 +602,7 @@ msgstr "ホストポート"
 msgid "Host port help"
 msgstr "ホストポートヘルプ"
 
-#: src/Images.jsx:179 src/ContainerDetails.jsx:31
+#: src/Images.jsx:186 src/ContainerDetails.jsx:31
 msgid "ID"
 msgstr "ID"
 
@@ -646,7 +646,7 @@ msgstr "静的に設定された場合は IP アドレスを無視"
 msgid "Ignore MAC address if set statically"
 msgstr "静的に設定された場合は MAC アドレスを無視"
 
-#: src/Images.jsx:176 src/ImageRunModal.jsx:814 src/ContainerDetails.jsx:35
+#: src/Images.jsx:183 src/ImageRunModal.jsx:814 src/ContainerDetails.jsx:35
 msgid "Image"
 msgstr "イメージ"
 
@@ -662,7 +662,7 @@ msgstr "イメージ名が必要です"
 msgid "Image selection help"
 msgstr "イメージ選択のヘルプ"
 
-#: src/Images.jsx:256 src/Images.jsx:286
+#: src/Images.jsx:263 src/Images.jsx:293
 msgid "Images"
 msgstr "イメージ"
 
@@ -849,7 +849,7 @@ msgstr "現在のフィルターに一致するコンテナーがありません
 msgid "No environment variables specified"
 msgstr "環境変数が指定されていません"
 
-#: src/Images.jsx:183
+#: src/Images.jsx:190
 msgid "No images"
 msgstr "イメージなし"
 
@@ -857,7 +857,7 @@ msgstr "イメージなし"
 msgid "No images found"
 msgstr "イメージが見つかりません"
 
-#: src/Images.jsx:187
+#: src/Images.jsx:194
 msgid "No images that match the current filter"
 msgstr "現在のフィルターに一致するイメージがありません"
 
@@ -893,7 +893,7 @@ msgstr "実行のみ"
 msgid "Options"
 msgstr "オプション"
 
-#: src/Images.jsx:177 src/ImageRunModal.jsx:759 src/PodCreateModal.jsx:162
+#: src/Images.jsx:184 src/ImageRunModal.jsx:759 src/PodCreateModal.jsx:162
 #: src/PruneUnusedContainersModal.jsx:69 src/ContainerHeader.jsx:15
 #: src/Containers.jsx:593 src/ImageSearchModal.jsx:159
 msgid "Owner"
@@ -974,7 +974,7 @@ msgstr "削除"
 msgid "Prune unused containers"
 msgstr "使用していないコンテナーの削除"
 
-#: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:348
+#: src/PruneUnusedImagesModal.jsx:88 src/Images.jsx:363
 msgid "Prune unused images"
 msgstr "未使用イメージの削除"
 
@@ -986,11 +986,23 @@ msgstr "コンテナーに prune を実行中"
 msgid "Pruning images"
 msgstr "イメージを削除中"
 
+#: src/Images.jsx:433
+#, fuzzy
+#| msgid "Pulling"
+msgid "Pull"
+msgstr "プル中"
+
+#: src/Images.jsx:352
+#, fuzzy
+#| msgid "Pull latest image"
+msgid "Pull all images"
+msgstr "最新イメージのプル"
+
 #: src/ImageRunModal.jsx:860
 msgid "Pull latest image"
 msgstr "最新イメージのプル"
 
-#: src/Images.jsx:323
+#: src/Images.jsx:331
 msgid "Pulling"
 msgstr "プル中"
 
@@ -1129,11 +1141,11 @@ msgstr "共有"
 msgid "Show"
 msgstr "表示"
 
-#: src/Images.jsx:300
+#: src/Images.jsx:308
 msgid "Show images"
 msgstr "イメージの表示"
 
-#: src/Images.jsx:250
+#: src/Images.jsx:257
 msgid "Show intermediate images"
 msgstr "中間イメージの表示"
 
@@ -1265,7 +1277,7 @@ msgstr "$0 から稼働中"
 msgid "Use legacy Docker format"
 msgstr "レガシーの Docker フォーマットの使用"
 
-#: src/Images.jsx:181 src/ImageDetails.jsx:33
+#: src/Images.jsx:188 src/ImageDetails.jsx:33
 msgid "Used by"
 msgstr "使用中"
 
@@ -1356,16 +1368,16 @@ msgstr "ポート"
 msgid "seconds"
 msgstr "秒"
 
-#: src/Images.jsx:132 src/PruneUnusedContainersModal.jsx:28
+#: src/Images.jsx:138 src/PruneUnusedContainersModal.jsx:28
 #: src/Containers.jsx:417 src/ImageSearchModal.jsx:160
 msgid "system"
 msgstr "システム"
 
-#: src/Images.jsx:83 src/Images.jsx:90
+#: src/Images.jsx:89 src/Images.jsx:96
 msgid "unused"
 msgstr "未使用"
 
-#: src/Images.jsx:132 src/PruneUnusedContainersModal.jsx:28
+#: src/Images.jsx:138 src/PruneUnusedContainersModal.jsx:28
 #: src/Containers.jsx:417
 msgid "user:"
 msgstr "ユーザー:"
