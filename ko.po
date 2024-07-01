@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-30 02:52+0000\n"
-"PO-Revision-Date: 2024-05-10 07:36+0000\n"
+"PO-Revision-Date: 2024-07-02 04:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/Images.jsx:93
 msgid "$0 container"
@@ -983,16 +983,12 @@ msgid "Pruning images"
 msgstr "프루닝 이미지"
 
 #: src/Images.jsx:433
-#, fuzzy
-#| msgid "Pulling"
 msgid "Pull"
-msgstr "당기기"
+msgstr "당기다"
 
 #: src/Images.jsx:352
-#, fuzzy
-#| msgid "Pull latest image"
 msgid "Pull all images"
-msgstr "최신 이미지 가져오기"
+msgstr "모든 이미지 가져오기"
 
 #: src/ImageRunModal.jsx:860
 msgid "Pull latest image"
