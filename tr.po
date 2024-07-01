@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-30 02:52+0000\n"
-"PO-Revision-Date: 2024-05-08 19:36+0000\n"
+"PO-Revision-Date: 2024-07-02 04:36+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/Images.jsx:93
 msgid "$0 container"
@@ -991,10 +991,8 @@ msgid "Pruning images"
 msgstr "Kalıplar ayıklanıyor"
 
 #: src/Images.jsx:433
-#, fuzzy
-#| msgid "Pulling"
 msgid "Pull"
-msgstr "Çekiliyor"
+msgstr "Çek"
 
 #: src/Images.jsx:352
 #, fuzzy
