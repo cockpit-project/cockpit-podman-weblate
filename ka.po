@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-30 02:52+0000\n"
-"PO-Revision-Date: 2024-05-07 18:52+0000\n"
+"PO-Revision-Date: 2024-07-02 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/Images.jsx:93
 msgid "$0 container"
@@ -993,16 +993,12 @@ msgid "Pruning images"
 msgstr "გამოსახულებების წაკვეთა"
 
 #: src/Images.jsx:433
-#, fuzzy
-#| msgid "Pulling"
 msgid "Pull"
 msgstr "გამოწევა"
 
 #: src/Images.jsx:352
-#, fuzzy
-#| msgid "Pull latest image"
 msgid "Pull all images"
-msgstr "უახლესი გამოსახულების წამოღება"
+msgstr "ყველა დისკის ასლის პული"
 
 #: src/ImageRunModal.jsx:860
 msgid "Pull latest image"
