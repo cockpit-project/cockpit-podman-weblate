@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-30 02:52+0000\n"
 "PO-Revision-Date: 2024-07-02 04:36+0000\n"
-"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/tr/>\n"
 "Language: tr\n"
@@ -995,10 +995,8 @@ msgid "Pull"
 msgstr "Çek"
 
 #: src/Images.jsx:352
-#, fuzzy
-#| msgid "Pull latest image"
 msgid "Pull all images"
-msgstr "Son kalıbı çek"
+msgstr "Tüm kalıpları çek"
 
 #: src/ImageRunModal.jsx:860
 msgid "Pull latest image"
