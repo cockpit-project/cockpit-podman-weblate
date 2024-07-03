@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-02 02:49+0000\n"
+"POT-Creation-Date: 2024-07-03 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-02 02:49+0000\n"
+"POT-Creation-Date: 2024-07-03 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,7 +198,7 @@ msgstr ""
 msgid "Commit container"
 msgstr ""
 
-#: src/util.js:23
+#: src/util.js:24
 msgid "Configured"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgstr ""
 msgid "Create pod"
 msgstr ""
 
-#: src/Images.jsx:185 src/util.js:23 src/util.js:26
+#: src/Images.jsx:185 src/util.js:24 src/util.js:27
 #: src/PruneUnusedContainersModal.jsx:65 src/ContainerDetails.jsx:63
 #: src/ImageHistory.jsx:33
 msgid "Created"
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Environment variables"
 msgstr ""
 
-#: src/util.js:26
+#: src/util.js:27
 msgid "Error"
 msgstr ""
 
@@ -415,7 +415,7 @@ msgstr ""
 msgid "Example: $0"
 msgstr ""
 
-#: src/util.js:23 src/util.js:26 src/ContainerDetails.jsx:14
+#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:14
 msgid "Exited"
 msgstr ""
 
@@ -942,7 +942,7 @@ msgstr ""
 msgid "Pause container when creating image"
 msgstr ""
 
-#: src/util.js:23 src/util.js:26
+#: src/util.js:24 src/util.js:27
 msgid "Paused"
 msgstr ""
 
@@ -1038,7 +1038,7 @@ msgstr ""
 msgid "Removes selected non-running containers"
 msgstr ""
 
-#: src/util.js:23
+#: src/util.js:24
 msgid "Removing"
 msgstr ""
 
@@ -1054,7 +1054,7 @@ msgstr ""
 msgid "Resource limits can be set"
 msgstr ""
 
-#: src/ImageRunModal.jsx:59 src/util.js:23 src/PodActions.jsx:110
+#: src/ImageRunModal.jsx:59 src/util.js:24 src/PodActions.jsx:110
 #: src/ContainerHealthLogs.jsx:40 src/Containers.jsx:178
 msgid "Restart"
 msgstr ""
@@ -1110,7 +1110,7 @@ msgstr ""
 msgid "Run health check"
 msgstr ""
 
-#: src/util.js:23 src/util.js:26 src/ImageUsedBy.jsx:35
+#: src/util.js:24 src/util.js:27 src/ImageUsedBy.jsx:35
 msgid "Running"
 msgstr ""
 
@@ -1207,7 +1207,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: src/util.js:23 src/util.js:26
+#: src/util.js:24 src/util.js:27
 msgid "Stopped"
 msgstr ""
 
@@ -1281,7 +1281,7 @@ msgid "Unhealthy"
 msgstr ""
 
 #: src/ContainerDetails.jsx:12
-msgid "Up since $0"
+msgid "Up since:"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:127
