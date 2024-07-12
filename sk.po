@@ -5,10 +5,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 02:51+0000\n"
-"PO-Revision-Date: 2024-07-04 20:36+0000\n"
+"PO-Revision-Date: 2024-07-13 13:38+0000\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
-"Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sk/>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +33,9 @@ msgstr[2] "$0 obrazov celkom, $1"
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 sekunda"
+msgstr[1] "$0 sekundy"
+msgstr[2] "$0 sekúnd"
 
 #: src/Images.jsx:281
 msgid "$0 unused image, $1"
@@ -46,7 +46,7 @@ msgstr[2] "$0 nepoužitých obrazov, $1"
 
 #: src/Containers.jsx:379
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "$0% z limitu $1"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
@@ -113,6 +113,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"Zdieľanie procesora určuje prioritu spustených kontajnerov. Predvolená "
+"priorita je 1024. Vyššie číslo uprednostňuje tento kontajner. Nižšie číslo "
+"jeho prednosť znižuje."
 
 #: src/ContainerDeleteModal.jsx:36 src/PodActions.jsx:52
 #: src/ContainerRenameModal.jsx:99 src/ContainerCheckpointModal.jsx:52
@@ -159,20 +162,16 @@ msgid "Command"
 msgstr "Príkaz"
 
 #: src/ImageHistory.jsx:34
-#, fuzzy
-#| msgid "Commit"
 msgid "Comments"
-msgstr "Vytvoriť"
+msgstr "Komentáre"
 
 #: src/Containers.jsx:243 src/ContainerCommitModal.jsx:146
 msgid "Commit"
 msgstr "Vytvoriť"
 
 #: src/ContainerCommitModal.jsx:138
-#, fuzzy
-#| msgid "No containers"
 msgid "Commit container"
-msgstr "Žiadne kontajnery"
+msgstr "Odoslať kontajner"
 
 #: src/util.js:24
 msgid "Configured"
@@ -203,30 +202,24 @@ msgid "Container name"
 msgstr "Názov kontajneru"
 
 #: src/ContainerRenameModal.jsx:30 src/ContainerRenameModal.jsx:41
-#, fuzzy
-#| msgid "Container name"
 msgid "Container name is required."
-msgstr "Názov kontajneru"
+msgstr "Je potrebné zadať názov kontajneru."
 
 #: src/Volume.jsx:52
 msgid "Container path"
 msgstr "Cesta v kontajneri"
 
 #: src/Volume.jsx:25
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container path must not be empty"
-msgstr "Kontajner sa nepodarilo vytvoriť"
+msgstr "Cesta ku kontajneru nesmie byť prázdna"
 
 #: src/PublishPort.jsx:106
 msgid "Container port"
 msgstr "Port kontajneru"
 
 #: src/PublishPort.jsx:38
-#, fuzzy
-#| msgid "Container failed to be created"
 msgid "Container port must not be empty"
-msgstr "Kontajner sa nepodarilo vytvoriť"
+msgstr "Port kontajnera nesmie byť prázdny"
 
 #: src/Containers.jsx:810 src/Containers.jsx:816 src/Containers.jsx:846
 msgid "Containers"
@@ -238,7 +231,7 @@ msgstr "Vytvoriť"
 
 #: src/ContainerCommitModal.jsx:139
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Vytvoriť nový obraz založený na súčasnom stave kontajnera $0."
 
 #: src/ImageRunModal.jsx:1170
 msgid "Create and run"
@@ -267,44 +260,36 @@ msgid "Created"
 msgstr "Vytvorený"
 
 #: src/ImageHistory.jsx:34
-#, fuzzy
-#| msgid "Created"
 msgid "Created by"
-msgstr "Vytvorený"
+msgstr "Vytvoril(a)"
 
 #: src/ImageRunModal.jsx:940
-#, fuzzy
-#| msgid "CPU shares"
 msgid "Decrease CPU shares"
-msgstr "CPU podiely"
+msgstr "Znížiť podiel na procesore"
 
 #: src/ImageRunModal.jsx:1050
 msgid "Decrease interval"
-msgstr ""
+msgstr "Znížiť interval"
 
 #: src/ImageRunModal.jsx:979
-#, fuzzy
-#| msgid "Maximum retries"
 msgid "Decrease maximum retries"
-msgstr "Maximum pokusov"
+msgstr "Znížiť limit počtu opakovaných pokusov"
 
 #: src/ImageRunModal.jsx:898
 msgid "Decrease memory"
-msgstr ""
+msgstr "Zmenšiť pamäť"
 
 #: src/ImageRunModal.jsx:1124
 msgid "Decrease retries"
-msgstr ""
+msgstr "Znížiť počet opätovných pokusov"
 
 #: src/ImageRunModal.jsx:1100
-#, fuzzy
-#| msgid "Start podman"
 msgid "Decrease start period"
-msgstr "Spustiť podman"
+msgstr "Znížiť periódu štartu"
 
 #: src/ImageRunModal.jsx:1075
 msgid "Decrease timeout"
-msgstr ""
+msgstr "Znížiť časový limit"
 
 #: src/ContainerDeleteModal.jsx:35 src/PodActions.jsx:48 src/PodActions.jsx:181
 #: src/Containers.jsx:262 src/Images.jsx:440
@@ -312,28 +297,20 @@ msgid "Delete"
 msgstr "Odstrániť"
 
 #: src/ImageDeleteModal.jsx:95
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0 image?"
-msgstr "Odstrániť $0"
+msgstr "Odstrániť obraz $0?"
 
 #: src/ContainerDeleteModal.jsx:33 src/ForceRemoveModal.jsx:20
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete $0?"
-msgstr "Odstrániť $0"
+msgstr "Odstrániť $0?"
 
 #: src/ImageDeleteModal.jsx:99
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete image"
-msgstr "Zmazať označené obrazy"
+msgstr "Odstrániť obraz"
 
 #: src/PodActions.jsx:43
-#, fuzzy
-#| msgid "Delete $0"
 msgid "Delete pod $0?"
-msgstr "Odstrániť $0"
+msgstr "Odstrániť pod $0?"
 
 #: src/ImageDeleteModal.jsx:99
 msgid "Delete tagged images"
@@ -352,10 +329,9 @@ msgid "Deleting a container will erase all data in it."
 msgstr "Zmazaním kontajneru sa zmažú všetky dáta v ňom."
 
 #: src/Containers.jsx:71
-#, fuzzy
-#| msgid "Deleting a container will erase all data in it."
 msgid "Deleting a running container will erase all data in it."
-msgstr "Zmazaním kontajneru sa zmažú všetky dáta v ňom."
+msgstr ""
+"Odstránením spusteného kontajnera dôjde ku zmazaniu všetkých údajov v ňom."
 
 #: src/PodActions.jsx:63
 msgid "Deleting this pod will remove the following containers:"
@@ -367,12 +343,12 @@ msgstr "Podrobnosti"
 
 #: src/Images.jsx:188
 msgid "Disk space"
-msgstr ""
+msgstr "Miesto na disku"
 
 #: src/ContainerCommitModal.jsx:128
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr ""
+msgstr "Formát Docker sa hodí pre zdieľanie obrazu s enginom Docker alebo Moby"
 
 #: src/ImageSearchModal.jsx:151
 msgid "Download"
@@ -384,7 +360,7 @@ msgstr "Stiahnuť nový obraz"
 
 #: src/PodActions.jsx:59
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "Prázdny pod $0 bude nenávratne odstránený."
 
 #: src/ImageRunModal.jsx:867 src/ImageDetails.jsx:23
 msgid "Entrypoint"
@@ -404,7 +380,7 @@ msgstr "Chybová správa"
 
 #: src/ContainerTerminal.jsx:262
 msgid "Error occurred while connecting console"
-msgstr ""
+msgstr "Počas pripájania ku konzole došlo k chybe"
 
 #: src/ContainerCommitModal.jsx:109
 msgid "Example, Your Name <yourname@example.com>"
@@ -420,7 +396,7 @@ msgstr "Skončený"
 
 #: src/ContainerHealthLogs.jsx:117
 msgid "Failed health run"
-msgstr ""
+msgstr "Nepodarilo sa spustiť kontrolu zdravia"
 
 #: src/ContainerCheckpointModal.jsx:30
 msgid "Failed to checkpoint container $0"
@@ -432,7 +408,7 @@ msgstr "Nepodarilo sa zmazať kontajner"
 
 #: src/ContainerCommitModal.jsx:83
 msgid "Failed to commit container $0"
-msgstr ""
+msgstr "Nepodarilo sa odoslať kontajner $0"
 
 #: src/ImageRunModal.jsx:313
 msgid "Failed to create container $0"
@@ -487,10 +463,8 @@ msgid "Failed to remove image $0"
 msgstr "Nepodarilo sa zmazať obraz $0"
 
 #: src/ContainerRenameModal.jsx:56
-#, fuzzy
-#| msgid "Failed to resume container $0"
 msgid "Failed to rename container $0"
-msgstr "Nepodarilo sa spustiť kontajner $0"
+msgstr "Nepodarilo sa premenovať kontajner $0"
 
 #: src/Containers.jsx:134
 msgid "Failed to restart container $0"
