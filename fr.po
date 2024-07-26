@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 02:51+0000\n"
-"PO-Revision-Date: 2024-07-26 11:27+0000\n"
+"PO-Revision-Date: 2024-07-27 11:38+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -453,7 +453,7 @@ msgstr "Échec de la suppression des images non utilisées"
 
 #: src/ImageRunModal.jsx:319
 msgid "Failed to pull image $0"
-msgstr "Échec d’extraction de l’image $0"
+msgstr "Échec du téléchargement de l'image $0"
 
 #: src/ContainerDeleteModal.jsx:23
 msgid "Failed to remove container $0"
@@ -977,44 +977,36 @@ msgid "Prune"
 msgstr "Suppression de certaines images"
 
 #: src/Containers.jsx:301 src/PruneUnusedContainersModal.jsx:89
-#, fuzzy
-#| msgid "Prune unused images"
 msgid "Prune unused containers"
-msgstr "Suppression d’images non utilisées"
+msgstr "Supprimer les conteneurs inutilisés"
 
 #: src/PruneUnusedImagesModal.jsx:90 src/Images.jsx:365
 msgid "Prune unused images"
 msgstr "Suppression d’images non utilisées"
 
 #: src/PruneUnusedContainersModal.jsx:92 src/PruneUnusedContainersModal.jsx:96
-#, fuzzy
-#| msgid "No running containers"
 msgid "Pruning containers"
-msgstr "Aucun conteneur en cours d’exécution"
+msgstr "Suppression de conteneurs"
 
 #: src/PruneUnusedImagesModal.jsx:93 src/PruneUnusedImagesModal.jsx:97
 msgid "Pruning images"
 msgstr "Suppression de certaines images"
 
 #: src/Images.jsx:435
-#, fuzzy
-#| msgid "Pulling"
 msgid "Pull"
-msgstr "Extraction"
+msgstr "Télécharger"
 
 #: src/Images.jsx:354
-#, fuzzy
-#| msgid "Pull latest image"
 msgid "Pull all images"
-msgstr "Extraire la dernière image"
+msgstr "Télécharger toutes les images"
 
 #: src/ImageRunModal.jsx:861
 msgid "Pull latest image"
-msgstr "Extraire la dernière image"
+msgstr "Télécharger la dernière image"
 
 #: src/Images.jsx:333
 msgid "Pulling"
-msgstr "Extraction"
+msgstr "Téléchargement"
 
 #: src/ContainerIntegration.jsx:42
 msgid "Read-only access"
@@ -1029,10 +1021,8 @@ msgid "Remove item"
 msgstr "Supprimer l'élément"
 
 #: src/PruneUnusedContainersModal.jsx:101
-#, fuzzy
-#| msgid "Images and running containers"
 msgid "Removes selected non-running containers"
-msgstr "Images et conteneurs en cours d’exécution"
+msgstr "Supprime les conteneurs inactifs sélectionnés"
 
 #: src/util.js:24
 msgid "Removing"
@@ -1285,10 +1275,8 @@ msgid "Unhealthy"
 msgstr "Non acceptable"
 
 #: src/ContainerDetails.jsx:14
-#, fuzzy
-#| msgid "Up since $0"
 msgid "Up since:"
-msgstr "En cours d’exécution depuis $0"
+msgstr "S'exécute depuis :"
 
 #: src/ContainerCommitModal.jsx:129
 msgid "Use legacy Docker format"
@@ -1353,16 +1341,12 @@ msgid "in"
 msgstr "dans"
 
 #: src/ImageDeleteModal.jsx:82
-#, fuzzy
-#| msgid "Hide intermediate images"
 msgid "intermediate"
-msgstr "Cacher les images intermédiaires"
+msgstr "intermédiaire"
 
 #: src/ImageDeleteModal.jsx:62
-#, fuzzy
-#| msgid "Hide intermediate images"
 msgid "intermediate image"
-msgstr "Cacher les images intermédiaires"
+msgstr "image intermédiaire"
 
 #: src/Containers.jsx:358 src/Containers.jsx:359
 msgid "n/a"
