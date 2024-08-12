@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-07 02:52+0000\n"
-"PO-Revision-Date: 2024-05-20 13:36+0000\n"
+"PO-Revision-Date: 2024-08-13 04:40+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/zh_CN/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/Images.jsx:95
 msgid "$0 container"
@@ -975,16 +975,12 @@ msgid "Pruning images"
 msgstr "删除镜像"
 
 #: src/Images.jsx:435
-#, fuzzy
-#| msgid "Pulling"
 msgid "Pull"
-msgstr "正在拉取"
+msgstr "拉取"
 
 #: src/Images.jsx:354
-#, fuzzy
-#| msgid "Pull latest image"
 msgid "Pull all images"
-msgstr "拉取最新的镜像"
+msgstr "拉取所有镜像"
 
 #: src/ImageRunModal.jsx:861
 msgid "Pull latest image"
@@ -1255,10 +1251,8 @@ msgid "Unhealthy"
 msgstr "不健康"
 
 #: src/ContainerDetails.jsx:14
-#, fuzzy
-#| msgid "Up since $0"
 msgid "Up since:"
-msgstr "自 $0 开始运行"
+msgstr "运行时间:"
 
 #: src/ContainerCommitModal.jsx:129
 msgid "Use legacy Docker format"
