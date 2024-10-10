@@ -15,15 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-11 08:38+0000\n"
+"Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
+"fedoraproject.org>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/Images.jsx:95
 msgid "$0 container"
@@ -40,8 +42,8 @@ msgstr[1] ""
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 n tasint"
+msgstr[1] "$0 n tasinin"
 
 #: src/Images.jsx:282
 msgid "$0 unused image, $1"
@@ -77,7 +79,7 @@ msgstr ""
 #: src/ImageRunModal.jsx:762 src/Containers.jsx:756
 #: src/ImageDeleteModal.jsx:107 src/ContainerHeader.jsx:23
 msgid "All"
-msgstr ""
+msgstr "Akk"
 
 #: src/ImageSearchModal.jsx:178
 msgid "All registries"
@@ -89,11 +91,11 @@ msgstr ""
 
 #: src/PodActions.jsx:57
 msgid "An error occurred"
-msgstr ""
+msgstr "Teḍra-d tuccḍa"
 
 #: src/ContainerCommitModal.jsx:107
 msgid "Author"
-msgstr ""
+msgstr "Ameskar"
 
 #: src/app.jsx:643
 msgid "Automatically start podman on boot"
@@ -125,7 +127,7 @@ msgstr ""
 #: src/PodActions.jsx:52 src/ForceRemoveModal.jsx:27 src/PodCreateModal.jsx:215
 #: src/ContainerRenameModal.jsx:99 src/ContainerRestoreModal.jsx:55
 msgid "Cancel"
-msgstr ""
+msgstr "Sefsex"
 
 #: src/Containers.jsx:287
 msgid "Checking health"
@@ -159,7 +161,7 @@ msgstr ""
 #: src/ContainerCommitModal.jsx:114 src/ContainerDetails.jsx:41
 #: src/ContainerHealthLogs.jsx:62
 msgid "Command"
-msgstr ""
+msgstr "Taladna"
 
 #: src/ImageHistory.jsx:34
 msgid "Comments"
@@ -227,7 +229,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1234 src/PodCreateModal.jsx:212
 msgid "Create"
-msgstr ""
+msgstr "Snulfu-d"
 
 #: src/ContainerCommitModal.jsx:139
 msgid "Create a new image based on the current state of the $0 container."
@@ -262,7 +264,7 @@ msgstr ""
 
 #: src/ImageHistory.jsx:34
 msgid "Created by"
-msgstr ""
+msgstr "Yesnulfa-t-id"
 
 #: src/ImageRunModal.jsx:1001
 msgid "Decrease CPU shares"
@@ -295,7 +297,7 @@ msgstr ""
 #: src/ContainerDeleteModal.jsx:35 src/Images.jsx:441 src/Containers.jsx:262
 #: src/PodActions.jsx:48 src/PodActions.jsx:181
 msgid "Delete"
-msgstr ""
+msgstr "Kkes"
 
 #: src/ImageDeleteModal.jsx:95
 msgid "Delete $0 image?"
@@ -352,7 +354,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:151
 msgid "Download"
-msgstr ""
+msgstr "Sider"
 
 #: src/Images.jsx:347
 msgid "Download new image"
@@ -372,11 +374,11 @@ msgstr ""
 
 #: src/util.js:27
 msgid "Error"
-msgstr ""
+msgstr "Tuccḍa"
 
 #: src/Notification.jsx:43 src/Images.jsx:61
 msgid "Error message"
-msgstr ""
+msgstr "Izen n tuccḍa"
 
 #: src/ContainerTerminal.jsx:262
 msgid "Error occurred while connecting console"
@@ -388,7 +390,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:883
 msgid "Example: $0"
-msgstr ""
+msgstr "Amedya: $0"
 
 #: src/ContainerDetails.jsx:16 src/util.js:24 src/util.js:27
 msgid "Exited"
@@ -549,11 +551,11 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:970
 msgid "GB"
-msgstr ""
+msgstr "GAṬ"
 
 #: src/ContainerDetails.jsx:53
 msgid "Gateway"
-msgstr ""
+msgstr "Tiqenṭert"
 
 #: src/ImageRunModal.jsx:1087 src/Containers.jsx:468
 msgid "Health check"
@@ -593,7 +595,7 @@ msgstr ""
 
 #: src/Images.jsx:165
 msgid "History"
-msgstr ""
+msgstr "Amazray"
 
 #: src/Volume.jsx:38
 msgid "Host path"
@@ -609,11 +611,11 @@ msgstr ""
 
 #: src/Images.jsx:188 src/ContainerDetails.jsx:33
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/PublishPort.jsx:56 src/ContainerDetails.jsx:49
 msgid "IP address"
-msgstr ""
+msgstr "Tansa IP"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
@@ -723,7 +725,7 @@ msgstr ""
 
 #: src/Env.jsx:58
 msgid "Key"
-msgstr ""
+msgstr "Tasarutt"
 
 #: src/Env.jsx:20
 msgid "Key must not be empty"
@@ -755,7 +757,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:771
 msgid "Local"
-msgstr ""
+msgstr "Adigan"
 
 #: src/ImageRunModal.jsx:569
 msgid "Local images"
@@ -767,11 +769,11 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:57
 msgid "MAC address"
-msgstr ""
+msgstr "Tansa MAC"
 
 #: src/ImageRunModal.jsx:969
 msgid "MB"
-msgstr ""
+msgstr "MAṬ"
 
 #: src/ImageRunModal.jsx:1033
 msgid "Maximum retries"
@@ -779,7 +781,7 @@ msgstr ""
 
 #: src/Containers.jsx:539 src/Containers.jsx:542 src/Containers.jsx:595
 msgid "Memory"
-msgstr ""
+msgstr "Takatut"
 
 #: src/ImageRunModal.jsx:946
 msgid "Memory limit"
@@ -791,7 +793,7 @@ msgstr ""
 
 #: src/Volume.jsx:66
 msgid "Mode"
-msgstr ""
+msgstr "Askar"
 
 #: src/ImageDeleteModal.jsx:105
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
@@ -804,7 +806,7 @@ msgstr ""
 #: src/PruneUnusedContainersModal.jsx:66 src/ImageRunModal.jsx:801
 #: src/PodCreateModal.jsx:146
 msgid "Name"
-msgstr ""
+msgstr "Isem"
 
 #: src/ImageRunModal.jsx:672
 msgid "Name already in use"
@@ -820,7 +822,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1025
 msgid "No"
-msgstr ""
+msgstr "Uhu"
 
 #: src/ImageRunModal.jsx:59 src/ContainerHealthLogs.jsx:41
 msgid "No action"
@@ -888,14 +890,14 @@ msgstr ""
 
 #: src/ContainerCommitModal.jsx:120
 msgid "Options"
-msgstr ""
+msgstr "Tinefrunin"
 
 #: src/PruneUnusedContainersModal.jsx:71 src/Images.jsx:186
 #: src/ImageRunModal.jsx:821 src/Containers.jsx:593
 #: src/ImageSearchModal.jsx:161 src/PodCreateModal.jsx:164
 #: src/ContainerHeader.jsx:17
 msgid "Owner"
-msgstr ""
+msgstr "Bab-is"
 
 #: src/ImageRunModal.jsx:823
 msgid "Owner help"
@@ -912,7 +914,7 @@ msgstr ""
 
 #: src/Containers.jsx:191 src/PodActions.jsx:166
 msgid "Pause"
-msgstr ""
+msgstr "Seḥbes"
 
 #: src/ContainerCommitModal.jsx:124
 msgid "Pause container when creating image"
@@ -920,7 +922,7 @@ msgstr ""
 
 #: src/util.js:24 src/util.js:27
 msgid "Paused"
-msgstr ""
+msgstr "Yettṛaǧu"
 
 #: src/PodCreateModal.jsx:91
 msgid "Pod failed to be created"
@@ -932,7 +934,7 @@ msgstr ""
 
 #: org.cockpit-project.podman.metainfo.xml:5
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: src/index.html:20 src/manifest.json:0
 msgid "Podman containers"
@@ -948,7 +950,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:41 src/ContainerIntegration.jsx:150
 msgid "Ports"
-msgstr ""
+msgstr "Tiwwura"
 
 #: src/ImageRunModal.jsx:840
 msgid "Ports under 1024 can be mapped"
@@ -1016,11 +1018,11 @@ msgstr ""
 
 #: src/util.js:24
 msgid "Removing"
-msgstr ""
+msgstr "Tukksa"
 
 #: src/Containers.jsx:161 src/ContainerRenameModal.jsx:94
 msgid "Rename"
-msgstr ""
+msgstr "Snifel isem"
 
 #: src/ContainerRenameModal.jsx:87
 msgid "Rename container $0"
@@ -1033,7 +1035,7 @@ msgstr ""
 #: src/ImageRunModal.jsx:60 src/Containers.jsx:179 src/PodActions.jsx:110
 #: src/util.js:24 src/ContainerHealthLogs.jsx:42
 msgid "Restart"
-msgstr ""
+msgstr "Ales asenker"
 
 #: src/ImageRunModal.jsx:1010
 msgid "Restart policy"
@@ -1092,7 +1094,7 @@ msgstr ""
 
 #: src/Volume.jsx:73
 msgid "SELinux"
-msgstr ""
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:169
 msgid "Search by name or description"
@@ -1116,7 +1118,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:185
 msgid "Searching..."
-msgstr ""
+msgstr "Yettnadi..."
 
 #: src/ImageRunModal.jsx:884
 msgid "Searching: $0"
@@ -1128,7 +1130,7 @@ msgstr ""
 
 #: src/Containers.jsx:752
 msgid "Show"
-msgstr ""
+msgstr "Sken"
 
 #: src/Images.jsx:310
 msgid "Show images"
@@ -1148,11 +1150,11 @@ msgstr ""
 
 #: src/ImageHistory.jsx:34
 msgid "Size"
-msgstr ""
+msgstr "Teɣzi"
 
 #: src/Containers.jsx:218 src/PodActions.jsx:136 src/app.jsx:685
 msgid "Start"
-msgstr ""
+msgstr "Sekker"
 
 #: src/ImageRunModal.jsx:1144 src/ContainerHealthLogs.jsx:74
 msgid "Start period"
@@ -1181,7 +1183,7 @@ msgstr ""
 #: src/ImageRunModal.jsx:61 src/Containers.jsx:171 src/PodActions.jsx:88
 #: src/ContainerHealthLogs.jsx:43
 msgid "Stop"
-msgstr ""
+msgstr "Seḥbes"
 
 #: src/util.js:24 src/util.js:27
 msgid "Stopped"
@@ -1194,7 +1196,7 @@ msgstr ""
 #: src/ImageRunModal.jsx:828 src/ImageRunModal.jsx:863
 #: src/PodCreateModal.jsx:166 src/ContainerHeader.jsx:22
 msgid "System"
-msgstr ""
+msgstr "Anagraw"
 
 #: src/app.jsx:692
 msgid "System Podman service is also available"
@@ -1202,15 +1204,15 @@ msgstr ""
 
 #: src/PublishPort.jsx:129
 msgid "TCP"
-msgstr ""
+msgstr "TCP"
 
 #: src/ContainerCommitModal.jsx:100 src/ImageSearchModal.jsx:141
 msgid "Tag"
-msgstr ""
+msgstr "Tibzimin"
 
 #: src/ImageDetails.jsx:29
 msgid "Tags"
-msgstr ""
+msgstr "Tibzimin"
 
 #: org.cockpit-project.podman.metainfo.xml:10
 msgid "The Cockpit user interface for Podman containers."
@@ -1246,7 +1248,7 @@ msgstr ""
 
 #: src/PublishPort.jsx:130
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: src/ImageHistory.jsx:60
 msgid "Unable to load image history"
@@ -1270,7 +1272,7 @@ msgstr ""
 
 #: src/app.jsx:69 src/app.jsx:530
 msgid "User"
-msgstr ""
+msgstr "Aseqdac"
 
 #: src/app.jsx:699
 msgid "User Podman service is also available"
@@ -1279,11 +1281,11 @@ msgstr ""
 #: src/ImageRunModal.jsx:845 src/ImageRunModal.jsx:869
 #: src/PodCreateModal.jsx:171
 msgid "User:"
-msgstr ""
+msgstr "Aseqdac:"
 
 #: src/Env.jsx:74
 msgid "Value"
-msgstr ""
+msgstr "Azal"
 
 #: src/ImageRunModal.jsx:1066 src/PodCreateModal.jsx:192
 #: src/ContainerIntegration.jsx:154
@@ -1320,7 +1322,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:174
 msgid "in"
-msgstr ""
+msgstr "deg"
 
 #: src/ImageDeleteModal.jsx:82
 msgid "intermediate"
@@ -1344,21 +1346,21 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "podman"
-msgstr ""
+msgstr "podman"
 
 #: src/Containers.jsx:559
 msgid "ports"
-msgstr ""
+msgstr "tiwwura"
 
 #: src/ImageRunModal.jsx:1116 src/ImageRunModal.jsx:1141
 #: src/ImageRunModal.jsx:1166
 msgid "seconds"
-msgstr ""
+msgstr "tasinin"
 
 #: src/PruneUnusedContainersModal.jsx:30 src/Images.jsx:140
 #: src/Containers.jsx:417 src/ImageSearchModal.jsx:162
 msgid "system"
-msgstr ""
+msgstr "anagraw"
 
 #: src/Images.jsx:91 src/Images.jsx:98
 msgid "unused"
@@ -1367,7 +1369,7 @@ msgstr ""
 #: src/PruneUnusedContainersModal.jsx:30 src/Images.jsx:140
 #: src/Containers.jsx:417
 msgid "user:"
-msgstr ""
+msgstr "aseqdac:"
 
 #: src/Containers.jsx:574
 msgid "volumes"
