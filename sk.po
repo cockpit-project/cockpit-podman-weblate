@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 03:03+0000\n"
+"POT-Creation-Date: 2024-10-11 03:03+0000\n"
 "PO-Revision-Date: 2024-07-13 13:38+0000\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -150,7 +150,7 @@ msgstr "Kliknutím zobrazíte publikované porty"
 msgid "Click to see volumes"
 msgstr "Kliknutím zobrazíte zväzky (volumes)"
 
-#: org.cockpit-project.podman.metainfo.xml:6
+#: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
 msgstr "Súčasť Cockpit pre Podman kontajnery"
 
@@ -958,7 +958,7 @@ msgstr "Pod sa nepodarilo vytvoriť"
 msgid "Pod name"
 msgstr ""
 
-#: org.cockpit-project.podman.metainfo.xml:5
+#: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
 msgstr "Podman"
 
@@ -1266,8 +1266,12 @@ msgstr "Tag"
 msgid "Tags"
 msgstr "Tagy"
 
-#: org.cockpit-project.podman.metainfo.xml:10
-msgid "The Cockpit user interface for Podman containers."
+#: org.cockpit_project.podman.metainfo.xml:10
+msgid ""
+"The Cockpit user interface for Podman containers. podman (Pod Manager) is a "
+"fully featured daemon-less engine for OCI containers, pods (groups of "
+"containers), and container images. It is CLI, API, and functionally "
+"compatible with Docker."
 msgstr ""
 
 #: src/ImageRunModal.jsx:1148

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 03:03+0000\n"
+"POT-Creation-Date: 2024-10-11 03:03+0000\n"
 "PO-Revision-Date: 2023-12-15 14:41+0000\n"
 "Last-Translator: Neftali Yagua <despacho@neftaliyagua.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -148,7 +148,7 @@ msgstr "Pulse para ver los puertos publicados"
 msgid "Click to see volumes"
 msgstr "Pulse para ver los volúmenes"
 
-#: org.cockpit-project.podman.metainfo.xml:6
+#: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
 msgstr "Componente Cockpit para contenedores Podman"
 
@@ -941,7 +941,7 @@ msgstr "Fallo al crear el pod"
 msgid "Pod name"
 msgstr "Nombre del pod"
 
-#: org.cockpit-project.podman.metainfo.xml:5
+#: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
 msgstr "Podman"
 
@@ -1231,9 +1231,13 @@ msgstr "Etiqueta"
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: org.cockpit-project.podman.metainfo.xml:10
-msgid "The Cockpit user interface for Podman containers."
-msgstr "La interfaz de usuario de Cockpit para contenedores Podman."
+#: org.cockpit_project.podman.metainfo.xml:10
+msgid ""
+"The Cockpit user interface for Podman containers. podman (Pod Manager) is a "
+"fully featured daemon-less engine for OCI containers, pods (groups of "
+"containers), and container images. It is CLI, API, and functionally "
+"compatible with Docker."
+msgstr ""
 
 #: src/ImageRunModal.jsx:1148
 msgid "The initialization time needed for a container to bootstrap."
@@ -1397,6 +1401,9 @@ msgstr "usuario:"
 #: src/Containers.jsx:574
 msgid "volumes"
 msgstr "volúmenes"
+
+#~ msgid "The Cockpit user interface for Podman containers."
+#~ msgstr "La interfaz de usuario de Cockpit para contenedores Podman."
 
 #~ msgid "Delete $0"
 #~ msgstr "Eliminar $0"

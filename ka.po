@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 03:03+0000\n"
+"POT-Creation-Date: 2024-10-11 03:03+0000\n"
 "PO-Revision-Date: 2024-07-05 10:30+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -149,7 +149,7 @@ msgstr "დააწკაპუნეთ გამოჩენილი პო�
 msgid "Click to see volumes"
 msgstr "დააწკაპუნეთ ტომების სანახავად"
 
-#: org.cockpit-project.podman.metainfo.xml:6
+#: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
 msgstr "Cockpit-ის კომპონენტი Podman-ის კონტეინერებისთვის"
 
@@ -940,7 +940,7 @@ msgstr "Pod-ის შექმნის შეცდომა"
 msgid "Pod name"
 msgstr "Pod-ის სახელი"
 
-#: org.cockpit-project.podman.metainfo.xml:5
+#: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
 msgstr "Podman"
 
@@ -1226,9 +1226,13 @@ msgstr "ჭდე"
 msgid "Tags"
 msgstr "ჭდეები"
 
-#: org.cockpit-project.podman.metainfo.xml:10
-msgid "The Cockpit user interface for Podman containers."
-msgstr "Cockpit-ის მომხმარებლის ინტერფეისი Podman-ის კონტეინერებისთვის."
+#: org.cockpit_project.podman.metainfo.xml:10
+msgid ""
+"The Cockpit user interface for Podman containers. podman (Pod Manager) is a "
+"fully featured daemon-less engine for OCI containers, pods (groups of "
+"containers), and container images. It is CLI, API, and functionally "
+"compatible with Docker."
+msgstr ""
 
 #: src/ImageRunModal.jsx:1148
 msgid "The initialization time needed for a container to bootstrap."
@@ -1389,6 +1393,9 @@ msgstr "მომხმარებელი:"
 #: src/Containers.jsx:574
 msgid "volumes"
 msgstr "ტომები"
+
+#~ msgid "The Cockpit user interface for Podman containers."
+#~ msgstr "Cockpit-ის მომხმარებლის ინტერფეისი Podman-ის კონტეინერებისთვის."
 
 #~ msgid "Delete $0"
 #~ msgstr "$0-ის წაშლა"
