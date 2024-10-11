@@ -15,11 +15,11 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 03:03+0000\n"
-"PO-Revision-Date: 2024-10-11 08:38+0000\n"
+"PO-Revision-Date: 2024-10-12 16:38+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
-"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/kab/>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,8 +30,8 @@ msgstr ""
 #: src/Images.jsx:95
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 n umagbar"
+msgstr[1] "$0 n imagbaren"
 
 #: src/Images.jsx:278
 msgid "$0 image total, $1"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: src/Containers.jsx:592
 msgid "Container"
-msgstr ""
+msgstr "Amagbar"
 
 #: src/ImageRunModal.jsx:261
 msgid "Container failed to be created"
@@ -830,7 +830,7 @@ msgstr ""
 
 #: src/Containers.jsx:603
 msgid "No containers"
-msgstr ""
+msgstr "Ula d yiwen umagbar"
 
 #: src/ImageUsedBy.jsx:16
 msgid "No containers are using this image"
