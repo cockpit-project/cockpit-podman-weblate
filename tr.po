@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-13 03:07+0000\n"
+"POT-Creation-Date: 2024-10-15 03:05+0000\n"
 "PO-Revision-Date: 2024-10-12 16:38+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -725,12 +725,24 @@ msgstr "KB"
 msgid "Keep all temporary checkpoint files"
 msgstr "Tüm geçici denetim noktası dosyalarını sakla"
 
-#: src/Env.jsx:58
+#: src/Env.jsx:63
 msgid "Key"
 msgstr "Anahtar"
 
-#: src/Env.jsx:20
+#: src/Env.jsx:25
+#, fuzzy
+#| msgid "Set container on build variables"
+msgid "Key contains invalid characters"
+msgstr "Yapım değişkenlerinde kapsayıcıyı ayarla"
+
+#: src/Env.jsx:21
 msgid "Key must not be empty"
+msgstr "Anahtar boş olmamak zorundadır"
+
+#: src/Env.jsx:23
+#, fuzzy
+#| msgid "Key must not be empty"
+msgid "Key must not begin with a digit"
 msgstr "Anahtar boş olmamak zorundadır"
 
 #: src/ContainerHealthLogs.jsx:107
@@ -1014,7 +1026,7 @@ msgstr "Salt-okunur erişim"
 msgid "Read-write access"
 msgstr "Okuma-yazma erişimi"
 
-#: src/PublishPort.jsx:138 src/Env.jsx:93 src/Volume.jsx:86
+#: src/PublishPort.jsx:138 src/Env.jsx:97 src/Volume.jsx:86
 msgid "Remove item"
 msgstr "Öğeyi kaldır"
 
@@ -1305,7 +1317,7 @@ msgstr "Kullanıcı Podman hizmeti de kullanılabilir"
 msgid "User:"
 msgstr "Kullanıcı:"
 
-#: src/Env.jsx:74
+#: src/Env.jsx:79
 msgid "Value"
 msgstr "Değer"
 
@@ -1474,9 +1486,6 @@ msgstr "birimler"
 
 #~ msgid "Remove on build variable"
 #~ msgstr "Yapım değişkeninde kaldır"
-
-#~ msgid "Set container on build variables"
-#~ msgstr "Yapım değişkenlerinde kapsayıcıyı ayarla"
 
 #~ msgid "Add item"
 #~ msgstr "Öğe ekle"

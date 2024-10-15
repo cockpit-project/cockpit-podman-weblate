@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-13 03:07+0000\n"
+"POT-Creation-Date: 2024-10-15 03:05+0000\n"
 "PO-Revision-Date: 2024-10-12 16:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
@@ -720,12 +720,24 @@ msgstr "KB"
 msgid "Keep all temporary checkpoint files"
 msgstr "모든 임시 점검점 파일을 유지합니다"
 
-#: src/Env.jsx:58
+#: src/Env.jsx:63
 msgid "Key"
 msgstr "키"
 
-#: src/Env.jsx:20
+#: src/Env.jsx:25
+#, fuzzy
+#| msgid "Set container on build variables"
+msgid "Key contains invalid characters"
+msgstr "빌드 변수에 컨테이너 설정"
+
+#: src/Env.jsx:21
 msgid "Key must not be empty"
+msgstr "키는 비워두면 안됩니다"
+
+#: src/Env.jsx:23
+#, fuzzy
+#| msgid "Key must not be empty"
+msgid "Key must not begin with a digit"
 msgstr "키는 비워두면 안됩니다"
 
 #: src/ContainerHealthLogs.jsx:107
@@ -1006,7 +1018,7 @@ msgstr "읽기-전용 접근"
 msgid "Read-write access"
 msgstr "읽기-쓰기 접근"
 
-#: src/PublishPort.jsx:138 src/Env.jsx:93 src/Volume.jsx:86
+#: src/PublishPort.jsx:138 src/Env.jsx:97 src/Volume.jsx:86
 msgid "Remove item"
 msgstr "항목 제거"
 
@@ -1292,7 +1304,7 @@ msgstr "사용자 포드맨 서비스도 사용 할 수 있습니다"
 msgid "User:"
 msgstr "사용자:"
 
-#: src/Env.jsx:74
+#: src/Env.jsx:79
 msgid "Value"
 msgstr "값"
 
@@ -1461,9 +1473,6 @@ msgstr "볼륨"
 
 #~ msgid "Remove on build variable"
 #~ msgstr "빌드 변수에서 제거"
-
-#~ msgid "Set container on build variables"
-#~ msgstr "빌드 변수에 컨테이너 설정"
 
 #~ msgid "Add item"
 #~ msgstr "항목 추가"

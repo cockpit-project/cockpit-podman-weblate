@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-13 03:07+0000\n"
+"POT-Creation-Date: 2024-10-15 03:05+0000\n"
 "PO-Revision-Date: 2024-07-13 13:38+0000\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -741,12 +741,20 @@ msgstr "KB"
 msgid "Keep all temporary checkpoint files"
 msgstr ""
 
-#: src/Env.jsx:58
+#: src/Env.jsx:63
 msgid "Key"
 msgstr "Kľúč"
 
-#: src/Env.jsx:20
+#: src/Env.jsx:25
+msgid "Key contains invalid characters"
+msgstr ""
+
+#: src/Env.jsx:21
 msgid "Key must not be empty"
+msgstr ""
+
+#: src/Env.jsx:23
+msgid "Key must not begin with a digit"
 msgstr ""
 
 #: src/ContainerHealthLogs.jsx:107
@@ -1040,7 +1048,7 @@ msgstr ""
 msgid "Read-write access"
 msgstr ""
 
-#: src/PublishPort.jsx:138 src/Env.jsx:93 src/Volume.jsx:86
+#: src/PublishPort.jsx:138 src/Env.jsx:97 src/Volume.jsx:86
 msgid "Remove item"
 msgstr "Odstrániť položku"
 
@@ -1343,7 +1351,7 @@ msgstr "Užívateľský podman je tiež dostupný"
 msgid "User:"
 msgstr "Používateľ:"
 
-#: src/Env.jsx:74
+#: src/Env.jsx:79
 msgid "Value"
 msgstr "Hodnota"
 
