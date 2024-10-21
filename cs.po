@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-17 03:04+0000\n"
-"PO-Revision-Date: 2024-08-07 03:15+0000\n"
+"PO-Revision-Date: 2024-10-22 19:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/Images.jsx:95
 msgid "$0 container"
@@ -731,20 +731,16 @@ msgid "Key"
 msgstr "Klíč"
 
 #: src/Env.jsx:25
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Key contains invalid characters"
-msgstr "Nastavit kontejner na proměnných prostředí"
+msgstr "Klíč obsahuje neplatné znaky"
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
 msgstr "Je třeba vyplnit klíč"
 
 #: src/Env.jsx:23
-#, fuzzy
-#| msgid "Key must not be empty"
 msgid "Key must not begin with a digit"
-msgstr "Je třeba vyplnit klíč"
+msgstr "Klíč nemůže začínat na číslici"
 
 #: src/ContainerHealthLogs.jsx:107
 msgid "Last 5 runs"
@@ -1245,6 +1241,10 @@ msgid ""
 "containers), and container images. It is CLI, API, and functionally "
 "compatible with Docker."
 msgstr ""
+"Cockpit uživatelské rozhraní pro Podman kontejnery. podman (správce podů) je "
+"plně vybavený engine pro OCI kontejnery, pody (skupiny kontejnerů) a obrazy "
+"kontejnerů – to vše bez potřeby privilegovaného procesu služby. Po stránce "
+"rozhraní pro příkazový řádek, API a funkcí je kompatibilní s Docker."
 
 #: src/ImageRunModal.jsx:1148
 msgid "The initialization time needed for a container to bootstrap."
