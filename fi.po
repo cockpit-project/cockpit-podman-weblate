@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-22 03:04+0000\n"
-"PO-Revision-Date: 2024-09-16 08:24+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fi/>\n"
+"PO-Revision-Date: 2024-10-26 09:58+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -731,20 +731,16 @@ msgid "Key"
 msgstr "Avain"
 
 #: src/Env.jsx:25
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Key contains invalid characters"
-msgstr "Aseta kontti koontimuuttujiin"
+msgstr "Avain sisältää virheellisiä merkkejä"
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
 msgstr "Avain ei saa olla tyhjä"
 
 #: src/Env.jsx:23
-#, fuzzy
-#| msgid "Key must not be empty"
 msgid "Key must not begin with a digit"
-msgstr "Avain ei saa olla tyhjä"
+msgstr "Avain ei saa alkaa numerolla"
 
 #: src/ContainerHealthLogs.jsx:107
 msgid "Last 5 runs"
@@ -1244,6 +1240,10 @@ msgid ""
 "containers), and container images. It is CLI, API, and functionally "
 "compatible with Docker."
 msgstr ""
+"Cockpit-käyttöliittymä Podman-konteille. podman (Pod Manager) on täysin "
+"varusteltu demoniton moottori OCI-konteille, podille (konttiryhmille) ja "
+"konttikuville. Se on CLI, API ja toiminnallisesti yhteensopiva Dockerin "
+"kanssa."
 
 #: src/ImageRunModal.jsx:1159
 msgid "The initialization time needed for a container to bootstrap."
