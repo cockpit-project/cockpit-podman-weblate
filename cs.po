@@ -5,10 +5,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-26 03:01+0000\n"
-"PO-Revision-Date: 2024-10-22 19:38+0000\n"
+"PO-Revision-Date: 2024-10-27 22:49+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr[2] "$0 nepoužitých obrazů, $1"
 
 #: src/Containers.jsx:379
 msgid "$0% of $1 limit"
-msgstr "$0 z limitu $1"
+msgstr "$0% z limitu $1"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
@@ -101,11 +101,11 @@ msgstr "Procesor"
 
 #: src/ImageRunModal.jsx:991
 msgid "CPU Shares help"
-msgstr "Nápověda ke sdílení procesoru"
+msgstr "Nápověda k podílům na procesoru"
 
 #: src/ImageRunModal.jsx:989
 msgid "CPU shares"
-msgstr "Sdílení procesoru"
+msgstr "Podílů na procesoru"
 
 #: src/ImageRunModal.jsx:993
 msgid ""
@@ -113,9 +113,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
-"Sdílení procesoru určuje prioritu spuštěných kontejnerů. Výchozí priorita je "
-"1024. Vyšší číslo upřednostňuje tento kontejner. Nižší číslo jeho přednost "
-"snižuje."
+"Podíly na procesoru určují prioritu spuštěných kontejnerů. Výchozí priorita "
+"je 1024. Vyšší číslo vede k vyšší prioritě takového kontejneru. Nižší číslo "
+"ji snižuje."
 
 #: src/ContainerDeleteModal.jsx:36 src/PruneUnusedImagesModal.jsx:99
 #: src/PruneUnusedContainersModal.jsx:98 src/ImageRunModal.jsx:1248
@@ -136,7 +136,7 @@ msgstr "Kontrolní bod"
 
 #: src/ImageRunModal.jsx:848
 msgid "Checkpoint and restore support"
-msgstr "Kontrolní bod a podpora obnovení"
+msgstr "Podpora kontrolních bodů a obnovování"
 
 #: src/ContainerCheckpointModal.jsx:43
 msgid "Checkpoint container $0"
@@ -152,7 +152,7 @@ msgstr "Kliknutím zobrazíte svazky"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
-msgstr "Součást Cockpit pro Podman kontejnery"
+msgstr "Součást do Cockpit pro Podman kontejnery"
 
 #: src/ImageDetails.jsx:17 src/ImageRunModal.jsx:944 src/ImageRunModal.jsx:1099
 #: src/ContainerCommitModal.jsx:114 src/ContainerDetails.jsx:41
@@ -314,7 +314,7 @@ msgstr "Smazat pod $0?"
 
 #: src/ImageDeleteModal.jsx:99
 msgid "Delete tagged images"
-msgstr "Smazat značkou označené obrazy"
+msgstr "Smazat štítkem označené obrazy"
 
 #: src/PruneUnusedImagesModal.jsx:34
 msgid "Delete unused system images:"
@@ -359,7 +359,7 @@ msgstr "Stáhnout si nový obraz"
 
 #: src/PodActions.jsx:59
 msgid "Empty pod $0 will be permanently removed."
-msgstr "Prázdný pod $0 bude nenávratně odebrán."
+msgstr "Prázdný pod $0 bude nevratně odebrán."
 
 #: src/ImageDetails.jsx:23 src/ImageRunModal.jsx:939
 msgid "Entrypoint"
@@ -451,7 +451,7 @@ msgstr "Nepodařilo se prořezat nepoužívané obrazy"
 
 #: src/ImageRunModal.jsx:321
 msgid "Failed to pull image $0"
-msgstr "Nepodařilo se odeslat obraz $0"
+msgstr "Nepodařilo se natáhnout obraz $0"
 
 #: src/ContainerDeleteModal.jsx:23
 msgid "Failed to remove container $0"
@@ -969,7 +969,7 @@ msgstr "Porty"
 
 #: src/ImageRunModal.jsx:851
 msgid "Ports under 1024 can be mapped"
-msgstr "Je možné mapovat porty do čísla 1024"
+msgstr "Je možné mapovat na porty nižší než 1024"
 
 #: src/Volume.jsx:79
 msgid "Private"
@@ -993,7 +993,7 @@ msgstr "Prořezat nepoužívané obrazy"
 
 #: src/PruneUnusedContainersModal.jsx:92 src/PruneUnusedContainersModal.jsx:96
 msgid "Pruning containers"
-msgstr "Prořezávání kontejnerů"
+msgstr "Prořezávají se kontejnery"
 
 #: src/PruneUnusedImagesModal.jsx:93 src/PruneUnusedImagesModal.jsx:97
 msgid "Pruning images"
