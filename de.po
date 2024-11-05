@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 03:01+0000\n"
-"PO-Revision-Date: 2024-11-05 14:43+0000\n"
+"PO-Revision-Date: 2024-11-05 14:44+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -743,7 +743,7 @@ msgstr "Schlüssel darf nicht leer sein"
 
 #: src/Env.jsx:23
 msgid "Key must not begin with a digit"
-msgstr ""
+msgstr "Schlüssel darf nicht mit einer Ziffer beginnen"
 
 #: src/ContainerHealthLogs.jsx:107
 msgid "Last 5 runs"
@@ -818,7 +818,7 @@ msgstr ""
 
 #: src/PublishPort.jsx:25
 msgid "Must be a valid IP address"
-msgstr ""
+msgstr "Muss eine gültige IP-Adresse sein"
 
 #: src/PruneUnusedContainersModal.jsx:66 src/ImageRunModal.jsx:812
 #: src/PodCreateModal.jsx:154
