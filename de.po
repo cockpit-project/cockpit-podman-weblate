@@ -7,8 +7,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-27 03:15+0000\n"
 "PO-Revision-Date: 2024-11-05 14:43+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/de/>\n"
 "Language: de\n"
@@ -740,7 +739,7 @@ msgstr "Schlüssel enthält ungültige Zeichen"
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
-msgstr "Token darf nicht leer sein"
+msgstr "Schlüssel darf nicht leer sein"
 
 #: src/Env.jsx:23
 msgid "Key must not begin with a digit"
