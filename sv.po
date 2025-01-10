@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-09 03:27+0000\n"
-"PO-Revision-Date: 2024-10-16 08:38+0000\n"
+"PO-Revision-Date: 2025-01-11 08:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: src/Images.jsx:95
 msgid "$0 container"
@@ -150,7 +150,7 @@ msgstr "Klicka för att se volymer"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpitprojektet"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
