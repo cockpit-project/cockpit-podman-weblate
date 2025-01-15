@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 02:58+0000\n"
+"POT-Creation-Date: 2025-01-15 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 02:58+0000\n"
+"POT-Creation-Date: 2025-01-15 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +183,7 @@ msgstr ""
 msgid "Cockpit component for Podman containers"
 msgstr ""
 
-#: src/ContainerDetails.jsx:41 src/ContainerHealthLogs.jsx:62
+#: src/ContainerDetails.jsx:42 src/ContainerHealthLogs.jsx:62
 #: src/ImageDetails.jsx:17 src/ContainerCommitModal.jsx:114
 #: src/ImageRunModal.jsx:933 src/ImageRunModal.jsx:1088
 msgid "Command"
@@ -282,7 +282,7 @@ msgstr ""
 msgid "Create pod"
 msgstr ""
 
-#: src/ContainerDetails.jsx:65 src/PruneUnusedContainersModal.jsx:67
+#: src/ContainerDetails.jsx:67 src/PruneUnusedContainersModal.jsx:67
 #: src/ImageHistory.jsx:34 src/util.js:24 src/util.js:27 src/Images.jsx:187
 msgid "Created"
 msgstr ""
@@ -578,7 +578,7 @@ msgstr ""
 msgid "GB"
 msgstr ""
 
-#: src/ContainerDetails.jsx:53
+#: src/ContainerDetails.jsx:55
 msgid "Gateway"
 msgstr ""
 
@@ -638,7 +638,7 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: src/ContainerDetails.jsx:49 src/PublishPort.jsx:56
+#: src/ContainerDetails.jsx:51 src/PublishPort.jsx:56
 msgid "IP address"
 msgstr ""
 
@@ -768,7 +768,7 @@ msgstr ""
 msgid "Last 5 runs"
 msgstr ""
 
-#: src/ContainerDetails.jsx:73
+#: src/ContainerDetails.jsx:75
 msgid "Latest checkpoint"
 msgstr ""
 
@@ -800,7 +800,7 @@ msgstr ""
 msgid "Logs"
 msgstr ""
 
-#: src/ContainerDetails.jsx:57
+#: src/ContainerDetails.jsx:59
 msgid "MAC address"
 msgstr ""
 
@@ -1205,7 +1205,7 @@ msgstr ""
 msgid "Started at"
 msgstr ""
 
-#: src/ContainerDetails.jsx:69 src/Containers.jsx:595
+#: src/ContainerDetails.jsx:71 src/Containers.jsx:595
 msgid "State"
 msgstr ""
 
