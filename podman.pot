@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-27 03:00+0000\n"
+"POT-Creation-Date: 2025-01-28 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-27 03:00+0000\n"
+"POT-Creation-Date: 2025-01-28 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,10 @@ msgstr ""
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
 
+#: src/Containers.jsx:578
+msgid "Actions"
+msgstr ""
+
 #: src/PodCreateModal.jsx:189 src/ImageRunModal.jsx:1057
 msgid "Add port mapping"
 msgstr ""
@@ -117,10 +121,6 @@ msgstr ""
 
 #: src/ContainerCommitModal.jsx:107
 msgid "Author"
-msgstr ""
-
-#: src/app.jsx:643
-msgid "Automatically start podman on boot"
 msgstr ""
 
 #: src/Containers.jsx:513 src/Containers.jsx:516 src/Containers.jsx:575
@@ -222,7 +222,7 @@ msgstr ""
 msgid "Container failed to be started"
 msgstr ""
 
-#: src/ContainerTerminal.jsx:258
+#: src/ContainerTerminal.jsx:261
 msgid "Container is not running"
 msgstr ""
 
@@ -406,7 +406,7 @@ msgstr ""
 msgid "Error message"
 msgstr ""
 
-#: src/ContainerTerminal.jsx:262
+#: src/ContainerTerminal.jsx:265
 msgid "Error occurred while connecting console"
 msgstr ""
 
@@ -974,8 +974,8 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:639
-msgid "Podman service is not active"
+#: src/app.jsx:590
+msgid "Podman service failed"
 msgstr ""
 
 #: src/PodCreateModal.jsx:188 src/ImageRunModal.jsx:1056
@@ -1186,16 +1186,12 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/app.jsx:685 src/PodActions.jsx:136 src/Containers.jsx:208
+#: src/PodActions.jsx:136 src/Containers.jsx:208
 msgid "Start"
 msgstr ""
 
 #: src/ContainerHealthLogs.jsx:74 src/ImageRunModal.jsx:1144
 msgid "Start period"
-msgstr ""
-
-#: src/app.jsx:646
-msgid "Start podman"
 msgstr ""
 
 #: src/ImageSearchModal.jsx:187
@@ -1230,10 +1226,6 @@ msgstr ""
 #: src/ContainerHeader.jsx:22 src/PodCreateModal.jsx:174
 #: src/ImageRunModal.jsx:836 src/ImageRunModal.jsx:871
 msgid "System"
-msgstr ""
-
-#: src/app.jsx:692
-msgid "System Podman service is also available"
 msgstr ""
 
 #: src/PublishPort.jsx:129
@@ -1276,7 +1268,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:651
+#: src/app.jsx:594
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1308,12 +1300,8 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/app.jsx:69 src/app.jsx:530
+#: src/app.jsx:67 src/app.jsx:529
 msgid "User"
-msgstr ""
-
-#: src/app.jsx:699
-msgid "User Podman service is also available"
 msgstr ""
 
 #: src/PodCreateModal.jsx:179 src/ImageRunModal.jsx:853
