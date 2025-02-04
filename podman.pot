@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-03 03:01+0000\n"
+"POT-Creation-Date: 2025-02-04 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-03 03:01+0000\n"
+"POT-Creation-Date: 2025-02-04 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -974,7 +974,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:590
+#: src/app.jsx:591
 msgid "Podman service failed"
 msgstr ""
 
@@ -1268,7 +1268,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:594
+#: src/app.jsx:595
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1300,7 +1300,7 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/app.jsx:67 src/app.jsx:529
+#: src/app.jsx:67 src/app.jsx:530
 msgid "User"
 msgstr ""
 
