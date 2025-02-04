@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-04 02:59+0000\n"
-"PO-Revision-Date: 2025-01-11 08:38+0000\n"
+"PO-Revision-Date: 2025-02-05 09:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -962,10 +962,8 @@ msgid "Podman containers"
 msgstr "Podman-behållare"
 
 #: src/app.jsx:591
-#, fuzzy
-#| msgid "Podman service is not active"
 msgid "Podman service failed"
-msgstr "Podman-tjänsten är inte aktiv"
+msgstr "Podman-tjänsten misslyckades"
 
 #: src/PodCreateModal.jsx:188 src/ImageRunModal.jsx:1056
 msgid "Port mapping"
