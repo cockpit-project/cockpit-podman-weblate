@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-05 03:01+0000\n"
-"PO-Revision-Date: 2025-02-04 07:14+0000\n"
+"PO-Revision-Date: 2025-02-07 03:20+0000\n"
 "Last-Translator: N M <nm@users.noreply.translate.fedoraproject.org>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,10 +57,8 @@ msgstr ""
 "Acción a tomar una vez que el contenedor pase a un mal estado de salud."
 
 #: src/Containers.jsx:578
-#, fuzzy
-#| msgid "Options"
 msgid "Actions"
-msgstr "Opciones"
+msgstr "Acciones"
 
 #: src/PodCreateModal.jsx:189 src/ImageRunModal.jsx:1057
 msgid "Add port mapping"
@@ -964,10 +962,8 @@ msgid "Podman containers"
 msgstr "Contenedores de Podman"
 
 #: src/app.jsx:591
-#, fuzzy
-#| msgid "Podman service is not active"
 msgid "Podman service failed"
-msgstr "El servicio Podman no está activo"
+msgstr "El servicio Podman falló"
 
 #: src/PodCreateModal.jsx:188 src/ImageRunModal.jsx:1056
 msgid "Port mapping"
