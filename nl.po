@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:02+0000\n"
+"POT-Creation-Date: 2025-02-10 03:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -946,7 +946,7 @@ msgstr ""
 msgid "Podman"
 msgstr ""
 
-#: src/index.html:20 src/manifest.json:0
+#: src/manifest.json:0
 msgid "Podman containers"
 msgstr ""
 

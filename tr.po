@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:02+0000\n"
+"POT-Creation-Date: 2025-02-10 03:05+0000\n"
 "PO-Revision-Date: 2025-02-05 09:38+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -954,7 +954,7 @@ msgstr "Bölme adı"
 msgid "Podman"
 msgstr "Podman"
 
-#: src/index.html:20 src/manifest.json:0
+#: src/manifest.json:0
 msgid "Podman containers"
 msgstr "Podman kapsayıcıları"
 

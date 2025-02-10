@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:02+0000\n"
+"POT-Creation-Date: 2025-02-10 03:05+0000\n"
 "PO-Revision-Date: 2024-10-12 16:38+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -950,7 +950,7 @@ msgstr ""
 msgid "Podman"
 msgstr "Podman"
 
-#: src/index.html:20 src/manifest.json:0
+#: src/manifest.json:0
 msgid "Podman containers"
 msgstr ""
 

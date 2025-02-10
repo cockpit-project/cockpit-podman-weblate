@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:02+0000\n"
+"POT-Creation-Date: 2025-02-10 03:05+0000\n"
 "PO-Revision-Date: 2025-02-10 06:26+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/"
-"cockpit-podman/main/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
+"podman/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -959,7 +959,7 @@ msgstr "Pod-Name"
 msgid "Podman"
 msgstr "Podman"
 
-#: src/index.html:20 src/manifest.json:0
+#: src/manifest.json:0
 msgid "Podman containers"
 msgstr "Podman-Container"
 
