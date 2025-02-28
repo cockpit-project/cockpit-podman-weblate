@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-28 03:07+0000\n"
 "PO-Revision-Date: 2025-02-28 21:51+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/fi/>\n"
 "Language: fi\n"
@@ -320,10 +319,8 @@ msgid "Delete tagged images"
 msgstr "Poista merkityt kuvat"
 
 #: src/PruneUnusedImagesModal.jsx:36
-#, fuzzy
-#| msgid "Delete unused $0 images:"
 msgid "Delete unused images of user $0:"
-msgstr "Poista käyttämättömät $0 levykuvat:"
+msgstr "Poista käyttäjän $0 käyttämättömät levykuvat:"
 
 #: src/PruneUnusedImagesModal.jsx:35
 msgid "Delete unused system images:"
@@ -963,10 +960,8 @@ msgid "Podman containers"
 msgstr "Podman-kontit"
 
 #: src/app.jsx:605
-#, fuzzy
-#| msgid "Podman service is not active"
 msgid "Podman service failed"
-msgstr "Podman-palvelu ei ole aktiivinen"
+msgstr "Podman-palvelu epäonnistui"
 
 #: src/ImageRunModal.jsx:1053 src/PodCreateModal.jsx:182
 msgid "Port mapping"
