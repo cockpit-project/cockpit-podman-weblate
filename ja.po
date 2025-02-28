@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 03:03+0000\n"
-"PO-Revision-Date: 2024-09-06 12:48+0000\n"
-"Last-Translator: Jelle van der Waa <jvanderw@redhat.com>\n"
+"PO-Revision-Date: 2025-02-28 05:23+0000\n"
+"Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.10\n"
 
 #: src/Images.jsx:95
 msgid "$0 container"
@@ -53,10 +53,8 @@ msgid "Action to take once the container transitions to an unhealthy state."
 msgstr "コンテナーが異常な状態に移行したときに実行するアクション。"
 
 #: src/Containers.jsx:578
-#, fuzzy
-#| msgid "Options"
 msgid "Actions"
-msgstr "オプション"
+msgstr "動作"
 
 #: src/PodCreateModal.jsx:189 src/ImageRunModal.jsx:1057
 msgid "Add port mapping"
@@ -149,7 +147,7 @@ msgstr "クリックしてボリュームを表示します"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit プロジェクト"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
@@ -733,20 +731,16 @@ msgid "Key"
 msgstr "キー"
 
 #: src/Env.jsx:25
-#, fuzzy
-#| msgid "Set container on build variables"
 msgid "Key contains invalid characters"
-msgstr "ビルド変数にコンテナーを設定する"
+msgstr "キーに無効な文字が含まれています"
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
 msgstr "キーは空欄にできません"
 
 #: src/Env.jsx:23
-#, fuzzy
-#| msgid "Key must not be empty"
 msgid "Key must not begin with a digit"
-msgstr "キーは空欄にできません"
+msgstr "キーの先頭を数字にすることはできません"
 
 #: src/ContainerHealthLogs.jsx:107
 msgid "Last 5 runs"
@@ -962,10 +956,8 @@ msgid "Podman containers"
 msgstr "Podman コンテナー"
 
 #: src/app.jsx:591
-#, fuzzy
-#| msgid "Podman service is not active"
 msgid "Podman service failed"
-msgstr "Podman サービスがアクティブではありません"
+msgstr "Podman サービスが失敗しました"
 
 #: src/PodCreateModal.jsx:188 src/ImageRunModal.jsx:1056
 msgid "Port mapping"
@@ -1239,6 +1231,10 @@ msgid ""
 "containers), and container images. It is CLI, API, and functionally "
 "compatible with Docker."
 msgstr ""
+"Podman コンテナー用の Cockpit ユーザーインターフェイス。podman (Pod Manager) "
+"は、OCI コンテナー、Pod "
+"(コンテナーのグループ)、およびコンテナーイメージ用のフル機能を備えたデーモン"
+"レスエンジンです。CLI、API であり、Docker と機能的に互換性があります。"
 
 #: src/ImageRunModal.jsx:1148
 msgid "The initialization time needed for a container to bootstrap."
