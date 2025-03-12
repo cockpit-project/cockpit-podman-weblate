@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 03:17+0000\n"
+"POT-Creation-Date: 2025-03-12 03:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 03:17+0000\n"
+"POT-Creation-Date: 2025-03-12 03:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1300,12 +1300,11 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/app.jsx:518
+#: src/app.jsx:518 src/ImageRunModal.jsx:855
 msgid "User"
 msgstr ""
 
-#: src/ImageRunModal.jsx:855 src/ImageRunModal.jsx:875
-#: src/PodCreateModal.jsx:172
+#: src/ImageRunModal.jsx:875 src/PodCreateModal.jsx:172
 msgid "User:"
 msgstr ""
 
