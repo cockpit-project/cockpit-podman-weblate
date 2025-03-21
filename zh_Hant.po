@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 03:19+0000\n"
 "PO-Revision-Date: 2025-03-21 23:28+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/cockpit-podman/main/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -341,7 +342,7 @@ msgstr "刪除此 pod 將移除下列容器："
 
 #: src/ImageRunModal.jsx:829 src/Images.jsx:160 src/Containers.jsx:441
 msgid "Details"
-msgstr ""
+msgstr "詳情"
 
 #: src/Images.jsx:191
 msgid "Disk space"
@@ -354,7 +355,7 @@ msgstr "Docker 格式在與 Docker 或 Moby Engine 分享映像檔時非常有�
 
 #: src/ImageSearchModal.jsx:151
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
 #: src/Images.jsx:347
 msgid "Download new image"
