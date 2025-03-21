@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 03:19+0000\n"
-"PO-Revision-Date: 2025-03-21 23:52+0000\n"
+"PO-Revision-Date: 2025-03-22 10:53+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/cockpit-podman/main/zh_Hant/>\n"
@@ -591,35 +591,35 @@ msgstr "隱藏映像檔"
 
 #: src/Images.jsx:259
 msgid "Hide intermediate images"
-msgstr ""
+msgstr "隱藏中介映像檔"
 
 #: src/Images.jsx:169
 msgid "History"
-msgstr ""
+msgstr "歷史"
 
 #: src/Volume.jsx:38
 msgid "Host path"
-msgstr ""
+msgstr "主機路徑"
 
 #: src/PublishPort.jsx:79
 msgid "Host port"
-msgstr ""
+msgstr "主機通訊埠"
 
 #: src/PublishPort.jsx:82
 msgid "Host port help"
-msgstr ""
+msgstr "主機通訊埠協助"
 
 #: src/ContainerDetails.jsx:33 src/Images.jsx:190
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/PublishPort.jsx:56 src/ContainerDetails.jsx:51
 msgid "IP address"
-msgstr ""
+msgstr "IP 地址"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
-msgstr ""
+msgstr "IP 地址協助"
 
 #: src/ImageRunModal.jsx:858
 msgid "Ideal for development"
@@ -651,23 +651,23 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:37 src/ImageRunModal.jsx:883 src/Images.jsx:187
 msgid "Image"
-msgstr ""
+msgstr "映像檔"
 
 #: src/ContainerCommitModal.jsx:46
 msgid "Image name is not unique"
-msgstr ""
+msgstr "映像檔名稱不唯一"
 
 #: src/ContainerCommitModal.jsx:37
 msgid "Image name is required"
-msgstr ""
+msgstr "必須填寫映像檔名稱"
 
 #: src/ImageRunModal.jsx:885
 msgid "Image selection help"
-msgstr ""
+msgstr "映像檔選擇說明"
 
 #: src/Images.jsx:265 src/Images.jsx:295
 msgid "Images"
-msgstr ""
+msgstr "映像檔"
 
 #: src/ImageRunModal.jsx:1001
 msgid "Increase CPU shares"
@@ -717,15 +717,15 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:967
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: src/ContainerCheckpointModal.jsx:57 src/ContainerRestoreModal.jsx:60
 msgid "Keep all temporary checkpoint files"
-msgstr ""
+msgstr "保留所有臨時檢查點檔案"
 
 #: src/Env.jsx:63
 msgid "Key"
-msgstr ""
+msgstr "密鑰"
 
 #: src/Env.jsx:25
 msgid "Key contains invalid characters"
@@ -777,31 +777,31 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:59
 msgid "MAC address"
-msgstr ""
+msgstr "MAC 地址"
 
 #: src/ImageRunModal.jsx:968
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/ImageRunModal.jsx:1032
 msgid "Maximum retries"
-msgstr ""
+msgstr "最大重試次數"
 
 #: src/Containers.jsx:537 src/Containers.jsx:540 src/Containers.jsx:593
 msgid "Memory"
-msgstr ""
+msgstr "記憶體"
 
 #: src/ImageRunModal.jsx:945
 msgid "Memory limit"
-msgstr ""
+msgstr "記憶體上限"
 
 #: src/ImageRunModal.jsx:962
 msgid "Memory unit"
-msgstr ""
+msgstr "記憶體單元"
 
 #: src/Volume.jsx:66
 msgid "Mode"
-msgstr ""
+msgstr "模式"
 
 #: src/ImageDeleteModal.jsx:105
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
@@ -818,52 +818,52 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:676
 msgid "Name already in use"
-msgstr ""
+msgstr "已使用的名稱"
 
 #: src/ContainerRenameModal.jsx:70
 msgid "New container name"
-msgstr ""
+msgstr "新容器名稱"
 
 #: src/ContainerCommitModal.jsx:92
 msgid "New image name"
-msgstr ""
+msgstr "新映像檔名稱"
 
 #: src/ImageRunModal.jsx:1024
 msgid "No"
-msgstr ""
+msgstr "無"
 
 #: src/ImageRunModal.jsx:59 src/ContainerHealthLogs.jsx:41
 msgid "No action"
-msgstr ""
+msgstr "無動作"
 
 #: src/Containers.jsx:601
 msgid "No containers"
-msgstr ""
+msgstr "無容器"
 
 #: src/ImageUsedBy.jsx:16
 msgid "No containers are using this image"
-msgstr ""
+msgstr "沒有容器使用此映像檔"
 
 #: src/Containers.jsx:602
 msgid "No containers in this pod"
-msgstr ""
+msgstr "此 pod 中沒有容器"
 
 #: src/Containers.jsx:606
 msgid "No containers that match the current filter"
-msgstr ""
+msgstr "沒有符合目前篩選條件的容器"
 
 #: src/ImageRunModal.jsx:1075
 msgid "No environment variables specified"
-msgstr ""
+msgstr "未指定環境變數"
 
 #: src/Images.jsx:194
 msgid "No images"
-msgstr ""
+msgstr "無映像檔"
 
 #: src/ImageRunModal.jsx:903 src/ImageRunModal.jsx:904
 #: src/ImageSearchModal.jsx:193
 msgid "No images found"
-msgstr ""
+msgstr "無找到映像檔"
 
 #: src/Images.jsx:198
 msgid "No images that match the current filter"
