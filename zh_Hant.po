@@ -15,108 +15,106 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 03:19+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-21 23:21+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translate.fedoraproject.org/projects/cockpit-podman/main/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 個容器"
 
 #: src/Images.jsx:278
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 個映像檔總計 , $1"
 
 #: src/ContainerHealthLogs.jsx:37
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 秒"
 
 #: src/Images.jsx:282
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 個未使用的映像檔 , $1"
 
 #
 #: src/Containers.jsx:374
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "$1 限制的 $0"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 到 65535"
 
 #: src/ImageRunModal.jsx:1195
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "容器轉換到不健康狀態時得要採取的動作。"
 
 #: src/Containers.jsx:595
 msgid "Actions"
-msgstr ""
+msgstr "動作"
 
 #: src/ImageRunModal.jsx:1056 src/PodCreateModal.jsx:183
 msgid "Add port mapping"
-msgstr ""
+msgstr "新增通訊埠映射"
 
 #: src/ImageRunModal.jsx:1078
 msgid "Add variable"
-msgstr ""
+msgstr "新增變數"
 
 #: src/ImageRunModal.jsx:1066 src/PodCreateModal.jsx:195
 msgid "Add volume"
-msgstr ""
+msgstr "新增分卷"
 
 #: src/ImageRunModal.jsx:766 src/ContainerHeader.jsx:24 src/Containers.jsx:749
 #: src/ImageDeleteModal.jsx:107
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: src/ImageSearchModal.jsx:184
 msgid "All registries"
-msgstr ""
+msgstr "所有註冊"
 
 #: src/ImageRunModal.jsx:1026
 msgid "Always"
-msgstr ""
+msgstr "總是"
 
 #: src/PodActions.jsx:57
 msgid "An error occurred"
-msgstr ""
+msgstr "發生錯誤"
 
 #: src/ContainerCommitModal.jsx:107
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: src/Containers.jsx:530 src/Containers.jsx:533 src/Containers.jsx:592
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: src/ImageRunModal.jsx:979
 msgid "CPU Shares help"
-msgstr ""
+msgstr "CPU 共享協助"
 
 #: src/ImageRunModal.jsx:977
 msgid "CPU shares"
-msgstr ""
+msgstr "CPU 共享"
 
 #: src/ImageRunModal.jsx:981
 msgid ""
 "CPU shares determine the priority of running containers. Default priority is "
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
-msgstr ""
+msgstr "CPU 共享決定執行中容器的優先順序。 預設優先順序為 1024。 "
+"數字越大，此容器的優先順序越高。 數字越小，優先順序越低。"
 
 #: src/ContainerCheckpointModal.jsx:52 src/ImageRunModal.jsx:1241
 #: src/PodCreateModal.jsx:218 src/ContainerRestoreModal.jsx:55
@@ -130,171 +128,171 @@ msgstr ""
 
 #: src/Containers.jsx:281
 msgid "Checking health"
-msgstr ""
+msgstr "檢查健康狀態"
 
 #: src/ContainerCheckpointModal.jsx:48 src/Containers.jsx:210
 msgid "Checkpoint"
-msgstr ""
+msgstr "檢查點"
 
 #: src/ImageRunModal.jsx:847
 msgid "Checkpoint and restore support"
-msgstr ""
+msgstr "檢查點與還原支援"
 
 #: src/ContainerCheckpointModal.jsx:43
 msgid "Checkpoint container $0"
-msgstr ""
+msgstr "檢查點容器 $0"
 
 #: src/Containers.jsx:548
 msgid "Click to see published ports"
-msgstr ""
+msgstr "按一下以查看已發布使用的通訊埠"
 
 #: src/Containers.jsx:563
 msgid "Click to see volumes"
-msgstr ""
+msgstr "點擊查看分卷"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit 專案"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
-msgstr ""
+msgstr "Podman 容器的 Cockpit 元件"
 
 #: src/ImageDetails.jsx:17 src/ContainerDetails.jsx:42
 #: src/ImageRunModal.jsx:932 src/ImageRunModal.jsx:1087
 #: src/ContainerHealthLogs.jsx:62 src/ContainerCommitModal.jsx:114
 msgid "Command"
-msgstr ""
+msgstr "指令"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
-msgstr ""
+msgstr "評論"
 
 #: src/Containers.jsx:245 src/ContainerCommitModal.jsx:146
 msgid "Commit"
-msgstr ""
+msgstr "承載"
 
 #: src/ContainerCommitModal.jsx:138
 msgid "Commit container"
-msgstr ""
+msgstr "承載容器"
 
 #: src/util.js:24
 msgid "Configured"
-msgstr ""
+msgstr "已設定"
 
 #: src/Containers.jsx:458
 msgid "Console"
-msgstr ""
+msgstr "控制台"
 
 #: src/Containers.jsx:590
 msgid "Container"
-msgstr ""
+msgstr "容器"
 
 #: src/ImageRunModal.jsx:268
 msgid "Container failed to be created"
-msgstr ""
+msgstr "容器建立失敗"
 
 #: src/ImageRunModal.jsx:249
 msgid "Container failed to be started"
-msgstr ""
+msgstr "容器啟動失敗"
 
 #: src/ContainerTerminal.jsx:264
 msgid "Container is not running"
-msgstr ""
+msgstr "容器未執行"
 
 #: src/ImageRunModal.jsx:814
 msgid "Container name"
-msgstr ""
+msgstr "容器名稱"
 
 #: src/ContainerRenameModal.jsx:30 src/ContainerRenameModal.jsx:41
 msgid "Container name is required."
-msgstr ""
+msgstr "必須填寫容器名稱。"
 
 #: src/Volume.jsx:52
 msgid "Container path"
-msgstr ""
+msgstr "容器路徑"
 
 #: src/Volume.jsx:25
 msgid "Container path must not be empty"
-msgstr ""
+msgstr "容器路徑不得為空白"
 
 #: src/PublishPort.jsx:106
 msgid "Container port"
-msgstr ""
+msgstr "容器通訊埠"
 
 #: src/PublishPort.jsx:38
 msgid "Container port must not be empty"
-msgstr ""
+msgstr "容器通訊埠不得為空白"
 
 #: src/Containers.jsx:803 src/Containers.jsx:809 src/Containers.jsx:844
 msgid "Containers"
-msgstr ""
+msgstr "容器"
 
 #: src/ImageRunModal.jsx:1238 src/PodCreateModal.jsx:215
 msgid "Create"
-msgstr ""
+msgstr "建立"
 
 #: src/ContainerCommitModal.jsx:139
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "根據 $0 容器的目前狀態建立新映像檔。"
 
 #: src/ImageRunModal.jsx:1234
 msgid "Create and run"
-msgstr ""
+msgstr "建立並執行"
 
 #: src/ImageRunModal.jsx:1230 src/Images.jsx:420 src/Images.jsx:429
 #: src/Containers.jsx:766
 msgid "Create container"
-msgstr ""
+msgstr "建立容器"
 
 #: src/ImageRunModal.jsx:1230
 msgid "Create container in $0"
-msgstr ""
+msgstr "以 $0 建立容器"
 
 #: src/Containers.jsx:855
 msgid "Create container in pod"
-msgstr ""
+msgstr "在 pod 中建立容器"
 
 #: src/PodCreateModal.jsx:210 src/Containers.jsx:758
 msgid "Create pod"
-msgstr ""
+msgstr "建立 pod"
 
 #: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:67 src/Images.jsx:189
 #: src/PruneUnusedContainersModal.jsx:66 src/ImageHistory.jsx:33
 msgid "Created"
-msgstr ""
+msgstr "己建立"
 
 #: src/ImageHistory.jsx:33
 msgid "Created by"
-msgstr ""
+msgstr "己建立於"
 
 #: src/ImageRunModal.jsx:1000
 msgid "Decrease CPU shares"
-msgstr ""
+msgstr "減少 CPU 共享"
 
 #: src/ImageRunModal.jsx:1110
 msgid "Decrease interval"
-msgstr ""
+msgstr "減少間隔"
 
 #: src/ImageRunModal.jsx:1039
 msgid "Decrease maximum retries"
-msgstr ""
+msgstr "減少最大重試次數"
 
 #: src/ImageRunModal.jsx:958
 msgid "Decrease memory"
-msgstr ""
+msgstr "減少記憶"
 
 #: src/ImageRunModal.jsx:1184
 msgid "Decrease retries"
-msgstr ""
+msgstr "減少重複嘗試"
 
 #: src/ImageRunModal.jsx:1160
 msgid "Decrease start period"
-msgstr ""
+msgstr "縮短開始時間"
 
 #: src/ImageRunModal.jsx:1135
 msgid "Decrease timeout"
-msgstr ""
+msgstr "減少超時"
 
 #: src/Images.jsx:440 src/PodActions.jsx:48 src/PodActions.jsx:181
 #: src/Containers.jsx:255 src/ContainerDeleteModal.jsx:35
