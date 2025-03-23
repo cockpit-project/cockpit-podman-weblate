@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-22 03:18+0000\n"
 "PO-Revision-Date: 2025-03-23 03:31+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ko/>\n"
 "Language: ko\n"
@@ -1367,7 +1368,7 @@ msgstr "초"
 
 #: src/Containers.jsx:390 src/Containers.jsx:877
 msgid "service"
-msgstr ""
+msgstr "서비스"
 
 #: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
