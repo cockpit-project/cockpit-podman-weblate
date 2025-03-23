@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-23 03:23+0000\n"
-"PO-Revision-Date: 2025-02-28 21:51+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"PO-Revision-Date: 2025-03-24 09:53+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1382,7 +1383,7 @@ msgstr "sekunder"
 
 #: src/Containers.jsx:390 src/Containers.jsx:877
 msgid "service"
-msgstr ""
+msgstr "tjänst"
 
 #: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
