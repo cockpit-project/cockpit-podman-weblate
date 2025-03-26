@@ -12,7 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-24 03:24+0000\n"
 "PO-Revision-Date: 2025-03-27 00:27+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -60,7 +61,7 @@ msgstr "Ação a ser tomada quando o contêiner passa para um estado não ínteg
 
 #: src/Containers.jsx:595
 msgid "Actions"
-msgstr ""
+msgstr "Ações"
 
 #: src/ImageRunModal.jsx:1056 src/PodCreateModal.jsx:183
 msgid "Add port mapping"
@@ -352,7 +353,7 @@ msgstr "Detalhes"
 
 #: src/Images.jsx:191
 msgid "Disk space"
-msgstr ""
+msgstr "espaço em disco"
 
 #: src/ContainerCommitModal.jsx:128
 msgid ""
