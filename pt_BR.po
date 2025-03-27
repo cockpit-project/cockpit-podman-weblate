@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-26 03:20+0000\n"
-"PO-Revision-Date: 2025-03-27 02:13+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-03-27 18:30+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -321,10 +320,8 @@ msgid "Delete pod $0?"
 msgstr "Excluir pod $0?"
 
 #: src/ImageDeleteModal.jsx:99
-#, fuzzy
-#| msgid "Get new image"
 msgid "Delete tagged images"
-msgstr "Excluir imagens com tags"
+msgstr "Excluir imagens com etiquetas"
 
 #: src/PruneUnusedImagesModal.jsx:36
 msgid "Delete unused images of user $0:"
@@ -781,7 +778,6 @@ msgid "Loading..."
 msgstr "Carregando..."
 
 #: src/ImageRunModal.jsx:775
-#, fuzzy
 msgid "Local"
 msgstr "Local"
 
@@ -1299,20 +1295,19 @@ msgstr "Não íntegra"
 
 #: src/ContainerDetails.jsx:14
 msgid "Up since:"
-msgstr "Ligado desde"
+msgstr "Ligado desde:"
 
 #: src/ContainerCommitModal.jsx:129
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Usar formato legado do Docker"
 
 #: src/ImageDetails.jsx:35 src/Images.jsx:192
-#, fuzzy
 msgid "Used by"
 msgstr "Usado por"
 
 #: src/app.jsx:518 src/ImageRunModal.jsx:855
 msgid "User"
-msgstr ""
+msgstr "Usuário"
 
 #: src/ImageRunModal.jsx:875 src/PodCreateModal.jsx:172
 msgid "User:"
@@ -1320,95 +1315,77 @@ msgstr "Usuário:"
 
 #: src/Env.jsx:79
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: src/ImageRunModal.jsx:1065 src/PodCreateModal.jsx:194
 #: src/ContainerIntegration.jsx:154
-#, fuzzy
 msgid "Volumes"
 msgstr "Volumes"
 
 #: src/ImageRunModal.jsx:1191 src/ContainerHealthLogs.jsx:82
 msgid "When unhealthy"
-msgstr "Quando não íntegra"
+msgstr "Quando não íntegro"
 
 #: src/ImageRunModal.jsx:941
-#, fuzzy
 msgid "With terminal"
 msgstr "Com terminal"
 
 #: src/Volume.jsx:68
 msgid "Writable"
-msgstr ""
+msgstr "Gravável"
 
 #: src/manifest.json:0
-#, fuzzy
-#| msgid "Containers"
 msgid "container"
-msgstr "Contêineres"
+msgstr "contêiner"
 
 #: src/ImageRunModal.jsx:302
-#, fuzzy
-#| msgid "Download"
 msgid "downloading"
-msgstr "Baixar"
+msgstr "baixando"
 
 #: src/ImageRunModal.jsx:889
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "host[:porta]/[usuário]/contêiner[:etiqueta]"
 
 #: src/manifest.json:0
-#, fuzzy
-#| msgid "Image"
 msgid "image"
-msgstr "Imagem"
+msgstr "imagem"
 
 #: src/ImageSearchModal.jsx:180
 msgid "in"
-msgstr ""
+msgstr "em"
 
 #: src/ImageDeleteModal.jsx:82
 msgid "intermediate"
-msgstr ""
+msgstr "intermediária"
 
 #: src/ImageDeleteModal.jsx:62
-#, fuzzy
-#| msgid "No images"
 msgid "intermediate image"
-msgstr "Nenhuma imagem"
+msgstr "imagem intermediária"
 
 #: src/Containers.jsx:353 src/Containers.jsx:354
-#, fuzzy
 msgid "n/a"
-msgstr "n/a"
+msgstr "n/d"
 
 #: src/Containers.jsx:353 src/Containers.jsx:354
-#, fuzzy
 msgid "not available"
-msgstr "Indisponível"
+msgstr "indisponível"
 
 #: src/Containers.jsx:876
-#, fuzzy
-#| msgid "Start podman"
 msgid "pod"
-msgstr "Iniciar podman"
+msgstr "pod"
 
 #: src/manifest.json:0
-#, fuzzy
-#| msgid "Start podman"
 msgid "podman"
-msgstr "Iniciar podman"
+msgstr "podman"
 
 #: src/Containers.jsx:557
-#, fuzzy
-#| msgid "Ports"
 msgid "ports"
-msgstr "Portas"
+msgstr "portas"
 
 #: src/ImageRunModal.jsx:1115 src/ImageRunModal.jsx:1140
 #: src/ImageRunModal.jsx:1165
 msgid "seconds"
-msgstr ""
+msgstr "segundos"
 
 #: src/Containers.jsx:390 src/Containers.jsx:877
 msgid "service"
@@ -1416,15 +1393,12 @@ msgstr ""
 
 #: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
-#, fuzzy
 msgid "system"
 msgstr "sistema"
 
 #: src/Images.jsx:92 src/Images.jsx:99
-#, fuzzy
-#| msgid "Pause"
 msgid "unused"
-msgstr "Pausar"
+msgstr "não usada"
 
 #: src/app.jsx:61
 #, fuzzy
@@ -1437,9 +1411,8 @@ msgid "user:"
 msgstr "usuário:"
 
 #: src/Containers.jsx:572
-#, fuzzy
 msgid "volumes"
-msgstr "Volumes"
+msgstr "volumes"
 
 #~ msgid "Delete unused user images:"
 #~ msgstr "Excluir imagens de usuário não utilizadas:"
