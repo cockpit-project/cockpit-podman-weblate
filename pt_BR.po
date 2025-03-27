@@ -12,7 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-26 03:20+0000\n"
 "PO-Revision-Date: 2025-03-27 02:13+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1297,9 +1298,8 @@ msgid "Unhealthy"
 msgstr "Não íntegra"
 
 #: src/ContainerDetails.jsx:14
-#, fuzzy
 msgid "Up since:"
-msgstr "Executando desde $0"
+msgstr "Ligado desde"
 
 #: src/ContainerCommitModal.jsx:129
 msgid "Use legacy Docker format"
