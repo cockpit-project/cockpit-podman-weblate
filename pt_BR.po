@@ -12,7 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-26 03:20+0000\n"
 "PO-Revision-Date: 2025-03-27 01:46+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -837,7 +838,7 @@ msgstr "Nome"
 
 #: src/ImageRunModal.jsx:676
 msgid "Name already in use"
-msgstr ""
+msgstr "O nome já está em uso."
 
 #: src/ContainerRenameModal.jsx:70
 #, fuzzy
