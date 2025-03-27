@@ -12,7 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-26 03:20+0000\n"
 "PO-Revision-Date: 2025-03-27 18:30+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-podman/main/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1389,7 +1390,7 @@ msgstr "segundos"
 
 #: src/Containers.jsx:390 src/Containers.jsx:877
 msgid "service"
-msgstr ""
+msgstr "serviço"
 
 #: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
@@ -1401,7 +1402,6 @@ msgid "unused"
 msgstr "não usada"
 
 #: src/app.jsx:61
-#, fuzzy
 msgid "user"
 msgstr "usuário"
 
