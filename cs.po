@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-26 03:20+0000\n"
+"POT-Creation-Date: 2025-03-27 03:21+0000\n"
 "PO-Revision-Date: 2025-03-22 10:53+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
@@ -959,7 +959,7 @@ msgstr "Podman"
 msgid "Podman containers"
 msgstr "Podman kontejnery"
 
-#: src/app.jsx:598
+#: src/app.jsx:677
 msgid "Podman service failed"
 msgstr "Služba podman selhala"
 
@@ -1266,7 +1266,7 @@ msgstr ""
 msgid "Timeout"
 msgstr "Časový limit"
 
-#: src/app.jsx:602
+#: src/app.jsx:681
 msgid "Troubleshoot"
 msgstr "Řešení problémů"
 
@@ -1298,7 +1298,7 @@ msgstr "Použít původní Docker formát"
 msgid "Used by"
 msgstr "Používáno"
 
-#: src/app.jsx:518 src/ImageRunModal.jsx:855
+#: src/app.jsx:529 src/ImageRunModal.jsx:855
 msgid "User"
 msgstr "Uživatel"
 
@@ -1384,7 +1384,7 @@ msgstr "sekund"
 msgid "service"
 msgstr "služba"
 
-#: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
+#: src/app.jsx:61 src/app.jsx:516 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
 msgid "system"
 msgstr "systém"

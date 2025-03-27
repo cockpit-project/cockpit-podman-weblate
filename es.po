@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-26 03:20+0000\n"
+"POT-Creation-Date: 2025-03-27 03:21+0000\n"
 "PO-Revision-Date: 2025-02-07 03:20+0000\n"
 "Last-Translator: N M <nm@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -963,7 +963,7 @@ msgstr "Podman"
 msgid "Podman containers"
 msgstr "Contenedores de Podman"
 
-#: src/app.jsx:598
+#: src/app.jsx:677
 msgid "Podman service failed"
 msgstr "El servicio Podman falló"
 
@@ -1269,7 +1269,7 @@ msgstr ""
 msgid "Timeout"
 msgstr "Tiempo de espera"
 
-#: src/app.jsx:602
+#: src/app.jsx:681
 msgid "Troubleshoot"
 msgstr "Solución de errores"
 
@@ -1301,7 +1301,7 @@ msgstr "Usar el formato heredado Docker"
 msgid "Used by"
 msgstr "Usado por"
 
-#: src/app.jsx:518 src/ImageRunModal.jsx:855
+#: src/app.jsx:529 src/ImageRunModal.jsx:855
 msgid "User"
 msgstr "Usuario"
 
@@ -1389,7 +1389,7 @@ msgstr "segundos"
 msgid "service"
 msgstr ""
 
-#: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
+#: src/app.jsx:61 src/app.jsx:516 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
 msgid "system"
 msgstr "sistema"

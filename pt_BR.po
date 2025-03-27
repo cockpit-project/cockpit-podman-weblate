@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-26 03:20+0000\n"
+"POT-Creation-Date: 2025-03-27 03:21+0000\n"
 "PO-Revision-Date: 2025-03-27 18:30+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -967,7 +967,7 @@ msgstr "Podman"
 msgid "Podman containers"
 msgstr "Contêineres do Podman"
 
-#: src/app.jsx:598
+#: src/app.jsx:677
 msgid "Podman service failed"
 msgstr "Serviço do Podman falhou"
 
@@ -1252,7 +1252,8 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1147
 msgid "The initialization time needed for a container to bootstrap."
-msgstr "O tempo de inicialização necessário para um contêiner ser inicializado."
+msgstr ""
+"O tempo de inicialização necessário para um contêiner ser inicializado."
 
 #: src/ImageRunModal.jsx:1122
 msgid ""
@@ -1274,7 +1275,7 @@ msgstr ""
 msgid "Timeout"
 msgstr "Tempo de limite"
 
-#: src/app.jsx:602
+#: src/app.jsx:681
 msgid "Troubleshoot"
 msgstr "Solução de problemas"
 
@@ -1306,7 +1307,7 @@ msgstr "Usar formato legado do Docker"
 msgid "Used by"
 msgstr "Usado por"
 
-#: src/app.jsx:518 src/ImageRunModal.jsx:855
+#: src/app.jsx:529 src/ImageRunModal.jsx:855
 msgid "User"
 msgstr "Usuário"
 
@@ -1392,7 +1393,7 @@ msgstr "segundos"
 msgid "service"
 msgstr "serviço"
 
-#: src/app.jsx:61 src/app.jsx:505 src/Images.jsx:144 src/Containers.jsx:416
+#: src/app.jsx:61 src/app.jsx:516 src/Images.jsx:144 src/Containers.jsx:416
 #: src/PruneUnusedContainersModal.jsx:32
 msgid "system"
 msgstr "sistema"
