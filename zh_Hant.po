@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:22+0000\n"
 "PO-Revision-Date: 2025-04-02 23:53+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/cockpit-podman/main/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -1186,7 +1187,7 @@ msgstr "狀態"
 
 #: src/ContainerHealthLogs.jsx:58
 msgid "Status"
-msgstr ""
+msgstr "狀態"
 
 #: src/ImageRunModal.jsx:61 src/ContainerHealthLogs.jsx:43
 #: src/PodActions.jsx:88 src/Containers.jsx:170
@@ -1311,11 +1312,11 @@ msgstr "可寫"
 
 #: src/manifest.json:0
 msgid "container"
-msgstr ""
+msgstr "容器"
 
 #: src/ImageRunModal.jsx:302
 msgid "downloading"
-msgstr ""
+msgstr "正在下載"
 
 #: src/ImageRunModal.jsx:884
 msgid "host[:port]/[user]/container[:tag]"
@@ -1323,7 +1324,7 @@ msgstr "主機[:通訊埠]/[使用者]/容器[:標籤]"
 
 #: src/manifest.json:0
 msgid "image"
-msgstr ""
+msgstr "映像檔"
 
 #: src/ImageSearchModal.jsx:180
 msgid "in"
