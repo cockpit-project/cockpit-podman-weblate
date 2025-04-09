@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:22+0000\n"
-"PO-Revision-Date: 2025-02-07 03:20+0000\n"
-"Last-Translator: N M <nm@users.noreply.translate.fedoraproject.org>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/es/>\n"
+"PO-Revision-Date: 2025-04-10 17:53+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -131,7 +131,7 @@ msgstr "Comprobando estado de salud"
 
 #: src/ContainerCheckpointModal.jsx:50 src/Containers.jsx:210
 msgid "Checkpoint"
-msgstr "Checkpoint"
+msgstr "Punto comprobante"
 
 #: src/ImageRunModal.jsx:844
 msgid "Checkpoint and restore support"
@@ -316,17 +316,15 @@ msgstr "¿Eliminar pod $0?"
 
 #: src/ImageDeleteModal.jsx:101
 msgid "Delete tagged images"
-msgstr "Borrar imágenes seleccionadas"
+msgstr "Eliminar imágenes etiquetadas"
 
 #: src/PruneUnusedImagesModal.jsx:38
-#, fuzzy
-#| msgid "Get new image"
 msgid "Delete unused images of user $0:"
-msgstr "Obtener nueva imagen"
+msgstr "Elimina imágenes inusuales del usuario $0:"
 
 #: src/PruneUnusedImagesModal.jsx:37
 msgid "Delete unused system images:"
-msgstr "Borrar imágenes del sistema sin usar:"
+msgstr "Eliminar imágenes del sistema sin usar:"
 
 #: src/ContainerDeleteModal.jsx:41
 msgid "Deleting a container will erase all data in it."
@@ -406,11 +404,11 @@ msgstr "Comprobación de estado de salud fallada"
 
 #: src/ContainerCheckpointModal.jsx:32
 msgid "Failed to checkpoint container $0"
-msgstr "Fallo hacer el checkpoint del contenedor $0"
+msgstr "Falló hacer el checkpoint del contenedor $0"
 
 #: src/ImageRunModal.jsx:258
 msgid "Failed to clean up container"
-msgstr "Fallo al limpiar el contenedor"
+msgstr "Falló al limpiar el contenedor"
 
 #: src/ContainerCommitModal.jsx:85
 msgid "Failed to commit container $0"
@@ -756,11 +754,11 @@ msgstr "Últimas 5 comprobaciones"
 
 #: src/ContainerDetails.jsx:75
 msgid "Latest checkpoint"
-msgstr "Último checkpoint"
+msgstr "Último punto comprobante"
 
 #: src/ContainerCheckpointModal.jsx:61
 msgid "Leave running after writing checkpoint to disk"
-msgstr "Seguir ejecutando tras escribir el checkpoint en disco"
+msgstr "Seguir ejecutando tras escribir el punto comprobante en disco"
 
 #: src/ContainerIntegration.jsx:134 src/ImageHistory.jsx:59
 msgid "Loading details..."
