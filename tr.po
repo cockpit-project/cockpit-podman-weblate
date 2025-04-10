@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 03:23+0000\n"
-"PO-Revision-Date: 2025-04-10 18:32+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-11 06:38+0000\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/tr/>\n"
 "Language: tr\n"
@@ -1311,7 +1310,7 @@ msgstr "Değer"
 
 #: src/ContainerDetails.jsx:53
 msgid "View $0"
-msgstr "$0 dosyasını görüntüle"
+msgstr "$0 görüntüle"
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
@@ -1393,10 +1392,8 @@ msgid "system"
 msgstr "sistem"
 
 #: src/ContainerDetails.jsx:49
-#, fuzzy
-#| msgid "service"
 msgid "systemd service"
-msgstr "hizmet"
+msgstr "systemd hizmeti"
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"
