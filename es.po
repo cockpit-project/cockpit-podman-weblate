@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 03:22+0000\n"
+"POT-Creation-Date: 2025-04-10 03:23+0000\n"
 "PO-Revision-Date: 2025-04-10 17:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
-"cockpit-podman/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
+"podman/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +157,7 @@ msgstr "Proyecto Cockpit"
 msgid "Cockpit component for Podman containers"
 msgstr "Componente Cockpit para contenedores Podman"
 
-#: src/ImageDetails.jsx:17 src/ContainerDetails.jsx:42
+#: src/ImageDetails.jsx:17 src/ContainerDetails.jsx:43
 #: src/ImageRunModal.jsx:925 src/ImageRunModal.jsx:1076
 #: src/ContainerHealthLogs.jsx:63 src/ContainerCommitModal.jsx:116
 msgid "Command"
@@ -256,7 +256,7 @@ msgstr "Crear un contenedor en el pod"
 msgid "Create pod"
 msgstr "Crear pod"
 
-#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:67 src/Images.jsx:189
+#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:79 src/Images.jsx:189
 #: src/PruneUnusedContainersModal.jsx:68 src/ImageHistory.jsx:33
 msgid "Created"
 msgstr "Creado"
@@ -394,7 +394,7 @@ msgstr "Por ejemplo, Tu Nombre <tunombre@ejemplo.es>"
 msgid "Example: $0"
 msgstr "Por ejemplo: $0"
 
-#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:16
+#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:17
 msgid "Exited"
 msgstr "Finalizado"
 
@@ -555,7 +555,7 @@ msgstr "Forzar la parada"
 msgid "GB"
 msgstr "GB"
 
-#: src/ContainerDetails.jsx:55
+#: src/ContainerDetails.jsx:67
 msgid "Gateway"
 msgstr "Puerta de enlace"
 
@@ -612,11 +612,11 @@ msgstr "Puerto del anfitrión"
 msgid "Host port help"
 msgstr "Ayuda sobre el puerto del anfitrión"
 
-#: src/ContainerDetails.jsx:33 src/Images.jsx:190
+#: src/ContainerDetails.jsx:34 src/Images.jsx:190
 msgid "ID"
 msgstr "ID"
 
-#: src/PublishPort.jsx:56 src/ContainerDetails.jsx:51
+#: src/PublishPort.jsx:56 src/ContainerDetails.jsx:63
 msgid "IP address"
 msgstr "Dirección IP"
 
@@ -656,7 +656,7 @@ msgstr "Ignorar la dirección IP si se ha configurado de forma estática"
 msgid "Ignore MAC address if set statically"
 msgstr "Ignorar la dirección MAC si se ha configurado de forma estática"
 
-#: src/ContainerDetails.jsx:37 src/ImageRunModal.jsx:878 src/Images.jsx:187
+#: src/ContainerDetails.jsx:38 src/ImageRunModal.jsx:878 src/Images.jsx:187
 msgid "Image"
 msgstr "Imagen"
 
@@ -752,7 +752,7 @@ msgstr "La clave no debe empezar con un digito"
 msgid "Last 5 runs"
 msgstr "Últimas 5 comprobaciones"
 
-#: src/ContainerDetails.jsx:75
+#: src/ContainerDetails.jsx:87
 msgid "Latest checkpoint"
 msgstr "Último punto comprobante"
 
@@ -784,7 +784,7 @@ msgstr "Imágenes locales"
 msgid "Logs"
 msgstr "Registros"
 
-#: src/ContainerDetails.jsx:59
+#: src/ContainerDetails.jsx:71
 msgid "MAC address"
 msgstr "Dirección MAC"
 
@@ -1193,7 +1193,7 @@ msgstr "Comience a escribir para buscar imágenes."
 msgid "Started at"
 msgstr "Comenzó"
 
-#: src/ContainerDetails.jsx:71 src/Containers.jsx:594
+#: src/ContainerDetails.jsx:83 src/Containers.jsx:594
 msgid "State"
 msgstr "Estado"
 
@@ -1287,7 +1287,7 @@ msgstr "No se pudo cargar el historial de imágenes"
 msgid "Unhealthy"
 msgstr "Mal estado de salud"
 
-#: src/ContainerDetails.jsx:14
+#: src/ContainerDetails.jsx:15
 msgid "Up since:"
 msgstr "Levantado desde:"
 
@@ -1310,6 +1310,10 @@ msgstr "Usuario:"
 #: src/Env.jsx:79
 msgid "Value"
 msgstr "Valor"
+
+#: src/ContainerDetails.jsx:53
+msgid "View $0"
+msgstr ""
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
@@ -1391,6 +1395,10 @@ msgstr ""
 #: src/PruneUnusedContainersModal.jsx:34
 msgid "system"
 msgstr "sistema"
+
+#: src/ContainerDetails.jsx:49
+msgid "systemd service"
+msgstr ""
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"

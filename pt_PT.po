@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 03:22+0000\n"
+"POT-Creation-Date: 2025-04-10 03:23+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://translate.fedoraproject.org/"
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Cockpit component for Podman containers"
 msgstr "Podman containers"
 
-#: src/ImageDetails.jsx:17 src/ContainerDetails.jsx:42
+#: src/ImageDetails.jsx:17 src/ContainerDetails.jsx:43
 #: src/ImageRunModal.jsx:925 src/ImageRunModal.jsx:1076
 #: src/ContainerHealthLogs.jsx:63 src/ContainerCommitModal.jsx:116
 msgid "Command"
@@ -292,7 +292,7 @@ msgstr "Pausar o ''container''"
 msgid "Create pod"
 msgstr "Criado"
 
-#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:67 src/Images.jsx:189
+#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:79 src/Images.jsx:189
 #: src/PruneUnusedContainersModal.jsx:68 src/ImageHistory.jsx:33
 msgid "Created"
 msgstr "Criado"
@@ -451,7 +451,7 @@ msgstr ""
 msgid "Example: $0"
 msgstr ""
 
-#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:16
+#: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:17
 msgid "Exited"
 msgstr "Saiu"
 
@@ -646,7 +646,7 @@ msgstr "Forçar Parar"
 msgid "GB"
 msgstr "GiB"
 
-#: src/ContainerDetails.jsx:55
+#: src/ContainerDetails.jsx:67
 msgid "Gateway"
 msgstr "\"Gateway\""
 
@@ -708,11 +708,11 @@ msgstr "Caminho do anfitrião"
 msgid "Host port help"
 msgstr "Caminho do anfitrião"
 
-#: src/ContainerDetails.jsx:33 src/Images.jsx:190
+#: src/ContainerDetails.jsx:34 src/Images.jsx:190
 msgid "ID"
 msgstr "Id."
 
-#: src/PublishPort.jsx:56 src/ContainerDetails.jsx:51
+#: src/PublishPort.jsx:56 src/ContainerDetails.jsx:63
 msgid "IP address"
 msgstr "Endereço IP"
 
@@ -750,7 +750,7 @@ msgstr "Ignorar o endereço IP, se definido estaticamente"
 msgid "Ignore MAC address if set statically"
 msgstr "Ignorar o endereço MAC, se definido estaticamente"
 
-#: src/ContainerDetails.jsx:37 src/ImageRunModal.jsx:878 src/Images.jsx:187
+#: src/ContainerDetails.jsx:38 src/ImageRunModal.jsx:878 src/Images.jsx:187
 msgid "Image"
 msgstr "Imagem"
 
@@ -854,7 +854,7 @@ msgstr ""
 msgid "Last 5 runs"
 msgstr ""
 
-#: src/ContainerDetails.jsx:75
+#: src/ContainerDetails.jsx:87
 #, fuzzy
 #| msgid "Checkpoint"
 msgid "Latest checkpoint"
@@ -892,7 +892,7 @@ msgstr "Sem imagens"
 msgid "Logs"
 msgstr "\"Logs\""
 
-#: src/ContainerDetails.jsx:59
+#: src/ContainerDetails.jsx:71
 msgid "MAC address"
 msgstr "Endereço MAC"
 
@@ -1361,7 +1361,7 @@ msgstr ""
 msgid "Started at"
 msgstr "Iniciar"
 
-#: src/ContainerDetails.jsx:71 src/Containers.jsx:594
+#: src/ContainerDetails.jsx:83 src/Containers.jsx:594
 msgid "State"
 msgstr "Estado"
 
@@ -1451,7 +1451,7 @@ msgstr "Não foi possível transferir a imagem $0:$1"
 msgid "Unhealthy"
 msgstr ""
 
-#: src/ContainerDetails.jsx:14
+#: src/ContainerDetails.jsx:15
 #, fuzzy
 #| msgid "Up since $0"
 msgid "Up since:"
@@ -1478,6 +1478,10 @@ msgstr "Utilizador"
 #: src/Env.jsx:79
 msgid "Value"
 msgstr "Valor"
+
+#: src/ContainerDetails.jsx:53
+msgid "View $0"
+msgstr ""
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
@@ -1569,6 +1573,10 @@ msgstr ""
 #: src/PruneUnusedContainersModal.jsx:34
 msgid "system"
 msgstr "sistema"
+
+#: src/ContainerDetails.jsx:49
+msgid "systemd service"
+msgstr ""
 
 #: src/Images.jsx:92 src/Images.jsx:99
 #, fuzzy
