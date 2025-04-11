@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 03:23+0000\n"
 "PO-Revision-Date: 2025-04-11 06:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ka/>\n"
 "Language: ka\n"
@@ -1394,10 +1393,8 @@ msgid "system"
 msgstr "სისტემა"
 
 #: src/ContainerDetails.jsx:49
-#, fuzzy
-#| msgid "service"
 msgid "systemd service"
-msgstr "სერვისი"
+msgstr "systemd-ის სერვისი"
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"
