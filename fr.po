@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-11 03:23+0000\n"
-"PO-Revision-Date: 2025-03-22 13:07+0000\n"
+"PO-Revision-Date: 2025-04-11 07:51+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-podman/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1314,7 +1314,7 @@ msgstr "Valeur"
 
 #: src/ContainerDetails.jsx:53
 msgid "View $0"
-msgstr ""
+msgstr "Voir $0"
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
@@ -1396,10 +1396,8 @@ msgid "system"
 msgstr "système"
 
 #: src/ContainerDetails.jsx:49
-#, fuzzy
-#| msgid "service"
 msgid "systemd service"
-msgstr "service"
+msgstr "service systemd"
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"
