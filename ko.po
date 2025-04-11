@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-11 03:23+0000\n"
-"PO-Revision-Date: 2025-04-11 08:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-12 09:53+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/ko/>\n"
 "Language: ko\n"
@@ -1380,10 +1379,8 @@ msgid "system"
 msgstr "systemd"
 
 #: src/ContainerDetails.jsx:49
-#, fuzzy
-#| msgid "service"
 msgid "systemd service"
-msgstr "서비스"
+msgstr "systemd 서비스"
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"
