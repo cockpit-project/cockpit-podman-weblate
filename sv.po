@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-11 03:23+0000\n"
 "PO-Revision-Date: 2025-04-11 08:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/sv/>\n"
 "Language: sv\n"
@@ -1393,10 +1392,8 @@ msgid "system"
 msgstr "system"
 
 #: src/ContainerDetails.jsx:49
-#, fuzzy
-#| msgid "service"
 msgid "systemd service"
-msgstr "tjänst"
+msgstr "systemd tjänst"
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"
