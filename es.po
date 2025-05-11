@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-04 03:35+0000\n"
 "PO-Revision-Date: 2025-05-11 13:34+0000\n"
-"Last-Translator: gossypium "
-"<gossypium@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-podman/main/es/>\n"
 "Language: es\n"
@@ -1314,7 +1314,7 @@ msgstr "Valor"
 
 #: src/ContainerDetails.jsx:53
 msgid "View $0"
-msgstr ""
+msgstr "Ver $0"
 
 #: src/PodCreateModal.jsx:196 src/ImageRunModal.jsx:1054
 #: src/ContainerIntegration.jsx:154
@@ -1404,8 +1404,6 @@ msgid "unused"
 msgstr "sin utilizar"
 
 #: src/app.jsx:61
-#, fuzzy
-#| msgid "user"
 msgid "user"
 msgstr "usuario"
 
