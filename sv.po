@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 03:33+0000\n"
-"PO-Revision-Date: 2025-04-11 08:58+0000\n"
+"PO-Revision-Date: 2025-05-16 21:59+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -296,7 +296,7 @@ msgstr "Minska timeout"
 #: src/Images.jsx:440 src/ContainerDeleteModal.jsx:37 src/PodActions.jsx:50
 #: src/PodActions.jsx:183 src/Containers.jsx:255
 msgid "Delete"
-msgstr "Radera"
+msgstr "Ta bort"
 
 #: src/ImageDeleteModal.jsx:97
 msgid "Delete $0 image?"
