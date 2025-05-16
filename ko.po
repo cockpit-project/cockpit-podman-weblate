@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 03:33+0000\n"
-"PO-Revision-Date: 2025-04-12 09:53+0000\n"
+"PO-Revision-Date: 2025-05-16 21:59+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1273,7 +1273,7 @@ msgstr "상태나쁨"
 
 #: src/ContainerDetails.jsx:15
 msgid "Up since:"
-msgstr "이후부터:"
+msgstr "가동시간:"
 
 #: src/ContainerCommitModal.jsx:131
 msgid "Use legacy Docker format"
