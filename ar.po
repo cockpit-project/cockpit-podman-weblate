@@ -15,22 +15,27 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 03:37+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-05-24 00:44+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "لا حاويات"
+msgstr[1] "حاوية واحدة"
+msgstr[2] "حاويتان"
+msgstr[3] "$0 حاويات"
+msgstr[4] "$0 حاوية"
+msgstr[5] "$0 حاوية"
 
 #: src/Images.jsx:278
 msgid "$0 image total, $1"
@@ -41,8 +46,12 @@ msgstr[1] ""
 #: src/ContainerHealthLogs.jsx:38
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 ثانية"
+msgstr[1] "ثانية واحدة"
+msgstr[2] "ثانيتان"
+msgstr[3] "$0 ثوانِ"
+msgstr[4] "$0 ثانية"
+msgstr[5] "$0 ثانية"
 
 #: src/Images.jsx:282
 msgid "$0 unused image, $1"
@@ -53,56 +62,57 @@ msgstr[1] ""
 #
 #: src/Containers.jsx:374
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "$0 من $1 حد"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 إلى 65535"
 
 #: src/ImageRunModal.jsx:1176
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "الإجراء الذي يجب اتخاذه بمجرد انتقال الحاوية إلى حالة غير صحية."
 
 #: src/Containers.jsx:595
 msgid "Actions"
-msgstr ""
+msgstr "إجراءات"
 
 #: src/ImageRunModal.jsx:1045 src/PodCreateModal.jsx:185
 msgid "Add port mapping"
-msgstr ""
+msgstr "إضافة تخطيط المنفذ"
 
 #: src/ImageRunModal.jsx:1067
 msgid "Add variable"
-msgstr ""
+msgstr "إضافة متغير"
 
 #: src/ImageRunModal.jsx:1055 src/PodCreateModal.jsx:197
 msgid "Add volume"
-msgstr ""
+msgstr "إضافة وحدة تخزين"
 
 #: src/ImageDeleteModal.jsx:109 src/ImageRunModal.jsx:767
 #: src/Containers.jsx:749 src/ContainerHeader.jsx:24
 msgid "All"
-msgstr ""
+msgstr "الكل"
 
 #: src/ImageSearchModal.jsx:186
 msgid "All registries"
-msgstr ""
+msgstr "كافة السجلات"
 
 #: src/ImageRunModal.jsx:1015
 msgid "Always"
-msgstr ""
+msgstr "دائماً"
 
 #: src/PodActions.jsx:59
 msgid "An error occurred"
-msgstr ""
+msgstr "حدث خطأ ما"
 
 #: src/ContainerCommitModal.jsx:109
 msgid "Author"
-msgstr ""
+msgstr "آخر"
 
 #: src/Containers.jsx:530 src/Containers.jsx:533 src/Containers.jsx:592
+#, fuzzy
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: src/ImageRunModal.jsx:972
 msgid "CPU Shares help"
@@ -127,15 +137,15 @@ msgstr ""
 #: src/ImageSearchModal.jsx:156 src/PruneUnusedContainersModal.jsx:101
 #: src/ContainerCommitModal.jsx:161
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: src/Containers.jsx:281
 msgid "Checking health"
-msgstr ""
+msgstr "فحص الصحة"
 
 #: src/ContainerCheckpointModal.jsx:50 src/Containers.jsx:210
 msgid "Checkpoint"
-msgstr ""
+msgstr "نقطة الفحص"
 
 #: src/ImageRunModal.jsx:844
 msgid "Checkpoint and restore support"
@@ -155,7 +165,7 @@ msgstr ""
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "مشروع Cockpit"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
@@ -165,19 +175,19 @@ msgstr ""
 #: src/ContainerHealthLogs.jsx:63 src/ImageDetails.jsx:17
 #: src/ContainerDetails.jsx:43 src/ContainerCommitModal.jsx:116
 msgid "Command"
-msgstr ""
+msgstr "أمر"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
-msgstr ""
+msgstr "تعليقات"
 
 #: src/Containers.jsx:245 src/ContainerCommitModal.jsx:148
 msgid "Commit"
-msgstr ""
+msgstr "إيداع"
 
 #: src/ContainerCommitModal.jsx:140
 msgid "Commit container"
-msgstr ""
+msgstr "أودع حاوية"
 
 #: src/util.js:24
 msgid "Configured"
@@ -185,55 +195,55 @@ msgstr ""
 
 #: src/Containers.jsx:458
 msgid "Console"
-msgstr ""
+msgstr "وحدة تحكم"
 
 #: src/Containers.jsx:590
 msgid "Container"
-msgstr ""
+msgstr "حاوية"
 
 #: src/ImageRunModal.jsx:270
 msgid "Container failed to be created"
-msgstr ""
+msgstr "فشل إنشاء الحاوية"
 
 #: src/ImageRunModal.jsx:251
 msgid "Container failed to be started"
-msgstr ""
+msgstr "فشل بدء الحاوية"
 
 #: src/ContainerTerminal.jsx:264
 msgid "Container is not running"
-msgstr ""
+msgstr "الحاوية لا تعمل"
 
 #: src/ImageRunModal.jsx:811
 msgid "Container name"
-msgstr ""
+msgstr "اسم الحاوية"
 
 #: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
 msgid "Container name is required."
-msgstr ""
+msgstr "اسم الحاوية مطلوب."
 
 #: src/Volume.jsx:52
 msgid "Container path"
-msgstr ""
+msgstr "مسار الحاوية"
 
 #: src/Volume.jsx:25
 msgid "Container path must not be empty"
-msgstr ""
+msgstr "بجب ألا يكون مسار الحاوية فارغاً"
 
 #: src/PublishPort.jsx:102
 msgid "Container port"
-msgstr ""
+msgstr "منفذ الحاوية"
 
 #: src/PublishPort.jsx:38
 msgid "Container port must not be empty"
-msgstr ""
+msgstr "يجب ألا يكةن منفذ الحاوية فارغاً"
 
 #: src/Containers.jsx:803 src/Containers.jsx:809 src/Containers.jsx:844
 msgid "Containers"
-msgstr ""
+msgstr "الحاويات"
 
 #: src/ImageRunModal.jsx:1217 src/PodCreateModal.jsx:217
 msgid "Create"
-msgstr ""
+msgstr "إنشاء"
 
 #: src/ContainerCommitModal.jsx:141
 msgid "Create a new image based on the current state of the $0 container."
@@ -246,36 +256,36 @@ msgstr ""
 #: src/ImageRunModal.jsx:1209 src/Containers.jsx:766 src/Images.jsx:420
 #: src/Images.jsx:429
 msgid "Create container"
-msgstr ""
+msgstr "أنشئ حاوية"
 
 #: src/ImageRunModal.jsx:1209
 msgid "Create container in $0"
-msgstr ""
+msgstr "أنشئ حاوية في $0"
 
 #: src/Containers.jsx:855
 msgid "Create container in pod"
-msgstr ""
+msgstr "أنشئ حاوية في pod"
 
 #: src/Containers.jsx:758 src/PodCreateModal.jsx:212
 msgid "Create pod"
-msgstr ""
+msgstr "أنشئ pod"
 
 #: src/Images.jsx:189 src/util.js:24 src/util.js:27 src/ImageHistory.jsx:33
 #: src/ContainerDetails.jsx:79 src/PruneUnusedContainersModal.jsx:68
 msgid "Created"
-msgstr ""
+msgstr "تم إنشاؤه"
 
 #: src/ImageHistory.jsx:33
 msgid "Created by"
-msgstr ""
+msgstr "تم إنشاؤه بواسطة"
 
 #: src/ImageRunModal.jsx:991
 msgid "Decrease CPU shares"
-msgstr ""
+msgstr "تقليل مشاركة CPU"
 
 #: src/ImageRunModal.jsx:1097
 msgid "Decrease interval"
-msgstr ""
+msgstr "تقليل الفترة"
 
 #: src/ImageRunModal.jsx:1028
 msgid "Decrease maximum retries"
@@ -300,23 +310,23 @@ msgstr ""
 #: src/ContainerDeleteModal.jsx:37 src/Containers.jsx:255 src/Images.jsx:440
 #: src/PodActions.jsx:50 src/PodActions.jsx:183
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: src/ImageDeleteModal.jsx:97
 msgid "Delete $0 image?"
-msgstr ""
+msgstr "حذف الصورة $0؟"
 
 #: src/ContainerDeleteModal.jsx:35 src/ForceRemoveModal.jsx:22
 msgid "Delete $0?"
-msgstr ""
+msgstr "حذف $0؟"
 
 #: src/ImageDeleteModal.jsx:101
 msgid "Delete image"
-msgstr ""
+msgstr "حذف صورة"
 
 #: src/PodActions.jsx:45
 msgid "Delete pod $0?"
-msgstr ""
+msgstr "حذف الـ pod $0؟"
 
 #: src/ImageDeleteModal.jsx:101
 msgid "Delete tagged images"
@@ -344,11 +354,11 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:826 src/Containers.jsx:441 src/Images.jsx:160
 msgid "Details"
-msgstr ""
+msgstr "تفاصيل"
 
 #: src/Images.jsx:191
 msgid "Disk space"
-msgstr ""
+msgstr "مساحة القرص"
 
 #: src/ContainerCommitModal.jsx:130
 msgid ""
@@ -357,11 +367,11 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:153
 msgid "Download"
-msgstr ""
+msgstr "نزِّل"
 
 #: src/Images.jsx:347
 msgid "Download new image"
-msgstr ""
+msgstr "نزِّل صورة جديدة"
 
 #: src/PodActions.jsx:61
 msgid "Empty pod $0 will be permanently removed."
@@ -373,15 +383,15 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1066 src/ContainerIntegration.jsx:158
 msgid "Environment variables"
-msgstr ""
+msgstr "متغيرات البيئة"
 
 #: src/util.js:27
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 #: src/Notification.jsx:43 src/Images.jsx:61
 msgid "Error message"
-msgstr ""
+msgstr "رسالة خطأ"
 
 #: src/ContainerTerminal.jsx:268
 msgid "Error occurred while connecting console"
