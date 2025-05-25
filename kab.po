@@ -15,17 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-04-18 13:53+0000\n"
-"Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
-"fedoraproject.org>\n"
-"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/kab/>\n"
+"PO-Revision-Date: 2025-05-25 19:27+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -65,10 +65,8 @@ msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
 
 #: src/Containers.jsx:595
-#, fuzzy
-#| msgid "Options"
 msgid "Actions"
-msgstr "Tinefrunin"
+msgstr "Tigawin"
 
 #: src/ImageRunModal.jsx:1045 src/PodCreateModal.jsx:185
 msgid "Add port mapping"
@@ -130,7 +128,7 @@ msgstr ""
 #: src/ImageSearchModal.jsx:156 src/PruneUnusedContainersModal.jsx:101
 #: src/ContainerCommitModal.jsx:161
 msgid "Cancel"
-msgstr "Sefsex"
+msgstr "Semmet"
 
 #: src/Containers.jsx:281
 msgid "Checking health"
@@ -168,7 +166,7 @@ msgstr ""
 #: src/ContainerHealthLogs.jsx:63 src/ImageDetails.jsx:17
 #: src/ContainerDetails.jsx:43 src/ContainerCommitModal.jsx:116
 msgid "Command"
-msgstr "Taladna"
+msgstr "Anzaḍ"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
@@ -360,7 +358,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:153
 msgid "Download"
-msgstr "Sider"
+msgstr "Zdem"
 
 #: src/Images.jsx:347
 msgid "Download new image"
