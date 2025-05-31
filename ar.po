@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-27 03:32+0000\n"
-"PO-Revision-Date: 2025-05-24 00:44+0000\n"
+"PO-Revision-Date: 2025-05-31 13:14+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -40,8 +40,12 @@ msgstr[5] "$0 حاوية"
 #: src/Images.jsx:278
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "بلا صورة في المجموع، $1"
+msgstr[1] "صورة واحدة في المجموع، $1"
+msgstr[2] "صورتان في المجموع، $1"
+msgstr[3] "$0 صور في المجموع، $1"
+msgstr[4] "$0 صورة في المجموع، $1"
+msgstr[5] "$0 صورة في المجموع، $1"
 
 #: src/ContainerHealthLogs.jsx:38
 msgid "$0 second"
@@ -56,8 +60,12 @@ msgstr[5] "$0 ثانية"
 #: src/Images.jsx:282
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "لا توجد صور غير مستخدمة، $1"
+msgstr[1] "توجد صورة واحدة غير مستخدمة،$1"
+msgstr[2] "توجد صورتان غير مستخدمتان، $1"
+msgstr[3] "توجد $0 صور غير مستخدمة، $1"
+msgstr[4] "توجد $0 صورة غير مستخدمة، $1"
+msgstr[5] "توجد $0 صورة غير مستخدمة، $1"
 
 #
 #: src/Containers.jsx:374
@@ -110,17 +118,16 @@ msgid "Author"
 msgstr "آخر"
 
 #: src/Containers.jsx:530 src/Containers.jsx:533 src/Containers.jsx:592
-#, fuzzy
 msgid "CPU"
 msgstr "CPU"
 
 #: src/ImageRunModal.jsx:972
 msgid "CPU Shares help"
-msgstr ""
+msgstr "مساعدة أسهم وحدة المعالجة المركزية (CPU)"
 
 #: src/ImageRunModal.jsx:970
 msgid "CPU shares"
-msgstr ""
+msgstr "أسهم وحدة المعالجة المركزية (CPU)"
 
 #: src/ImageRunModal.jsx:974
 msgid ""
@@ -128,6 +135,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"مشاركات وحدة المعالجة المركزية (CPU) تحدد أولوية تشغيل الحاويات. الأولوية "
+"الافتراضية هي 1024. الرقم الأعلى يعطي الأولوية لهذه الحاوية. الرقم الأقل "
+"يقلل من الأولوية."
 
 #: src/ImageDeleteModal.jsx:103 src/ContainerCheckpointModal.jsx:54
 #: src/ImageRunModal.jsx:1220 src/ContainerDeleteModal.jsx:38
@@ -149,19 +159,19 @@ msgstr "نقطة الفحص"
 
 #: src/ImageRunModal.jsx:844
 msgid "Checkpoint and restore support"
-msgstr ""
+msgstr "دعم نقاط التحقق والاستعادة"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Checkpoint container $0"
-msgstr ""
+msgstr "نقطة استعادة الحاوية $0"
 
 #: src/Containers.jsx:548
 msgid "Click to see published ports"
-msgstr ""
+msgstr "انقر للاطلاع على المنافذ التي تم نشرها"
 
 #: src/Containers.jsx:563
 msgid "Click to see volumes"
-msgstr ""
+msgstr "انقر لرؤية وحدات التخزين"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
@@ -169,7 +179,7 @@ msgstr "مشروع Cockpit"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
-msgstr ""
+msgstr "مكونCockpit لحاويات Podman"
 
 #: src/ImageRunModal.jsx:925 src/ImageRunModal.jsx:1076
 #: src/ContainerHealthLogs.jsx:63 src/ImageDetails.jsx:17
@@ -191,7 +201,7 @@ msgstr "أودع حاوية"
 
 #: src/util.js:24
 msgid "Configured"
-msgstr ""
+msgstr "تم تكوينه"
 
 #: src/Containers.jsx:458
 msgid "Console"
@@ -247,28 +257,28 @@ msgstr "إنشاء"
 
 #: src/ContainerCommitModal.jsx:141
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "إنشاء صورة جديدة بناءً على الحالة الحالية للحاوية $0."
 
 #: src/ImageRunModal.jsx:1213
 msgid "Create and run"
-msgstr ""
+msgstr "إنشاء ثم تشغيل"
 
 #: src/ImageRunModal.jsx:1209 src/Containers.jsx:766 src/Images.jsx:420
 #: src/Images.jsx:429
 msgid "Create container"
-msgstr "أنشئ حاوية"
+msgstr "إنشاء حاوية"
 
 #: src/ImageRunModal.jsx:1209
 msgid "Create container in $0"
-msgstr "أنشئ حاوية في $0"
+msgstr "إنشاء حاوية في $0"
 
 #: src/Containers.jsx:855
 msgid "Create container in pod"
-msgstr "أنشئ حاوية في pod"
+msgstr "إنشاء حاوية ضمن pod"
 
 #: src/Containers.jsx:758 src/PodCreateModal.jsx:212
 msgid "Create pod"
-msgstr "أنشئ pod"
+msgstr "إنشاء pod"
 
 #: src/Images.jsx:189 src/util.js:24 src/util.js:27 src/ImageHistory.jsx:33
 #: src/ContainerDetails.jsx:79 src/PruneUnusedContainersModal.jsx:68
@@ -289,23 +299,23 @@ msgstr "تقليل الفترة"
 
 #: src/ImageRunModal.jsx:1028
 msgid "Decrease maximum retries"
-msgstr ""
+msgstr "تقليل الحد الأقصى لإعادة المحاولة"
 
 #: src/ImageRunModal.jsx:951
 msgid "Decrease memory"
-msgstr ""
+msgstr "تقليل الذاكرة"
 
 #: src/ImageRunModal.jsx:1165
 msgid "Decrease retries"
-msgstr ""
+msgstr "تقليل عدد مرات إعادة المحاولة"
 
 #: src/ImageRunModal.jsx:1143
 msgid "Decrease start period"
-msgstr ""
+msgstr "تقليل فترة البدء"
 
 #: src/ImageRunModal.jsx:1120
 msgid "Decrease timeout"
-msgstr ""
+msgstr "تقليل المهلة"
 
 #: src/ContainerDeleteModal.jsx:37 src/Containers.jsx:255 src/Images.jsx:440
 #: src/PodActions.jsx:50 src/PodActions.jsx:183
@@ -330,27 +340,27 @@ msgstr "حذف الـ pod $0؟"
 
 #: src/ImageDeleteModal.jsx:101
 msgid "Delete tagged images"
-msgstr ""
+msgstr "حذف الصور الموسومة"
 
 #: src/PruneUnusedImagesModal.jsx:38
 msgid "Delete unused images of user $0:"
-msgstr ""
+msgstr "حذف الصور غير المستخدمة للمستخدم $0:"
 
 #: src/PruneUnusedImagesModal.jsx:37
 msgid "Delete unused system images:"
-msgstr ""
+msgstr "حذف صور النظام غير المستخدمة:"
 
 #: src/ContainerDeleteModal.jsx:41
 msgid "Deleting a container will erase all data in it."
-msgstr ""
+msgstr "سيؤدي حذف حاوية إلى مسح جميع البيانات الموجودة فيها."
 
 #: src/Containers.jsx:70
 msgid "Deleting a running container will erase all data in it."
-msgstr ""
+msgstr "سيؤدي حذف حاوية قيد التشغيل إلى مسح جميع البيانات الموجودة فيها."
 
 #: src/PodActions.jsx:65
 msgid "Deleting this pod will remove the following containers:"
-msgstr ""
+msgstr "سيؤدي حذف هذا الـ pod إلى إزالة الحاويات التالية:"
 
 #: src/ImageRunModal.jsx:826 src/Containers.jsx:441 src/Images.jsx:160
 msgid "Details"
@@ -363,7 +373,7 @@ msgstr "مساحة القرص"
 #: src/ContainerCommitModal.jsx:130
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr ""
+msgstr "تنسيق Docker مفيد عند مشاركة الصورة مع Docker أو Moby Engine"
 
 #: src/ImageSearchModal.jsx:153
 msgid "Download"
@@ -375,11 +385,11 @@ msgstr "نزِّل صورة جديدة"
 
 #: src/PodActions.jsx:61
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "ستتم إزالة الـ pod: $0 بشكل دائم."
 
 #: src/ImageRunModal.jsx:920 src/ImageDetails.jsx:23
 msgid "Entrypoint"
-msgstr ""
+msgstr "نقطة الدخول"
 
 #: src/ImageRunModal.jsx:1066 src/ContainerIntegration.jsx:158
 msgid "Environment variables"
@@ -395,155 +405,155 @@ msgstr "رسالة خطأ"
 
 #: src/ContainerTerminal.jsx:268
 msgid "Error occurred while connecting console"
-msgstr ""
+msgstr "حدث خطأ أثناء توصيل وحدة التحكم"
 
 #: src/ContainerCommitModal.jsx:111
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "على سبيل المثال، اسمك <yourname@example.com>"
 
 #: src/ImageRunModal.jsx:885
 msgid "Example: $0"
-msgstr ""
+msgstr "على سبيل المثال: $0"
 
 #: src/util.js:24 src/util.js:27 src/ContainerDetails.jsx:17
 msgid "Exited"
-msgstr ""
+msgstr "تم الخروج"
 
 #: src/ContainerHealthLogs.jsx:118
 msgid "Failed health run"
-msgstr ""
+msgstr "فشل التشغيل الصحي"
 
 #: src/ContainerCheckpointModal.jsx:32
 msgid "Failed to checkpoint container $0"
-msgstr ""
+msgstr "فشل التحقق من الحاوية $0"
 
 #: src/ImageRunModal.jsx:258
 msgid "Failed to clean up container"
-msgstr ""
+msgstr "فشل في تنظيف الحاوية"
 
 #: src/ContainerCommitModal.jsx:85
 msgid "Failed to commit container $0"
-msgstr ""
+msgstr "فشل في إيداع الحاوية $0"
 
 #: src/ImageRunModal.jsx:327
 msgid "Failed to create container $0"
-msgstr ""
+msgstr "فشل في إنشاء الحاوية $0"
 
 #: src/Images.jsx:59
 msgid "Failed to download image $0:$1"
-msgstr ""
+msgstr "فشل في تنزيل الصورة $0:$1"
 
 #: src/Containers.jsx:60
 msgid "Failed to force remove container $0"
-msgstr ""
+msgstr "فشل في الإزالة الإجبارية للحاوية $0"
 
 #: src/ImageDeleteModal.jsx:52
 msgid "Failed to force remove image $0"
-msgstr ""
+msgstr "فشل في الإزالة الإجبارية للصورة $0"
 
 #: src/PodActions.jsx:119
 msgid "Failed to force restart pod $0"
-msgstr ""
+msgstr "فشل في إعادة التشغيل الإجبارية للـ pod: $0"
 
 #: src/PodActions.jsx:97
 msgid "Failed to force stop pod $0"
-msgstr ""
+msgstr "فشل في الإيقاف الإجباري للـ pod: $0"
 
 #: src/Containers.jsx:109
 msgid "Failed to pause container $0"
-msgstr ""
+msgstr "فشل في الإيقاف المؤقت للحاوية $0"
 
 #: src/PodActions.jsx:164
 msgid "Failed to pause pod $0"
-msgstr ""
+msgstr "فشل في الإيقاف المؤقت للـ pod: $0"
 
 #: src/PruneUnusedContainersModal.jsx:60
 msgid "Failed to prune unused containers"
-msgstr ""
+msgstr "فشل تقليم الحاويات غير المستخدمة"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
-msgstr ""
+msgstr "فشل تقليم الصور غير المستخدمة"
 
 #: src/ImageRunModal.jsx:333
 msgid "Failed to pull image $0"
-msgstr ""
+msgstr "فشل في سحب الصورة $0"
 
 #: src/ContainerDeleteModal.jsx:25
 msgid "Failed to remove container $0"
-msgstr ""
+msgstr "فشل في إزالة الحاوية $0"
 
 #: src/ImageDeleteModal.jsx:78
 msgid "Failed to remove image $0"
-msgstr ""
+msgstr "فشل في إزالة الصورة $0"
 
 #: src/ContainerRenameModal.jsx:58
 msgid "Failed to rename container $0"
-msgstr ""
+msgstr "فشل في إعادة تسمية الحاوية $0"
 
 #: src/Containers.jsx:127
 msgid "Failed to restart container $0"
-msgstr ""
+msgstr "فشل في إعادة تشغيل الحاوية $0"
 
 #: src/PodActions.jsx:108
 msgid "Failed to restart pod $0"
-msgstr ""
+msgstr "فشل في إعادة تشغيل الـ pod: $0"
 
 #: src/ContainerRestoreModal.jsx:35
 msgid "Failed to restore container $0"
-msgstr ""
+msgstr "فشل في إعادة تخزين الحاوية $0"
 
 #: src/Containers.jsx:101
 msgid "Failed to resume container $0"
-msgstr ""
+msgstr "فشل في استئناف الحاوية $0"
 
 #: src/PodActions.jsx:149
 msgid "Failed to resume pod $0"
-msgstr ""
+msgstr "فشل في استئناف الـ pod: $0"
 
 #: src/ImageRunModal.jsx:320
 msgid "Failed to run container $0"
-msgstr ""
+msgstr "فشل في تشغيل الحاوية $0"
 
 #: src/ContainerHealthLogs.jsx:97
 msgid "Failed to run health check on container $0"
-msgstr ""
+msgstr "فشل تشغيل فحص الحالة الصحية على الحاوية $0"
 
 #: src/ImageRunModal.jsx:390 src/ImageSearchModal.jsx:97
 msgid "Failed to search for images."
-msgstr ""
+msgstr "فشل في البحث عن الصور."
 
 #: src/ImageRunModal.jsx:390 src/ImageSearchModal.jsx:97
 msgid "Failed to search for images: $0"
-msgstr ""
+msgstr "فشل في البحث عن الصور: $0"
 
 #: src/ImageRunModal.jsx:388 src/ImageSearchModal.jsx:96
 msgid "Failed to search for new images"
-msgstr ""
+msgstr "فشل البحث عن صور جديدة"
 
 #: src/Containers.jsx:93
 msgid "Failed to start container $0"
-msgstr ""
+msgstr "فشل بدء الحاوية $0"
 
 #: src/PodActions.jsx:134
 msgid "Failed to start pod $0"
-msgstr ""
+msgstr "فشل في بدء الـ pod: $0"
 
 #: src/Containers.jsx:85
 msgid "Failed to stop container $0"
-msgstr ""
+msgstr "فشل في إيقاف الحاوية $0"
 
 #: src/PodActions.jsx:86
 msgid "Failed to stop pod $0"
-msgstr ""
+msgstr "فشل في إيقاف الـ pod: $0"
 
 #: src/ContainerHealthLogs.jsx:87
 msgid "Failing streak"
-msgstr ""
+msgstr "سلسلة الإخفاق الممتالية"
 
 #: src/ContainerCommitModal.jsx:155
 msgid "Force commit"
-msgstr ""
+msgstr "فرض الإيداع"
 
 #: src/ForceRemoveModal.jsx:27 src/PodActions.jsx:50
 msgid "Force delete"
@@ -551,20 +561,20 @@ msgstr ""
 
 #: src/PodActions.jsx:44
 msgid "Force delete pod $0?"
-msgstr ""
+msgstr "تريد فرض حذف الـ pod: $0؟"
 
 #: src/Containers.jsx:182 src/PodActions.jsx:123
 msgid "Force restart"
-msgstr ""
+msgstr "فرض إعادة التشغيل"
 
 #: src/ImageRunModal.jsx:64 src/Containers.jsx:174 src/PodActions.jsx:101
 #: src/ContainerHealthLogs.jsx:45
 msgid "Force stop"
-msgstr ""
+msgstr "فرض الإيقاف"
 
 #: src/ImageRunModal.jsx:962
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: src/ContainerDetails.jsx:67
 msgid "Gateway"
@@ -572,15 +582,15 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1075 src/Containers.jsx:467
 msgid "Health check"
-msgstr ""
+msgstr "صحة الفحص"
 
 #: src/ImageRunModal.jsx:1084
 msgid "Health check interval help"
-msgstr ""
+msgstr "المساعدة في الفترات الفاصلة بين فحوصات الصحة"
 
 #: src/ImageRunModal.jsx:1153
 msgid "Health check retries help"
-msgstr ""
+msgstr "مساعدة إعادة محاولة التحقق من الصحة"
 
 #: src/ImageRunModal.jsx:1130
 msgid "Health check start period help"
@@ -612,15 +622,15 @@ msgstr ""
 
 #: src/Volume.jsx:38
 msgid "Host path"
-msgstr ""
+msgstr "مسار المضيف"
 
 #: src/PublishPort.jsx:77
 msgid "Host port"
-msgstr ""
+msgstr "منفذ المضيف"
 
 #: src/PublishPort.jsx:80
 msgid "Host port help"
-msgstr ""
+msgstr "مساعدة منفذ المضيف"
 
 #: src/Images.jsx:190 src/ContainerDetails.jsx:34
 msgid "ID"
@@ -664,7 +674,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:878 src/Images.jsx:187 src/ContainerDetails.jsx:38
 msgid "Image"
-msgstr ""
+msgstr "صورة"
 
 #: src/ContainerCommitModal.jsx:48
 msgid "Image name is not unique"
@@ -935,7 +945,7 @@ msgstr ""
 
 #: src/Containers.jsx:190 src/PodActions.jsx:168
 msgid "Pause"
-msgstr ""
+msgstr "إيقاف"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
