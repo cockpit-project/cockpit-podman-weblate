@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-05-31 13:26+0000\n"
+"PO-Revision-Date: 2025-05-31 16:49+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -698,7 +698,7 @@ msgstr "الصور"
 
 #: src/ImageRunModal.jsx:992
 msgid "Increase CPU shares"
-msgstr ""
+msgstr "زيادة مشاركات وحدة المعالجة المركزية (CPU)"
 
 #: src/ImageRunModal.jsx:1098
 msgid "Increase interval"
