@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-02 03:42+0000\n"
-"PO-Revision-Date: 2025-05-31 16:49+0000\n"
+"PO-Revision-Date: 2025-06-07 03:33+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -702,45 +702,48 @@ msgstr "زيادة مشاركات وحدة المعالجة المركزية (CP
 
 #: src/ImageRunModal.jsx:1098
 msgid "Increase interval"
-msgstr ""
+msgstr "زيادة الفترة الزمنية"
 
 #: src/ImageRunModal.jsx:1029
 msgid "Increase maximum retries"
-msgstr ""
+msgstr "زيادة الحد الأقصى لإعادة المحاولة"
 
 #: src/ImageRunModal.jsx:952
 msgid "Increase memory"
-msgstr ""
+msgstr "زيادة الذكرة"
 
 #: src/ImageRunModal.jsx:1166
 msgid "Increase retries"
-msgstr ""
+msgstr "زيادة عدد مرات إعادة المحاولة"
 
 #: src/ImageRunModal.jsx:1144
 msgid "Increase start period"
-msgstr ""
+msgstr "زيادة فترة البدء"
 
 #: src/ImageRunModal.jsx:1121
 msgid "Increase timeout"
-msgstr ""
+msgstr "زيادة المهلة الزمنية"
 
 #: src/ImageRunModal.jsx:1039 src/Containers.jsx:448
 msgid "Integration"
-msgstr ""
+msgstr "تكامل"
 
 #: src/ImageRunModal.jsx:1082 src/ContainerHealthLogs.jsx:67
 msgid "Interval"
-msgstr ""
+msgstr "فترة زمنية"
 
 #: src/ImageRunModal.jsx:1086
+#, fuzzy
 msgid "Interval how often health check is run."
-msgstr ""
+msgstr "الفاصل الزمني لعدد المرات التي يتم فيها تشغيل فحص درجة الصحة."
 
 #: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:121
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"أحرف غير صالحة. يمكن أن يحتوي الاسم فقط على أحرف وأرقام وعلامات ترقيم معينة ("
+"_ . -)."
 
 #: src/ImageRunModal.jsx:960
 msgid "KB"
@@ -748,7 +751,7 @@ msgstr "KB"
 
 #: src/ContainerCheckpointModal.jsx:59 src/ContainerRestoreModal.jsx:62
 msgid "Keep all temporary checkpoint files"
-msgstr ""
+msgstr "الاحتفاظ بجميع ملفات نقاط التفتيش المؤقتة"
 
 #: src/Env.jsx:63
 msgid "Key"
@@ -756,23 +759,23 @@ msgstr "مفتاح"
 
 #: src/Env.jsx:25
 msgid "Key contains invalid characters"
-msgstr ""
+msgstr "يحتوي المفتاح على أحرف غير صالحة"
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
-msgstr ""
+msgstr "يجب ألا يكون المفتاح فارغاً"
 
 #: src/Env.jsx:23
 msgid "Key must not begin with a digit"
-msgstr ""
+msgstr "يجب ألا يبدأ المفتاح بعدد"
 
 #: src/ContainerHealthLogs.jsx:108
 msgid "Last 5 runs"
-msgstr ""
+msgstr "آخر ٥ مرات تشغيل"
 
 #: src/ContainerDetails.jsx:87
 msgid "Latest checkpoint"
-msgstr ""
+msgstr "‎آخر نقطة فحص"
 
 #: src/ContainerCheckpointModal.jsx:61
 msgid "Leave running after writing checkpoint to disk"
