@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-02 03:42+0000\n"
+"POT-Creation-Date: 2025-06-06 03:37+0000\n"
 "PO-Revision-Date: 2024-07-13 13:38+0000\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -58,7 +58,7 @@ msgstr ""
 "Akcia, ktorú vykonať akonáhle sa kontajner ocitne v stave, kedy nie je v "
 "poriadku."
 
-#: src/Containers.jsx:595
+#: src/Containers.jsx:601
 #, fuzzy
 #| msgid "Options"
 msgid "Actions"
@@ -77,7 +77,7 @@ msgid "Add volume"
 msgstr "Pridať zväzok"
 
 #: src/ImageDeleteModal.jsx:109 src/ImageRunModal.jsx:767
-#: src/Containers.jsx:749 src/ContainerHeader.jsx:24
+#: src/Containers.jsx:755 src/ContainerHeader.jsx:24
 msgid "All"
 msgstr "Všetky"
 
@@ -97,7 +97,7 @@ msgstr "Vyskytla sa chyba"
 msgid "Author"
 msgstr "Autor"
 
-#: src/Containers.jsx:530 src/Containers.jsx:533 src/Containers.jsx:592
+#: src/Containers.jsx:536 src/Containers.jsx:539 src/Containers.jsx:598
 msgid "CPU"
 msgstr "CPU"
 
@@ -145,11 +145,11 @@ msgstr "Kontrolný bod a podpora obnovenia"
 msgid "Checkpoint container $0"
 msgstr "Vytvoriť kontrolný bod pre kontajner $0"
 
-#: src/Containers.jsx:548
+#: src/Containers.jsx:554
 msgid "Click to see published ports"
 msgstr "Kliknutím zobrazíte publikované porty"
 
-#: src/Containers.jsx:563
+#: src/Containers.jsx:569
 msgid "Click to see volumes"
 msgstr "Kliknutím zobrazíte zväzky (volumes)"
 
@@ -183,11 +183,11 @@ msgstr "Odoslať kontajner"
 msgid "Configured"
 msgstr "Nakonfigurovaný"
 
-#: src/Containers.jsx:458
+#: src/Containers.jsx:464
 msgid "Console"
 msgstr "Konzola"
 
-#: src/Containers.jsx:590
+#: src/Containers.jsx:596
 msgid "Container"
 msgstr "Kontajner"
 
@@ -227,7 +227,7 @@ msgstr "Port kontajneru"
 msgid "Container port must not be empty"
 msgstr "Port kontajnera nesmie byť prázdny"
 
-#: src/Containers.jsx:803 src/Containers.jsx:809 src/Containers.jsx:844
+#: src/Containers.jsx:809 src/Containers.jsx:815 src/Containers.jsx:850
 msgid "Containers"
 msgstr "Kontajnery"
 
@@ -243,7 +243,7 @@ msgstr "Vytvoriť nový obraz založený na súčasnom stave kontajnera $0."
 msgid "Create and run"
 msgstr "Vytvoriť a spustiť"
 
-#: src/ImageRunModal.jsx:1209 src/Containers.jsx:766 src/Images.jsx:420
+#: src/ImageRunModal.jsx:1209 src/Containers.jsx:772 src/Images.jsx:420
 #: src/Images.jsx:429
 msgid "Create container"
 msgstr "Vytvoriť kontajner"
@@ -252,11 +252,11 @@ msgstr "Vytvoriť kontajner"
 msgid "Create container in $0"
 msgstr "Vytvoriť kontajner v $0"
 
-#: src/Containers.jsx:855
+#: src/Containers.jsx:861
 msgid "Create container in pod"
 msgstr "Vytvoriť kontajner v skupine"
 
-#: src/Containers.jsx:758 src/PodCreateModal.jsx:212
+#: src/Containers.jsx:764 src/PodCreateModal.jsx:212
 msgid "Create pod"
 msgstr "Vytvoriť pod"
 
@@ -571,7 +571,7 @@ msgstr "GB"
 msgid "Gateway"
 msgstr "Brána"
 
-#: src/ImageRunModal.jsx:1075 src/Containers.jsx:467
+#: src/ImageRunModal.jsx:1075 src/Containers.jsx:473
 msgid "Health check"
 msgstr ""
 
@@ -785,11 +785,11 @@ msgstr ""
 msgid "Loading details..."
 msgstr "Načítanie záznamov udalostí..."
 
-#: src/ContainerLogs.jsx:56
+#: src/ContainerLogs.jsx:57
 msgid "Loading logs..."
 msgstr "Načítanie záznamov udalostí..."
 
-#: src/Containers.jsx:604 src/ImageUsedBy.jsx:14
+#: src/Containers.jsx:610 src/ImageUsedBy.jsx:14
 msgid "Loading..."
 msgstr "Načítanie..."
 
@@ -817,7 +817,7 @@ msgstr "MB"
 msgid "Maximum retries"
 msgstr "Maximum pokusov"
 
-#: src/Containers.jsx:537 src/Containers.jsx:540 src/Containers.jsx:593
+#: src/Containers.jsx:543 src/Containers.jsx:546 src/Containers.jsx:599
 msgid "Memory"
 msgstr "Pamäť"
 
@@ -868,7 +868,7 @@ msgstr "Nie"
 msgid "No action"
 msgstr ""
 
-#: src/Containers.jsx:601
+#: src/Containers.jsx:607
 msgid "No containers"
 msgstr "Žiadne kontajnery"
 
@@ -876,11 +876,11 @@ msgstr "Žiadne kontajnery"
 msgid "No containers are using this image"
 msgstr "Tento obraz nepoužívajú žiadne kontajnery"
 
-#: src/Containers.jsx:602
+#: src/Containers.jsx:608
 msgid "No containers in this pod"
 msgstr "V tomto pode nie sú žiadne kontajnery"
 
-#: src/Containers.jsx:606
+#: src/Containers.jsx:612
 msgid "No containers that match the current filter"
 msgstr "Žiadne kontajneri nevyhovujú danému filtru"
 
@@ -913,7 +913,7 @@ msgstr ""
 msgid "No results for $0"
 msgstr "Žiaden výsledok pre $0"
 
-#: src/Containers.jsx:608
+#: src/Containers.jsx:614
 msgid "No running containers"
 msgstr "Žiadne spustené kontajnery"
 
@@ -925,7 +925,7 @@ msgstr "Žiadne špecifikované zväzky"
 msgid "On failure"
 msgstr "Pri chybe"
 
-#: src/Containers.jsx:750
+#: src/Containers.jsx:756
 msgid "Only running"
 msgstr "Iba bežiace"
 
@@ -933,7 +933,7 @@ msgstr "Iba bežiace"
 msgid "Options"
 msgstr "Možnosti"
 
-#: src/ImageRunModal.jsx:828 src/Containers.jsx:591 src/Images.jsx:188
+#: src/ImageRunModal.jsx:828 src/Containers.jsx:597 src/Images.jsx:188
 #: src/ContainerHeader.jsx:17 src/PodCreateModal.jsx:170
 #: src/ImageSearchModal.jsx:163 src/PruneUnusedContainersModal.jsx:74
 msgid "Owner"
@@ -1188,7 +1188,7 @@ msgstr "Načítanie..."
 msgid "Shared"
 msgstr "Zdielaný"
 
-#: src/Containers.jsx:745
+#: src/Containers.jsx:751
 msgid "Show"
 msgstr ""
 
@@ -1236,7 +1236,7 @@ msgstr "Začnite písať na vyhľadanie obrazov."
 msgid "Started at"
 msgstr "Spustiť"
 
-#: src/Containers.jsx:594 src/ContainerDetails.jsx:83
+#: src/Containers.jsx:600 src/ContainerDetails.jsx:83
 msgid "State"
 msgstr "Stav"
 
@@ -1356,6 +1356,10 @@ msgstr "Hodnota"
 msgid "View $0"
 msgstr ""
 
+#: src/ContainerLogs.jsx:179
+msgid "View $0 logs"
+msgstr ""
+
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
 msgid "Volumes"
@@ -1415,7 +1419,7 @@ msgstr "Nedostupné"
 msgid "not available"
 msgstr "nedostupné"
 
-#: src/Containers.jsx:875
+#: src/Containers.jsx:881
 #, fuzzy
 #| msgid "podman"
 msgid "pod"
@@ -1425,7 +1429,7 @@ msgstr "podman"
 msgid "podman"
 msgstr "podman"
 
-#: src/Containers.jsx:557
+#: src/Containers.jsx:563
 #, fuzzy
 #| msgid "Ports"
 msgid "ports"
@@ -1436,7 +1440,7 @@ msgstr "Porty"
 msgid "seconds"
 msgstr ""
 
-#: src/Containers.jsx:390 src/Containers.jsx:876
+#: src/Containers.jsx:390 src/Containers.jsx:882
 msgid "service"
 msgstr ""
 
@@ -1464,7 +1468,7 @@ msgstr "používateľ"
 msgid "user:"
 msgstr "používateľ:"
 
-#: src/Containers.jsx:572
+#: src/Containers.jsx:578
 #, fuzzy
 #| msgid "Volumes"
 msgid "volumes"
