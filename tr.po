@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-07 03:35+0000\n"
-"PO-Revision-Date: 2025-05-14 14:12+0000\n"
+"PO-Revision-Date: 2025-06-07 07:41+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1313,10 +1313,8 @@ msgid "View $0"
 msgstr "$0 görüntüle"
 
 #: src/ContainerLogs.jsx:179
-#, fuzzy
-#| msgid "View $0"
 msgid "View $0 logs"
-msgstr "$0 görüntüle"
+msgstr "$0 günlüklerini görüntüle"
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
