@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-08 03:43+0000\n"
 "PO-Revision-Date: 2025-06-08 23:57+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -99,7 +100,7 @@ msgstr "إضافة وحدة تخزين"
 #: src/ImageDeleteModal.jsx:109 src/ImageRunModal.jsx:767
 #: src/Containers.jsx:755 src/ContainerHeader.jsx:24
 msgid "All"
-msgstr "الكل"
+msgstr "كل"
 
 #: src/ImageSearchModal.jsx:186
 msgid "All registries"
@@ -928,7 +929,7 @@ msgstr "التشغيل فقط"
 
 #: src/ContainerCommitModal.jsx:122
 msgid "Options"
-msgstr "خيارات"
+msgstr "الخيارات"
 
 #: src/ImageRunModal.jsx:828 src/Containers.jsx:597 src/Images.jsx:188
 #: src/ContainerHeader.jsx:17 src/PodCreateModal.jsx:170
