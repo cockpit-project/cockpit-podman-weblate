@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-08 03:43+0000\n"
-"PO-Revision-Date: 2025-06-08 23:06+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-08 23:21+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -734,9 +733,8 @@ msgid "Interval"
 msgstr "فترة زمنية"
 
 #: src/ImageRunModal.jsx:1086
-#, fuzzy
 msgid "Interval how often health check is run."
-msgstr "الفاصل الزمني لعدد المرات التي يتم فيها تشغيل فحص درجة الصحة."
+msgstr "الفاصل الزمني لعدد المرات التي يتم فيها تشغيل فحص الصحة."
 
 #: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:121
 msgid ""
@@ -808,129 +806,129 @@ msgstr "السجلات"
 
 #: src/ContainerDetails.jsx:71
 msgid "MAC address"
-msgstr "_عنوان ماك:"
+msgstr "عنوان MAC"
 
 #: src/ImageRunModal.jsx:961
 msgid "MB"
-msgstr "SMB"
+msgstr "MB"
 
 #: src/ImageRunModal.jsx:1021
 msgid "Maximum retries"
-msgstr ""
+msgstr "الحد الأقصى لإعادة المحاولة"
 
 #: src/Containers.jsx:543 src/Containers.jsx:546 src/Containers.jsx:599
 msgid "Memory"
-msgstr ""
+msgstr "الذاكرة"
 
 #: src/ImageRunModal.jsx:938
 msgid "Memory limit"
-msgstr ""
+msgstr "حد الذاكرة"
 
 #: src/ImageRunModal.jsx:955
 msgid "Memory unit"
-msgstr ""
+msgstr "وحدة الذاكرة"
 
 #: src/Volume.jsx:66
 msgid "Mode"
-msgstr ""
+msgstr "الوضع"
 
 #: src/ImageDeleteModal.jsx:107
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr ""
+msgstr "توجد عدة أوسمة لهذه الصورة. حدد الصور الموسومة لحذفها."
 
 #: src/PublishPort.jsx:25
 msgid "Must be a valid IP address"
-msgstr ""
+msgstr "يجب أن يكةن عنوان IP صالحاً"
 
 #: src/ImageRunModal.jsx:808 src/PodCreateModal.jsx:152
 #: src/PruneUnusedContainersModal.jsx:67
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 #: src/ImageRunModal.jsx:677
 msgid "Name already in use"
-msgstr ""
+msgstr "الاسم مستخدم بالفعل"
 
 #: src/ContainerRenameModal.jsx:72
 msgid "New container name"
-msgstr ""
+msgstr "اسم حاوية جديد"
 
 #: src/ContainerCommitModal.jsx:94
 msgid "New image name"
-msgstr ""
+msgstr "اسم صورة جديد"
 
 #: src/ImageRunModal.jsx:1013
 msgid "No"
-msgstr ""
+msgstr "لا"
 
 #: src/ImageRunModal.jsx:61 src/ContainerHealthLogs.jsx:42
 msgid "No action"
-msgstr ""
+msgstr "لا حدث"
 
 #: src/Containers.jsx:607
 msgid "No containers"
-msgstr ""
+msgstr "لا حاويات"
 
 #: src/ImageUsedBy.jsx:16
 msgid "No containers are using this image"
-msgstr ""
+msgstr "لا حاويات تستخدم هذه الصورة"
 
 #: src/Containers.jsx:608
 msgid "No containers in this pod"
-msgstr ""
+msgstr "لا حاويات في هذا الـ pod"
 
 #: src/Containers.jsx:612
 msgid "No containers that match the current filter"
-msgstr ""
+msgstr "لا توجد حاويات مطابقة لعامل التصفية الحالي"
 
 #: src/ImageRunModal.jsx:1064
 msgid "No environment variables specified"
-msgstr ""
+msgstr "لم يتم تحديد متغيرات البيئة"
 
 #: src/Images.jsx:194
 msgid "No images"
-msgstr ""
+msgstr "لا صور"
 
 #: src/ImageRunModal.jsx:896 src/ImageRunModal.jsx:897
 #: src/ImageSearchModal.jsx:195
 msgid "No images found"
-msgstr ""
+msgstr "لا صور موجودة"
 
 #: src/Images.jsx:198
 msgid "No images that match the current filter"
-msgstr ""
+msgstr "لا صور تتطابق مع عامل التصفية الحالي"
 
 #: src/Volume.jsx:77
 msgid "No label"
-msgstr ""
+msgstr "لا يوجد علامة"
 
 #: src/ImageRunModal.jsx:1042 src/PodCreateModal.jsx:182
 msgid "No ports exposed"
-msgstr ""
+msgstr "لا توجد منافذ مكشوفة"
 
 #: src/ImageSearchModal.jsx:199
 msgid "No results for $0"
-msgstr ""
+msgstr "لا تنائج لـ $0"
 
 #: src/Containers.jsx:614
 msgid "No running containers"
-msgstr ""
+msgstr "لا حاويات قيد التشغيل"
 
 #: src/ImageRunModal.jsx:1052 src/PodCreateModal.jsx:194
 msgid "No volumes specified"
-msgstr ""
+msgstr "لا وحدات تحزين محددة"
 
 #: src/ImageRunModal.jsx:1014
 msgid "On failure"
-msgstr ""
+msgstr "عند الإخفاق"
 
 #: src/Containers.jsx:756
 msgid "Only running"
-msgstr ""
+msgstr "التشغيل فقط"
 
 #: src/ContainerCommitModal.jsx:122
 msgid "Options"
-msgstr ""
+msgstr "خيارات"
 
 #: src/ImageRunModal.jsx:828 src/Containers.jsx:597 src/Images.jsx:188
 #: src/ContainerHeader.jsx:17 src/PodCreateModal.jsx:170
@@ -973,11 +971,11 @@ msgstr ""
 
 #: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: src/manifest.json:0
 msgid "Podman containers"
-msgstr ""
+msgstr "حاويات Podman"
 
 #: src/app.jsx:675
 msgid "Podman service failed"
@@ -989,7 +987,7 @@ msgstr ""
 
 #: src/ContainerIntegration.jsx:150 src/ImageDetails.jsx:41
 msgid "Ports"
-msgstr ""
+msgstr "المنافذ"
 
 #: src/ImageRunModal.jsx:847
 msgid "Ports under 1024 can be mapped"
@@ -997,11 +995,11 @@ msgstr ""
 
 #: src/Volume.jsx:79
 msgid "Private"
-msgstr ""
+msgstr "خاص"
 
 #: src/PublishPort.jsx:119
 msgid "Protocol"
-msgstr ""
+msgstr "بروتوكول"
 
 #: src/PruneUnusedImagesModal.jsx:96 src/PruneUnusedContainersModal.jsx:99
 msgid "Prune"
@@ -1025,19 +1023,19 @@ msgstr ""
 
 #: src/Images.jsx:434
 msgid "Pull"
-msgstr ""
+msgstr "اسحب"
 
 #: src/Images.jsx:354
 msgid "Pull all images"
-msgstr ""
+msgstr "سحب جميع الصور"
 
 #: src/ImageRunModal.jsx:914
 msgid "Pull latest image"
-msgstr ""
+msgstr "اسحب آخر صورة"
 
 #: src/Images.jsx:333
 msgid "Pulling"
-msgstr ""
+msgstr "السحب"
 
 #: src/ContainerIntegration.jsx:83
 msgid "Read-only access"
@@ -1061,7 +1059,7 @@ msgstr ""
 
 #: src/Containers.jsx:156 src/ContainerRenameModal.jsx:96
 msgid "Rename"
-msgstr ""
+msgstr "إعادة التسمية"
 
 #: src/ContainerRenameModal.jsx:89
 msgid "Rename container $0"
