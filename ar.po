@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-08 03:43+0000\n"
-"PO-Revision-Date: 2025-06-07 03:33+0000\n"
+"PO-Revision-Date: 2025-06-08 23:05+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -779,39 +779,39 @@ msgstr "‎آخر نقطة فحص"
 
 #: src/ContainerCheckpointModal.jsx:61
 msgid "Leave running after writing checkpoint to disk"
-msgstr ""
+msgstr "ترك التشغيل بعد كتابة نقطة التحقق على القرص"
 
 #: src/ImageHistory.jsx:59 src/ContainerIntegration.jsx:134
 msgid "Loading details..."
-msgstr ""
+msgstr "جاري تحميل التفاصيل..."
 
 #: src/ContainerLogs.jsx:57
 msgid "Loading logs..."
-msgstr ""
+msgstr "جاري تحميل السجلات..."
 
 #: src/Containers.jsx:610 src/ImageUsedBy.jsx:14
 msgid "Loading..."
-msgstr ""
+msgstr "جاري التحميل..."
 
 #: src/ImageRunModal.jsx:774
 msgid "Local"
-msgstr ""
+msgstr "محلي"
 
 #: src/ImageRunModal.jsx:577
 msgid "Local images"
-msgstr ""
+msgstr "الصور المحلية"
 
 #: src/Containers.jsx:453 src/ContainerHealthLogs.jsx:105
 msgid "Logs"
-msgstr ""
+msgstr "السجلات"
 
 #: src/ContainerDetails.jsx:71
 msgid "MAC address"
-msgstr ""
+msgstr "عنوان MAC"
 
 #: src/ImageRunModal.jsx:961
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/ImageRunModal.jsx:1021
 msgid "Maximum retries"
@@ -1413,7 +1413,7 @@ msgstr ""
 
 #: src/app.jsx:61
 msgid "user"
-msgstr ""
+msgstr "المستخدم"
 
 #: src/Containers.jsx:416 src/Images.jsx:144
 #: src/PruneUnusedContainersModal.jsx:34
