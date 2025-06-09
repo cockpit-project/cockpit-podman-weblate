@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-08 03:43+0000\n"
-"PO-Revision-Date: 2025-05-27 22:27+0000\n"
-"Last-Translator: Conan Edogawa <conan05@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2025-06-09 11:08+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fr/>\n"
 "Language: fr\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1318,10 +1317,8 @@ msgid "View $0"
 msgstr "Voir $0"
 
 #: src/ContainerLogs.jsx:179
-#, fuzzy
-#| msgid "View $0"
 msgid "View $0 logs"
-msgstr "Voir $0"
+msgstr "Voir les journaux $0"
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
