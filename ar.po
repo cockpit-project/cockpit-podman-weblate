@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:38+0000\n"
-"PO-Revision-Date: 2025-06-08 23:57+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-10 22:11+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -1009,19 +1008,19 @@ msgstr "التقليم"
 
 #: src/Containers.jsx:295 src/PruneUnusedContainersModal.jsx:92
 msgid "Prune unused containers"
-msgstr ""
+msgstr "تقليم الحاويات غير المستخدمة"
 
 #: src/Images.jsx:365 src/PruneUnusedImagesModal.jsx:89
 msgid "Prune unused images"
-msgstr ""
+msgstr "تلقيم الصور الغير مستخدمة"
 
 #: src/PruneUnusedContainersModal.jsx:95 src/PruneUnusedContainersModal.jsx:99
 msgid "Pruning containers"
-msgstr ""
+msgstr "تلقيم الحاويات"
 
 #: src/PruneUnusedImagesModal.jsx:92 src/PruneUnusedImagesModal.jsx:96
 msgid "Pruning images"
-msgstr ""
+msgstr "تلقيم الصور"
 
 #: src/Images.jsx:434
 msgid "Pull"
@@ -1041,23 +1040,23 @@ msgstr "السحب"
 
 #: src/ContainerIntegration.jsx:83
 msgid "Read-only access"
-msgstr ""
+msgstr "وصول القرآءة فقط"
 
 #: src/ContainerIntegration.jsx:82
 msgid "Read-write access"
-msgstr ""
+msgstr "وصول القرآءة-الكتابة"
 
 #: src/PublishPort.jsx:134 src/Volume.jsx:86 src/Env.jsx:97
 msgid "Remove item"
-msgstr ""
+msgstr "إزالة العنصر"
 
 #: src/PruneUnusedContainersModal.jsx:104
 msgid "Removes selected non-running containers"
-msgstr ""
+msgstr "أزل الحاويات المحددة التي ليست قيد التشغيل"
 
 #: src/util.js:24
 msgid "Removing"
-msgstr ""
+msgstr "إزالة"
 
 #: src/Containers.jsx:156 src/ContainerRenameModal.jsx:96
 msgid "Rename"
@@ -1065,7 +1064,7 @@ msgstr "إعادة التسمية"
 
 #: src/ContainerRenameModal.jsx:89
 msgid "Rename container $0"
-msgstr ""
+msgstr "إعادة تسمية الحاوية $0"
 
 #: src/ImageRunModal.jsx:841
 msgid "Resource limits can be set"
