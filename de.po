@@ -6,17 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 03:43+0000\n"
-"PO-Revision-Date: 2025-05-04 14:03+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"podman/main/de/>\n"
+"PO-Revision-Date: 2025-06-10 18:50+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -321,10 +320,8 @@ msgid "Delete tagged images"
 msgstr "Markierte Image löschen"
 
 #: src/PruneUnusedImagesModal.jsx:38
-#, fuzzy
-#| msgid "Delete unused $0 images:"
 msgid "Delete unused images of user $0:"
-msgstr "Nicht verwendete $0 Abbilder löschen:"
+msgstr "Nicht verwendete Abbilder von Benutzer $0 löschen:"
 
 #: src/PruneUnusedImagesModal.jsx:37
 msgid "Delete unused system images:"
@@ -1322,10 +1319,8 @@ msgid "View $0"
 msgstr "$0 ansehen"
 
 #: src/ContainerLogs.jsx:179
-#, fuzzy
-#| msgid "View $0"
 msgid "View $0 logs"
-msgstr "$0 ansehen"
+msgstr "$0 Logs ansehen"
 
 #: src/ImageRunModal.jsx:1054 src/PodCreateModal.jsx:196
 #: src/ContainerIntegration.jsx:154
@@ -1382,7 +1377,7 @@ msgstr "nicht verfügbar"
 
 #: src/Containers.jsx:881
 msgid "pod"
-msgstr "pod"
+msgstr "Pod"
 
 #: src/manifest.json:0
 msgid "podman"
