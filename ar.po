@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:38+0000\n"
 "PO-Revision-Date: 2025-06-10 22:11+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -1060,7 +1061,7 @@ msgstr "إزالة"
 
 #: src/Containers.jsx:156 src/ContainerRenameModal.jsx:96
 msgid "Rename"
-msgstr "إعادة التسمية"
+msgstr "أعِد التسمية"
 
 #: src/ContainerRenameModal.jsx:89
 msgid "Rename container $0"
