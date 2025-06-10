@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:38+0000\n"
 "PO-Revision-Date: 2025-06-10 22:42+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -189,7 +190,7 @@ msgstr "أمر"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
-msgstr "التعليقات"
+msgstr "تعليقات..."
 
 #: src/Containers.jsx:245 src/ContainerCommitModal.jsx:148
 msgid "Commit"
@@ -1421,7 +1422,7 @@ msgstr "غير مستخدم"
 
 #: src/app.jsx:61
 msgid "user"
-msgstr "المستخدم"
+msgstr "المُستخدم"
 
 #: src/Containers.jsx:416 src/Images.jsx:144
 #: src/PruneUnusedContainersModal.jsx:34
