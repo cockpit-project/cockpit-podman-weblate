@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:38+0000\n"
-"PO-Revision-Date: 2025-06-10 22:42+0000\n"
+"PO-Revision-Date: 2025-06-11 03:29+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1380,7 +1380,7 @@ msgstr "صورة وسيطة"
 
 #: src/Containers.jsx:353 src/Containers.jsx:354
 msgid "n/a"
-msgstr "n/a"
+msgstr "غير متاح"
 
 #: src/Containers.jsx:353 src/Containers.jsx:354
 msgid "not available"
@@ -1388,24 +1388,24 @@ msgstr "غير متوفر"
 
 #: src/Containers.jsx:881
 msgid "pod"
-msgstr "pod"
+msgstr "Pod"
 
 #: src/manifest.json:0
 msgid "podman"
-msgstr "podman"
+msgstr "Podman"
 
 #: src/Containers.jsx:563
 msgid "ports"
-msgstr "منافذ"
+msgstr "المنافذ"
 
 #: src/ImageRunModal.jsx:1102 src/ImageRunModal.jsx:1125
 #: src/ImageRunModal.jsx:1148
 msgid "seconds"
-msgstr "ثوانٍ"
+msgstr "الثواني"
 
 #: src/Containers.jsx:390 src/Containers.jsx:882
 msgid "service"
-msgstr "خدمة"
+msgstr "الخدمة"
 
 #: src/Containers.jsx:416 src/Images.jsx:144 src/app.jsx:61 src/app.jsx:515
 #: src/PruneUnusedContainersModal.jsx:34
