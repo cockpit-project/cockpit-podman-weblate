@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-06-15 14:31+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -190,7 +189,7 @@ msgstr "أمر"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
-msgstr "تعليقات..."
+msgstr "تعليقات"
 
 #: src/Containers.jsx:245 src/ContainerCommitModal.jsx:148
 msgid "Commit"
@@ -254,7 +253,7 @@ msgstr "الحاويات"
 
 #: src/PodCreateModal.jsx:217 src/ImageRunModal.jsx:1217
 msgid "Create"
-msgstr "أنشئ"
+msgstr "إنشاء"
 
 #: src/ContainerCommitModal.jsx:141
 msgid "Create a new image based on the current state of the $0 container."
@@ -329,7 +328,7 @@ msgstr "حذف الصورة $0؟"
 
 #: src/ContainerDeleteModal.jsx:35 src/ForceRemoveModal.jsx:22
 msgid "Delete $0?"
-msgstr "حذف $0"
+msgstr "حذف $0؟"
 
 #: src/ImageDeleteModal.jsx:101
 msgid "Delete image"
@@ -973,7 +972,7 @@ msgstr "اسم الـ Pod"
 
 #: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
-msgstr "Podman"
+msgstr "بودمان"
 
 #: src/manifest.json:0
 msgid "Podman containers"
@@ -1356,7 +1355,7 @@ msgstr "الحاوية"
 
 #: src/ImageRunModal.jsx:304
 msgid "downloading"
-msgstr "تنزيل"
+msgstr "التنزيل"
 
 #: src/ImageRunModal.jsx:884
 msgid "host[:port]/[user]/container[:tag]"
