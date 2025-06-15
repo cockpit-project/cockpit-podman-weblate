@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 03:34+0000\n"
-"PO-Revision-Date: 2025-06-14 22:29+0000\n"
+"PO-Revision-Date: 2025-06-15 14:31+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1212,7 +1212,7 @@ msgstr "بدأ عند"
 
 #: src/ContainerDetails.jsx:83 src/Containers.jsx:615
 msgid "State"
-msgstr "الوضع"
+msgstr "حالة"
 
 #: src/ContainerHealthLogs.jsx:59
 msgid "Status"
@@ -1315,7 +1315,7 @@ msgstr "مستخدم من قبل"
 
 #: src/ImageRunModal.jsx:852 src/app.jsx:528
 msgid "User"
-msgstr "مستخدم"
+msgstr "المستخدم"
 
 #: src/PodCreateModal.jsx:174 src/ImageRunModal.jsx:870
 msgid "User:"
@@ -1352,7 +1352,7 @@ msgstr "قابل للكتابة"
 
 #: src/manifest.json:0
 msgid "container"
-msgstr "حاوية"
+msgstr "الحاوية"
 
 #: src/ImageRunModal.jsx:304
 msgid "downloading"
@@ -1427,7 +1427,7 @@ msgstr "المُستخدم"
 #: src/Images.jsx:144 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:416
 msgid "user:"
-msgstr "المستخدم:"
+msgstr "المُستخدم"
 
 #: src/Containers.jsx:578
 msgid "volumes"
