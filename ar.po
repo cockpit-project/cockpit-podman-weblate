@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:42+0000\n"
-"PO-Revision-Date: 2025-06-15 14:31+0000\n"
+"PO-Revision-Date: 2025-06-15 16:56+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -119,7 +119,7 @@ msgstr "آخر"
 
 #: src/Containers.jsx:536 src/Containers.jsx:539 src/Containers.jsx:613
 msgid "CPU"
-msgstr "CPU"
+msgstr "المعالج"
 
 #: src/ImageRunModal.jsx:972
 msgid "CPU Shares help"
@@ -818,7 +818,7 @@ msgstr "الحد الأقصى لإعادة المحاولة"
 
 #: src/Containers.jsx:543 src/Containers.jsx:546 src/Containers.jsx:614
 msgid "Memory"
-msgstr "ذاكرة"
+msgstr "الذاكرة"
 
 #: src/ImageRunModal.jsx:938
 msgid "Memory limit"
