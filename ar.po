@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 03:38+0000\n"
-"PO-Revision-Date: 2025-06-19 17:33+0000\n"
+"PO-Revision-Date: 2025-06-20 01:18+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -634,7 +634,7 @@ msgstr "مساعدة منفذ المضيف"
 
 #: src/Images.jsx:190 src/ContainerDetails.jsx:34
 msgid "ID"
-msgstr "المعرّف (ID)"
+msgstr "المعرّف"
 
 #: src/PublishPort.jsx:56 src/ContainerDetails.jsx:63
 msgid "IP address"
@@ -790,7 +790,7 @@ msgstr "جاري تحميل السجلات..."
 
 #: src/ImageUsedBy.jsx:14 src/Containers.jsx:625
 msgid "Loading..."
-msgstr "قيد التحميل.."
+msgstr "قيد التحميل..."
 
 #: src/ImageRunModal.jsx:774
 msgid "Local"
