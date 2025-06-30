@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 03:38+0000\n"
-"PO-Revision-Date: 2025-06-20 01:18+0000\n"
+"PO-Revision-Date: 2025-07-01 03:45+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1132,7 +1132,7 @@ msgstr "شغَّل فحص الصحة"
 
 #: src/ImageUsedBy.jsx:37 src/util.js:24 src/util.js:27
 msgid "Running"
-msgstr "تشغيل"
+msgstr "التشغيل"
 
 #: src/Volume.jsx:73
 msgid "SELinux"
