@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-09 03:43+0000\n"
-"PO-Revision-Date: 2025-07-01 03:45+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"PO-Revision-Date: 2025-07-18 07:19+0000\n"
+"Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -1061,7 +1061,7 @@ msgstr "قيد الإزالة"
 
 #: src/ContainerRenameModal.jsx:101 src/Containers.jsx:156
 msgid "Rename"
-msgstr "إعادة التسمية"
+msgstr "أعد التسمية"
 
 #: src/ContainerRenameModal.jsx:90
 msgid "Rename container $0"
