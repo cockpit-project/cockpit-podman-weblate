@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-19 03:44+0000\n"
-"PO-Revision-Date: 2025-07-18 07:19+0000\n"
-"Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
+"PO-Revision-Date: 2025-07-21 10:54+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ar/>\n"
 "Language: ar\n"
@@ -953,7 +953,7 @@ msgstr ""
 
 #: src/PodActions.jsx:171 src/Containers.jsx:190
 msgid "Pause"
-msgstr "إيقاف"
+msgstr "إيقاف مؤقَّت"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
