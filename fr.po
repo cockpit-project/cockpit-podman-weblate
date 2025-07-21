@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-19 03:44+0000\n"
-"PO-Revision-Date: 2025-06-09 11:08+0000\n"
+"PO-Revision-Date: 2025-07-21 10:54+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1033,7 +1033,7 @@ msgstr "Accès en lecture-écriture"
 
 #: src/PublishPort.jsx:134 src/Volume.jsx:86 src/Env.jsx:97
 msgid "Remove item"
-msgstr "Supprimer l'élément"
+msgstr "Retirer l’élément"
 
 #: src/PruneUnusedContainersModal.jsx:95
 msgid "Removes selected non-running containers"
