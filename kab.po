@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-21 03:56+0000\n"
-"PO-Revision-Date: 2025-05-25 19:27+0000\n"
-"Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2025-07-31 06:53+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/kab/>\n"
 "Language: kab\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -927,7 +927,7 @@ msgstr ""
 
 #: src/PodActions.jsx:171 src/Containers.jsx:190
 msgid "Pause"
-msgstr "Seḥbes"
+msgstr "Serǧu"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
