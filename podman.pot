@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 03:25+0000\n"
+"POT-Creation-Date: 2025-08-30 03:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 03:25+0000\n"
+"POT-Creation-Date: 2025-08-30 03:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgid_plural "$0 containers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Images.jsx:278
+#: src/Images.jsx:296
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
 msgstr[0] ""
@@ -67,7 +67,7 @@ msgid_plural "$0 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Images.jsx:282
+#: src/Images.jsx:300
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] ""
@@ -266,8 +266,8 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1211 src/Containers.jsx:785 src/Images.jsx:420
-#: src/Images.jsx:429
+#: src/ImageRunModal.jsx:1211 src/Containers.jsx:785 src/Images.jsx:438
+#: src/Images.jsx:447
 msgid "Create container"
 msgstr ""
 
@@ -322,7 +322,7 @@ msgid "Decrease timeout"
 msgstr ""
 
 #: src/PodActions.jsx:66 src/PodActions.jsx:186 src/Containers.jsx:255
-#: src/ContainerDeleteModal.jsx:42 src/Images.jsx:440
+#: src/ContainerDeleteModal.jsx:42 src/Images.jsx:458
 msgid "Delete"
 msgstr ""
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/Images.jsx:347
+#: src/Images.jsx:365
 msgid "Download new image"
 msgstr ""
 
@@ -612,11 +612,11 @@ msgstr ""
 msgid "Healthy"
 msgstr ""
 
-#: src/Images.jsx:310
+#: src/Images.jsx:328
 msgid "Hide images"
 msgstr ""
 
-#: src/Images.jsx:259
+#: src/Images.jsx:275
 msgid "Hide intermediate images"
 msgstr ""
 
@@ -692,7 +692,7 @@ msgstr ""
 msgid "Image selection help"
 msgstr ""
 
-#: src/Images.jsx:265 src/Images.jsx:295
+#: src/Images.jsx:281 src/Images.jsx:313
 msgid "Images"
 msgstr ""
 
@@ -1007,7 +1007,7 @@ msgstr ""
 msgid "Prune unused containers"
 msgstr ""
 
-#: src/Images.jsx:365 src/PruneUnusedImagesModal.jsx:90
+#: src/Images.jsx:383 src/PruneUnusedImagesModal.jsx:90
 msgid "Prune unused images"
 msgstr ""
 
@@ -1020,11 +1020,11 @@ msgstr ""
 msgid "Pruning images"
 msgstr ""
 
-#: src/Images.jsx:434
+#: src/Images.jsx:452
 msgid "Pull"
 msgstr ""
 
-#: src/Images.jsx:354
+#: src/Images.jsx:372
 msgid "Pull all images"
 msgstr ""
 
@@ -1032,7 +1032,7 @@ msgstr ""
 msgid "Pull latest image"
 msgstr ""
 
-#: src/Images.jsx:333
+#: src/Images.jsx:351
 msgid "Pulling"
 msgstr ""
 
@@ -1168,11 +1168,11 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#: src/Images.jsx:310
+#: src/Images.jsx:328
 msgid "Show images"
 msgstr ""
 
-#: src/Images.jsx:259
+#: src/Images.jsx:275
 msgid "Show intermediate images"
 msgstr ""
 
