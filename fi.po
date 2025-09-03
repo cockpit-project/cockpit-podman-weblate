@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 03:26+0000\n"
-"PO-Revision-Date: 2025-07-21 10:54+0000\n"
+"PO-Revision-Date: 2025-09-04 08:53+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1316,10 +1316,8 @@ msgid "View $0"
 msgstr "Näytä $0"
 
 #: src/ContainerLogs.jsx:178
-#, fuzzy
-#| msgid "View $0"
 msgid "View $0 logs"
-msgstr "Näytä $0"
+msgstr "Näytä $0 lokia"
 
 #: src/ContainerIntegration.jsx:154 src/PodCreateModal.jsx:196
 #: src/ImageRunModal.jsx:1055
