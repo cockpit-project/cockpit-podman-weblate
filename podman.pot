@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 03:29+0000\n"
+"POT-Creation-Date: 2025-09-22 03:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 03:29+0000\n"
+"POT-Creation-Date: 2025-09-22 03:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -202,7 +202,7 @@ msgstr ""
 msgid "Commit container"
 msgstr ""
 
-#: src/util.tsx:41
+#: src/util.tsx:40
 msgid "Configured"
 msgstr ""
 
@@ -283,7 +283,7 @@ msgstr ""
 msgid "Create pod"
 msgstr ""
 
-#: src/ImageHistory.jsx:33 src/util.tsx:41 src/util.tsx:44
+#: src/ImageHistory.jsx:33 src/util.tsx:40 src/util.tsx:43
 #: src/PruneUnusedContainersModal.jsx:68 src/ContainerDetails.jsx:79
 #: src/Images.jsx:189
 msgid "Created"
@@ -399,7 +399,7 @@ msgstr ""
 msgid "Environment variables"
 msgstr ""
 
-#: src/util.tsx:44
+#: src/util.tsx:43
 msgid "Error"
 msgstr ""
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Example: $0"
 msgstr ""
 
-#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:17
+#: src/util.tsx:40 src/util.tsx:43 src/ContainerDetails.jsx:17
 msgid "Exited"
 msgstr ""
 
@@ -955,7 +955,7 @@ msgstr ""
 msgid "Pause container when creating image"
 msgstr ""
 
-#: src/util.tsx:41 src/util.tsx:44
+#: src/util.tsx:40 src/util.tsx:43
 msgid "Paused"
 msgstr ""
 
@@ -975,7 +975,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:675
+#: src/app.jsx:671
 msgid "Podman service failed"
 msgstr ""
 
@@ -1052,7 +1052,7 @@ msgstr ""
 msgid "Removes selected non-running containers"
 msgstr ""
 
-#: src/util.tsx:41
+#: src/util.tsx:40
 msgid "Removing"
 msgstr ""
 
@@ -1068,7 +1068,7 @@ msgstr ""
 msgid "Resource limits can be set"
 msgstr ""
 
-#: src/ImageRunModal.jsx:62 src/PodActions.jsx:115 src/util.tsx:41
+#: src/ImageRunModal.jsx:62 src/PodActions.jsx:115 src/util.tsx:40
 #: src/ContainerHealthLogs.jsx:43 src/Containers.jsx:178
 msgid "Restart"
 msgstr ""
@@ -1124,7 +1124,7 @@ msgstr ""
 msgid "Run health check"
 msgstr ""
 
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+#: src/util.tsx:40 src/util.tsx:43 src/ImageUsedBy.jsx:37
 msgid "Running"
 msgstr ""
 
@@ -1217,7 +1217,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: src/util.tsx:41 src/util.tsx:44
+#: src/util.tsx:40 src/util.tsx:43
 msgid "Stopped"
 msgstr ""
 
@@ -1270,7 +1270,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:679
+#: src/app.jsx:675
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1302,7 +1302,7 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/ImageRunModal.jsx:854 src/app.jsx:528
+#: src/ImageRunModal.jsx:854 src/app.jsx:527
 msgid "User"
 msgstr ""
 
@@ -1396,7 +1396,7 @@ msgstr ""
 msgid "service"
 msgstr ""
 
-#: src/app.jsx:61 src/app.jsx:515 src/PruneUnusedContainersModal.jsx:34
+#: src/app.jsx:61 src/app.jsx:514 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:416 src/Images.jsx:144
 msgid "system"
 msgstr ""
