@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-04 03:18+0000\n"
-"PO-Revision-Date: 2025-07-21 10:54+0000\n"
+"PO-Revision-Date: 2025-09-25 18:35+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -595,7 +595,7 @@ msgstr "Cacher les images"
 
 #: src/Images.jsx:275
 msgid "Hide intermediate images"
-msgstr "Cacher les images intermédiaires"
+msgstr "Masquer les images intermédiaires"
 
 #: src/Images.jsx:169
 msgid "History"
