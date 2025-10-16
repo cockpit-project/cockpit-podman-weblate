@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-06 03:25+0000\n"
-"PO-Revision-Date: 2025-10-06 19:24+0000\n"
-"Last-Translator: Freya Gustavsson <freya@venefilyn.se>\n"
+"PO-Revision-Date: 2025-10-17 09:54+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/en_GB/>\n"
 "Language: en_GB\n"
@@ -127,7 +127,7 @@ msgstr ""
 #: src/PodActions.jsx:70 src/ImageDeleteModal.jsx:125
 #: src/ImageRunModal.jsx:1230
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #: src/Containers.jsx:281
 msgid "Checking health"
