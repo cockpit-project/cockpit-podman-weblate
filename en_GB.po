@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 03:33+0000\n"
-"PO-Revision-Date: 2025-10-17 09:54+0000\n"
+"PO-Revision-Date: 2025-10-27 19:59+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/en_GB/>\n"
@@ -301,7 +301,7 @@ msgstr ""
 #: src/Images.jsx:458 src/ContainerDeleteModal.jsx:42 src/PodActions.jsx:67
 #: src/PodActions.jsx:214 src/Containers.jsx:276
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 #: src/ImageDeleteModal.jsx:97
 msgid "Delete $0 image?"
@@ -810,7 +810,7 @@ msgstr ""
 #: src/PodCreateModal.jsx:152 src/PruneUnusedContainersModal.jsx:67
 #: src/ImageRunModal.jsx:809
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: src/ImageRunModal.jsx:678
 msgid "Name already in use"
