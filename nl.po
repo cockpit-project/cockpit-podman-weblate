@@ -15,15 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 03:33+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-27 19:59+0000\n"
+"Last-Translator: Eli Drechsler <elidrechsler@outlook.com>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -64,7 +65,7 @@ msgstr ""
 
 #: src/Containers.jsx:683
 msgid "Actions"
-msgstr ""
+msgstr "Acties"
 
 #: src/PodCreateModal.jsx:185 src/ImageRunModal.jsx:1048
 msgid "Add port mapping"
@@ -154,7 +155,7 @@ msgstr ""
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit Project"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
@@ -164,7 +165,7 @@ msgstr ""
 #: src/ContainerHealthLogs.jsx:63 src/ImageRunModal.jsx:927
 #: src/ImageRunModal.jsx:1081 src/ImageDetails.jsx:17
 msgid "Command"
-msgstr ""
+msgstr "Opdracht"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
@@ -188,7 +189,7 @@ msgstr ""
 
 #: src/Containers.jsx:678
 msgid "Container"
-msgstr ""
+msgstr "Container"
 
 #: src/ImageRunModal.jsx:270
 msgid "Container failed to be created"
@@ -240,7 +241,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1223
 msgid "Create and run"
-msgstr ""
+msgstr "Aanmaken en uitvoeren"
 
 #: src/Images.jsx:438 src/Images.jsx:447 src/Containers.jsx:865
 #: src/ImageRunModal.jsx:1216
@@ -344,7 +345,7 @@ msgstr ""
 
 #: src/Images.jsx:160 src/Containers.jsx:463 src/ImageRunModal.jsx:827
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: src/Images.jsx:191
 msgid "Disk space"
@@ -377,7 +378,7 @@ msgstr ""
 
 #: src/util.tsx:43
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #: src/Images.jsx:61 src/Notification.jsx:43
 msgid "Error message"
@@ -917,7 +918,7 @@ msgstr ""
 
 #: src/PodActions.jsx:198 src/Containers.jsx:211
 msgid "Pause"
-msgstr ""
+msgstr "Pauze"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
@@ -1380,7 +1381,7 @@ msgstr ""
 
 #: src/app.jsx:64
 msgid "user"
-msgstr ""
+msgstr "gebruiker"
 
 #: src/Images.jsx:144 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:438
