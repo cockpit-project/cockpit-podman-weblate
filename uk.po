@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-02 03:37+0000\n"
-"PO-Revision-Date: 2025-07-01 04:07+0000\n"
+"PO-Revision-Date: 2025-11-13 23:29+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -605,11 +605,11 @@ msgstr "Шлях у основній системі"
 
 #: src/PublishPort.jsx:77
 msgid "Host port"
-msgstr "Порт в основній системі"
+msgstr "Порт основної системи"
 
 #: src/PublishPort.jsx:80
 msgid "Host port help"
-msgstr "Довідка щодо порту в основній системі"
+msgstr "Довідка з порту основної системи"
 
 #: src/ContainerDetails.jsx:34 src/Images.jsx:190
 msgid "ID"
@@ -621,7 +621,7 @@ msgstr "IP-адреса"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
-msgstr "Довідка щодо IP-адреси"
+msgstr "Довідка з IP-адреси"
 
 #: src/ImageRunModal.jsx:857
 msgid "Ideal for development"
@@ -636,9 +636,8 @@ msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
-"Якщо встановлено IP-адресу основної системи 0.0.0.0 або адресу не "
-"встановлено взагалі, порт буде пов'язано із усіма IP-адресами в основній "
-"системі."
+"Якщо встановлено IP-адресу основної системи 0.0.0.0 або адресу взагалі не "
+"встановлено, порт буде пов'язано з усіма IP в основній системі."
 
 #: src/PublishPort.jsx:82
 msgid ""
