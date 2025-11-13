@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-02 03:37+0000\n"
+"POT-Creation-Date: 2025-11-13 03:38+0000\n"
 "PO-Revision-Date: 2025-11-13 23:29+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -27,7 +27,7 @@ msgstr[0] "$0 контейнер"
 msgstr[1] "$0 контейнери"
 msgstr[2] "$0 контейнерів"
 
-#: src/Images.jsx:296
+#: src/Images.jsx:297
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
 msgstr[0] "$0 образ загалом, $1"
@@ -41,7 +41,7 @@ msgstr[0] "$0 секунда"
 msgstr[1] "$0 секунди"
 msgstr[2] "$0 секунд"
 
-#: src/Images.jsx:300
+#: src/Images.jsx:301
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
 msgstr[0] "$0 невикористаний образ, $1"
@@ -260,7 +260,7 @@ msgstr "Створити контейнер у стручку"
 msgid "Create pod"
 msgstr "Створити стручок"
 
-#: src/ContainerDetails.jsx:80 src/Images.jsx:189 src/util.tsx:40
+#: src/ContainerDetails.jsx:80 src/Images.jsx:190 src/util.tsx:40
 #: src/util.tsx:43 src/PruneUnusedContainersModal.jsx:68
 #: src/ImageHistory.jsx:33
 msgid "Created"
@@ -351,7 +351,7 @@ msgstr "Вилучення цього кокону призведе до вил�
 msgid "Details"
 msgstr "Подробиці"
 
-#: src/Images.jsx:191
+#: src/Images.jsx:192
 msgid "Disk space"
 msgstr "Місце на диску"
 
@@ -366,7 +366,7 @@ msgstr ""
 msgid "Download"
 msgstr "Отримати"
 
-#: src/Images.jsx:365
+#: src/Images.jsx:366
 msgid "Download new image"
 msgstr "Отримати новий образ"
 
@@ -587,11 +587,11 @@ msgstr "Довідка щодо дії при перевірці небезпе�
 msgid "Healthy"
 msgstr "Працездатний"
 
-#: src/Images.jsx:328
+#: src/Images.jsx:329
 msgid "Hide images"
 msgstr "Приховати образи"
 
-#: src/Images.jsx:275
+#: src/Images.jsx:276
 msgid "Hide intermediate images"
 msgstr "Приховати проміжні образи"
 
@@ -611,7 +611,7 @@ msgstr "Порт основної системи"
 msgid "Host port help"
 msgstr "Довідка з порту основної системи"
 
-#: src/ContainerDetails.jsx:34 src/Images.jsx:190
+#: src/ContainerDetails.jsx:34 src/Images.jsx:191
 msgid "ID"
 msgstr "Ід."
 
@@ -655,7 +655,7 @@ msgstr "Ігнорувати IP-адресу, якщо її встановлен
 msgid "Ignore MAC address if set statically"
 msgstr "Ігнорувати MAC-адресу, якщо її встановлено статично"
 
-#: src/ContainerDetails.jsx:38 src/Images.jsx:187 src/ImageRunModal.jsx:880
+#: src/ContainerDetails.jsx:38 src/Images.jsx:188 src/ImageRunModal.jsx:880
 msgid "Image"
 msgstr "Образ"
 
@@ -671,7 +671,7 @@ msgstr "Слід вказати назву образу"
 msgid "Image selection help"
 msgstr "Довідка щодо вибору образу"
 
-#: src/Images.jsx:281 src/Images.jsx:313
+#: src/Images.jsx:282 src/Images.jsx:314
 msgid "Images"
 msgstr "Образи"
 
@@ -866,7 +866,7 @@ msgstr "Немає контейнерів, які проходять поточ�
 msgid "No environment variables specified"
 msgstr "Змінних середовища не визначено"
 
-#: src/Images.jsx:194
+#: src/Images.jsx:195
 msgid "No images"
 msgstr "Немає образів"
 
@@ -875,7 +875,7 @@ msgstr "Немає образів"
 msgid "No images found"
 msgstr "Образів не знайдено"
 
-#: src/Images.jsx:198
+#: src/Images.jsx:199
 msgid "No images that match the current filter"
 msgstr "Немає образів, які проходять поточні умови фільтрування"
 
@@ -911,7 +911,7 @@ msgstr "Лише запущені"
 msgid "Options"
 msgstr "Параметри"
 
-#: src/ImageSearchModal.jsx:146 src/PodCreateModal.jsx:170 src/Images.jsx:188
+#: src/ImageSearchModal.jsx:146 src/PodCreateModal.jsx:170 src/Images.jsx:189
 #: src/ContainerHeader.jsx:17 src/PruneUnusedContainersModal.jsx:74
 #: src/Containers.jsx:679 src/ImageRunModal.jsx:830
 msgid "Owner"
@@ -992,7 +992,7 @@ msgstr "Позбутися"
 msgid "Prune unused containers"
 msgstr "Позбутися невикористаних контейнерів"
 
-#: src/PruneUnusedImagesModal.jsx:90 src/Images.jsx:383
+#: src/PruneUnusedImagesModal.jsx:90 src/Images.jsx:384
 msgid "Prune unused images"
 msgstr "Позбутися невикористаних образів"
 
@@ -1009,7 +1009,7 @@ msgstr "Позбуваємося образів"
 msgid "Pull"
 msgstr "Отримати"
 
-#: src/Images.jsx:372
+#: src/Images.jsx:373
 msgid "Pull all images"
 msgstr "Отримати усі образи"
 
@@ -1017,7 +1017,7 @@ msgstr "Отримати усі образи"
 msgid "Pull latest image"
 msgstr "Отримати найсвіжіший образ"
 
-#: src/Images.jsx:351
+#: src/Images.jsx:352
 msgid "Pulling"
 msgstr "Отримання даних"
 
@@ -1158,11 +1158,11 @@ msgstr "Спільний"
 msgid "Show"
 msgstr "Показати"
 
-#: src/Images.jsx:328
+#: src/Images.jsx:329
 msgid "Show images"
 msgstr "Показати образи"
 
-#: src/Images.jsx:275
+#: src/Images.jsx:276
 msgid "Show intermediate images"
 msgstr "Показати проміжні образи"
 
@@ -1297,7 +1297,7 @@ msgstr "Працює з:"
 msgid "Use legacy Docker format"
 msgstr "Скористатися застарілим форматом Docker"
 
-#: src/Images.jsx:192 src/ImageDetails.jsx:35
+#: src/Images.jsx:193 src/ImageDetails.jsx:35
 msgid "Used by"
 msgstr "Використовується"
 
