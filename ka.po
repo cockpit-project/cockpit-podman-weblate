@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-02 03:37+0000\n"
-"PO-Revision-Date: 2025-06-07 04:53+0000\n"
+"PO-Revision-Date: 2025-11-13 23:29+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -602,7 +602,7 @@ msgstr "ჰოსტის პორტი"
 
 #: src/PublishPort.jsx:80
 msgid "Host port help"
-msgstr "დახმარება ჰოსტის პორტის შესახებ"
+msgstr "ჰოსტის პორტის დახმარება"
 
 #: src/ContainerDetails.jsx:34 src/Images.jsx:190
 msgid "ID"
@@ -614,7 +614,7 @@ msgstr "IP მისამართი"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
-msgstr "დახმარება IP მისამართის შესახებ"
+msgstr "IP მისამართის დახმარება"
 
 #: src/ImageRunModal.jsx:857
 msgid "Ideal for development"
@@ -629,8 +629,8 @@ msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
-"თუ ჰოსტის IP დაყენებულია 0.0.0.0-ზე ან საერთოდ არაა დაყენებული, პორტი ჰოსტზე "
-"არსებულ ყველა IP-ს მიებმება."
+"თუ ჰოსტის IP დაყენებულია 0.0.0.0-ზე, ან დაყენებული არაა, პორტი ჰოსტზე "
+"არსებულ ყველა IP-ზე იქნება მიმაგრებული."
 
 #: src/PublishPort.jsx:82
 msgid ""
