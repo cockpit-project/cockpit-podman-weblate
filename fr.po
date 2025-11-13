@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-02 03:37+0000\n"
-"PO-Revision-Date: 2025-09-25 18:35+0000\n"
+"PO-Revision-Date: 2025-11-13 23:29+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -599,11 +599,11 @@ msgstr "Chemin vers l’hôte"
 
 #: src/PublishPort.jsx:77
 msgid "Host port"
-msgstr "Port de l’hôte"
+msgstr "Port hôte"
 
 #: src/PublishPort.jsx:80
 msgid "Host port help"
-msgstr "Assistance Port d’hôte"
+msgstr "Aide port hôte"
 
 #: src/ContainerDetails.jsx:34 src/Images.jsx:190
 msgid "ID"
@@ -615,7 +615,7 @@ msgstr "Adresse IP"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
-msgstr "Assistance Adresse IP"
+msgstr "Aide adresse IP"
 
 #: src/ImageRunModal.jsx:857
 msgid "Ideal for development"
@@ -630,8 +630,8 @@ msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
-"Si l’IP de l’hôte est définie ainsi 0.0.0.0 ou si elle n’est pas dutout "
-"définie, le port sera relié à tous les IP de l’hôte."
+"Si l'IP hôte est définie sur 0.0.0.0 ou non définie, le port sera relié à "
+"toutes les IP de l'hôte."
 
 #: src/PublishPort.jsx:82
 msgid ""
