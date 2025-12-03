@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-20 03:33+0000\n"
-"PO-Revision-Date: 2025-10-27 19:59+0000\n"
+"PO-Revision-Date: 2025-12-03 21:23+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/en_GB/>\n"
@@ -24,44 +24,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 container"
+msgstr[1] "$0 containers"
 
 #: src/Images.jsx:297
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 image total, $1"
+msgstr[1] "$0 images total, $1"
 
 #: src/ContainerHealthLogs.jsx:38
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 second"
+msgstr[1] "$0 seconds"
 
 #: src/Images.jsx:301
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 unused image, $1"
+msgstr[1] "$0 unused images, $1"
 
 #
 #: src/Containers.jsx:396
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "$0% of $1 limit"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 to 65535"
 
 #: src/ImageRunModal.jsx:1181
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "Action to take once the container transitions to an unhealthy state."
 
 #: src/Containers.jsx:683
 msgid "Actions"
@@ -69,11 +69,11 @@ msgstr "Actions"
 
 #: src/PodCreateModal.jsx:185 src/ImageRunModal.jsx:1048
 msgid "Add port mapping"
-msgstr ""
+msgstr "Add port mapping"
 
 #: src/ImageRunModal.jsx:1070
 msgid "Add variable"
-msgstr ""
+msgstr "Add variable"
 
 #: src/PodCreateModal.jsx:197 src/ImageRunModal.jsx:1058
 msgid "Add volume"
