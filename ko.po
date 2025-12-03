@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-20 03:33+0000\n"
-"PO-Revision-Date: 2025-08-10 05:27+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2025-12-03 21:23+0000\n"
+"Last-Translator: Jo Hyeonsu <cloud9350@naver.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ko/>\n"
 "Language: ko\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -755,7 +755,7 @@ msgstr "기록 적재 중..."
 
 #: src/ImageUsedBy.jsx:14 src/Containers.jsx:694
 msgid "Loading..."
-msgstr "적재 중..."
+msgstr "불러오는 중..."
 
 #: src/ImageRunModal.jsx:775
 msgid "Local"
