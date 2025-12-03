@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-20 03:33+0000\n"
+"POT-Creation-Date: 2025-12-03 03:41+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/cockpit-"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
 
-#: src/Containers.jsx:683
+#: src/Containers.jsx:684
 msgid "Actions"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgid "Add volume"
 msgstr ""
 
 #: src/ContainerHeader.jsx:24 src/ImageDeleteModal.jsx:104
-#: src/Containers.jsx:848 src/ImageRunModal.jsx:768
+#: src/Containers.jsx:849 src/ImageRunModal.jsx:768
 msgid "All"
 msgstr "සියල්ල"
 
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/Containers.jsx:558 src/Containers.jsx:561 src/Containers.jsx:680
+#: src/Containers.jsx:559 src/Containers.jsx:562 src/Containers.jsx:681
 msgid "CPU"
 msgstr ""
 
@@ -138,11 +138,11 @@ msgstr ""
 msgid "Checkpoint container $0"
 msgstr ""
 
-#: src/Containers.jsx:576
+#: src/Containers.jsx:577
 msgid "Click to see published ports"
 msgstr ""
 
-#: src/Containers.jsx:591
+#: src/Containers.jsx:592
 msgid "Click to see volumes"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgstr ""
 msgid "Console"
 msgstr ""
 
-#: src/Containers.jsx:678
+#: src/Containers.jsx:679
 msgid "Container"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Container port must not be empty"
 msgstr ""
 
-#: src/Containers.jsx:902 src/Containers.jsx:908 src/Containers.jsx:943
+#: src/Containers.jsx:903 src/Containers.jsx:909 src/Containers.jsx:944
 msgid "Containers"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/Images.jsx:438 src/Images.jsx:447 src/Containers.jsx:865
+#: src/Images.jsx:438 src/Images.jsx:447 src/Containers.jsx:866
 #: src/ImageRunModal.jsx:1216
 msgid "Create container"
 msgstr ""
@@ -245,11 +245,11 @@ msgstr ""
 msgid "Create container in $0"
 msgstr ""
 
-#: src/Containers.jsx:954
+#: src/Containers.jsx:955
 msgid "Create container in pod"
 msgstr ""
 
-#: src/PodCreateModal.jsx:213 src/Containers.jsx:857
+#: src/PodCreateModal.jsx:213 src/Containers.jsx:858
 msgid "Create pod"
 msgstr ""
 
@@ -748,7 +748,7 @@ msgstr ""
 msgid "Loading logs..."
 msgstr ""
 
-#: src/ImageUsedBy.jsx:14 src/Containers.jsx:694
+#: src/ImageUsedBy.jsx:14 src/Containers.jsx:695
 msgid "Loading..."
 msgstr ""
 
@@ -776,7 +776,7 @@ msgstr ""
 msgid "Maximum retries"
 msgstr ""
 
-#: src/Containers.jsx:565 src/Containers.jsx:568 src/Containers.jsx:681
+#: src/Containers.jsx:566 src/Containers.jsx:569 src/Containers.jsx:682
 msgid "Memory"
 msgstr ""
 
@@ -825,7 +825,7 @@ msgstr ""
 msgid "No action"
 msgstr ""
 
-#: src/Containers.jsx:691
+#: src/Containers.jsx:692
 msgid "No containers"
 msgstr ""
 
@@ -833,11 +833,11 @@ msgstr ""
 msgid "No containers are using this image"
 msgstr ""
 
-#: src/Containers.jsx:692
+#: src/Containers.jsx:693
 msgid "No containers in this pod"
 msgstr ""
 
-#: src/Containers.jsx:696
+#: src/Containers.jsx:697
 msgid "No containers that match the current filter"
 msgstr ""
 
@@ -870,7 +870,7 @@ msgstr ""
 msgid "No results for $0"
 msgstr ""
 
-#: src/Containers.jsx:698
+#: src/Containers.jsx:699
 msgid "No running containers"
 msgstr ""
 
@@ -882,7 +882,7 @@ msgstr ""
 msgid "On failure"
 msgstr ""
 
-#: src/Containers.jsx:849
+#: src/Containers.jsx:850
 msgid "Only running"
 msgstr ""
 
@@ -892,7 +892,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:146 src/PodCreateModal.jsx:170 src/Images.jsx:189
 #: src/ContainerHeader.jsx:17 src/PruneUnusedContainersModal.jsx:74
-#: src/Containers.jsx:679 src/ImageRunModal.jsx:830
+#: src/Containers.jsx:680 src/ImageRunModal.jsx:830
 msgid "Owner"
 msgstr ""
 
@@ -1127,7 +1127,7 @@ msgstr ""
 msgid "Shared"
 msgstr ""
 
-#: src/Containers.jsx:844
+#: src/Containers.jsx:845
 msgid "Show"
 msgstr ""
 
@@ -1167,7 +1167,7 @@ msgstr ""
 msgid "Started at"
 msgstr ""
 
-#: src/ContainerDetails.jsx:85 src/Containers.jsx:682
+#: src/ContainerDetails.jsx:85 src/Containers.jsx:683
 msgid "State"
 msgstr ""
 
@@ -1338,7 +1338,7 @@ msgstr ""
 msgid "not available"
 msgstr ""
 
-#: src/Containers.jsx:974
+#: src/Containers.jsx:975
 msgid "pod"
 msgstr ""
 
@@ -1346,7 +1346,7 @@ msgstr ""
 msgid "podman"
 msgstr ""
 
-#: src/Containers.jsx:585
+#: src/Containers.jsx:586
 msgid "ports"
 msgstr ""
 
@@ -1355,7 +1355,7 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
-#: src/Containers.jsx:412 src/Containers.jsx:975
+#: src/Containers.jsx:412 src/Containers.jsx:976
 msgid "service"
 msgstr ""
 
@@ -1381,6 +1381,6 @@ msgstr ""
 msgid "user:"
 msgstr ""
 
-#: src/Containers.jsx:600
+#: src/Containers.jsx:601
 msgid "volumes"
 msgstr ""
