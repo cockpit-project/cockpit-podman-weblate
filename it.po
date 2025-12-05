@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-03 03:41+0000\n"
-"PO-Revision-Date: 2025-11-20 01:58+0000\n"
+"PO-Revision-Date: 2025-12-05 16:34+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/it/>\n"
@@ -1279,7 +1279,6 @@ msgid "Type to filter…"
 msgstr "Digita per filtrare…"
 
 #: src/PublishPort.jsx:126
-#, fuzzy
 msgid "UDP"
 msgstr "UDP"
 
