@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-18 03:45+0000\n"
+"POT-Creation-Date: 2025-12-19 03:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-18 03:45+0000\n"
+"POT-Creation-Date: 2025-12-19 03:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -774,7 +774,7 @@ msgstr ""
 msgid "Loading details..."
 msgstr ""
 
-#: src/ContainerLogs.jsx:57
+#: src/ContainerLogs.jsx:61
 msgid "Loading logs..."
 msgstr ""
 
@@ -1311,7 +1311,7 @@ msgstr ""
 msgid "View $0"
 msgstr ""
 
-#: src/ContainerLogs.jsx:178
+#: src/ContainerLogs.jsx:182
 msgid "View $0 logs"
 msgstr ""
 
