@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 03:39+0000\n"
+"POT-Creation-Date: 2025-12-24 03:47+0000\n"
 "PO-Revision-Date: 2021-11-17 05:42+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/cockpit-"
@@ -744,7 +744,7 @@ msgstr ""
 msgid "Loading details..."
 msgstr ""
 
-#: src/ContainerLogs.jsx:57
+#: src/ContainerLogs.jsx:61
 msgid "Loading logs..."
 msgstr ""
 
@@ -1281,7 +1281,7 @@ msgstr ""
 msgid "View $0"
 msgstr ""
 
-#: src/ContainerLogs.jsx:178
+#: src/ContainerLogs.jsx:182
 msgid "View $0 logs"
 msgstr ""
 

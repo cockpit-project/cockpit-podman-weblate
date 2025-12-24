@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 03:39+0000\n"
+"POT-Creation-Date: 2025-12-24 03:47+0000\n"
 "PO-Revision-Date: 2025-05-16 21:59+0000\n"
 "Last-Translator: Rui Cruz <rmfc27@outlook.pt>\n"
 "Language-Team: Portuguese (Portugal) <https://translate.fedoraproject.org/"
@@ -807,7 +807,7 @@ msgstr "Deixar em execução após a escrita do ponto de controlo para disco"
 msgid "Loading details..."
 msgstr "A carregar os 'logs'..."
 
-#: src/ContainerLogs.jsx:57
+#: src/ContainerLogs.jsx:61
 msgid "Loading logs..."
 msgstr "A carregar os 'logs'..."
 
@@ -1422,7 +1422,7 @@ msgstr "Valor"
 msgid "View $0"
 msgstr ""
 
-#: src/ContainerLogs.jsx:178
+#: src/ContainerLogs.jsx:182
 msgid "View $0 logs"
 msgstr ""
 
