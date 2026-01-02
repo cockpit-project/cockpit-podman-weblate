@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-30 03:51+0000\n"
-"PO-Revision-Date: 2025-12-30 19:58+0000\n"
+"PO-Revision-Date: 2026-01-03 20:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/en_GB/>\n"
@@ -348,7 +348,7 @@ msgstr ""
 
 #: src/Images.jsx:160 src/Containers.jsx:463 src/ImageRunModal.jsx:827
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: src/Images.jsx:192
 msgid "Disk space"
@@ -1183,7 +1183,7 @@ msgstr ""
 
 #: src/ContainerHealthLogs.jsx:59
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: src/PodActions.jsx:136 src/Containers.jsx:180 src/Containers.jsx:191
 #: src/ContainerHealthLogs.jsx:44 src/ImageRunModal.jsx:63
