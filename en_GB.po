@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-03 03:45+0000\n"
-"PO-Revision-Date: 2026-01-03 20:58+0000\n"
+"PO-Revision-Date: 2026-01-09 15:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/en_GB/>\n"
@@ -146,19 +146,19 @@ msgstr "Checkpoint and restore support"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Checkpoint container $0"
-msgstr ""
+msgstr "Checkpoint container $0"
 
 #: src/Containers.jsx:577
 msgid "Click to see published ports"
-msgstr ""
+msgstr "Click to see published ports"
 
 #: src/Containers.jsx:592
 msgid "Click to see volumes"
-msgstr ""
+msgstr "Click to see volumes"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit Project"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: src/PodCreateModal.jsx:221 src/ImageRunModal.jsx:1227
 msgid "Create"
-msgstr ""
+msgstr "Create"
 
 #: src/ContainerCommitModal.jsx:142
 msgid "Create a new image based on the current state of the $0 container."
