@@ -15,15 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-26 04:09+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-01-27 21:58+0000\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
+"cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -64,7 +66,7 @@ msgstr ""
 
 #: src/Containers.jsx:684
 msgid "Actions"
-msgstr ""
+msgstr "Tegevused"
 
 #: src/PodCreateModal.jsx:185 src/ImageRunModal.jsx:1048
 msgid "Add port mapping"
@@ -81,7 +83,7 @@ msgstr ""
 #: src/ContainerHeader.jsx:24 src/ImageDeleteModal.jsx:104
 #: src/Containers.jsx:849 src/ImageRunModal.jsx:768
 msgid "All"
-msgstr ""
+msgstr "Kõik"
 
 #: src/ImageSearchModal.jsx:169
 msgid "All registries"
@@ -101,7 +103,7 @@ msgstr ""
 
 #: src/Containers.jsx:559 src/Containers.jsx:562 src/Containers.jsx:681
 msgid "CPU"
-msgstr ""
+msgstr "Protsessor"
 
 #: src/ImageRunModal.jsx:974
 msgid "CPU Shares help"
@@ -126,7 +128,7 @@ msgstr ""
 #: src/PodActions.jsx:71 src/ImageDeleteModal.jsx:125
 #: src/ImageRunModal.jsx:1230
 msgid "Cancel"
-msgstr ""
+msgstr "Katkesta"
 
 #: src/Containers.jsx:302
 msgid "Checking health"
@@ -154,7 +156,7 @@ msgstr ""
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpiti projekt"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
@@ -184,7 +186,7 @@ msgstr ""
 
 #: src/Containers.jsx:486
 msgid "Console"
-msgstr ""
+msgstr "Konsool"
 
 #: src/Containers.jsx:679
 msgid "Container"
@@ -232,7 +234,7 @@ msgstr ""
 
 #: src/PodCreateModal.jsx:221 src/ImageRunModal.jsx:1227
 msgid "Create"
-msgstr ""
+msgstr "Loo"
 
 #: src/ContainerCommitModal.jsx:142
 msgid "Create a new image based on the current state of the $0 container."
@@ -300,7 +302,7 @@ msgstr ""
 #: src/Images.jsx:458 src/ContainerDeleteModal.jsx:42 src/PodActions.jsx:67
 #: src/PodActions.jsx:214 src/Containers.jsx:276
 msgid "Delete"
-msgstr ""
+msgstr "Kustuta"
 
 #: src/ImageDeleteModal.jsx:97
 msgid "Delete $0 image?"
@@ -344,7 +346,7 @@ msgstr ""
 
 #: src/Images.jsx:160 src/Containers.jsx:463 src/ImageRunModal.jsx:827
 msgid "Details"
-msgstr ""
+msgstr "Üksikasjad"
 
 #: src/Images.jsx:192
 msgid "Disk space"
@@ -357,7 +359,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:222
 msgid "Download"
-msgstr ""
+msgstr "Laadi alla"
 
 #: src/Images.jsx:366
 msgid "Download new image"
@@ -377,7 +379,7 @@ msgstr ""
 
 #: src/util.tsx:43
 msgid "Error"
-msgstr ""
+msgstr "Viga"
 
 #: src/Images.jsx:61 src/Notification.jsx:43
 msgid "Error message"
@@ -606,7 +608,7 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:34 src/Images.jsx:191
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/ContainerDetails.jsx:63 src/PublishPort.jsx:56
 msgid "IP address"
@@ -784,7 +786,7 @@ msgstr ""
 
 #: src/Containers.jsx:566 src/Containers.jsx:569 src/Containers.jsx:682
 msgid "Memory"
-msgstr ""
+msgstr "Mälu"
 
 #: src/ImageRunModal.jsx:940
 msgid "Memory limit"
@@ -796,7 +798,7 @@ msgstr ""
 
 #: src/Volume.jsx:66
 msgid "Mode"
-msgstr ""
+msgstr "Režiim"
 
 #: src/ImageDeleteModal.jsx:102
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
@@ -809,7 +811,7 @@ msgstr ""
 #: src/PodCreateModal.jsx:152 src/PruneUnusedContainersModal.jsx:67
 #: src/ImageRunModal.jsx:809
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: src/ImageRunModal.jsx:678
 msgid "Name already in use"
@@ -917,7 +919,7 @@ msgstr ""
 
 #: src/PodActions.jsx:198 src/Containers.jsx:211
 msgid "Pause"
-msgstr ""
+msgstr "Peata"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
@@ -925,7 +927,7 @@ msgstr ""
 
 #: src/util.tsx:40 src/util.tsx:43
 msgid "Paused"
-msgstr ""
+msgstr "Peatatud"
 
 #: src/PodCreateModal.jsx:96
 msgid "Pod failed to be created"
@@ -961,11 +963,11 @@ msgstr ""
 
 #: src/Volume.jsx:79
 msgid "Private"
-msgstr ""
+msgstr "Privaatne"
 
 #: src/PublishPort.jsx:119
 msgid "Protocol"
-msgstr ""
+msgstr "Protokoll"
 
 #: src/PruneUnusedImagesModal.jsx:110 src/PruneUnusedContainersModal.jsx:109
 msgid "Prune"
@@ -1014,7 +1016,7 @@ msgstr ""
 
 #: src/Env.jsx:97 src/Volume.jsx:86 src/PublishPort.jsx:134
 msgid "Remove item"
-msgstr ""
+msgstr "Eemalda objekt"
 
 #: src/PruneUnusedContainersModal.jsx:95
 msgid "Removes selected non-running containers"
@@ -1022,11 +1024,11 @@ msgstr ""
 
 #: src/util.tsx:40
 msgid "Removing"
-msgstr ""
+msgstr "Eemaldan"
 
 #: src/ContainerRenameModal.jsx:101 src/Containers.jsx:168
 msgid "Rename"
-msgstr ""
+msgstr "Muuda nime"
 
 #: src/ContainerRenameModal.jsx:90
 msgid "Rename container $0"
@@ -1040,7 +1042,7 @@ msgstr ""
 #: src/Containers.jsx:199 src/ContainerHealthLogs.jsx:43
 #: src/ImageRunModal.jsx:62
 msgid "Restart"
-msgstr ""
+msgstr "Käivita uuesti"
 
 #: src/ImageRunModal.jsx:1002
 msgid "Restart policy"
@@ -1079,7 +1081,7 @@ msgstr ""
 
 #: src/PodActions.jsx:183 src/Containers.jsx:218
 msgid "Resume"
-msgstr ""
+msgstr "Jätka"
 
 #: src/ContainerHealthLogs.jsx:71 src/ImageRunModal.jsx:1156
 msgid "Retries"
@@ -1095,7 +1097,7 @@ msgstr ""
 
 #: src/util.tsx:40 src/util.tsx:43 src/ImageUsedBy.jsx:37
 msgid "Running"
-msgstr ""
+msgstr "Töötab"
 
 #: src/Volume.jsx:73
 msgid "SELinux"
@@ -1155,11 +1157,11 @@ msgstr ""
 
 #: src/ImageHistory.jsx:33
 msgid "Size"
-msgstr ""
+msgstr "Suurus"
 
 #: src/PodActions.jsx:168 src/Containers.jsx:241
 msgid "Start"
-msgstr ""
+msgstr "Algus"
 
 #: src/ContainerHealthLogs.jsx:75 src/ImageRunModal.jsx:1133
 msgid "Start period"
@@ -1175,7 +1177,7 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:85 src/Containers.jsx:683
 msgid "State"
-msgstr ""
+msgstr "Olek"
 
 #: src/ContainerHealthLogs.jsx:59
 msgid "Status"
@@ -1197,11 +1199,11 @@ msgstr ""
 #: src/PodCreateModal.jsx:174 src/ImageRunModal.jsx:837
 #: src/ImageRunModal.jsx:872
 msgid "System"
-msgstr ""
+msgstr "Süsteem"
 
 #: src/PublishPort.jsx:125
 msgid "TCP"
-msgstr ""
+msgstr "TCP"
 
 #: src/ImageSearchModal.jsx:212 src/ContainerCommitModal.jsx:102
 msgid "Tag"
@@ -1241,7 +1243,7 @@ msgstr ""
 
 #: src/app.jsx:858
 msgid "Troubleshoot"
-msgstr ""
+msgstr "Veaotsing"
 
 #: src/ContainerHeader.jsx:31
 msgid "Type to filter…"
@@ -1249,7 +1251,7 @@ msgstr ""
 
 #: src/PublishPort.jsx:126
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: src/ImageHistory.jsx:59
 msgid "Unable to load image history"
