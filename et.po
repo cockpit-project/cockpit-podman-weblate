@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-27 04:01+0000\n"
-"PO-Revision-Date: 2026-01-27 21:58+0000\n"
+"PO-Revision-Date: 2026-01-29 10:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
@@ -30,35 +30,35 @@ msgstr ""
 #: src/Images.jsx:96
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 konteiner"
+msgstr[1] "$0 konteinerit"
 
 #: src/Images.jsx:297
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "kokku $0 hetktõmmis, $1"
+msgstr[1] "kokku $0 hetktõmmist, $1"
 
 #: src/ContainerHealthLogs.jsx:38
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 sekund"
+msgstr[1] "$0 sekundit"
 
 #: src/Images.jsx:301
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 kasutamata hetktõmmis, $1"
+msgstr[1] "$0 kasutamata hetktõmmist, $1"
 
 #
 #: src/Containers.jsx:396
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "$0% $1 mahust"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 kuni 65535"
 
 #: src/ImageRunModal.jsx:1181
 msgid "Action to take once the container transitions to an unhealthy state."
@@ -70,15 +70,15 @@ msgstr "Tegevused"
 
 #: src/PodCreateModal.jsx:185 src/ImageRunModal.jsx:1048
 msgid "Add port mapping"
-msgstr ""
+msgstr "Lisa pordivastendus"
 
 #: src/ImageRunModal.jsx:1070
 msgid "Add variable"
-msgstr ""
+msgstr "Lisa muutuja"
 
 #: src/PodCreateModal.jsx:197 src/ImageRunModal.jsx:1058
 msgid "Add volume"
-msgstr ""
+msgstr "Lisa köide"
 
 #: src/ContainerHeader.jsx:24 src/ImageDeleteModal.jsx:104
 #: src/Containers.jsx:849 src/ImageRunModal.jsx:768
@@ -87,19 +87,19 @@ msgstr "Kõik"
 
 #: src/ImageSearchModal.jsx:169
 msgid "All registries"
-msgstr ""
+msgstr "Kõik registrid"
 
 #: src/ImageRunModal.jsx:1017
 msgid "Always"
-msgstr ""
+msgstr "Alati"
 
 #: src/PodActions.jsx:52
 msgid "An error occurred"
-msgstr ""
+msgstr "Tekkis viga"
 
 #: src/ContainerCommitModal.jsx:109
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: src/Containers.jsx:559 src/Containers.jsx:562 src/Containers.jsx:681
 msgid "CPU"
@@ -148,11 +148,11 @@ msgstr ""
 
 #: src/Containers.jsx:577
 msgid "Click to see published ports"
-msgstr ""
+msgstr "Klõpsa avaldatud portide nägemiseks"
 
 #: src/Containers.jsx:592
 msgid "Click to see volumes"
-msgstr ""
+msgstr "Klõpsa köidete nägemiseks"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
@@ -160,17 +160,17 @@ msgstr "Cockpiti projekt"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
-msgstr ""
+msgstr "Cockpiti komponent Podmani konteinerite jaoks"
 
 #: src/ContainerDetails.jsx:43 src/ContainerCommitModal.jsx:116
 #: src/ContainerHealthLogs.jsx:63 src/ImageRunModal.jsx:927
 #: src/ImageRunModal.jsx:1081 src/ImageDetails.jsx:17
 msgid "Command"
-msgstr ""
+msgstr "Käsk"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
-msgstr ""
+msgstr "Kommentaarid"
 
 #: src/ContainerCommitModal.jsx:153 src/Containers.jsx:267
 msgid "Commit"
@@ -190,47 +190,47 @@ msgstr "Konsool"
 
 #: src/Containers.jsx:679
 msgid "Container"
-msgstr ""
+msgstr "Konteiner"
 
 #: src/ImageRunModal.jsx:270
 msgid "Container failed to be created"
-msgstr ""
+msgstr "Konteineri loomine ei õnnestunud"
 
 #: src/ImageRunModal.jsx:251
 msgid "Container failed to be started"
-msgstr ""
+msgstr "Konteineri käivitamine ei õnnestunud"
 
 #: src/ContainerTerminal.jsx:264
 msgid "Container is not running"
-msgstr ""
+msgstr "Konteiner ei tööta"
 
 #: src/ImageRunModal.jsx:812
 msgid "Container name"
-msgstr ""
+msgstr "Konteineri nimi"
 
 #: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
 msgid "Container name is required."
-msgstr ""
+msgstr "Konteineri nimi on vajalik."
 
 #: src/Volume.jsx:52
 msgid "Container path"
-msgstr ""
+msgstr "Konteineri asukoht"
 
 #: src/Volume.jsx:25
 msgid "Container path must not be empty"
-msgstr ""
+msgstr "Konteineri asukoht ei tohi jääda tühjaks"
 
 #: src/PublishPort.jsx:102
 msgid "Container port"
-msgstr ""
+msgstr "Konteineri port"
 
 #: src/PublishPort.jsx:38
 msgid "Container port must not be empty"
-msgstr ""
+msgstr "Konteineri port ei tohi jääda tühjaks"
 
 #: src/Containers.jsx:903 src/Containers.jsx:909 src/Containers.jsx:944
 msgid "Containers"
-msgstr ""
+msgstr "Konteinerid"
 
 #: src/PodCreateModal.jsx:221 src/ImageRunModal.jsx:1227
 msgid "Create"
@@ -238,16 +238,16 @@ msgstr "Loo"
 
 #: src/ContainerCommitModal.jsx:142
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Loo uus hetktõmmis, mis põhineb $0 konteineri praegusel olekul."
 
 #: src/ImageRunModal.jsx:1223
 msgid "Create and run"
-msgstr ""
+msgstr "Loo ja käivita"
 
 #: src/Images.jsx:438 src/Images.jsx:447 src/Containers.jsx:866
 #: src/ImageRunModal.jsx:1216
 msgid "Create container"
-msgstr ""
+msgstr "Loo konteiner"
 
 #: src/ImageRunModal.jsx:1216
 msgid "Create container in $0"
@@ -265,11 +265,11 @@ msgstr ""
 #: src/util.tsx:43 src/PruneUnusedContainersModal.jsx:68
 #: src/ImageHistory.jsx:33
 msgid "Created"
-msgstr ""
+msgstr "Loodud"
 
 #: src/ImageHistory.jsx:33
 msgid "Created by"
-msgstr ""
+msgstr "Looja"
 
 #: src/ImageRunModal.jsx:993
 msgid "Decrease CPU shares"
@@ -285,11 +285,11 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:953
 msgid "Decrease memory"
-msgstr ""
+msgstr "Vähenda mälu"
 
 #: src/ImageRunModal.jsx:1170
 msgid "Decrease retries"
-msgstr ""
+msgstr "Vähenda korduskatseid"
 
 #: src/ImageRunModal.jsx:1148
 msgid "Decrease start period"
@@ -306,7 +306,7 @@ msgstr "Kustuta"
 
 #: src/ImageDeleteModal.jsx:97
 msgid "Delete $0 image?"
-msgstr ""
+msgstr "Kas kustutad hetktõmmise: $0?"
 
 #: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:35
 msgid "Delete $0?"
@@ -314,7 +314,7 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:123
 msgid "Delete image"
-msgstr ""
+msgstr "Kustuta hetktõmmis"
 
 #: src/PodActions.jsx:48
 msgid "Delete pod $0?"
@@ -322,15 +322,15 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:123
 msgid "Delete tagged images"
-msgstr ""
+msgstr "Kustuta vastavate siltidega märgitud hetktõmmised"
 
 #: src/PruneUnusedImagesModal.jsx:38
 msgid "Delete unused images of user $0:"
-msgstr ""
+msgstr "Kustuta $0 kasutaja poolt kasutamata hetktõmmised:"
 
 #: src/PruneUnusedImagesModal.jsx:37
 msgid "Delete unused system images:"
-msgstr ""
+msgstr "Kustuta kasutamata süsteemsed hetktõmmised:"
 
 #: src/ContainerDeleteModal.jsx:39
 msgid "Deleting a container will erase all data in it."
@@ -356,6 +356,8 @@ msgstr ""
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Docker vorming on kasulik, kuid kavatsed hetktõmmist jagada Dockeri või Moby "
+"Engine'iga"
 
 #: src/ImageSearchModal.jsx:222
 msgid "Download"
@@ -363,7 +365,7 @@ msgstr "Laadi alla"
 
 #: src/Images.jsx:366
 msgid "Download new image"
-msgstr ""
+msgstr "Laadi alla uus hetktõmmis"
 
 #: src/PodActions.jsx:54
 msgid "Empty pod $0 will be permanently removed."
@@ -423,7 +425,7 @@ msgstr ""
 
 #: src/Images.jsx:59
 msgid "Failed to download image $0:$1"
-msgstr ""
+msgstr "Hetktõmmise allalaadimine ei õnnestunud - $0:$1"
 
 #: src/Containers.jsx:60
 msgid "Failed to force remove container $0"
@@ -431,7 +433,7 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:52
 msgid "Failed to force remove image $0"
-msgstr ""
+msgstr "Hetktõmmise sundkorras eemaldamine ei õnnestunud: $0"
 
 #: src/Containers.jsx:117
 msgid "Failed to pause container $0"
@@ -447,7 +449,7 @@ msgstr ""
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
-msgstr ""
+msgstr "Kasutamata hetktõmmiste kustutamine/eemaldamine ei õnnestunud"
 
 #: src/ImageRunModal.jsx:333
 msgid "Failed to pull image $0"
@@ -459,7 +461,7 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:78
 msgid "Failed to remove image $0"
-msgstr ""
+msgstr "Hetktõmmise eemaldamine ei õnnestunud: $0"
 
 #: src/ContainerRenameModal.jsx:58
 msgid "Failed to rename container $0"
@@ -495,15 +497,15 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:390
 msgid "Failed to search for images."
-msgstr ""
+msgstr "Hetktõmmisete otsimine ei õnnestunud."
 
 #: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:390
 msgid "Failed to search for images: $0"
-msgstr ""
+msgstr "Hetktõmmisete otsimine ei õnnestunud: $0"
 
 #: src/ImageSearchModal.jsx:96 src/ImageRunModal.jsx:388
 msgid "Failed to search for new images"
-msgstr ""
+msgstr "Uute hetktõmmisete otsimine ei õnnestunud"
 
 #: src/Containers.jsx:100
 msgid "Failed to start container $0"
@@ -584,11 +586,11 @@ msgstr ""
 
 #: src/Images.jsx:329
 msgid "Hide images"
-msgstr ""
+msgstr "Peida hetktõmmised"
 
 #: src/Images.jsx:276
 msgid "Hide intermediate images"
-msgstr ""
+msgstr "Peida vahepealsed hetktõmmised"
 
 #: src/Images.jsx:169
 msgid "History"
@@ -648,23 +650,23 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:38 src/Images.jsx:188 src/ImageRunModal.jsx:880
 msgid "Image"
-msgstr ""
+msgstr "Hetktõmmis"
 
 #: src/ContainerCommitModal.jsx:48
 msgid "Image name is not unique"
-msgstr ""
+msgstr "Hetktõmmis pole unikaalne"
 
 #: src/ContainerCommitModal.jsx:39
 msgid "Image name is required"
-msgstr ""
+msgstr "Hetktõmmise nimi on nõutav"
 
 #: src/ImageRunModal.jsx:882
 msgid "Image selection help"
-msgstr ""
+msgstr "Hetktõmmise valiku abiteave"
 
 #: src/Images.jsx:282 src/Images.jsx:314
 msgid "Images"
-msgstr ""
+msgstr "Hetktõmmised"
 
 #: src/ImageRunModal.jsx:994
 msgid "Increase CPU shares"
@@ -766,7 +768,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:578
 msgid "Local images"
-msgstr ""
+msgstr "Kohalikud hetktõmmised"
 
 #: src/Containers.jsx:475 src/ContainerHealthLogs.jsx:105
 msgid "Logs"
@@ -823,7 +825,7 @@ msgstr ""
 
 #: src/ContainerCommitModal.jsx:94
 msgid "New image name"
-msgstr ""
+msgstr "Uue hetktõmmise nimi"
 
 #: src/ImageRunModal.jsx:1015
 msgid "No"
@@ -839,7 +841,7 @@ msgstr ""
 
 #: src/ImageUsedBy.jsx:16
 msgid "No containers are using this image"
-msgstr ""
+msgstr "Ükski konteiner ei kasutad seda hetktõmmist"
 
 #: src/Containers.jsx:693
 msgid "No containers in this pod"
@@ -855,20 +857,20 @@ msgstr ""
 
 #: src/Images.jsx:195
 msgid "No images"
-msgstr ""
+msgstr "Hetktõmmiseid pole"
 
 #: src/ImageSearchModal.jsx:178 src/ImageRunModal.jsx:898
 #: src/ImageRunModal.jsx:899
 msgid "No images found"
-msgstr ""
+msgstr "Hetktõmmiseid ei leidu"
 
 #: src/Images.jsx:199
 msgid "No images that match the current filter"
-msgstr ""
+msgstr "Praeguse filtri alusel ei leidu hetktõmmiseid"
 
 #: src/Volume.jsx:77
 msgid "No label"
-msgstr ""
+msgstr "Märgist pole"
 
 #: src/PodCreateModal.jsx:182 src/ImageRunModal.jsx:1045
 msgid "No ports exposed"
@@ -923,7 +925,7 @@ msgstr "Peata"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
-msgstr ""
+msgstr "Hetktõmmise loomisel peata konteineri töö"
 
 #: src/util.tsx:40 src/util.tsx:43
 msgid "Paused"
@@ -979,7 +981,7 @@ msgstr ""
 
 #: src/PruneUnusedImagesModal.jsx:90 src/Images.jsx:384
 msgid "Prune unused images"
-msgstr ""
+msgstr "Kustuta/eemalda kasutamata hetktõmmised"
 
 #: src/PruneUnusedContainersModal.jsx:105
 #: src/PruneUnusedContainersModal.jsx:109
@@ -988,7 +990,7 @@ msgstr ""
 
 #: src/PruneUnusedImagesModal.jsx:106 src/PruneUnusedImagesModal.jsx:110
 msgid "Pruning images"
-msgstr ""
+msgstr "Kustutan hetktõmmiseid"
 
 #: src/Images.jsx:452
 msgid "Pull"
@@ -1117,7 +1119,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:141
 msgid "Search for an image"
-msgstr ""
+msgstr "Otsi hetktõmmist"
 
 #: src/ImageRunModal.jsx:902
 msgid "Search string or container location"
@@ -1141,19 +1143,19 @@ msgstr ""
 
 #: src/Images.jsx:329
 msgid "Show images"
-msgstr ""
+msgstr "Näita hetktõmmiseid"
 
 #: src/Images.jsx:276
 msgid "Show intermediate images"
-msgstr ""
+msgstr "Näita vahepealseid hetktõmmiseid"
 
 #: src/ContainerIntegration.jsx:123
 msgid "Show less"
-msgstr ""
+msgstr "Näita vähem"
 
 #: src/PruneUnusedImagesModal.jsx:54 src/ContainerIntegration.jsx:123
 msgid "Show more"
-msgstr ""
+msgstr "Näita rohkem"
 
 #: src/ImageHistory.jsx:33
 msgid "Size"
@@ -1169,7 +1171,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:178
 msgid "Start typing to look for images."
-msgstr ""
+msgstr "Hetktõmmiste otsimiseks alusta kirjutamist."
 
 #: src/ContainerHealthLogs.jsx:108
 msgid "Started at"
@@ -1220,6 +1222,10 @@ msgid ""
 "containers), and container images. It is CLI, API, and functionally "
 "compatible with Docker."
 msgstr ""
+"Cockpiti kasutajaliides Podmani konteinerite jaoks. podman (Pod Manager) on "
+"täisfunktsionaalne taustateenust mittevajav mootor OCI-konteinerite, podide "
+"(konteinerigruppide) ja konteinerite hetktõmmiste jaoks. Käsurea, API ja "
+"funktsionaalsuse mõttes ühildub ta Dockeriga."
 
 #: src/ImageRunModal.jsx:1137
 msgid "The initialization time needed for a container to bootstrap."
@@ -1255,7 +1261,7 @@ msgstr "UDP"
 
 #: src/ImageHistory.jsx:59
 msgid "Unable to load image history"
-msgstr ""
+msgstr "Hetktõmmise ajaloo laadimine ei õnnestu"
 
 #: src/Containers.jsx:300
 msgid "Unhealthy"
@@ -1324,7 +1330,7 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "image"
-msgstr ""
+msgstr "hetktõmmis"
 
 #: src/ImageSearchModal.jsx:165
 msgid "in"
@@ -1336,7 +1342,7 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:64
 msgid "intermediate image"
-msgstr ""
+msgstr "vahepealne hetktõmmis"
 
 #: src/Containers.jsx:375 src/Containers.jsx:376
 msgid "n/a"
