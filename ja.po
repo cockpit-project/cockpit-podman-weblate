@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-27 04:01+0000\n"
-"PO-Revision-Date: 2026-01-27 21:58+0000\n"
+"PO-Revision-Date: 2026-01-29 10:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/ja/>\n"
@@ -316,10 +316,8 @@ msgid "Delete tagged images"
 msgstr "タグ付けされたイメージの削除"
 
 #: src/PruneUnusedImagesModal.jsx:38
-#, fuzzy
-#| msgid "Delete tagged images"
 msgid "Delete unused images of user $0:"
-msgstr "タグ付けされたイメージの削除"
+msgstr "ユーザ $0 のタグ付けされたイメージの削除:"
 
 #: src/PruneUnusedImagesModal.jsx:37
 msgid "Delete unused system images:"
