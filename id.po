@@ -15,101 +15,98 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-29 04:19+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-01 02:58+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
+"cockpit/cockpit-podman/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "( $0 ) kontainer"
 
 #: src/Images.jsx:297
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Total ( $0 ) image, ( $1 )"
 
 #: src/ContainerHealthLogs.jsx:38
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "( $0 ) detik"
 
 #: src/Images.jsx:301
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "( $0 ) image tidak digunakan, ( $1 )"
 
 #
 #: src/Containers.jsx:396
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "( $0 )% dari batas ( $1 )"
 
 #: src/PublishPort.jsx:31 src/PublishPort.jsx:42
 msgid "1 to 65535"
-msgstr ""
+msgstr "1 hingga 65535"
 
 #: src/ImageRunModal.jsx:1181
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "Tindakan yang diambil setelah kontainer beralih ke status tidak sehat."
 
 #: src/Containers.jsx:684
 msgid "Actions"
-msgstr ""
+msgstr "Tindakan"
 
 #: src/PodCreateModal.jsx:185 src/ImageRunModal.jsx:1048
 msgid "Add port mapping"
-msgstr ""
+msgstr "Tambahkan pemetaan port"
 
 #: src/ImageRunModal.jsx:1070
 msgid "Add variable"
-msgstr ""
+msgstr "Tambahkan variabel"
 
 #: src/PodCreateModal.jsx:197 src/ImageRunModal.jsx:1058
 msgid "Add volume"
-msgstr ""
+msgstr "Tambahkan volume"
 
 #: src/ContainerHeader.jsx:24 src/ImageDeleteModal.jsx:104
 #: src/Containers.jsx:849 src/ImageRunModal.jsx:768
 msgid "All"
-msgstr ""
+msgstr "Semua"
 
 #: src/ImageSearchModal.jsx:169
 msgid "All registries"
-msgstr ""
+msgstr "Semua registry"
 
 #: src/ImageRunModal.jsx:1017
 msgid "Always"
-msgstr ""
+msgstr "Selalu"
 
 #: src/PodActions.jsx:52
 msgid "An error occurred"
-msgstr ""
+msgstr "Terjadi kesalahan"
 
 #: src/ContainerCommitModal.jsx:109
 msgid "Author"
-msgstr ""
+msgstr "Penulis"
 
 #: src/Containers.jsx:559 src/Containers.jsx:562 src/Containers.jsx:681
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: src/ImageRunModal.jsx:974
 msgid "CPU Shares help"
-msgstr ""
+msgstr "Bantuan pembagian CPU"
 
 #: src/ImageRunModal.jsx:972
 msgid "CPU shares"
-msgstr ""
+msgstr "Pembagian CPU"
 
 #: src/ImageRunModal.jsx:976
 msgid ""
@@ -117,6 +114,9 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
+"Pembagian CPU menentukan prioritas kontainer yang berjalan. Prioritas "
+"default adalah 1024. Angka yang lebih tinggi memprioritaskan kontainer ini. "
+"Angka yang lebih rendah menurunkan prioritas."
 
 #: src/ImageSearchModal.jsx:225 src/ContainerRestoreModal.jsx:72
 #: src/ContainerCommitModal.jsx:166 src/PodCreateModal.jsx:224
@@ -126,933 +126,944 @@ msgstr ""
 #: src/PodActions.jsx:71 src/ImageDeleteModal.jsx:125
 #: src/ImageRunModal.jsx:1230
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: src/Containers.jsx:302
 msgid "Checking health"
-msgstr ""
+msgstr "Memeriksa kesehatan"
 
 #: src/ContainerCheckpointModal.jsx:62 src/Containers.jsx:231
 msgid "Checkpoint"
-msgstr ""
+msgstr "Checkpoint"
 
 #: src/ImageRunModal.jsx:846
 msgid "Checkpoint and restore support"
-msgstr ""
+msgstr "Dukungan checkpoint dan pemulihan"
 
 #: src/ContainerCheckpointModal.jsx:45
 msgid "Checkpoint container $0"
-msgstr ""
+msgstr "Checkpoint kontainer ( $0 )"
 
 #: src/Containers.jsx:577
 msgid "Click to see published ports"
-msgstr ""
+msgstr "Klik untuk melihat port yang dipublikasikan"
 
 #: src/Containers.jsx:592
 msgid "Click to see volumes"
-msgstr ""
+msgstr "Klik untuk melihat volume"
 
 #: org.cockpit_project.podman.metainfo.xml:22
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Proyek Cockpit"
 
 #: org.cockpit_project.podman.metainfo.xml:6
 msgid "Cockpit component for Podman containers"
-msgstr ""
+msgstr "Komponen Cockpit untuk kontainer Podman"
 
 #: src/ContainerDetails.jsx:43 src/ContainerCommitModal.jsx:116
 #: src/ContainerHealthLogs.jsx:63 src/ImageRunModal.jsx:927
 #: src/ImageRunModal.jsx:1081 src/ImageDetails.jsx:17
 msgid "Command"
-msgstr ""
+msgstr "Perintah"
 
 #: src/ImageHistory.jsx:33
 msgid "Comments"
-msgstr ""
+msgstr "Komentar"
 
 #: src/ContainerCommitModal.jsx:153 src/Containers.jsx:267
 msgid "Commit"
-msgstr ""
+msgstr "Commit"
 
 #: src/ContainerCommitModal.jsx:141
 msgid "Commit container"
-msgstr ""
+msgstr "Commit kontainer"
 
 #: src/util.tsx:40
 msgid "Configured"
-msgstr ""
+msgstr "Dikonfigurasi"
 
 #: src/Containers.jsx:486
 msgid "Console"
-msgstr ""
+msgstr "Konsol"
 
 #: src/Containers.jsx:679
 msgid "Container"
-msgstr ""
+msgstr "Kontainer"
 
 #: src/ImageRunModal.jsx:270
 msgid "Container failed to be created"
-msgstr ""
+msgstr "Kontainer gagal dibuat"
 
 #: src/ImageRunModal.jsx:251
 msgid "Container failed to be started"
-msgstr ""
+msgstr "Kontainer gagal dijalankan"
 
 #: src/ContainerTerminal.jsx:264
 msgid "Container is not running"
-msgstr ""
+msgstr "Kontainer tidak sedang berjalan"
 
 #: src/ImageRunModal.jsx:812
 msgid "Container name"
-msgstr ""
+msgstr "Nama kontainer"
 
 #: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
 msgid "Container name is required."
-msgstr ""
+msgstr "Nama kontainer wajib diisi."
 
 #: src/Volume.jsx:52
 msgid "Container path"
-msgstr ""
+msgstr "Jalur kontainer"
 
 #: src/Volume.jsx:25
 msgid "Container path must not be empty"
-msgstr ""
+msgstr "Jalur kontainer tidak boleh kosong"
 
 #: src/PublishPort.jsx:102
 msgid "Container port"
-msgstr ""
+msgstr "Port kontainer"
 
 #: src/PublishPort.jsx:38
 msgid "Container port must not be empty"
-msgstr ""
+msgstr "Port kontainer tidak boleh kosong"
 
 #: src/Containers.jsx:903 src/Containers.jsx:909 src/Containers.jsx:944
 msgid "Containers"
-msgstr ""
+msgstr "Kontainer"
 
 #: src/PodCreateModal.jsx:221 src/ImageRunModal.jsx:1227
 msgid "Create"
-msgstr ""
+msgstr "Buat"
 
 #: src/ContainerCommitModal.jsx:142
 msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
+msgstr "Buat image baru berdasarkan status saat ini dari kontainer ( $0 )."
 
 #: src/ImageRunModal.jsx:1223
 msgid "Create and run"
-msgstr ""
+msgstr "Buat dan jalankan"
 
 #: src/Images.jsx:438 src/Images.jsx:447 src/Containers.jsx:866
 #: src/ImageRunModal.jsx:1216
 msgid "Create container"
-msgstr ""
+msgstr "Buat kontainer"
 
 #: src/ImageRunModal.jsx:1216
 msgid "Create container in $0"
-msgstr ""
+msgstr "Buat kontainer di ( $0 )"
 
 #: src/Containers.jsx:955
 msgid "Create container in pod"
-msgstr ""
+msgstr "Buat kontainer dalam pod"
 
 #: src/PodCreateModal.jsx:213 src/Containers.jsx:858
 msgid "Create pod"
-msgstr ""
+msgstr "Buat pod"
 
 #: src/ContainerDetails.jsx:80 src/Images.jsx:190 src/util.tsx:40
 #: src/util.tsx:43 src/PruneUnusedContainersModal.jsx:68
 #: src/ImageHistory.jsx:33
 msgid "Created"
-msgstr ""
+msgstr "Dibuat"
 
 #: src/ImageHistory.jsx:33
 msgid "Created by"
-msgstr ""
+msgstr "Dibuat oleh"
 
 #: src/ImageRunModal.jsx:993
 msgid "Decrease CPU shares"
-msgstr ""
+msgstr "Kurangi pembagian CPU"
 
 #: src/ImageRunModal.jsx:1102
 msgid "Decrease interval"
-msgstr ""
+msgstr "Kurangi interval"
 
 #: src/ImageRunModal.jsx:1030
 msgid "Decrease maximum retries"
-msgstr ""
+msgstr "Kurangi percobaan ulang maksimum"
 
 #: src/ImageRunModal.jsx:953
 msgid "Decrease memory"
-msgstr ""
+msgstr "Kurangi memori"
 
 #: src/ImageRunModal.jsx:1170
 msgid "Decrease retries"
-msgstr ""
+msgstr "Kurangi percobaan ulang"
 
 #: src/ImageRunModal.jsx:1148
 msgid "Decrease start period"
-msgstr ""
+msgstr "Kurangi periode mulai"
 
 #: src/ImageRunModal.jsx:1125
 msgid "Decrease timeout"
-msgstr ""
+msgstr "Kurangi batas waktu"
 
 #: src/Images.jsx:458 src/ContainerDeleteModal.jsx:42 src/PodActions.jsx:67
 #: src/PodActions.jsx:214 src/Containers.jsx:276
 msgid "Delete"
-msgstr ""
+msgstr "Hapus"
 
 #: src/ImageDeleteModal.jsx:97
 msgid "Delete $0 image?"
-msgstr ""
+msgstr "Hapus image ( $0 )?"
 
 #: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:35
 msgid "Delete $0?"
-msgstr ""
+msgstr "Hapus ( $0 )?"
 
 #: src/ImageDeleteModal.jsx:123
 msgid "Delete image"
-msgstr ""
+msgstr "Hapus image"
 
 #: src/PodActions.jsx:48
 msgid "Delete pod $0?"
-msgstr ""
+msgstr "Hapus pod ( $0 )?"
 
 #: src/ImageDeleteModal.jsx:123
 msgid "Delete tagged images"
-msgstr ""
+msgstr "Hapus image bertag"
 
 #: src/PruneUnusedImagesModal.jsx:38
 msgid "Delete unused images of user $0:"
-msgstr ""
+msgstr "Hapus image tidak digunakan milik pengguna ( $0 ):"
 
 #: src/PruneUnusedImagesModal.jsx:37
 msgid "Delete unused system images:"
-msgstr ""
+msgstr "Hapus image sistem yang tidak digunakan:"
 
 #: src/ContainerDeleteModal.jsx:39
 msgid "Deleting a container will erase all data in it."
-msgstr ""
+msgstr "Menghapus kontainer akan menghapus semua data di dalamnya."
 
 #: src/Containers.jsx:70
 msgid "Deleting a running container will erase all data in it."
 msgstr ""
+"Menghapus kontainer yang sedang berjalan akan menghapus semua data di "
+"dalamnya."
 
 #: src/PodActions.jsx:58
 msgid "Deleting this pod will remove the following containers:"
-msgstr ""
+msgstr "Menghapus pod ini akan menghapus kontainer berikut:"
 
 #: src/Images.jsx:160 src/Containers.jsx:463 src/ImageRunModal.jsx:827
 msgid "Details"
-msgstr ""
+msgstr "Detail"
 
 #: src/Images.jsx:192
 msgid "Disk space"
-msgstr ""
+msgstr "Ruang disk"
 
 #: src/ContainerCommitModal.jsx:130
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
+"Format Docker berguna saat membagikan image dengan Docker atau Moby Engine"
 
 #: src/ImageSearchModal.jsx:222
 msgid "Download"
-msgstr ""
+msgstr "Unduh"
 
 #: src/Images.jsx:366
 msgid "Download new image"
-msgstr ""
+msgstr "Unduh image baru"
 
 #: src/PodActions.jsx:54
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "Pod kosong ( $0 ) akan dihapus secara permanen."
 
 #: src/ImageRunModal.jsx:922 src/ImageDetails.jsx:23
 msgid "Entrypoint"
-msgstr ""
+msgstr "Titik masuk"
 
 #: src/ContainerIntegration.jsx:158 src/ImageRunModal.jsx:1069
 msgid "Environment variables"
-msgstr ""
+msgstr "Variabel lingkungan"
 
 #: src/util.tsx:43
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 #: src/Images.jsx:61 src/Notification.jsx:43
 msgid "Error message"
-msgstr ""
+msgstr "Pesan kesalahan"
 
 #: src/ContainerTerminal.jsx:268
 msgid "Error occurred while connecting console"
-msgstr ""
+msgstr "Terjadi kesalahan saat menyambungkan konsol"
 
 #: src/ContainerCommitModal.jsx:111
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "Contoh, Nama Anda <yourname@example.com>"
 
 #: src/ImageRunModal.jsx:887
 msgid "Example: $0"
-msgstr ""
+msgstr "Contoh: ( $0 )"
 
 #: src/ContainerDetails.jsx:17 src/util.tsx:40 src/util.tsx:43
 msgid "Exited"
-msgstr ""
+msgstr "Keluar"
 
 #: src/ContainerHealthLogs.jsx:118
 msgid "Failed health run"
-msgstr ""
+msgstr "Eksekusi pemeriksaan kesehatan gagal"
 
 #: src/ContainerCheckpointModal.jsx:32
 msgid "Failed to checkpoint container $0"
-msgstr ""
+msgstr "Gagal melakukan checkpoint pada kontainer ( $0 )"
 
 #: src/ImageRunModal.jsx:258
 msgid "Failed to clean up container"
-msgstr ""
+msgstr "Gagal membersihkan kontainer"
 
 #: src/ContainerCommitModal.jsx:85
 msgid "Failed to commit container $0"
-msgstr ""
+msgstr "Gagal melakukan commit pada kontainer ( $0 )"
 
 #: src/ImageRunModal.jsx:327
 msgid "Failed to create container $0"
-msgstr ""
+msgstr "Gagal membuat kontainer ( $0 )"
 
 #: src/Images.jsx:59
 msgid "Failed to download image $0:$1"
-msgstr ""
+msgstr "Gagal mengunduh image ( $0 ):( $1 )"
 
 #: src/Containers.jsx:60
 msgid "Failed to force remove container $0"
-msgstr ""
+msgstr "Gagal memaksa menghapus kontainer ( $0 )"
 
 #: src/ImageDeleteModal.jsx:52
 msgid "Failed to force remove image $0"
-msgstr ""
+msgstr "Gagal memaksa menghapus image ( $0 )"
 
 #: src/Containers.jsx:117
 msgid "Failed to pause container $0"
-msgstr ""
+msgstr "Gagal menjeda kontainer ( $0 )"
 
 #: src/PodActions.jsx:194
 msgid "Failed to pause pod $0"
-msgstr ""
+msgstr "Gagal menjeda pod ( $0 )"
 
 #: src/PruneUnusedContainersModal.jsx:60
 msgid "Failed to prune unused containers"
-msgstr ""
+msgstr "Gagal memangkas kontainer yang tidak digunakan"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
-msgstr ""
+msgstr "Gagal memangkas image yang tidak digunakan"
 
 #: src/ImageRunModal.jsx:333
 msgid "Failed to pull image $0"
-msgstr ""
+msgstr "Gagal menarik image ( $0 )"
 
 #: src/ContainerDeleteModal.jsx:25
 msgid "Failed to remove container $0"
-msgstr ""
+msgstr "Gagal menghapus kontainer ( $0 )"
 
 #: src/ImageDeleteModal.jsx:78
 msgid "Failed to remove image $0"
-msgstr ""
+msgstr "Gagal menghapus image ( $0 )"
 
 #: src/ContainerRenameModal.jsx:58
 msgid "Failed to rename container $0"
-msgstr ""
+msgstr "Gagal mengganti nama kontainer ( $0 )"
 
 #: src/Containers.jsx:135
 msgid "Failed to restart container $0"
-msgstr ""
+msgstr "Gagal memulai ulang kontainer ( $0 )"
 
 #: src/PodActions.jsx:116 src/PodActions.jsx:123
 msgid "Failed to restart pod $0"
-msgstr ""
+msgstr "Gagal memulai ulang pod ( $0 )"
 
 #: src/ContainerRestoreModal.jsx:35
 msgid "Failed to restore container $0"
-msgstr ""
+msgstr "Gagal memulihkan kontainer ( $0 )"
 
 #: src/Containers.jsx:109
 msgid "Failed to resume container $0"
-msgstr ""
+msgstr "Gagal melanjutkan kontainer ( $0 )"
 
 #: src/PodActions.jsx:179
 msgid "Failed to resume pod $0"
-msgstr ""
+msgstr "Gagal melanjutkan pod ( $0 )"
 
 #: src/ImageRunModal.jsx:320
 msgid "Failed to run container $0"
-msgstr ""
+msgstr "Gagal menjalankan kontainer ( $0 )"
 
 #: src/ContainerHealthLogs.jsx:97
 msgid "Failed to run health check on container $0"
-msgstr ""
+msgstr "Gagal menjalankan pemeriksaan kesehatan pada kontainer ( $0 )"
 
 #: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:390
 msgid "Failed to search for images."
-msgstr ""
+msgstr "Gagal mencari image."
 
 #: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:390
 msgid "Failed to search for images: $0"
-msgstr ""
+msgstr "Gagal mencari image: ( $0 )"
 
 #: src/ImageSearchModal.jsx:96 src/ImageRunModal.jsx:388
 msgid "Failed to search for new images"
-msgstr ""
+msgstr "Gagal mencari image baru"
 
 #: src/Containers.jsx:100
 msgid "Failed to start container $0"
-msgstr ""
+msgstr "Gagal memulai kontainer ( $0 )"
 
 #: src/PodActions.jsx:84 src/PodActions.jsx:90
 msgid "Failed to start pod $0"
-msgstr ""
+msgstr "Gagal memulai pod ( $0 )"
 
 #: src/Containers.jsx:85
 msgid "Failed to stop container $0"
-msgstr ""
+msgstr "Gagal menghentikan kontainer ( $0 )"
 
 #: src/PodActions.jsx:99 src/PodActions.jsx:106
 msgid "Failed to stop pod $0"
-msgstr ""
+msgstr "Gagal menghentikan pod ( $0 )"
 
 #: src/ContainerHealthLogs.jsx:87
 msgid "Failing streak"
-msgstr ""
+msgstr "Rangkaian kegagalan"
 
 #: src/ContainerCommitModal.jsx:160
 msgid "Force commit"
-msgstr ""
+msgstr "Paksa commit"
 
 #: src/ForceRemoveModal.jsx:31 src/PodActions.jsx:67
 msgid "Force delete"
-msgstr ""
+msgstr "Paksa hapus"
 
 #: src/PodActions.jsx:47
 msgid "Force delete pod $0?"
-msgstr ""
+msgstr "Paksa hapus pod ( $0 )?"
 
 #: src/PodActions.jsx:159 src/Containers.jsx:203
 msgid "Force restart"
-msgstr ""
+msgstr "Paksa mulai ulang"
 
 #: src/PodActions.jsx:144 src/Containers.jsx:195 src/ContainerHealthLogs.jsx:45
 #: src/ImageRunModal.jsx:64
 msgid "Force stop"
-msgstr ""
+msgstr "Paksa hentikan"
 
 #: src/ImageRunModal.jsx:964
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: src/ContainerDetails.jsx:67
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #: src/Containers.jsx:495 src/ImageRunModal.jsx:1079
 msgid "Health check"
-msgstr ""
+msgstr "Pemeriksaan kesehatan"
 
 #: src/ImageRunModal.jsx:1089
 msgid "Health check interval help"
-msgstr ""
+msgstr "Bantuan interval pemeriksaan kesehatan"
 
 #: src/ImageRunModal.jsx:1158
 msgid "Health check retries help"
-msgstr ""
+msgstr "Bantuan percobaan ulang pemeriksaan kesehatan"
 
 #: src/ImageRunModal.jsx:1135
 msgid "Health check start period help"
-msgstr ""
+msgstr "Bantuan periode mulai pemeriksaan kesehatan"
 
 #: src/ImageRunModal.jsx:1112
 msgid "Health check timeout help"
-msgstr ""
+msgstr "Bantuan batas waktu pemeriksaan kesehatan"
 
 #: src/ImageRunModal.jsx:1179
 msgid "Health failure check action help"
-msgstr ""
+msgstr "Bantuan tindakan saat pemeriksaan gagal karena kesehatan"
 
 #: src/Containers.jsx:298
 msgid "Healthy"
-msgstr ""
+msgstr "Sehat"
 
 #: src/Images.jsx:329
 msgid "Hide images"
-msgstr ""
+msgstr "Sembunyikan image"
 
 #: src/Images.jsx:276
 msgid "Hide intermediate images"
-msgstr ""
+msgstr "Sembunyikan image perantara"
 
 #: src/Images.jsx:169
 msgid "History"
-msgstr ""
+msgstr "Riwayat"
 
 #: src/Volume.jsx:38
 msgid "Host path"
-msgstr ""
+msgstr "Jalur host"
 
 #: src/PublishPort.jsx:77
 msgid "Host port"
-msgstr ""
+msgstr "Port host"
 
 #: src/PublishPort.jsx:80
 msgid "Host port help"
-msgstr ""
+msgstr "Bantuan port host"
 
 #: src/ContainerDetails.jsx:34 src/Images.jsx:191
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/ContainerDetails.jsx:63 src/PublishPort.jsx:56
 msgid "IP address"
-msgstr ""
+msgstr "Alamat IP"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
-msgstr ""
+msgstr "Bantuan alamat IP"
 
 #: src/ImageRunModal.jsx:857
 msgid "Ideal for development"
-msgstr ""
+msgstr "Ideal untuk pengembangan"
 
 #: src/ImageRunModal.jsx:840
 msgid "Ideal for running services"
-msgstr ""
+msgstr "Ideal untuk menjalankan layanan"
 
 #: src/PublishPort.jsx:61
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Jika IP host disetel ke 0.0.0.0 atau tidak disetel sama sekali, port akan "
+"diikat pada semua IP di host."
 
 #: src/PublishPort.jsx:82
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
 msgstr ""
+"Jika port host tidak disetel, port kontainer akan ditetapkan secara acak ke "
+"sebuah port pada host."
 
 #: src/ContainerRestoreModal.jsx:56
 msgid "Ignore IP address if set statically"
-msgstr ""
+msgstr "Abaikan alamat IP jika disetel secara statis"
 
 #: src/ContainerRestoreModal.jsx:59
 msgid "Ignore MAC address if set statically"
-msgstr ""
+msgstr "Abaikan alamat MAC jika disetel secara statis"
 
 #: src/ContainerDetails.jsx:38 src/Images.jsx:188 src/ImageRunModal.jsx:880
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #: src/ContainerCommitModal.jsx:48
 msgid "Image name is not unique"
-msgstr ""
+msgstr "Nama image tidak unik"
 
 #: src/ContainerCommitModal.jsx:39
 msgid "Image name is required"
-msgstr ""
+msgstr "Nama image wajib diisi"
 
 #: src/ImageRunModal.jsx:882
 msgid "Image selection help"
-msgstr ""
+msgstr "Bantuan pemilihan image"
 
 #: src/Images.jsx:282 src/Images.jsx:314
 msgid "Images"
-msgstr ""
+msgstr "Image"
 
 #: src/ImageRunModal.jsx:994
 msgid "Increase CPU shares"
-msgstr ""
+msgstr "Tingkatkan pembagian CPU"
 
 #: src/ImageRunModal.jsx:1103
 msgid "Increase interval"
-msgstr ""
+msgstr "Tingkatkan interval"
 
 #: src/ImageRunModal.jsx:1031
 msgid "Increase maximum retries"
-msgstr ""
+msgstr "Tingkatkan percobaan ulang maksimum"
 
 #: src/ImageRunModal.jsx:954
 msgid "Increase memory"
-msgstr ""
+msgstr "Tingkatkan memori"
 
 #: src/ImageRunModal.jsx:1171
 msgid "Increase retries"
-msgstr ""
+msgstr "Tingkatkan percobaan ulang"
 
 #: src/ImageRunModal.jsx:1149
 msgid "Increase start period"
-msgstr ""
+msgstr "Tingkatkan periode mulai"
 
 #: src/ImageRunModal.jsx:1126
 msgid "Increase timeout"
-msgstr ""
+msgstr "Tingkatkan batas waktu"
 
 #: src/Containers.jsx:470 src/ImageRunModal.jsx:1042
 msgid "Integration"
-msgstr ""
+msgstr "Integrasi"
 
 #: src/ContainerHealthLogs.jsx:67 src/ImageRunModal.jsx:1087
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 #: src/ImageRunModal.jsx:1091
 msgid "Interval how often health check is run."
-msgstr ""
+msgstr "Interval seberapa sering pemeriksaan kesehatan dijalankan."
 
 #: src/PodCreateModal.jsx:121 src/ContainerRenameModal.jsx:36
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
 msgstr ""
+"Karakter tidak valid. Nama hanya boleh berisi huruf, angka, dan tanda baca "
+"tertentu (_ . -)."
 
 #: src/ImageRunModal.jsx:962
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: src/ContainerRestoreModal.jsx:51 src/ContainerCheckpointModal.jsx:48
 msgid "Keep all temporary checkpoint files"
-msgstr ""
+msgstr "Simpan semua file checkpoint sementara"
 
 #: src/Env.jsx:63
 msgid "Key"
-msgstr ""
+msgstr "Kunci"
 
 #: src/Env.jsx:25
 msgid "Key contains invalid characters"
-msgstr ""
+msgstr "Kunci mengandung karakter tidak valid"
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
-msgstr ""
+msgstr "Kunci tidak boleh kosong"
 
 #: src/Env.jsx:23
 msgid "Key must not begin with a digit"
-msgstr ""
+msgstr "Kunci tidak boleh diawali dengan digit"
 
 #: src/ContainerHealthLogs.jsx:108
 msgid "Last 5 runs"
-msgstr ""
+msgstr "5 eksekusi terakhir"
 
 #: src/ContainerDetails.jsx:89
 msgid "Latest checkpoint"
-msgstr ""
+msgstr "Checkpoint terbaru"
 
 #: src/ContainerCheckpointModal.jsx:50
 msgid "Leave running after writing checkpoint to disk"
-msgstr ""
+msgstr "Biarkan tetap berjalan setelah menulis checkpoint ke disk"
 
 #: src/ContainerIntegration.jsx:134 src/ImageHistory.jsx:59
 msgid "Loading details..."
-msgstr ""
+msgstr "Memuat detail..."
 
 #: src/ContainerLogs.jsx:61
 msgid "Loading logs..."
-msgstr ""
+msgstr "Memuat log..."
 
 #: src/ImageUsedBy.jsx:14 src/Containers.jsx:695
 msgid "Loading..."
-msgstr ""
+msgstr "Memuat..."
 
 #: src/ImageRunModal.jsx:775
 msgid "Local"
-msgstr ""
+msgstr "Lokal"
 
 #: src/ImageRunModal.jsx:578
 msgid "Local images"
-msgstr ""
+msgstr "Image lokal"
 
 #: src/Containers.jsx:475 src/ContainerHealthLogs.jsx:105
 msgid "Logs"
-msgstr ""
+msgstr "Log"
 
 #: src/ContainerDetails.jsx:71
 msgid "MAC address"
-msgstr ""
+msgstr "Alamat MAC"
 
 #: src/ImageRunModal.jsx:963
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/ImageRunModal.jsx:1023
 msgid "Maximum retries"
-msgstr ""
+msgstr "Percobaan ulang maksimum"
 
 #: src/Containers.jsx:566 src/Containers.jsx:569 src/Containers.jsx:682
 msgid "Memory"
-msgstr ""
+msgstr "Memori"
 
 #: src/ImageRunModal.jsx:940
 msgid "Memory limit"
-msgstr ""
+msgstr "Batas memori"
 
 #: src/ImageRunModal.jsx:957
 msgid "Memory unit"
-msgstr ""
+msgstr "Satuan memori"
 
 #: src/Volume.jsx:66
 msgid "Mode"
-msgstr ""
+msgstr "Mode"
 
 #: src/ImageDeleteModal.jsx:102
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr ""
+msgstr "Ada beberapa tag untuk image ini. Pilih image bertag yang akan dihapus."
 
 #: src/PublishPort.jsx:25
 msgid "Must be a valid IP address"
-msgstr ""
+msgstr "Harus berupa alamat IP yang valid"
 
 #: src/PodCreateModal.jsx:152 src/PruneUnusedContainersModal.jsx:67
 #: src/ImageRunModal.jsx:809
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: src/ImageRunModal.jsx:678
 msgid "Name already in use"
-msgstr ""
+msgstr "Nama sudah digunakan"
 
 #: src/ContainerRenameModal.jsx:72
 msgid "New container name"
-msgstr ""
+msgstr "Nama kontainer baru"
 
 #: src/ContainerCommitModal.jsx:94
 msgid "New image name"
-msgstr ""
+msgstr "Nama image baru"
 
 #: src/ImageRunModal.jsx:1015
 msgid "No"
-msgstr ""
+msgstr "Tidak"
 
 #: src/ContainerHealthLogs.jsx:42 src/ImageRunModal.jsx:61
 msgid "No action"
-msgstr ""
+msgstr "Tidak ada tindakan"
 
 #: src/Containers.jsx:692
 msgid "No containers"
-msgstr ""
+msgstr "Tidak ada kontainer"
 
 #: src/ImageUsedBy.jsx:16
 msgid "No containers are using this image"
-msgstr ""
+msgstr "Tidak ada kontainer yang menggunakan image ini"
 
 #: src/Containers.jsx:693
 msgid "No containers in this pod"
-msgstr ""
+msgstr "Tidak ada kontainer di pod ini"
 
 #: src/Containers.jsx:697
 msgid "No containers that match the current filter"
-msgstr ""
+msgstr "Tidak ada kontainer yang cocok dengan filter saat ini"
 
 #: src/ImageRunModal.jsx:1067
 msgid "No environment variables specified"
-msgstr ""
+msgstr "Tidak ada variabel lingkungan yang ditentukan"
 
 #: src/Images.jsx:195
 msgid "No images"
-msgstr ""
+msgstr "Tidak ada image"
 
 #: src/ImageSearchModal.jsx:178 src/ImageRunModal.jsx:898
 #: src/ImageRunModal.jsx:899
 msgid "No images found"
-msgstr ""
+msgstr "Tidak ditemukan image"
 
 #: src/Images.jsx:199
 msgid "No images that match the current filter"
-msgstr ""
+msgstr "Tidak ada image yang cocok dengan filter saat ini"
 
 #: src/Volume.jsx:77
 msgid "No label"
-msgstr ""
+msgstr "Tanpa label"
 
 #: src/PodCreateModal.jsx:182 src/ImageRunModal.jsx:1045
 msgid "No ports exposed"
-msgstr ""
+msgstr "Tidak ada port yang diekspos"
 
 #: src/ImageSearchModal.jsx:182
 msgid "No results for $0"
-msgstr ""
+msgstr "Tidak ada hasil untuk ( $0 )"
 
 #: src/Containers.jsx:699
 msgid "No running containers"
-msgstr ""
+msgstr "Tidak ada kontainer yang berjalan"
 
 #: src/PodCreateModal.jsx:194 src/ImageRunModal.jsx:1055
 msgid "No volumes specified"
-msgstr ""
+msgstr "Tidak ada volume yang ditentukan"
 
 #: src/ImageRunModal.jsx:1016
 msgid "On failure"
-msgstr ""
+msgstr "Saat gagal"
 
 #: src/Containers.jsx:850
 msgid "Only running"
-msgstr ""
+msgstr "Hanya yang berjalan"
 
 #: src/ContainerCommitModal.jsx:122
 msgid "Options"
-msgstr ""
+msgstr "Opsi"
 
 #: src/ImageSearchModal.jsx:146 src/PodCreateModal.jsx:170 src/Images.jsx:189
 #: src/ContainerHeader.jsx:17 src/PruneUnusedContainersModal.jsx:74
 #: src/Containers.jsx:680 src/ImageRunModal.jsx:830
 msgid "Owner"
-msgstr ""
+msgstr "Pemilik"
 
 #: src/ImageRunModal.jsx:832
 msgid "Owner help"
-msgstr ""
+msgstr "Bantuan pemilik"
 
 #: src/ContainerHealthLogs.jsx:118
 msgid "Passed health run"
-msgstr ""
+msgstr "Eksekusi pemeriksaan kesehatan berhasil"
 
 #: src/ImageRunModal.jsx:1075
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
+"Tempel satu atau lebih baris pasangan kunci=nilai ke bidang mana pun untuk "
+"impor massal"
 
 #: src/PodActions.jsx:198 src/Containers.jsx:211
 msgid "Pause"
-msgstr ""
+msgstr "Jeda"
 
 #: src/ContainerCommitModal.jsx:126
 msgid "Pause container when creating image"
-msgstr ""
+msgstr "Jeda kontainer saat membuat image"
 
 #: src/util.tsx:40 src/util.tsx:43
 msgid "Paused"
-msgstr ""
+msgstr "Dijeda"
 
 #: src/PodCreateModal.jsx:96
 msgid "Pod failed to be created"
-msgstr ""
+msgstr "Pod gagal dibuat"
 
 #: src/PodCreateModal.jsx:155
 msgid "Pod name"
-msgstr ""
+msgstr "Nama pod"
 
 #: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: src/manifest.json:0
 msgid "Podman containers"
-msgstr ""
+msgstr "Kontainer Podman"
 
 #: src/app.jsx:854
 msgid "Podman service failed"
-msgstr ""
+msgstr "Layanan Podman gagal"
 
 #: src/PodCreateModal.jsx:184 src/ImageRunModal.jsx:1047
 msgid "Port mapping"
-msgstr ""
+msgstr "Pemetaan port"
 
 #: src/ContainerIntegration.jsx:150 src/ImageDetails.jsx:41
 msgid "Ports"
-msgstr ""
+msgstr "Port"
 
 #: src/ImageRunModal.jsx:849
 msgid "Ports under 1024 can be mapped"
-msgstr ""
+msgstr "Port di bawah 1024 dapat dipetakan"
 
 #: src/Volume.jsx:79
 msgid "Private"
-msgstr ""
+msgstr "Pribadi"
 
 #: src/PublishPort.jsx:119
 msgid "Protocol"
-msgstr ""
+msgstr "Protokol"
 
 #: src/PruneUnusedImagesModal.jsx:110 src/PruneUnusedContainersModal.jsx:109
 msgid "Prune"
-msgstr ""
+msgstr "Pangkas"
 
 #: src/PruneUnusedContainersModal.jsx:93 src/Containers.jsx:316
 msgid "Prune unused containers"
-msgstr ""
+msgstr "Pangkas kontainer yang tidak digunakan"
 
 #: src/PruneUnusedImagesModal.jsx:90 src/Images.jsx:384
 msgid "Prune unused images"
-msgstr ""
+msgstr "Pangkas image yang tidak digunakan"
 
 #: src/PruneUnusedContainersModal.jsx:105
 #: src/PruneUnusedContainersModal.jsx:109
 msgid "Pruning containers"
-msgstr ""
+msgstr "Memangkas kontainer"
 
 #: src/PruneUnusedImagesModal.jsx:106 src/PruneUnusedImagesModal.jsx:110
 msgid "Pruning images"
-msgstr ""
+msgstr "Memangkas image"
 
 #: src/Images.jsx:452
 msgid "Pull"
-msgstr ""
+msgstr "Tarik"
 
 #: src/Images.jsx:373
 msgid "Pull all images"
-msgstr ""
+msgstr "Tarik semua image"
 
 #: src/ImageRunModal.jsx:916
 msgid "Pull latest image"
-msgstr ""
+msgstr "Tarik image terbaru"
 
 #: src/Images.jsx:352
 msgid "Pulling"
-msgstr ""
+msgstr "Sedang menarik"
 
 #: src/ContainerIntegration.jsx:83
 msgid "Read-only access"
-msgstr ""
+msgstr "Akses hanya-baca"
 
 #: src/ContainerIntegration.jsx:82
 msgid "Read-write access"
-msgstr ""
+msgstr "Akses baca-tulis"
 
 #: src/Env.jsx:97 src/Volume.jsx:86 src/PublishPort.jsx:134
 msgid "Remove item"
-msgstr ""
+msgstr "Hapus item"
 
 #: src/PruneUnusedContainersModal.jsx:95
 msgid "Removes selected non-running containers"
-msgstr ""
+msgstr "Menghapus kontainer yang dipilih yang tidak sedang berjalan"
 
 #: src/util.tsx:40
 msgid "Removing"
-msgstr ""
+msgstr "Sedang menghapus"
 
 #: src/ContainerRenameModal.jsx:101 src/Containers.jsx:168
 msgid "Rename"
-msgstr ""
+msgstr "Ganti nama"
 
 #: src/ContainerRenameModal.jsx:90
 msgid "Rename container $0"
-msgstr ""
+msgstr "Ganti nama kontainer ( $0 )"
 
 #: src/ImageRunModal.jsx:843
 msgid "Resource limits can be set"
-msgstr ""
+msgstr "Batas sumber daya dapat disetel"
 
 #: src/util.tsx:40 src/PodActions.jsx:151 src/Containers.jsx:184
 #: src/Containers.jsx:199 src/ContainerHealthLogs.jsx:43
 #: src/ImageRunModal.jsx:62
 msgid "Restart"
-msgstr ""
+msgstr "Mulai ulang"
 
 #: src/ImageRunModal.jsx:1002
 msgid "Restart policy"
-msgstr ""
+msgstr "Kebijakan mulai ulang"
 
 #: src/ImageRunModal.jsx:1004 src/ImageRunModal.jsx:1012
 msgid "Restart policy help"
-msgstr ""
+msgstr "Bantuan kebijakan mulai ulang"
 
 #: src/ImageRunModal.jsx:1006
 msgid "Restart policy to follow when containers exit."
-msgstr ""
+msgstr "Kebijakan mulai ulang yang diikuti saat kontainer berhenti."
 
 #: src/ImageRunModal.jsx:1006
 msgid ""
@@ -1060,156 +1071,160 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
+"Kebijakan mulai ulang yang diikuti saat kontainer berhenti. Penggunaan "
+"linger untuk memulai otomatis kontainer mungkin tidak berfungsi dalam "
+"beberapa keadaan, seperti saat ecryptfs, systemd-homed, NFS, atau 2FA "
+"digunakan pada akun pengguna."
 
 #: src/ContainerRestoreModal.jsx:68 src/Containers.jsx:252
 msgid "Restore"
-msgstr ""
+msgstr "Pulihkan"
 
 #: src/ContainerRestoreModal.jsx:48
 msgid "Restore container $0"
-msgstr ""
+msgstr "Pulihkan kontainer ( $0 )"
 
 #: src/ContainerRestoreModal.jsx:53
 msgid "Restore with established TCP connections"
-msgstr ""
+msgstr "Pulihkan dengan koneksi TCP yang sudah terjalin"
 
 #: src/ImageRunModal.jsx:860
 msgid "Restricted by user account permissions"
-msgstr ""
+msgstr "Dibatasi oleh izin akun pengguna"
 
 #: src/PodActions.jsx:183 src/Containers.jsx:218
 msgid "Resume"
-msgstr ""
+msgstr "Lanjutkan"
 
 #: src/ContainerHealthLogs.jsx:71 src/ImageRunModal.jsx:1156
 msgid "Retries"
-msgstr ""
+msgstr "Percobaan ulang"
 
 #: src/ImageSearchModal.jsx:183
 msgid "Retry another term."
-msgstr ""
+msgstr "Coba istilah lain."
 
 #: src/ContainerHealthLogs.jsx:101
 msgid "Run health check"
-msgstr ""
+msgstr "Jalankan pemeriksaan kesehatan"
 
 #: src/util.tsx:40 src/util.tsx:43 src/ImageUsedBy.jsx:37
 msgid "Running"
-msgstr ""
+msgstr "Berjalan"
 
 #: src/Volume.jsx:73
 msgid "SELinux"
-msgstr ""
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:160
 msgid "Search by name or description"
-msgstr ""
+msgstr "Cari berdasarkan nama atau deskripsi"
 
 #: src/ImageRunModal.jsx:767
 msgid "Search by registry"
-msgstr ""
+msgstr "Cari berdasarkan registry"
 
 #: src/ImageSearchModal.jsx:157
 msgid "Search for"
-msgstr ""
+msgstr "Cari"
 
 #: src/ImageSearchModal.jsx:141
 msgid "Search for an image"
-msgstr ""
+msgstr "Cari sebuah image"
 
 #: src/ImageRunModal.jsx:902
 msgid "Search string or container location"
-msgstr ""
+msgstr "String pencarian atau lokasi kontainer"
 
 #: src/ImageSearchModal.jsx:176
 msgid "Searching..."
-msgstr ""
+msgstr "Sedang mencari..."
 
 #: src/ImageRunModal.jsx:888
 msgid "Searching: $0"
-msgstr ""
+msgstr "Sedang mencari: ( $0 )"
 
 #: src/Volume.jsx:78
 msgid "Shared"
-msgstr ""
+msgstr "Dibagikan"
 
 #: src/Containers.jsx:845
 msgid "Show"
-msgstr ""
+msgstr "Tampilkan"
 
 #: src/Images.jsx:329
 msgid "Show images"
-msgstr ""
+msgstr "Tampilkan image"
 
 #: src/Images.jsx:276
 msgid "Show intermediate images"
-msgstr ""
+msgstr "Tampilkan image perantara"
 
 #: src/ContainerIntegration.jsx:123
 msgid "Show less"
-msgstr ""
+msgstr "Tampilkan lebih sedikit"
 
 #: src/PruneUnusedImagesModal.jsx:54 src/ContainerIntegration.jsx:123
 msgid "Show more"
-msgstr ""
+msgstr "Tampilkan lebih banyak"
 
 #: src/ImageHistory.jsx:33
 msgid "Size"
-msgstr ""
+msgstr "Ukuran"
 
 #: src/PodActions.jsx:168 src/Containers.jsx:241
 msgid "Start"
-msgstr ""
+msgstr "Mulai"
 
 #: src/ContainerHealthLogs.jsx:75 src/ImageRunModal.jsx:1133
 msgid "Start period"
-msgstr ""
+msgstr "Periode mulai"
 
 #: src/ImageSearchModal.jsx:178
 msgid "Start typing to look for images."
-msgstr ""
+msgstr "Mulai mengetik untuk mencari image."
 
 #: src/ContainerHealthLogs.jsx:108
 msgid "Started at"
-msgstr ""
+msgstr "Dimulai pada"
 
 #: src/ContainerDetails.jsx:85 src/Containers.jsx:683
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #: src/ContainerHealthLogs.jsx:59
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: src/PodActions.jsx:136 src/Containers.jsx:180 src/Containers.jsx:191
 #: src/ContainerHealthLogs.jsx:44 src/ImageRunModal.jsx:63
 msgid "Stop"
-msgstr ""
+msgstr "Hentikan"
 
 #: src/util.tsx:40 src/util.tsx:43
 msgid "Stopped"
-msgstr ""
+msgstr "Dihentikan"
 
 #: src/ContainerCheckpointModal.jsx:53
 msgid "Support preserving established TCP connections"
-msgstr ""
+msgstr "Dukungan mempertahankan koneksi TCP yang sudah terjalin"
 
 #: src/PodCreateModal.jsx:174 src/ImageRunModal.jsx:837
 #: src/ImageRunModal.jsx:872
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: src/PublishPort.jsx:125
 msgid "TCP"
-msgstr ""
+msgstr "TCP"
 
 #: src/ImageSearchModal.jsx:212 src/ContainerCommitModal.jsx:102
 msgid "Tag"
-msgstr ""
+msgstr "Tag"
 
 #: src/ImageDetails.jsx:29
 msgid "Tags"
-msgstr ""
+msgstr "Tag"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
@@ -1218,175 +1233,183 @@ msgid ""
 "containers), and container images. It is CLI, API, and functionally "
 "compatible with Docker."
 msgstr ""
+"Antarmuka pengguna Cockpit untuk kontainer Podman. podman (Pod Manager) "
+"adalah engine tanpa daemon berfitur lengkap untuk kontainer OCI, pod "
+"(kelompok kontainer), dan image kontainer. Ini kompatibel dengan CLI, API, "
+"dan secara fungsional dengan Docker."
 
 #: src/ImageRunModal.jsx:1137
 msgid "The initialization time needed for a container to bootstrap."
-msgstr ""
+msgstr "Waktu inisialisasi yang diperlukan agar kontainer melakukan bootstrap."
 
 #: src/ImageRunModal.jsx:1114
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
 msgstr ""
+"Waktu maksimum yang diizinkan untuk menyelesaikan pemeriksaan kesehatan "
+"sebelum suatu interval dianggap gagal."
 
 #: src/ImageRunModal.jsx:1160
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
 msgstr ""
+"Jumlah percobaan ulang yang diizinkan sebelum healthcheck dianggap tidak "
+"sehat."
 
 #: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1110
 msgid "Timeout"
-msgstr ""
+msgstr "Batas waktu"
 
 #: src/app.jsx:858
 msgid "Troubleshoot"
-msgstr ""
+msgstr "Pemecahan masalah"
 
 #: src/ContainerHeader.jsx:31
 msgid "Type to filter…"
-msgstr ""
+msgstr "Ketik untuk memfilter…"
 
 #: src/PublishPort.jsx:126
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: src/ImageHistory.jsx:59
 msgid "Unable to load image history"
-msgstr ""
+msgstr "Tidak dapat memuat riwayat image"
 
 #: src/Containers.jsx:300
 msgid "Unhealthy"
-msgstr ""
+msgstr "Tidak sehat"
 
 #: src/ContainerDetails.jsx:15
 msgid "Up since:"
-msgstr ""
+msgstr "Aktif sejak:"
 
 #: src/ContainerCommitModal.jsx:131
 msgid "Use legacy Docker format"
-msgstr ""
+msgstr "Gunakan format Docker lama"
 
 #: src/Images.jsx:193 src/ImageDetails.jsx:35
 msgid "Used by"
-msgstr ""
+msgstr "Digunakan oleh"
 
 #: src/app.jsx:702 src/ImageRunModal.jsx:854
 msgid "User"
-msgstr ""
+msgstr "Pengguna"
 
 #: src/PodCreateModal.jsx:174 src/ImageRunModal.jsx:872
 msgid "User:"
-msgstr ""
+msgstr "Pengguna:"
 
 #: src/Env.jsx:79
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: src/ContainerDetails.jsx:53
 msgid "View $0"
-msgstr ""
+msgstr "Lihat ( $0 )"
 
 #: src/ContainerLogs.jsx:182
 msgid "View $0 logs"
-msgstr ""
+msgstr "Lihat log ( $0 )"
 
 #: src/PodCreateModal.jsx:196 src/ContainerIntegration.jsx:154
 #: src/ImageRunModal.jsx:1057
 msgid "Volumes"
-msgstr ""
+msgstr "Volume"
 
 #: src/ContainerHealthLogs.jsx:83 src/ImageRunModal.jsx:1177
 msgid "When unhealthy"
-msgstr ""
+msgstr "Saat tidak sehat"
 
 #: src/ImageRunModal.jsx:936
 msgid "With terminal"
-msgstr ""
+msgstr "Dengan terminal"
 
 #: src/Volume.jsx:68
 msgid "Writable"
-msgstr ""
+msgstr "Dapat ditulis"
 
 #: src/manifest.json:0
 msgid "container"
-msgstr ""
+msgstr "kontainer"
 
 #: src/ImageRunModal.jsx:304
 msgid "downloading"
-msgstr ""
+msgstr "mengunduh"
 
 #: src/ImageRunModal.jsx:886
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "host[:port]/[user]/kontainer[:tag]"
 
 #: src/manifest.json:0
 msgid "image"
-msgstr ""
+msgstr "image"
 
 #: src/ImageSearchModal.jsx:165
 msgid "in"
-msgstr ""
+msgstr "di"
 
 #: src/ImageDeleteModal.jsx:84
 msgid "intermediate"
-msgstr ""
+msgstr "perantara"
 
 #: src/ImageDeleteModal.jsx:64
 msgid "intermediate image"
-msgstr ""
+msgstr "image perantara"
 
 #: src/Containers.jsx:375 src/Containers.jsx:376
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 #: src/Containers.jsx:375 src/Containers.jsx:376
 msgid "not available"
-msgstr ""
+msgstr "tidak tersedia"
 
 #: src/Containers.jsx:975
 msgid "pod"
-msgstr ""
+msgstr "pod"
 
 #: src/manifest.json:0
 msgid "podman"
-msgstr ""
+msgstr "podman"
 
 #: src/Containers.jsx:586
 msgid "ports"
-msgstr ""
+msgstr "port"
 
 #: src/ImageRunModal.jsx:1107 src/ImageRunModal.jsx:1130
 #: src/ImageRunModal.jsx:1153
 msgid "seconds"
-msgstr ""
+msgstr "detik"
 
 #: src/Containers.jsx:412 src/Containers.jsx:976
 msgid "service"
-msgstr ""
+msgstr "layanan"
 
 #: src/Images.jsx:144 src/app.jsx:64 src/app.jsx:689
 #: src/PruneUnusedContainersModal.jsx:34 src/Containers.jsx:438
 msgid "system"
-msgstr ""
+msgstr "sistem"
 
 #: src/ContainerDetails.jsx:49
 msgid "systemd service"
-msgstr ""
+msgstr "layanan systemd"
 
 #: src/Images.jsx:92 src/Images.jsx:99
 msgid "unused"
-msgstr ""
+msgstr "tidak digunakan"
 
 #: src/app.jsx:64
 msgid "user"
-msgstr ""
+msgstr "pengguna"
 
 #: src/Images.jsx:144 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:438
 msgid "user:"
-msgstr ""
+msgstr "pengguna:"
 
 #: src/Containers.jsx:601
 msgid "volumes"
-msgstr ""
+msgstr "volume"
