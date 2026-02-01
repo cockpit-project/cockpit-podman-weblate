@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 04:17+0000\n"
-"PO-Revision-Date: 2026-01-29 10:58+0000\n"
+"PO-Revision-Date: 2026-02-02 05:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
@@ -904,7 +904,7 @@ msgstr ""
 #: src/ContainerHeader.jsx:17 src/PruneUnusedContainersModal.jsx:74
 #: src/Containers.jsx:717 src/ImageRunModal.jsx:830
 msgid "Owner"
-msgstr ""
+msgstr "Omanik"
 
 #: src/ImageRunModal.jsx:832
 msgid "Owner help"
@@ -1217,7 +1217,7 @@ msgstr ""
 
 #: src/Containers.jsx:332
 msgid "Terminal not available"
-msgstr ""
+msgstr "Terminal pole saadaval"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
