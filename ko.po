@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
-"PO-Revision-Date: 2025-12-13 23:35+0000\n"
+"PO-Revision-Date: 2026-02-03 08:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1215,10 +1215,8 @@ msgid "Tags"
 msgstr "꼬리표"
 
 #: src/Containers.jsx:332
-#, fuzzy
-#| msgid "not available"
 msgid "Terminal not available"
-msgstr "사용할 수 없음"
+msgstr "터미널을 사용 할 수 없음"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
@@ -1250,7 +1248,7 @@ msgstr "상태점검이 좋지 않은 것으로 고려되기 전에 허용되는
 
 #: src/Containers.jsx:332
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "이 웹 검색기는 WebGL2를 지원하지 않습니다."
 
 #: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1110
 msgid "Timeout"
