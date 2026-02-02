@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
 "PO-Revision-Date: 2026-02-03 08:58+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/ka/>\n"
 "Language: ka\n"
@@ -1262,7 +1263,7 @@ msgstr ""
 
 #: src/Containers.jsx:332
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "ამ ბრაუზერს WebGL2-ის მხარდაჭერა არ აქვს."
 
 #: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1110
 msgid "Timeout"
