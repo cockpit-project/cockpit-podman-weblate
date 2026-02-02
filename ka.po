@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
-"PO-Revision-Date: 2026-01-24 11:58+0000\n"
+"PO-Revision-Date: 2026-02-03 08:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/ka/>\n"
@@ -1226,10 +1226,8 @@ msgid "Tags"
 msgstr "ჭდეები"
 
 #: src/Containers.jsx:332
-#, fuzzy
-#| msgid "not available"
 msgid "Terminal not available"
-msgstr "ხელმიუწვდომელია"
+msgstr "ტერმინალი ხელმისაწვდომი არაა"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
