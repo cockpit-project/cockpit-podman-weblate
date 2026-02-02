@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
-"PO-Revision-Date: 2026-01-29 10:58+0000\n"
+"PO-Revision-Date: 2026-02-03 08:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/ja/>\n"
@@ -1219,10 +1219,8 @@ msgid "Tags"
 msgstr "タグ"
 
 #: src/Containers.jsx:332
-#, fuzzy
-#| msgid "not available"
 msgid "Terminal not available"
-msgstr "利用できません"
+msgstr "ターミナルは利用できません"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
@@ -1404,10 +1402,8 @@ msgid "unused"
 msgstr "未使用"
 
 #: src/app.jsx:64
-#, fuzzy
-#| msgid "user:"
 msgid "user"
-msgstr "ユーザー:"
+msgstr "ユーザー"
 
 #: src/Images.jsx:144 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:463
