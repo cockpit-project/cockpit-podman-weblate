@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 04:17+0000\n"
-"PO-Revision-Date: 2025-11-13 23:29+0000\n"
+"PO-Revision-Date: 2026-02-02 05:58+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1233,10 +1233,8 @@ msgid "Tags"
 msgstr "Мітки"
 
 #: src/Containers.jsx:332
-#, fuzzy
-#| msgid "not available"
 msgid "Terminal not available"
-msgstr "не доступне"
+msgstr "Немає доступу до термінала"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
@@ -1273,7 +1271,7 @@ msgstr ""
 
 #: src/Containers.jsx:332
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "У цьому браузері не передбачено підтримки WebGL2."
 
 #: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1110
 msgid "Timeout"
