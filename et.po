@@ -457,7 +457,7 @@ msgstr ""
 
 #: src/ContainerDeleteModal.jsx:25
 msgid "Failed to remove container $0"
-msgstr ""
+msgstr "Hetktõmmise eemaldamine ei õnnestunud: $0"
 
 #: src/ImageDeleteModal.jsx:78
 msgid "Failed to remove image $0"
