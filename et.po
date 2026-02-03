@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
 "PO-Revision-Date: 2026-02-03 08:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -182,7 +182,7 @@ msgstr ""
 
 #: src/util.tsx:40
 msgid "Configured"
-msgstr ""
+msgstr "Seadistatud"
 
 #: src/Containers.jsx:514
 msgid "Console"
@@ -890,7 +890,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1016
 msgid "On failure"
-msgstr ""
+msgstr "Ebaõnnestumisel"
 
 #: src/Containers.jsx:887
 msgid "Only running"
@@ -945,11 +945,11 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "Podman containers"
-msgstr ""
+msgstr "Podmani konteinerid"
 
 #: src/app.jsx:854
 msgid "Podman service failed"
-msgstr ""
+msgstr "Podmani teenus ei toimi korralikult"
 
 #: src/PodCreateModal.jsx:184 src/ImageRunModal.jsx:1047
 msgid "Port mapping"
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "podman"
-msgstr ""
+msgstr "podman"
 
 #: src/Containers.jsx:623
 msgid "ports"
