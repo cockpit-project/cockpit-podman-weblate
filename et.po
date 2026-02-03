@@ -445,7 +445,7 @@ msgstr ""
 
 #: src/PruneUnusedContainersModal.jsx:60
 msgid "Failed to prune unused containers"
-msgstr ""
+msgstr "Kasutamata hetktõmmiste kustutamine/eemaldamine ei õnnestunud"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
