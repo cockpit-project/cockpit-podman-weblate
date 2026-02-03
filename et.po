@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-03 04:27+0000\n"
 "PO-Revision-Date: 2026-02-04 12:55+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -255,11 +255,11 @@ msgstr ""
 
 #: src/Containers.jsx:992
 msgid "Create container in pod"
-msgstr ""
+msgstr "Loo podi konteiner"
 
 #: src/PodCreateModal.jsx:213 src/Containers.jsx:895
 msgid "Create pod"
-msgstr ""
+msgstr "Loo pod"
 
 #: src/ContainerDetails.jsx:80 src/Images.jsx:190 src/util.tsx:40
 #: src/util.tsx:43 src/PruneUnusedContainersModal.jsx:68
@@ -281,7 +281,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1030
 msgid "Decrease maximum retries"
-msgstr "Vähenda korduskatseid"
+msgstr "Vähenda korduskatsete arvu"
 
 #: src/ImageRunModal.jsx:953
 msgid "Decrease memory"
@@ -310,7 +310,7 @@ msgstr "Kas kustutad hetktõmmise: $0?"
 
 #: src/ForceRemoveModal.jsx:21 src/ContainerDeleteModal.jsx:35
 msgid "Delete $0?"
-msgstr ""
+msgstr "Kas kustutad: $0?"
 
 #: src/ImageDeleteModal.jsx:123
 msgid "Delete image"
@@ -318,7 +318,7 @@ msgstr "Kustuta hetktõmmis"
 
 #: src/PodActions.jsx:48
 msgid "Delete pod $0?"
-msgstr ""
+msgstr "Kas kustutad „$0“ podi?"
 
 #: src/ImageDeleteModal.jsx:123
 msgid "Delete tagged images"
@@ -342,7 +342,7 @@ msgstr ""
 
 #: src/PodActions.jsx:58
 msgid "Deleting this pod will remove the following containers:"
-msgstr ""
+msgstr "Selle podi kustutamisega eemaldatakse ka järgnevad konteinerid:"
 
 #: src/Images.jsx:160 src/Containers.jsx:488 src/ImageRunModal.jsx:827
 msgid "Details"
@@ -369,7 +369,7 @@ msgstr "Laadi alla uus hetktõmmis"
 
 #: src/PodActions.jsx:54
 msgid "Empty pod $0 will be permanently removed."
-msgstr ""
+msgstr "Tühi pod „$0“ kustutatakse jäädavalt."
 
 #: src/ImageRunModal.jsx:922 src/ImageDetails.jsx:23
 msgid "Entrypoint"
@@ -385,7 +385,7 @@ msgstr "Viga"
 
 #: src/Images.jsx:61 src/Notification.jsx:43
 msgid "Error message"
-msgstr ""
+msgstr "Veateade"
 
 #: src/ContainerTerminal.jsx:268
 msgid "Error occurred while connecting console"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:887
 msgid "Example: $0"
-msgstr "Näide:"
+msgstr "Näide: $0"
 
 #: src/ContainerDetails.jsx:17 src/util.tsx:40 src/util.tsx:43
 msgid "Exited"
@@ -429,7 +429,7 @@ msgstr "Hetktõmmise allalaadimine ei õnnestunud - $0:$1"
 
 #: src/Containers.jsx:61
 msgid "Failed to force remove container $0"
-msgstr "Hetktõmmise sundkorras eemaldamine ei õnnestunud: $0"
+msgstr "„$0“ konteineri sundkorras eemaldamine ei õnnestunud"
 
 #: src/ImageDeleteModal.jsx:52
 msgid "Failed to force remove image $0"
@@ -441,11 +441,11 @@ msgstr ""
 
 #: src/PodActions.jsx:194
 msgid "Failed to pause pod $0"
-msgstr ""
+msgstr "„$0“ podi töö peatamine ei õnnestunud"
 
 #: src/PruneUnusedContainersModal.jsx:60
 msgid "Failed to prune unused containers"
-msgstr "Kasutamata hetktõmmiste kustutamine/eemaldamine ei õnnestunud"
+msgstr "Kasutamata konteinerite kustutamine/eemaldamine ei õnnestunud"
 
 #: src/PruneUnusedImagesModal.jsx:73
 msgid "Failed to prune unused images"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: src/ContainerDeleteModal.jsx:25
 msgid "Failed to remove container $0"
-msgstr "Hetktõmmise eemaldamine ei õnnestunud: $0"
+msgstr "„$0“ konteineri eemaldamine ei õnnestunud"
 
 #: src/ImageDeleteModal.jsx:78
 msgid "Failed to remove image $0"
@@ -473,7 +473,7 @@ msgstr ""
 
 #: src/PodActions.jsx:116 src/PodActions.jsx:123
 msgid "Failed to restart pod $0"
-msgstr ""
+msgstr "„$0“ podi uuesti käivitamine ei õnnestunud"
 
 #: src/ContainerRestoreModal.jsx:35
 msgid "Failed to restore container $0"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: src/PodActions.jsx:179
 msgid "Failed to resume pod $0"
-msgstr ""
+msgstr "„$0“ podi töö jätkamine ei õnnestunud"
 
 #: src/ImageRunModal.jsx:320
 msgid "Failed to run container $0"
@@ -513,15 +513,15 @@ msgstr ""
 
 #: src/PodActions.jsx:84 src/PodActions.jsx:90
 msgid "Failed to start pod $0"
-msgstr ""
+msgstr "„$0“ podi käivitamine ei õnnestunud"
 
 #: src/Containers.jsx:86
 msgid "Failed to stop container $0"
-msgstr ""
+msgstr "„$0“ konteineri seiskamine ei õnnestunud"
 
 #: src/PodActions.jsx:99 src/PodActions.jsx:106
 msgid "Failed to stop pod $0"
-msgstr ""
+msgstr "„$0“ podi seiskamine ei õnnestunud"
 
 #: src/ContainerHealthLogs.jsx:87
 msgid "Failing streak"
@@ -537,7 +537,7 @@ msgstr ""
 
 #: src/PodActions.jsx:47
 msgid "Force delete pod $0?"
-msgstr ""
+msgstr "Kas kustutad „$0“ podi sundkorras?"
 
 #: src/PodActions.jsx:159 src/Containers.jsx:204
 msgid "Force restart"
@@ -546,7 +546,7 @@ msgstr ""
 #: src/PodActions.jsx:144 src/Containers.jsx:196 src/ContainerHealthLogs.jsx:45
 #: src/ImageRunModal.jsx:64
 msgid "Force stop"
-msgstr ""
+msgstr "Seiska sundkorras"
 
 #: src/ImageRunModal.jsx:964
 msgid "GB"
@@ -845,7 +845,7 @@ msgstr "Ükski konteiner ei kasutad seda hetktõmmist"
 
 #: src/Containers.jsx:730
 msgid "No containers in this pod"
-msgstr ""
+msgstr "Selles podis pole konteinereid"
 
 #: src/Containers.jsx:734
 msgid "No containers that match the current filter"
@@ -933,15 +933,15 @@ msgstr "Peatatud"
 
 #: src/PodCreateModal.jsx:96
 msgid "Pod failed to be created"
-msgstr ""
+msgstr "Podi loomine ei õnnestunud"
 
 #: src/PodCreateModal.jsx:155
 msgid "Pod name"
-msgstr ""
+msgstr "Podi nimi"
 
 #: org.cockpit_project.podman.metainfo.xml:5
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: src/manifest.json:0
 msgid "Podman containers"
@@ -953,15 +953,15 @@ msgstr "Podmani teenus ei toimi korralikult"
 
 #: src/PodCreateModal.jsx:184 src/ImageRunModal.jsx:1047
 msgid "Port mapping"
-msgstr ""
+msgstr "Portide vastendus"
 
 #: src/ContainerIntegration.jsx:150 src/ImageDetails.jsx:41
 msgid "Ports"
-msgstr ""
+msgstr "Pordid"
 
 #: src/ImageRunModal.jsx:849
 msgid "Ports under 1024 can be mapped"
-msgstr ""
+msgstr "Vastendada saad alla 1024 jäävaid porte"
 
 #: src/Volume.jsx:79
 msgid "Private"
@@ -1034,7 +1034,7 @@ msgstr "Muuda nime"
 
 #: src/ContainerRenameModal.jsx:90
 msgid "Rename container $0"
-msgstr ""
+msgstr "Muuda „$0“ konteineri nime"
 
 #: src/ImageRunModal.jsx:843
 msgid "Resource limits can be set"
@@ -1071,7 +1071,7 @@ msgstr "Taasta"
 
 #: src/ContainerRestoreModal.jsx:48
 msgid "Restore container $0"
-msgstr ""
+msgstr "Taasta konteiner „$0“"
 
 #: src/ContainerRestoreModal.jsx:53
 msgid "Restore with established TCP connections"
@@ -1103,7 +1103,7 @@ msgstr "Töötab"
 
 #: src/Volume.jsx:73
 msgid "SELinux"
-msgstr ""
+msgstr "SELinux"
 
 #: src/ImageSearchModal.jsx:160
 msgid "Search by name or description"
@@ -1188,11 +1188,11 @@ msgstr ""
 #: src/PodActions.jsx:136 src/Containers.jsx:181 src/Containers.jsx:192
 #: src/ContainerHealthLogs.jsx:44 src/ImageRunModal.jsx:63
 msgid "Stop"
-msgstr ""
+msgstr "Seiska"
 
 #: src/util.tsx:40 src/util.tsx:43
 msgid "Stopped"
-msgstr ""
+msgstr "Seisatud"
 
 #: src/ContainerCheckpointModal.jsx:53
 msgid "Support preserving established TCP connections"
@@ -1293,7 +1293,7 @@ msgstr "Kasutaja"
 
 #: src/PodCreateModal.jsx:174 src/ImageRunModal.jsx:872
 msgid "User:"
-msgstr "Kasutaja"
+msgstr "Kasutaja:"
 
 #: src/Env.jsx:79
 msgid "Value"
@@ -1301,7 +1301,7 @@ msgstr "Väärtus"
 
 #: src/ContainerDetails.jsx:53
 msgid "View $0"
-msgstr ""
+msgstr "Vaata: $0"
 
 #: src/Containers.jsx:337
 msgid "View $0 logs"
@@ -1362,7 +1362,7 @@ msgstr ""
 
 #: src/Containers.jsx:1012
 msgid "pod"
-msgstr ""
+msgstr "pod"
 
 #: src/manifest.json:0
 msgid "podman"
