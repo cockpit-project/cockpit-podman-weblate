@@ -397,7 +397,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:887
 msgid "Example: $0"
-msgstr ""
+msgstr "Näide:"
 
 #: src/ContainerDetails.jsx:17 src/util.tsx:40 src/util.tsx:43
 msgid "Exited"
