@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-03 04:27+0000\n"
-"PO-Revision-Date: 2026-02-03 08:58+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-02-04 12:55+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -1289,11 +1289,11 @@ msgstr ""
 
 #: src/app.jsx:702 src/ImageRunModal.jsx:854
 msgid "User"
-msgstr ""
+msgstr "Kasutaja"
 
 #: src/PodCreateModal.jsx:174 src/ImageRunModal.jsx:872
 msgid "User:"
-msgstr ""
+msgstr "Kasutaja"
 
 #: src/Env.jsx:79
 msgid "Value"
