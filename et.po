@@ -281,7 +281,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1030
 msgid "Decrease maximum retries"
-msgstr ""
+msgstr "Vähenda korduskatseid"
 
 #: src/ImageRunModal.jsx:953
 msgid "Decrease memory"
@@ -1067,7 +1067,7 @@ msgstr ""
 
 #: src/ContainerRestoreModal.jsx:68 src/Containers.jsx:253
 msgid "Restore"
-msgstr ""
+msgstr "Taasta"
 
 #: src/ContainerRestoreModal.jsx:48
 msgid "Restore container $0"
@@ -1297,7 +1297,7 @@ msgstr "Kasutaja"
 
 #: src/Env.jsx:79
 msgid "Value"
-msgstr ""
+msgstr "Väärtus"
 
 #: src/ContainerDetails.jsx:53
 msgid "View $0"
