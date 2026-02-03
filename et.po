@@ -429,7 +429,7 @@ msgstr "Hetktõmmise allalaadimine ei õnnestunud - $0:$1"
 
 #: src/Containers.jsx:61
 msgid "Failed to force remove container $0"
-msgstr ""
+msgstr "Hetktõmmise sundkorras eemaldamine ei õnnestunud: $0"
 
 #: src/ImageDeleteModal.jsx:52
 msgid "Failed to force remove image $0"
