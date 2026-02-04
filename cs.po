@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-03 04:27+0000\n"
-"PO-Revision-Date: 2025-11-21 00:06+0000\n"
+"PO-Revision-Date: 2026-02-04 12:55+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/cs/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/Images.jsx:96
 msgid "$0 container"
@@ -1226,10 +1226,8 @@ msgid "Tags"
 msgstr "Štítky"
 
 #: src/Containers.jsx:332
-#, fuzzy
-#| msgid "not available"
 msgid "Terminal not available"
-msgstr "není k dispozici"
+msgstr "Terminál není k dispozici"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
@@ -1265,7 +1263,7 @@ msgstr ""
 
 #: src/Containers.jsx:332
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "Tento prohlíčeč nepodporuje WebGL2."
 
 #: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1110
 msgid "Timeout"
