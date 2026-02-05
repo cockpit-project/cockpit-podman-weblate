@@ -732,7 +732,7 @@ msgstr ""
 
 #: src/Env.jsx:21
 msgid "Key must not be empty"
-msgstr ""
+msgstr "Uus nimi ei tohi jääda tühjaks"
 
 #: src/Env.jsx:23
 msgid "Key must not begin with a digit"
