@@ -1379,7 +1379,7 @@ msgstr ""
 
 #: src/Containers.jsx:437 src/Containers.jsx:1013
 msgid "service"
-msgstr ""
+msgstr "Teenus"
 
 #: src/Images.jsx:144 src/app.jsx:64 src/app.jsx:689
 #: src/PruneUnusedContainersModal.jsx:34 src/Containers.jsx:463
