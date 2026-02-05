@@ -1405,4 +1405,4 @@ msgstr "kasutaja"
 
 #: src/Containers.jsx:638
 msgid "volumes"
-msgstr ""
+msgstr "Köited"
