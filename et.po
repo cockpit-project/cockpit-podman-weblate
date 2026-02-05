@@ -780,7 +780,7 @@ msgstr "_MAC-aadress:"
 
 #: src/ImageRunModal.jsx:963
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/ImageRunModal.jsx:1023
 msgid "Maximum retries"
@@ -817,7 +817,7 @@ msgstr "Nimi"
 
 #: src/ImageRunModal.jsx:678
 msgid "Name already in use"
-msgstr ""
+msgstr "Nimi on juba kasutusel."
 
 #: src/ContainerRenameModal.jsx:72
 msgid "New container name"
