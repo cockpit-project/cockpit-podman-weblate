@@ -776,7 +776,7 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:71
 msgid "MAC address"
-msgstr ""
+msgstr "_MAC-aadress:"
 
 #: src/ImageRunModal.jsx:963
 msgid "MB"
