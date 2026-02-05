@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-04 04:21+0000\n"
 "PO-Revision-Date: 2026-02-06 14:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -1209,11 +1209,11 @@ msgstr "TCP"
 
 #: src/ImageSearchModal.jsx:212 src/ContainerCommitModal.jsx:102
 msgid "Tag"
-msgstr ""
+msgstr "Silt"
 
 #: src/ImageDetails.jsx:29
 msgid "Tags"
-msgstr ""
+msgstr "Sildid"
 
 #: src/Containers.jsx:332
 msgid "Terminal not available"
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: src/ContainerHealthLogs.jsx:79 src/ImageRunModal.jsx:1110
 msgid "Timeout"
-msgstr ""
+msgstr "Aegumine"
 
 #: src/app.jsx:858
 msgid "Troubleshoot"
@@ -1305,12 +1305,12 @@ msgstr "Vaata: $0"
 
 #: src/Containers.jsx:337
 msgid "View $0 logs"
-msgstr ""
+msgstr "Vaata „$0“ logisid"
 
 #: src/PodCreateModal.jsx:196 src/ContainerIntegration.jsx:154
 #: src/ImageRunModal.jsx:1057
 msgid "Volumes"
-msgstr "Köide"
+msgstr "Köited"
 
 #: src/ContainerHealthLogs.jsx:83 src/ImageRunModal.jsx:1177
 msgid "When unhealthy"
@@ -1330,11 +1330,11 @@ msgstr "konteiner"
 
 #: src/ImageRunModal.jsx:304
 msgid "downloading"
-msgstr "Allalaadimisel"
+msgstr "allalaadimisel"
 
 #: src/ImageRunModal.jsx:886
 msgid "host[:port]/[user]/container[:tag]"
-msgstr ""
+msgstr "host[:port]/[kasutaja]/konteiner[:silt]"
 
 #: src/manifest.json:0
 msgid "image"
@@ -1346,7 +1346,7 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:84
 msgid "intermediate"
-msgstr "vahepealne hetktõmmis"
+msgstr "vahepealne"
 
 #: src/ImageDeleteModal.jsx:64
 msgid "intermediate image"
@@ -1370,21 +1370,21 @@ msgstr "podman"
 
 #: src/Containers.jsx:623
 msgid "ports"
-msgstr "Teated"
+msgstr "pordid"
 
 #: src/ImageRunModal.jsx:1107 src/ImageRunModal.jsx:1130
 #: src/ImageRunModal.jsx:1153
 msgid "seconds"
-msgstr ""
+msgstr "sekundit"
 
 #: src/Containers.jsx:437 src/Containers.jsx:1013
 msgid "service"
-msgstr "Teenus"
+msgstr "teenus"
 
 #: src/Images.jsx:144 src/app.jsx:64 src/app.jsx:689
 #: src/PruneUnusedContainersModal.jsx:34 src/Containers.jsx:463
 msgid "system"
-msgstr "Süsteem"
+msgstr "süsteem"
 
 #: src/ContainerDetails.jsx:49
 msgid "systemd service"
@@ -1401,8 +1401,8 @@ msgstr "kasutaja"
 #: src/Images.jsx:144 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:463
 msgid "user:"
-msgstr "kasutaja"
+msgstr "kasutaja:"
 
 #: src/Containers.jsx:638
 msgid "volumes"
-msgstr "Köited"
+msgstr "köited"
