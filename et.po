@@ -550,11 +550,11 @@ msgstr "Seiska sundkorras"
 
 #: src/ImageRunModal.jsx:964
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: src/ContainerDetails.jsx:67
 msgid "Gateway"
-msgstr ""
+msgstr "Võrgulüüs"
 
 #: src/Containers.jsx:532 src/ImageRunModal.jsx:1079
 msgid "Health check"
@@ -614,7 +614,7 @@ msgstr "ID"
 
 #: src/ContainerDetails.jsx:63 src/PublishPort.jsx:56
 msgid "IP address"
-msgstr ""
+msgstr "IP aadress:"
 
 #: src/PublishPort.jsx:59
 msgid "IP address help"
