@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-04 04:21+0000\n"
 "PO-Revision-Date: 2026-02-06 14:58+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -1135,7 +1135,7 @@ msgstr "Otsin: $0"
 
 #: src/Volume.jsx:78
 msgid "Shared"
-msgstr "Jahatud"
+msgstr "Jagatud"
 
 #: src/Containers.jsx:882
 msgid "Show"
@@ -1285,7 +1285,7 @@ msgstr ""
 
 #: src/Images.jsx:193 src/ImageDetails.jsx:35
 msgid "Used by"
-msgstr ""
+msgstr "Seda kasutab"
 
 #: src/app.jsx:702 src/ImageRunModal.jsx:854
 msgid "User"
@@ -1310,7 +1310,7 @@ msgstr ""
 #: src/PodCreateModal.jsx:196 src/ContainerIntegration.jsx:154
 #: src/ImageRunModal.jsx:1057
 msgid "Volumes"
-msgstr ""
+msgstr "Köide"
 
 #: src/ContainerHealthLogs.jsx:83 src/ImageRunModal.jsx:1177
 msgid "When unhealthy"
