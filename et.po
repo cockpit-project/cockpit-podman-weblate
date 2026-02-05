@@ -1346,7 +1346,7 @@ msgstr ""
 
 #: src/ImageDeleteModal.jsx:84
 msgid "intermediate"
-msgstr ""
+msgstr "vahepealne hetktõmmis"
 
 #: src/ImageDeleteModal.jsx:64
 msgid "intermediate image"
