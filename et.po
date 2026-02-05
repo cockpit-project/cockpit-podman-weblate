@@ -898,7 +898,7 @@ msgstr ""
 
 #: src/ContainerCommitModal.jsx:122
 msgid "Options"
-msgstr ""
+msgstr "_Valikud"
 
 #: src/ImageSearchModal.jsx:146 src/PodCreateModal.jsx:170 src/Images.jsx:189
 #: src/ContainerHeader.jsx:17 src/PruneUnusedContainersModal.jsx:74
