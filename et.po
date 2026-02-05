@@ -686,7 +686,7 @@ msgstr "Vähenda mälu"
 
 #: src/ImageRunModal.jsx:1171
 msgid "Increase retries"
-msgstr ""
+msgstr "Vähenda korduskatseid"
 
 #: src/ImageRunModal.jsx:1149
 msgid "Increase start period"
