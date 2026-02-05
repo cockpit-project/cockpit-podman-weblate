@@ -1384,7 +1384,7 @@ msgstr "Teenus"
 #: src/Images.jsx:144 src/app.jsx:64 src/app.jsx:689
 #: src/PruneUnusedContainersModal.jsx:34 src/Containers.jsx:463
 msgid "system"
-msgstr ""
+msgstr "Süsteem"
 
 #: src/ContainerDetails.jsx:49
 msgid "systemd service"
