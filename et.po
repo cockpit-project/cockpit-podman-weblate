@@ -682,7 +682,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:954
 msgid "Increase memory"
-msgstr ""
+msgstr "Vähenda mälu"
 
 #: src/ImageRunModal.jsx:1171
 msgid "Increase retries"
@@ -716,7 +716,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:962
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: src/ContainerRestoreModal.jsx:51 src/ContainerCheckpointModal.jsx:48
 msgid "Keep all temporary checkpoint files"
