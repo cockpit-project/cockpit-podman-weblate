@@ -764,7 +764,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:775
 msgid "Local"
-msgstr ""
+msgstr "Lokaadid"
 
 #: src/ImageRunModal.jsx:578
 msgid "Local images"
