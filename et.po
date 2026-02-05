@@ -1396,12 +1396,12 @@ msgstr ""
 
 #: src/app.jsx:64
 msgid "user"
-msgstr ""
+msgstr "kasutaja"
 
 #: src/Images.jsx:144 src/PruneUnusedContainersModal.jsx:34
 #: src/Containers.jsx:463
 msgid "user:"
-msgstr ""
+msgstr "kasutaja"
 
 #: src/Containers.jsx:638
 msgid "volumes"
