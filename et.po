@@ -833,7 +833,7 @@ msgstr "Ei"
 
 #: src/ContainerHealthLogs.jsx:42 src/ImageRunModal.jsx:61
 msgid "No action"
-msgstr ""
+msgstr "Ära tee midagi"
 
 #: src/Containers.jsx:729
 msgid "No containers"
@@ -849,7 +849,7 @@ msgstr "Selles podis pole konteinereid"
 
 #: src/Containers.jsx:734
 msgid "No containers that match the current filter"
-msgstr ""
+msgstr "Praeguse filtri alusel ei leidu hetktõmmiseid"
 
 #: src/ImageRunModal.jsx:1067
 msgid "No environment variables specified"
