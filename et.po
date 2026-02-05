@@ -1322,15 +1322,15 @@ msgstr ""
 
 #: src/Volume.jsx:68
 msgid "Writable"
-msgstr ""
+msgstr "Kirjutatav"
 
 #: src/manifest.json:0
 msgid "container"
-msgstr ""
+msgstr "konteiner"
 
 #: src/ImageRunModal.jsx:304
 msgid "downloading"
-msgstr ""
+msgstr "Allalaadimisel"
 
 #: src/ImageRunModal.jsx:886
 msgid "host[:port]/[user]/container[:tag]"
