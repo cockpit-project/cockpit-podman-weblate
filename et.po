@@ -1354,11 +1354,11 @@ msgstr "vahepealne hetktõmmis"
 
 #: src/Containers.jsx:400 src/Containers.jsx:401
 msgid "n/a"
-msgstr ""
+msgstr "puudub"
 
 #: src/Containers.jsx:400 src/Containers.jsx:401
 msgid "not available"
-msgstr ""
+msgstr "pole saadaval"
 
 #: src/Containers.jsx:1012
 msgid "pod"
@@ -1370,7 +1370,7 @@ msgstr "podman"
 
 #: src/Containers.jsx:623
 msgid "ports"
-msgstr ""
+msgstr "Teated"
 
 #: src/ImageRunModal.jsx:1107 src/ImageRunModal.jsx:1130
 #: src/ImageRunModal.jsx:1153
