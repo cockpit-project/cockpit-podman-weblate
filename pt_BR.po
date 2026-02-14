@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-09 04:50+0000\n"
-"PO-Revision-Date: 2025-11-20 01:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-02-15 20:58+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -1229,10 +1228,8 @@ msgid "Tags"
 msgstr "Etiquetas"
 
 #: src/Containers.jsx:333
-#, fuzzy
-#| msgid "not available"
 msgid "Terminal not available"
-msgstr "indisponível"
+msgstr "Terminal não disponível"
 
 #: org.cockpit_project.podman.metainfo.xml:10
 msgid ""
@@ -1269,7 +1266,7 @@ msgstr ""
 
 #: src/Containers.jsx:333
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "Este navegador não suporta WebGL2."
 
 #: src/ContainerHealthLogs.jsx:66 src/ImageRunModal.jsx:1111
 msgid "Timeout"
