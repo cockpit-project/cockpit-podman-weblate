@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-15 04:35+0000\n"
-"PO-Revision-Date: 2025-07-31 06:53+0000\n"
-"Last-Translator: ButterflyOfFire "
-"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-02-16 22:58+0000\n"
+"Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/kab/>\n"
 "Language: kab\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -1180,7 +1179,7 @@ msgstr ""
 
 #: src/ContainerHealthLogs.jsx:46
 msgid "Status"
-msgstr ""
+msgstr "Addad"
 
 #: src/ImageRunModal.jsx:64 src/ContainerHealthLogs.jsx:31
 #: src/Containers.jsx:182 src/Containers.jsx:193 src/PodActions.jsx:137
