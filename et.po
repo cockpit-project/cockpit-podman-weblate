@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-16 04:49+0000\n"
-"PO-Revision-Date: 2026-02-06 14:58+0000\n"
+"PO-Revision-Date: 2026-02-18 10:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -62,7 +62,7 @@ msgstr "1 kuni 65535"
 
 #: src/ImageRunModal.jsx:1182
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
+msgstr "Toiming, mida peaks tegema, kui konteineri olek muutub mittetoimivaks."
 
 #: src/Containers.jsx:722
 msgid "Actions"
@@ -337,7 +337,7 @@ msgstr ""
 
 #: src/Containers.jsx:72
 msgid "Deleting a running container will erase all data in it."
-msgstr ""
+msgstr "Töötava konteineri kustutamisega hävivad kõik seal leiduvad andmed."
 
 #: src/PodActions.jsx:59
 msgid "Deleting this pod will remove the following containers:"
@@ -349,7 +349,7 @@ msgstr "Üksikasjad"
 
 #: src/Images.jsx:193
 msgid "Disk space"
-msgstr ""
+msgstr "Kettaruum"
 
 #: src/ContainerCommitModal.jsx:131
 msgid ""
@@ -376,7 +376,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1070 src/ContainerIntegration.jsx:159
 msgid "Environment variables"
-msgstr ""
+msgstr "Keskkonnamuutujad"
 
 #: src/util.tsx:44
 msgid "Error"
@@ -388,11 +388,11 @@ msgstr "Veateade"
 
 #: src/ContainerTerminal.jsx:255
 msgid "Error occurred while connecting console"
-msgstr ""
+msgstr "Konsooliga ühendamisel tekkis viga"
 
 #: src/ContainerCommitModal.jsx:112
 msgid "Example, Your Name <yourname@example.com>"
-msgstr ""
+msgstr "Näide: Sinu Nimi <sinunimi@toredomeen.com>"
 
 #: src/ImageRunModal.jsx:888
 msgid "Example: $0"
@@ -420,7 +420,7 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:328
 msgid "Failed to create container $0"
-msgstr ""
+msgstr "„$0“ konteineri loomine ei õnnestunud"
 
 #: src/Images.jsx:60
 msgid "Failed to download image $0:$1"
@@ -436,7 +436,7 @@ msgstr "Hetktõmmise sundkorras eemaldamine ei õnnestunud: $0"
 
 #: src/Containers.jsx:119
 msgid "Failed to pause container $0"
-msgstr ""
+msgstr "„$0“ konteineri peatamine ei õnnestunud"
 
 #: src/PodActions.jsx:195
 msgid "Failed to pause pod $0"
@@ -464,11 +464,11 @@ msgstr "Hetktõmmise eemaldamine ei õnnestunud: $0"
 
 #: src/ContainerRenameModal.jsx:59
 msgid "Failed to rename container $0"
-msgstr ""
+msgstr "„$0“ konteineri nime muutmine ei õnnestunud"
 
 #: src/Containers.jsx:137
 msgid "Failed to restart container $0"
-msgstr ""
+msgstr "„$0“ konteineri uuesti käivitamine ei õnnestunud"
 
 #: src/PodActions.jsx:117 src/PodActions.jsx:124
 msgid "Failed to restart pod $0"
@@ -476,11 +476,11 @@ msgstr "„$0“ podi uuesti käivitamine ei õnnestunud"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
-msgstr ""
+msgstr "„$0“ konteineri taastamine ei õnnestunud"
 
 #: src/Containers.jsx:111
 msgid "Failed to resume container $0"
-msgstr ""
+msgstr "„$0“ konteineri töö jätkamine ei õnnestunud"
 
 #: src/PodActions.jsx:180
 msgid "Failed to resume pod $0"
@@ -488,11 +488,11 @@ msgstr "„$0“ podi töö jätkamine ei õnnestunud"
 
 #: src/ImageRunModal.jsx:321
 msgid "Failed to run container $0"
-msgstr ""
+msgstr "„$0“ konteineri töölepanek ei õnnestunud"
 
 #: src/ContainerHealthLogs.jsx:84
 msgid "Failed to run health check on container $0"
-msgstr ""
+msgstr "„$0“ konteineri korrasolekukontrolli käivitamine ei õnnestunud"
 
 #: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
 msgid "Failed to search for images."
@@ -508,7 +508,7 @@ msgstr "Uute hetktõmmisete otsimine ei õnnestunud"
 
 #: src/Containers.jsx:102
 msgid "Failed to start container $0"
-msgstr ""
+msgstr "„$0“ konteineri käivitamine ei õnnestunud"
 
 #: src/PodActions.jsx:85 src/PodActions.jsx:91
 msgid "Failed to start pod $0"
@@ -532,7 +532,7 @@ msgstr ""
 
 #: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
 msgid "Force delete"
-msgstr ""
+msgstr "Kustuta sundkorras"
 
 #: src/PodActions.jsx:48
 msgid "Force delete pod $0?"
@@ -540,7 +540,7 @@ msgstr "Kas kustutad „$0“ podi sundkorras?"
 
 #: src/Containers.jsx:205 src/PodActions.jsx:160
 msgid "Force restart"
-msgstr ""
+msgstr "Taaskäivita sundkorras"
 
 #: src/ImageRunModal.jsx:65 src/ContainerHealthLogs.jsx:32
 #: src/Containers.jsx:197 src/PodActions.jsx:145
@@ -557,23 +557,23 @@ msgstr "Võrgulüüs"
 
 #: src/ImageRunModal.jsx:1080 src/Containers.jsx:533
 msgid "Health check"
-msgstr ""
+msgstr "Korrasolekukontroll"
 
 #: src/ImageRunModal.jsx:1090
 msgid "Health check interval help"
-msgstr ""
+msgstr "Korrasolekukontrolli välba abiteave"
 
 #: src/ImageRunModal.jsx:1159
 msgid "Health check retries help"
-msgstr ""
+msgstr "Korrasolekukontrolli kordamise abiteave"
 
 #: src/ImageRunModal.jsx:1136
 msgid "Health check start period help"
-msgstr ""
+msgstr "Korrasolekukontrolli vahemiku alguse abiteave"
 
 #: src/ImageRunModal.jsx:1113
 msgid "Health check timeout help"
-msgstr ""
+msgstr "Korrasolekukontrolli aegumise abiteave"
 
 #: src/ImageRunModal.jsx:1180
 msgid "Health failure check action help"
@@ -581,7 +581,7 @@ msgstr ""
 
 #: src/Containers.jsx:300
 msgid "Healthy"
-msgstr ""
+msgstr "Korras"
 
 #: src/Images.jsx:330
 msgid "Hide images"
@@ -593,7 +593,7 @@ msgstr "Peida vahepealsed hetktõmmised"
 
 #: src/Images.jsx:170
 msgid "History"
-msgstr ""
+msgstr "Ajalugu"
 
 #: src/Volume.jsx:39
 msgid "Host path"
@@ -617,11 +617,11 @@ msgstr "IP aadress"
 
 #: src/PublishPort.jsx:60
 msgid "IP address help"
-msgstr ""
+msgstr "IP-aadressi abiteave"
 
 #: src/ImageRunModal.jsx:858
 msgid "Ideal for development"
-msgstr ""
+msgstr "Ideaalne arenduse jaoks"
 
 #: src/ImageRunModal.jsx:841
 msgid "Ideal for running services"
@@ -673,11 +673,11 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1104
 msgid "Increase interval"
-msgstr ""
+msgstr "Suurenda välpa"
 
 #: src/ImageRunModal.jsx:1032
 msgid "Increase maximum retries"
-msgstr ""
+msgstr "Suurenda maksimaalset korduskatsete arvu"
 
 #: src/ImageRunModal.jsx:955
 msgid "Increase memory"
@@ -689,19 +689,19 @@ msgstr "Lisa korduskatseid"
 
 #: src/ImageRunModal.jsx:1150
 msgid "Increase start period"
-msgstr ""
+msgstr "Suurenda algusaega"
 
 #: src/ImageRunModal.jsx:1127
 msgid "Increase timeout"
-msgstr ""
+msgstr "Suurenda aegumist"
 
 #: src/ImageRunModal.jsx:1043 src/Containers.jsx:496
 msgid "Integration"
-msgstr ""
+msgstr "Lõiming"
 
 #: src/ImageRunModal.jsx:1088 src/ContainerHealthLogs.jsx:54
 msgid "Interval"
-msgstr ""
+msgstr "Välp"
 
 #: src/ImageRunModal.jsx:1092
 msgid "Interval how often health check is run."
