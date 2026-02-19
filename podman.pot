@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 04:33+0000\n"
+"POT-Creation-Date: 2026-02-19 04:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 04:33+0000\n"
+"POT-Creation-Date: 2026-02-19 04:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -966,7 +966,7 @@ msgstr ""
 msgid "Podman containers"
 msgstr ""
 
-#: src/app.jsx:841
+#: src/app.jsx:845
 msgid "Podman service failed"
 msgstr ""
 
@@ -1270,7 +1270,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: src/app.jsx:845
+#: src/app.jsx:849
 msgid "Troubleshoot"
 msgstr ""
 
@@ -1302,7 +1302,7 @@ msgstr ""
 msgid "Used by"
 msgstr ""
 
-#: src/ImageRunModal.jsx:855 src/app.jsx:689
+#: src/ImageRunModal.jsx:855 src/app.jsx:693
 msgid "User"
 msgstr ""
 
@@ -1396,7 +1396,7 @@ msgstr ""
 msgid "service"
 msgstr ""
 
-#: src/Images.jsx:145 src/app.jsx:51 src/app.jsx:676 src/Containers.jsx:464
+#: src/Images.jsx:145 src/app.jsx:51 src/app.jsx:680 src/Containers.jsx:464
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "system"
 msgstr ""
