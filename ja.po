@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-18 04:33+0000\n"
-"PO-Revision-Date: 2026-02-03 08:58+0000\n"
+"PO-Revision-Date: 2026-02-23 03:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -1253,7 +1253,7 @@ msgstr "ヘルスチェックが異常であると見なされるまでに許可
 
 #: src/Containers.jsx:333
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "このブラウザはWebGL2に対応していません。"
 
 #: src/ImageRunModal.jsx:1111 src/ContainerHealthLogs.jsx:66
 msgid "Timeout"
