@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-23 04:37+0000\n"
+"POT-Creation-Date: 2026-02-24 04:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-23 04:37+0000\n"
+"POT-Creation-Date: 2026-02-24 04:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: src/ContainerDetails.jsx:44 src/ContainerCommitModal.jsx:117
 #: src/ContainerHealthLogs.jsx:50 src/ImageRunModal.jsx:928
-#: src/ImageRunModal.jsx:1082 src/ImageDetails.jsx:18
+#: src/ImageRunModal.jsx:1082 src/ImageDetails.jsx:47
 msgid "Command"
 msgstr ""
 
@@ -366,6 +366,10 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr ""
 
+#: src/ImageDetails.jsx:25
+msgid "Description"
+msgstr ""
+
 #: src/Images.jsx:161 src/Containers.jsx:489 src/ImageRunModal.jsx:828
 msgid "Details"
 msgstr ""
@@ -377,6 +381,10 @@ msgstr ""
 #: src/ContainerCommitModal.jsx:131
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
+msgstr ""
+
+#: src/ImageDetails.jsx:40
+msgid "Documentation"
 msgstr ""
 
 #: src/ImageSearchModal.jsx:223
@@ -391,7 +399,7 @@ msgstr ""
 msgid "Empty pod $0 will be permanently removed."
 msgstr ""
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:24
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
 msgid "Entrypoint"
 msgstr ""
 
@@ -770,6 +778,10 @@ msgstr ""
 msgid "Leave running after writing checkpoint to disk"
 msgstr ""
 
+#: src/ImageDetails.jsx:37
+msgid "Links"
+msgstr ""
+
 #: src/ContainerIntegration.jsx:135 src/ImageHistory.jsx:60
 msgid "Loading details..."
 msgstr ""
@@ -975,7 +987,7 @@ msgstr ""
 msgid "Port mapping"
 msgstr ""
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:42
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
 msgid "Ports"
 msgstr ""
 
@@ -1231,7 +1243,7 @@ msgstr ""
 msgid "Tag"
 msgstr ""
 
-#: src/ImageDetails.jsx:30
+#: src/ImageDetails.jsx:59
 msgid "Tags"
 msgstr ""
 
@@ -1299,7 +1311,7 @@ msgstr ""
 msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/Images.jsx:194 src/ImageDetails.jsx:36
+#: src/Images.jsx:194 src/ImageDetails.jsx:65
 msgid "Used by"
 msgstr ""
 
@@ -1313,6 +1325,10 @@ msgstr ""
 
 #: src/Env.jsx:80
 msgid "Value"
+msgstr ""
+
+#: src/ImageDetails.jsx:31
+msgid "Version"
 msgstr ""
 
 #: src/ContainerDetails.jsx:54
