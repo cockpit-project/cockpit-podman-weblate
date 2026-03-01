@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-22 04:30+0000\n"
-"PO-Revision-Date: 2026-02-23 03:58+0000\n"
+"PO-Revision-Date: 2026-03-02 14:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/en_GB/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -361,7 +361,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: src/Images.jsx:367
 msgid "Download new image"
