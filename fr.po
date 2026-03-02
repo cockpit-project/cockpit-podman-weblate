@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-02 04:28+0000\n"
-"PO-Revision-Date: 2026-02-03 08:58+0000\n"
+"PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -343,7 +343,7 @@ msgstr "La suppression de ce pod entraînera celle des conteneurs suivants :"
 
 #: src/ImageDetails.jsx:25
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:489
 msgid "Details"
@@ -361,7 +361,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
@@ -762,7 +762,7 @@ msgstr "Conserver actif après la création du point de contrôle sur le disque"
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr ""
+msgstr "Liens"
 
 #: src/ContainerIntegration.jsx:135 src/ImageHistory.jsx:60
 msgid "Loading details..."
@@ -1328,7 +1328,7 @@ msgstr "Valeur"
 
 #: src/ImageDetails.jsx:31
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/ContainerDetails.jsx:54
 msgid "View $0"
