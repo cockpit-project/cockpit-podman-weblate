@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-02 04:28+0000\n"
-"PO-Revision-Date: 2026-02-02 05:58+0000\n"
+"PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -348,7 +348,7 @@ msgstr "Вилучення цього кокону призведе до вил�
 
 #: src/ImageDetails.jsx:25
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:489
 msgid "Details"
@@ -367,7 +367,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
-msgstr ""
+msgstr "Документація"
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
@@ -768,7 +768,7 @@ msgstr "Лишати запущеним після запису контроль
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr ""
+msgstr "Посилання"
 
 #: src/ContainerIntegration.jsx:135 src/ImageHistory.jsx:60
 msgid "Loading details..."
@@ -1334,7 +1334,7 @@ msgstr "Значення"
 
 #: src/ImageDetails.jsx:31
 msgid "Version"
-msgstr ""
+msgstr "Версія"
 
 #: src/ContainerDetails.jsx:54
 msgid "View $0"
