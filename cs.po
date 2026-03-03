@@ -6,7 +6,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-02 04:28+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/cs/>\n"
 "Language: cs\n"
@@ -1326,7 +1327,7 @@ msgstr "Hodnota"
 
 #: src/ImageDetails.jsx:31
 msgid "Version"
-msgstr ""
+msgstr "Verze"
 
 #: src/ContainerDetails.jsx:54
 msgid "View $0"
