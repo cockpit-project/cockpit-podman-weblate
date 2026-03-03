@@ -6,8 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-02 04:28+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/cs/>\n"
 "Language: cs\n"
@@ -761,7 +760,7 @@ msgstr "Po zapsání kontrolního bodu na disk ponechat spuštěné"
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr "Linky"
+msgstr "Odkazy"
 
 #: src/ContainerIntegration.jsx:135 src/ImageHistory.jsx:60
 msgid "Loading details..."
