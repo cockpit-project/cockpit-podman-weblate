@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-05 04:24+0000\n"
-"PO-Revision-Date: 2026-03-05 09:58+0000\n"
+"PO-Revision-Date: 2026-03-06 10:58+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/fr/>\n"
@@ -480,10 +480,8 @@ msgid "Failed to restart pod $0"
 msgstr "Échec du redémarrage du pod $0"
 
 #: src/Containers.jsx:154
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to restart quadlet $0"
-msgstr "Échec du redémarrage du pod $0"
+msgstr "Échec du redémarrage du quadlet $0"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -526,10 +524,8 @@ msgid "Failed to start pod $0"
 msgstr "Échec du démarrage du pod $0"
 
 #: src/Containers.jsx:105
-#, fuzzy
-#| msgid "Failed to start pod $0"
 msgid "Failed to start quadlet $0"
-msgstr "Échec du démarrage du pod $0"
+msgstr "Échec du démarrage du quadlet $0"
 
 #: src/Containers.jsx:87
 msgid "Failed to stop container $0"
@@ -540,10 +536,8 @@ msgid "Failed to stop pod $0"
 msgstr "Échec de l’arrêt du pod $0"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to stop pod $0"
 msgid "Failed to stop quadlet $0"
-msgstr "Échec de l’arrêt du pod $0"
+msgstr "Échec de l’arrêt du quadlet $0"
 
 #: src/ContainerHealthLogs.jsx:74
 msgid "Failing streak"
