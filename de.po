@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-06 04:22+0000\n"
-"PO-Revision-Date: 2026-02-09 11:58+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2026-03-08 15:58+0000\n"
+"Last-Translator: \"Christian R.\" <chris-r@cronodevelopment.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/de/>\n"
 "Language: de\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -343,7 +343,7 @@ msgstr "Löschen des Pods wird die folgenden Container entfernen:"
 
 #: src/ImageDetails.jsx:25
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:502
 msgid "Details"
@@ -362,7 +362,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
@@ -484,7 +484,7 @@ msgstr "Konnte Pod $0 nicht neu starten"
 #, fuzzy
 #| msgid "Failed to restart pod $0"
 msgid "Failed to restart quadlet $0"
-msgstr "Konnte Pod $0 nicht neu starten"
+msgstr "Konnte Quadlet $0 nicht neu starten"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -1348,7 +1348,7 @@ msgstr "Wert"
 
 #: src/ImageDetails.jsx:31
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/ContainerDetails.jsx:54
 msgid "View $0"
