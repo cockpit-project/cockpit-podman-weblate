@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-08 04:25+0000\n"
-"PO-Revision-Date: 2026-03-03 15:58+0000\n"
+"PO-Revision-Date: 2026-03-10 07:58+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/pt_BR/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -480,10 +480,8 @@ msgid "Failed to restart pod $0"
 msgstr "Falha ao reiniciar o pod $0"
 
 #: src/Containers.jsx:154
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to restart quadlet $0"
-msgstr "Falha ao reiniciar o pod $0"
+msgstr "Falha ao reiniciar o quadlet $0"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -526,10 +524,8 @@ msgid "Failed to start pod $0"
 msgstr "Falha ao iniciar o pod $0"
 
 #: src/Containers.jsx:105
-#, fuzzy
-#| msgid "Failed to start pod $0"
 msgid "Failed to start quadlet $0"
-msgstr "Falha ao iniciar o pod $0"
+msgstr "Falha ao iniciar o quadlet $0"
 
 #: src/Containers.jsx:87
 msgid "Failed to stop container $0"
@@ -540,10 +536,8 @@ msgid "Failed to stop pod $0"
 msgstr "Falha ao parar o pod $0"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to stop pod $0"
 msgid "Failed to stop quadlet $0"
-msgstr "Falha ao parar o pod $0"
+msgstr "Falha ao parar o quadlet $0"
 
 #: src/ContainerHealthLogs.jsx:74
 msgid "Failing streak"
@@ -924,7 +918,7 @@ msgstr "Nenhum volume especificado"
 
 #: src/ImageRunModal.jsx:1017
 msgid "On failure"
-msgstr "Em falha"
+msgstr "Em caso de falha"
 
 #: src/Containers.jsx:901
 msgid "Only running"
@@ -969,7 +963,7 @@ msgstr "Pausado"
 
 #: src/PodCreateModal.jsx:97
 msgid "Pod failed to be created"
-msgstr "Criação do pod falhou"
+msgstr "A criação do pod falhou"
 
 #: src/PodCreateModal.jsx:156
 msgid "Pod name"
@@ -1124,7 +1118,7 @@ msgstr "Restrito pelas permissões da conta do usuário"
 
 #: src/Containers.jsx:233 src/PodActions.jsx:184
 msgid "Resume"
-msgstr "Retomar"
+msgstr "Continuar"
 
 #: src/ImageRunModal.jsx:1157 src/ContainerHealthLogs.jsx:58
 msgid "Retries"
@@ -1408,7 +1402,7 @@ msgstr "n/d"
 
 #: src/Containers.jsx:414 src/Containers.jsx:415
 msgid "not available"
-msgstr "indisponível"
+msgstr "não disponível"
 
 #: src/Containers.jsx:1026
 msgid "pod"
