@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-15 04:56+0000\n"
 "PO-Revision-Date: 2026-03-16 21:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/ko/>\n"
 "Language: ko\n"
@@ -474,10 +473,8 @@ msgid "Failed to restart pod $0"
 msgstr "pod $0 재시작에 실패"
 
 #: src/Containers.jsx:154
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to restart quadlet $0"
-msgstr "pod $0 재시작에 실패"
+msgstr "quadlet $0 재시작에 실패"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -520,10 +517,8 @@ msgid "Failed to start pod $0"
 msgstr "pod $0 를 시작하는 데 실패"
 
 #: src/Containers.jsx:105
-#, fuzzy
-#| msgid "Failed to start pod $0"
 msgid "Failed to start quadlet $0"
-msgstr "pod $0 를 시작하는 데 실패"
+msgstr "quadlet $0 를 시작하는 데 실패함"
 
 #: src/Containers.jsx:87
 msgid "Failed to stop container $0"
@@ -534,10 +529,8 @@ msgid "Failed to stop pod $0"
 msgstr "pod $0 멈춤에 실패"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to stop pod $0"
 msgid "Failed to stop quadlet $0"
-msgstr "pod $0 멈춤에 실패"
+msgstr "quadlet $0 멈추는 데 실패함"
 
 #: src/ContainerHealthLogs.jsx:74
 msgid "Failing streak"
