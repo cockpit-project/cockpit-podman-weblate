@@ -7,7 +7,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-24 04:32+0000\n"
 "PO-Revision-Date: 2026-03-31 20:58+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/de/>\n"
 "Language: de\n"
@@ -778,7 +779,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr ""
+msgstr "Links"
 
 #: src/ContainerIntegration.jsx:135 src/ImageHistory.jsx:60
 msgid "Loading details..."
