@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-31 04:59+0000\n"
-"PO-Revision-Date: 2026-03-19 04:58+0000\n"
-"Last-Translator: Luke Na <narukeu@outlook.com>\n"
+"PO-Revision-Date: 2026-04-02 23:59+0000\n"
+"Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -760,7 +760,7 @@ msgstr "在将检查点写入磁盘后保持运行"
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr ""
+msgstr "链接"
 
 #: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
 msgid "Loading details..."
