@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-09 04:58+0000\n"
-"PO-Revision-Date: 2026-02-23 03:58+0000\n"
-"Last-Translator: Houtarou <conan05@duck.com>\n"
+"PO-Revision-Date: 2026-04-10 17:00+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/es/>\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -342,7 +343,7 @@ msgstr "Eliminando este pod eliminará los siguientes contenedores:"
 
 #: src/ImageDetails.jsx:25
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: src/Images.jsx:161 src/Containers.jsx:502 src/ImageRunModal.jsx:828
 msgid "Details"
@@ -360,7 +361,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
@@ -780,7 +781,7 @@ msgstr "Seguir ejecutando tras escribir el punto comprobante en disco"
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr ""
+msgstr "Enlaces"
 
 #: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
 msgid "Loading details..."
@@ -1345,7 +1346,7 @@ msgstr "Valor"
 
 #: src/ImageDetails.jsx:31
 msgid "Version"
-msgstr ""
+msgstr "Versión"
 
 #: src/ContainerDetails.jsx:54
 msgid "View $0"
