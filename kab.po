@@ -15,8 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-02 04:53+0000\n"
-"PO-Revision-Date: 2026-02-16 22:58+0000\n"
-"Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
+"PO-Revision-Date: 2026-04-09 13:58+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/kab/>\n"
 "Language: kab\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -985,11 +986,11 @@ msgstr ""
 
 #: src/Volume.jsx:80
 msgid "Private"
-msgstr ""
+msgstr "D uslig"
 
 #: src/PublishPort.jsx:120
 msgid "Protocol"
-msgstr ""
+msgstr "Aneggaf"
 
 #: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
 msgid "Prune"
@@ -1135,7 +1136,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:158
 msgid "Search for"
-msgstr ""
+msgstr "Nadi ɣef"
 
 #: src/ImageSearchModal.jsx:142
 msgid "Search for an image"
@@ -1151,7 +1152,7 @@ msgstr "Yettnadi..."
 
 #: src/ImageRunModal.jsx:889
 msgid "Searching: $0"
-msgstr ""
+msgstr "Yettnadi: $0"
 
 #: src/Volume.jsx:79
 msgid "Shared"
