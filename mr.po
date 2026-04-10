@@ -15,44 +15,45 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 05:13+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-10 19:40+0000\n"
+"Last-Translator: Udayraj Bal <udayrajb@gmail.com>\n"
+"Language-Team: Marathi <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/mr/>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
 msgid_plural "$0 containers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 कंटेनर"
+msgstr[1] "$0 कंटेनर"
 
 #: src/Images.jsx:298
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "एकूण $0 इमेज, $1"
+msgstr[1] "एकूण $0 इमेजेस, $1"
 
 #: src/ContainerHealthLogs.jsx:25
 msgid "$0 second"
 msgid_plural "$0 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 सेकंद"
+msgstr[1] "$0 सेकंद"
 
 #: src/Images.jsx:302
 msgid "$0 unused image, $1"
 msgid_plural "$0 unused images, $1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 न वापरलेली ईमेज, $1"
+msgstr[1] "$0 न वापरलेल्या ईमेजेस, $1"
 
 #
 #: src/Containers.jsx:435
 msgid "$0% of $1 limit"
-msgstr ""
+msgstr "$1 पैकी $0%"
 
 #: src/PublishPort.jsx:32 src/PublishPort.jsx:43
 msgid "1 to 65535"
