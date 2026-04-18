@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-16 05:17+0000\n"
 "PO-Revision-Date: 2026-04-19 15:58+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -344,7 +344,7 @@ msgstr "Selle podi kustutamisega eemaldatakse ka järgnevad konteinerid:"
 
 #: src/ImageDetails.jsx:25
 msgid "Description"
-msgstr ""
+msgstr "Kirjeldus"
 
 #: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:502
 msgid "Details"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentatsioon"
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
