@@ -291,7 +291,7 @@ msgstr "Vähenda korduskatseid"
 
 #: src/ImageRunModal.jsx:1149
 msgid "Decrease start period"
-msgstr ""
+msgstr "Suurenda algusaega"
 
 #: src/ImageRunModal.jsx:1126
 msgid "Decrease timeout"
