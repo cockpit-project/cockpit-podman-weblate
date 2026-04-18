@@ -295,7 +295,7 @@ msgstr "Suurenda algusaega"
 
 #: src/ImageRunModal.jsx:1126
 msgid "Decrease timeout"
-msgstr ""
+msgstr "Suurenda aegumist"
 
 #: src/Images.jsx:459 src/Containers.jsx:291 src/PodActions.jsx:68
 #: src/PodActions.jsx:215 src/ContainerDeleteModal.jsx:43
