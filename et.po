@@ -332,7 +332,7 @@ msgstr "Kustuta kasutamata süsteemsed hetktõmmised:"
 
 #: src/ContainerDeleteModal.jsx:40
 msgid "Deleting a container will erase all data in it."
-msgstr ""
+msgstr "Töötava konteineri kustutamisega hävivad kõik seal leiduvad andmed."
 
 #: src/Containers.jsx:72
 msgid "Deleting a running container will erase all data in it."
