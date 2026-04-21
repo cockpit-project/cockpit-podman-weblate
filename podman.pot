@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 05:28+0000\n"
+"POT-Creation-Date: 2026-04-21 05:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 05:28+0000\n"
+"POT-Creation-Date: 2026-04-21 05:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgstr ""
 msgid "Container failed to be started"
 msgstr ""
 
-#: src/ContainerTerminal.jsx:251
+#: src/ContainerTerminal.jsx:250
 msgid "Container is not running"
 msgstr ""
 
@@ -413,7 +413,7 @@ msgstr ""
 msgid "Error message"
 msgstr ""
 
-#: src/ContainerTerminal.jsx:255
+#: src/ContainerTerminal.jsx:254
 msgid "Error occurred while connecting console"
 msgstr ""
 
@@ -796,7 +796,7 @@ msgstr ""
 msgid "Loading details..."
 msgstr ""
 
-#: src/ContainerLogs.jsx:47
+#: src/ContainerLogs.jsx:46
 msgid "Loading logs..."
 msgstr ""
 
