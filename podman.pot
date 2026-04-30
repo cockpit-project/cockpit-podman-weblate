@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 05:40+0000\n"
+"POT-Creation-Date: 2026-04-30 05:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 05:40+0000\n"
+"POT-Creation-Date: 2026-04-30 05:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Add volume"
 msgstr ""
 
-#: src/ImageRunModal.jsx:769 src/ContainerHeader.jsx:25 src/Containers.jsx:900
+#: src/ImageRunModal.jsx:769 src/ContainerHeader.tsx:39 src/Containers.jsx:900
 #: src/ImageDeleteModal.jsx:105
 msgid "All"
 msgstr ""
@@ -409,7 +409,7 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: src/Images.jsx:62 src/Notification.jsx:30
+#: src/Notification.tsx:38 src/Images.jsx:62
 msgid "Error message"
 msgstr ""
 
@@ -943,7 +943,7 @@ msgid "Options"
 msgstr ""
 
 #: src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
-#: src/PruneUnusedContainersModal.jsx:75 src/ContainerHeader.jsx:18
+#: src/PruneUnusedContainersModal.jsx:75 src/ContainerHeader.tsx:32
 #: src/Images.jsx:190 src/Containers.jsx:731 src/PodCreateModal.jsx:171
 msgid "Owner"
 msgstr ""
@@ -1296,7 +1296,7 @@ msgstr ""
 msgid "Troubleshoot"
 msgstr ""
 
-#: src/ContainerHeader.jsx:32
+#: src/ContainerHeader.tsx:46
 msgid "Type to filter…"
 msgstr ""
 
