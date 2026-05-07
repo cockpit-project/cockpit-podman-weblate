@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-05-07 03:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/cockpit/"
@@ -57,8 +57,7 @@ msgstr "1 ຫາ 65535"
 
 #: src/ImageRunModal.jsx:1182
 msgid "Action to take once the container transitions to an unhealthy state."
-msgstr ""
-"ການດຳເນີນການທີ່ຈະເຮັດເມື່ອຄອນເທນເນີປ່ຽນໄປສູ່ສະຖານະທີ່ບໍ່ສົມບູນ (Unhealthy)."
+msgstr "ການດຳເນີນການທີ່ຈະເຮັດເມື່ອຄອນເທນເນີປ່ຽນໄປສູ່ສະຖານະທີ່ບໍ່ສົມບູນ (Unhealthy)."
 
 #: src/Containers.jsx:735
 msgid "Actions"
@@ -115,8 +114,8 @@ msgid ""
 "1024. A higher number prioritizes this container. A lower number decreases "
 "priority."
 msgstr ""
-"ສ່ວນແບ່ງ CPU ກຳນົດລຳດັບຄວາມສຳຄັນຂອງຄອນເທນເນີທີ່ກຳລັງເຮັດວຽກ. ຄ່າເລີ່ມຕົ້ນແມ່ນ 1024. ຕົວເລກທີ່ສູງກ"
-"ວ່າຈະໃຫ້ຄວາມສຳຄັນແກ່ຄອນເທນເນີນີ້ກ່ອນ. ຕົວເລກທີ່ຕ່ຳກວ່າຈະຫຼຸດລຳດັບຄວາມສຳຄັນລົງ."
+"ສ່ວນແບ່ງ CPU ກຳນົດລຳດັບຄວາມສຳຄັນຂອງຄອນເທນເນີທີ່ກຳລັງເຮັດວຽກ. ຄ່າເລີ່ມຕົ້ນແມ່ນ 1024. "
+"ຕົວເລກທີ່ສູງກວ່າຈະໃຫ້ຄວາມສຳຄັນແກ່ຄອນເທນເນີນີ້ກ່ອນ. ຕົວເລກທີ່ຕ່ຳກວ່າຈະຫຼຸດລຳດັບຄວາມສຳຄັນລົງ."
 
 #: src/ContainerCommitModal.jsx:167 src/ContainerRenameModal.jsx:107
 #: src/ImageSearchModal.jsx:226 src/ImageRunModal.jsx:1231
@@ -355,8 +354,7 @@ msgstr "ເນື້ອທີ່ດິສກ໌"
 #: src/ContainerCommitModal.jsx:131
 msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr ""
-"ຮູບແບບ Docker ແມ່ນມີປະໂຫຍດເມື່ອແບ່ງປັນອິເມຈໃຫ້ກັບ Docker ຫຼື Moby Engine"
+msgstr "ຮູບແບບ Docker ແມ່ນມີປະໂຫຍດເມື່ອແບ່ງປັນອິເມຈໃຫ້ກັບ Docker ຫຼື Moby Engine"
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
@@ -654,8 +652,7 @@ msgstr ""
 msgid ""
 "If the host port is not set the container port will be randomly assigned a "
 "port on the host."
-msgstr ""
-"ຖ້າບໍ່ໄດ້ຕັ້ງພອດຂອງໂຮສ, ພອດຂອງຄອນເທນເນີຈະຖືກສຸ່ມໝາຍເລກພອດໃຫ້ໃນເຄື່ອງໂຮສ."
+msgstr "ຖ້າບໍ່ໄດ້ຕັ້ງພອດຂອງໂຮສ, ພອດຂອງຄອນເທນເນີຈະຖືກສຸ່ມໝາຍເລກພອດໃຫ້ໃນເຄື່ອງໂຮສ."
 
 #: src/ContainerRestoreModal.jsx:57
 msgid "Ignore IP address if set statically"
@@ -939,8 +936,7 @@ msgstr "ຜ່ານການກວດສອບສຸຂະພາບລະບົ
 #: src/ImageRunModal.jsx:1076
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
-msgstr ""
-"ວາງຄູ່ key=value ຫຼາຍໆແຖວໃສ່ໃນຫ້ອງໃດກໍໄດ້ເພື່ອເພີ່ມຂໍ້ມູນພ້ອມກັນຫຼາຍລາຍການ"
+msgstr "ວາງຄູ່ key=value ຫຼາຍໆແຖວໃສ່ໃນຫ້ອງໃດກໍໄດ້ເພື່ອເພີ່ມຂໍ້ມູນພ້ອມກັນຫຼາຍລາຍການ"
 
 #: src/Containers.jsx:226 src/PodActions.jsx:199
 msgid "Pause"
@@ -1086,9 +1082,9 @@ msgid ""
 "starting containers may not work in some circumstances, such as when "
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
-"ນະໂຍບາຍການເລີ່ມຕົ້ນໃໝ່ທີ່ຈະໃຊ້ເມື່ອຄອນເທນເນີຢຸດເຮັດວຽກ. ການໃຊ້ linger ສຳລັບການເລີ່ມຄອນເທນເນີອັດຕ"
-"ະໂນມັດອາດຈະບໍ່ເຮັດວຽກໃນບາງກໍລະນີ, ເຊັ່ນເມື່ອມີການໃຊ້ ecryptfs, systemd-homed, NFS, ຫຼື 2FA "
-"ໃນບັນຊີຜູ້ໃຊ້."
+"ນະໂຍບາຍການເລີ່ມຕົ້ນໃໝ່ທີ່ຈະໃຊ້ເມື່ອຄອນເທນເນີຢຸດເຮັດວຽກ. ການໃຊ້ linger "
+"ສຳລັບການເລີ່ມຄອນເທນເນີອັດຕະໂນມັດອາດຈະບໍ່ເຮັດວຽກໃນບາງກໍລະນີ, ເຊັ່ນເມື່ອມີການໃຊ້ ecryptfs, "
+"systemd-homed, NFS, ຫຼື 2FA ໃນບັນຊີຜູ້ໃຊ້."
 
 #: src/ContainerRestoreModal.jsx:69 src/Containers.jsx:267
 msgid "Restore"
@@ -1251,9 +1247,9 @@ msgid ""
 "containers), and container images. It is CLI, API, and functionally "
 "compatible with Docker."
 msgstr ""
-"ໜ້າຈໍຜູ້ໃຊ້ Cockpit ສຳລັບຄອນເທນເນີ Podman. podman (Pod Manager) ແມ່ນເອນຈິນ ທີ່ເຮັດວຽກແບບບໍ່"
-"ມີ daemon ສຳລັບຄອນເທນເນີ OCI, ພອດ (Pod - ກຸ່ມຂອງຄອນເທນເນີ), ແລະ ອິເມຈຄອນເທນເນີ. ມັນຮອງ"
-"ຮັບ CLI, API, ແລະ ສາມາດໃຊ້ງານຮ່ວມກັບ Docker ໄດ້."
+"ໜ້າຈໍຜູ້ໃຊ້ Cockpit ສຳລັບຄອນເທນເນີ Podman. podman (Pod Manager) ແມ່ນເອນຈິນ "
+"ທີ່ເຮັດວຽກແບບບໍ່ມີ daemon ສຳລັບຄອນເທນເນີ OCI, ພອດ (Pod - ກຸ່ມຂອງຄອນເທນເນີ), ແລະ "
+"ອິເມຈຄອນເທນເນີ. ມັນຮອງຮັບ CLI, API, ແລະ ສາມາດໃຊ້ງານຮ່ວມກັບ Docker ໄດ້."
 
 #: src/ImageRunModal.jsx:1138
 msgid "The initialization time needed for a container to bootstrap."
@@ -1263,15 +1259,13 @@ msgstr "ໄລຍະເວລາເລີ່ມຕົ້ນທີ່ຄອນເ
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
-msgstr ""
-"ເວລາສູງສຸດທີ່ອະນຸຍາດໃຫ້ກວດສອບສຸຂະພາບ ກ່ອນທີ່ຈະຖືວ່າການກວດສອບຄັ້ງນັ້ນລົ້ມເຫຼວ."
+msgstr "ເວລາສູງສຸດທີ່ອະນຸຍາດໃຫ້ກວດສອບສຸຂະພາບ ກ່ອນທີ່ຈະຖືວ່າການກວດສອບຄັ້ງນັ້ນລົ້ມເຫຼວ."
 
 #: src/ImageRunModal.jsx:1161
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
-msgstr ""
-"ຈຳນວນຄັ້ງທີ່ອະນຸຍາດໃຫ້ລອງໃໝ່ ກ່ອນທີ່ຈະຖືວ່າສຸຂະພາບຂອງຄອນເທນເນີບໍ່ສົມບູນ (Unhealthy)."
+msgstr "ຈຳນວນຄັ້ງທີ່ອະນຸຍາດໃຫ້ລອງໃໝ່ ກ່ອນທີ່ຈະຖືວ່າສຸຂະພາບຂອງຄອນເທນເນີບໍ່ສົມບູນ (Unhealthy)."
 
 #: src/Containers.jsx:346
 msgid "This browser does not support WebGL2."
