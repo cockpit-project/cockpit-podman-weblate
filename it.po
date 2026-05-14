@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-12 05:54+0000\n"
-"PO-Revision-Date: 2026-04-09 13:58+0000\n"
+"PO-Revision-Date: 2026-05-15 14:59+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -349,7 +349,7 @@ msgstr "L'eliminazione di questo pod rimuoverà i seguenti container:"
 
 #: src/ImageDetails.jsx:25
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:502
 msgid "Details"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Documentation"
-msgstr ""
+msgstr "Documentazione"
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
@@ -487,10 +487,8 @@ msgid "Failed to restart pod $0"
 msgstr "Riavvio del pod $0 non riuscito"
 
 #: src/Containers.jsx:154
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to restart quadlet $0"
-msgstr "Riavvio del pod $0 non riuscito"
+msgstr "Riavvio del quadlet $0 non riuscito"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -533,10 +531,8 @@ msgid "Failed to start pod $0"
 msgstr "Avvio del pod $0 non riuscito"
 
 #: src/Containers.jsx:105
-#, fuzzy
-#| msgid "Failed to start pod $0"
 msgid "Failed to start quadlet $0"
-msgstr "Avvio del pod $0 non riuscito"
+msgstr "Avvio del quadlet $0 non riuscito"
 
 #: src/Containers.jsx:87
 msgid "Failed to stop container $0"
@@ -547,10 +543,8 @@ msgid "Failed to stop pod $0"
 msgstr "Arresto del pod $0 non riuscito"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to stop pod $0"
 msgid "Failed to stop quadlet $0"
-msgstr "Arresto del pod $0 non riuscito"
+msgstr "Arresto del quadlet $0 non riuscito"
 
 #: src/ContainerHealthLogs.jsx:74
 msgid "Failing streak"
@@ -787,7 +781,7 @@ msgstr "Lascia in esecuzione dopo aver scritto il checkpoint su disco"
 
 #: src/ImageDetails.jsx:37
 msgid "Links"
-msgstr ""
+msgstr "Link"
 
 #: src/ContainerIntegration.jsx:135 src/ImageHistory.jsx:60
 msgid "Loading details..."
@@ -1351,7 +1345,7 @@ msgstr "Valore"
 
 #: src/ImageDetails.jsx:31
 msgid "Version"
-msgstr ""
+msgstr "Versione"
 
 #: src/ContainerDetails.jsx:54
 msgid "View $0"
