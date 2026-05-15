@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2026-04-19 15:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -163,7 +163,7 @@ msgstr "Cockpiti komponent Podmani konteinerite jaoks"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Käsk"
 
@@ -342,7 +342,7 @@ msgstr "Töötava konteineri kustutamisega hävivad kõik seal leiduvad andmed."
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Selle podi kustutamisega eemaldatakse ka järgnevad konteinerid:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr "Kirjeldus"
 
@@ -361,7 +361,7 @@ msgstr ""
 "Docker vorming on kasulik, kuid kavatsed hetktõmmist jagada Dockeri või Moby "
 "Engine'iga"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr "Dokumentatsioon"
 
@@ -377,7 +377,7 @@ msgstr "Laadi alla uus hetktõmmis"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "Tühi pod „$0“ kustutatakse jäädavalt."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr ""
 
@@ -774,7 +774,7 @@ msgstr ""
 msgid "Leave running after writing checkpoint to disk"
 msgstr ""
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr ""
 
@@ -983,7 +983,7 @@ msgstr "Podmani teenus ei toimi korralikult"
 msgid "Port mapping"
 msgstr "Portide vastendus"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "Pordid"
 
@@ -1238,7 +1238,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Silt"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "Sildid"
 
@@ -1310,7 +1310,7 @@ msgstr ""
 msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Seda kasutab"
 
@@ -1326,7 +1326,7 @@ msgstr "Kasutaja:"
 msgid "Value"
 msgstr "Väärtus"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr ""
 

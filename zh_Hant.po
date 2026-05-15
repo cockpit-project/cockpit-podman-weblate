@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2025-07-31 06:53+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -160,7 +160,7 @@ msgstr "Podman 容器的 Cockpit 元件"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "指令"
 
@@ -339,7 +339,7 @@ msgstr "刪除執行中的容器會刪除其中的所有資料。"
 msgid "Deleting this pod will remove the following containers:"
 msgstr "刪除此 pod 將移除下列容器："
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr ""
 
@@ -356,7 +356,7 @@ msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr "Docker 格式在與 Docker 或 Moby Engine 分享映像檔時非常有用"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr "下載新的映像檔"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "空的 pod $0 將被永久移除。"
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "切入點"
 
@@ -770,7 +770,7 @@ msgstr "最新檢查點"
 msgid "Leave running after writing checkpoint to disk"
 msgstr "將檢查點寫入磁碟後繼續執行"
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr ""
 
@@ -979,7 +979,7 @@ msgstr "Podman 服務啟動失敗"
 msgid "Port mapping"
 msgstr "通訊埠映射"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "通訊埠"
 
@@ -1236,7 +1236,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "標籤"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "標籤"
 
@@ -1308,7 +1308,7 @@ msgstr "自此上線："
 msgid "Use legacy Docker format"
 msgstr "使用傳統的 Docker 格式"
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "已使用"
 
@@ -1324,7 +1324,7 @@ msgstr "使用者:"
 msgid "Value"
 msgstr "值"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr ""
 

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2026-04-20 02:34+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -161,7 +161,7 @@ msgstr "Komponen Cockpit untuk kontainer Podman"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Perintah"
 
@@ -342,7 +342,7 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Menghapus pod ini akan menghapus kontainer berikut:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr "Deskripsi"
 
@@ -360,7 +360,7 @@ msgid ""
 msgstr ""
 "Format Docker berguna saat membagikan image dengan Docker atau Moby Engine"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr "Dokumentasi"
 
@@ -376,7 +376,7 @@ msgstr "Unduh image baru"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "Pod kosong ( $0 ) akan dihapus secara permanen."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "Titik masuk"
 
@@ -773,7 +773,7 @@ msgstr "Checkpoint terbaru"
 msgid "Leave running after writing checkpoint to disk"
 msgstr "Biarkan tetap berjalan setelah menulis checkpoint ke disk"
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr "Tautan"
 
@@ -985,7 +985,7 @@ msgstr "Layanan Podman gagal"
 msgid "Port mapping"
 msgstr "Pemetaan port"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "Port"
 
@@ -1244,7 +1244,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Tag"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "Tag"
 
@@ -1320,7 +1320,7 @@ msgstr "Aktif sejak:"
 msgid "Use legacy Docker format"
 msgstr "Gunakan format Docker lama"
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Digunakan oleh"
 
@@ -1336,7 +1336,7 @@ msgstr "Pengguna:"
 msgid "Value"
 msgstr "Nilai"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr "Versi"
 

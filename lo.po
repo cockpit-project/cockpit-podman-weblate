@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2026-05-07 03:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/cockpit/"
@@ -160,7 +160,7 @@ msgstr "ສ່ວນປະກອບ Cockpit ສຳລັບຄອນເທນເ
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "ຄຳສັ່ງ"
 
@@ -339,7 +339,7 @@ msgstr "ການລຶບຄອນເທນເນີທີ່ກຳລັງເ
 msgid "Deleting this pod will remove the following containers:"
 msgstr "ການລຶບພອດນີ້ຈະເຮັດໃຫ້ຄອນເທນເນີຕໍ່ໄປນີ້ຖືກລຶບອອກນຳ:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr "ຄຳອະທິບາຍ"
 
@@ -356,7 +356,7 @@ msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr "ຮູບແບບ Docker ແມ່ນມີປະໂຫຍດເມື່ອແບ່ງປັນອິເມຈໃຫ້ກັບ Docker ຫຼື Moby Engine"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr "ເອກະສານແນະນຳ"
 
@@ -372,7 +372,7 @@ msgstr "ດາວໂຫຼດອິເມຈໃໝ່"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "ພອດ $0 ທີ່ວ່າງເປົ່າຈະຖືກລຶບອອກຢ່າງຖາວອນ."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "ຈຸດເລີ່ມຕົ້ນ (Entrypoint)"
 
@@ -765,7 +765,7 @@ msgstr "ເຊັກພອຍຫຼ້າສຸດ"
 msgid "Leave running after writing checkpoint to disk"
 msgstr "ໃຫ້ເຮັດວຽກຕໍ່ໄປຫຼັງຈາກບັນທຶກເຊັກພອຍລົງດິສກ໌ແລ້ວ"
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr "ລີ້ງຄ໌"
 
@@ -974,7 +974,7 @@ msgstr "ການບໍລິການ Podman ລົ້ມເຫຼວ"
 msgid "Port mapping"
 msgstr "ການຈັບຄູ່ພອດ"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "ພອດ (Ports)"
 
@@ -1232,7 +1232,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "ແທັກ (Tag)"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "ແທັກທັງໝົດ"
 
@@ -1303,7 +1303,7 @@ msgstr "ເປີດໃຊ້ງານຕັ້ງແຕ່:"
 msgid "Use legacy Docker format"
 msgstr "ໃຊ້ຮູບແບບ Docker ແບບເກົ່າ"
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "ໃຊ້ໂດຍ"
 
@@ -1319,7 +1319,7 @@ msgstr "ຜູ້ໃຊ້:"
 msgid "Value"
 msgstr "ຄ່າ (Value)"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr "ເວີຊັນ"
 

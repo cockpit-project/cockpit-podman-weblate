@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2024-07-13 13:38+0000\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -162,7 +162,7 @@ msgstr "Súčasť Cockpit pre Podman kontajnery"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Príkaz"
 
@@ -344,7 +344,7 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Zmazanie tohto podu zmaže nasledujúce kontajnery:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr ""
 
@@ -361,7 +361,7 @@ msgid ""
 "Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr "Formát Docker sa hodí pre zdieľanie obrazu s enginom Docker alebo Moby"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr ""
 
@@ -377,7 +377,7 @@ msgstr "Stiahnuť nový obraz"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "Prázdny pod $0 bude nenávratne odstránený."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "Vstupný bod"
 
@@ -796,7 +796,7 @@ msgstr "Vytvoriť kontrolný bod"
 msgid "Leave running after writing checkpoint to disk"
 msgstr ""
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr ""
 
@@ -1013,7 +1013,7 @@ msgstr "Služba Podman nie je aktívna"
 msgid "Port mapping"
 msgstr "Mapovanie portov"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "Porty"
 
@@ -1294,7 +1294,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Tag"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "Tagy"
 
@@ -1368,7 +1368,7 @@ msgstr "Aktívny od $0"
 msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Využívaný s"
 
@@ -1384,7 +1384,7 @@ msgstr "Používateľ:"
 msgid "Value"
 msgstr "Hodnota"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr ""
 

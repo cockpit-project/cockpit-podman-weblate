@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2026-03-06 10:58+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -158,7 +158,7 @@ msgstr "Podman kapsayıcıları için Cockpit bileşeni"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Komut"
 
@@ -337,7 +337,7 @@ msgstr "Çalışan bir kapsayıcıyı silmek içindeki tüm verileri silecek."
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Bu bölmeyi silmek aşağıdaki kapsayıcıları kaldıracak:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr "Açıklama"
 
@@ -355,7 +355,7 @@ msgid ""
 msgstr ""
 "Docker biçimi, kalıbı Docker veya Moby Engine ile paylaşırken kullanışlıdır"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr "Belgeler"
 
@@ -371,7 +371,7 @@ msgstr "Yeni kalıbı indir"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "Boş bölme $0 kalıcı olarak kaldırılacaktır."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "Giriş noktası"
 
@@ -768,7 +768,7 @@ msgstr "Son denetim noktası"
 msgid "Leave running after writing checkpoint to disk"
 msgstr "Denetim noktasını diske yazdıktan sonra çalışır durumda bırak"
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr "Bağlantılar"
 
@@ -981,7 +981,7 @@ msgstr "Podman hizmeti başarısız oldu"
 msgid "Port mapping"
 msgstr "Bağlantı noktası eşleme"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "Bağlantı noktaları"
 
@@ -1240,7 +1240,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Etiket"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "Etiketler"
 
@@ -1316,7 +1316,7 @@ msgstr "Çalıştığı süre:"
 msgid "Use legacy Docker format"
 msgstr "Eski Docker biçimini kullan"
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Kullanan"
 
@@ -1332,7 +1332,7 @@ msgstr "Kullanıcı:"
 msgid "Value"
 msgstr "Değer"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr "Sürüm"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2026-04-10 17:00+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -158,7 +158,7 @@ msgstr "Componente Cockpit para contenedores Podman"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Comando"
 
@@ -339,7 +339,7 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Eliminando este pod eliminará los siguientes contenedores:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr "Descripción"
 
@@ -357,7 +357,7 @@ msgid ""
 msgstr ""
 "El formato Docker es útil para compartir la imagen con Docker o Moby Engine"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr "Documentación"
 
@@ -373,7 +373,7 @@ msgstr "Descargar nueva imagen"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "El pod $0, vacío, será eliminado permanentemente."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "Punto de entrada"
 
@@ -771,7 +771,7 @@ msgstr "Último punto comprobante"
 msgid "Leave running after writing checkpoint to disk"
 msgstr "Seguir ejecutando tras escribir el punto comprobante en disco"
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr "Enlaces"
 
@@ -984,7 +984,7 @@ msgstr "El servicio Podman falló"
 msgid "Port mapping"
 msgstr "Mapeo de puertos"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "Puertos"
 
@@ -1243,7 +1243,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Etiqueta"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -1319,7 +1319,7 @@ msgstr "Levantado desde:"
 msgid "Use legacy Docker format"
 msgstr "Usar el formato heredado Docker"
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Usado por"
 
@@ -1335,7 +1335,7 @@ msgstr "Usuario:"
 msgid "Value"
 msgstr "Valor"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr "Versión"
 

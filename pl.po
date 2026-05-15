@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 05:54+0000\n"
+"POT-Creation-Date: 2026-05-15 06:18+0000\n"
 "PO-Revision-Date: 2024-06-14 18:36+0000\n"
 "Last-Translator: Wojciech Teichert <wojtekt99@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -164,7 +164,7 @@ msgstr "Składnik Cockpit do kontenerów Podman"
 
 #: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
 #: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
-#: src/ImageDetails.jsx:47 src/ContainerHealthLogs.jsx:50
+#: src/ImageDetails.jsx:56 src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Polecenie"
 
@@ -348,7 +348,7 @@ msgstr ""
 msgid "Deleting this pod will remove the following containers:"
 msgstr "Usunięcie tego pojemnika spowoduje usunięcie tych kontenerów:"
 
-#: src/ImageDetails.jsx:25
+#: src/ImageDetails.jsx:34
 msgid "Description"
 msgstr ""
 
@@ -367,7 +367,7 @@ msgstr ""
 "Format Docker jest przydatny podczas udostępniania obrazu za pomocą Dockera "
 "lub Moby Engine"
 
-#: src/ImageDetails.jsx:40
+#: src/ImageDetails.jsx:49
 msgid "Documentation"
 msgstr ""
 
@@ -383,7 +383,7 @@ msgstr "Pobierz nowy obraz"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "Pusty pojemnik $0 zostanie trwale usunięty."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:53
+#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
 msgid "Entrypoint"
 msgstr "Punkt wejścia"
 
@@ -790,7 +790,7 @@ msgstr "Najnowszy punkt kontrolny"
 msgid "Leave running after writing checkpoint to disk"
 msgstr "Bez wyłączania po zapisaniu punktu kontrolnego na dysku"
 
-#: src/ImageDetails.jsx:37
+#: src/ImageDetails.jsx:46
 msgid "Links"
 msgstr ""
 
@@ -1005,7 +1005,7 @@ msgstr "Usługa Podman nie jest aktywna"
 msgid "Port mapping"
 msgstr "Mapowanie portów"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:71
+#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
 msgid "Ports"
 msgstr "Porty"
 
@@ -1268,7 +1268,7 @@ msgstr "TCP"
 msgid "Tag"
 msgstr "Etykieta"
 
-#: src/ImageDetails.jsx:59
+#: src/ImageDetails.jsx:68
 msgid "Tags"
 msgstr "Etykiety"
 
@@ -1344,7 +1344,7 @@ msgstr "Uruchomione od $0"
 msgid "Use legacy Docker format"
 msgstr "Przestarzały format Docker"
 
-#: src/ImageDetails.jsx:65 src/Images.jsx:194
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Używane przez"
 
@@ -1360,7 +1360,7 @@ msgstr "Użytkownik:"
 msgid "Value"
 msgstr "Wartość"
 
-#: src/ImageDetails.jsx:31
+#: src/ImageDetails.jsx:40
 msgid "Version"
 msgstr ""
 
