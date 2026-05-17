@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-15 06:18+0000\n"
-"PO-Revision-Date: 2026-04-02 23:59+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"PO-Revision-Date: 2026-05-17 12:08+0000\n"
+"Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-podman/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -28,7 +28,7 @@ msgstr[0] "$0 容器"
 #: src/Images.jsx:298
 msgid "$0 image total, $1"
 msgid_plural "$0 images total, $1"
-msgstr[0] "$0 镜像总共，$1"
+msgstr[0] "共 $0 个镜像，$1"
 
 #: src/ContainerHealthLogs.jsx:25
 msgid "$0 second"
@@ -75,7 +75,7 @@ msgstr "所有"
 
 #: src/ImageSearchModal.jsx:170
 msgid "All registries"
-msgstr "所有 registry"
+msgstr "所有镜像仓库"
 
 #: src/ImageRunModal.jsx:1018
 msgid "Always"
@@ -95,11 +95,11 @@ msgstr "CPU"
 
 #: src/ImageRunModal.jsx:975
 msgid "CPU Shares help"
-msgstr "CPU 份额帮助"
+msgstr "CPU 权重帮助"
 
 #: src/ImageRunModal.jsx:973
 msgid "CPU shares"
-msgstr "CPU 份额"
+msgstr "CPU 权重"
 
 #: src/ImageRunModal.jsx:977
 msgid ""
@@ -133,7 +133,7 @@ msgstr "检查点和恢复支持"
 
 #: src/ContainerCheckpointModal.jsx:46
 msgid "Checkpoint container $0"
-msgstr "检查点容器 $0"
+msgstr "为容器 $0 创建检查点"
 
 #: src/Containers.jsx:628
 msgid "Click to see published ports"
@@ -310,7 +310,7 @@ msgstr "删除 pod $0？"
 
 #: src/ImageDeleteModal.jsx:124
 msgid "Delete tagged images"
-msgstr "删除标记的镜像"
+msgstr "删除有标签的镜像"
 
 #: src/PruneUnusedImagesModal.jsx:39
 msgid "Delete unused images of user $0:"
@@ -403,7 +403,7 @@ msgstr "失败的健康运行"
 
 #: src/ContainerCheckpointModal.jsx:33
 msgid "Failed to checkpoint container $0"
-msgstr "检查点容器 $0 失败"
+msgstr "为容器 $0 创建检查点失败"
 
 #: src/ImageRunModal.jsx:259
 msgid "Failed to clean up container"
@@ -628,11 +628,11 @@ msgstr "IP 地址帮助"
 
 #: src/ImageRunModal.jsx:858
 msgid "Ideal for development"
-msgstr "非常适合开发"
+msgstr "适合开发使用"
 
 #: src/ImageRunModal.jsx:841
 msgid "Ideal for running services"
-msgstr "非常适合运行服务"
+msgstr "适合运行服务使用"
 
 #: src/PublishPort.jsx:62
 msgid ""
@@ -713,7 +713,7 @@ msgstr "间隔"
 
 #: src/ImageRunModal.jsx:1092
 msgid "Interval how often health check is run."
-msgstr "健康检查运行的频率间隔。"
+msgstr "运行健康检查的间隔时间。"
 
 #: src/ContainerRenameModal.jsx:37 src/PodCreateModal.jsx:122
 msgid ""
@@ -731,19 +731,19 @@ msgstr "保留所有临时检查点文件"
 
 #: src/Env.jsx:64
 msgid "Key"
-msgstr "密钥"
+msgstr "键"
 
 #: src/Env.jsx:26
 msgid "Key contains invalid characters"
-msgstr "密钥包含无效的字符"
+msgstr "键包含无效字符"
 
 #: src/Env.jsx:22
 msgid "Key must not be empty"
-msgstr "密钥不能为空"
+msgstr "键不能为空"
 
 #: src/Env.jsx:24
 msgid "Key must not begin with a digit"
-msgstr "密钥不能以数字开头"
+msgstr "键不能以数字开头"
 
 #: src/ContainerHealthLogs.jsx:95
 msgid "Last 5 runs"
@@ -815,7 +815,7 @@ msgstr "模式"
 
 #: src/ImageDeleteModal.jsx:103
 msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr "此镜像存在多个标签。选择标记的镜像以删除。"
+msgstr "此镜像存在多个标签。选择要删除的有标签镜像。"
 
 #: src/PublishPort.jsx:26
 msgid "Must be a valid IP address"
@@ -928,7 +928,7 @@ msgstr "通过的健康运行"
 #: src/ImageRunModal.jsx:1076
 msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
-msgstr "将一个或多个 key=value 对行粘贴到批量导入的任何字段"
+msgstr "将一个或多个键值对（key=value）粘贴到任意字段以批量导入"
 
 #: src/Containers.jsx:226 src/PodActions.jsx:199
 msgid "Pause"
@@ -1066,7 +1066,7 @@ msgstr "重启策略帮助"
 
 #: src/ImageRunModal.jsx:1007
 msgid "Restart policy to follow when containers exit."
-msgstr "容器退出时遵循重启策略。"
+msgstr "容器退出后遵循的重启策略。"
 
 #: src/ImageRunModal.jsx:1007
 msgid ""
@@ -1123,7 +1123,7 @@ msgstr "按名称或描述搜索"
 
 #: src/ImageRunModal.jsx:768
 msgid "Search by registry"
-msgstr "按照注册表搜索"
+msgstr "按镜像仓库搜索"
 
 #: src/ImageSearchModal.jsx:158
 msgid "Search for"
@@ -1292,7 +1292,7 @@ msgstr "运行时间:"
 
 #: src/ContainerCommitModal.jsx:132
 msgid "Use legacy Docker format"
-msgstr "使用旧的 Docker 格式"
+msgstr "使用旧版 Docker 格式"
 
 #: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
@@ -1361,11 +1361,11 @@ msgstr "于"
 
 #: src/ImageDeleteModal.jsx:85
 msgid "intermediate"
-msgstr "中间体"
+msgstr "中间层"
 
 #: src/ImageDeleteModal.jsx:65
 msgid "intermediate image"
-msgstr "中间镜像"
+msgstr "中间层镜像"
 
 #: src/Containers.jsx:414 src/Containers.jsx:415
 msgid "n/a"
