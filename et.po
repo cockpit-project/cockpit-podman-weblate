@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:49+0000\n"
+"POT-Creation-Date: 2026-06-20 06:47+0000\n"
 "PO-Revision-Date: 2026-04-19 15:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -68,7 +68,7 @@ msgstr "Toiming, mida peaks tegema, kui konteineri olek muutub mittetoimivaks."
 msgid "Actions"
 msgstr "Tegevused"
 
-#: src/ImageRunModal.jsx:1049 src/PodCreateModal.jsx:186
+#: src/PodCreateModal.jsx:186 src/ImageRunModal.jsx:1049
 msgid "Add port mapping"
 msgstr "Lisa pordivastendus"
 
@@ -76,12 +76,12 @@ msgstr "Lisa pordivastendus"
 msgid "Add variable"
 msgstr "Lisa muutuja"
 
-#: src/ImageRunModal.jsx:1059 src/PodCreateModal.jsx:197
+#: src/PodCreateModal.jsx:197 src/ImageRunModal.jsx:1059
 msgid "Add volume"
 msgstr "Lisa köide"
 
-#: src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
-#: src/ImageDeleteModal.jsx:105 src/Containers.jsx:899
+#: src/ContainerHeader.tsx:39 src/Containers.jsx:899 src/ImageRunModal.jsx:769
+#: src/ImageDeleteModal.jsx:105
 msgid "All"
 msgstr "Kõik"
 
@@ -120,13 +120,13 @@ msgid ""
 "priority."
 msgstr ""
 
-#: src/ForceRemoveModal.jsx:34 src/ImageSearchModal.jsx:226
-#: src/ContainerDeleteModal.jsx:44 src/PruneUnusedImagesModal.jsx:113
-#: src/ContainerCommitModal.jsx:167 src/PodActions.jsx:72
-#: src/ImageRunModal.jsx:1229 src/PruneUnusedContainersModal.jsx:112
-#: src/ImageDeleteModal.jsx:126 src/ContainerRenameModal.jsx:100
-#: src/ContainerCheckpointModal.jsx:67 src/PodCreateModal.jsx:223
-#: src/ContainerRestoreModal.jsx:73
+#: src/PodCreateModal.jsx:223 src/ContainerCommitModal.jsx:167
+#: src/PruneUnusedContainersModal.jsx:112 src/ContainerCheckpointModal.jsx:67
+#: src/ContainerRenameModal.jsx:100 src/ForceRemoveModal.jsx:34
+#: src/ContainerRestoreModal.jsx:73 src/ContainerDeleteModal.jsx:44
+#: src/ImageSearchModal.jsx:226 src/ImageRunModal.jsx:1229
+#: src/PodActions.jsx:72 src/PruneUnusedImagesModal.jsx:113
+#: src/ImageDeleteModal.jsx:126
 msgid "Cancel"
 msgstr "Katkesta"
 
@@ -162,9 +162,9 @@ msgstr "Cockpiti projekt"
 msgid "Cockpit component for Podman containers"
 msgstr "Cockpiti komponent Podmani konteinerite jaoks"
 
-#: src/ContainerDetails.jsx:44 src/ContainerHealthLogs.jsx:50
-#: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
-#: src/ImageRunModal.jsx:1082 src/ImageDetails.jsx:56
+#: src/ContainerCommitModal.jsx:117 src/ImageDetails.jsx:56
+#: src/ContainerHealthLogs.jsx:50 src/ImageRunModal.jsx:928
+#: src/ImageRunModal.jsx:1082 src/ContainerDetails.jsx:44
 msgid "Command"
 msgstr "Käsk"
 
@@ -232,7 +232,7 @@ msgstr "Konteineri port ei tohi jääda tühjaks"
 msgid "Containers"
 msgstr "Konteinerid"
 
-#: src/ImageRunModal.jsx:1226 src/PodCreateModal.jsx:220
+#: src/PodCreateModal.jsx:220 src/ImageRunModal.jsx:1226
 msgid "Create"
 msgstr "Loo"
 
@@ -244,8 +244,8 @@ msgstr "Loo uus hetktõmmis, mis põhineb $0 konteineri praegusel olekul."
 msgid "Create and run"
 msgstr "Loo ja käivita"
 
-#: src/ImageRunModal.jsx:1215 src/Containers.jsx:916 src/Images.jsx:439
-#: src/Images.jsx:448
+#: src/Containers.jsx:916 src/Images.jsx:439 src/Images.jsx:448
+#: src/ImageRunModal.jsx:1215
 msgid "Create container"
 msgstr "Loo konteiner"
 
@@ -261,8 +261,8 @@ msgstr "Loo podi konteiner"
 msgid "Create pod"
 msgstr "Loo pod"
 
-#: src/ContainerDetails.jsx:81 src/PruneUnusedContainersModal.jsx:69
-#: src/util.tsx:41 src/util.tsx:44 src/ImageHistory.jsx:34 src/Images.jsx:191
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
+#: src/ImageHistory.jsx:34 src/Images.jsx:191 src/ContainerDetails.jsx:81
 msgid "Created"
 msgstr "Loodud"
 
@@ -298,8 +298,8 @@ msgstr "Vähenda algusaega"
 msgid "Decrease timeout"
 msgstr "Vähenda aegumist"
 
-#: src/ContainerDeleteModal.jsx:43 src/PodActions.jsx:68 src/PodActions.jsx:215
-#: src/Containers.jsx:290 src/Images.jsx:459
+#: src/Containers.jsx:290 src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
+#: src/PodActions.jsx:68 src/PodActions.jsx:215
 msgid "Delete"
 msgstr "Kustuta"
 
@@ -347,7 +347,7 @@ msgstr "Selle podi kustutamisega eemaldatakse ka järgnevad konteinerid:"
 msgid "Description"
 msgstr "Kirjeldus"
 
-#: src/ImageRunModal.jsx:828 src/Containers.jsx:501 src/Images.jsx:161
+#: src/Containers.jsx:501 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
 msgstr "Üksikasjad"
 
@@ -378,11 +378,11 @@ msgstr "Laadi alla uus hetktõmmis"
 msgid "Empty pod $0 will be permanently removed."
 msgstr "Tühi pod „$0“ kustutatakse jäädavalt."
 
-#: src/ImageRunModal.jsx:923 src/ImageDetails.jsx:62
+#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
 msgid "Entrypoint"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1070 src/ContainerIntegration.jsx:159
+#: src/ContainerIntegration.jsx:159 src/ImageRunModal.jsx:1070
 msgid "Environment variables"
 msgstr "Keskkonnamuutujad"
 
@@ -406,7 +406,7 @@ msgstr "Näide: Sinu Nimi <sinunimi@toredomeen.com>"
 msgid "Example: $0"
 msgstr "Näide: $0"
 
-#: src/ContainerDetails.jsx:18 src/util.tsx:41 src/util.tsx:44
+#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
 msgid "Exited"
 msgstr ""
 
@@ -564,12 +564,12 @@ msgstr "Kustuta sundkorras"
 msgid "Force delete pod $0?"
 msgstr "Kas kustutad „$0“ podi sundkorras?"
 
-#: src/PodActions.jsx:160 src/Containers.jsx:217
+#: src/Containers.jsx:217 src/PodActions.jsx:160
 msgid "Force restart"
 msgstr "Taaskäivita sundkorras"
 
-#: src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
-#: src/ImageRunModal.jsx:65 src/Containers.jsx:209
+#: src/ContainerHealthLogs.jsx:32 src/Containers.jsx:209
+#: src/ImageRunModal.jsx:65 src/PodActions.jsx:145
 msgid "Force stop"
 msgstr "Seiska sundkorras"
 
@@ -581,7 +581,7 @@ msgstr "GB"
 msgid "Gateway"
 msgstr "Võrgulüüs"
 
-#: src/ImageRunModal.jsx:1080 src/Containers.jsx:545
+#: src/Containers.jsx:545 src/ImageRunModal.jsx:1080
 msgid "Health check"
 msgstr "Korrasolekukontroll"
 
@@ -633,11 +633,11 @@ msgstr "Hosti port"
 msgid "Host port help"
 msgstr ""
 
-#: src/ContainerDetails.jsx:35 src/Images.jsx:192
+#: src/Images.jsx:192 src/ContainerDetails.jsx:35
 msgid "ID"
 msgstr "ID"
 
-#: src/ContainerDetails.jsx:64 src/PublishPort.jsx:57
+#: src/PublishPort.jsx:57 src/ContainerDetails.jsx:64
 msgid "IP address"
 msgstr "IP aadress"
 
@@ -673,7 +673,7 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ContainerDetails.jsx:39 src/ImageRunModal.jsx:881 src/Images.jsx:189
+#: src/Images.jsx:189 src/ImageRunModal.jsx:881 src/ContainerDetails.jsx:39
 msgid "Image"
 msgstr "Hetktõmmis"
 
@@ -721,7 +721,7 @@ msgstr "Suurenda algusaega"
 msgid "Increase timeout"
 msgstr "Suurenda aegumist"
 
-#: src/ImageRunModal.jsx:1043 src/Containers.jsx:508
+#: src/Containers.jsx:508 src/ImageRunModal.jsx:1043
 msgid "Integration"
 msgstr "Lõiming"
 
@@ -733,7 +733,7 @@ msgstr "Välp"
 msgid "Interval how often health check is run."
 msgstr ""
 
-#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+#: src/PodCreateModal.jsx:122 src/ContainerRenameModal.jsx:36
 msgid ""
 "Invalid characters. Name can only contain letters, numbers, and certain "
 "punctuation (_ . -)."
@@ -787,7 +787,7 @@ msgstr "Laadin üksikasju..."
 msgid "Loading logs..."
 msgstr "Laadin logisid..."
 
-#: src/ImageUsedBy.jsx:15 src/Containers.jsx:745 src/Images.jsx:198
+#: src/Containers.jsx:745 src/ImageUsedBy.jsx:15 src/Images.jsx:198
 msgid "Loading..."
 msgstr "Laadin..."
 
@@ -839,8 +839,8 @@ msgstr ""
 msgid "Must be a valid IP address"
 msgstr "See peab olema korrektne IP-aadress"
 
-#: src/ImageRunModal.jsx:810 src/PruneUnusedContainersModal.jsx:68
-#: src/PodCreateModal.jsx:153
+#: src/PodCreateModal.jsx:153 src/PruneUnusedContainersModal.jsx:68
+#: src/ImageRunModal.jsx:810
 msgid "Name"
 msgstr "Nimi"
 
@@ -901,7 +901,7 @@ msgstr "Praeguse filtri alusel ei leidu hetktõmmiseid"
 msgid "No label"
 msgstr "Märgist pole"
 
-#: src/ImageRunModal.jsx:1046 src/PodCreateModal.jsx:183
+#: src/PodCreateModal.jsx:183 src/ImageRunModal.jsx:1046
 msgid "No ports exposed"
 msgstr ""
 
@@ -913,7 +913,7 @@ msgstr "Märksõnale „$0“ pole otsinguvasteid"
 msgid "No running containers"
 msgstr "Pole ühtegi töötavat konteinerit"
 
-#: src/ImageRunModal.jsx:1056 src/PodCreateModal.jsx:194
+#: src/PodCreateModal.jsx:194 src/ImageRunModal.jsx:1056
 msgid "No volumes specified"
 msgstr "Pole ühtegi määratletud köidet"
 
@@ -929,9 +929,9 @@ msgstr "Vaid töösolevad"
 msgid "Options"
 msgstr "Valikud"
 
-#: src/ImageSearchModal.jsx:147 src/ContainerHeader.tsx:32
-#: src/ImageRunModal.jsx:831 src/PruneUnusedContainersModal.jsx:75
-#: src/PodCreateModal.jsx:171 src/Containers.jsx:730 src/Images.jsx:190
+#: src/PodCreateModal.jsx:171 src/PruneUnusedContainersModal.jsx:75
+#: src/ContainerHeader.tsx:32 src/Containers.jsx:730
+#: src/ImageSearchModal.jsx:147 src/Images.jsx:190 src/ImageRunModal.jsx:831
 msgid "Owner"
 msgstr "Omanik"
 
@@ -948,7 +948,7 @@ msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
 
-#: src/PodActions.jsx:199 src/Containers.jsx:225
+#: src/Containers.jsx:225 src/PodActions.jsx:199
 msgid "Pause"
 msgstr "Peata"
 
@@ -980,11 +980,11 @@ msgstr "Podmani konteinerid"
 msgid "Podman service failed"
 msgstr "Podmani teenus ei toimi korralikult"
 
-#: src/ImageRunModal.jsx:1048 src/PodCreateModal.jsx:185
+#: src/PodCreateModal.jsx:185 src/ImageRunModal.jsx:1048
 msgid "Port mapping"
 msgstr "Portide vastendus"
 
-#: src/ContainerIntegration.jsx:151 src/ImageDetails.jsx:80
+#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
 msgid "Ports"
 msgstr "Pordid"
 
@@ -1000,7 +1000,7 @@ msgstr "Privaatne"
 msgid "Protocol"
 msgstr "Protokoll"
 
-#: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
+#: src/PruneUnusedContainersModal.jsx:110 src/PruneUnusedImagesModal.jsx:111
 msgid "Prune"
 msgstr ""
 
@@ -1008,7 +1008,7 @@ msgstr ""
 msgid "Prune unused containers"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
 msgid "Prune unused images"
 msgstr "Kustuta/eemalda kasutamata hetktõmmised"
 
@@ -1045,7 +1045,7 @@ msgstr ""
 msgid "Read-write access"
 msgstr ""
 
-#: src/Env.jsx:98 src/PublishPort.jsx:135 src/Volume.jsx:87
+#: src/Env.jsx:98 src/Volume.jsx:87 src/PublishPort.jsx:135
 msgid "Remove item"
 msgstr "Eemalda objekt"
 
@@ -1069,9 +1069,8 @@ msgstr "Muuda „$0“ konteineri nime"
 msgid "Resource limits can be set"
 msgstr ""
 
-#: src/ContainerHealthLogs.jsx:30 src/PodActions.jsx:152
-#: src/ImageRunModal.jsx:63 src/util.tsx:41 src/Containers.jsx:198
-#: src/Containers.jsx:213
+#: src/util.tsx:41 src/ContainerHealthLogs.jsx:30 src/Containers.jsx:198
+#: src/Containers.jsx:213 src/ImageRunModal.jsx:63 src/PodActions.jsx:152
 msgid "Restart"
 msgstr "Käivita uuesti"
 
@@ -1094,7 +1093,7 @@ msgid ""
 "ecryptfs, systemd-homed, NFS, or 2FA are used on a user account."
 msgstr ""
 
-#: src/Containers.jsx:266 src/ContainerRestoreModal.jsx:69
+#: src/ContainerRestoreModal.jsx:69 src/Containers.jsx:266
 msgid "Restore"
 msgstr "Taasta"
 
@@ -1110,7 +1109,7 @@ msgstr "Taasta koos loodud TCP-ühendustega"
 msgid "Restricted by user account permissions"
 msgstr "Piiratud kasutajakonto õigustega"
 
-#: src/PodActions.jsx:184 src/Containers.jsx:232
+#: src/Containers.jsx:232 src/PodActions.jsx:184
 msgid "Resume"
 msgstr "Jätka"
 
@@ -1126,7 +1125,7 @@ msgstr ""
 msgid "Run health check"
 msgstr ""
 
-#: src/ImageUsedBy.jsx:37 src/util.tsx:41 src/util.tsx:44
+#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
 msgid "Running"
 msgstr "Töötab"
 
@@ -1182,7 +1181,7 @@ msgstr "Näita vahepealseid hetktõmmiseid"
 msgid "Show less"
 msgstr "Näita vähem"
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
 msgid "Show more"
 msgstr "Näita rohkem"
 
@@ -1190,7 +1189,7 @@ msgstr "Näita rohkem"
 msgid "Size"
 msgstr "Suurus"
 
-#: src/PodActions.jsx:169 src/Containers.jsx:255
+#: src/Containers.jsx:255 src/PodActions.jsx:169
 msgid "Start"
 msgstr "Algus"
 
@@ -1206,7 +1205,7 @@ msgstr "Hetktõmmiste otsimiseks alusta kirjutamist."
 msgid "Started at"
 msgstr "Käivituse aeg"
 
-#: src/ContainerDetails.jsx:86 src/Containers.jsx:733
+#: src/Containers.jsx:733 src/ContainerDetails.jsx:86
 msgid "State"
 msgstr "Olek"
 
@@ -1214,8 +1213,8 @@ msgstr "Olek"
 msgid "Status"
 msgstr "Seisund"
 
-#: src/ContainerHealthLogs.jsx:31 src/PodActions.jsx:137
-#: src/ImageRunModal.jsx:64 src/Containers.jsx:194 src/Containers.jsx:205
+#: src/ContainerHealthLogs.jsx:31 src/Containers.jsx:194 src/Containers.jsx:205
+#: src/ImageRunModal.jsx:64 src/PodActions.jsx:137
 msgid "Stop"
 msgstr "Seiska"
 
@@ -1227,8 +1226,8 @@ msgstr "Seisatud"
 msgid "Support preserving established TCP connections"
 msgstr ""
 
-#: src/ImageRunModal.jsx:838 src/ImageRunModal.jsx:873
-#: src/PodCreateModal.jsx:175
+#: src/PodCreateModal.jsx:175 src/ImageRunModal.jsx:838
+#: src/ImageRunModal.jsx:873
 msgid "System"
 msgstr "Süsteem"
 
@@ -1236,7 +1235,7 @@ msgstr "Süsteem"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
+#: src/ContainerCommitModal.jsx:103 src/ImageSearchModal.jsx:213
 msgid "Tag"
 msgstr "Silt"
 
@@ -1312,7 +1311,7 @@ msgstr ""
 msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/Images.jsx:194 src/ImageDetails.jsx:74
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
 msgid "Used by"
 msgstr "Seda kasutab"
 
@@ -1320,7 +1319,7 @@ msgstr "Seda kasutab"
 msgid "User"
 msgstr "Kasutaja"
 
-#: src/ImageRunModal.jsx:873 src/PodCreateModal.jsx:175
+#: src/PodCreateModal.jsx:175 src/ImageRunModal.jsx:873
 msgid "User:"
 msgstr "Kasutaja:"
 
@@ -1340,8 +1339,8 @@ msgstr "Vaata: $0"
 msgid "View $0 logs"
 msgstr "Vaata „$0“ logisid"
 
-#: src/ImageRunModal.jsx:1058 src/ContainerIntegration.jsx:155
-#: src/PodCreateModal.jsx:196
+#: src/PodCreateModal.jsx:196 src/ContainerIntegration.jsx:155
+#: src/ImageRunModal.jsx:1058
 msgid "Volumes"
 msgstr "Köited"
 
@@ -1414,8 +1413,8 @@ msgstr "sekundit"
 msgid "service"
 msgstr "teenus"
 
-#: src/app.jsx:51 src/app.jsx:680 src/PruneUnusedContainersModal.jsx:35
-#: src/Containers.jsx:476 src/Images.jsx:145
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:476 src/app.jsx:51
+#: src/app.jsx:680 src/Images.jsx:145
 msgid "system"
 msgstr "süsteem"
 
