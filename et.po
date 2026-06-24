@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 06:47+0000\n"
-"PO-Revision-Date: 2026-04-19 15:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-06-25 11:24+0000\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/et/>\n"
 "Language: et\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/Images.jsx:97
 msgid "$0 container"
@@ -483,10 +483,8 @@ msgid "Failed to restart pod $0"
 msgstr "„$0“ podi uuesti käivitamine ei õnnestunud"
 
 #: src/Containers.jsx:154
-#, fuzzy
-#| msgid "Failed to restart pod $0"
 msgid "Failed to restart quadlet $0"
-msgstr "„$0“ podi uuesti käivitamine ei õnnestunud"
+msgstr "„$0“ kvadleti uuesti käivitamine ei õnnestunud"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -529,10 +527,8 @@ msgid "Failed to start pod $0"
 msgstr "„$0“ podi käivitamine ei õnnestunud"
 
 #: src/Containers.jsx:105
-#, fuzzy
-#| msgid "Failed to start pod $0"
 msgid "Failed to start quadlet $0"
-msgstr "„$0“ podi käivitamine ei õnnestunud"
+msgstr "„$0“ kvadleti käivitamine ei õnnestunud"
 
 #: src/Containers.jsx:87
 msgid "Failed to stop container $0"
@@ -543,10 +539,8 @@ msgid "Failed to stop pod $0"
 msgstr "„$0“ podi seiskamine ei õnnestunud"
 
 #: src/Containers.jsx:96
-#, fuzzy
-#| msgid "Failed to stop pod $0"
 msgid "Failed to stop quadlet $0"
-msgstr "„$0“ podi seiskamine ei õnnestunud"
+msgstr "„$0“ kvadleti seiskamine ei õnnestunud"
 
 #: src/ContainerHealthLogs.jsx:74
 msgid "Failing streak"
