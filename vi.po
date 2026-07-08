@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-06 06:55+0000\n"
-"PO-Revision-Date: 2026-07-06 16:55+0000\n"
+"PO-Revision-Date: 2026-07-09 06:17+0000\n"
 "Last-Translator: Vo Huy <hoanghuy309@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/vi/>\n"
@@ -300,7 +300,7 @@ msgstr ""
 #: src/Containers.jsx:290 src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
 #: src/PodActions.jsx:68 src/PodActions.jsx:215
 msgid "Delete"
-msgstr ""
+msgstr "Xóa"
 
 #: src/ImageDeleteModal.jsx:98
 msgid "Delete $0 image?"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:34
 msgid "Description"
-msgstr ""
+msgstr "Mô tả"
 
 #: src/Containers.jsx:501 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
@@ -365,7 +365,7 @@ msgstr ""
 
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
-msgstr ""
+msgstr "Tải xuống"
 
 #: src/Images.jsx:367
 msgid "Download new image"
@@ -1398,7 +1398,7 @@ msgstr ""
 
 #: src/Containers.jsx:450 src/Containers.jsx:1026
 msgid "service"
-msgstr ""
+msgstr "dịch vụ"
 
 #: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:476 src/app.jsx:51
 #: src/app.jsx:680 src/Images.jsx:145
@@ -1415,7 +1415,7 @@ msgstr ""
 
 #: src/app.jsx:51
 msgid "user"
-msgstr ""
+msgstr "người dùng"
 
 #: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:476
 #: src/Images.jsx:145
