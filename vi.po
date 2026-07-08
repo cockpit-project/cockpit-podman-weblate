@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-06 06:55+0000\n"
 "PO-Revision-Date: 2026-07-09 06:17+0000\n"
-"Last-Translator: Vo Huy <hoanghuy309@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-podman/vi/>\n"
 "Language: vi\n"
@@ -348,7 +349,7 @@ msgstr "Mô tả"
 
 #: src/Containers.jsx:501 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
-msgstr ""
+msgstr "Chi tiết"
 
 #: src/Images.jsx:193
 msgid "Disk space"
