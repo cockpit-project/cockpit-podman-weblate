@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  podman.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-19 03:30+0000\n"
+"POT-Creation-Date: 2026-08-20 03:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  podman.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-19 03:30+0000\n"
+"POT-Creation-Date: 2026-08-20 03:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr ""
 msgid "1 to 65535"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1181
+#: src/ImageRunModal.jsx:1185
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr ""
 
@@ -144,7 +144,7 @@ msgstr ""
 
 #: src/PodCreateModal.jsx:223 src/ContainerCommitModal.jsx:167
 #: src/PruneUnusedImagesModal.jsx:113 src/ImageSearchModal.jsx:226
-#: src/ImageRunModal.jsx:1229 src/ContainerRenameModal.jsx:100
+#: src/ImageRunModal.jsx:1233 src/ContainerRenameModal.jsx:100
 #: src/ContainerRestoreModal.jsx:73 src/ContainerDeleteModal.jsx:44
 #: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
 #: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
@@ -185,7 +185,7 @@ msgid "Cockpit component for Podman containers"
 msgstr ""
 
 #: src/ContainerCommitModal.jsx:117 src/ContainerDetails.jsx:44
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1082
+#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
 #: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
 msgid "Command"
 msgstr ""
@@ -254,7 +254,7 @@ msgstr ""
 msgid "Containers"
 msgstr ""
 
-#: src/PodCreateModal.jsx:220 src/ImageRunModal.jsx:1226
+#: src/PodCreateModal.jsx:220 src/ImageRunModal.jsx:1230
 msgid "Create"
 msgstr ""
 
@@ -262,16 +262,16 @@ msgstr ""
 msgid "Create a new image based on the current state of the $0 container."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1222
+#: src/ImageRunModal.jsx:1226
 msgid "Create and run"
 msgstr ""
 
 #: src/Containers.jsx:916 src/Images.jsx:439 src/Images.jsx:448
-#: src/ImageRunModal.jsx:1215
+#: src/ImageRunModal.jsx:1219
 msgid "Create container"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1215
+#: src/ImageRunModal.jsx:1219
 msgid "Create container in $0"
 msgstr ""
 
@@ -297,7 +297,7 @@ msgstr ""
 msgid "Decrease CPU shares"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1103
+#: src/ImageRunModal.jsx:1107
 msgid "Decrease interval"
 msgstr ""
 
@@ -309,15 +309,15 @@ msgstr ""
 msgid "Decrease memory"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1171
+#: src/ImageRunModal.jsx:1175
 msgid "Decrease retries"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1149
+#: src/ImageRunModal.jsx:1153
 msgid "Decrease start period"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1126
+#: src/ImageRunModal.jsx:1130
 msgid "Decrease timeout"
 msgstr ""
 
@@ -596,27 +596,27 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#: src/Containers.jsx:545 src/ImageRunModal.jsx:1080
+#: src/Containers.jsx:545 src/ImageRunModal.jsx:1084
 msgid "Health check"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1090
+#: src/ImageRunModal.jsx:1094
 msgid "Health check interval help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1159
+#: src/ImageRunModal.jsx:1163
 msgid "Health check retries help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1136
+#: src/ImageRunModal.jsx:1140
 msgid "Health check start period help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1113
+#: src/ImageRunModal.jsx:1117
 msgid "Health check timeout help"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1179
+#: src/ImageRunModal.jsx:1183
 msgid "Health failure check action help"
 msgstr ""
 
@@ -712,7 +712,7 @@ msgstr ""
 msgid "Increase CPU shares"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1104
+#: src/ImageRunModal.jsx:1108
 msgid "Increase interval"
 msgstr ""
 
@@ -724,15 +724,15 @@ msgstr ""
 msgid "Increase memory"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1172
+#: src/ImageRunModal.jsx:1176
 msgid "Increase retries"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1150
+#: src/ImageRunModal.jsx:1154
 msgid "Increase start period"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1127
+#: src/ImageRunModal.jsx:1131
 msgid "Increase timeout"
 msgstr ""
 
@@ -740,11 +740,11 @@ msgstr ""
 msgid "Integration"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1088 src/ContainerHealthLogs.jsx:54
+#: src/ImageRunModal.jsx:1092 src/ContainerHealthLogs.jsx:54
 msgid "Interval"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1092
+#: src/ImageRunModal.jsx:1096
 msgid "Interval how often health check is run."
 msgstr ""
 
@@ -762,7 +762,7 @@ msgstr ""
 msgid "Keep all temporary checkpoint files"
 msgstr ""
 
-#: src/Env.jsx:64
+#: src/Env.jsx:67
 msgid "Key"
 msgstr ""
 
@@ -1060,7 +1060,7 @@ msgstr ""
 msgid "Read-write access"
 msgstr ""
 
-#: src/PublishPort.jsx:135 src/Volume.jsx:87 src/Env.jsx:98
+#: src/PublishPort.jsx:135 src/Volume.jsx:87 src/Env.jsx:101
 msgid "Remove item"
 msgstr ""
 
@@ -1129,7 +1129,7 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1157 src/ContainerHealthLogs.jsx:58
+#: src/ImageRunModal.jsx:1161 src/ContainerHealthLogs.jsx:58
 msgid "Retries"
 msgstr ""
 
@@ -1209,7 +1209,7 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1134 src/ContainerHealthLogs.jsx:62
+#: src/ImageRunModal.jsx:1138 src/ContainerHealthLogs.jsx:62
 msgid "Start period"
 msgstr ""
 
@@ -1271,17 +1271,17 @@ msgid ""
 "compatible with Docker."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1138
+#: src/ImageRunModal.jsx:1142
 msgid "The initialization time needed for a container to bootstrap."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1115
+#: src/ImageRunModal.jsx:1119
 msgid ""
 "The maximum time allowed to complete the health check before an interval is "
 "considered failed."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1161
+#: src/ImageRunModal.jsx:1165
 msgid ""
 "The number of retries allowed before a healthcheck is considered to be "
 "unhealthy."
@@ -1291,7 +1291,7 @@ msgstr ""
 msgid "This browser does not support WebGL2."
 msgstr ""
 
-#: src/ImageRunModal.jsx:1111 src/ContainerHealthLogs.jsx:66
+#: src/ImageRunModal.jsx:1115 src/ContainerHealthLogs.jsx:66
 msgid "Timeout"
 msgstr ""
 
@@ -1335,7 +1335,7 @@ msgstr ""
 msgid "User:"
 msgstr ""
 
-#: src/Env.jsx:80
+#: src/Env.jsx:83
 msgid "Value"
 msgstr ""
 
@@ -1356,7 +1356,7 @@ msgstr ""
 msgid "Volumes"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1177 src/ContainerHealthLogs.jsx:70
+#: src/ImageRunModal.jsx:1181 src/ContainerHealthLogs.jsx:70
 msgid "When unhealthy"
 msgstr ""
 
@@ -1416,8 +1416,8 @@ msgstr ""
 msgid "ports"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1108 src/ImageRunModal.jsx:1131
-#: src/ImageRunModal.jsx:1154
+#: src/ImageRunModal.jsx:1112 src/ImageRunModal.jsx:1135
+#: src/ImageRunModal.jsx:1158
 msgid "seconds"
 msgstr ""
 
