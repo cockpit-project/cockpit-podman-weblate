@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:05+0000\n"
+"POT-Creation-Date: 2026-09-26 07:59+0000\n"
 "PO-Revision-Date: 2026-05-07 03:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/cockpit/"
@@ -47,7 +47,7 @@ msgid_plural "$0 unused images, $1"
 msgstr[0] "$0 ອິເມຈທີ່ບໍ່ໄດ້ໃຊ້, $1"
 
 #
-#: src/Containers.jsx:434
+#: src/Containers.jsx:461
 msgid "$0% of $1 limit"
 msgstr "$0% ຈາກຂີດຈຳກັດ $1"
 
@@ -59,7 +59,7 @@ msgstr "1 ຫາ 65535"
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr "ການດຳເນີນການທີ່ຈະເຮັດເມື່ອຄອນເທນເນີປ່ຽນໄປສູ່ສະຖານະທີ່ບໍ່ສົມບູນ (Unhealthy)."
 
-#: src/Containers.jsx:734
+#: src/Containers.jsx:760
 msgid "Actions"
 msgstr "ການດຳເນີນການຕ່າງໆ"
 
@@ -75,7 +75,7 @@ msgstr "ເພີ່ມຕົວປ່ຽນ"
 msgid "Add volume"
 msgstr "ເພີ່ມໂວລຸມ (Volume)"
 
-#: src/Containers.jsx:899 src/ImageRunModal.jsx:769 src/ContainerHeader.tsx:39
+#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
 #: src/ImageDeleteModal.jsx:105
 msgid "All"
 msgstr "ທັງໝົດ"
@@ -96,7 +96,7 @@ msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ"
 msgid "Author"
 msgstr "ຜູ້ສ້າງ"
 
-#: src/Containers.jsx:609 src/Containers.jsx:612 src/Containers.jsx:731
+#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
 msgid "CPU"
 msgstr "CPU"
 
@@ -117,13 +117,13 @@ msgstr ""
 "ສ່ວນແບ່ງ CPU ກຳນົດລຳດັບຄວາມສຳຄັນຂອງຄອນເທນເນີທີ່ກຳລັງເຮັດວຽກ. ຄ່າເລີ່ມຕົ້ນແມ່ນ 1024. "
 "ຕົວເລກທີ່ສູງກວ່າຈະໃຫ້ຄວາມສຳຄັນແກ່ຄອນເທນເນີນີ້ກ່ອນ. ຕົວເລກທີ່ຕ່ຳກວ່າຈະຫຼຸດລຳດັບຄວາມສຳຄັນລົງ."
 
-#: src/PodCreateModal.jsx:223 src/ContainerCommitModal.jsx:167
-#: src/PruneUnusedImagesModal.jsx:113 src/ImageSearchModal.jsx:226
-#: src/ImageRunModal.jsx:1233 src/ContainerRenameModal.jsx:100
-#: src/ContainerRestoreModal.jsx:73 src/ContainerDeleteModal.jsx:44
-#: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
-#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
-#: src/ImageDeleteModal.jsx:126
+#: src/ForceRemoveModal.jsx:34 src/ContainerCommitModal.jsx:167
+#: src/ContainerRestoreModal.jsx:73 src/PodCreateModal.jsx:223
+#: src/PruneUnusedImagesModal.jsx:113 src/ContainerCheckpointModal.jsx:67
+#: src/ImageSearchModal.jsx:226 src/ImageRunModal.jsx:1233
+#: src/ImageDeleteModal.jsx:126 src/PodActions.jsx:72
+#: src/PruneUnusedContainersModal.jsx:112 src/ContainerRenameModal.jsx:100
+#: src/ContainerDeleteModal.jsx:44
 msgid "Cancel"
 msgstr "ຍົກເລີກ"
 
@@ -143,11 +143,11 @@ msgstr "ຮອງຮັບການເຮັດເຊັກພອຍ ແລະ �
 msgid "Checkpoint container $0"
 msgstr "ສ້າງເຊັກພອຍໃຫ້ຄອນເທນເນີ $0"
 
-#: src/Containers.jsx:627
+#: src/Containers.jsx:654
 msgid "Click to see published ports"
 msgstr "ຄລິກເພື່ອເບິ່ງພອດທີ່ເປີດໃຊ້"
 
-#: src/Containers.jsx:642
+#: src/Containers.jsx:669
 msgid "Click to see volumes"
 msgstr "ຄລິກເພື່ອເບິ່ງໂວລຸມ"
 
@@ -160,8 +160,8 @@ msgid "Cockpit component for Podman containers"
 msgstr "ສ່ວນປະກອບ Cockpit ສຳລັບຄອນເທນເນີ Podman"
 
 #: src/ContainerCommitModal.jsx:117 src/ContainerDetails.jsx:44
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
-#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
+#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086 src/ImageDetails.jsx:56
+#: src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "ຄຳສັ່ງ"
 
@@ -181,11 +181,11 @@ msgstr "ຄອມມິດຄອນເທນເນີ"
 msgid "Configured"
 msgstr "ຕັ້ງຄ່າແລ້ວ"
 
-#: src/Containers.jsx:527
+#: src/Containers.jsx:554
 msgid "Console"
 msgstr "ຄອນໂຊລ"
 
-#: src/Containers.jsx:729
+#: src/Containers.jsx:755
 msgid "Container"
 msgstr "ຄອນເທນເນີ (Container)"
 
@@ -225,7 +225,7 @@ msgstr "ພອດຂອງຄອນເທນເນີ"
 msgid "Container port must not be empty"
 msgstr "ພອດຂອງຄອນເທນເນີຕ້ອງບໍ່ຫວ່າງເປົ່າ"
 
-#: src/Containers.jsx:953 src/Containers.jsx:959 src/Containers.jsx:994
+#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
 msgid "Containers"
 msgstr "ຄອນເທນເນີທັງໝົດ"
 
@@ -241,7 +241,7 @@ msgstr "ສ້າງອິເມຈໃໝ່ໂດຍອີງຕາມສະຖ
 msgid "Create and run"
 msgstr "ສ້າງ ແລະ ເລີ່ມເຮັດວຽກ"
 
-#: src/Containers.jsx:916 src/Images.jsx:439 src/Images.jsx:448
+#: src/Containers.jsx:917 src/Images.jsx:439 src/Images.jsx:448
 #: src/ImageRunModal.jsx:1219
 msgid "Create container"
 msgstr "ສ້າງຄອນເທນເນີ"
@@ -250,17 +250,16 @@ msgstr "ສ້າງຄອນເທນເນີ"
 msgid "Create container in $0"
 msgstr "ສ້າງຄອນເທນເນີໃນ $0"
 
-#: src/Containers.jsx:1005
+#: src/Containers.jsx:1006
 msgid "Create container in pod"
 msgstr "ສ້າງຄອນເທນເນີໃນພອດ (Pod)"
 
-#: src/PodCreateModal.jsx:212 src/Containers.jsx:908
+#: src/Containers.jsx:909 src/PodCreateModal.jsx:212
 msgid "Create pod"
 msgstr "ສ້າງພອດ (Pod)"
 
-#: src/Images.jsx:191 src/ContainerDetails.jsx:81 src/util.tsx:41
-#: src/util.tsx:44 src/ImageHistory.jsx:34
-#: src/PruneUnusedContainersModal.jsx:69
+#: src/Images.jsx:191 src/ContainerDetails.jsx:81 src/ImageHistory.jsx:34
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
 msgid "Created"
 msgstr "ສ້າງແລ້ວ"
 
@@ -296,8 +295,8 @@ msgstr "ຫຼຸດໄລຍະເວລາເລີ່ມຕົ້ນ"
 msgid "Decrease timeout"
 msgstr "ຫຼຸດເວລາໝົດກຳນົດ (Timeout)"
 
-#: src/Containers.jsx:290 src/Images.jsx:459 src/ContainerDeleteModal.jsx:43
-#: src/PodActions.jsx:68 src/PodActions.jsx:215
+#: src/Containers.jsx:290 src/Images.jsx:459 src/PodActions.jsx:68
+#: src/PodActions.jsx:215 src/ContainerDeleteModal.jsx:43
 msgid "Delete"
 msgstr "ລຶບ"
 
@@ -305,7 +304,7 @@ msgstr "ລຶບ"
 msgid "Delete $0 image?"
 msgstr "ລຶບອິເມຈ $0 ບໍ່?"
 
-#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
+#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
 msgid "Delete $0?"
 msgstr "ລຶບ $0 ບໍ່?"
 
@@ -345,7 +344,7 @@ msgstr "ການລຶບພອດນີ້ຈະເຮັດໃຫ້ຄອນ
 msgid "Description"
 msgstr "ຄຳອະທິບາຍ"
 
-#: src/Containers.jsx:501 src/Images.jsx:161 src/ImageRunModal.jsx:828
+#: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
 msgstr "ລາຍລະອຽດ"
 
@@ -386,7 +385,7 @@ msgstr "ຕົວປ່ຽນສະພາບແວດລ້ອມ (Environment v
 msgid "Error"
 msgstr "ຂໍ້ຜິດພາດ"
 
-#: src/Notification.tsx:38 src/Images.jsx:62
+#: src/Images.jsx:62 src/Notification.tsx:38
 msgid "Error message"
 msgstr "ຂໍ້ຄວາມຜິດພາດ"
 
@@ -558,8 +557,8 @@ msgstr "ບັງຄັບລຶບພອດ $0 ບໍ່?"
 msgid "Force restart"
 msgstr "ບັງຄັບເລີ່ມຕົ້ນໃໝ່"
 
-#: src/Containers.jsx:209 src/ImageRunModal.jsx:65
-#: src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
+#: src/Containers.jsx:209 src/ImageRunModal.jsx:65 src/PodActions.jsx:145
+#: src/ContainerHealthLogs.jsx:32
 msgid "Force stop"
 msgstr "ບັງຄັບຢຸດ"
 
@@ -571,7 +570,7 @@ msgstr "GB"
 msgid "Gateway"
 msgstr "ເກດເວ (Gateway)"
 
-#: src/Containers.jsx:545 src/ImageRunModal.jsx:1084
+#: src/Containers.jsx:572 src/ImageRunModal.jsx:1084
 msgid "Health check"
 msgstr "ກວດສອບສຸຂະພາບລະບົບ"
 
@@ -712,7 +711,7 @@ msgstr "ເພີ່ມໄລຍະເວລາເລີ່ມຕົ້ນ"
 msgid "Increase timeout"
 msgstr "ເພີ່ມເວລາໝົດກຳນົດ"
 
-#: src/Containers.jsx:508 src/ImageRunModal.jsx:1043
+#: src/Containers.jsx:535 src/ImageRunModal.jsx:1043
 msgid "Integration"
 msgstr "ການເຊື່ອມຕໍ່ລະບົບ (Integration)"
 
@@ -779,7 +778,7 @@ msgstr "ກຳລັງໂຫຼດລາຍລະອຽດ..."
 msgid "Loading logs..."
 msgstr "ກຳລັງໂຫຼດບັນທຶກລັອກ..."
 
-#: src/Containers.jsx:745 src/Images.jsx:198 src/ImageUsedBy.jsx:15
+#: src/Containers.jsx:771 src/Images.jsx:198 src/ImageUsedBy.jsx:15
 msgid "Loading..."
 msgstr "ກຳລັງໂຫຼດ..."
 
@@ -791,7 +790,7 @@ msgstr "ພາຍໃນເຄື່ອງ (Local)"
 msgid "Local images"
 msgstr "ອິເມຈພາຍໃນເຄື່ອງ"
 
-#: src/Containers.jsx:513 src/ContainerHealthLogs.jsx:92
+#: src/Containers.jsx:540 src/ContainerHealthLogs.jsx:92
 msgid "Logs"
 msgstr "ບັນທຶກລັອກ"
 
@@ -807,7 +806,7 @@ msgstr "MB"
 msgid "Maximum retries"
 msgstr "ຈຳນວນການລອງໃໝ່ສູງສຸດ"
 
-#: src/Containers.jsx:616 src/Containers.jsx:619 src/Containers.jsx:732
+#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
 msgid "Memory"
 msgstr "ໜ່ວຍຄວາມຈຳ"
 
@@ -856,7 +855,7 @@ msgstr "ບໍ່"
 msgid "No action"
 msgstr "ບໍ່ມີການດຳເນີນການ"
 
-#: src/Containers.jsx:742
+#: src/Containers.jsx:768
 msgid "No containers"
 msgstr "ບໍ່ມີຄອນເທນເນີ"
 
@@ -864,11 +863,11 @@ msgstr "ບໍ່ມີຄອນເທນເນີ"
 msgid "No containers are using this image"
 msgstr "ບໍ່ມີຄອນເທນເນີໃດກຳລັງໃຊ້ອິເມຈນີ້"
 
-#: src/Containers.jsx:743
+#: src/Containers.jsx:769
 msgid "No containers in this pod"
 msgstr "ບໍ່ມີຄອນເທນເນີໃນພອດ (Pod) ນີ້"
 
-#: src/Containers.jsx:747
+#: src/Containers.jsx:773
 msgid "No containers that match the current filter"
 msgstr "ບໍ່ມີຄອນເທນເນີທີ່ກົງກັບຕົວຕອງປັດຈຸບັນ"
 
@@ -901,7 +900,7 @@ msgstr "ບໍ່ມີພອດທີ່ເປີດອອກພາຍນອກ
 msgid "No results for $0"
 msgstr "ບໍ່ມີຜົນການຄົ້ນຫາສຳລັບ $0"
 
-#: src/Containers.jsx:749
+#: src/Containers.jsx:775
 msgid "No running containers"
 msgstr "ບໍ່ມີຄອນເທນເນີທີ່ກຳລັງເຮັດວຽກ"
 
@@ -913,7 +912,7 @@ msgstr "ບໍ່ໄດ້ກຳນົດໂວລຸມ"
 msgid "On failure"
 msgstr "ເມື່ອເກີດຄວາມຜິດພາດ"
 
-#: src/Containers.jsx:900
+#: src/Containers.jsx:901
 msgid "Only running"
 msgstr "ສະເພາະທີ່ກຳລັງເຮັດວຽກ"
 
@@ -921,9 +920,9 @@ msgstr "ສະເພາະທີ່ກຳລັງເຮັດວຽກ"
 msgid "Options"
 msgstr "ຕົວເລືອກ"
 
-#: src/PodCreateModal.jsx:171 src/Containers.jsx:730 src/Images.jsx:190
-#: src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
-#: src/ContainerHeader.tsx:32 src/PruneUnusedContainersModal.jsx:75
+#: src/Containers.jsx:756 src/PodCreateModal.jsx:171 src/ContainerHeader.tsx:32
+#: src/Images.jsx:190 src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
+#: src/PruneUnusedContainersModal.jsx:75
 msgid "Owner"
 msgstr "ເຈົ້າຂອງ"
 
@@ -1000,7 +999,7 @@ msgstr "ລ້າງຂໍ້ມູນ (Prune)"
 msgid "Prune unused containers"
 msgstr "ລ້າງຄອນເທນເນີທີ່ບໍ່ໄດ້ໃຊ້"
 
-#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
 msgid "Prune unused images"
 msgstr "ລ້າງອິເມຈທີ່ບໍ່ໄດ້ໃຊ້"
 
@@ -1061,9 +1060,8 @@ msgstr "ປ່ຽນຊື່ຄອນເທນເນີ $0"
 msgid "Resource limits can be set"
 msgstr "ສາມາດຕັ້ງຂີດຈຳກັດຊັບພະຍາກອນໄດ້"
 
-#: src/Containers.jsx:198 src/Containers.jsx:213 src/util.tsx:41
-#: src/ImageRunModal.jsx:63 src/ContainerHealthLogs.jsx:30
-#: src/PodActions.jsx:152
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/ImageRunModal.jsx:63
+#: src/PodActions.jsx:152 src/util.tsx:41 src/ContainerHealthLogs.jsx:30
 msgid "Restart"
 msgstr "ເລີ່ມຕົ້ນໃໝ່ (Restart)"
 
@@ -1121,7 +1119,7 @@ msgstr "ລອງໃຊ້ຄຳຄົ້ນຫາອື່ນ."
 msgid "Run health check"
 msgstr "ສັ່ງກວດສອບສຸຂະພາບລະບົບ"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+#: src/ImageUsedBy.jsx:37 src/util.tsx:41 src/util.tsx:44
 msgid "Running"
 msgstr "ກຳລັງເຮັດວຽກ"
 
@@ -1161,7 +1159,7 @@ msgstr "ກຳລັງຄົ້ນຫາ: $0"
 msgid "Shared"
 msgstr "ໃຊ້ຮ່ວມກັນ"
 
-#: src/Containers.jsx:895
+#: src/Containers.jsx:896
 msgid "Show"
 msgstr "ສະແດງ"
 
@@ -1177,7 +1175,7 @@ msgstr "ສະແດງອິເມຈລະຫວ່າງກາງ (Intermedia
 msgid "Show less"
 msgstr "ສະແດງໜ້ອຍລົງ"
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
 msgid "Show more"
 msgstr "ສະແດງເພີ່ມເຕີມ"
 
@@ -1201,7 +1199,7 @@ msgstr "ພິມເພື່ອຄົ້ນຫາອິເມຈ."
 msgid "Started at"
 msgstr "ເລີ່ມຕົ້ນເມື່ອ"
 
-#: src/Containers.jsx:733 src/ContainerDetails.jsx:86
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
 msgid "State"
 msgstr "ສະຖານະ"
 
@@ -1210,7 +1208,7 @@ msgid "Status"
 msgstr "ສະຖານະ"
 
 #: src/Containers.jsx:194 src/Containers.jsx:205 src/ImageRunModal.jsx:64
-#: src/ContainerHealthLogs.jsx:31 src/PodActions.jsx:137
+#: src/PodActions.jsx:137 src/ContainerHealthLogs.jsx:31
 msgid "Stop"
 msgstr "ຢຸດ"
 
@@ -1379,15 +1377,15 @@ msgstr "ລະຫວ່າງກາງ"
 msgid "intermediate image"
 msgstr "ອິເມຈລະຫວ່າງກາງ"
 
-#: src/Containers.jsx:413 src/Containers.jsx:414
+#: src/Containers.jsx:440 src/Containers.jsx:441
 msgid "n/a"
 msgstr "ບໍ່ມີຂໍ້ມູນ"
 
-#: src/Containers.jsx:413 src/Containers.jsx:414
+#: src/Containers.jsx:440 src/Containers.jsx:441
 msgid "not available"
 msgstr "ບໍ່ພ້ອມໃຊ້ງານ"
 
-#: src/Containers.jsx:1025
+#: src/Containers.jsx:1026
 msgid "pod"
 msgstr "ພອດ (pod)"
 
@@ -1395,7 +1393,7 @@ msgstr "ພອດ (pod)"
 msgid "podman"
 msgstr "podman"
 
-#: src/Containers.jsx:636
+#: src/Containers.jsx:663
 msgid "ports"
 msgstr "ພອດ"
 
@@ -1404,11 +1402,11 @@ msgstr "ພອດ"
 msgid "seconds"
 msgstr "ວິນາທີ"
 
-#: src/Containers.jsx:450 src/Containers.jsx:1026
+#: src/Containers.jsx:477 src/Containers.jsx:1027
 msgid "service"
 msgstr "ບໍລິການ"
 
-#: src/Containers.jsx:476 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
+#: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "system"
 msgstr "ລະບົບ"
@@ -1425,11 +1423,11 @@ msgstr "ບໍ່ໄດ້ໃຊ້"
 msgid "user"
 msgstr "ຜູ້ໃຊ້"
 
-#: src/Containers.jsx:476 src/Images.jsx:145
+#: src/Containers.jsx:503 src/Images.jsx:145
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "user:"
 msgstr "ຜູ້ໃຊ້:"
 
-#: src/Containers.jsx:651
+#: src/Containers.jsx:678
 msgid "volumes"
 msgstr "ໂວລຸມ"

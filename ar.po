@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:05+0000\n"
+"POT-Creation-Date: 2026-09-26 07:59+0000\n"
 "PO-Revision-Date: 2025-07-21 10:54+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
@@ -68,7 +68,7 @@ msgstr[4] "توجد $0 صورة غير مستخدمة، $1"
 msgstr[5] "توجد $0 صورة غير مستخدمة، $1"
 
 #
-#: src/Containers.jsx:434
+#: src/Containers.jsx:461
 msgid "$0% of $1 limit"
 msgstr "$0 من $1 حد"
 
@@ -80,7 +80,7 @@ msgstr "1 إلى 65535"
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr "الإجراء الذي يجب اتخاذه بمجرد انتقال الحاوية إلى حالة غير صحية."
 
-#: src/Containers.jsx:734
+#: src/Containers.jsx:760
 msgid "Actions"
 msgstr "إجراءات"
 
@@ -96,7 +96,7 @@ msgstr "إضافة متغير"
 msgid "Add volume"
 msgstr "إضافة وحدة تخزين"
 
-#: src/Containers.jsx:899 src/ImageRunModal.jsx:769 src/ContainerHeader.tsx:39
+#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
 #: src/ImageDeleteModal.jsx:105
 msgid "All"
 msgstr "الكل"
@@ -117,7 +117,7 @@ msgstr "حدث خطأ ما"
 msgid "Author"
 msgstr "آخر"
 
-#: src/Containers.jsx:609 src/Containers.jsx:612 src/Containers.jsx:731
+#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
 msgid "CPU"
 msgstr "المعالج"
 
@@ -139,13 +139,13 @@ msgstr ""
 "الافتراضية هي 1024. الرقم الأعلى يعطي الأولوية لهذه الحاوية. الرقم الأقل "
 "يقلل من الأولوية."
 
-#: src/PodCreateModal.jsx:223 src/ContainerCommitModal.jsx:167
-#: src/PruneUnusedImagesModal.jsx:113 src/ImageSearchModal.jsx:226
-#: src/ImageRunModal.jsx:1233 src/ContainerRenameModal.jsx:100
-#: src/ContainerRestoreModal.jsx:73 src/ContainerDeleteModal.jsx:44
-#: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
-#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
-#: src/ImageDeleteModal.jsx:126
+#: src/ForceRemoveModal.jsx:34 src/ContainerCommitModal.jsx:167
+#: src/ContainerRestoreModal.jsx:73 src/PodCreateModal.jsx:223
+#: src/PruneUnusedImagesModal.jsx:113 src/ContainerCheckpointModal.jsx:67
+#: src/ImageSearchModal.jsx:226 src/ImageRunModal.jsx:1233
+#: src/ImageDeleteModal.jsx:126 src/PodActions.jsx:72
+#: src/PruneUnusedContainersModal.jsx:112 src/ContainerRenameModal.jsx:100
+#: src/ContainerDeleteModal.jsx:44
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -165,11 +165,11 @@ msgstr "دعم نقاط التحقق والاستعادة"
 msgid "Checkpoint container $0"
 msgstr "نقطة استعادة الحاوية $0"
 
-#: src/Containers.jsx:627
+#: src/Containers.jsx:654
 msgid "Click to see published ports"
 msgstr "انقر للاطلاع على المنافذ التي تم نشرها"
 
-#: src/Containers.jsx:642
+#: src/Containers.jsx:669
 msgid "Click to see volumes"
 msgstr "انقر لرؤية وحدات التخزين"
 
@@ -182,8 +182,8 @@ msgid "Cockpit component for Podman containers"
 msgstr "مكونCockpit لحاويات Podman"
 
 #: src/ContainerCommitModal.jsx:117 src/ContainerDetails.jsx:44
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
-#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
+#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086 src/ImageDetails.jsx:56
+#: src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "أمر"
 
@@ -203,11 +203,11 @@ msgstr "أودع حاوية"
 msgid "Configured"
 msgstr "تم تكوينه"
 
-#: src/Containers.jsx:527
+#: src/Containers.jsx:554
 msgid "Console"
 msgstr "وحدة تحكم"
 
-#: src/Containers.jsx:729
+#: src/Containers.jsx:755
 msgid "Container"
 msgstr "حاوية"
 
@@ -247,7 +247,7 @@ msgstr "منفذ الحاوية"
 msgid "Container port must not be empty"
 msgstr "يجب ألا يكةن منفذ الحاوية فارغاً"
 
-#: src/Containers.jsx:953 src/Containers.jsx:959 src/Containers.jsx:994
+#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
 msgid "Containers"
 msgstr "الحاويات"
 
@@ -263,7 +263,7 @@ msgstr "إنشاء صورة جديدة بناءً على الحالة الحال
 msgid "Create and run"
 msgstr "إنشاء ثم تشغيل"
 
-#: src/Containers.jsx:916 src/Images.jsx:439 src/Images.jsx:448
+#: src/Containers.jsx:917 src/Images.jsx:439 src/Images.jsx:448
 #: src/ImageRunModal.jsx:1219
 msgid "Create container"
 msgstr "إنشاء حاوية"
@@ -272,17 +272,16 @@ msgstr "إنشاء حاوية"
 msgid "Create container in $0"
 msgstr "إنشاء حاوية في $0"
 
-#: src/Containers.jsx:1005
+#: src/Containers.jsx:1006
 msgid "Create container in pod"
 msgstr "إنشاء حاوية ضمن pod"
 
-#: src/PodCreateModal.jsx:212 src/Containers.jsx:908
+#: src/Containers.jsx:909 src/PodCreateModal.jsx:212
 msgid "Create pod"
 msgstr "إنشاء pod"
 
-#: src/Images.jsx:191 src/ContainerDetails.jsx:81 src/util.tsx:41
-#: src/util.tsx:44 src/ImageHistory.jsx:34
-#: src/PruneUnusedContainersModal.jsx:69
+#: src/Images.jsx:191 src/ContainerDetails.jsx:81 src/ImageHistory.jsx:34
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
 msgid "Created"
 msgstr "تم إنشاؤه"
 
@@ -318,8 +317,8 @@ msgstr "تقليل فترة البدء"
 msgid "Decrease timeout"
 msgstr "تقليل المهلة"
 
-#: src/Containers.jsx:290 src/Images.jsx:459 src/ContainerDeleteModal.jsx:43
-#: src/PodActions.jsx:68 src/PodActions.jsx:215
+#: src/Containers.jsx:290 src/Images.jsx:459 src/PodActions.jsx:68
+#: src/PodActions.jsx:215 src/ContainerDeleteModal.jsx:43
 msgid "Delete"
 msgstr "حذف"
 
@@ -327,7 +326,7 @@ msgstr "حذف"
 msgid "Delete $0 image?"
 msgstr "حذف الصورة $0؟"
 
-#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
+#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
 msgid "Delete $0?"
 msgstr "حذف $0؟"
 
@@ -367,7 +366,7 @@ msgstr "سيؤدي حذف هذا الـ pod إلى إزالة الحاويات �
 msgid "Description"
 msgstr ""
 
-#: src/Containers.jsx:501 src/Images.jsx:161 src/ImageRunModal.jsx:828
+#: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
 msgstr "التفاصيل"
 
@@ -408,7 +407,7 @@ msgstr "متغيرات البيئة"
 msgid "Error"
 msgstr "خطأ"
 
-#: src/Notification.tsx:38 src/Images.jsx:62
+#: src/Images.jsx:62 src/Notification.tsx:38
 msgid "Error message"
 msgstr "رسالة خطأ"
 
@@ -586,8 +585,8 @@ msgstr "تريد فرض حذف الـ pod: $0؟"
 msgid "Force restart"
 msgstr "فرض إعادة التشغيل"
 
-#: src/Containers.jsx:209 src/ImageRunModal.jsx:65
-#: src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
+#: src/Containers.jsx:209 src/ImageRunModal.jsx:65 src/PodActions.jsx:145
+#: src/ContainerHealthLogs.jsx:32
 msgid "Force stop"
 msgstr "فرض الإيقاف"
 
@@ -599,7 +598,7 @@ msgstr "GB"
 msgid "Gateway"
 msgstr "البوّابة"
 
-#: src/Containers.jsx:545 src/ImageRunModal.jsx:1084
+#: src/Containers.jsx:572 src/ImageRunModal.jsx:1084
 msgid "Health check"
 msgstr "صحة الفحص"
 
@@ -743,7 +742,7 @@ msgstr "زيادة فترة البدء"
 msgid "Increase timeout"
 msgstr "زيادة المهلة الزمنية"
 
-#: src/Containers.jsx:508 src/ImageRunModal.jsx:1043
+#: src/Containers.jsx:535 src/ImageRunModal.jsx:1043
 msgid "Integration"
 msgstr "تكامل"
 
@@ -811,7 +810,7 @@ msgstr "جاري تحميل التفاصيل..."
 msgid "Loading logs..."
 msgstr "جاري تحميل السجلات..."
 
-#: src/Containers.jsx:745 src/Images.jsx:198 src/ImageUsedBy.jsx:15
+#: src/Containers.jsx:771 src/Images.jsx:198 src/ImageUsedBy.jsx:15
 msgid "Loading..."
 msgstr "قيد التحميل..."
 
@@ -823,7 +822,7 @@ msgstr "محلي"
 msgid "Local images"
 msgstr "الصور المحلية"
 
-#: src/Containers.jsx:513 src/ContainerHealthLogs.jsx:92
+#: src/Containers.jsx:540 src/ContainerHealthLogs.jsx:92
 msgid "Logs"
 msgstr "السجلات"
 
@@ -839,7 +838,7 @@ msgstr "MB"
 msgid "Maximum retries"
 msgstr "الحد الأقصى لإعادة المحاولة"
 
-#: src/Containers.jsx:616 src/Containers.jsx:619 src/Containers.jsx:732
+#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
 msgid "Memory"
 msgstr "الذاكرة"
 
@@ -888,7 +887,7 @@ msgstr "لا"
 msgid "No action"
 msgstr "لا حدث"
 
-#: src/Containers.jsx:742
+#: src/Containers.jsx:768
 msgid "No containers"
 msgstr "لا حاويات"
 
@@ -896,11 +895,11 @@ msgstr "لا حاويات"
 msgid "No containers are using this image"
 msgstr "لا حاويات تستخدم هذه الصورة"
 
-#: src/Containers.jsx:743
+#: src/Containers.jsx:769
 msgid "No containers in this pod"
 msgstr "لا حاويات في هذا الـ pod"
 
-#: src/Containers.jsx:747
+#: src/Containers.jsx:773
 msgid "No containers that match the current filter"
 msgstr "لا توجد حاويات مطابقة لعامل التصفية الحالي"
 
@@ -933,7 +932,7 @@ msgstr "لا توجد منافذ مكشوفة"
 msgid "No results for $0"
 msgstr "لا تنائج لـ $0"
 
-#: src/Containers.jsx:749
+#: src/Containers.jsx:775
 msgid "No running containers"
 msgstr "لا حاويات قيد التشغيل"
 
@@ -945,7 +944,7 @@ msgstr "لا وحدات تحزين محددة"
 msgid "On failure"
 msgstr "عند الفشل"
 
-#: src/Containers.jsx:900
+#: src/Containers.jsx:901
 msgid "Only running"
 msgstr "التشغيل فقط"
 
@@ -953,9 +952,9 @@ msgstr "التشغيل فقط"
 msgid "Options"
 msgstr "الخيارات"
 
-#: src/PodCreateModal.jsx:171 src/Containers.jsx:730 src/Images.jsx:190
-#: src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
-#: src/ContainerHeader.tsx:32 src/PruneUnusedContainersModal.jsx:75
+#: src/Containers.jsx:756 src/PodCreateModal.jsx:171 src/ContainerHeader.tsx:32
+#: src/Images.jsx:190 src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
+#: src/PruneUnusedContainersModal.jsx:75
 msgid "Owner"
 msgstr "المالك"
 
@@ -1033,7 +1032,7 @@ msgstr "التقليم"
 msgid "Prune unused containers"
 msgstr "تقليم الحاويات غير المستخدمة"
 
-#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
 msgid "Prune unused images"
 msgstr "تلقيم الصور الغير مستخدمة"
 
@@ -1094,9 +1093,8 @@ msgstr "إعادة تسمية الحاوية $0"
 msgid "Resource limits can be set"
 msgstr "يمكن تعيين حدود للموارد"
 
-#: src/Containers.jsx:198 src/Containers.jsx:213 src/util.tsx:41
-#: src/ImageRunModal.jsx:63 src/ContainerHealthLogs.jsx:30
-#: src/PodActions.jsx:152
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/ImageRunModal.jsx:63
+#: src/PodActions.jsx:152 src/util.tsx:41 src/ContainerHealthLogs.jsx:30
 msgid "Restart"
 msgstr "أعد التشغيل"
 
@@ -1154,7 +1152,7 @@ msgstr "إعادة تجربة المدة."
 msgid "Run health check"
 msgstr "شغَّل فحص الصحة"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+#: src/ImageUsedBy.jsx:37 src/util.tsx:41 src/util.tsx:44
 msgid "Running"
 msgstr "التشغيل"
 
@@ -1194,7 +1192,7 @@ msgstr "البحث: $0"
 msgid "Shared"
 msgstr "مشتركة"
 
-#: src/Containers.jsx:895
+#: src/Containers.jsx:896
 msgid "Show"
 msgstr "عرض"
 
@@ -1210,7 +1208,7 @@ msgstr "إظهار الصور الوسيطة"
 msgid "Show less"
 msgstr "عرض أقل"
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
 msgid "Show more"
 msgstr "أظهر المزيد"
 
@@ -1234,7 +1232,7 @@ msgstr "ابدأ الكتابة للبحث عن الصور."
 msgid "Started at"
 msgstr "بدأ عند"
 
-#: src/Containers.jsx:733 src/ContainerDetails.jsx:86
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
 msgid "State"
 msgstr "حالة"
 
@@ -1243,7 +1241,7 @@ msgid "Status"
 msgstr "الحالة"
 
 #: src/Containers.jsx:194 src/Containers.jsx:205 src/ImageRunModal.jsx:64
-#: src/ContainerHealthLogs.jsx:31 src/PodActions.jsx:137
+#: src/PodActions.jsx:137 src/ContainerHealthLogs.jsx:31
 msgid "Stop"
 msgstr "إيقاف"
 
@@ -1416,15 +1414,15 @@ msgstr "وسيط"
 msgid "intermediate image"
 msgstr "صورة وسيطة"
 
-#: src/Containers.jsx:413 src/Containers.jsx:414
+#: src/Containers.jsx:440 src/Containers.jsx:441
 msgid "n/a"
 msgstr "غير متاح"
 
-#: src/Containers.jsx:413 src/Containers.jsx:414
+#: src/Containers.jsx:440 src/Containers.jsx:441
 msgid "not available"
 msgstr "غير متوفر"
 
-#: src/Containers.jsx:1025
+#: src/Containers.jsx:1026
 msgid "pod"
 msgstr "Pod"
 
@@ -1432,7 +1430,7 @@ msgstr "Pod"
 msgid "podman"
 msgstr "Podman"
 
-#: src/Containers.jsx:636
+#: src/Containers.jsx:663
 msgid "ports"
 msgstr "المنافذ"
 
@@ -1441,11 +1439,11 @@ msgstr "المنافذ"
 msgid "seconds"
 msgstr "الثواني"
 
-#: src/Containers.jsx:450 src/Containers.jsx:1026
+#: src/Containers.jsx:477 src/Containers.jsx:1027
 msgid "service"
 msgstr "الخدمة"
 
-#: src/Containers.jsx:476 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
+#: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "system"
 msgstr "النظام"
@@ -1462,12 +1460,12 @@ msgstr "غير مستخدم"
 msgid "user"
 msgstr "المُستخدم"
 
-#: src/Containers.jsx:476 src/Images.jsx:145
+#: src/Containers.jsx:503 src/Images.jsx:145
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "user:"
 msgstr "المستخدم:"
 
-#: src/Containers.jsx:651
+#: src/Containers.jsx:678
 msgid "volumes"
 msgstr "وحدات التخزين"
 

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 13:05+0000\n"
+"POT-Creation-Date: 2026-09-26 07:59+0000\n"
 "PO-Revision-Date: 2026-07-31 19:17+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -56,7 +56,7 @@ msgstr[1] "$0 неиспользуемых образа, $1"
 msgstr[2] "$0 неиспользуемых образов, $1"
 
 #
-#: src/Containers.jsx:434
+#: src/Containers.jsx:461
 msgid "$0% of $1 limit"
 msgstr "$0% от $1 лимита"
 
@@ -68,7 +68,7 @@ msgstr "От 1 до 65535"
 msgid "Action to take once the container transitions to an unhealthy state."
 msgstr "Действие при переходе контейнера в неработоспособное состояние."
 
-#: src/Containers.jsx:734
+#: src/Containers.jsx:760
 msgid "Actions"
 msgstr "Действия"
 
@@ -84,7 +84,7 @@ msgstr "Добавить переменную"
 msgid "Add volume"
 msgstr "Добавить том"
 
-#: src/Containers.jsx:899 src/ImageRunModal.jsx:769 src/ContainerHeader.tsx:39
+#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
 #: src/ImageDeleteModal.jsx:105
 msgid "All"
 msgstr "Все"
@@ -105,7 +105,7 @@ msgstr "Произошла ошибка"
 msgid "Author"
 msgstr "Автор"
 
-#: src/Containers.jsx:609 src/Containers.jsx:612 src/Containers.jsx:731
+#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
 msgid "CPU"
 msgstr "ЦП"
 
@@ -127,13 +127,13 @@ msgstr ""
 "— 1024. Более высокое число повышает приоритет этого контейнера. Более "
 "низкое число снижает приоритет."
 
-#: src/PodCreateModal.jsx:223 src/ContainerCommitModal.jsx:167
-#: src/PruneUnusedImagesModal.jsx:113 src/ImageSearchModal.jsx:226
-#: src/ImageRunModal.jsx:1233 src/ContainerRenameModal.jsx:100
-#: src/ContainerRestoreModal.jsx:73 src/ContainerDeleteModal.jsx:44
-#: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
-#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
-#: src/ImageDeleteModal.jsx:126
+#: src/ForceRemoveModal.jsx:34 src/ContainerCommitModal.jsx:167
+#: src/ContainerRestoreModal.jsx:73 src/PodCreateModal.jsx:223
+#: src/PruneUnusedImagesModal.jsx:113 src/ContainerCheckpointModal.jsx:67
+#: src/ImageSearchModal.jsx:226 src/ImageRunModal.jsx:1233
+#: src/ImageDeleteModal.jsx:126 src/PodActions.jsx:72
+#: src/PruneUnusedContainersModal.jsx:112 src/ContainerRenameModal.jsx:100
+#: src/ContainerDeleteModal.jsx:44
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -153,11 +153,11 @@ msgstr "Поддержка контрольных точек и восстано
 msgid "Checkpoint container $0"
 msgstr "Создать контрольную точку контейнера $0"
 
-#: src/Containers.jsx:627
+#: src/Containers.jsx:654
 msgid "Click to see published ports"
 msgstr "Нажмите, чтобы увидеть опубликованные порты"
 
-#: src/Containers.jsx:642
+#: src/Containers.jsx:669
 msgid "Click to see volumes"
 msgstr "Нажмите, чтобы увидеть тома"
 
@@ -170,8 +170,8 @@ msgid "Cockpit component for Podman containers"
 msgstr "Компонент Cockpit для контейнеров Podman"
 
 #: src/ContainerCommitModal.jsx:117 src/ContainerDetails.jsx:44
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
-#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
+#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086 src/ImageDetails.jsx:56
+#: src/ContainerHealthLogs.jsx:50
 msgid "Command"
 msgstr "Команда"
 
@@ -191,11 +191,11 @@ msgstr "Сохранить контейнер"
 msgid "Configured"
 msgstr "Настроен"
 
-#: src/Containers.jsx:527
+#: src/Containers.jsx:554
 msgid "Console"
 msgstr "Консоль"
 
-#: src/Containers.jsx:729
+#: src/Containers.jsx:755
 msgid "Container"
 msgstr "Контейнер"
 
@@ -235,7 +235,7 @@ msgstr "Порт контейнера"
 msgid "Container port must not be empty"
 msgstr "Порт контейнера не должен быть пустым"
 
-#: src/Containers.jsx:953 src/Containers.jsx:959 src/Containers.jsx:994
+#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
 msgid "Containers"
 msgstr "Контейнеры"
 
@@ -251,7 +251,7 @@ msgstr "Создать новый образ на основе текущего 
 msgid "Create and run"
 msgstr "Создать и запустить"
 
-#: src/Containers.jsx:916 src/Images.jsx:439 src/Images.jsx:448
+#: src/Containers.jsx:917 src/Images.jsx:439 src/Images.jsx:448
 #: src/ImageRunModal.jsx:1219
 msgid "Create container"
 msgstr "Создать контейнер"
@@ -260,17 +260,16 @@ msgstr "Создать контейнер"
 msgid "Create container in $0"
 msgstr "Создать контейнер в $0"
 
-#: src/Containers.jsx:1005
+#: src/Containers.jsx:1006
 msgid "Create container in pod"
 msgstr "Создать контейнер в модуле"
 
-#: src/PodCreateModal.jsx:212 src/Containers.jsx:908
+#: src/Containers.jsx:909 src/PodCreateModal.jsx:212
 msgid "Create pod"
 msgstr "Создать модуль"
 
-#: src/Images.jsx:191 src/ContainerDetails.jsx:81 src/util.tsx:41
-#: src/util.tsx:44 src/ImageHistory.jsx:34
-#: src/PruneUnusedContainersModal.jsx:69
+#: src/Images.jsx:191 src/ContainerDetails.jsx:81 src/ImageHistory.jsx:34
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
 msgid "Created"
 msgstr "Создан"
 
@@ -306,8 +305,8 @@ msgstr "Уменьшить начальный период"
 msgid "Decrease timeout"
 msgstr "Уменьшить таймаут"
 
-#: src/Containers.jsx:290 src/Images.jsx:459 src/ContainerDeleteModal.jsx:43
-#: src/PodActions.jsx:68 src/PodActions.jsx:215
+#: src/Containers.jsx:290 src/Images.jsx:459 src/PodActions.jsx:68
+#: src/PodActions.jsx:215 src/ContainerDeleteModal.jsx:43
 msgid "Delete"
 msgstr "Удалить"
 
@@ -315,7 +314,7 @@ msgstr "Удалить"
 msgid "Delete $0 image?"
 msgstr "Удалить образ $0?"
 
-#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
+#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
 msgid "Delete $0?"
 msgstr "Удалить $0?"
 
@@ -355,7 +354,7 @@ msgstr "Удаление этого модуля приведёт к удале�
 msgid "Description"
 msgstr "Описание"
 
-#: src/Containers.jsx:501 src/Images.jsx:161 src/ImageRunModal.jsx:828
+#: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
 msgstr "Подробности"
 
@@ -396,7 +395,7 @@ msgstr "Переменные среды"
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/Notification.tsx:38 src/Images.jsx:62
+#: src/Images.jsx:62 src/Notification.tsx:38
 msgid "Error message"
 msgstr "Сообщение об ошибке"
 
@@ -568,8 +567,8 @@ msgstr "Принудительно удалить модуль $0?"
 msgid "Force restart"
 msgstr "Принудительный перезапуск"
 
-#: src/Containers.jsx:209 src/ImageRunModal.jsx:65
-#: src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
+#: src/Containers.jsx:209 src/ImageRunModal.jsx:65 src/PodActions.jsx:145
+#: src/ContainerHealthLogs.jsx:32
 msgid "Force stop"
 msgstr "Принудительная остановка"
 
@@ -581,7 +580,7 @@ msgstr "ГБ"
 msgid "Gateway"
 msgstr "Шлюз"
 
-#: src/Containers.jsx:545 src/ImageRunModal.jsx:1084
+#: src/Containers.jsx:572 src/ImageRunModal.jsx:1084
 msgid "Health check"
 msgstr "Проверка состояния"
 
@@ -725,7 +724,7 @@ msgstr "Увеличить начальный период"
 msgid "Increase timeout"
 msgstr "Увеличить таймаут"
 
-#: src/Containers.jsx:508 src/ImageRunModal.jsx:1043
+#: src/Containers.jsx:535 src/ImageRunModal.jsx:1043
 msgid "Integration"
 msgstr "Интеграция"
 
@@ -793,7 +792,7 @@ msgstr "Загрузка данных..."
 msgid "Loading logs..."
 msgstr "Загрузка журналов..."
 
-#: src/Containers.jsx:745 src/Images.jsx:198 src/ImageUsedBy.jsx:15
+#: src/Containers.jsx:771 src/Images.jsx:198 src/ImageUsedBy.jsx:15
 msgid "Loading..."
 msgstr "Загрузка..."
 
@@ -805,7 +804,7 @@ msgstr "Локальный"
 msgid "Local images"
 msgstr "Локальные образы"
 
-#: src/Containers.jsx:513 src/ContainerHealthLogs.jsx:92
+#: src/Containers.jsx:540 src/ContainerHealthLogs.jsx:92
 msgid "Logs"
 msgstr "Журналы"
 
@@ -821,7 +820,7 @@ msgstr "МБ"
 msgid "Maximum retries"
 msgstr "Максимум попыток"
 
-#: src/Containers.jsx:616 src/Containers.jsx:619 src/Containers.jsx:732
+#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
 msgid "Memory"
 msgstr "Память"
 
@@ -872,7 +871,7 @@ msgstr "Нет"
 msgid "No action"
 msgstr "Без действий"
 
-#: src/Containers.jsx:742
+#: src/Containers.jsx:768
 msgid "No containers"
 msgstr "Нет контейнеров"
 
@@ -880,11 +879,11 @@ msgstr "Нет контейнеров"
 msgid "No containers are using this image"
 msgstr "Ни один контейнер не использует этот образ"
 
-#: src/Containers.jsx:743
+#: src/Containers.jsx:769
 msgid "No containers in this pod"
 msgstr "Нет контейнеров в этом модуле"
 
-#: src/Containers.jsx:747
+#: src/Containers.jsx:773
 msgid "No containers that match the current filter"
 msgstr "Нет контейнеров, соответствующих текущему фильтру"
 
@@ -917,7 +916,7 @@ msgstr "Порты не открыты"
 msgid "No results for $0"
 msgstr "Нет результатов для $0"
 
-#: src/Containers.jsx:749
+#: src/Containers.jsx:775
 msgid "No running containers"
 msgstr "Нет работающих контейнеров"
 
@@ -929,7 +928,7 @@ msgstr "Тома не указаны"
 msgid "On failure"
 msgstr "При сбое"
 
-#: src/Containers.jsx:900
+#: src/Containers.jsx:901
 msgid "Only running"
 msgstr "Только работающие"
 
@@ -937,9 +936,9 @@ msgstr "Только работающие"
 msgid "Options"
 msgstr "Параметры"
 
-#: src/PodCreateModal.jsx:171 src/Containers.jsx:730 src/Images.jsx:190
-#: src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
-#: src/ContainerHeader.tsx:32 src/PruneUnusedContainersModal.jsx:75
+#: src/Containers.jsx:756 src/PodCreateModal.jsx:171 src/ContainerHeader.tsx:32
+#: src/Images.jsx:190 src/ImageSearchModal.jsx:147 src/ImageRunModal.jsx:831
+#: src/PruneUnusedContainersModal.jsx:75
 msgid "Owner"
 msgstr "Владелец"
 
@@ -1018,7 +1017,7 @@ msgstr "Очистить"
 msgid "Prune unused containers"
 msgstr "Очистить неиспользуемые контейнеры"
 
-#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
 msgid "Prune unused images"
 msgstr "Очистить неиспользуемые образы"
 
@@ -1079,9 +1078,8 @@ msgstr "Переименовать контейнер $0"
 msgid "Resource limits can be set"
 msgstr "Лимиты ресурсов могут быть установлены"
 
-#: src/Containers.jsx:198 src/Containers.jsx:213 src/util.tsx:41
-#: src/ImageRunModal.jsx:63 src/ContainerHealthLogs.jsx:30
-#: src/PodActions.jsx:152
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/ImageRunModal.jsx:63
+#: src/PodActions.jsx:152 src/util.tsx:41 src/ContainerHealthLogs.jsx:30
 msgid "Restart"
 msgstr "Перезапустить"
 
@@ -1140,7 +1138,7 @@ msgstr "Попробуйте другой запрос."
 msgid "Run health check"
 msgstr "Запустить проверку состояния"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+#: src/ImageUsedBy.jsx:37 src/util.tsx:41 src/util.tsx:44
 msgid "Running"
 msgstr "Работает"
 
@@ -1180,7 +1178,7 @@ msgstr "Поиск: $0"
 msgid "Shared"
 msgstr "Общий"
 
-#: src/Containers.jsx:895
+#: src/Containers.jsx:896
 msgid "Show"
 msgstr "Показать"
 
@@ -1196,7 +1194,7 @@ msgstr "Показать промежуточные образы"
 msgid "Show less"
 msgstr "Показать меньше"
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
 msgid "Show more"
 msgstr "Показать больше"
 
@@ -1220,7 +1218,7 @@ msgstr "Начните вводить текст для поиска образ�
 msgid "Started at"
 msgstr "Запущен в"
 
-#: src/Containers.jsx:733 src/ContainerDetails.jsx:86
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
 msgid "State"
 msgstr "Состояние"
 
@@ -1229,7 +1227,7 @@ msgid "Status"
 msgstr "Статус"
 
 #: src/Containers.jsx:194 src/Containers.jsx:205 src/ImageRunModal.jsx:64
-#: src/ContainerHealthLogs.jsx:31 src/PodActions.jsx:137
+#: src/PodActions.jsx:137 src/ContainerHealthLogs.jsx:31
 msgid "Stop"
 msgstr "Остановить"
 
@@ -1402,15 +1400,15 @@ msgstr "промежуточный"
 msgid "intermediate image"
 msgstr "промежуточный образ"
 
-#: src/Containers.jsx:413 src/Containers.jsx:414
+#: src/Containers.jsx:440 src/Containers.jsx:441
 msgid "n/a"
 msgstr "н/д"
 
-#: src/Containers.jsx:413 src/Containers.jsx:414
+#: src/Containers.jsx:440 src/Containers.jsx:441
 msgid "not available"
 msgstr "недоступно"
 
-#: src/Containers.jsx:1025
+#: src/Containers.jsx:1026
 msgid "pod"
 msgstr "модуль"
 
@@ -1418,7 +1416,7 @@ msgstr "модуль"
 msgid "podman"
 msgstr "podman"
 
-#: src/Containers.jsx:636
+#: src/Containers.jsx:663
 msgid "ports"
 msgstr "порты"
 
@@ -1427,11 +1425,11 @@ msgstr "порты"
 msgid "seconds"
 msgstr "секунды"
 
-#: src/Containers.jsx:450 src/Containers.jsx:1026
+#: src/Containers.jsx:477 src/Containers.jsx:1027
 msgid "service"
 msgstr "служба"
 
-#: src/Containers.jsx:476 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
+#: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "system"
 msgstr "система"
@@ -1448,11 +1446,11 @@ msgstr "неиспользуемый"
 msgid "user"
 msgstr "пользователь"
 
-#: src/Containers.jsx:476 src/Images.jsx:145
+#: src/Containers.jsx:503 src/Images.jsx:145
 #: src/PruneUnusedContainersModal.jsx:35
 msgid "user:"
 msgstr "пользователь:"
 
-#: src/Containers.jsx:651
+#: src/Containers.jsx:678
 msgid "volumes"
 msgstr "тома"
