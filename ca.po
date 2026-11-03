@@ -15,15 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 07:59+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-04 11:18+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
+"Language-Team: Catalan <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-podman/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 2026.11\n"
 
 #: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
 msgid "Delete $0?"
@@ -41,7 +42,7 @@ msgstr ""
 #: src/PruneUnusedContainersModal.jsx:112 src/ContainerRenameModal.jsx:100
 #: src/ContainerDeleteModal.jsx:44
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·la"
 
 #: src/PublishPort.jsx:26
 msgid "Must be a valid IP address"
@@ -101,7 +102,7 @@ msgstr ""
 
 #: src/PublishPort.jsx:135 src/Volume.jsx:87 src/Env.jsx:101
 msgid "Remove item"
-msgstr ""
+msgstr "Treu el dispositiu"
 
 #: src/ContainerCommitModal.jsx:40
 msgid "Image name is required"
@@ -235,11 +236,11 @@ msgstr ""
 
 #: src/Containers.jsx:225 src/PodActions.jsx:199
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
 #: src/Containers.jsx:232 src/PodActions.jsx:184
 msgid "Resume"
-msgstr ""
+msgstr "Reprèn"
 
 #: src/Containers.jsx:245 src/ContainerCheckpointModal.jsx:63
 msgid "Checkpoint"
@@ -276,11 +277,11 @@ msgstr ""
 
 #: src/Containers.jsx:345
 msgid "Terminal not available"
-msgstr ""
+msgstr "Tuned no està disponible"
 
 #: src/Containers.jsx:345
 msgid "This browser does not support WebGL2."
-msgstr ""
+msgstr "Aquest navegador no admet WebGL2."
 
 #: src/Containers.jsx:350
 msgid "View $0 logs"
@@ -301,7 +302,7 @@ msgstr ""
 
 #: src/Containers.jsx:477 src/Containers.jsx:1027
 msgid "service"
-msgstr ""
+msgstr "servei"
 
 #: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
 #: src/PruneUnusedContainersModal.jsx:35
@@ -315,7 +316,7 @@ msgstr ""
 
 #: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
 msgid "Details"
-msgstr ""
+msgstr "Detalls"
 
 #: src/Containers.jsx:535 src/ImageRunModal.jsx:1043
 msgid "Integration"
@@ -373,7 +374,7 @@ msgstr ""
 
 #: src/Containers.jsx:760
 msgid "Actions"
-msgstr ""
+msgstr "Aplicacions"
 
 #: src/Containers.jsx:768
 msgid "No containers"
@@ -427,7 +428,7 @@ msgstr ""
 
 #: src/Containers.jsx:1026
 msgid "pod"
-msgstr ""
+msgstr "pod"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -536,7 +537,7 @@ msgstr ""
 
 #: src/Volume.jsx:74
 msgid "SELinux"
-msgstr ""
+msgstr "SELinux"
 
 #: src/Volume.jsx:78
 msgid "No label"
@@ -584,7 +585,7 @@ msgstr ""
 
 #: src/Images.jsx:62 src/Notification.tsx:38
 msgid "Error message"
-msgstr ""
+msgstr "Missatges del registre"
 
 #: src/Images.jsx:93 src/Images.jsx:100
 msgid "unused"
@@ -611,7 +612,7 @@ msgstr ""
 
 #: src/Images.jsx:192 src/ContainerDetails.jsx:35
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/Images.jsx:193
 msgid "Disk space"
@@ -1152,7 +1153,7 @@ msgstr ""
 
 #: src/ImageDetails.jsx:40
 msgid "Version"
-msgstr ""
+msgstr "Versió"
 
 #: src/ImageDetails.jsx:46
 msgid "Links"
@@ -1333,7 +1334,7 @@ msgstr ""
 
 #: src/util.tsx:41
 msgid "Removing"
-msgstr ""
+msgstr "Eliminant"
 
 #: src/util.tsx:41
 msgid "Configured"
@@ -1341,7 +1342,7 @@ msgstr ""
 
 #: src/util.tsx:44
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/ContainerHealthLogs.jsx:25
 msgid "$0 second"
@@ -1351,7 +1352,7 @@ msgstr[1] ""
 
 #: src/ContainerHealthLogs.jsx:46
 msgid "Status"
-msgstr ""
+msgstr "Estat"
 
 #: src/ContainerHealthLogs.jsx:74
 msgid "Failing streak"
