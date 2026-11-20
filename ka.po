@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 10:01+0000\n"
+"POT-Creation-Date: 2026-11-20 10:27+0000\n"
 "PO-Revision-Date: 2026-03-25 02:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -44,234 +44,62 @@ msgstr "დამყარებული TCP კავშირების შ
 msgid "Checkpoint"
 msgstr "საკონტროლო წერტილი"
 
-#: src/ContainerCheckpointModal.jsx:67 src/ContainerDeleteModal.jsx:44
-#: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
-#: src/ContainerRenameModal.jsx:100 src/ImageDeleteModal.jsx:126
+#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
+#: src/ForceRemoveModal.jsx:34 src/ContainerRenameModal.jsx:100
+#: src/ImageSearchModal.jsx:226 src/PodActions.jsx:72
 #: src/PodCreateModal.jsx:223 src/ContainerRestoreModal.jsx:73
-#: src/PruneUnusedImagesModal.jsx:113 src/ImageRunModal.jsx:1233
-#: src/ImageSearchModal.jsx:226 src/PruneUnusedContainersModal.jsx:112
-#: src/ContainerCommitModal.jsx:167
+#: src/ContainerCommitModal.jsx:167 src/ImageRunModal.jsx:1233
+#: src/ImageDeleteModal.jsx:126 src/ContainerDeleteModal.jsx:44
+#: src/PruneUnusedImagesModal.jsx:113
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: src/ContainerDeleteModal.jsx:26
-msgid "Failed to remove container $0"
-msgstr "კონტეინერის ($0) წაშლის შეცდომა"
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503 src/app.jsx:51
+#: src/app.jsx:677 src/Images.jsx:145
+msgid "system"
+msgstr "სისტემა"
 
-#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
-msgid "Delete $0?"
-msgstr "წავშალო $0?"
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503
+#: src/Images.jsx:145
+msgid "user:"
+msgstr "მომხმარებელი:"
 
-#: src/ContainerDeleteModal.jsx:40
-msgid "Deleting a container will erase all data in it."
-msgstr "კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
+#: src/PruneUnusedContainersModal.jsx:61
+msgid "Failed to prune unused containers"
+msgstr "გამოუყენებელი კონტეინერების წაკვეთის შეცდომა"
 
-#: src/ContainerDeleteModal.jsx:43 src/PodActions.jsx:68 src/PodActions.jsx:215
-#: src/Containers.jsx:290 src/Images.jsx:459
-msgid "Delete"
-msgstr "წაშლა"
+#: src/PruneUnusedContainersModal.jsx:68 src/PodCreateModal.jsx:153
+#: src/ImageRunModal.jsx:810
+msgid "Name"
+msgstr "სახელი"
 
-#: src/ContainerDetails.jsx:16
-msgid "Up since:"
-msgstr "აქტიურია საიდან:"
-
-#: src/ContainerDetails.jsx:18 src/util.tsx:41 src/util.tsx:44
-msgid "Exited"
-msgstr "გამოსული"
-
-#: src/ContainerDetails.jsx:35 src/Images.jsx:192
-msgid "ID"
-msgstr "ID"
-
-#: src/ContainerDetails.jsx:39 src/Images.jsx:189 src/ImageRunModal.jsx:881
-msgid "Image"
-msgstr "გამოსახულება"
-
-#: src/ContainerDetails.jsx:44 src/ImageDetails.jsx:56
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
-#: src/ContainerHealthLogs.jsx:50 src/ContainerCommitModal.jsx:117
-msgid "Command"
-msgstr "ბრძანება"
-
-#: src/ContainerDetails.jsx:50
-msgid "systemd service"
-msgstr "systemd-ის სერვისი"
-
-#: src/ContainerDetails.jsx:54
-msgid "View $0"
-msgstr "$0-ის ნახვა"
-
-#: src/ContainerDetails.jsx:64 src/PublishPort.jsx:57
-msgid "IP address"
-msgstr "IP მისამართი"
-
-#: src/ContainerDetails.jsx:68
-msgid "Gateway"
-msgstr "ნაგულისხმები რაუტერი"
-
-#: src/ContainerDetails.jsx:72
-msgid "MAC address"
-msgstr "MAC მისამართი"
-
-#: src/ContainerDetails.jsx:81 src/Images.jsx:191 src/util.tsx:41
-#: src/util.tsx:44 src/ImageHistory.jsx:34
-#: src/PruneUnusedContainersModal.jsx:69
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
+#: src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81 src/Images.jsx:191
 msgid "Created"
 msgstr "შექმნილია"
 
-#: src/ContainerDetails.jsx:86 src/Containers.jsx:759
-msgid "State"
-msgstr "მდგომარეობა"
+#: src/PruneUnusedContainersModal.jsx:75 src/Containers.jsx:756
+#: src/ImageSearchModal.jsx:147 src/ContainerHeader.tsx:32
+#: src/PodCreateModal.jsx:171 src/ImageRunModal.jsx:831 src/Images.jsx:190
+msgid "Owner"
+msgstr "მფლობელი"
 
-#: src/ContainerDetails.jsx:90
-msgid "Latest checkpoint"
-msgstr "უახლესი საკონტროლო წერტილი"
+#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
+msgid "Prune unused containers"
+msgstr "გამოუყენებელი კონტეინერების წაკვეთა"
 
-#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
-msgid "Force delete"
-msgstr "ძალით წაშლა"
+#: src/PruneUnusedContainersModal.jsx:96
+msgid "Removes selected non-running containers"
+msgstr "მონიშნული არა-გაშვებული კონტეინერების წაშლა"
 
-#: src/ContainerLogs.jsx:46
-msgid "Loading logs..."
-msgstr "ჟურნალის ჩატვირთვა..."
+#: src/PruneUnusedContainersModal.jsx:106
+#: src/PruneUnusedContainersModal.jsx:110
+msgid "Pruning containers"
+msgstr "კონტეინერების წაკვეთა"
 
-#: src/PodActions.jsx:48
-msgid "Force delete pod $0?"
-msgstr "წავშლო ძალით პოდი $0?"
-
-#: src/PodActions.jsx:49
-msgid "Delete pod $0?"
-msgstr "წავშალო პოდი $0?"
-
-#: src/PodActions.jsx:53
-msgid "An error occurred"
-msgstr "აღმოჩენილია შეცდომა"
-
-#: src/PodActions.jsx:55
-msgid "Empty pod $0 will be permanently removed."
-msgstr "ცარიელი პოდი $0 სამუდამოდ წაიშლება."
-
-#: src/PodActions.jsx:59
-msgid "Deleting this pod will remove the following containers:"
-msgstr "ამ Pod-ის წაშლა ასევე წაშლის შემდეგ კონტეინერებს:"
-
-#: src/PodActions.jsx:85 src/PodActions.jsx:91
-msgid "Failed to start pod $0"
-msgstr "pod-ს ($0) გაშვების შეცდომა"
-
-#: src/PodActions.jsx:100 src/PodActions.jsx:107
-msgid "Failed to stop pod $0"
-msgstr "pod-ის ($0) გაჩერების შეცდომა"
-
-#: src/PodActions.jsx:117 src/PodActions.jsx:124
-msgid "Failed to restart pod $0"
-msgstr "Pod-ის ($0) რესტარტის შეცდომა"
-
-#: src/PodActions.jsx:137 src/Containers.jsx:194 src/Containers.jsx:205
-#: src/ImageRunModal.jsx:64 src/ContainerHealthLogs.jsx:31
-msgid "Stop"
-msgstr "გაჩერება"
-
-#: src/PodActions.jsx:145 src/Containers.jsx:209 src/ImageRunModal.jsx:65
-#: src/ContainerHealthLogs.jsx:32
-msgid "Force stop"
-msgstr "ძალით გაჩერება"
-
-#: src/PodActions.jsx:152 src/Containers.jsx:198 src/Containers.jsx:213
-#: src/ImageRunModal.jsx:63 src/util.tsx:41 src/ContainerHealthLogs.jsx:30
-msgid "Restart"
-msgstr "გადატვირთვა"
-
-#: src/PodActions.jsx:160 src/Containers.jsx:217
-msgid "Force restart"
-msgstr "ძალით რესტარტი"
-
-#: src/PodActions.jsx:169 src/Containers.jsx:255
-msgid "Start"
-msgstr "დაწყება"
-
-#: src/PodActions.jsx:180
-msgid "Failed to resume pod $0"
-msgstr "Pod-ის ($0) გაგრძელების შეცდომა"
-
-#: src/PodActions.jsx:184 src/Containers.jsx:232
-msgid "Resume"
-msgstr "გაგრძელება"
-
-#: src/PodActions.jsx:195
-msgid "Failed to pause pod $0"
-msgstr "Pod-ის ($0) შეჩერების შეცდომა"
-
-#: src/PodActions.jsx:199 src/Containers.jsx:225
-msgid "Pause"
-msgstr "პაუზა"
-
-#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
-msgid "Container name is required."
-msgstr "კონტეინერის სახელი აუცილებელია."
-
-#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
-msgid ""
-"Invalid characters. Name can only contain letters, numbers, and certain "
-"punctuation (_ . -)."
-msgstr ""
-"არასწორი სიმბოლოები. სახელი მხოლოდ ასოებს, ციფრებს და ზოგიერთ პუნქტუაციის "
-"ნიშანს (_,-) შეიძლება შეიცავდეს."
-
-#: src/ContainerRenameModal.jsx:52
-msgid "Failed to rename container $0"
-msgstr "კონტეინერის ($0) სახელის გადარქმევის შეცდომა"
-
-#: src/ContainerRenameModal.jsx:66
-msgid "New container name"
-msgstr "ახალი კონტეინერის სახელი"
-
-#: src/ContainerRenameModal.jsx:84
-msgid "Rename container $0"
-msgstr "კონტეინერის სახელის გადარქმევა ($0)"
-
-#: src/ContainerRenameModal.jsx:95 src/Containers.jsx:182
-msgid "Rename"
-msgstr "გადარქმევა"
-
-#: src/ImageDeleteModal.jsx:53
-msgid "Failed to force remove image $0"
-msgstr "გამოსახულების ($0) ძალით წაშლა შეუძლებელია"
-
-#: src/ImageDeleteModal.jsx:65
-msgid "intermediate image"
-msgstr "შუალედური დისკის ასლი"
-
-#: src/ImageDeleteModal.jsx:79
-msgid "Failed to remove image $0"
-msgstr "გამოსახულების ($0) წაშლის შეცდომა"
-
-#: src/ImageDeleteModal.jsx:85
-msgid "intermediate"
-msgstr "შუალედური"
-
-#: src/ImageDeleteModal.jsx:98
-msgid "Delete $0 image?"
-msgstr "წავშალო $0 დისკის ასლი?"
-
-#: src/ImageDeleteModal.jsx:103
-msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr ""
-"ამ გამოსახულებას მრავალი ჭდე გააჩნია. წასაშლელად მონიშნეთ ჭდეებიანი "
-"გამოსახულებები."
-
-#: src/ImageDeleteModal.jsx:105 src/Containers.jsx:900
-#: src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
-msgid "All"
-msgstr "ყველა"
-
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete image"
-msgstr "დისკის ასლის წაშლა"
-
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete tagged images"
-msgstr "ჭდეებიანი გამოსახულებების წაშლა"
+#: src/PruneUnusedContainersModal.jsx:110 src/PruneUnusedImagesModal.jsx:111
+msgid "Prune"
+msgstr "შეკვეცა"
 
 #: src/Containers.jsx:62
 msgid "Failed to force remove container $0"
@@ -313,6 +141,41 @@ msgstr "კონტეინერის ($0) რესტარტის შ�
 msgid "Failed to restart quadlet $0"
 msgstr "quadlet-ის ($0) რესტარტის შეცდომა"
 
+#: src/Containers.jsx:182 src/ContainerRenameModal.jsx:95
+msgid "Rename"
+msgstr "გადარქმევა"
+
+#: src/Containers.jsx:194 src/Containers.jsx:205 src/ContainerHealthLogs.jsx:31
+#: src/PodActions.jsx:137 src/ImageRunModal.jsx:64
+msgid "Stop"
+msgstr "გაჩერება"
+
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/ContainerHealthLogs.jsx:30
+#: src/util.tsx:41 src/PodActions.jsx:152 src/ImageRunModal.jsx:63
+msgid "Restart"
+msgstr "გადატვირთვა"
+
+#: src/Containers.jsx:209 src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
+#: src/ImageRunModal.jsx:65
+msgid "Force stop"
+msgstr "ძალით გაჩერება"
+
+#: src/Containers.jsx:217 src/PodActions.jsx:160
+msgid "Force restart"
+msgstr "ძალით რესტარტი"
+
+#: src/Containers.jsx:225 src/PodActions.jsx:199
+msgid "Pause"
+msgstr "პაუზა"
+
+#: src/Containers.jsx:232 src/PodActions.jsx:184
+msgid "Resume"
+msgstr "გაგრძელება"
+
+#: src/Containers.jsx:255 src/PodActions.jsx:169
+msgid "Start"
+msgstr "დაწყება"
+
 #: src/Containers.jsx:266 src/ContainerRestoreModal.jsx:69
 msgid "Restore"
 msgstr "აღდგენა"
@@ -320,6 +183,11 @@ msgstr "აღდგენა"
 #: src/Containers.jsx:281 src/ContainerCommitModal.jsx:154
 msgid "Commit"
 msgstr "გადაცემა"
+
+#: src/Containers.jsx:290 src/PodActions.jsx:68 src/PodActions.jsx:215
+#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
+msgid "Delete"
+msgstr "წაშლა"
 
 #: src/Containers.jsx:312
 msgid "Healthy"
@@ -332,10 +200,6 @@ msgstr "ჯანმრთელი არაა"
 #: src/Containers.jsx:316
 msgid "Checking health"
 msgstr "ჯანმრთელობის შემოწმება"
-
-#: src/Containers.jsx:330 src/PruneUnusedContainersModal.jsx:94
-msgid "Prune unused containers"
-msgstr "გამოუყენებელი კონტეინერების წაკვეთა"
 
 #: src/Containers.jsx:345
 msgid "Terminal not available"
@@ -365,17 +229,7 @@ msgstr "$0% o $1-დან ლიმიტი"
 msgid "service"
 msgstr "სერვისი"
 
-#: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
-#: src/PruneUnusedContainersModal.jsx:35
-msgid "system"
-msgstr "სისტემა"
-
-#: src/Containers.jsx:503 src/Images.jsx:145
-#: src/PruneUnusedContainersModal.jsx:35
-msgid "user:"
-msgstr "მომხმარებელი:"
-
-#: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
+#: src/Containers.jsx:528 src/ImageRunModal.jsx:828 src/Images.jsx:161
 msgid "Details"
 msgstr "დეტალები"
 
@@ -423,11 +277,9 @@ msgstr "ტომები"
 msgid "Container"
 msgstr "კონტეინერი"
 
-#: src/Containers.jsx:756 src/ContainerHeader.tsx:32 src/PodCreateModal.jsx:171
-#: src/Images.jsx:190 src/ImageRunModal.jsx:831 src/ImageSearchModal.jsx:147
-#: src/PruneUnusedContainersModal.jsx:75
-msgid "Owner"
-msgstr "მფლობელი"
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
+msgid "State"
+msgstr "მდგომარეობა"
 
 #: src/Containers.jsx:760
 msgid "Actions"
@@ -441,7 +293,7 @@ msgstr "კონტეიენერების გარეშე"
 msgid "No containers in this pod"
 msgstr "ამ Pod-ში კონტეინერები არაა"
 
-#: src/Containers.jsx:771 src/Images.jsx:198 src/ImageUsedBy.jsx:15
+#: src/Containers.jsx:771 src/ImageUsedBy.jsx:15 src/Images.jsx:198
 msgid "Loading..."
 msgstr "ჩატვირთვა..."
 
@@ -457,6 +309,11 @@ msgstr "გაშვებული კონტეინერების გ�
 msgid "Show"
 msgstr "ჩვენება"
 
+#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
+#: src/ImageDeleteModal.jsx:105
+msgid "All"
+msgstr "ყველა"
+
 #: src/Containers.jsx:901
 msgid "Only running"
 msgstr "მხოლოდ გაშვებული"
@@ -465,8 +322,8 @@ msgstr "მხოლოდ გაშვებული"
 msgid "Create pod"
 msgstr "pod-ის შექმნა"
 
-#: src/Containers.jsx:917 src/Images.jsx:439 src/Images.jsx:448
-#: src/ImageRunModal.jsx:1219
+#: src/Containers.jsx:917 src/ImageRunModal.jsx:1219 src/Images.jsx:439
+#: src/Images.jsx:448
 msgid "Create container"
 msgstr "კონტეინერის შექმნა"
 
@@ -481,6 +338,335 @@ msgstr "pod-ში კონტეინერის შექმნა"
 #: src/Containers.jsx:1026
 msgid "pod"
 msgstr "pod"
+
+#: src/PublishPort.jsx:26
+msgid "Must be a valid IP address"
+msgstr "უნდა იყოს სწორი IP მისამართი"
+
+#: src/PublishPort.jsx:32 src/PublishPort.jsx:43
+msgid "1 to 65535"
+msgstr "1-დან 65535-მდე"
+
+#: src/PublishPort.jsx:39
+msgid "Container port must not be empty"
+msgstr "კონტეინერის პორტი არ შეიძლება ცარიელი იყოს"
+
+#: src/PublishPort.jsx:57 src/ContainerDetails.jsx:64
+msgid "IP address"
+msgstr "IP მისამართი"
+
+#: src/PublishPort.jsx:60
+msgid "IP address help"
+msgstr "IP მისამართის დახმარება"
+
+#: src/PublishPort.jsx:62
+msgid ""
+"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
+"all IPs on the host."
+msgstr ""
+"თუ ჰოსტის IP დაყენებულია 0.0.0.0-ზე, ან დაყენებული არაა, პორტი ჰოსტზე "
+"არსებულ ყველა IP-ზე იქნება მიმაგრებული."
+
+#: src/PublishPort.jsx:78
+msgid "Host port"
+msgstr "ჰოსტის პორტი"
+
+#: src/PublishPort.jsx:81
+msgid "Host port help"
+msgstr "ჰოსტის პორტის დახმარება"
+
+#: src/PublishPort.jsx:83
+msgid ""
+"If the host port is not set the container port will be randomly assigned a "
+"port on the host."
+msgstr ""
+"თუ ჰოსტის პორტი დაყენებული არაა, კონტეინერის პორტი ჰოსტზე შემთხვევითად "
+"იქნება არჩეული."
+
+#: src/PublishPort.jsx:103
+msgid "Container port"
+msgstr "კონტეინერის პორტი"
+
+#: src/PublishPort.jsx:120
+msgid "Protocol"
+msgstr "პროტოკოლი"
+
+#: src/PublishPort.jsx:126
+msgid "TCP"
+msgstr "TCP"
+
+#: src/PublishPort.jsx:127
+msgid "UDP"
+msgstr "UDP"
+
+#: src/PublishPort.jsx:135 src/Env.jsx:101 src/Volume.jsx:87
+msgid "Remove item"
+msgstr "ელემენტის წაშლა"
+
+#: src/ContainerHealthLogs.jsx:25
+msgid "$0 second"
+msgid_plural "$0 seconds"
+msgstr[0] "$0 წამი"
+msgstr[1] "$0 წამი"
+
+#: src/ContainerHealthLogs.jsx:29 src/ImageRunModal.jsx:62
+msgid "No action"
+msgstr "ქმედების გარეშე"
+
+#: src/ContainerHealthLogs.jsx:46
+msgid "Status"
+msgstr "სტატუსი"
+
+#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
+#: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
+#: src/ImageRunModal.jsx:1086 src/ContainerDetails.jsx:44
+msgid "Command"
+msgstr "ბრძანება"
+
+#: src/ContainerHealthLogs.jsx:54 src/ImageRunModal.jsx:1092
+msgid "Interval"
+msgstr "ინტერვალი"
+
+#: src/ContainerHealthLogs.jsx:58 src/ImageRunModal.jsx:1161
+msgid "Retries"
+msgstr "თავიდან ცდები"
+
+#: src/ContainerHealthLogs.jsx:62 src/ImageRunModal.jsx:1138
+msgid "Start period"
+msgstr "გაშვების პერიოდი"
+
+#: src/ContainerHealthLogs.jsx:66 src/ImageRunModal.jsx:1115
+msgid "Timeout"
+msgstr "დროის ამოწურვა"
+
+#: src/ContainerHealthLogs.jsx:70 src/ImageRunModal.jsx:1181
+msgid "When unhealthy"
+msgstr "როცა ჯანმრთელი არაა"
+
+#: src/ContainerHealthLogs.jsx:74
+msgid "Failing streak"
+msgstr "მრავალჯერადი წარუმატებლობა"
+
+#: src/ContainerHealthLogs.jsx:84
+msgid "Failed to run health check on container $0"
+msgstr "კონტეინერის ($0) ჯანმრთელობის შემოწმების შეცდომა"
+
+#: src/ContainerHealthLogs.jsx:88
+msgid "Run health check"
+msgstr "ჯანმრთელობის შემოწმების გაშვება"
+
+#: src/ContainerHealthLogs.jsx:95
+msgid "Last 5 runs"
+msgstr "ბოლო 5 გაშვება"
+
+#: src/ContainerHealthLogs.jsx:95
+msgid "Started at"
+msgstr "გაშვების დრო"
+
+#: src/ContainerHealthLogs.jsx:105
+msgid "Passed health run"
+msgstr "ჯანმრთელობის შემოწმება წარმატებულია"
+
+#: src/ContainerHealthLogs.jsx:105
+msgid "Failed health run"
+msgstr "ჯანმრთელობის შემოწმების შეცდომა"
+
+#: src/ContainerTerminal.jsx:250
+msgid "Container is not running"
+msgstr "კონტეინერი გაშვებული არაა"
+
+#: src/ContainerTerminal.jsx:254
+msgid "Error occurred while connecting console"
+msgstr "კონსოლთან დაკავშირების შეცდომა"
+
+#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
+msgid "Delete $0?"
+msgstr "წავშალო $0?"
+
+#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
+msgid "Force delete"
+msgstr "ძალით წაშლა"
+
+#: src/Env.jsx:22
+msgid "Key must not be empty"
+msgstr "გასაღები არ შეიძლება, ცარიელი იყოს"
+
+#: src/Env.jsx:24
+msgid "Key must not begin with a digit"
+msgstr "გასაღები ციფრით არ უნდა იწყებოდეს"
+
+#: src/Env.jsx:26
+msgid "Key contains invalid characters"
+msgstr "გასაღები არასწორ სიმბოლოებს შეიცავს"
+
+#: src/Env.jsx:67
+msgid "Key"
+msgstr "გასაღები"
+
+#: src/Env.jsx:83
+msgid "Value"
+msgstr "მნიშვნელობა"
+
+#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
+msgid "Container name is required."
+msgstr "კონტეინერის სახელი აუცილებელია."
+
+#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+msgid ""
+"Invalid characters. Name can only contain letters, numbers, and certain "
+"punctuation (_ . -)."
+msgstr ""
+"არასწორი სიმბოლოები. სახელი მხოლოდ ასოებს, ციფრებს და ზოგიერთ პუნქტუაციის "
+"ნიშანს (_,-) შეიძლება შეიცავდეს."
+
+#: src/ContainerRenameModal.jsx:52
+msgid "Failed to rename container $0"
+msgstr "კონტეინერის ($0) სახელის გადარქმევის შეცდომა"
+
+#: src/ContainerRenameModal.jsx:66
+msgid "New container name"
+msgstr "ახალი კონტეინერის სახელი"
+
+#: src/ContainerRenameModal.jsx:84
+msgid "Rename container $0"
+msgstr "კონტეინერის სახელის გადარქმევა ($0)"
+
+#: src/app.jsx:51
+msgid "user"
+msgstr "მომხმარებელი"
+
+#: src/app.jsx:690 src/ImageRunModal.jsx:855
+msgid "User"
+msgstr "მომხმარებელი"
+
+#: src/app.jsx:842
+msgid "Podman service failed"
+msgstr "Podman-ის სერვისი ჩავარდა"
+
+#: src/app.jsx:846
+msgid "Troubleshoot"
+msgstr "პრობლემების პოვნა"
+
+#: src/ImageDetails.jsx:34
+msgid "Description"
+msgstr "აღწერა"
+
+#: src/ImageDetails.jsx:40
+msgid "Version"
+msgstr "ვერსია"
+
+#: src/ImageDetails.jsx:46
+msgid "Links"
+msgstr "ბმულები"
+
+#: src/ImageDetails.jsx:49
+msgid "Documentation"
+msgstr "დოკუმენტაცია"
+
+#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
+msgid "Entrypoint"
+msgstr "შესავალი წერტილი"
+
+#: src/ImageDetails.jsx:68
+msgid "Tags"
+msgstr "ჭდეები"
+
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
+msgid "Used by"
+msgstr "გამოიყენება"
+
+#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
+msgid "Ports"
+msgstr "პორტები"
+
+#: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:389
+msgid "Failed to search for new images"
+msgstr "ახალი გამოსახულებების ძებნის შეცდომა"
+
+#: src/ImageSearchModal.jsx:98 src/ImageRunModal.jsx:391
+msgid "Failed to search for images: $0"
+msgstr "გამოსახულების ძებნის შეცდომა: $0"
+
+#: src/ImageSearchModal.jsx:98 src/ImageRunModal.jsx:391
+msgid "Failed to search for images."
+msgstr "გამოსახულებების ძებნის შეცდომა."
+
+#: src/ImageSearchModal.jsx:142
+msgid "Search for an image"
+msgstr "გამოსახულების ძებნა"
+
+#: src/ImageSearchModal.jsx:158
+msgid "Search for"
+msgstr "ძებნა"
+
+#: src/ImageSearchModal.jsx:161
+msgid "Search by name or description"
+msgstr "სახელით ან აღწერით ძებნა"
+
+#: src/ImageSearchModal.jsx:166
+msgid "in"
+msgstr "-ში"
+
+#: src/ImageSearchModal.jsx:170
+msgid "All registries"
+msgstr "ყველა რეგისტრები"
+
+#: src/ImageSearchModal.jsx:177
+msgid "Searching..."
+msgstr "ძებნა..."
+
+#: src/ImageSearchModal.jsx:179 src/ImageRunModal.jsx:899
+#: src/ImageRunModal.jsx:900
+msgid "No images found"
+msgstr "გამოსახულებების გარეშე"
+
+#: src/ImageSearchModal.jsx:179
+msgid "Start typing to look for images."
+msgstr "გამოსახულებების მოსაძებნად დაიწყეთ მისი სახელის კრეფა."
+
+#: src/ImageSearchModal.jsx:183
+msgid "No results for $0"
+msgstr "პასუხების გარეშე $0-თვის"
+
+#: src/ImageSearchModal.jsx:184
+msgid "Retry another term."
+msgstr "სხვა სიტყვა სცადეთ."
+
+#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
+msgid "Tag"
+msgstr "ჭდე"
+
+#: src/ImageSearchModal.jsx:223
+msgid "Download"
+msgstr "გადმოწერა"
+
+#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
+msgid "Exited"
+msgstr "გამოსული"
+
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Paused"
+msgstr "შეჩერებულია"
+
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Stopped"
+msgstr "გაჩერებულია"
+
+#: src/util.tsx:41
+msgid "Removing"
+msgstr "წაშლა"
+
+#: src/util.tsx:41
+msgid "Configured"
+msgstr "მორგებულია"
+
+#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+msgid "Running"
+msgstr "გაშვებულია"
+
+#: src/util.tsx:44
+msgid "Error"
+msgstr "შეცდომა"
 
 #: src/Volume.jsx:26
 msgid "Container path must not be empty"
@@ -518,42 +704,73 @@ msgstr "გაზიარებული"
 msgid "Private"
 msgstr "პირადი"
 
-#: src/Volume.jsx:87 src/Env.jsx:101 src/PublishPort.jsx:135
-msgid "Remove item"
-msgstr "ელემენტის წაშლა"
-
 #: src/ContainerHeader.tsx:46
 msgid "Type to filter…"
 msgstr "გაფილტვრისთვის აკრიფეთ…"
 
-#: src/Env.jsx:22
-msgid "Key must not be empty"
-msgstr "გასაღები არ შეიძლება, ცარიელი იყოს"
+#: src/ImageHistory.jsx:34
+msgid "Created by"
+msgstr "ავტორი"
 
-#: src/Env.jsx:24
-msgid "Key must not begin with a digit"
-msgstr "გასაღები ციფრით არ უნდა იწყებოდეს"
+#: src/ImageHistory.jsx:34
+msgid "Size"
+msgstr "ზომა"
 
-#: src/Env.jsx:26
-msgid "Key contains invalid characters"
-msgstr "გასაღები არასწორ სიმბოლოებს შეიცავს"
+#: src/ImageHistory.jsx:34
+msgid "Comments"
+msgstr "კომენტარები"
 
-#: src/Env.jsx:67
-msgid "Key"
-msgstr "გასაღები"
+#: src/ImageHistory.jsx:60
+msgid "Unable to load image history"
+msgstr "გამოსახულების ისტორიის ჩატვირთვის შეცდომა"
 
-#: src/Env.jsx:83
-msgid "Value"
-msgstr "მნიშვნელობა"
+#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
+msgid "Loading details..."
+msgstr "დეტალების ჩატვირთვა..."
+
+#: src/PodActions.jsx:48
+msgid "Force delete pod $0?"
+msgstr "წავშლო ძალით პოდი $0?"
+
+#: src/PodActions.jsx:49
+msgid "Delete pod $0?"
+msgstr "წავშალო პოდი $0?"
+
+#: src/PodActions.jsx:53
+msgid "An error occurred"
+msgstr "აღმოჩენილია შეცდომა"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr "ცარიელი პოდი $0 სამუდამოდ წაიშლება."
+
+#: src/PodActions.jsx:59
+msgid "Deleting this pod will remove the following containers:"
+msgstr "ამ Pod-ის წაშლა ასევე წაშლის შემდეგ კონტეინერებს:"
+
+#: src/PodActions.jsx:85 src/PodActions.jsx:91
+msgid "Failed to start pod $0"
+msgstr "pod-ს ($0) გაშვების შეცდომა"
+
+#: src/PodActions.jsx:100 src/PodActions.jsx:107
+msgid "Failed to stop pod $0"
+msgstr "pod-ის ($0) გაჩერების შეცდომა"
+
+#: src/PodActions.jsx:117 src/PodActions.jsx:124
+msgid "Failed to restart pod $0"
+msgstr "Pod-ის ($0) რესტარტის შეცდომა"
+
+#: src/PodActions.jsx:180
+msgid "Failed to resume pod $0"
+msgstr "Pod-ის ($0) გაგრძელების შეცდომა"
+
+#: src/PodActions.jsx:195
+msgid "Failed to pause pod $0"
+msgstr "Pod-ის ($0) შეჩერების შეცდომა"
 
 #: src/PodCreateModal.jsx:97
 msgid "Pod failed to be created"
 msgstr "Pod-ის შექმნის შეცდომა"
-
-#: src/PodCreateModal.jsx:153 src/ImageRunModal.jsx:810
-#: src/PruneUnusedContainersModal.jsx:68
-msgid "Name"
-msgstr "სახელი"
 
 #: src/PodCreateModal.jsx:156
 msgid "Pod name"
@@ -597,95 +814,9 @@ msgstr "საცავის დამატება"
 msgid "Create"
 msgstr "შექმნა"
 
-#: src/Images.jsx:60
-msgid "Failed to download image $0:$1"
-msgstr "გამოსახულების ($0) გადმოწერის შეცდომა: $1"
-
-#: src/Images.jsx:62 src/Notification.tsx:38
+#: src/Notification.tsx:38 src/Images.jsx:62
 msgid "Error message"
 msgstr "შეცდომის შეტყობინება"
-
-#: src/Images.jsx:93 src/Images.jsx:100
-msgid "unused"
-msgstr "გამოუყენებელი"
-
-#: src/Images.jsx:97
-msgid "$0 container"
-msgid_plural "$0 containers"
-msgstr[0] "$0 ცალი კონტეინერი"
-msgstr[1] "$0 კონტეინერი"
-
-#: src/Images.jsx:170
-msgid "History"
-msgstr "ისტორია"
-
-#: src/Images.jsx:193
-msgid "Disk space"
-msgstr "ადგილი დისკზე"
-
-#: src/Images.jsx:194 src/ImageDetails.jsx:74
-msgid "Used by"
-msgstr "გამოიყენება"
-
-#: src/Images.jsx:196
-msgid "No images"
-msgstr "გამოსახულებების გარეშე"
-
-#: src/Images.jsx:200
-msgid "No images that match the current filter"
-msgstr "მიმდინარე ფილტრს არცერთი გამოსახულება არ შეესაბამება"
-
-#: src/Images.jsx:277
-msgid "Hide intermediate images"
-msgstr "შუალედური გამოსახულებების დამალვა"
-
-#: src/Images.jsx:277
-msgid "Show intermediate images"
-msgstr "შუალედური გამოსახულებების ჩვენება"
-
-#: src/Images.jsx:283 src/Images.jsx:315
-msgid "Images"
-msgstr "გამოსახულებები"
-
-#: src/Images.jsx:298
-msgid "$0 image total, $1"
-msgid_plural "$0 images total, $1"
-msgstr[0] "$0 ცალი გამოსახულება, $1"
-msgstr[1] "$0 გამოსახულება, $1"
-
-#: src/Images.jsx:302
-msgid "$0 unused image, $1"
-msgid_plural "$0 unused images, $1"
-msgstr[0] "$0 ცალი გამოუყენებელი გამოსახულება, $1"
-msgstr[1] "$0 გამოუყენებელი გამოსახულება, $1"
-
-#: src/Images.jsx:330
-msgid "Hide images"
-msgstr "გამოსახულებების დამალვა"
-
-#: src/Images.jsx:330
-msgid "Show images"
-msgstr "გამოსახულებების ჩვენება"
-
-#: src/Images.jsx:353
-msgid "Pulling"
-msgstr "გამოწევა"
-
-#: src/Images.jsx:367
-msgid "Download new image"
-msgstr "ახალი გამოსახულების გადმოწერა"
-
-#: src/Images.jsx:374
-msgid "Pull all images"
-msgstr "ყველა დისკის ასლის პული"
-
-#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
-msgid "Prune unused images"
-msgstr "გამოუყენებელი გამოსახულებების წაკვეთა"
-
-#: src/Images.jsx:453
-msgid "Pull"
-msgstr "გამოწევა"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -707,77 +838,60 @@ msgstr "სტატიკურად მინიჭებული IP მი�
 msgid "Ignore MAC address if set statically"
 msgstr "სტატიკურად მინიჭებული MAC მისამართის იგნორი"
 
-#: src/ImageDetails.jsx:34
-msgid "Description"
-msgstr "აღწერა"
+#: src/ContainerCommitModal.jsx:40
+msgid "Image name is required"
+msgstr "ასლის სახელი აუცილებელია"
 
-#: src/ImageDetails.jsx:40
-msgid "Version"
-msgstr "ვერსია"
+#: src/ContainerCommitModal.jsx:49
+msgid "Image name is not unique"
+msgstr "ასლის სახელი უნიკალური არაა"
 
-#: src/ImageDetails.jsx:46
-msgid "Links"
-msgstr "ბმულები"
+#: src/ContainerCommitModal.jsx:86
+msgid "Failed to commit container $0"
+msgstr "კონტეინერის ($0) გადაცემის შეცდომა"
 
-#: src/ImageDetails.jsx:49
-msgid "Documentation"
-msgstr "დოკუმენტაცია"
+#: src/ContainerCommitModal.jsx:95
+msgid "New image name"
+msgstr "ახალი გამოსახულების სახელი"
 
-#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
-msgid "Entrypoint"
-msgstr "შესავალი წერტილი"
+#: src/ContainerCommitModal.jsx:110
+msgid "Author"
+msgstr "ავტორი"
 
-#: src/ImageDetails.jsx:68
-msgid "Tags"
-msgstr "ჭდეები"
+#: src/ContainerCommitModal.jsx:112
+msgid "Example, Your Name <yourname@example.com>"
+msgstr "მაგ. თქვენი სახელი <yourname@example.com>"
 
-#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
-msgid "Ports"
-msgstr "პორტები"
+#: src/ContainerCommitModal.jsx:123
+msgid "Options"
+msgstr "მორგება"
 
-#: src/PruneUnusedImagesModal.jsx:38
-msgid "Delete unused system images:"
-msgstr "სისტემის გამოუყენებელი გამოსახულებების წაშლა:"
+#: src/ContainerCommitModal.jsx:127
+msgid "Pause container when creating image"
+msgstr "კონტეინერის შეჩერება გამოსახულების შექმნისას"
 
-#: src/PruneUnusedImagesModal.jsx:39
-msgid "Delete unused images of user $0:"
-msgstr "გამოუყენებელი ასლის ფაილების წაშლა მომხმარებლისთვის $0:"
+#: src/ContainerCommitModal.jsx:131
+msgid ""
+"Docker format is useful when sharing the image with Docker or Moby Engine"
+msgstr ""
+"Docker-ის ფორმატი ძალიან სასარგებლოა გამოსახულების Docker-თან ან Moby "
+"Engline-სთან გაზიარებისთვის"
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
-msgid "Show more"
-msgstr "მეტის ჩვენება"
+#: src/ContainerCommitModal.jsx:132
+msgid "Use legacy Docker format"
+msgstr "Docker-ის ძველი ფორმატის გამოყენება"
 
-#: src/PruneUnusedImagesModal.jsx:74
-msgid "Failed to prune unused images"
-msgstr "გამოუყენებელი გამოსახულებების წაკვეთის შეცდომა"
+#: src/ContainerCommitModal.jsx:142
+msgid "Commit container"
+msgstr "კონტეინერის გაგზავნა"
 
-#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
-msgid "Pruning images"
-msgstr "გამოსახულებების წაკვეთა"
+#: src/ContainerCommitModal.jsx:143
+msgid "Create a new image based on the current state of the $0 container."
+msgstr "კონტეინერის ($0) მდგომარეობაზე დამყარებული ახალი გამოსახულების შექმნა."
 
-#: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
-msgid "Prune"
-msgstr "შეკვეცა"
-
-#: src/app.jsx:51
-msgid "user"
-msgstr "მომხმარებელი"
-
-#: src/app.jsx:690 src/ImageRunModal.jsx:855
-msgid "User"
-msgstr "მომხმარებელი"
-
-#: src/app.jsx:842
-msgid "Podman service failed"
-msgstr "Podman-ის სერვისი ჩავარდა"
-
-#: src/app.jsx:846
-msgid "Troubleshoot"
-msgstr "პრობლემების პოვნა"
-
-#: src/ImageRunModal.jsx:62 src/ContainerHealthLogs.jsx:29
-msgid "No action"
-msgstr "ქმედების გარეშე"
+#: src/ContainerCommitModal.jsx:161
+msgid "Force commit"
+msgstr "ძალით გადაგზავნა"
 
 #: src/ImageRunModal.jsx:252
 msgid "Container failed to be started"
@@ -806,18 +920,6 @@ msgstr "კონტეინერის ($0) შექმნის შეც�
 #: src/ImageRunModal.jsx:334
 msgid "Failed to pull image $0"
 msgstr "გამოსახულების ($0) გამოთხოვნის შეცდომა"
-
-#: src/ImageRunModal.jsx:389 src/ImageSearchModal.jsx:97
-msgid "Failed to search for new images"
-msgstr "ახალი გამოსახულებების ძებნის შეცდომა"
-
-#: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
-msgid "Failed to search for images: $0"
-msgstr "გამოსახულების ძებნის შეცდომა: $0"
-
-#: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
-msgid "Failed to search for images."
-msgstr "გამოსახულებების ძებნის შეცდომა."
 
 #: src/ImageRunModal.jsx:579
 msgid "Local images"
@@ -867,6 +969,10 @@ msgstr "იდეალურია პროგრამირებისთ�
 msgid "Restricted by user account permissions"
 msgstr "შეზღუდულია მომხმარებლის ანგარიშის წვდომებით"
 
+#: src/ImageRunModal.jsx:881 src/ContainerDetails.jsx:39 src/Images.jsx:189
+msgid "Image"
+msgstr "გამოსახულება"
+
 #: src/ImageRunModal.jsx:883
 msgid "Image selection help"
 msgstr "დახმარება გამოსახულების არჩევის შესახებ"
@@ -882,11 +988,6 @@ msgstr "მაგალითად: $0"
 #: src/ImageRunModal.jsx:889
 msgid "Searching: $0"
 msgstr "ძებნა: $0"
-
-#: src/ImageRunModal.jsx:899 src/ImageRunModal.jsx:900
-#: src/ImageSearchModal.jsx:179
-msgid "No images found"
-msgstr "გამოსახულებების გარეშე"
 
 #: src/ImageRunModal.jsx:903
 msgid "Search string or container location"
@@ -1020,10 +1121,6 @@ msgstr ""
 "მრავალი შემოტანისთვის ველებში ჩასვით ერთი ან მეტი გასაღები=მნიშვნელობა-ის "
 "ტიპის წყვილები"
 
-#: src/ImageRunModal.jsx:1092 src/ContainerHealthLogs.jsx:54
-msgid "Interval"
-msgstr "ინტერვალი"
-
 #: src/ImageRunModal.jsx:1094
 msgid "Health check interval help"
 msgstr "ჯანმრთელობის შემოწმების ინტერვალის დახმარება"
@@ -1045,10 +1142,6 @@ msgstr "ინტერვალის გაზრდა"
 msgid "seconds"
 msgstr "წამი"
 
-#: src/ImageRunModal.jsx:1115 src/ContainerHealthLogs.jsx:66
-msgid "Timeout"
-msgstr "დროის ამოწურვა"
-
 #: src/ImageRunModal.jsx:1117
 msgid "Health check timeout help"
 msgstr "ჯანმრთელობის შემოწმების ვადის დახმარება"
@@ -1069,10 +1162,6 @@ msgstr "მოლოდინის დროის შემცირება"
 msgid "Increase timeout"
 msgstr "მოლოდინის დროის გაზრდა"
 
-#: src/ImageRunModal.jsx:1138 src/ContainerHealthLogs.jsx:62
-msgid "Start period"
-msgstr "გაშვების პერიოდი"
-
 #: src/ImageRunModal.jsx:1140
 msgid "Health check start period help"
 msgstr "ჯანმრთელობის შემოწმების გაშვების პერიოდის დახმარება"
@@ -1088,10 +1177,6 @@ msgstr "გაშვების პერიოდის შემცირე�
 #: src/ImageRunModal.jsx:1154
 msgid "Increase start period"
 msgstr "გაშვების პერიოდის გაზრდა"
-
-#: src/ImageRunModal.jsx:1161 src/ContainerHealthLogs.jsx:58
-msgid "Retries"
-msgstr "თავიდან ცდები"
 
 #: src/ImageRunModal.jsx:1163
 msgid "Health check retries help"
@@ -1112,10 +1197,6 @@ msgstr "ცდების რაოდენობის შემცირე�
 msgid "Increase retries"
 msgstr "ცდების რაოდენობის გაზრდა"
 
-#: src/ImageRunModal.jsx:1181 src/ContainerHealthLogs.jsx:70
-msgid "When unhealthy"
-msgstr "როცა ჯანმრთელი არაა"
-
 #: src/ImageRunModal.jsx:1183
 msgid "Health failure check action help"
 msgstr "ჯანმრთელობის შემოწმების ქმედების დახმარება"
@@ -1133,157 +1214,6 @@ msgstr "$0-ში კონტეინერის შექმნა"
 msgid "Create and run"
 msgstr "შექმნა და გაშვება"
 
-#: src/ContainerTerminal.jsx:250
-msgid "Container is not running"
-msgstr "კონტეინერი გაშვებული არაა"
-
-#: src/ContainerTerminal.jsx:254
-msgid "Error occurred while connecting console"
-msgstr "კონსოლთან დაკავშირების შეცდომა"
-
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Paused"
-msgstr "შეჩერებულია"
-
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Stopped"
-msgstr "გაჩერებულია"
-
-#: src/util.tsx:41
-msgid "Removing"
-msgstr "წაშლა"
-
-#: src/util.tsx:41
-msgid "Configured"
-msgstr "მორგებულია"
-
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
-msgid "Running"
-msgstr "გაშვებულია"
-
-#: src/util.tsx:44
-msgid "Error"
-msgstr "შეცდომა"
-
-#: src/ImageUsedBy.jsx:17
-msgid "No containers are using this image"
-msgstr "ამ გამოსახულებას არცერთი კონტეინერი არ იყენებს"
-
-#: src/ImageSearchModal.jsx:142
-msgid "Search for an image"
-msgstr "გამოსახულების ძებნა"
-
-#: src/ImageSearchModal.jsx:158
-msgid "Search for"
-msgstr "ძებნა"
-
-#: src/ImageSearchModal.jsx:161
-msgid "Search by name or description"
-msgstr "სახელით ან აღწერით ძებნა"
-
-#: src/ImageSearchModal.jsx:166
-msgid "in"
-msgstr "-ში"
-
-#: src/ImageSearchModal.jsx:170
-msgid "All registries"
-msgstr "ყველა რეგისტრები"
-
-#: src/ImageSearchModal.jsx:177
-msgid "Searching..."
-msgstr "ძებნა..."
-
-#: src/ImageSearchModal.jsx:179
-msgid "Start typing to look for images."
-msgstr "გამოსახულებების მოსაძებნად დაიწყეთ მისი სახელის კრეფა."
-
-#: src/ImageSearchModal.jsx:183
-msgid "No results for $0"
-msgstr "პასუხების გარეშე $0-თვის"
-
-#: src/ImageSearchModal.jsx:184
-msgid "Retry another term."
-msgstr "სხვა სიტყვა სცადეთ."
-
-#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
-msgid "Tag"
-msgstr "ჭდე"
-
-#: src/ImageSearchModal.jsx:223
-msgid "Download"
-msgstr "გადმოწერა"
-
-#: src/ImageHistory.jsx:34
-msgid "Created by"
-msgstr "ავტორი"
-
-#: src/ImageHistory.jsx:34
-msgid "Size"
-msgstr "ზომა"
-
-#: src/ImageHistory.jsx:34
-msgid "Comments"
-msgstr "კომენტარები"
-
-#: src/ImageHistory.jsx:60
-msgid "Unable to load image history"
-msgstr "გამოსახულების ისტორიის ჩატვირთვის შეცდომა"
-
-#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
-msgid "Loading details..."
-msgstr "დეტალების ჩატვირთვა..."
-
-#: src/PruneUnusedContainersModal.jsx:61
-msgid "Failed to prune unused containers"
-msgstr "გამოუყენებელი კონტეინერების წაკვეთის შეცდომა"
-
-#: src/PruneUnusedContainersModal.jsx:96
-msgid "Removes selected non-running containers"
-msgstr "მონიშნული არა-გაშვებული კონტეინერების წაშლა"
-
-#: src/PruneUnusedContainersModal.jsx:106
-#: src/PruneUnusedContainersModal.jsx:110
-msgid "Pruning containers"
-msgstr "კონტეინერების წაკვეთა"
-
-#: src/ContainerHealthLogs.jsx:25
-msgid "$0 second"
-msgid_plural "$0 seconds"
-msgstr[0] "$0 წამი"
-msgstr[1] "$0 წამი"
-
-#: src/ContainerHealthLogs.jsx:46
-msgid "Status"
-msgstr "სტატუსი"
-
-#: src/ContainerHealthLogs.jsx:74
-msgid "Failing streak"
-msgstr "მრავალჯერადი წარუმატებლობა"
-
-#: src/ContainerHealthLogs.jsx:84
-msgid "Failed to run health check on container $0"
-msgstr "კონტეინერის ($0) ჯანმრთელობის შემოწმების შეცდომა"
-
-#: src/ContainerHealthLogs.jsx:88
-msgid "Run health check"
-msgstr "ჯანმრთელობის შემოწმების გაშვება"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Last 5 runs"
-msgstr "ბოლო 5 გაშვება"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Started at"
-msgstr "გაშვების დრო"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Passed health run"
-msgstr "ჯანმრთელობის შემოწმება წარმატებულია"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Failed health run"
-msgstr "ჯანმრთელობის შემოწმების შეცდომა"
-
 #: src/ContainerIntegration.jsx:83
 msgid "Read-write access"
 msgstr "ჩაწერა/წაკითხვის წვდომა"
@@ -1296,116 +1226,185 @@ msgstr "მხოლოდ-კითხვის წვდომა"
 msgid "Show less"
 msgstr "ნაკლების ჩვენება"
 
-#: src/ContainerCommitModal.jsx:40
-msgid "Image name is required"
-msgstr "ასლის სახელი აუცილებელია"
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
+msgid "Show more"
+msgstr "მეტის ჩვენება"
 
-#: src/ContainerCommitModal.jsx:49
-msgid "Image name is not unique"
-msgstr "ასლის სახელი უნიკალური არაა"
+#: src/ImageUsedBy.jsx:17
+msgid "No containers are using this image"
+msgstr "ამ გამოსახულებას არცერთი კონტეინერი არ იყენებს"
 
-#: src/ContainerCommitModal.jsx:86
-msgid "Failed to commit container $0"
-msgstr "კონტეინერის ($0) გადაცემის შეცდომა"
+#: src/ContainerLogs.jsx:46
+msgid "Loading logs..."
+msgstr "ჟურნალის ჩატვირთვა..."
 
-#: src/ContainerCommitModal.jsx:95
-msgid "New image name"
-msgstr "ახალი გამოსახულების სახელი"
+#: src/ImageDeleteModal.jsx:53
+msgid "Failed to force remove image $0"
+msgstr "გამოსახულების ($0) ძალით წაშლა შეუძლებელია"
 
-#: src/ContainerCommitModal.jsx:110
-msgid "Author"
-msgstr "ავტორი"
+#: src/ImageDeleteModal.jsx:65
+msgid "intermediate image"
+msgstr "შუალედური დისკის ასლი"
 
-#: src/ContainerCommitModal.jsx:112
-msgid "Example, Your Name <yourname@example.com>"
-msgstr "მაგ. თქვენი სახელი <yourname@example.com>"
+#: src/ImageDeleteModal.jsx:79
+msgid "Failed to remove image $0"
+msgstr "გამოსახულების ($0) წაშლის შეცდომა"
 
-#: src/ContainerCommitModal.jsx:123
-msgid "Options"
-msgstr "მორგება"
+#: src/ImageDeleteModal.jsx:85
+msgid "intermediate"
+msgstr "შუალედური"
 
-#: src/ContainerCommitModal.jsx:127
-msgid "Pause container when creating image"
-msgstr "კონტეინერის შეჩერება გამოსახულების შექმნისას"
+#: src/ImageDeleteModal.jsx:98
+msgid "Delete $0 image?"
+msgstr "წავშალო $0 დისკის ასლი?"
 
-#: src/ContainerCommitModal.jsx:131
-msgid ""
-"Docker format is useful when sharing the image with Docker or Moby Engine"
+#: src/ImageDeleteModal.jsx:103
+msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
-"Docker-ის ფორმატი ძალიან სასარგებლოა გამოსახულების Docker-თან ან Moby "
-"Engline-სთან გაზიარებისთვის"
+"ამ გამოსახულებას მრავალი ჭდე გააჩნია. წასაშლელად მონიშნეთ ჭდეებიანი "
+"გამოსახულებები."
 
-#: src/ContainerCommitModal.jsx:132
-msgid "Use legacy Docker format"
-msgstr "Docker-ის ძველი ფორმატის გამოყენება"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete image"
+msgstr "დისკის ასლის წაშლა"
 
-#: src/ContainerCommitModal.jsx:142
-msgid "Commit container"
-msgstr "კონტეინერის გაგზავნა"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete tagged images"
+msgstr "ჭდეებიანი გამოსახულებების წაშლა"
 
-#: src/ContainerCommitModal.jsx:143
-msgid "Create a new image based on the current state of the $0 container."
-msgstr "კონტეინერის ($0) მდგომარეობაზე დამყარებული ახალი გამოსახულების შექმნა."
+#: src/ContainerDeleteModal.jsx:26
+msgid "Failed to remove container $0"
+msgstr "კონტეინერის ($0) წაშლის შეცდომა"
 
-#: src/ContainerCommitModal.jsx:161
-msgid "Force commit"
-msgstr "ძალით გადაგზავნა"
+#: src/ContainerDeleteModal.jsx:40
+msgid "Deleting a container will erase all data in it."
+msgstr "კონტეინერის წაშლა მასში ყველა მონაცემს წაშლის."
 
-#: src/PublishPort.jsx:26
-msgid "Must be a valid IP address"
-msgstr "უნდა იყოს სწორი IP მისამართი"
+#: src/ContainerDetails.jsx:16
+msgid "Up since:"
+msgstr "აქტიურია საიდან:"
 
-#: src/PublishPort.jsx:32 src/PublishPort.jsx:43
-msgid "1 to 65535"
-msgstr "1-დან 65535-მდე"
+#: src/ContainerDetails.jsx:35 src/Images.jsx:192
+msgid "ID"
+msgstr "ID"
 
-#: src/PublishPort.jsx:39
-msgid "Container port must not be empty"
-msgstr "კონტეინერის პორტი არ შეიძლება ცარიელი იყოს"
+#: src/ContainerDetails.jsx:50
+msgid "systemd service"
+msgstr "systemd-ის სერვისი"
 
-#: src/PublishPort.jsx:60
-msgid "IP address help"
-msgstr "IP მისამართის დახმარება"
+#: src/ContainerDetails.jsx:54
+msgid "View $0"
+msgstr "$0-ის ნახვა"
 
-#: src/PublishPort.jsx:62
-msgid ""
-"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
-"all IPs on the host."
-msgstr ""
-"თუ ჰოსტის IP დაყენებულია 0.0.0.0-ზე, ან დაყენებული არაა, პორტი ჰოსტზე "
-"არსებულ ყველა IP-ზე იქნება მიმაგრებული."
+#: src/ContainerDetails.jsx:68
+msgid "Gateway"
+msgstr "ნაგულისხმები რაუტერი"
 
-#: src/PublishPort.jsx:78
-msgid "Host port"
-msgstr "ჰოსტის პორტი"
+#: src/ContainerDetails.jsx:72
+msgid "MAC address"
+msgstr "MAC მისამართი"
 
-#: src/PublishPort.jsx:81
-msgid "Host port help"
-msgstr "ჰოსტის პორტის დახმარება"
+#: src/ContainerDetails.jsx:90
+msgid "Latest checkpoint"
+msgstr "უახლესი საკონტროლო წერტილი"
 
-#: src/PublishPort.jsx:83
-msgid ""
-"If the host port is not set the container port will be randomly assigned a "
-"port on the host."
-msgstr ""
-"თუ ჰოსტის პორტი დაყენებული არაა, კონტეინერის პორტი ჰოსტზე შემთხვევითად "
-"იქნება არჩეული."
+#: src/PruneUnusedImagesModal.jsx:38
+msgid "Delete unused system images:"
+msgstr "სისტემის გამოუყენებელი გამოსახულებების წაშლა:"
 
-#: src/PublishPort.jsx:103
-msgid "Container port"
-msgstr "კონტეინერის პორტი"
+#: src/PruneUnusedImagesModal.jsx:39
+msgid "Delete unused images of user $0:"
+msgstr "გამოუყენებელი ასლის ფაილების წაშლა მომხმარებლისთვის $0:"
 
-#: src/PublishPort.jsx:120
-msgid "Protocol"
-msgstr "პროტოკოლი"
+#: src/PruneUnusedImagesModal.jsx:74
+msgid "Failed to prune unused images"
+msgstr "გამოუყენებელი გამოსახულებების წაკვეთის შეცდომა"
 
-#: src/PublishPort.jsx:126
-msgid "TCP"
-msgstr "TCP"
+#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+msgid "Prune unused images"
+msgstr "გამოუყენებელი გამოსახულებების წაკვეთა"
 
-#: src/PublishPort.jsx:127
-msgid "UDP"
-msgstr "UDP"
+#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
+msgid "Pruning images"
+msgstr "გამოსახულებების წაკვეთა"
+
+#: src/Images.jsx:60
+msgid "Failed to download image $0:$1"
+msgstr "გამოსახულების ($0) გადმოწერის შეცდომა: $1"
+
+#: src/Images.jsx:93 src/Images.jsx:100
+msgid "unused"
+msgstr "გამოუყენებელი"
+
+#: src/Images.jsx:97
+msgid "$0 container"
+msgid_plural "$0 containers"
+msgstr[0] "$0 ცალი კონტეინერი"
+msgstr[1] "$0 კონტეინერი"
+
+#: src/Images.jsx:170
+msgid "History"
+msgstr "ისტორია"
+
+#: src/Images.jsx:193
+msgid "Disk space"
+msgstr "ადგილი დისკზე"
+
+#: src/Images.jsx:196
+msgid "No images"
+msgstr "გამოსახულებების გარეშე"
+
+#: src/Images.jsx:200
+msgid "No images that match the current filter"
+msgstr "მიმდინარე ფილტრს არცერთი გამოსახულება არ შეესაბამება"
+
+#: src/Images.jsx:277
+msgid "Hide intermediate images"
+msgstr "შუალედური გამოსახულებების დამალვა"
+
+#: src/Images.jsx:277
+msgid "Show intermediate images"
+msgstr "შუალედური გამოსახულებების ჩვენება"
+
+#: src/Images.jsx:283 src/Images.jsx:315
+msgid "Images"
+msgstr "გამოსახულებები"
+
+#: src/Images.jsx:298
+msgid "$0 image total, $1"
+msgid_plural "$0 images total, $1"
+msgstr[0] "$0 ცალი გამოსახულება, $1"
+msgstr[1] "$0 გამოსახულება, $1"
+
+#: src/Images.jsx:302
+msgid "$0 unused image, $1"
+msgid_plural "$0 unused images, $1"
+msgstr[0] "$0 ცალი გამოუყენებელი გამოსახულება, $1"
+msgstr[1] "$0 გამოუყენებელი გამოსახულება, $1"
+
+#: src/Images.jsx:330
+msgid "Hide images"
+msgstr "გამოსახულებების დამალვა"
+
+#: src/Images.jsx:330
+msgid "Show images"
+msgstr "გამოსახულებების ჩვენება"
+
+#: src/Images.jsx:353
+msgid "Pulling"
+msgstr "გამოწევა"
+
+#: src/Images.jsx:367
+msgid "Download new image"
+msgstr "ახალი გამოსახულების გადმოწერა"
+
+#: src/Images.jsx:374
+msgid "Pull all images"
+msgstr "ყველა დისკის ასლის პული"
+
+#: src/Images.jsx:453
+msgid "Pull"
+msgstr "გამოწევა"
 
 #: src/manifest.json:0
 msgid "Podman containers"

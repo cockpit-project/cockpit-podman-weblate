@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 10:01+0000\n"
+"POT-Creation-Date: 2026-11-20 10:27+0000\n"
 "PO-Revision-Date: 2026-04-10 19:40+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -51,229 +51,61 @@ msgstr ""
 msgid "Checkpoint"
 msgstr ""
 
-#: src/ContainerCheckpointModal.jsx:67 src/ContainerDeleteModal.jsx:44
-#: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
-#: src/ContainerRenameModal.jsx:100 src/ImageDeleteModal.jsx:126
+#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
+#: src/ForceRemoveModal.jsx:34 src/ContainerRenameModal.jsx:100
+#: src/ImageSearchModal.jsx:226 src/PodActions.jsx:72
 #: src/PodCreateModal.jsx:223 src/ContainerRestoreModal.jsx:73
-#: src/PruneUnusedImagesModal.jsx:113 src/ImageRunModal.jsx:1233
-#: src/ImageSearchModal.jsx:226 src/PruneUnusedContainersModal.jsx:112
-#: src/ContainerCommitModal.jsx:167
+#: src/ContainerCommitModal.jsx:167 src/ImageRunModal.jsx:1233
+#: src/ImageDeleteModal.jsx:126 src/ContainerDeleteModal.jsx:44
+#: src/PruneUnusedImagesModal.jsx:113
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/ContainerDeleteModal.jsx:26
-msgid "Failed to remove container $0"
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503 src/app.jsx:51
+#: src/app.jsx:677 src/Images.jsx:145
+msgid "system"
 msgstr ""
 
-#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
-msgid "Delete $0?"
-msgstr ""
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503
+#: src/Images.jsx:145
+msgid "user:"
+msgstr "वापरकर्ता:"
 
-#: src/ContainerDeleteModal.jsx:40
-msgid "Deleting a container will erase all data in it."
-msgstr ""
+#: src/PruneUnusedContainersModal.jsx:61
+msgid "Failed to prune unused containers"
+msgstr "क्लोन कंटेनर चालवण्यास अपयशी"
 
-#: src/ContainerDeleteModal.jsx:43 src/PodActions.jsx:68 src/PodActions.jsx:215
-#: src/Containers.jsx:290 src/Images.jsx:459
-msgid "Delete"
-msgstr "नष्ट करा"
+#: src/PruneUnusedContainersModal.jsx:68 src/PodCreateModal.jsx:153
+#: src/ImageRunModal.jsx:810
+msgid "Name"
+msgstr "नाव"
 
-#: src/ContainerDetails.jsx:16
-msgid "Up since:"
-msgstr ""
-
-#: src/ContainerDetails.jsx:18 src/util.tsx:41 src/util.tsx:44
-msgid "Exited"
-msgstr ""
-
-#: src/ContainerDetails.jsx:35 src/Images.jsx:192
-msgid "ID"
-msgstr "ID"
-
-#: src/ContainerDetails.jsx:39 src/Images.jsx:189 src/ImageRunModal.jsx:881
-msgid "Image"
-msgstr "प्रतिमा"
-
-#: src/ContainerDetails.jsx:44 src/ImageDetails.jsx:56
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
-#: src/ContainerHealthLogs.jsx:50 src/ContainerCommitModal.jsx:117
-msgid "Command"
-msgstr "आदेश"
-
-#: src/ContainerDetails.jsx:50
-msgid "systemd service"
-msgstr ""
-
-#: src/ContainerDetails.jsx:54
-msgid "View $0"
-msgstr ""
-
-#: src/ContainerDetails.jsx:64 src/PublishPort.jsx:57
-msgid "IP address"
-msgstr "IP पत्ता"
-
-#: src/ContainerDetails.jsx:68
-msgid "Gateway"
-msgstr "गेटवे"
-
-#: src/ContainerDetails.jsx:72
-msgid "MAC address"
-msgstr "MAC पत्ता"
-
-#: src/ContainerDetails.jsx:81 src/Images.jsx:191 src/util.tsx:41
-#: src/util.tsx:44 src/ImageHistory.jsx:34
-#: src/PruneUnusedContainersModal.jsx:69
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
+#: src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81 src/Images.jsx:191
 msgid "Created"
 msgstr "निर्मीत"
 
-#: src/ContainerDetails.jsx:86 src/Containers.jsx:759
-msgid "State"
-msgstr "स्तर"
-
-#: src/ContainerDetails.jsx:90
-msgid "Latest checkpoint"
+#: src/PruneUnusedContainersModal.jsx:75 src/Containers.jsx:756
+#: src/ImageSearchModal.jsx:147 src/ContainerHeader.tsx:32
+#: src/PodCreateModal.jsx:171 src/ImageRunModal.jsx:831 src/Images.jsx:190
+msgid "Owner"
 msgstr ""
 
-#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
-msgid "Force delete"
+#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
+msgid "Prune unused containers"
 msgstr ""
 
-#: src/ContainerLogs.jsx:46
-msgid "Loading logs..."
+#: src/PruneUnusedContainersModal.jsx:96
+msgid "Removes selected non-running containers"
 msgstr ""
 
-#: src/PodActions.jsx:48
-msgid "Force delete pod $0?"
+#: src/PruneUnusedContainersModal.jsx:106
+#: src/PruneUnusedContainersModal.jsx:110
+msgid "Pruning containers"
 msgstr ""
 
-#: src/PodActions.jsx:49
-msgid "Delete pod $0?"
-msgstr ""
-
-#: src/PodActions.jsx:53
-msgid "An error occurred"
-msgstr ""
-
-#: src/PodActions.jsx:55
-msgid "Empty pod $0 will be permanently removed."
-msgstr ""
-
-#: src/PodActions.jsx:59
-msgid "Deleting this pod will remove the following containers:"
-msgstr ""
-
-#: src/PodActions.jsx:85 src/PodActions.jsx:91
-msgid "Failed to start pod $0"
-msgstr ""
-
-#: src/PodActions.jsx:100 src/PodActions.jsx:107
-msgid "Failed to stop pod $0"
-msgstr ""
-
-#: src/PodActions.jsx:117 src/PodActions.jsx:124
-msgid "Failed to restart pod $0"
-msgstr ""
-
-#: src/PodActions.jsx:137 src/Containers.jsx:194 src/Containers.jsx:205
-#: src/ImageRunModal.jsx:64 src/ContainerHealthLogs.jsx:31
-msgid "Stop"
-msgstr "थांबवा (_S)"
-
-#: src/PodActions.jsx:145 src/Containers.jsx:209 src/ImageRunModal.jsx:65
-#: src/ContainerHealthLogs.jsx:32
-msgid "Force stop"
-msgstr ""
-
-#: src/PodActions.jsx:152 src/Containers.jsx:198 src/Containers.jsx:213
-#: src/ImageRunModal.jsx:63 src/util.tsx:41 src/ContainerHealthLogs.jsx:30
-msgid "Restart"
-msgstr "पुन्हा चालू करा"
-
-#: src/PodActions.jsx:160 src/Containers.jsx:217
-msgid "Force restart"
-msgstr ""
-
-#: src/PodActions.jsx:169 src/Containers.jsx:255
-msgid "Start"
-msgstr ""
-
-#: src/PodActions.jsx:180
-msgid "Failed to resume pod $0"
-msgstr ""
-
-#: src/PodActions.jsx:184 src/Containers.jsx:232
-msgid "Resume"
-msgstr "पुन्हा सुरू केले"
-
-#: src/PodActions.jsx:195
-msgid "Failed to pause pod $0"
-msgstr ""
-
-#: src/PodActions.jsx:199 src/Containers.jsx:225
-msgid "Pause"
-msgstr "स्तब्ध"
-
-#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
-msgid "Container name is required."
-msgstr ""
-
-#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
-msgid ""
-"Invalid characters. Name can only contain letters, numbers, and certain "
-"punctuation (_ . -)."
-msgstr ""
-
-#: src/ContainerRenameModal.jsx:52
-msgid "Failed to rename container $0"
-msgstr ""
-
-#: src/ContainerRenameModal.jsx:66
-msgid "New container name"
-msgstr ""
-
-#: src/ContainerRenameModal.jsx:84
-msgid "Rename container $0"
-msgstr ""
-
-#: src/ContainerRenameModal.jsx:95 src/Containers.jsx:182
-msgid "Rename"
-msgstr "पुन्हनामांकन (_R)"
-
-#: src/ImageDeleteModal.jsx:53
-msgid "Failed to force remove image $0"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:65
-msgid "intermediate image"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:79
-msgid "Failed to remove image $0"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:85
-msgid "intermediate"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:98
-msgid "Delete $0 image?"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:103
-msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:105 src/Containers.jsx:900
-#: src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
-msgid "All"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete image"
-msgstr ""
-
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete tagged images"
+#: src/PruneUnusedContainersModal.jsx:110 src/PruneUnusedImagesModal.jsx:111
+msgid "Prune"
 msgstr ""
 
 #: src/Containers.jsx:62
@@ -316,6 +148,41 @@ msgstr ""
 msgid "Failed to restart quadlet $0"
 msgstr ""
 
+#: src/Containers.jsx:182 src/ContainerRenameModal.jsx:95
+msgid "Rename"
+msgstr "पुन्हनामांकन (_R)"
+
+#: src/Containers.jsx:194 src/Containers.jsx:205 src/ContainerHealthLogs.jsx:31
+#: src/PodActions.jsx:137 src/ImageRunModal.jsx:64
+msgid "Stop"
+msgstr "थांबवा (_S)"
+
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/ContainerHealthLogs.jsx:30
+#: src/util.tsx:41 src/PodActions.jsx:152 src/ImageRunModal.jsx:63
+msgid "Restart"
+msgstr "पुन्हा चालू करा"
+
+#: src/Containers.jsx:209 src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
+#: src/ImageRunModal.jsx:65
+msgid "Force stop"
+msgstr ""
+
+#: src/Containers.jsx:217 src/PodActions.jsx:160
+msgid "Force restart"
+msgstr ""
+
+#: src/Containers.jsx:225 src/PodActions.jsx:199
+msgid "Pause"
+msgstr "स्तब्ध"
+
+#: src/Containers.jsx:232 src/PodActions.jsx:184
+msgid "Resume"
+msgstr "पुन्हा सुरू केले"
+
+#: src/Containers.jsx:255 src/PodActions.jsx:169
+msgid "Start"
+msgstr ""
+
 #: src/Containers.jsx:266 src/ContainerRestoreModal.jsx:69
 msgid "Restore"
 msgstr "पूर्ववत् केले"
@@ -323,6 +190,11 @@ msgstr "पूर्ववत् केले"
 #: src/Containers.jsx:281 src/ContainerCommitModal.jsx:154
 msgid "Commit"
 msgstr ""
+
+#: src/Containers.jsx:290 src/PodActions.jsx:68 src/PodActions.jsx:215
+#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
+msgid "Delete"
+msgstr "नष्ट करा"
 
 #: src/Containers.jsx:312
 msgid "Healthy"
@@ -334,10 +206,6 @@ msgstr ""
 
 #: src/Containers.jsx:316
 msgid "Checking health"
-msgstr ""
-
-#: src/Containers.jsx:330 src/PruneUnusedContainersModal.jsx:94
-msgid "Prune unused containers"
 msgstr ""
 
 #: src/Containers.jsx:345
@@ -369,17 +237,7 @@ msgstr "$1 पैकी $0%"
 msgid "service"
 msgstr "सर्व्हिस"
 
-#: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
-#: src/PruneUnusedContainersModal.jsx:35
-msgid "system"
-msgstr ""
-
-#: src/Containers.jsx:503 src/Images.jsx:145
-#: src/PruneUnusedContainersModal.jsx:35
-msgid "user:"
-msgstr "वापरकर्ता:"
-
-#: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
+#: src/Containers.jsx:528 src/ImageRunModal.jsx:828 src/Images.jsx:161
 msgid "Details"
 msgstr "तपशील"
 
@@ -427,11 +285,9 @@ msgstr ""
 msgid "Container"
 msgstr "कंटेनर"
 
-#: src/Containers.jsx:756 src/ContainerHeader.tsx:32 src/PodCreateModal.jsx:171
-#: src/Images.jsx:190 src/ImageRunModal.jsx:831 src/ImageSearchModal.jsx:147
-#: src/PruneUnusedContainersModal.jsx:75
-msgid "Owner"
-msgstr ""
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
+msgid "State"
+msgstr "स्तर"
 
 #: src/Containers.jsx:760
 msgid "Actions"
@@ -445,7 +301,7 @@ msgstr "कंटेनर"
 msgid "No containers in this pod"
 msgstr ""
 
-#: src/Containers.jsx:771 src/Images.jsx:198 src/ImageUsedBy.jsx:15
+#: src/Containers.jsx:771 src/ImageUsedBy.jsx:15 src/Images.jsx:198
 msgid "Loading..."
 msgstr ""
 
@@ -461,6 +317,11 @@ msgstr ""
 msgid "Show"
 msgstr "दाखवा"
 
+#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
+#: src/ImageDeleteModal.jsx:105
+msgid "All"
+msgstr ""
+
 #: src/Containers.jsx:901
 msgid "Only running"
 msgstr ""
@@ -469,8 +330,8 @@ msgstr ""
 msgid "Create pod"
 msgstr ""
 
-#: src/Containers.jsx:917 src/Images.jsx:439 src/Images.jsx:448
-#: src/ImageRunModal.jsx:1219
+#: src/Containers.jsx:917 src/ImageRunModal.jsx:1219 src/Images.jsx:439
+#: src/Images.jsx:448
 msgid "Create container"
 msgstr ""
 
@@ -485,6 +346,329 @@ msgstr ""
 #: src/Containers.jsx:1026
 msgid "pod"
 msgstr ""
+
+#: src/PublishPort.jsx:26
+msgid "Must be a valid IP address"
+msgstr ""
+
+#: src/PublishPort.jsx:32 src/PublishPort.jsx:43
+msgid "1 to 65535"
+msgstr ""
+
+#: src/PublishPort.jsx:39
+msgid "Container port must not be empty"
+msgstr ""
+
+#: src/PublishPort.jsx:57 src/ContainerDetails.jsx:64
+msgid "IP address"
+msgstr "IP पत्ता"
+
+#: src/PublishPort.jsx:60
+msgid "IP address help"
+msgstr "IP पत्ता"
+
+#: src/PublishPort.jsx:62
+msgid ""
+"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
+"all IPs on the host."
+msgstr ""
+
+#: src/PublishPort.jsx:78
+msgid "Host port"
+msgstr "रिपोर्ट सादर करा"
+
+#: src/PublishPort.jsx:81
+msgid "Host port help"
+msgstr ""
+
+#: src/PublishPort.jsx:83
+msgid ""
+"If the host port is not set the container port will be randomly assigned a "
+"port on the host."
+msgstr ""
+
+#: src/PublishPort.jsx:103
+msgid "Container port"
+msgstr ""
+
+#: src/PublishPort.jsx:120
+msgid "Protocol"
+msgstr "प्रोटोकॉल"
+
+#: src/PublishPort.jsx:126
+msgid "TCP"
+msgstr ""
+
+#: src/PublishPort.jsx:127
+msgid "UDP"
+msgstr ""
+
+#: src/PublishPort.jsx:135 src/Env.jsx:101 src/Volume.jsx:87
+msgid "Remove item"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:25
+msgid "$0 second"
+msgid_plural "$0 seconds"
+msgstr[0] "$0 सेकंद"
+msgstr[1] "$0 सेकंद"
+
+#: src/ContainerHealthLogs.jsx:29 src/ImageRunModal.jsx:62
+msgid "No action"
+msgstr "कृती नाही"
+
+#: src/ContainerHealthLogs.jsx:46
+msgid "Status"
+msgstr "स्थिती"
+
+#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
+#: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
+#: src/ImageRunModal.jsx:1086 src/ContainerDetails.jsx:44
+msgid "Command"
+msgstr "आदेश"
+
+#: src/ContainerHealthLogs.jsx:54 src/ImageRunModal.jsx:1092
+msgid "Interval"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:58 src/ImageRunModal.jsx:1161
+msgid "Retries"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:62 src/ImageRunModal.jsx:1138
+msgid "Start period"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:66 src/ImageRunModal.jsx:1115
+msgid "Timeout"
+msgstr "वेळसमाप्ति"
+
+#: src/ContainerHealthLogs.jsx:70 src/ImageRunModal.jsx:1181
+msgid "When unhealthy"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:74
+msgid "Failing streak"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:84
+msgid "Failed to run health check on container $0"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:88
+msgid "Run health check"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:95
+msgid "Last 5 runs"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:95
+msgid "Started at"
+msgstr "सुरू झाले"
+
+#: src/ContainerHealthLogs.jsx:105
+msgid "Passed health run"
+msgstr ""
+
+#: src/ContainerHealthLogs.jsx:105
+msgid "Failed health run"
+msgstr ""
+
+#: src/ContainerTerminal.jsx:250
+msgid "Container is not running"
+msgstr "क्षेत्र चालू नाही"
+
+#: src/ContainerTerminal.jsx:254
+msgid "Error occurred while connecting console"
+msgstr "'%s'शी जोडणी करतेवेळी त्रुटी आढळली"
+
+#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
+msgid "Delete $0?"
+msgstr ""
+
+#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
+msgid "Force delete"
+msgstr ""
+
+#: src/Env.jsx:22
+msgid "Key must not be empty"
+msgstr ""
+
+#: src/Env.jsx:24
+msgid "Key must not begin with a digit"
+msgstr ""
+
+#: src/Env.jsx:26
+msgid "Key contains invalid characters"
+msgstr "ipset नावात अवैध अक्षरे समाविष्टीत आहे"
+
+#: src/Env.jsx:67
+msgid "Key"
+msgstr ""
+
+#: src/Env.jsx:83
+msgid "Value"
+msgstr "मूल्य"
+
+#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
+msgid "Container name is required."
+msgstr ""
+
+#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+msgid ""
+"Invalid characters. Name can only contain letters, numbers, and certain "
+"punctuation (_ . -)."
+msgstr ""
+
+#: src/ContainerRenameModal.jsx:52
+msgid "Failed to rename container $0"
+msgstr ""
+
+#: src/ContainerRenameModal.jsx:66
+msgid "New container name"
+msgstr ""
+
+#: src/ContainerRenameModal.jsx:84
+msgid "Rename container $0"
+msgstr ""
+
+#: src/app.jsx:51
+msgid "user"
+msgstr "वापरकर्ता"
+
+#: src/app.jsx:690 src/ImageRunModal.jsx:855
+msgid "User"
+msgstr "वापरकर्ता"
+
+#: src/app.jsx:842
+msgid "Podman service failed"
+msgstr ""
+
+#: src/app.jsx:846
+msgid "Troubleshoot"
+msgstr "त्रुटीनिवारन"
+
+#: src/ImageDetails.jsx:34
+msgid "Description"
+msgstr "वर्णन"
+
+#: src/ImageDetails.jsx:40
+msgid "Version"
+msgstr "आवृत्ती"
+
+#: src/ImageDetails.jsx:46
+msgid "Links"
+msgstr ""
+
+#: src/ImageDetails.jsx:49
+msgid "Documentation"
+msgstr "दस्तऐवजीकरण"
+
+#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
+msgid "Entrypoint"
+msgstr ""
+
+#: src/ImageDetails.jsx:68
+msgid "Tags"
+msgstr "टॅग्स्"
+
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
+msgid "Used by"
+msgstr "वापरलेले"
+
+#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
+msgid "Ports"
+msgstr "पोर्टस्"
+
+#: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:389
+msgid "Failed to search for new images"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:98 src/ImageRunModal.jsx:391
+msgid "Failed to search for images: $0"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:98 src/ImageRunModal.jsx:391
+msgid "Failed to search for images."
+msgstr ""
+
+#: src/ImageSearchModal.jsx:142
+msgid "Search for an image"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:158
+msgid "Search for"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:161
+msgid "Search by name or description"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:166
+msgid "in"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:170
+msgid "All registries"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:177
+msgid "Searching..."
+msgstr "शोधत आहे..."
+
+#: src/ImageSearchModal.jsx:179 src/ImageRunModal.jsx:899
+#: src/ImageRunModal.jsx:900
+msgid "No images found"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:179
+msgid "Start typing to look for images."
+msgstr ""
+
+#: src/ImageSearchModal.jsx:183
+msgid "No results for $0"
+msgstr ""
+
+#: src/ImageSearchModal.jsx:184
+msgid "Retry another term."
+msgstr ""
+
+#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
+msgid "Tag"
+msgstr "टॅग्स्"
+
+#: src/ImageSearchModal.jsx:223
+msgid "Download"
+msgstr "डाउनलोड"
+
+#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
+msgid "Exited"
+msgstr ""
+
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Paused"
+msgstr "थांबविले"
+
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Stopped"
+msgstr "थांबविले"
+
+#: src/util.tsx:41
+msgid "Removing"
+msgstr "काढून टाकत आहे"
+
+#: src/util.tsx:41
+msgid "Configured"
+msgstr "संयोजना"
+
+#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+msgid "Running"
+msgstr "कार्यरत आहे"
+
+#: src/util.tsx:44
+msgid "Error"
+msgstr "त्रुटी"
 
 #: src/Volume.jsx:26
 msgid "Container path must not be empty"
@@ -522,42 +706,73 @@ msgstr "सहभागीय"
 msgid "Private"
 msgstr ""
 
-#: src/Volume.jsx:87 src/Env.jsx:101 src/PublishPort.jsx:135
-msgid "Remove item"
-msgstr ""
-
 #: src/ContainerHeader.tsx:46
 msgid "Type to filter…"
 msgstr ""
 
-#: src/Env.jsx:22
-msgid "Key must not be empty"
+#: src/ImageHistory.jsx:34
+msgid "Created by"
+msgstr "निर्मीत"
+
+#: src/ImageHistory.jsx:34
+msgid "Size"
+msgstr "आकार"
+
+#: src/ImageHistory.jsx:34
+msgid "Comments"
+msgstr "टिप्पणी"
+
+#: src/ImageHistory.jsx:60
+msgid "Unable to load image history"
 msgstr ""
 
-#: src/Env.jsx:24
-msgid "Key must not begin with a digit"
+#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
+msgid "Loading details..."
 msgstr ""
 
-#: src/Env.jsx:26
-msgid "Key contains invalid characters"
-msgstr "ipset नावात अवैध अक्षरे समाविष्टीत आहे"
-
-#: src/Env.jsx:67
-msgid "Key"
+#: src/PodActions.jsx:48
+msgid "Force delete pod $0?"
 msgstr ""
 
-#: src/Env.jsx:83
-msgid "Value"
-msgstr "मूल्य"
+#: src/PodActions.jsx:49
+msgid "Delete pod $0?"
+msgstr ""
+
+#: src/PodActions.jsx:53
+msgid "An error occurred"
+msgstr ""
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr ""
+
+#: src/PodActions.jsx:59
+msgid "Deleting this pod will remove the following containers:"
+msgstr ""
+
+#: src/PodActions.jsx:85 src/PodActions.jsx:91
+msgid "Failed to start pod $0"
+msgstr ""
+
+#: src/PodActions.jsx:100 src/PodActions.jsx:107
+msgid "Failed to stop pod $0"
+msgstr ""
+
+#: src/PodActions.jsx:117 src/PodActions.jsx:124
+msgid "Failed to restart pod $0"
+msgstr ""
+
+#: src/PodActions.jsx:180
+msgid "Failed to resume pod $0"
+msgstr ""
+
+#: src/PodActions.jsx:195
+msgid "Failed to pause pod $0"
+msgstr ""
 
 #: src/PodCreateModal.jsx:97
 msgid "Pod failed to be created"
 msgstr ""
-
-#: src/PodCreateModal.jsx:153 src/ImageRunModal.jsx:810
-#: src/PruneUnusedContainersModal.jsx:68
-msgid "Name"
-msgstr "नाव"
 
 #: src/PodCreateModal.jsx:156
 msgid "Pod name"
@@ -601,95 +816,9 @@ msgstr ""
 msgid "Create"
 msgstr "निर्मीत"
 
-#: src/Images.jsx:60
-msgid "Failed to download image $0:$1"
-msgstr ""
-
-#: src/Images.jsx:62 src/Notification.tsx:38
+#: src/Notification.tsx:38 src/Images.jsx:62
 msgid "Error message"
 msgstr "त्रुटी लॉग संदेश"
-
-#: src/Images.jsx:93 src/Images.jsx:100
-msgid "unused"
-msgstr "थांबवणे अशक्य"
-
-#: src/Images.jsx:97
-msgid "$0 container"
-msgid_plural "$0 containers"
-msgstr[0] "$0 कंटेनर"
-msgstr[1] "$0 कंटेनर"
-
-#: src/Images.jsx:170
-msgid "History"
-msgstr ""
-
-#: src/Images.jsx:193
-msgid "Disk space"
-msgstr ""
-
-#: src/Images.jsx:194 src/ImageDetails.jsx:74
-msgid "Used by"
-msgstr "वापरलेले"
-
-#: src/Images.jsx:196
-msgid "No images"
-msgstr ""
-
-#: src/Images.jsx:200
-msgid "No images that match the current filter"
-msgstr ""
-
-#: src/Images.jsx:277
-msgid "Hide intermediate images"
-msgstr ""
-
-#: src/Images.jsx:277
-msgid "Show intermediate images"
-msgstr ""
-
-#: src/Images.jsx:283 src/Images.jsx:315
-msgid "Images"
-msgstr "प्रतिमा"
-
-#: src/Images.jsx:298
-msgid "$0 image total, $1"
-msgid_plural "$0 images total, $1"
-msgstr[0] "एकूण $0 इमेज, $1"
-msgstr[1] "एकूण $0 इमेजेस, $1"
-
-#: src/Images.jsx:302
-msgid "$0 unused image, $1"
-msgid_plural "$0 unused images, $1"
-msgstr[0] "$0 न वापरलेली ईमेज, $1"
-msgstr[1] "$0 न वापरलेल्या ईमेजेस, $1"
-
-#: src/Images.jsx:330
-msgid "Hide images"
-msgstr ""
-
-#: src/Images.jsx:330
-msgid "Show images"
-msgstr ""
-
-#: src/Images.jsx:353
-msgid "Pulling"
-msgstr "पोलिंग (_o)"
-
-#: src/Images.jsx:367
-msgid "Download new image"
-msgstr ""
-
-#: src/Images.jsx:374
-msgid "Pull all images"
-msgstr ""
-
-#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
-msgid "Prune unused images"
-msgstr ""
-
-#: src/Images.jsx:453
-msgid "Pull"
-msgstr ""
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -711,77 +840,58 @@ msgstr ""
 msgid "Ignore MAC address if set statically"
 msgstr ""
 
-#: src/ImageDetails.jsx:34
-msgid "Description"
-msgstr "वर्णन"
-
-#: src/ImageDetails.jsx:40
-msgid "Version"
-msgstr "आवृत्ती"
-
-#: src/ImageDetails.jsx:46
-msgid "Links"
+#: src/ContainerCommitModal.jsx:40
+msgid "Image name is required"
 msgstr ""
 
-#: src/ImageDetails.jsx:49
-msgid "Documentation"
-msgstr "दस्तऐवजीकरण"
-
-#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
-msgid "Entrypoint"
+#: src/ContainerCommitModal.jsx:49
+msgid "Image name is not unique"
 msgstr ""
 
-#: src/ImageDetails.jsx:68
-msgid "Tags"
-msgstr "टॅग्स्"
-
-#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
-msgid "Ports"
-msgstr "पोर्टस्"
-
-#: src/PruneUnusedImagesModal.jsx:38
-msgid "Delete unused system images:"
+#: src/ContainerCommitModal.jsx:86
+msgid "Failed to commit container $0"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:39
-msgid "Delete unused images of user $0:"
+#: src/ContainerCommitModal.jsx:95
+msgid "New image name"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
-msgid "Show more"
+#: src/ContainerCommitModal.jsx:110
+msgid "Author"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:74
-msgid "Failed to prune unused images"
+#: src/ContainerCommitModal.jsx:112
+msgid "Example, Your Name <yourname@example.com>"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
-msgid "Pruning images"
+#: src/ContainerCommitModal.jsx:123
+msgid "Options"
+msgstr "पर्याय (_O)"
+
+#: src/ContainerCommitModal.jsx:127
+msgid "Pause container when creating image"
 msgstr ""
 
-#: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
-msgid "Prune"
+#: src/ContainerCommitModal.jsx:131
+msgid ""
+"Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
 
-#: src/app.jsx:51
-msgid "user"
-msgstr "वापरकर्ता"
-
-#: src/app.jsx:690 src/ImageRunModal.jsx:855
-msgid "User"
-msgstr "वापरकर्ता"
-
-#: src/app.jsx:842
-msgid "Podman service failed"
+#: src/ContainerCommitModal.jsx:132
+msgid "Use legacy Docker format"
 msgstr ""
 
-#: src/app.jsx:846
-msgid "Troubleshoot"
-msgstr "त्रुटीनिवारन"
+#: src/ContainerCommitModal.jsx:142
+msgid "Commit container"
+msgstr ""
 
-#: src/ImageRunModal.jsx:62 src/ContainerHealthLogs.jsx:29
-msgid "No action"
-msgstr "कृती नाही"
+#: src/ContainerCommitModal.jsx:143
+msgid "Create a new image based on the current state of the $0 container."
+msgstr ""
+
+#: src/ContainerCommitModal.jsx:161
+msgid "Force commit"
+msgstr ""
 
 #: src/ImageRunModal.jsx:252
 msgid "Container failed to be started"
@@ -809,18 +919,6 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:334
 msgid "Failed to pull image $0"
-msgstr ""
-
-#: src/ImageRunModal.jsx:389 src/ImageSearchModal.jsx:97
-msgid "Failed to search for new images"
-msgstr ""
-
-#: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
-msgid "Failed to search for images: $0"
-msgstr ""
-
-#: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
-msgid "Failed to search for images."
 msgstr ""
 
 #: src/ImageRunModal.jsx:579
@@ -871,6 +969,10 @@ msgstr ""
 msgid "Restricted by user account permissions"
 msgstr ""
 
+#: src/ImageRunModal.jsx:881 src/ContainerDetails.jsx:39 src/Images.jsx:189
+msgid "Image"
+msgstr "प्रतिमा"
+
 #: src/ImageRunModal.jsx:883
 msgid "Image selection help"
 msgstr ""
@@ -885,11 +987,6 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:889
 msgid "Searching: $0"
-msgstr ""
-
-#: src/ImageRunModal.jsx:899 src/ImageRunModal.jsx:900
-#: src/ImageSearchModal.jsx:179
-msgid "No images found"
 msgstr ""
 
 #: src/ImageRunModal.jsx:903
@@ -1015,10 +1112,6 @@ msgid ""
 "Paste one or more lines of key=value pairs into any field for bulk import"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1092 src/ContainerHealthLogs.jsx:54
-msgid "Interval"
-msgstr ""
-
 #: src/ImageRunModal.jsx:1094
 msgid "Health check interval help"
 msgstr ""
@@ -1040,10 +1133,6 @@ msgstr ""
 msgid "seconds"
 msgstr "सेकंद"
 
-#: src/ImageRunModal.jsx:1115 src/ContainerHealthLogs.jsx:66
-msgid "Timeout"
-msgstr "वेळसमाप्ति"
-
 #: src/ImageRunModal.jsx:1117
 msgid "Health check timeout help"
 msgstr ""
@@ -1062,10 +1151,6 @@ msgstr ""
 msgid "Increase timeout"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1138 src/ContainerHealthLogs.jsx:62
-msgid "Start period"
-msgstr ""
-
 #: src/ImageRunModal.jsx:1140
 msgid "Health check start period help"
 msgstr ""
@@ -1080,10 +1165,6 @@ msgstr ""
 
 #: src/ImageRunModal.jsx:1154
 msgid "Increase start period"
-msgstr ""
-
-#: src/ImageRunModal.jsx:1161 src/ContainerHealthLogs.jsx:58
-msgid "Retries"
 msgstr ""
 
 #: src/ImageRunModal.jsx:1163
@@ -1104,10 +1185,6 @@ msgstr ""
 msgid "Increase retries"
 msgstr ""
 
-#: src/ImageRunModal.jsx:1181 src/ContainerHealthLogs.jsx:70
-msgid "When unhealthy"
-msgstr ""
-
 #: src/ImageRunModal.jsx:1183
 msgid "Health failure check action help"
 msgstr ""
@@ -1124,157 +1201,6 @@ msgstr ""
 msgid "Create and run"
 msgstr ""
 
-#: src/ContainerTerminal.jsx:250
-msgid "Container is not running"
-msgstr "क्षेत्र चालू नाही"
-
-#: src/ContainerTerminal.jsx:254
-msgid "Error occurred while connecting console"
-msgstr "'%s'शी जोडणी करतेवेळी त्रुटी आढळली"
-
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Paused"
-msgstr "थांबविले"
-
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Stopped"
-msgstr "थांबविले"
-
-#: src/util.tsx:41
-msgid "Removing"
-msgstr "काढून टाकत आहे"
-
-#: src/util.tsx:41
-msgid "Configured"
-msgstr "संयोजना"
-
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
-msgid "Running"
-msgstr "कार्यरत आहे"
-
-#: src/util.tsx:44
-msgid "Error"
-msgstr "त्रुटी"
-
-#: src/ImageUsedBy.jsx:17
-msgid "No containers are using this image"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:142
-msgid "Search for an image"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:158
-msgid "Search for"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:161
-msgid "Search by name or description"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:166
-msgid "in"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:170
-msgid "All registries"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:177
-msgid "Searching..."
-msgstr "शोधत आहे..."
-
-#: src/ImageSearchModal.jsx:179
-msgid "Start typing to look for images."
-msgstr ""
-
-#: src/ImageSearchModal.jsx:183
-msgid "No results for $0"
-msgstr ""
-
-#: src/ImageSearchModal.jsx:184
-msgid "Retry another term."
-msgstr ""
-
-#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
-msgid "Tag"
-msgstr "टॅग्स्"
-
-#: src/ImageSearchModal.jsx:223
-msgid "Download"
-msgstr "डाउनलोड"
-
-#: src/ImageHistory.jsx:34
-msgid "Created by"
-msgstr "निर्मीत"
-
-#: src/ImageHistory.jsx:34
-msgid "Size"
-msgstr "आकार"
-
-#: src/ImageHistory.jsx:34
-msgid "Comments"
-msgstr "टिप्पणी"
-
-#: src/ImageHistory.jsx:60
-msgid "Unable to load image history"
-msgstr ""
-
-#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
-msgid "Loading details..."
-msgstr ""
-
-#: src/PruneUnusedContainersModal.jsx:61
-msgid "Failed to prune unused containers"
-msgstr "क्लोन कंटेनर चालवण्यास अपयशी"
-
-#: src/PruneUnusedContainersModal.jsx:96
-msgid "Removes selected non-running containers"
-msgstr ""
-
-#: src/PruneUnusedContainersModal.jsx:106
-#: src/PruneUnusedContainersModal.jsx:110
-msgid "Pruning containers"
-msgstr ""
-
-#: src/ContainerHealthLogs.jsx:25
-msgid "$0 second"
-msgid_plural "$0 seconds"
-msgstr[0] "$0 सेकंद"
-msgstr[1] "$0 सेकंद"
-
-#: src/ContainerHealthLogs.jsx:46
-msgid "Status"
-msgstr "स्थिती"
-
-#: src/ContainerHealthLogs.jsx:74
-msgid "Failing streak"
-msgstr ""
-
-#: src/ContainerHealthLogs.jsx:84
-msgid "Failed to run health check on container $0"
-msgstr ""
-
-#: src/ContainerHealthLogs.jsx:88
-msgid "Run health check"
-msgstr ""
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Last 5 runs"
-msgstr ""
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Started at"
-msgstr "सुरू झाले"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Passed health run"
-msgstr ""
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Failed health run"
-msgstr ""
-
 #: src/ContainerIntegration.jsx:83
 msgid "Read-write access"
 msgstr ""
@@ -1287,109 +1213,182 @@ msgstr ""
 msgid "Show less"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:40
-msgid "Image name is required"
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
+msgid "Show more"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:49
-msgid "Image name is not unique"
+#: src/ImageUsedBy.jsx:17
+msgid "No containers are using this image"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:86
-msgid "Failed to commit container $0"
+#: src/ContainerLogs.jsx:46
+msgid "Loading logs..."
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:95
-msgid "New image name"
+#: src/ImageDeleteModal.jsx:53
+msgid "Failed to force remove image $0"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:110
-msgid "Author"
+#: src/ImageDeleteModal.jsx:65
+msgid "intermediate image"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:112
-msgid "Example, Your Name <yourname@example.com>"
+#: src/ImageDeleteModal.jsx:79
+msgid "Failed to remove image $0"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:123
-msgid "Options"
-msgstr "पर्याय (_O)"
-
-#: src/ContainerCommitModal.jsx:127
-msgid "Pause container when creating image"
+#: src/ImageDeleteModal.jsx:85
+msgid "intermediate"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:131
-msgid ""
-"Docker format is useful when sharing the image with Docker or Moby Engine"
+#: src/ImageDeleteModal.jsx:98
+msgid "Delete $0 image?"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:132
-msgid "Use legacy Docker format"
+#: src/ImageDeleteModal.jsx:103
+msgid "Multiple tags exist for this image. Select the tagged images to delete."
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:142
-msgid "Commit container"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete image"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:143
-msgid "Create a new image based on the current state of the $0 container."
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete tagged images"
 msgstr ""
 
-#: src/ContainerCommitModal.jsx:161
-msgid "Force commit"
+#: src/ContainerDeleteModal.jsx:26
+msgid "Failed to remove container $0"
 msgstr ""
 
-#: src/PublishPort.jsx:26
-msgid "Must be a valid IP address"
+#: src/ContainerDeleteModal.jsx:40
+msgid "Deleting a container will erase all data in it."
 msgstr ""
 
-#: src/PublishPort.jsx:32 src/PublishPort.jsx:43
-msgid "1 to 65535"
+#: src/ContainerDetails.jsx:16
+msgid "Up since:"
 msgstr ""
 
-#: src/PublishPort.jsx:39
-msgid "Container port must not be empty"
+#: src/ContainerDetails.jsx:35 src/Images.jsx:192
+msgid "ID"
+msgstr "ID"
+
+#: src/ContainerDetails.jsx:50
+msgid "systemd service"
 msgstr ""
 
-#: src/PublishPort.jsx:60
-msgid "IP address help"
-msgstr "IP पत्ता"
-
-#: src/PublishPort.jsx:62
-msgid ""
-"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
-"all IPs on the host."
+#: src/ContainerDetails.jsx:54
+msgid "View $0"
 msgstr ""
 
-#: src/PublishPort.jsx:78
-msgid "Host port"
-msgstr "रिपोर्ट सादर करा"
+#: src/ContainerDetails.jsx:68
+msgid "Gateway"
+msgstr "गेटवे"
 
-#: src/PublishPort.jsx:81
-msgid "Host port help"
+#: src/ContainerDetails.jsx:72
+msgid "MAC address"
+msgstr "MAC पत्ता"
+
+#: src/ContainerDetails.jsx:90
+msgid "Latest checkpoint"
 msgstr ""
 
-#: src/PublishPort.jsx:83
-msgid ""
-"If the host port is not set the container port will be randomly assigned a "
-"port on the host."
+#: src/PruneUnusedImagesModal.jsx:38
+msgid "Delete unused system images:"
 msgstr ""
 
-#: src/PublishPort.jsx:103
-msgid "Container port"
+#: src/PruneUnusedImagesModal.jsx:39
+msgid "Delete unused images of user $0:"
 msgstr ""
 
-#: src/PublishPort.jsx:120
-msgid "Protocol"
-msgstr "प्रोटोकॉल"
-
-#: src/PublishPort.jsx:126
-msgid "TCP"
+#: src/PruneUnusedImagesModal.jsx:74
+msgid "Failed to prune unused images"
 msgstr ""
 
-#: src/PublishPort.jsx:127
-msgid "UDP"
+#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+msgid "Prune unused images"
+msgstr ""
+
+#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
+msgid "Pruning images"
+msgstr ""
+
+#: src/Images.jsx:60
+msgid "Failed to download image $0:$1"
+msgstr ""
+
+#: src/Images.jsx:93 src/Images.jsx:100
+msgid "unused"
+msgstr "थांबवणे अशक्य"
+
+#: src/Images.jsx:97
+msgid "$0 container"
+msgid_plural "$0 containers"
+msgstr[0] "$0 कंटेनर"
+msgstr[1] "$0 कंटेनर"
+
+#: src/Images.jsx:170
+msgid "History"
+msgstr ""
+
+#: src/Images.jsx:193
+msgid "Disk space"
+msgstr ""
+
+#: src/Images.jsx:196
+msgid "No images"
+msgstr ""
+
+#: src/Images.jsx:200
+msgid "No images that match the current filter"
+msgstr ""
+
+#: src/Images.jsx:277
+msgid "Hide intermediate images"
+msgstr ""
+
+#: src/Images.jsx:277
+msgid "Show intermediate images"
+msgstr ""
+
+#: src/Images.jsx:283 src/Images.jsx:315
+msgid "Images"
+msgstr "प्रतिमा"
+
+#: src/Images.jsx:298
+msgid "$0 image total, $1"
+msgid_plural "$0 images total, $1"
+msgstr[0] "एकूण $0 इमेज, $1"
+msgstr[1] "एकूण $0 इमेजेस, $1"
+
+#: src/Images.jsx:302
+msgid "$0 unused image, $1"
+msgid_plural "$0 unused images, $1"
+msgstr[0] "$0 न वापरलेली ईमेज, $1"
+msgstr[1] "$0 न वापरलेल्या ईमेजेस, $1"
+
+#: src/Images.jsx:330
+msgid "Hide images"
+msgstr ""
+
+#: src/Images.jsx:330
+msgid "Show images"
+msgstr ""
+
+#: src/Images.jsx:353
+msgid "Pulling"
+msgstr "पोलिंग (_o)"
+
+#: src/Images.jsx:367
+msgid "Download new image"
+msgstr ""
+
+#: src/Images.jsx:374
+msgid "Pull all images"
+msgstr ""
+
+#: src/Images.jsx:453
+msgid "Pull"
 msgstr ""
 
 #: src/manifest.json:0

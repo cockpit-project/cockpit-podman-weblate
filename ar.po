@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 10:01+0000\n"
+"POT-Creation-Date: 2026-11-20 10:27+0000\n"
 "PO-Revision-Date: 2025-07-21 10:54+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
@@ -51,232 +51,62 @@ msgstr "دعم الحفاظ على اتصالات TCP المنشأة"
 msgid "Checkpoint"
 msgstr "نقطة الفحص"
 
-#: src/ContainerCheckpointModal.jsx:67 src/ContainerDeleteModal.jsx:44
-#: src/ForceRemoveModal.jsx:34 src/PodActions.jsx:72
-#: src/ContainerRenameModal.jsx:100 src/ImageDeleteModal.jsx:126
+#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
+#: src/ForceRemoveModal.jsx:34 src/ContainerRenameModal.jsx:100
+#: src/ImageSearchModal.jsx:226 src/PodActions.jsx:72
 #: src/PodCreateModal.jsx:223 src/ContainerRestoreModal.jsx:73
-#: src/PruneUnusedImagesModal.jsx:113 src/ImageRunModal.jsx:1233
-#: src/ImageSearchModal.jsx:226 src/PruneUnusedContainersModal.jsx:112
-#: src/ContainerCommitModal.jsx:167
+#: src/ContainerCommitModal.jsx:167 src/ImageRunModal.jsx:1233
+#: src/ImageDeleteModal.jsx:126 src/ContainerDeleteModal.jsx:44
+#: src/PruneUnusedImagesModal.jsx:113
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: src/ContainerDeleteModal.jsx:26
-msgid "Failed to remove container $0"
-msgstr "فشل في إزالة الحاوية $0"
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503 src/app.jsx:51
+#: src/app.jsx:677 src/Images.jsx:145
+msgid "system"
+msgstr "النظام"
 
-#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
-msgid "Delete $0?"
-msgstr "حذف $0؟"
+#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503
+#: src/Images.jsx:145
+msgid "user:"
+msgstr "المستخدم:"
 
-#: src/ContainerDeleteModal.jsx:40
-msgid "Deleting a container will erase all data in it."
-msgstr "سيؤدي حذف حاوية إلى مسح جميع البيانات الموجودة فيها."
+#: src/PruneUnusedContainersModal.jsx:61
+msgid "Failed to prune unused containers"
+msgstr "فشل تقليم الحاويات غير المستخدمة"
 
-#: src/ContainerDeleteModal.jsx:43 src/PodActions.jsx:68 src/PodActions.jsx:215
-#: src/Containers.jsx:290 src/Images.jsx:459
-msgid "Delete"
-msgstr "حذف"
+#: src/PruneUnusedContainersModal.jsx:68 src/PodCreateModal.jsx:153
+#: src/ImageRunModal.jsx:810
+msgid "Name"
+msgstr "الاسم"
 
-#: src/ContainerDetails.jsx:16
-msgid "Up since:"
-msgstr "منذ:"
-
-#: src/ContainerDetails.jsx:18 src/util.tsx:41 src/util.tsx:44
-msgid "Exited"
-msgstr "تم الخروج"
-
-#: src/ContainerDetails.jsx:35 src/Images.jsx:192
-msgid "ID"
-msgstr "المعرّف"
-
-#: src/ContainerDetails.jsx:39 src/Images.jsx:189 src/ImageRunModal.jsx:881
-msgid "Image"
-msgstr "صورة"
-
-#: src/ContainerDetails.jsx:44 src/ImageDetails.jsx:56
-#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
-#: src/ContainerHealthLogs.jsx:50 src/ContainerCommitModal.jsx:117
-msgid "Command"
-msgstr "أمر"
-
-#: src/ContainerDetails.jsx:50
-msgid "systemd service"
-msgstr "خدمة systrmd"
-
-#: src/ContainerDetails.jsx:54
-msgid "View $0"
-msgstr "عرض $0"
-
-#: src/ContainerDetails.jsx:64 src/PublishPort.jsx:57
-msgid "IP address"
-msgstr "عنوان IP"
-
-#: src/ContainerDetails.jsx:68
-msgid "Gateway"
-msgstr "البوّابة"
-
-#: src/ContainerDetails.jsx:72
-msgid "MAC address"
-msgstr "عنوان MAC"
-
-#: src/ContainerDetails.jsx:81 src/Images.jsx:191 src/util.tsx:41
-#: src/util.tsx:44 src/ImageHistory.jsx:34
-#: src/PruneUnusedContainersModal.jsx:69
+#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
+#: src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81 src/Images.jsx:191
 msgid "Created"
 msgstr "تم إنشاؤه"
 
-#: src/ContainerDetails.jsx:86 src/Containers.jsx:759
-msgid "State"
-msgstr "حالة"
+#: src/PruneUnusedContainersModal.jsx:75 src/Containers.jsx:756
+#: src/ImageSearchModal.jsx:147 src/ContainerHeader.tsx:32
+#: src/PodCreateModal.jsx:171 src/ImageRunModal.jsx:831 src/Images.jsx:190
+msgid "Owner"
+msgstr "المالك"
 
-#: src/ContainerDetails.jsx:90
-msgid "Latest checkpoint"
-msgstr "‎آخر نقطة فحص"
+#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
+msgid "Prune unused containers"
+msgstr "تقليم الحاويات غير المستخدمة"
 
-#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
-msgid "Force delete"
-msgstr "حذف إجباري"
+#: src/PruneUnusedContainersModal.jsx:96
+msgid "Removes selected non-running containers"
+msgstr "أزل الحاويات المحددة التي ليست قيد التشغيل"
 
-#: src/ContainerLogs.jsx:46
-msgid "Loading logs..."
-msgstr "جاري تحميل السجلات..."
+#: src/PruneUnusedContainersModal.jsx:106
+#: src/PruneUnusedContainersModal.jsx:110
+msgid "Pruning containers"
+msgstr "تلقيم الحاويات"
 
-#: src/PodActions.jsx:48
-msgid "Force delete pod $0?"
-msgstr "تريد فرض حذف الـ pod: $0؟"
-
-#: src/PodActions.jsx:49
-msgid "Delete pod $0?"
-msgstr "حذف الـ pod $0؟"
-
-#: src/PodActions.jsx:53
-msgid "An error occurred"
-msgstr "حدث خطأ ما"
-
-#: src/PodActions.jsx:55
-msgid "Empty pod $0 will be permanently removed."
-msgstr "ستتم إزالة الـ pod: $0 بشكل دائم."
-
-#: src/PodActions.jsx:59
-msgid "Deleting this pod will remove the following containers:"
-msgstr "سيؤدي حذف هذا الـ pod إلى إزالة الحاويات التالية:"
-
-#: src/PodActions.jsx:85 src/PodActions.jsx:91
-msgid "Failed to start pod $0"
-msgstr "فشل في بدء الـ pod: $0"
-
-#: src/PodActions.jsx:100 src/PodActions.jsx:107
-msgid "Failed to stop pod $0"
-msgstr "فشل في إيقاف الـ pod: $0"
-
-#: src/PodActions.jsx:117 src/PodActions.jsx:124
-msgid "Failed to restart pod $0"
-msgstr "فشل في إعادة تشغيل الـ pod: $0"
-
-#: src/PodActions.jsx:137 src/Containers.jsx:194 src/Containers.jsx:205
-#: src/ImageRunModal.jsx:64 src/ContainerHealthLogs.jsx:31
-msgid "Stop"
-msgstr "إيقاف"
-
-#: src/PodActions.jsx:145 src/Containers.jsx:209 src/ImageRunModal.jsx:65
-#: src/ContainerHealthLogs.jsx:32
-msgid "Force stop"
-msgstr "فرض الإيقاف"
-
-#: src/PodActions.jsx:152 src/Containers.jsx:198 src/Containers.jsx:213
-#: src/ImageRunModal.jsx:63 src/util.tsx:41 src/ContainerHealthLogs.jsx:30
-msgid "Restart"
-msgstr "أعد التشغيل"
-
-#: src/PodActions.jsx:160 src/Containers.jsx:217
-msgid "Force restart"
-msgstr "فرض إعادة التشغيل"
-
-#: src/PodActions.jsx:169 src/Containers.jsx:255
-msgid "Start"
-msgstr "بدء"
-
-#: src/PodActions.jsx:180
-msgid "Failed to resume pod $0"
-msgstr "فشل في استئناف الـ pod: $0"
-
-#: src/PodActions.jsx:184 src/Containers.jsx:232
-msgid "Resume"
-msgstr "استئناف"
-
-#: src/PodActions.jsx:195
-msgid "Failed to pause pod $0"
-msgstr "فشل في الإيقاف المؤقت للـ pod: $0"
-
-#: src/PodActions.jsx:199 src/Containers.jsx:225
-msgid "Pause"
-msgstr "إيقاف مؤقَّت"
-
-#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
-msgid "Container name is required."
-msgstr "اسم الحاوية مطلوب."
-
-#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
-msgid ""
-"Invalid characters. Name can only contain letters, numbers, and certain "
-"punctuation (_ . -)."
-msgstr ""
-"أحرف غير صالحة. يمكن أن يحتوي الاسم فقط على أحرف وأرقام وعلامات ترقيم معينة "
-"(_ . -)."
-
-#: src/ContainerRenameModal.jsx:52
-msgid "Failed to rename container $0"
-msgstr "فشل في إعادة تسمية الحاوية $0"
-
-#: src/ContainerRenameModal.jsx:66
-msgid "New container name"
-msgstr "اسم حاوية جديد"
-
-#: src/ContainerRenameModal.jsx:84
-msgid "Rename container $0"
-msgstr "إعادة تسمية الحاوية $0"
-
-#: src/ContainerRenameModal.jsx:95 src/Containers.jsx:182
-msgid "Rename"
-msgstr "أعد التسمية"
-
-#: src/ImageDeleteModal.jsx:53
-msgid "Failed to force remove image $0"
-msgstr "فشل في الإزالة الإجبارية للصورة $0"
-
-#: src/ImageDeleteModal.jsx:65
-msgid "intermediate image"
-msgstr "صورة وسيطة"
-
-#: src/ImageDeleteModal.jsx:79
-msgid "Failed to remove image $0"
-msgstr "فشل في إزالة الصورة $0"
-
-#: src/ImageDeleteModal.jsx:85
-msgid "intermediate"
-msgstr "وسيط"
-
-#: src/ImageDeleteModal.jsx:98
-msgid "Delete $0 image?"
-msgstr "حذف الصورة $0؟"
-
-#: src/ImageDeleteModal.jsx:103
-msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr "توجد عدة أوسمة لهذه الصورة. حدد الصور الموسومة لحذفها."
-
-#: src/ImageDeleteModal.jsx:105 src/Containers.jsx:900
-#: src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
-msgid "All"
-msgstr "الكل"
-
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete image"
-msgstr "حذف صورة"
-
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete tagged images"
-msgstr "حذف الصور الموسومة"
+#: src/PruneUnusedContainersModal.jsx:110 src/PruneUnusedImagesModal.jsx:111
+msgid "Prune"
+msgstr "التقليم"
 
 #: src/Containers.jsx:62
 msgid "Failed to force remove container $0"
@@ -324,6 +154,41 @@ msgstr "فشل في إعادة تشغيل الحاوية $0"
 msgid "Failed to restart quadlet $0"
 msgstr "فشل في إعادة تشغيل الـ pod: $0"
 
+#: src/Containers.jsx:182 src/ContainerRenameModal.jsx:95
+msgid "Rename"
+msgstr "أعد التسمية"
+
+#: src/Containers.jsx:194 src/Containers.jsx:205 src/ContainerHealthLogs.jsx:31
+#: src/PodActions.jsx:137 src/ImageRunModal.jsx:64
+msgid "Stop"
+msgstr "إيقاف"
+
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/ContainerHealthLogs.jsx:30
+#: src/util.tsx:41 src/PodActions.jsx:152 src/ImageRunModal.jsx:63
+msgid "Restart"
+msgstr "أعد التشغيل"
+
+#: src/Containers.jsx:209 src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
+#: src/ImageRunModal.jsx:65
+msgid "Force stop"
+msgstr "فرض الإيقاف"
+
+#: src/Containers.jsx:217 src/PodActions.jsx:160
+msgid "Force restart"
+msgstr "فرض إعادة التشغيل"
+
+#: src/Containers.jsx:225 src/PodActions.jsx:199
+msgid "Pause"
+msgstr "إيقاف مؤقَّت"
+
+#: src/Containers.jsx:232 src/PodActions.jsx:184
+msgid "Resume"
+msgstr "استئناف"
+
+#: src/Containers.jsx:255 src/PodActions.jsx:169
+msgid "Start"
+msgstr "بدء"
+
 #: src/Containers.jsx:266 src/ContainerRestoreModal.jsx:69
 msgid "Restore"
 msgstr "استعادة"
@@ -331,6 +196,11 @@ msgstr "استعادة"
 #: src/Containers.jsx:281 src/ContainerCommitModal.jsx:154
 msgid "Commit"
 msgstr "إيداع"
+
+#: src/Containers.jsx:290 src/PodActions.jsx:68 src/PodActions.jsx:215
+#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
+msgid "Delete"
+msgstr "حذف"
 
 #: src/Containers.jsx:312
 msgid "Healthy"
@@ -343,10 +213,6 @@ msgstr "غير صحي"
 #: src/Containers.jsx:316
 msgid "Checking health"
 msgstr "فحص الصحة"
-
-#: src/Containers.jsx:330 src/PruneUnusedContainersModal.jsx:94
-msgid "Prune unused containers"
-msgstr "تقليم الحاويات غير المستخدمة"
 
 #: src/Containers.jsx:345
 #, fuzzy
@@ -379,17 +245,7 @@ msgstr "$0 من $1 حد"
 msgid "service"
 msgstr "الخدمة"
 
-#: src/Containers.jsx:503 src/Images.jsx:145 src/app.jsx:51 src/app.jsx:677
-#: src/PruneUnusedContainersModal.jsx:35
-msgid "system"
-msgstr "النظام"
-
-#: src/Containers.jsx:503 src/Images.jsx:145
-#: src/PruneUnusedContainersModal.jsx:35
-msgid "user:"
-msgstr "المستخدم:"
-
-#: src/Containers.jsx:528 src/Images.jsx:161 src/ImageRunModal.jsx:828
+#: src/Containers.jsx:528 src/ImageRunModal.jsx:828 src/Images.jsx:161
 msgid "Details"
 msgstr "التفاصيل"
 
@@ -437,11 +293,9 @@ msgstr "وحدات التخزين"
 msgid "Container"
 msgstr "حاوية"
 
-#: src/Containers.jsx:756 src/ContainerHeader.tsx:32 src/PodCreateModal.jsx:171
-#: src/Images.jsx:190 src/ImageRunModal.jsx:831 src/ImageSearchModal.jsx:147
-#: src/PruneUnusedContainersModal.jsx:75
-msgid "Owner"
-msgstr "المالك"
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
+msgid "State"
+msgstr "حالة"
 
 #: src/Containers.jsx:760
 msgid "Actions"
@@ -455,7 +309,7 @@ msgstr "لا حاويات"
 msgid "No containers in this pod"
 msgstr "لا حاويات في هذا الـ pod"
 
-#: src/Containers.jsx:771 src/Images.jsx:198 src/ImageUsedBy.jsx:15
+#: src/Containers.jsx:771 src/ImageUsedBy.jsx:15 src/Images.jsx:198
 msgid "Loading..."
 msgstr "قيد التحميل..."
 
@@ -471,6 +325,11 @@ msgstr "لا حاويات قيد التشغيل"
 msgid "Show"
 msgstr "عرض"
 
+#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
+#: src/ImageDeleteModal.jsx:105
+msgid "All"
+msgstr "الكل"
+
 #: src/Containers.jsx:901
 msgid "Only running"
 msgstr "التشغيل فقط"
@@ -479,8 +338,8 @@ msgstr "التشغيل فقط"
 msgid "Create pod"
 msgstr "إنشاء pod"
 
-#: src/Containers.jsx:917 src/Images.jsx:439 src/Images.jsx:448
-#: src/ImageRunModal.jsx:1219
+#: src/Containers.jsx:917 src/ImageRunModal.jsx:1219 src/Images.jsx:439
+#: src/Images.jsx:448
 msgid "Create container"
 msgstr "إنشاء حاوية"
 
@@ -495,6 +354,339 @@ msgstr "إنشاء حاوية ضمن pod"
 #: src/Containers.jsx:1026
 msgid "pod"
 msgstr "Pod"
+
+#: src/PublishPort.jsx:26
+msgid "Must be a valid IP address"
+msgstr "يجب أن يكةن عنوان IP صالحاً"
+
+#: src/PublishPort.jsx:32 src/PublishPort.jsx:43
+msgid "1 to 65535"
+msgstr "1 إلى 65535"
+
+#: src/PublishPort.jsx:39
+msgid "Container port must not be empty"
+msgstr "يجب ألا يكةن منفذ الحاوية فارغاً"
+
+#: src/PublishPort.jsx:57 src/ContainerDetails.jsx:64
+msgid "IP address"
+msgstr "عنوان IP"
+
+#: src/PublishPort.jsx:60
+msgid "IP address help"
+msgstr "مساعدة عنوان IP"
+
+#: src/PublishPort.jsx:62
+msgid ""
+"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
+"all IPs on the host."
+msgstr ""
+"إذا تم تعيين عنوان IP المضيف على 0.0.0.0.0 أو لم يتم تعيينه على الإطلاق، "
+"فسيتم ربط المنفذ بجميع عناوين IP على المضيف."
+
+#: src/PublishPort.jsx:78
+msgid "Host port"
+msgstr "منفذ المضيف"
+
+#: src/PublishPort.jsx:81
+msgid "Host port help"
+msgstr "مساعدة منفذ المضيف"
+
+#: src/PublishPort.jsx:83
+msgid ""
+"If the host port is not set the container port will be randomly assigned a "
+"port on the host."
+msgstr ""
+"إذا لم يتم تعيين منفذ المضيف، فسيتم تعيين منفذ الحاوية بشكل عشوائي على "
+"المضيف."
+
+#: src/PublishPort.jsx:103
+msgid "Container port"
+msgstr "منفذ الحاوية"
+
+#: src/PublishPort.jsx:120
+msgid "Protocol"
+msgstr "بروتوكول"
+
+#: src/PublishPort.jsx:126
+msgid "TCP"
+msgstr "TCP"
+
+#: src/PublishPort.jsx:127
+msgid "UDP"
+msgstr "UDP"
+
+#: src/PublishPort.jsx:135 src/Env.jsx:101 src/Volume.jsx:87
+msgid "Remove item"
+msgstr "إزالة العنصر"
+
+#: src/ContainerHealthLogs.jsx:25
+msgid "$0 second"
+msgid_plural "$0 seconds"
+msgstr[0] "$0 ثانية"
+msgstr[1] "ثانية واحدة"
+msgstr[2] "ثانيتان"
+msgstr[3] "$0 ثوانِ"
+msgstr[4] "$0 ثانية"
+msgstr[5] "$0 ثانية"
+
+#: src/ContainerHealthLogs.jsx:29 src/ImageRunModal.jsx:62
+msgid "No action"
+msgstr "لا حدث"
+
+#: src/ContainerHealthLogs.jsx:46
+msgid "Status"
+msgstr "الحالة"
+
+#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
+#: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
+#: src/ImageRunModal.jsx:1086 src/ContainerDetails.jsx:44
+msgid "Command"
+msgstr "أمر"
+
+#: src/ContainerHealthLogs.jsx:54 src/ImageRunModal.jsx:1092
+msgid "Interval"
+msgstr "فترة زمنية"
+
+#: src/ContainerHealthLogs.jsx:58 src/ImageRunModal.jsx:1161
+msgid "Retries"
+msgstr "إعادة المحاولة"
+
+#: src/ContainerHealthLogs.jsx:62 src/ImageRunModal.jsx:1138
+msgid "Start period"
+msgstr "فترة البدء"
+
+#: src/ContainerHealthLogs.jsx:66 src/ImageRunModal.jsx:1115
+msgid "Timeout"
+msgstr "المهلة الزمنية"
+
+#: src/ContainerHealthLogs.jsx:70 src/ImageRunModal.jsx:1181
+msgid "When unhealthy"
+msgstr "عندما تكون غير صحية"
+
+#: src/ContainerHealthLogs.jsx:74
+msgid "Failing streak"
+msgstr "سلسلة الإخفاق الممتالية"
+
+#: src/ContainerHealthLogs.jsx:84
+msgid "Failed to run health check on container $0"
+msgstr "فشل تشغيل فحص الحالة الصحية على الحاوية $0"
+
+#: src/ContainerHealthLogs.jsx:88
+msgid "Run health check"
+msgstr "شغَّل فحص الصحة"
+
+#: src/ContainerHealthLogs.jsx:95
+msgid "Last 5 runs"
+msgstr "آخر ٥ مرات تشغيل"
+
+#: src/ContainerHealthLogs.jsx:95
+msgid "Started at"
+msgstr "بدأ عند"
+
+#: src/ContainerHealthLogs.jsx:105
+msgid "Passed health run"
+msgstr "اجتازت اختبار الصحة"
+
+#: src/ContainerHealthLogs.jsx:105
+msgid "Failed health run"
+msgstr "فشل التشغيل الصحي"
+
+#: src/ContainerTerminal.jsx:250
+msgid "Container is not running"
+msgstr "الحاوية لا تعمل"
+
+#: src/ContainerTerminal.jsx:254
+msgid "Error occurred while connecting console"
+msgstr "حدث خطأ أثناء توصيل وحدة التحكم"
+
+#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
+msgid "Delete $0?"
+msgstr "حذف $0؟"
+
+#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
+msgid "Force delete"
+msgstr "حذف إجباري"
+
+#: src/Env.jsx:22
+msgid "Key must not be empty"
+msgstr "يجب ألا يكون المفتاح فارغاً"
+
+#: src/Env.jsx:24
+msgid "Key must not begin with a digit"
+msgstr "يجب ألا يبدأ المفتاح بعدد"
+
+#: src/Env.jsx:26
+msgid "Key contains invalid characters"
+msgstr "يحتوي المفتاح على أحرف غير صالحة"
+
+#: src/Env.jsx:67
+msgid "Key"
+msgstr "مفتاح"
+
+#: src/Env.jsx:83
+msgid "Value"
+msgstr "قيمة"
+
+#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
+msgid "Container name is required."
+msgstr "اسم الحاوية مطلوب."
+
+#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+msgid ""
+"Invalid characters. Name can only contain letters, numbers, and certain "
+"punctuation (_ . -)."
+msgstr ""
+"أحرف غير صالحة. يمكن أن يحتوي الاسم فقط على أحرف وأرقام وعلامات ترقيم معينة "
+"(_ . -)."
+
+#: src/ContainerRenameModal.jsx:52
+msgid "Failed to rename container $0"
+msgstr "فشل في إعادة تسمية الحاوية $0"
+
+#: src/ContainerRenameModal.jsx:66
+msgid "New container name"
+msgstr "اسم حاوية جديد"
+
+#: src/ContainerRenameModal.jsx:84
+msgid "Rename container $0"
+msgstr "إعادة تسمية الحاوية $0"
+
+#: src/app.jsx:51
+msgid "user"
+msgstr "المُستخدم"
+
+#: src/app.jsx:690 src/ImageRunModal.jsx:855
+msgid "User"
+msgstr "المستخدم"
+
+#: src/app.jsx:842
+msgid "Podman service failed"
+msgstr "خدمة Podman تعطلت"
+
+#: src/app.jsx:846
+msgid "Troubleshoot"
+msgstr "استكشاف الأخطاء وإصلاحها"
+
+#: src/ImageDetails.jsx:34
+msgid "Description"
+msgstr ""
+
+#: src/ImageDetails.jsx:40
+msgid "Version"
+msgstr ""
+
+#: src/ImageDetails.jsx:46
+msgid "Links"
+msgstr ""
+
+#: src/ImageDetails.jsx:49
+msgid "Documentation"
+msgstr ""
+
+#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
+msgid "Entrypoint"
+msgstr "نقطة الدخول"
+
+#: src/ImageDetails.jsx:68
+msgid "Tags"
+msgstr "العلامات"
+
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
+msgid "Used by"
+msgstr "مستخدم من قبل"
+
+#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
+msgid "Ports"
+msgstr "المنافذ"
+
+#: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:389
+msgid "Failed to search for new images"
+msgstr "فشل البحث عن صور جديدة"
+
+#: src/ImageSearchModal.jsx:98 src/ImageRunModal.jsx:391
+msgid "Failed to search for images: $0"
+msgstr "فشل في البحث عن الصور: $0"
+
+#: src/ImageSearchModal.jsx:98 src/ImageRunModal.jsx:391
+msgid "Failed to search for images."
+msgstr "فشل في البحث عن الصور."
+
+#: src/ImageSearchModal.jsx:142
+msgid "Search for an image"
+msgstr "البحث عن صورة"
+
+#: src/ImageSearchModal.jsx:158
+msgid "Search for"
+msgstr "البحث عن"
+
+#: src/ImageSearchModal.jsx:161
+msgid "Search by name or description"
+msgstr "البحث عبر الاسم أو الوصف"
+
+#: src/ImageSearchModal.jsx:166
+msgid "in"
+msgstr "في"
+
+#: src/ImageSearchModal.jsx:170
+msgid "All registries"
+msgstr "كافة السجلات"
+
+#: src/ImageSearchModal.jsx:177
+msgid "Searching..."
+msgstr "يجري البحث..."
+
+#: src/ImageSearchModal.jsx:179 src/ImageRunModal.jsx:899
+#: src/ImageRunModal.jsx:900
+msgid "No images found"
+msgstr "لا صور موجودة"
+
+#: src/ImageSearchModal.jsx:179
+msgid "Start typing to look for images."
+msgstr "ابدأ الكتابة للبحث عن الصور."
+
+#: src/ImageSearchModal.jsx:183
+msgid "No results for $0"
+msgstr "لا تنائج لـ $0"
+
+#: src/ImageSearchModal.jsx:184
+msgid "Retry another term."
+msgstr "إعادة تجربة المدة."
+
+#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
+msgid "Tag"
+msgstr "علامة"
+
+#: src/ImageSearchModal.jsx:223
+msgid "Download"
+msgstr "نزِّل"
+
+#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
+msgid "Exited"
+msgstr "تم الخروج"
+
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Paused"
+msgstr "تم إيقافه مؤقتاً"
+
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Stopped"
+msgstr "تم إيقافه"
+
+#: src/util.tsx:41
+msgid "Removing"
+msgstr "قيد الإزالة"
+
+#: src/util.tsx:41
+msgid "Configured"
+msgstr "تم تكوينه"
+
+#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+msgid "Running"
+msgstr "التشغيل"
+
+#: src/util.tsx:44
+msgid "Error"
+msgstr "خطأ"
 
 #: src/Volume.jsx:26
 msgid "Container path must not be empty"
@@ -532,42 +724,73 @@ msgstr "مشتركة"
 msgid "Private"
 msgstr "خاص"
 
-#: src/Volume.jsx:87 src/Env.jsx:101 src/PublishPort.jsx:135
-msgid "Remove item"
-msgstr "إزالة العنصر"
-
 #: src/ContainerHeader.tsx:46
 msgid "Type to filter…"
 msgstr "نوع عامل التصفية…"
 
-#: src/Env.jsx:22
-msgid "Key must not be empty"
-msgstr "يجب ألا يكون المفتاح فارغاً"
+#: src/ImageHistory.jsx:34
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
 
-#: src/Env.jsx:24
-msgid "Key must not begin with a digit"
-msgstr "يجب ألا يبدأ المفتاح بعدد"
+#: src/ImageHistory.jsx:34
+msgid "Size"
+msgstr "الحجم"
 
-#: src/Env.jsx:26
-msgid "Key contains invalid characters"
-msgstr "يحتوي المفتاح على أحرف غير صالحة"
+#: src/ImageHistory.jsx:34
+msgid "Comments"
+msgstr "تعليقات"
 
-#: src/Env.jsx:67
-msgid "Key"
-msgstr "مفتاح"
+#: src/ImageHistory.jsx:60
+msgid "Unable to load image history"
+msgstr "غير قادر على تحميل تاريخ الصورة"
 
-#: src/Env.jsx:83
-msgid "Value"
-msgstr "قيمة"
+#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
+msgid "Loading details..."
+msgstr "جاري تحميل التفاصيل..."
+
+#: src/PodActions.jsx:48
+msgid "Force delete pod $0?"
+msgstr "تريد فرض حذف الـ pod: $0؟"
+
+#: src/PodActions.jsx:49
+msgid "Delete pod $0?"
+msgstr "حذف الـ pod $0؟"
+
+#: src/PodActions.jsx:53
+msgid "An error occurred"
+msgstr "حدث خطأ ما"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr "ستتم إزالة الـ pod: $0 بشكل دائم."
+
+#: src/PodActions.jsx:59
+msgid "Deleting this pod will remove the following containers:"
+msgstr "سيؤدي حذف هذا الـ pod إلى إزالة الحاويات التالية:"
+
+#: src/PodActions.jsx:85 src/PodActions.jsx:91
+msgid "Failed to start pod $0"
+msgstr "فشل في بدء الـ pod: $0"
+
+#: src/PodActions.jsx:100 src/PodActions.jsx:107
+msgid "Failed to stop pod $0"
+msgstr "فشل في إيقاف الـ pod: $0"
+
+#: src/PodActions.jsx:117 src/PodActions.jsx:124
+msgid "Failed to restart pod $0"
+msgstr "فشل في إعادة تشغيل الـ pod: $0"
+
+#: src/PodActions.jsx:180
+msgid "Failed to resume pod $0"
+msgstr "فشل في استئناف الـ pod: $0"
+
+#: src/PodActions.jsx:195
+msgid "Failed to pause pod $0"
+msgstr "فشل في الإيقاف المؤقت للـ pod: $0"
 
 #: src/PodCreateModal.jsx:97
 msgid "Pod failed to be created"
 msgstr "فشل إنشاء الـ Pod"
-
-#: src/PodCreateModal.jsx:153 src/ImageRunModal.jsx:810
-#: src/PruneUnusedContainersModal.jsx:68
-msgid "Name"
-msgstr "الاسم"
 
 #: src/PodCreateModal.jsx:156
 msgid "Pod name"
@@ -611,107 +834,9 @@ msgstr "إضافة وحدة تخزين"
 msgid "Create"
 msgstr "إنشاء"
 
-#: src/Images.jsx:60
-msgid "Failed to download image $0:$1"
-msgstr "فشل في تنزيل الصورة $0:$1"
-
-#: src/Images.jsx:62 src/Notification.tsx:38
+#: src/Notification.tsx:38 src/Images.jsx:62
 msgid "Error message"
 msgstr "رسالة خطأ"
-
-#: src/Images.jsx:93 src/Images.jsx:100
-msgid "unused"
-msgstr "غير مستخدم"
-
-#: src/Images.jsx:97
-msgid "$0 container"
-msgid_plural "$0 containers"
-msgstr[0] "لا حاويات"
-msgstr[1] "حاوية واحدة"
-msgstr[2] "حاويتان"
-msgstr[3] "$0 حاويات"
-msgstr[4] "$0 حاوية"
-msgstr[5] "$0 حاوية"
-
-#: src/Images.jsx:170
-msgid "History"
-msgstr "تاريخ"
-
-#: src/Images.jsx:193
-msgid "Disk space"
-msgstr "مساحة القرص"
-
-#: src/Images.jsx:194 src/ImageDetails.jsx:74
-msgid "Used by"
-msgstr "مستخدم من قبل"
-
-#: src/Images.jsx:196
-msgid "No images"
-msgstr "لا صور"
-
-#: src/Images.jsx:200
-msgid "No images that match the current filter"
-msgstr "لا صور تتطابق مع عامل التصفية الحالي"
-
-#: src/Images.jsx:277
-msgid "Hide intermediate images"
-msgstr "إخفاء الصور الوسيطة"
-
-#: src/Images.jsx:277
-msgid "Show intermediate images"
-msgstr "إظهار الصور الوسيطة"
-
-#: src/Images.jsx:283 src/Images.jsx:315
-msgid "Images"
-msgstr "الصور"
-
-#: src/Images.jsx:298
-msgid "$0 image total, $1"
-msgid_plural "$0 images total, $1"
-msgstr[0] "بلا صورة في المجموع، $1"
-msgstr[1] "صورة واحدة في المجموع، $1"
-msgstr[2] "صورتان في المجموع، $1"
-msgstr[3] "$0 صور في المجموع، $1"
-msgstr[4] "$0 صورة في المجموع، $1"
-msgstr[5] "$0 صورة في المجموع، $1"
-
-#: src/Images.jsx:302
-msgid "$0 unused image, $1"
-msgid_plural "$0 unused images, $1"
-msgstr[0] "لا توجد صور غير مستخدمة، $1"
-msgstr[1] "توجد صورة واحدة غير مستخدمة،$1"
-msgstr[2] "توجد صورتان غير مستخدمتان، $1"
-msgstr[3] "توجد $0 صور غير مستخدمة، $1"
-msgstr[4] "توجد $0 صورة غير مستخدمة، $1"
-msgstr[5] "توجد $0 صورة غير مستخدمة، $1"
-
-#: src/Images.jsx:330
-msgid "Hide images"
-msgstr "إخفاء الصور"
-
-#: src/Images.jsx:330
-msgid "Show images"
-msgstr "أظهر الصور"
-
-#: src/Images.jsx:353
-msgid "Pulling"
-msgstr "السحب"
-
-#: src/Images.jsx:367
-msgid "Download new image"
-msgstr "نزِّل صورة جديدة"
-
-#: src/Images.jsx:374
-msgid "Pull all images"
-msgstr "سحب جميع الصور"
-
-#: src/Images.jsx:385 src/PruneUnusedImagesModal.jsx:91
-msgid "Prune unused images"
-msgstr "تلقيم الصور الغير مستخدمة"
-
-#: src/Images.jsx:453
-msgid "Pull"
-msgstr "اسحب"
 
 #: src/ContainerRestoreModal.jsx:36
 msgid "Failed to restore container $0"
@@ -733,77 +858,58 @@ msgstr "تجاهل عنوان IP إذا تم تعيينه بشكل ثابت"
 msgid "Ignore MAC address if set statically"
 msgstr "تجاهل عنوان MAC إذا تم تعيينه بشكل ثابت"
 
-#: src/ImageDetails.jsx:34
-msgid "Description"
-msgstr ""
+#: src/ContainerCommitModal.jsx:40
+msgid "Image name is required"
+msgstr "اسم الصورة مطلوب"
 
-#: src/ImageDetails.jsx:40
-msgid "Version"
-msgstr ""
+#: src/ContainerCommitModal.jsx:49
+msgid "Image name is not unique"
+msgstr "اسم الصورة ليس فريداً"
 
-#: src/ImageDetails.jsx:46
-msgid "Links"
-msgstr ""
+#: src/ContainerCommitModal.jsx:86
+msgid "Failed to commit container $0"
+msgstr "فشل في إيداع الحاوية $0"
 
-#: src/ImageDetails.jsx:49
-msgid "Documentation"
-msgstr ""
+#: src/ContainerCommitModal.jsx:95
+msgid "New image name"
+msgstr "اسم صورة جديد"
 
-#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
-msgid "Entrypoint"
-msgstr "نقطة الدخول"
+#: src/ContainerCommitModal.jsx:110
+msgid "Author"
+msgstr "آخر"
 
-#: src/ImageDetails.jsx:68
-msgid "Tags"
-msgstr "العلامات"
+#: src/ContainerCommitModal.jsx:112
+msgid "Example, Your Name <yourname@example.com>"
+msgstr "على سبيل المثال، اسمك <yourname@example.com>"
 
-#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
-msgid "Ports"
-msgstr "المنافذ"
+#: src/ContainerCommitModal.jsx:123
+msgid "Options"
+msgstr "الخيارات"
 
-#: src/PruneUnusedImagesModal.jsx:38
-msgid "Delete unused system images:"
-msgstr "حذف صور النظام غير المستخدمة:"
+#: src/ContainerCommitModal.jsx:127
+msgid "Pause container when creating image"
+msgstr "إيقاف الحاوية مؤقتاً عند إنشاء الصورة"
 
-#: src/PruneUnusedImagesModal.jsx:39
-msgid "Delete unused images of user $0:"
-msgstr "حذف الصور غير المستخدمة للمستخدم $0:"
+#: src/ContainerCommitModal.jsx:131
+msgid ""
+"Docker format is useful when sharing the image with Docker or Moby Engine"
+msgstr "تنسيق Docker مفيد عند مشاركة الصورة مع Docker أو Moby Engine"
 
-#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
-msgid "Show more"
-msgstr "أظهر المزيد"
+#: src/ContainerCommitModal.jsx:132
+msgid "Use legacy Docker format"
+msgstr "استخدام تنسيق Docker القديم"
 
-#: src/PruneUnusedImagesModal.jsx:74
-msgid "Failed to prune unused images"
-msgstr "فشل تقليم الصور غير المستخدمة"
+#: src/ContainerCommitModal.jsx:142
+msgid "Commit container"
+msgstr "أودع حاوية"
 
-#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
-msgid "Pruning images"
-msgstr "تلقيم الصور"
+#: src/ContainerCommitModal.jsx:143
+msgid "Create a new image based on the current state of the $0 container."
+msgstr "إنشاء صورة جديدة بناءً على الحالة الحالية للحاوية $0."
 
-#: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
-msgid "Prune"
-msgstr "التقليم"
-
-#: src/app.jsx:51
-msgid "user"
-msgstr "المُستخدم"
-
-#: src/app.jsx:690 src/ImageRunModal.jsx:855
-msgid "User"
-msgstr "المستخدم"
-
-#: src/app.jsx:842
-msgid "Podman service failed"
-msgstr "خدمة Podman تعطلت"
-
-#: src/app.jsx:846
-msgid "Troubleshoot"
-msgstr "استكشاف الأخطاء وإصلاحها"
-
-#: src/ImageRunModal.jsx:62 src/ContainerHealthLogs.jsx:29
-msgid "No action"
-msgstr "لا حدث"
+#: src/ContainerCommitModal.jsx:161
+msgid "Force commit"
+msgstr "فرض الإيداع"
 
 #: src/ImageRunModal.jsx:252
 msgid "Container failed to be started"
@@ -832,18 +938,6 @@ msgstr "فشل في إنشاء الحاوية $0"
 #: src/ImageRunModal.jsx:334
 msgid "Failed to pull image $0"
 msgstr "فشل في سحب الصورة $0"
-
-#: src/ImageRunModal.jsx:389 src/ImageSearchModal.jsx:97
-msgid "Failed to search for new images"
-msgstr "فشل البحث عن صور جديدة"
-
-#: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
-msgid "Failed to search for images: $0"
-msgstr "فشل في البحث عن الصور: $0"
-
-#: src/ImageRunModal.jsx:391 src/ImageSearchModal.jsx:98
-msgid "Failed to search for images."
-msgstr "فشل في البحث عن الصور."
 
 #: src/ImageRunModal.jsx:579
 msgid "Local images"
@@ -893,6 +987,10 @@ msgstr "نموذجية للتطوير"
 msgid "Restricted by user account permissions"
 msgstr "مقيد بصلاحيات حساب المستخدم"
 
+#: src/ImageRunModal.jsx:881 src/ContainerDetails.jsx:39 src/Images.jsx:189
+msgid "Image"
+msgstr "صورة"
+
 #: src/ImageRunModal.jsx:883
 msgid "Image selection help"
 msgstr "المساعدة في تحديد صورة"
@@ -908,11 +1006,6 @@ msgstr "على سبيل المثال: $0"
 #: src/ImageRunModal.jsx:889
 msgid "Searching: $0"
 msgstr "البحث: $0"
-
-#: src/ImageRunModal.jsx:899 src/ImageRunModal.jsx:900
-#: src/ImageSearchModal.jsx:179
-msgid "No images found"
-msgstr "لا صور موجودة"
 
 #: src/ImageRunModal.jsx:903
 msgid "Search string or container location"
@@ -1044,10 +1137,6 @@ msgid ""
 msgstr ""
 "الصق سطرًا واحدًا أو أكثر من أزواج المفتاح= القيمة في أي حقل للاستيراد الجماعي"
 
-#: src/ImageRunModal.jsx:1092 src/ContainerHealthLogs.jsx:54
-msgid "Interval"
-msgstr "فترة زمنية"
-
 #: src/ImageRunModal.jsx:1094
 msgid "Health check interval help"
 msgstr "المساعدة في الفترات الفاصلة بين فحوصات الصحة"
@@ -1069,10 +1158,6 @@ msgstr "زيادة الفترة الزمنية"
 msgid "seconds"
 msgstr "الثواني"
 
-#: src/ImageRunModal.jsx:1115 src/ContainerHealthLogs.jsx:66
-msgid "Timeout"
-msgstr "المهلة الزمنية"
-
 #: src/ImageRunModal.jsx:1117
 msgid "Health check timeout help"
 msgstr "المساعدة في مهلة التحقق من الصحة"
@@ -1093,10 +1178,6 @@ msgstr "تقليل المهلة"
 msgid "Increase timeout"
 msgstr "زيادة المهلة الزمنية"
 
-#: src/ImageRunModal.jsx:1138 src/ContainerHealthLogs.jsx:62
-msgid "Start period"
-msgstr "فترة البدء"
-
 #: src/ImageRunModal.jsx:1140
 msgid "Health check start period help"
 msgstr "المساعدة في فترة بدء الفحص الصحة"
@@ -1112,10 +1193,6 @@ msgstr "تقليل فترة البدء"
 #: src/ImageRunModal.jsx:1154
 msgid "Increase start period"
 msgstr "زيادة فترة البدء"
-
-#: src/ImageRunModal.jsx:1161 src/ContainerHealthLogs.jsx:58
-msgid "Retries"
-msgstr "إعادة المحاولة"
 
 #: src/ImageRunModal.jsx:1163
 msgid "Health check retries help"
@@ -1135,10 +1212,6 @@ msgstr "تقليل عدد مرات إعادة المحاولة"
 msgid "Increase retries"
 msgstr "زيادة عدد مرات إعادة المحاولة"
 
-#: src/ImageRunModal.jsx:1181 src/ContainerHealthLogs.jsx:70
-msgid "When unhealthy"
-msgstr "عندما تكون غير صحية"
-
 #: src/ImageRunModal.jsx:1183
 msgid "Health failure check action help"
 msgstr "المساعدة في إجراء التحقق من الفشل الصحي"
@@ -1155,161 +1228,6 @@ msgstr "إنشاء حاوية في $0"
 msgid "Create and run"
 msgstr "إنشاء ثم تشغيل"
 
-#: src/ContainerTerminal.jsx:250
-msgid "Container is not running"
-msgstr "الحاوية لا تعمل"
-
-#: src/ContainerTerminal.jsx:254
-msgid "Error occurred while connecting console"
-msgstr "حدث خطأ أثناء توصيل وحدة التحكم"
-
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Paused"
-msgstr "تم إيقافه مؤقتاً"
-
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Stopped"
-msgstr "تم إيقافه"
-
-#: src/util.tsx:41
-msgid "Removing"
-msgstr "قيد الإزالة"
-
-#: src/util.tsx:41
-msgid "Configured"
-msgstr "تم تكوينه"
-
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
-msgid "Running"
-msgstr "التشغيل"
-
-#: src/util.tsx:44
-msgid "Error"
-msgstr "خطأ"
-
-#: src/ImageUsedBy.jsx:17
-msgid "No containers are using this image"
-msgstr "لا حاويات تستخدم هذه الصورة"
-
-#: src/ImageSearchModal.jsx:142
-msgid "Search for an image"
-msgstr "البحث عن صورة"
-
-#: src/ImageSearchModal.jsx:158
-msgid "Search for"
-msgstr "البحث عن"
-
-#: src/ImageSearchModal.jsx:161
-msgid "Search by name or description"
-msgstr "البحث عبر الاسم أو الوصف"
-
-#: src/ImageSearchModal.jsx:166
-msgid "in"
-msgstr "في"
-
-#: src/ImageSearchModal.jsx:170
-msgid "All registries"
-msgstr "كافة السجلات"
-
-#: src/ImageSearchModal.jsx:177
-msgid "Searching..."
-msgstr "يجري البحث..."
-
-#: src/ImageSearchModal.jsx:179
-msgid "Start typing to look for images."
-msgstr "ابدأ الكتابة للبحث عن الصور."
-
-#: src/ImageSearchModal.jsx:183
-msgid "No results for $0"
-msgstr "لا تنائج لـ $0"
-
-#: src/ImageSearchModal.jsx:184
-msgid "Retry another term."
-msgstr "إعادة تجربة المدة."
-
-#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
-msgid "Tag"
-msgstr "علامة"
-
-#: src/ImageSearchModal.jsx:223
-msgid "Download"
-msgstr "نزِّل"
-
-#: src/ImageHistory.jsx:34
-msgid "Created by"
-msgstr "تم إنشاؤه بواسطة"
-
-#: src/ImageHistory.jsx:34
-msgid "Size"
-msgstr "الحجم"
-
-#: src/ImageHistory.jsx:34
-msgid "Comments"
-msgstr "تعليقات"
-
-#: src/ImageHistory.jsx:60
-msgid "Unable to load image history"
-msgstr "غير قادر على تحميل تاريخ الصورة"
-
-#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
-msgid "Loading details..."
-msgstr "جاري تحميل التفاصيل..."
-
-#: src/PruneUnusedContainersModal.jsx:61
-msgid "Failed to prune unused containers"
-msgstr "فشل تقليم الحاويات غير المستخدمة"
-
-#: src/PruneUnusedContainersModal.jsx:96
-msgid "Removes selected non-running containers"
-msgstr "أزل الحاويات المحددة التي ليست قيد التشغيل"
-
-#: src/PruneUnusedContainersModal.jsx:106
-#: src/PruneUnusedContainersModal.jsx:110
-msgid "Pruning containers"
-msgstr "تلقيم الحاويات"
-
-#: src/ContainerHealthLogs.jsx:25
-msgid "$0 second"
-msgid_plural "$0 seconds"
-msgstr[0] "$0 ثانية"
-msgstr[1] "ثانية واحدة"
-msgstr[2] "ثانيتان"
-msgstr[3] "$0 ثوانِ"
-msgstr[4] "$0 ثانية"
-msgstr[5] "$0 ثانية"
-
-#: src/ContainerHealthLogs.jsx:46
-msgid "Status"
-msgstr "الحالة"
-
-#: src/ContainerHealthLogs.jsx:74
-msgid "Failing streak"
-msgstr "سلسلة الإخفاق الممتالية"
-
-#: src/ContainerHealthLogs.jsx:84
-msgid "Failed to run health check on container $0"
-msgstr "فشل تشغيل فحص الحالة الصحية على الحاوية $0"
-
-#: src/ContainerHealthLogs.jsx:88
-msgid "Run health check"
-msgstr "شغَّل فحص الصحة"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Last 5 runs"
-msgstr "آخر ٥ مرات تشغيل"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Started at"
-msgstr "بدأ عند"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Passed health run"
-msgstr "اجتازت اختبار الصحة"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Failed health run"
-msgstr "فشل التشغيل الصحي"
-
 #: src/ContainerIntegration.jsx:83
 msgid "Read-write access"
 msgstr "وصول القرآءة-الكتابة"
@@ -1322,114 +1240,195 @@ msgstr "وصول القرآءة فقط"
 msgid "Show less"
 msgstr "عرض أقل"
 
-#: src/ContainerCommitModal.jsx:40
-msgid "Image name is required"
-msgstr "اسم الصورة مطلوب"
+#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
+msgid "Show more"
+msgstr "أظهر المزيد"
 
-#: src/ContainerCommitModal.jsx:49
-msgid "Image name is not unique"
-msgstr "اسم الصورة ليس فريداً"
+#: src/ImageUsedBy.jsx:17
+msgid "No containers are using this image"
+msgstr "لا حاويات تستخدم هذه الصورة"
 
-#: src/ContainerCommitModal.jsx:86
-msgid "Failed to commit container $0"
-msgstr "فشل في إيداع الحاوية $0"
+#: src/ContainerLogs.jsx:46
+msgid "Loading logs..."
+msgstr "جاري تحميل السجلات..."
 
-#: src/ContainerCommitModal.jsx:95
-msgid "New image name"
-msgstr "اسم صورة جديد"
+#: src/ImageDeleteModal.jsx:53
+msgid "Failed to force remove image $0"
+msgstr "فشل في الإزالة الإجبارية للصورة $0"
 
-#: src/ContainerCommitModal.jsx:110
-msgid "Author"
-msgstr "آخر"
+#: src/ImageDeleteModal.jsx:65
+msgid "intermediate image"
+msgstr "صورة وسيطة"
 
-#: src/ContainerCommitModal.jsx:112
-msgid "Example, Your Name <yourname@example.com>"
-msgstr "على سبيل المثال، اسمك <yourname@example.com>"
+#: src/ImageDeleteModal.jsx:79
+msgid "Failed to remove image $0"
+msgstr "فشل في إزالة الصورة $0"
 
-#: src/ContainerCommitModal.jsx:123
-msgid "Options"
-msgstr "الخيارات"
+#: src/ImageDeleteModal.jsx:85
+msgid "intermediate"
+msgstr "وسيط"
 
-#: src/ContainerCommitModal.jsx:127
-msgid "Pause container when creating image"
-msgstr "إيقاف الحاوية مؤقتاً عند إنشاء الصورة"
+#: src/ImageDeleteModal.jsx:98
+msgid "Delete $0 image?"
+msgstr "حذف الصورة $0؟"
 
-#: src/ContainerCommitModal.jsx:131
-msgid ""
-"Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr "تنسيق Docker مفيد عند مشاركة الصورة مع Docker أو Moby Engine"
+#: src/ImageDeleteModal.jsx:103
+msgid "Multiple tags exist for this image. Select the tagged images to delete."
+msgstr "توجد عدة أوسمة لهذه الصورة. حدد الصور الموسومة لحذفها."
 
-#: src/ContainerCommitModal.jsx:132
-msgid "Use legacy Docker format"
-msgstr "استخدام تنسيق Docker القديم"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete image"
+msgstr "حذف صورة"
 
-#: src/ContainerCommitModal.jsx:142
-msgid "Commit container"
-msgstr "أودع حاوية"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete tagged images"
+msgstr "حذف الصور الموسومة"
 
-#: src/ContainerCommitModal.jsx:143
-msgid "Create a new image based on the current state of the $0 container."
-msgstr "إنشاء صورة جديدة بناءً على الحالة الحالية للحاوية $0."
+#: src/ContainerDeleteModal.jsx:26
+msgid "Failed to remove container $0"
+msgstr "فشل في إزالة الحاوية $0"
 
-#: src/ContainerCommitModal.jsx:161
-msgid "Force commit"
-msgstr "فرض الإيداع"
+#: src/ContainerDeleteModal.jsx:40
+msgid "Deleting a container will erase all data in it."
+msgstr "سيؤدي حذف حاوية إلى مسح جميع البيانات الموجودة فيها."
 
-#: src/PublishPort.jsx:26
-msgid "Must be a valid IP address"
-msgstr "يجب أن يكةن عنوان IP صالحاً"
+#: src/ContainerDetails.jsx:16
+msgid "Up since:"
+msgstr "منذ:"
 
-#: src/PublishPort.jsx:32 src/PublishPort.jsx:43
-msgid "1 to 65535"
-msgstr "1 إلى 65535"
+#: src/ContainerDetails.jsx:35 src/Images.jsx:192
+msgid "ID"
+msgstr "المعرّف"
 
-#: src/PublishPort.jsx:39
-msgid "Container port must not be empty"
-msgstr "يجب ألا يكةن منفذ الحاوية فارغاً"
+#: src/ContainerDetails.jsx:50
+msgid "systemd service"
+msgstr "خدمة systrmd"
 
-#: src/PublishPort.jsx:60
-msgid "IP address help"
-msgstr "مساعدة عنوان IP"
+#: src/ContainerDetails.jsx:54
+msgid "View $0"
+msgstr "عرض $0"
 
-#: src/PublishPort.jsx:62
-msgid ""
-"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
-"all IPs on the host."
-msgstr ""
-"إذا تم تعيين عنوان IP المضيف على 0.0.0.0.0 أو لم يتم تعيينه على الإطلاق، "
-"فسيتم ربط المنفذ بجميع عناوين IP على المضيف."
+#: src/ContainerDetails.jsx:68
+msgid "Gateway"
+msgstr "البوّابة"
 
-#: src/PublishPort.jsx:78
-msgid "Host port"
-msgstr "منفذ المضيف"
+#: src/ContainerDetails.jsx:72
+msgid "MAC address"
+msgstr "عنوان MAC"
 
-#: src/PublishPort.jsx:81
-msgid "Host port help"
-msgstr "مساعدة منفذ المضيف"
+#: src/ContainerDetails.jsx:90
+msgid "Latest checkpoint"
+msgstr "‎آخر نقطة فحص"
 
-#: src/PublishPort.jsx:83
-msgid ""
-"If the host port is not set the container port will be randomly assigned a "
-"port on the host."
-msgstr ""
-"إذا لم يتم تعيين منفذ المضيف، فسيتم تعيين منفذ الحاوية بشكل عشوائي على "
-"المضيف."
+#: src/PruneUnusedImagesModal.jsx:38
+msgid "Delete unused system images:"
+msgstr "حذف صور النظام غير المستخدمة:"
 
-#: src/PublishPort.jsx:103
-msgid "Container port"
-msgstr "منفذ الحاوية"
+#: src/PruneUnusedImagesModal.jsx:39
+msgid "Delete unused images of user $0:"
+msgstr "حذف الصور غير المستخدمة للمستخدم $0:"
 
-#: src/PublishPort.jsx:120
-msgid "Protocol"
-msgstr "بروتوكول"
+#: src/PruneUnusedImagesModal.jsx:74
+msgid "Failed to prune unused images"
+msgstr "فشل تقليم الصور غير المستخدمة"
 
-#: src/PublishPort.jsx:126
-msgid "TCP"
-msgstr "TCP"
+#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+msgid "Prune unused images"
+msgstr "تلقيم الصور الغير مستخدمة"
 
-#: src/PublishPort.jsx:127
-msgid "UDP"
-msgstr "UDP"
+#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
+msgid "Pruning images"
+msgstr "تلقيم الصور"
+
+#: src/Images.jsx:60
+msgid "Failed to download image $0:$1"
+msgstr "فشل في تنزيل الصورة $0:$1"
+
+#: src/Images.jsx:93 src/Images.jsx:100
+msgid "unused"
+msgstr "غير مستخدم"
+
+#: src/Images.jsx:97
+msgid "$0 container"
+msgid_plural "$0 containers"
+msgstr[0] "لا حاويات"
+msgstr[1] "حاوية واحدة"
+msgstr[2] "حاويتان"
+msgstr[3] "$0 حاويات"
+msgstr[4] "$0 حاوية"
+msgstr[5] "$0 حاوية"
+
+#: src/Images.jsx:170
+msgid "History"
+msgstr "تاريخ"
+
+#: src/Images.jsx:193
+msgid "Disk space"
+msgstr "مساحة القرص"
+
+#: src/Images.jsx:196
+msgid "No images"
+msgstr "لا صور"
+
+#: src/Images.jsx:200
+msgid "No images that match the current filter"
+msgstr "لا صور تتطابق مع عامل التصفية الحالي"
+
+#: src/Images.jsx:277
+msgid "Hide intermediate images"
+msgstr "إخفاء الصور الوسيطة"
+
+#: src/Images.jsx:277
+msgid "Show intermediate images"
+msgstr "إظهار الصور الوسيطة"
+
+#: src/Images.jsx:283 src/Images.jsx:315
+msgid "Images"
+msgstr "الصور"
+
+#: src/Images.jsx:298
+msgid "$0 image total, $1"
+msgid_plural "$0 images total, $1"
+msgstr[0] "بلا صورة في المجموع، $1"
+msgstr[1] "صورة واحدة في المجموع، $1"
+msgstr[2] "صورتان في المجموع، $1"
+msgstr[3] "$0 صور في المجموع، $1"
+msgstr[4] "$0 صورة في المجموع، $1"
+msgstr[5] "$0 صورة في المجموع، $1"
+
+#: src/Images.jsx:302
+msgid "$0 unused image, $1"
+msgid_plural "$0 unused images, $1"
+msgstr[0] "لا توجد صور غير مستخدمة، $1"
+msgstr[1] "توجد صورة واحدة غير مستخدمة،$1"
+msgstr[2] "توجد صورتان غير مستخدمتان، $1"
+msgstr[3] "توجد $0 صور غير مستخدمة، $1"
+msgstr[4] "توجد $0 صورة غير مستخدمة، $1"
+msgstr[5] "توجد $0 صورة غير مستخدمة، $1"
+
+#: src/Images.jsx:330
+msgid "Hide images"
+msgstr "إخفاء الصور"
+
+#: src/Images.jsx:330
+msgid "Show images"
+msgstr "أظهر الصور"
+
+#: src/Images.jsx:353
+msgid "Pulling"
+msgstr "السحب"
+
+#: src/Images.jsx:367
+msgid "Download new image"
+msgstr "نزِّل صورة جديدة"
+
+#: src/Images.jsx:374
+msgid "Pull all images"
+msgstr "سحب جميع الصور"
+
+#: src/Images.jsx:453
+msgid "Pull"
+msgstr "اسحب"
 
 #: src/manifest.json:0
 msgid "Podman containers"
