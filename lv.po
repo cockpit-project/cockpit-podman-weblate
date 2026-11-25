@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-22 10:16+0000\n"
-"PO-Revision-Date: 2026-11-22 16:20+0000\n"
+"PO-Revision-Date: 2026-11-26 18:18+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-podman/lv/>\n"
@@ -166,11 +166,11 @@ msgstr "Piespiedu restartēšana"
 
 #: src/Containers.jsx:225 src/PodActions.jsx:199
 msgid "Pause"
-msgstr "Pauzēt"
+msgstr "Pauze"
 
 #: src/Containers.jsx:232 src/PodActions.jsx:184
 msgid "Resume"
-msgstr "Atsākt"
+msgstr "Turpināt"
 
 #: src/Containers.jsx:255 src/PodActions.jsx:169
 msgid "Start"
