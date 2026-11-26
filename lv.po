@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 10:16+0000\n"
+"POT-Creation-Date: 2026-11-26 11:29+0000\n"
 "PO-Revision-Date: 2026-11-26 18:18+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -20,325 +20,126 @@ msgstr ""
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
 "X-Generator: Weblate 2026.11.2\n"
 
-#: src/ContainerCheckpointModal.jsx:33
-msgid "Failed to checkpoint container $0"
-msgstr "Neizdevās izveidot konteinera $0 kontrolpunktu"
+#: src/Env.jsx:22
+msgid "Key must not be empty"
+msgstr "Atslēga nevar būt tukša"
 
-#: src/ContainerCheckpointModal.jsx:46
-msgid "Checkpoint container $0"
-msgstr "Izveidot konteinera $0 kontrolpunktu"
+#: src/Env.jsx:24
+msgid "Key must not begin with a digit"
+msgstr "Atslēga nedrīkst sākties ar ciparu"
 
-#: src/ContainerCheckpointModal.jsx:49 src/ContainerRestoreModal.jsx:52
-msgid "Keep all temporary checkpoint files"
-msgstr "Paturēt visus pagaidu kontrolpunkta failus"
+#: src/Env.jsx:26
+msgid "Key contains invalid characters"
+msgstr "Atslēga satur nederīgas rakstzīmes"
 
-#: src/ContainerCheckpointModal.jsx:51
-msgid "Leave running after writing checkpoint to disk"
-msgstr "Pēc kontrolpunkta ierakstīšanas diskā atstāt darbojamies"
+#: src/Env.jsx:67
+msgid "Key"
+msgstr "Atslēga"
 
-#: src/ContainerCheckpointModal.jsx:54
-msgid "Support preserving established TCP connections"
-msgstr "Atbalstīt izveidoto TCP savienojumu saglabāšanu"
+#: src/Env.jsx:83
+msgid "Value"
+msgstr "Vērtība"
 
-#: src/ContainerCheckpointModal.jsx:63 src/Containers.jsx:245
-msgid "Checkpoint"
-msgstr "Kontrolpunkts"
+#: src/Env.jsx:101 src/PublishPort.jsx:135 src/Volume.jsx:87
+msgid "Remove item"
+msgstr "Noņemt vienumu"
 
-#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
-#: src/ForceRemoveModal.jsx:34 src/ContainerRenameModal.jsx:100
-#: src/ImageSearchModal.jsx:226 src/PodActions.jsx:72
-#: src/PodCreateModal.jsx:223 src/ContainerRestoreModal.jsx:73
-#: src/ContainerCommitModal.jsx:167 src/ImageRunModal.jsx:1233
-#: src/ImageDeleteModal.jsx:126 src/ContainerDeleteModal.jsx:44
-#: src/PruneUnusedImagesModal.jsx:113
-msgid "Cancel"
-msgstr "Atcelt"
+#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
+msgid "Exited"
+msgstr "Beidzis darbu"
 
-#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503 src/app.jsx:51
-#: src/app.jsx:677 src/Images.jsx:145
-msgid "system"
-msgstr "sistēma"
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Paused"
+msgstr "Pauzēts"
 
-#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503
-#: src/Images.jsx:145
-msgid "user:"
-msgstr "lietotājs:"
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Stopped"
+msgstr "Apturēts"
 
-#: src/PruneUnusedContainersModal.jsx:61
-msgid "Failed to prune unused containers"
-msgstr "Neizdevās iztīrīt neizmantotos konteinerus"
+#: src/util.tsx:41
+msgid "Removing"
+msgstr "Noņem"
 
-#: src/PruneUnusedContainersModal.jsx:68 src/PodCreateModal.jsx:153
-#: src/ImageRunModal.jsx:810
-msgid "Name"
-msgstr "Nosaukums"
+#: src/util.tsx:41
+msgid "Configured"
+msgstr "Konfigurēts"
 
-#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
-#: src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81 src/Images.jsx:191
+#: src/util.tsx:41 src/util.tsx:44 src/PruneUnusedContainersModal.jsx:69
+#: src/Images.jsx:191 src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81
 msgid "Created"
 msgstr "Izveidots"
 
-#: src/PruneUnusedContainersModal.jsx:75 src/Containers.jsx:756
-#: src/ImageSearchModal.jsx:147 src/ContainerHeader.tsx:32
-#: src/PodCreateModal.jsx:171 src/ImageRunModal.jsx:831 src/Images.jsx:190
-msgid "Owner"
-msgstr "Īpašnieks"
-
-#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
-msgid "Prune unused containers"
-msgstr "Iztīrīt neizmantotos konteinerus"
-
-#: src/PruneUnusedContainersModal.jsx:96
-msgid "Removes selected non-running containers"
-msgstr "Noņem atlasītos konteinerus, kas nedarbojas"
-
-#: src/PruneUnusedContainersModal.jsx:106
-#: src/PruneUnusedContainersModal.jsx:110
-msgid "Pruning containers"
-msgstr "Iztīra konteinerus"
-
-#: src/PruneUnusedContainersModal.jsx:110 src/PruneUnusedImagesModal.jsx:111
-msgid "Prune"
-msgstr "Iztīrīt"
-
-#: src/Containers.jsx:62
-msgid "Failed to force remove container $0"
-msgstr "Neizdevās piespiedu kārtā noņemt konteineru $0"
-
-#: src/Containers.jsx:72
-msgid "Deleting a running container will erase all data in it."
-msgstr "Darbojoša konteinera dzēšana izdzēsīs visus tā datus."
-
-#: src/Containers.jsx:87
-msgid "Failed to stop container $0"
-msgstr "Neizdevās apturēt konteineru $0"
-
-#: src/Containers.jsx:96
-msgid "Failed to stop quadlet $0"
-msgstr "Neizdevās apturēt quadlet $0"
-
-#: src/Containers.jsx:105
-msgid "Failed to start quadlet $0"
-msgstr "Neizdevās palaist quadlet $0"
-
-#: src/Containers.jsx:111
-msgid "Failed to start container $0"
-msgstr "Neizdevās palaist konteineru $0"
-
-#: src/Containers.jsx:120
-msgid "Failed to resume container $0"
-msgstr "Neizdevās atsākt konteineru $0"
-
-#: src/Containers.jsx:128
-msgid "Failed to pause container $0"
-msgstr "Neizdevās pauzēt konteineru $0"
-
-#: src/Containers.jsx:146
-msgid "Failed to restart container $0"
-msgstr "Neizdevās restartēt konteineru $0"
-
-#: src/Containers.jsx:154
-msgid "Failed to restart quadlet $0"
-msgstr "Neizdevās restartēt quadlet $0"
-
-#: src/Containers.jsx:182 src/ContainerRenameModal.jsx:95
-msgid "Rename"
-msgstr "Pārdēvēt"
-
-#: src/Containers.jsx:194 src/Containers.jsx:205 src/ContainerHealthLogs.jsx:31
-#: src/PodActions.jsx:137 src/ImageRunModal.jsx:64
-msgid "Stop"
-msgstr "Apturēt"
-
-#: src/Containers.jsx:198 src/Containers.jsx:213 src/ContainerHealthLogs.jsx:30
-#: src/util.tsx:41 src/PodActions.jsx:152 src/ImageRunModal.jsx:63
+#: src/util.tsx:41 src/ImageRunModal.jsx:63 src/ContainerHealthLogs.jsx:30
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/PodActions.jsx:152
 msgid "Restart"
 msgstr "Restartēt"
 
-#: src/Containers.jsx:209 src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
-#: src/ImageRunModal.jsx:65
-msgid "Force stop"
-msgstr "Piespiedu apturēšana"
+#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+msgid "Running"
+msgstr "Darbojas"
 
-#: src/Containers.jsx:217 src/PodActions.jsx:160
-msgid "Force restart"
-msgstr "Piespiedu restartēšana"
+#: src/util.tsx:44
+msgid "Error"
+msgstr "Kļūda"
 
-#: src/Containers.jsx:225 src/PodActions.jsx:199
-msgid "Pause"
-msgstr "Pauze"
+#: src/Notification.tsx:38 src/Images.jsx:62
+msgid "Error message"
+msgstr "Kļūdas ziņojums"
 
-#: src/Containers.jsx:232 src/PodActions.jsx:184
-msgid "Resume"
-msgstr "Turpināt"
+#: src/ContainerDeleteModal.jsx:26
+msgid "Failed to remove container $0"
+msgstr "Neizdevās noņemt konteineru $0"
 
-#: src/Containers.jsx:255 src/PodActions.jsx:169
-msgid "Start"
-msgstr "Palaist"
+#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
+msgid "Delete $0?"
+msgstr "Dzēst $0?"
 
-#: src/Containers.jsx:266 src/ContainerRestoreModal.jsx:69
-msgid "Restore"
-msgstr "Atjaunot"
+#: src/ContainerDeleteModal.jsx:40
+msgid "Deleting a container will erase all data in it."
+msgstr "Konteinera dzēšana izdzēsīs visus tā datus."
 
-#: src/Containers.jsx:281 src/ContainerCommitModal.jsx:154
-msgid "Commit"
-msgstr "Iesniegt"
-
-#: src/Containers.jsx:290 src/PodActions.jsx:68 src/PodActions.jsx:215
-#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
+#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459 src/Containers.jsx:290
+#: src/PodActions.jsx:68 src/PodActions.jsx:215
 msgid "Delete"
 msgstr "Dzēst"
 
-#: src/Containers.jsx:312
-msgid "Healthy"
-msgstr "Veselīgs"
+#: src/ContainerDeleteModal.jsx:44 src/PruneUnusedImagesModal.jsx:113
+#: src/ContainerCommitModal.jsx:167 src/ImageDeleteModal.jsx:126
+#: src/ImageSearchModal.jsx:226 src/ContainerRenameModal.jsx:100
+#: src/PodCreateModal.jsx:223 src/ImageRunModal.jsx:1233
+#: src/PruneUnusedContainersModal.jsx:112 src/ContainerRestoreModal.jsx:73
+#: src/ContainerCheckpointModal.jsx:67 src/PodActions.jsx:72
+#: src/ForceRemoveModal.jsx:34
+msgid "Cancel"
+msgstr "Atcelt"
 
-#: src/Containers.jsx:314
-msgid "Unhealthy"
-msgstr "Neveselīgs"
+#: src/PruneUnusedImagesModal.jsx:38
+msgid "Delete unused system images:"
+msgstr "Dzēst neizmantotos sistēmas tēlus:"
 
-#: src/Containers.jsx:316
-msgid "Checking health"
-msgstr "Pārbauda stāvokli"
+#: src/PruneUnusedImagesModal.jsx:39
+msgid "Delete unused images of user $0:"
+msgstr "Dzēst lietotāja $0 neizmantotos tēlus:"
 
-#: src/Containers.jsx:345
-msgid "Terminal not available"
-msgstr "Terminālis nav pieejams"
+#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
+msgid "Show more"
+msgstr "Rādīt vairāk"
 
-#: src/Containers.jsx:345
-msgid "This browser does not support WebGL2."
-msgstr "Šis pārlūks neatbalsta WebGL2."
+#: src/PruneUnusedImagesModal.jsx:74
+msgid "Failed to prune unused images"
+msgstr "Neizdevās iztīrīt neizmantotos tēlus"
 
-#: src/Containers.jsx:350
-msgid "View $0 logs"
-msgstr "Skatīt $0 žurnālus"
+#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+msgid "Prune unused images"
+msgstr "Iztīrīt neizmantotos tēlus"
 
-#: src/Containers.jsx:440 src/Containers.jsx:441
-msgid "not available"
-msgstr "nav pieejams"
+#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
+msgid "Pruning images"
+msgstr "Iztīra tēlus"
 
-#: src/Containers.jsx:440 src/Containers.jsx:441
-msgid "n/a"
-msgstr "nav"
-
-#
-#: src/Containers.jsx:461
-msgid "$0% of $1 limit"
-msgstr "$0% no ierobežojuma $1"
-
-#: src/Containers.jsx:477 src/Containers.jsx:1027
-msgid "service"
-msgstr "pakalpojums"
-
-#: src/Containers.jsx:528 src/ImageRunModal.jsx:828 src/Images.jsx:161
-msgid "Details"
-msgstr "Informācija"
-
-#: src/Containers.jsx:535 src/ImageRunModal.jsx:1043
-msgid "Integration"
-msgstr "Integrācija"
-
-#: src/Containers.jsx:540 src/ContainerHealthLogs.jsx:92
-msgid "Logs"
-msgstr "Žurnāli"
-
-#: src/Containers.jsx:554
-msgid "Console"
-msgstr "Konsole"
-
-#: src/Containers.jsx:572 src/ImageRunModal.jsx:1084
-msgid "Health check"
-msgstr "Stāvokļa pārbaude"
-
-#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
-msgid "CPU"
-msgstr "CPU"
-
-#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
-msgid "Memory"
-msgstr "Atmiņa"
-
-#: src/Containers.jsx:654
-msgid "Click to see published ports"
-msgstr "Noklikšķiniet, lai redzētu publicētos portus"
-
-#: src/Containers.jsx:663
-msgid "ports"
-msgstr "porti"
-
-#: src/Containers.jsx:669
-msgid "Click to see volumes"
-msgstr "Noklikšķiniet, lai redzētu sējumus"
-
-#: src/Containers.jsx:678
-msgid "volumes"
-msgstr "sējumi"
-
-#: src/Containers.jsx:755
-msgid "Container"
-msgstr "Konteiners"
-
-#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
-msgid "State"
-msgstr "Stāvoklis"
-
-#: src/Containers.jsx:760
-msgid "Actions"
-msgstr "Darbības"
-
-#: src/Containers.jsx:768
-msgid "No containers"
-msgstr "Nav konteineru"
-
-#: src/Containers.jsx:769
-msgid "No containers in this pod"
-msgstr "Šajā podā nav konteineru"
-
-#: src/Containers.jsx:771 src/ImageUsedBy.jsx:15 src/Images.jsx:198
-msgid "Loading..."
-msgstr "Ielādē..."
-
-#: src/Containers.jsx:773
-msgid "No containers that match the current filter"
-msgstr "Nav konteineru, kas atbilst pašreizējam filtram"
-
-#: src/Containers.jsx:775
-msgid "No running containers"
-msgstr "Nav darbojošos konteineru"
-
-#: src/Containers.jsx:896
-msgid "Show"
-msgstr "Rādīt"
-
-#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
-#: src/ImageDeleteModal.jsx:105
-msgid "All"
-msgstr "Visi"
-
-#: src/Containers.jsx:901
-msgid "Only running"
-msgstr "Tikai darbojošos"
-
-#: src/Containers.jsx:909 src/PodCreateModal.jsx:212
-msgid "Create pod"
-msgstr "Izveidot podu"
-
-#: src/Containers.jsx:917 src/ImageRunModal.jsx:1219 src/Images.jsx:439
-#: src/Images.jsx:448
-msgid "Create container"
-msgstr "Izveidot konteineru"
-
-#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
-msgid "Containers"
-msgstr "Konteineri"
-
-#: src/Containers.jsx:1006
-msgid "Create container in pod"
-msgstr "Izveidot konteineru podā"
-
-#: src/Containers.jsx:1026
-msgid "pod"
-msgstr "pods"
+#: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
+msgid "Prune"
+msgstr "Iztīrīt"
 
 #: src/PublishPort.jsx:26
 msgid "Must be a valid IP address"
@@ -400,186 +201,110 @@ msgstr "TCP"
 msgid "UDP"
 msgstr "UDP"
 
-#: src/PublishPort.jsx:135 src/Env.jsx:101 src/Volume.jsx:87
-msgid "Remove item"
-msgstr "Noņemt vienumu"
+#: src/ContainerCommitModal.jsx:40
+msgid "Image name is required"
+msgstr "Nepieciešams tēla nosaukums"
 
-#: src/ContainerHealthLogs.jsx:25
-msgid "$0 second"
-msgid_plural "$0 seconds"
-msgstr[0] "$0 sekunžu"
-msgstr[1] "$0 sekunde"
-msgstr[2] "$0 sekundes"
+#: src/ContainerCommitModal.jsx:49
+msgid "Image name is not unique"
+msgstr "Tēla nosaukums nav unikāls"
 
-#: src/ContainerHealthLogs.jsx:29 src/ImageRunModal.jsx:62
-msgid "No action"
-msgstr "Nav darbības"
+#: src/ContainerCommitModal.jsx:86
+msgid "Failed to commit container $0"
+msgstr "Neizdevās iesniegt konteineru $0"
 
-#: src/ContainerHealthLogs.jsx:46
-msgid "Status"
-msgstr "Statuss"
+#: src/ContainerCommitModal.jsx:95
+msgid "New image name"
+msgstr "Jaunā tēla nosaukums"
 
-#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
-#: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
-#: src/ImageRunModal.jsx:1086 src/ContainerDetails.jsx:44
+#: src/ContainerCommitModal.jsx:103 src/ImageSearchModal.jsx:213
+msgid "Tag"
+msgstr "Birka"
+
+#: src/ContainerCommitModal.jsx:110
+msgid "Author"
+msgstr "Autors"
+
+#: src/ContainerCommitModal.jsx:112
+msgid "Example, Your Name <yourname@example.com>"
+msgstr "Piemērs: Jūsu Vārds <jusuvards@example.com>"
+
+#: src/ContainerCommitModal.jsx:117 src/ImageDetails.jsx:56
+#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
+#: src/ContainerHealthLogs.jsx:50 src/ContainerDetails.jsx:44
 msgid "Command"
 msgstr "Komanda"
 
-#: src/ContainerHealthLogs.jsx:54 src/ImageRunModal.jsx:1092
-msgid "Interval"
-msgstr "Intervāls"
+#: src/ContainerCommitModal.jsx:123
+msgid "Options"
+msgstr "Opcijas"
 
-#: src/ContainerHealthLogs.jsx:58 src/ImageRunModal.jsx:1161
-msgid "Retries"
-msgstr "Atkārtojumi"
+#: src/ContainerCommitModal.jsx:127
+msgid "Pause container when creating image"
+msgstr "Veidojot tēlu, pauzēt konteineru"
 
-#: src/ContainerHealthLogs.jsx:62 src/ImageRunModal.jsx:1138
-msgid "Start period"
-msgstr "Sākuma periods"
-
-#: src/ContainerHealthLogs.jsx:66 src/ImageRunModal.jsx:1115
-msgid "Timeout"
-msgstr "Noildze"
-
-#: src/ContainerHealthLogs.jsx:70 src/ImageRunModal.jsx:1181
-msgid "When unhealthy"
-msgstr "Kad neveselīgs"
-
-#: src/ContainerHealthLogs.jsx:74
-msgid "Failing streak"
-msgstr "Kļūmju sērija"
-
-#: src/ContainerHealthLogs.jsx:84
-msgid "Failed to run health check on container $0"
-msgstr "Neizdevās izpildīt konteinera $0 stāvokļa pārbaudi"
-
-#: src/ContainerHealthLogs.jsx:88
-msgid "Run health check"
-msgstr "Izpildīt stāvokļa pārbaudi"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Last 5 runs"
-msgstr "Pēdējās 5 izpildes"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Started at"
-msgstr "Sākts"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Passed health run"
-msgstr "Veiksmīga stāvokļa pārbaude"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Failed health run"
-msgstr "Neveiksmīga stāvokļa pārbaude"
-
-#: src/ContainerTerminal.jsx:250
-msgid "Container is not running"
-msgstr "Konteiners nedarbojas"
-
-#: src/ContainerTerminal.jsx:254
-msgid "Error occurred while connecting console"
-msgstr "Savienojot konsoli, radās kļūda"
-
-#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
-msgid "Delete $0?"
-msgstr "Dzēst $0?"
-
-#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
-msgid "Force delete"
-msgstr "Piespiedu dzēšana"
-
-#: src/Env.jsx:22
-msgid "Key must not be empty"
-msgstr "Atslēga nevar būt tukša"
-
-#: src/Env.jsx:24
-msgid "Key must not begin with a digit"
-msgstr "Atslēga nedrīkst sākties ar ciparu"
-
-#: src/Env.jsx:26
-msgid "Key contains invalid characters"
-msgstr "Atslēga satur nederīgas rakstzīmes"
-
-#: src/Env.jsx:67
-msgid "Key"
-msgstr "Atslēga"
-
-#: src/Env.jsx:83
-msgid "Value"
-msgstr "Vērtība"
-
-#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
-msgid "Container name is required."
-msgstr "Nepieciešams konteinera nosaukums."
-
-#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+#: src/ContainerCommitModal.jsx:131
 msgid ""
-"Invalid characters. Name can only contain letters, numbers, and certain "
-"punctuation (_ . -)."
+"Docker format is useful when sharing the image with Docker or Moby Engine"
+msgstr "Docker formāts noder, kopīgojot tēlu ar Docker vai Moby Engine"
+
+#: src/ContainerCommitModal.jsx:132
+msgid "Use legacy Docker format"
+msgstr "Izmantot mantoto Docker formātu"
+
+#: src/ContainerCommitModal.jsx:142
+msgid "Commit container"
+msgstr "Iesniegt konteineru"
+
+#: src/ContainerCommitModal.jsx:143
+msgid "Create a new image based on the current state of the $0 container."
 msgstr ""
-"Nederīgas rakstzīmes. Nosaukums drīkst saturēt tikai burtus, ciparus un "
-"noteiktas pieturzīmes (_ . -)."
+"Izveidot jaunu tēlu, pamatojoties uz konteinera $0 pašreizējo stāvokli."
 
-#: src/ContainerRenameModal.jsx:52
-msgid "Failed to rename container $0"
-msgstr "Neizdevās pārdēvēt konteineru $0"
+#: src/ContainerCommitModal.jsx:154 src/Containers.jsx:281
+msgid "Commit"
+msgstr "Iesniegt"
 
-#: src/ContainerRenameModal.jsx:66
-msgid "New container name"
-msgstr "Jaunais konteinera nosaukums"
+#: src/ContainerCommitModal.jsx:161
+msgid "Force commit"
+msgstr "Piespiedu iesniegšana"
 
-#: src/ContainerRenameModal.jsx:84
-msgid "Rename container $0"
-msgstr "Pārdēvēt konteineru $0"
+#: src/ImageDeleteModal.jsx:53
+msgid "Failed to force remove image $0"
+msgstr "Neizdevās piespiedu kārtā noņemt tēlu $0"
 
-#: src/app.jsx:51
-msgid "user"
-msgstr "lietotājs"
+#: src/ImageDeleteModal.jsx:65
+msgid "intermediate image"
+msgstr "starptēls"
 
-#: src/app.jsx:690 src/ImageRunModal.jsx:855
-msgid "User"
-msgstr "Lietotājs"
+#: src/ImageDeleteModal.jsx:79
+msgid "Failed to remove image $0"
+msgstr "Neizdevās noņemt tēlu $0"
 
-#: src/app.jsx:842
-msgid "Podman service failed"
-msgstr "Podman pakalpojums neizdevās"
+#: src/ImageDeleteModal.jsx:85
+msgid "intermediate"
+msgstr "starpposma"
 
-#: src/app.jsx:846
-msgid "Troubleshoot"
-msgstr "Problēmu novēršana"
+#: src/ImageDeleteModal.jsx:98
+msgid "Delete $0 image?"
+msgstr "Dzēst tēlu $0?"
 
-#: src/ImageDetails.jsx:34
-msgid "Description"
-msgstr "Apraksts"
+#: src/ImageDeleteModal.jsx:103
+msgid "Multiple tags exist for this image. Select the tagged images to delete."
+msgstr "Šim tēlam ir vairākas birkas. Atlasiet dzēšamos tēlus ar birkām."
 
-#: src/ImageDetails.jsx:40
-msgid "Version"
-msgstr "Versija"
+#: src/ImageDeleteModal.jsx:105 src/ImageRunModal.jsx:769
+#: src/ContainerHeader.tsx:39 src/Containers.jsx:900
+msgid "All"
+msgstr "Visi"
 
-#: src/ImageDetails.jsx:46
-msgid "Links"
-msgstr "Saites"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete image"
+msgstr "Dzēst tēlu"
 
-#: src/ImageDetails.jsx:49
-msgid "Documentation"
-msgstr "Dokumentācija"
-
-#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
-msgid "Entrypoint"
-msgstr "Ieejas punkts"
-
-#: src/ImageDetails.jsx:68
-msgid "Tags"
-msgstr "Birkas"
-
-#: src/ImageDetails.jsx:74 src/Images.jsx:194
-msgid "Used by"
-msgstr "Izmanto"
-
-#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
-msgid "Ports"
-msgstr "Porti"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete tagged images"
+msgstr "Dzēst tēlus ar birkām"
 
 #: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:389
 msgid "Failed to search for new images"
@@ -596,6 +321,12 @@ msgstr "Neizdevās meklēt tēlus."
 #: src/ImageSearchModal.jsx:142
 msgid "Search for an image"
 msgstr "Meklēt tēlu"
+
+#: src/ImageSearchModal.jsx:147 src/PodCreateModal.jsx:171
+#: src/ImageRunModal.jsx:831 src/PruneUnusedContainersModal.jsx:75
+#: src/Images.jsx:190 src/ContainerHeader.tsx:32 src/Containers.jsx:756
+msgid "Owner"
+msgstr "Īpašnieks"
 
 #: src/ImageSearchModal.jsx:158
 msgid "Search for"
@@ -634,145 +365,78 @@ msgstr "Nav rezultātu vaicājumam $0"
 msgid "Retry another term."
 msgstr "Mēģiniet citu vārdu."
 
-#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
-msgid "Tag"
-msgstr "Birka"
-
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
 msgstr "Lejupielādēt"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
-msgid "Exited"
-msgstr "Beidzis darbu"
+#: src/ImageDetails.jsx:34
+msgid "Description"
+msgstr "Apraksts"
 
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Paused"
-msgstr "Pauzēts"
+#: src/ImageDetails.jsx:40
+msgid "Version"
+msgstr "Versija"
 
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Stopped"
-msgstr "Apturēts"
+#: src/ImageDetails.jsx:46
+msgid "Links"
+msgstr "Saites"
 
-#: src/util.tsx:41
-msgid "Removing"
-msgstr "Noņem"
+#: src/ImageDetails.jsx:49
+msgid "Documentation"
+msgstr "Dokumentācija"
 
-#: src/util.tsx:41
-msgid "Configured"
-msgstr "Konfigurēts"
+#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
+msgid "Entrypoint"
+msgstr "Ieejas punkts"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
-msgid "Running"
-msgstr "Darbojas"
+#: src/ImageDetails.jsx:68
+msgid "Tags"
+msgstr "Birkas"
 
-#: src/util.tsx:44
-msgid "Error"
-msgstr "Kļūda"
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
+msgid "Used by"
+msgstr "Izmanto"
 
-#: src/Volume.jsx:26
-msgid "Container path must not be empty"
-msgstr "Konteinera ceļš nevar būt tukšs"
+#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
+msgid "Ports"
+msgstr "Porti"
 
-#: src/Volume.jsx:39
-msgid "Host path"
-msgstr "Resursdatora ceļš"
+#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
+msgid "Container name is required."
+msgstr "Nepieciešams konteinera nosaukums."
 
-#: src/Volume.jsx:53
-msgid "Container path"
-msgstr "Konteinera ceļš"
+#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+msgid ""
+"Invalid characters. Name can only contain letters, numbers, and certain "
+"punctuation (_ . -)."
+msgstr ""
+"Nederīgas rakstzīmes. Nosaukums drīkst saturēt tikai burtus, ciparus un "
+"noteiktas pieturzīmes (_ . -)."
 
-#: src/Volume.jsx:67
-msgid "Mode"
-msgstr "Režīms"
+#: src/ContainerRenameModal.jsx:52
+msgid "Failed to rename container $0"
+msgstr "Neizdevās pārdēvēt konteineru $0"
 
-#: src/Volume.jsx:69
-msgid "Writable"
-msgstr "Rakstāms"
+#: src/ContainerRenameModal.jsx:66
+msgid "New container name"
+msgstr "Jaunais konteinera nosaukums"
 
-#: src/Volume.jsx:74
-msgid "SELinux"
-msgstr "SELinux"
+#: src/ContainerRenameModal.jsx:84
+msgid "Rename container $0"
+msgstr "Pārdēvēt konteineru $0"
 
-#: src/Volume.jsx:78
-msgid "No label"
-msgstr "Bez etiķetes"
-
-#: src/Volume.jsx:79
-msgid "Shared"
-msgstr "Koplietots"
-
-#: src/Volume.jsx:80
-msgid "Private"
-msgstr "Privāts"
-
-#: src/ContainerHeader.tsx:46
-msgid "Type to filter…"
-msgstr "Rakstiet, lai filtrētu…"
-
-#: src/ImageHistory.jsx:34
-msgid "Created by"
-msgstr "Izveidojis"
-
-#: src/ImageHistory.jsx:34
-msgid "Size"
-msgstr "Izmērs"
-
-#: src/ImageHistory.jsx:34
-msgid "Comments"
-msgstr "Komentāri"
-
-#: src/ImageHistory.jsx:60
-msgid "Unable to load image history"
-msgstr "Neizdodas ielādēt tēla vēsturi"
-
-#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
-msgid "Loading details..."
-msgstr "Ielādē informāciju..."
-
-#: src/PodActions.jsx:48
-msgid "Force delete pod $0?"
-msgstr "Piespiedu kārtā dzēst podu $0?"
-
-#: src/PodActions.jsx:49
-msgid "Delete pod $0?"
-msgstr "Dzēst podu $0?"
-
-#: src/PodActions.jsx:53
-msgid "An error occurred"
-msgstr "Radās kļūda"
-
-#: src/PodActions.jsx:55
-msgid "Empty pod $0 will be permanently removed."
-msgstr "Tukšais pods $0 tiks neatgriezeniski noņemts."
-
-#: src/PodActions.jsx:59
-msgid "Deleting this pod will remove the following containers:"
-msgstr "Dzēšot šo podu, tiks noņemti šie konteineri:"
-
-#: src/PodActions.jsx:85 src/PodActions.jsx:91
-msgid "Failed to start pod $0"
-msgstr "Neizdevās palaist podu $0"
-
-#: src/PodActions.jsx:100 src/PodActions.jsx:107
-msgid "Failed to stop pod $0"
-msgstr "Neizdevās apturēt podu $0"
-
-#: src/PodActions.jsx:117 src/PodActions.jsx:124
-msgid "Failed to restart pod $0"
-msgstr "Neizdevās restartēt podu $0"
-
-#: src/PodActions.jsx:180
-msgid "Failed to resume pod $0"
-msgstr "Neizdevās atsākt podu $0"
-
-#: src/PodActions.jsx:195
-msgid "Failed to pause pod $0"
-msgstr "Neizdevās pauzēt podu $0"
+#: src/ContainerRenameModal.jsx:95 src/Containers.jsx:182
+msgid "Rename"
+msgstr "Pārdēvēt"
 
 #: src/PodCreateModal.jsx:97
 msgid "Pod failed to be created"
 msgstr "Podu neizdevās izveidot"
+
+#: src/PodCreateModal.jsx:153 src/ImageRunModal.jsx:810
+#: src/PruneUnusedContainersModal.jsx:68
+msgid "Name"
+msgstr "Nosaukums"
 
 #: src/PodCreateModal.jsx:156
 msgid "Pod name"
@@ -812,87 +476,31 @@ msgstr "Sējumi"
 msgid "Add volume"
 msgstr "Pievienot sējumu"
 
+#: src/PodCreateModal.jsx:212 src/Containers.jsx:909
+msgid "Create pod"
+msgstr "Izveidot podu"
+
 #: src/PodCreateModal.jsx:220 src/ImageRunModal.jsx:1230
 msgid "Create"
 msgstr "Izveidot"
 
-#: src/Notification.tsx:38 src/Images.jsx:62
-msgid "Error message"
-msgstr "Kļūdas ziņojums"
+#: src/ContainerLogs.jsx:46
+msgid "Loading logs..."
+msgstr "Ielādē žurnālus..."
 
-#: src/ContainerRestoreModal.jsx:36
-msgid "Failed to restore container $0"
-msgstr "Neizdevās atjaunot konteineru $0"
+#: src/ImageRunModal.jsx:62 src/ContainerHealthLogs.jsx:29
+msgid "No action"
+msgstr "Nav darbības"
 
-#: src/ContainerRestoreModal.jsx:49
-msgid "Restore container $0"
-msgstr "Atjaunot konteineru $0"
+#: src/ImageRunModal.jsx:64 src/ContainerHealthLogs.jsx:31
+#: src/Containers.jsx:194 src/Containers.jsx:205 src/PodActions.jsx:137
+msgid "Stop"
+msgstr "Apturēt"
 
-#: src/ContainerRestoreModal.jsx:54
-msgid "Restore with established TCP connections"
-msgstr "Atjaunot ar izveidotajiem TCP savienojumiem"
-
-#: src/ContainerRestoreModal.jsx:57
-msgid "Ignore IP address if set statically"
-msgstr "Ignorēt IP adresi, ja tā iestatīta statiski"
-
-#: src/ContainerRestoreModal.jsx:60
-msgid "Ignore MAC address if set statically"
-msgstr "Ignorēt MAC adresi, ja tā iestatīta statiski"
-
-#: src/ContainerCommitModal.jsx:40
-msgid "Image name is required"
-msgstr "Nepieciešams tēla nosaukums"
-
-#: src/ContainerCommitModal.jsx:49
-msgid "Image name is not unique"
-msgstr "Tēla nosaukums nav unikāls"
-
-#: src/ContainerCommitModal.jsx:86
-msgid "Failed to commit container $0"
-msgstr "Neizdevās iesniegt konteineru $0"
-
-#: src/ContainerCommitModal.jsx:95
-msgid "New image name"
-msgstr "Jaunā tēla nosaukums"
-
-#: src/ContainerCommitModal.jsx:110
-msgid "Author"
-msgstr "Autors"
-
-#: src/ContainerCommitModal.jsx:112
-msgid "Example, Your Name <yourname@example.com>"
-msgstr "Piemērs: Jūsu Vārds <jusuvards@example.com>"
-
-#: src/ContainerCommitModal.jsx:123
-msgid "Options"
-msgstr "Opcijas"
-
-#: src/ContainerCommitModal.jsx:127
-msgid "Pause container when creating image"
-msgstr "Veidojot tēlu, pauzēt konteineru"
-
-#: src/ContainerCommitModal.jsx:131
-msgid ""
-"Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr "Docker formāts noder, kopīgojot tēlu ar Docker vai Moby Engine"
-
-#: src/ContainerCommitModal.jsx:132
-msgid "Use legacy Docker format"
-msgstr "Izmantot mantoto Docker formātu"
-
-#: src/ContainerCommitModal.jsx:142
-msgid "Commit container"
-msgstr "Iesniegt konteineru"
-
-#: src/ContainerCommitModal.jsx:143
-msgid "Create a new image based on the current state of the $0 container."
-msgstr ""
-"Izveidot jaunu tēlu, pamatojoties uz konteinera $0 pašreizējo stāvokli."
-
-#: src/ContainerCommitModal.jsx:161
-msgid "Force commit"
-msgstr "Piespiedu iesniegšana"
+#: src/ImageRunModal.jsx:65 src/ContainerHealthLogs.jsx:32
+#: src/Containers.jsx:209 src/PodActions.jsx:145
+msgid "Force stop"
+msgstr "Piespiedu apturēšana"
 
 #: src/ImageRunModal.jsx:252
 msgid "Container failed to be started"
@@ -942,6 +550,10 @@ msgstr "Lokāls"
 msgid "Container name"
 msgstr "Konteinera nosaukums"
 
+#: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:528
+msgid "Details"
+msgstr "Informācija"
+
 #: src/ImageRunModal.jsx:833
 msgid "Owner help"
 msgstr "Īpašnieka palīdzība"
@@ -962,6 +574,10 @@ msgstr "Kontrolpunktu un atjaunošanas atbalsts"
 msgid "Ports under 1024 can be mapped"
 msgstr "Var kartēt portus zem 1024"
 
+#: src/ImageRunModal.jsx:855 src/app.jsx:690
+msgid "User"
+msgstr "Lietotājs"
+
 #: src/ImageRunModal.jsx:858
 msgid "Ideal for development"
 msgstr "Ideāli piemērots izstrādei"
@@ -970,7 +586,7 @@ msgstr "Ideāli piemērots izstrādei"
 msgid "Restricted by user account permissions"
 msgstr "Ierobežo lietotāja konta atļaujas"
 
-#: src/ImageRunModal.jsx:881 src/ContainerDetails.jsx:39 src/Images.jsx:189
+#: src/ImageRunModal.jsx:881 src/Images.jsx:189 src/ContainerDetails.jsx:39
 msgid "Image"
 msgstr "Tēls"
 
@@ -1103,6 +719,10 @@ msgstr "Samazināt maksimālo atkārtojumu skaitu"
 msgid "Increase maximum retries"
 msgstr "Palielināt maksimālo atkārtojumu skaitu"
 
+#: src/ImageRunModal.jsx:1043 src/Containers.jsx:535
+msgid "Integration"
+msgstr "Integrācija"
+
 #: src/ImageRunModal.jsx:1068
 msgid "No environment variables specified"
 msgstr "Nav norādītu vides mainīgo"
@@ -1121,6 +741,14 @@ msgid ""
 msgstr ""
 "Lai importētu vairākus uzreiz, ielīmējiet jebkurā laukā vienu vai vairākas "
 "rindas ar pāriem atslēga=vērtība"
+
+#: src/ImageRunModal.jsx:1084 src/Containers.jsx:572
+msgid "Health check"
+msgstr "Stāvokļa pārbaude"
+
+#: src/ImageRunModal.jsx:1092 src/ContainerHealthLogs.jsx:54
+msgid "Interval"
+msgstr "Intervāls"
 
 #: src/ImageRunModal.jsx:1094
 msgid "Health check interval help"
@@ -1143,6 +771,10 @@ msgstr "Palielināt intervālu"
 msgid "seconds"
 msgstr "sekundes"
 
+#: src/ImageRunModal.jsx:1115 src/ContainerHealthLogs.jsx:66
+msgid "Timeout"
+msgstr "Noildze"
+
 #: src/ImageRunModal.jsx:1117
 msgid "Health check timeout help"
 msgstr "Stāvokļa pārbaudes noildzes palīdzība"
@@ -1163,6 +795,10 @@ msgstr "Samazināt noildzi"
 msgid "Increase timeout"
 msgstr "Palielināt noildzi"
 
+#: src/ImageRunModal.jsx:1138 src/ContainerHealthLogs.jsx:62
+msgid "Start period"
+msgstr "Sākuma periods"
+
 #: src/ImageRunModal.jsx:1140
 msgid "Health check start period help"
 msgstr "Stāvokļa pārbaudes sākuma perioda palīdzība"
@@ -1178,6 +814,10 @@ msgstr "Samazināt sākuma periodu"
 #: src/ImageRunModal.jsx:1154
 msgid "Increase start period"
 msgstr "Palielināt sākuma periodu"
+
+#: src/ImageRunModal.jsx:1161 src/ContainerHealthLogs.jsx:58
+msgid "Retries"
+msgstr "Atkārtojumi"
 
 #: src/ImageRunModal.jsx:1163
 msgid "Health check retries help"
@@ -1199,6 +839,10 @@ msgstr "Samazināt atkārtojumus"
 msgid "Increase retries"
 msgstr "Palielināt atkārtojumus"
 
+#: src/ImageRunModal.jsx:1181 src/ContainerHealthLogs.jsx:70
+msgid "When unhealthy"
+msgstr "Kad neveselīgs"
+
 #: src/ImageRunModal.jsx:1183
 msgid "Health failure check action help"
 msgstr "Stāvokļa pārbaudes kļūmes darbības palīdzība"
@@ -1211,121 +855,160 @@ msgstr "Darbība, kas jāveic, kad konteiners pāriet neveselīgā stāvoklī."
 msgid "Create container in $0"
 msgstr "Izveidot konteineru $0"
 
+#: src/ImageRunModal.jsx:1219 src/Images.jsx:439 src/Images.jsx:448
+#: src/Containers.jsx:917
+msgid "Create container"
+msgstr "Izveidot konteineru"
+
 #: src/ImageRunModal.jsx:1226
 msgid "Create and run"
 msgstr "Izveidot un palaist"
 
-#: src/ContainerIntegration.jsx:83
-msgid "Read-write access"
-msgstr "Lasīšanas un rakstīšanas piekļuve"
+#: src/Volume.jsx:26
+msgid "Container path must not be empty"
+msgstr "Konteinera ceļš nevar būt tukšs"
 
-#: src/ContainerIntegration.jsx:84
-msgid "Read-only access"
-msgstr "Tikai lasīšanas piekļuve"
+#: src/Volume.jsx:39
+msgid "Host path"
+msgstr "Resursdatora ceļš"
 
-#: src/ContainerIntegration.jsx:124
-msgid "Show less"
-msgstr "Rādīt mazāk"
+#: src/Volume.jsx:53
+msgid "Container path"
+msgstr "Konteinera ceļš"
 
-#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
-msgid "Show more"
-msgstr "Rādīt vairāk"
+#: src/Volume.jsx:67
+msgid "Mode"
+msgstr "Režīms"
 
-#: src/ImageUsedBy.jsx:17
-msgid "No containers are using this image"
-msgstr "Neviens konteiners neizmanto šo tēlu"
+#: src/Volume.jsx:69
+msgid "Writable"
+msgstr "Rakstāms"
 
-#: src/ContainerLogs.jsx:46
-msgid "Loading logs..."
-msgstr "Ielādē žurnālus..."
+#: src/Volume.jsx:74
+msgid "SELinux"
+msgstr "SELinux"
 
-#: src/ImageDeleteModal.jsx:53
-msgid "Failed to force remove image $0"
-msgstr "Neizdevās piespiedu kārtā noņemt tēlu $0"
+#: src/Volume.jsx:78
+msgid "No label"
+msgstr "Bez etiķetes"
 
-#: src/ImageDeleteModal.jsx:65
-msgid "intermediate image"
-msgstr "starptēls"
+#: src/Volume.jsx:79
+msgid "Shared"
+msgstr "Koplietots"
 
-#: src/ImageDeleteModal.jsx:79
-msgid "Failed to remove image $0"
-msgstr "Neizdevās noņemt tēlu $0"
+#: src/Volume.jsx:80
+msgid "Private"
+msgstr "Privāts"
 
-#: src/ImageDeleteModal.jsx:85
-msgid "intermediate"
-msgstr "starpposma"
+#: src/PruneUnusedContainersModal.jsx:35 src/app.jsx:51 src/app.jsx:677
+#: src/Images.jsx:145 src/Containers.jsx:503
+msgid "system"
+msgstr "sistēma"
 
-#: src/ImageDeleteModal.jsx:98
-msgid "Delete $0 image?"
-msgstr "Dzēst tēlu $0?"
+#: src/PruneUnusedContainersModal.jsx:35 src/Images.jsx:145
+#: src/Containers.jsx:503
+msgid "user:"
+msgstr "lietotājs:"
 
-#: src/ImageDeleteModal.jsx:103
-msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr "Šim tēlam ir vairākas birkas. Atlasiet dzēšamos tēlus ar birkām."
+#: src/PruneUnusedContainersModal.jsx:61
+msgid "Failed to prune unused containers"
+msgstr "Neizdevās iztīrīt neizmantotos konteinerus"
 
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete image"
-msgstr "Dzēst tēlu"
+#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
+msgid "Prune unused containers"
+msgstr "Iztīrīt neizmantotos konteinerus"
 
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete tagged images"
-msgstr "Dzēst tēlus ar birkām"
+#: src/PruneUnusedContainersModal.jsx:96
+msgid "Removes selected non-running containers"
+msgstr "Noņem atlasītos konteinerus, kas nedarbojas"
 
-#: src/ContainerDeleteModal.jsx:26
-msgid "Failed to remove container $0"
-msgstr "Neizdevās noņemt konteineru $0"
+#: src/PruneUnusedContainersModal.jsx:106
+#: src/PruneUnusedContainersModal.jsx:110
+msgid "Pruning containers"
+msgstr "Iztīra konteinerus"
 
-#: src/ContainerDeleteModal.jsx:40
-msgid "Deleting a container will erase all data in it."
-msgstr "Konteinera dzēšana izdzēsīs visus tā datus."
+#: src/ContainerHealthLogs.jsx:25
+msgid "$0 second"
+msgid_plural "$0 seconds"
+msgstr[0] "$0 sekunžu"
+msgstr[1] "$0 sekunde"
+msgstr[2] "$0 sekundes"
 
-#: src/ContainerDetails.jsx:16
-msgid "Up since:"
-msgstr "Darbojas kopš:"
+#: src/ContainerHealthLogs.jsx:46
+msgid "Status"
+msgstr "Statuss"
 
-#: src/ContainerDetails.jsx:35 src/Images.jsx:192
-msgid "ID"
-msgstr "ID"
+#: src/ContainerHealthLogs.jsx:74
+msgid "Failing streak"
+msgstr "Kļūmju sērija"
 
-#: src/ContainerDetails.jsx:50
-msgid "systemd service"
-msgstr "systemd pakalpojums"
+#: src/ContainerHealthLogs.jsx:84
+msgid "Failed to run health check on container $0"
+msgstr "Neizdevās izpildīt konteinera $0 stāvokļa pārbaudi"
 
-#: src/ContainerDetails.jsx:54
-msgid "View $0"
-msgstr "Skatīt $0"
+#: src/ContainerHealthLogs.jsx:88
+msgid "Run health check"
+msgstr "Izpildīt stāvokļa pārbaudi"
 
-#: src/ContainerDetails.jsx:68
-msgid "Gateway"
-msgstr "Vārteja"
+#: src/ContainerHealthLogs.jsx:92 src/Containers.jsx:540
+msgid "Logs"
+msgstr "Žurnāli"
 
-#: src/ContainerDetails.jsx:72
-msgid "MAC address"
-msgstr "MAC adrese"
+#: src/ContainerHealthLogs.jsx:95
+msgid "Last 5 runs"
+msgstr "Pēdējās 5 izpildes"
 
-#: src/ContainerDetails.jsx:90
-msgid "Latest checkpoint"
-msgstr "Pēdējais kontrolpunkts"
+#: src/ContainerHealthLogs.jsx:95
+msgid "Started at"
+msgstr "Sākts"
 
-#: src/PruneUnusedImagesModal.jsx:38
-msgid "Delete unused system images:"
-msgstr "Dzēst neizmantotos sistēmas tēlus:"
+#: src/ContainerHealthLogs.jsx:105
+msgid "Passed health run"
+msgstr "Veiksmīga stāvokļa pārbaude"
 
-#: src/PruneUnusedImagesModal.jsx:39
-msgid "Delete unused images of user $0:"
-msgstr "Dzēst lietotāja $0 neizmantotos tēlus:"
+#: src/ContainerHealthLogs.jsx:105
+msgid "Failed health run"
+msgstr "Neveiksmīga stāvokļa pārbaude"
 
-#: src/PruneUnusedImagesModal.jsx:74
-msgid "Failed to prune unused images"
-msgstr "Neizdevās iztīrīt neizmantotos tēlus"
+#: src/ContainerRestoreModal.jsx:36
+msgid "Failed to restore container $0"
+msgstr "Neizdevās atjaunot konteineru $0"
 
-#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
-msgid "Prune unused images"
-msgstr "Iztīrīt neizmantotos tēlus"
+#: src/ContainerRestoreModal.jsx:49
+msgid "Restore container $0"
+msgstr "Atjaunot konteineru $0"
 
-#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
-msgid "Pruning images"
-msgstr "Iztīra tēlus"
+#: src/ContainerRestoreModal.jsx:52 src/ContainerCheckpointModal.jsx:49
+msgid "Keep all temporary checkpoint files"
+msgstr "Paturēt visus pagaidu kontrolpunkta failus"
+
+#: src/ContainerRestoreModal.jsx:54
+msgid "Restore with established TCP connections"
+msgstr "Atjaunot ar izveidotajiem TCP savienojumiem"
+
+#: src/ContainerRestoreModal.jsx:57
+msgid "Ignore IP address if set statically"
+msgstr "Ignorēt IP adresi, ja tā iestatīta statiski"
+
+#: src/ContainerRestoreModal.jsx:60
+msgid "Ignore MAC address if set statically"
+msgstr "Ignorēt MAC adresi, ja tā iestatīta statiski"
+
+#: src/ContainerRestoreModal.jsx:69 src/Containers.jsx:266
+msgid "Restore"
+msgstr "Atjaunot"
+
+#: src/app.jsx:51
+msgid "user"
+msgstr "lietotājs"
+
+#: src/app.jsx:842
+msgid "Podman service failed"
+msgstr "Podman pakalpojums neizdevās"
+
+#: src/app.jsx:846
+msgid "Troubleshoot"
+msgstr "Problēmu novēršana"
 
 #: src/Images.jsx:60
 msgid "Failed to download image $0:$1"
@@ -1346,6 +1029,10 @@ msgstr[2] "$0 konteineri"
 msgid "History"
 msgstr "Vēsture"
 
+#: src/Images.jsx:192 src/ContainerDetails.jsx:35
+msgid "ID"
+msgstr "ID"
+
 #: src/Images.jsx:193
 msgid "Disk space"
 msgstr "Diska vieta"
@@ -1353,6 +1040,10 @@ msgstr "Diska vieta"
 #: src/Images.jsx:196
 msgid "No images"
 msgstr "Nav tēlu"
+
+#: src/Images.jsx:198 src/Containers.jsx:771 src/ImageUsedBy.jsx:15
+msgid "Loading..."
+msgstr "Ielādē..."
 
 #: src/Images.jsx:200
 msgid "No images that match the current filter"
@@ -1407,6 +1098,315 @@ msgstr "Lejupielādēt visus tēlus"
 #: src/Images.jsx:453
 msgid "Pull"
 msgstr "Lejupielādēt"
+
+#: src/ContainerTerminal.jsx:250
+msgid "Container is not running"
+msgstr "Konteiners nedarbojas"
+
+#: src/ContainerTerminal.jsx:254
+msgid "Error occurred while connecting console"
+msgstr "Savienojot konsoli, radās kļūda"
+
+#: src/ContainerCheckpointModal.jsx:33
+msgid "Failed to checkpoint container $0"
+msgstr "Neizdevās izveidot konteinera $0 kontrolpunktu"
+
+#: src/ContainerCheckpointModal.jsx:46
+msgid "Checkpoint container $0"
+msgstr "Izveidot konteinera $0 kontrolpunktu"
+
+#: src/ContainerCheckpointModal.jsx:51
+msgid "Leave running after writing checkpoint to disk"
+msgstr "Pēc kontrolpunkta ierakstīšanas diskā atstāt darbojamies"
+
+#: src/ContainerCheckpointModal.jsx:54
+msgid "Support preserving established TCP connections"
+msgstr "Atbalstīt izveidoto TCP savienojumu saglabāšanu"
+
+#: src/ContainerCheckpointModal.jsx:63 src/Containers.jsx:245
+msgid "Checkpoint"
+msgstr "Kontrolpunkts"
+
+#: src/ContainerHeader.tsx:46
+msgid "Type to filter…"
+msgstr "Rakstiet, lai filtrētu…"
+
+#: src/ImageHistory.jsx:34
+msgid "Created by"
+msgstr "Izveidojis"
+
+#: src/ImageHistory.jsx:34
+msgid "Size"
+msgstr "Izmērs"
+
+#: src/ImageHistory.jsx:34
+msgid "Comments"
+msgstr "Komentāri"
+
+#: src/ImageHistory.jsx:60
+msgid "Unable to load image history"
+msgstr "Neizdodas ielādēt tēla vēsturi"
+
+#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
+msgid "Loading details..."
+msgstr "Ielādē informāciju..."
+
+#: src/Containers.jsx:62
+msgid "Failed to force remove container $0"
+msgstr "Neizdevās piespiedu kārtā noņemt konteineru $0"
+
+#: src/Containers.jsx:72
+msgid "Deleting a running container will erase all data in it."
+msgstr "Darbojoša konteinera dzēšana izdzēsīs visus tā datus."
+
+#: src/Containers.jsx:87
+msgid "Failed to stop container $0"
+msgstr "Neizdevās apturēt konteineru $0"
+
+#: src/Containers.jsx:96
+msgid "Failed to stop quadlet $0"
+msgstr "Neizdevās apturēt quadlet $0"
+
+#: src/Containers.jsx:105
+msgid "Failed to start quadlet $0"
+msgstr "Neizdevās palaist quadlet $0"
+
+#: src/Containers.jsx:111
+msgid "Failed to start container $0"
+msgstr "Neizdevās palaist konteineru $0"
+
+#: src/Containers.jsx:120
+msgid "Failed to resume container $0"
+msgstr "Neizdevās atsākt konteineru $0"
+
+#: src/Containers.jsx:128
+msgid "Failed to pause container $0"
+msgstr "Neizdevās pauzēt konteineru $0"
+
+#: src/Containers.jsx:146
+msgid "Failed to restart container $0"
+msgstr "Neizdevās restartēt konteineru $0"
+
+#: src/Containers.jsx:154
+msgid "Failed to restart quadlet $0"
+msgstr "Neizdevās restartēt quadlet $0"
+
+#: src/Containers.jsx:217 src/PodActions.jsx:160
+msgid "Force restart"
+msgstr "Piespiedu restartēšana"
+
+#: src/Containers.jsx:225 src/PodActions.jsx:199
+msgid "Pause"
+msgstr "Pauze"
+
+#: src/Containers.jsx:232 src/PodActions.jsx:184
+msgid "Resume"
+msgstr "Turpināt"
+
+#: src/Containers.jsx:255 src/PodActions.jsx:169
+msgid "Start"
+msgstr "Palaist"
+
+#: src/Containers.jsx:312
+msgid "Healthy"
+msgstr "Veselīgs"
+
+#: src/Containers.jsx:314
+msgid "Unhealthy"
+msgstr "Neveselīgs"
+
+#: src/Containers.jsx:316
+msgid "Checking health"
+msgstr "Pārbauda stāvokli"
+
+#: src/Containers.jsx:345
+msgid "Terminal not available"
+msgstr "Terminālis nav pieejams"
+
+#: src/Containers.jsx:345
+msgid "This browser does not support WebGL2."
+msgstr "Šis pārlūks neatbalsta WebGL2."
+
+#: src/Containers.jsx:350
+msgid "View $0 logs"
+msgstr "Skatīt $0 žurnālus"
+
+#: src/Containers.jsx:440 src/Containers.jsx:441
+msgid "not available"
+msgstr "nav pieejams"
+
+#: src/Containers.jsx:440 src/Containers.jsx:441
+msgid "n/a"
+msgstr "nav"
+
+#
+#: src/Containers.jsx:461
+msgid "$0% of $1 limit"
+msgstr "$0% no ierobežojuma $1"
+
+#: src/Containers.jsx:477 src/Containers.jsx:1027
+msgid "service"
+msgstr "pakalpojums"
+
+#: src/Containers.jsx:554
+msgid "Console"
+msgstr "Konsole"
+
+#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
+msgid "CPU"
+msgstr "CPU"
+
+#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
+msgid "Memory"
+msgstr "Atmiņa"
+
+#: src/Containers.jsx:654
+msgid "Click to see published ports"
+msgstr "Noklikšķiniet, lai redzētu publicētos portus"
+
+#: src/Containers.jsx:663
+msgid "ports"
+msgstr "porti"
+
+#: src/Containers.jsx:669
+msgid "Click to see volumes"
+msgstr "Noklikšķiniet, lai redzētu sējumus"
+
+#: src/Containers.jsx:678
+msgid "volumes"
+msgstr "sējumi"
+
+#: src/Containers.jsx:755
+msgid "Container"
+msgstr "Konteiners"
+
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
+msgid "State"
+msgstr "Stāvoklis"
+
+#: src/Containers.jsx:760
+msgid "Actions"
+msgstr "Darbības"
+
+#: src/Containers.jsx:768
+msgid "No containers"
+msgstr "Nav konteineru"
+
+#: src/Containers.jsx:769
+msgid "No containers in this pod"
+msgstr "Šajā podā nav konteineru"
+
+#: src/Containers.jsx:773
+msgid "No containers that match the current filter"
+msgstr "Nav konteineru, kas atbilst pašreizējam filtram"
+
+#: src/Containers.jsx:775
+msgid "No running containers"
+msgstr "Nav darbojošos konteineru"
+
+#: src/Containers.jsx:896
+msgid "Show"
+msgstr "Rādīt"
+
+#: src/Containers.jsx:901
+msgid "Only running"
+msgstr "Tikai darbojošos"
+
+#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
+msgid "Containers"
+msgstr "Konteineri"
+
+#: src/Containers.jsx:1006
+msgid "Create container in pod"
+msgstr "Izveidot konteineru podā"
+
+#: src/Containers.jsx:1026
+msgid "pod"
+msgstr "pods"
+
+#: src/ImageUsedBy.jsx:17
+msgid "No containers are using this image"
+msgstr "Neviens konteiners neizmanto šo tēlu"
+
+#: src/ContainerDetails.jsx:16
+msgid "Up since:"
+msgstr "Darbojas kopš:"
+
+#: src/ContainerDetails.jsx:50
+msgid "systemd service"
+msgstr "systemd pakalpojums"
+
+#: src/ContainerDetails.jsx:54
+msgid "View $0"
+msgstr "Skatīt $0"
+
+#: src/ContainerDetails.jsx:68
+msgid "Gateway"
+msgstr "Vārteja"
+
+#: src/ContainerDetails.jsx:72
+msgid "MAC address"
+msgstr "MAC adrese"
+
+#: src/ContainerDetails.jsx:90
+msgid "Latest checkpoint"
+msgstr "Pēdējais kontrolpunkts"
+
+#: src/PodActions.jsx:48
+msgid "Force delete pod $0?"
+msgstr "Piespiedu kārtā dzēst podu $0?"
+
+#: src/PodActions.jsx:49
+msgid "Delete pod $0?"
+msgstr "Dzēst podu $0?"
+
+#: src/PodActions.jsx:53
+msgid "An error occurred"
+msgstr "Radās kļūda"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr "Tukšais pods $0 tiks neatgriezeniski noņemts."
+
+#: src/PodActions.jsx:59
+msgid "Deleting this pod will remove the following containers:"
+msgstr "Dzēšot šo podu, tiks noņemti šie konteineri:"
+
+#: src/PodActions.jsx:68 src/ForceRemoveModal.jsx:32
+msgid "Force delete"
+msgstr "Piespiedu dzēšana"
+
+#: src/PodActions.jsx:85 src/PodActions.jsx:91
+msgid "Failed to start pod $0"
+msgstr "Neizdevās palaist podu $0"
+
+#: src/PodActions.jsx:100 src/PodActions.jsx:107
+msgid "Failed to stop pod $0"
+msgstr "Neizdevās apturēt podu $0"
+
+#: src/PodActions.jsx:117 src/PodActions.jsx:124
+msgid "Failed to restart pod $0"
+msgstr "Neizdevās restartēt podu $0"
+
+#: src/PodActions.jsx:180
+msgid "Failed to resume pod $0"
+msgstr "Neizdevās atsākt podu $0"
+
+#: src/PodActions.jsx:195
+msgid "Failed to pause pod $0"
+msgstr "Neizdevās pauzēt podu $0"
+
+#: src/ContainerIntegration.jsx:83
+msgid "Read-write access"
+msgstr "Lasīšanas un rakstīšanas piekļuve"
+
+#: src/ContainerIntegration.jsx:84
+msgid "Read-only access"
+msgstr "Tikai lasīšanas piekļuve"
+
+#: src/ContainerIntegration.jsx:124
+msgid "Show less"
+msgstr "Rādīt mazāk"
 
 #: src/manifest.json:0
 msgid "Podman containers"

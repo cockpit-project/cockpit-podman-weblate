@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 10:16+0000\n"
+"POT-Creation-Date: 2026-11-26 11:29+0000\n"
 "PO-Revision-Date: 2026-03-16 21:58+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -27,326 +27,126 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.16.2\n"
 
-#: src/ContainerCheckpointModal.jsx:33
-msgid "Failed to checkpoint container $0"
-msgstr "Crearea punctului de control al containerului $0 a eșuat"
+#: src/Env.jsx:22
+msgid "Key must not be empty"
+msgstr "Cheia nu trebuie să fie goală"
 
-#: src/ContainerCheckpointModal.jsx:46
-msgid "Checkpoint container $0"
-msgstr "Punct de control container $0"
+#: src/Env.jsx:24
+msgid "Key must not begin with a digit"
+msgstr "Cheia nu trebuie să înceapă cu o cifră"
 
-#: src/ContainerCheckpointModal.jsx:49 src/ContainerRestoreModal.jsx:52
-msgid "Keep all temporary checkpoint files"
-msgstr "Păstrează toate fișierele temporare ale punctelor de control"
+#: src/Env.jsx:26
+msgid "Key contains invalid characters"
+msgstr "Cheia conține caractere nevalide"
 
-#: src/ContainerCheckpointModal.jsx:51
-msgid "Leave running after writing checkpoint to disk"
-msgstr "Lasă rularea să continue după scrierea punctului de control pe disc"
+#: src/Env.jsx:67
+msgid "Key"
+msgstr "Cheie"
 
-#: src/ContainerCheckpointModal.jsx:54
-msgid "Support preserving established TCP connections"
-msgstr "Suport pentru menținerea conexiunilor TCP stabilite"
+#: src/Env.jsx:83
+msgid "Value"
+msgstr "Valoarea"
 
-#: src/ContainerCheckpointModal.jsx:63 src/Containers.jsx:245
-msgid "Checkpoint"
-msgstr "Punct de control"
+#: src/Env.jsx:101 src/PublishPort.jsx:135 src/Volume.jsx:87
+msgid "Remove item"
+msgstr "Elimină elementul"
 
-#: src/ContainerCheckpointModal.jsx:67 src/PruneUnusedContainersModal.jsx:112
-#: src/ForceRemoveModal.jsx:34 src/ContainerRenameModal.jsx:100
-#: src/ImageSearchModal.jsx:226 src/PodActions.jsx:72
-#: src/PodCreateModal.jsx:223 src/ContainerRestoreModal.jsx:73
-#: src/ContainerCommitModal.jsx:167 src/ImageRunModal.jsx:1233
-#: src/ImageDeleteModal.jsx:126 src/ContainerDeleteModal.jsx:44
-#: src/PruneUnusedImagesModal.jsx:113
-msgid "Cancel"
-msgstr "Anulează"
+#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
+msgid "Exited"
+msgstr "Terminat"
 
-#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503 src/app.jsx:51
-#: src/app.jsx:677 src/Images.jsx:145
-msgid "system"
-msgstr "sistem"
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Paused"
+msgstr "În pauză"
 
-#: src/PruneUnusedContainersModal.jsx:35 src/Containers.jsx:503
-#: src/Images.jsx:145
-msgid "user:"
-msgstr "utilizator:"
+#: src/util.tsx:41 src/util.tsx:44
+msgid "Stopped"
+msgstr "Oprit"
 
-#: src/PruneUnusedContainersModal.jsx:61
-msgid "Failed to prune unused containers"
-msgstr "Eliminarea containerele neutilizate a eșuat"
+#: src/util.tsx:41
+msgid "Removing"
+msgstr "Se elimină"
 
-#: src/PruneUnusedContainersModal.jsx:68 src/PodCreateModal.jsx:153
-#: src/ImageRunModal.jsx:810
-msgid "Name"
-msgstr "Nume"
+#: src/util.tsx:41
+msgid "Configured"
+msgstr "Configurat"
 
-#: src/PruneUnusedContainersModal.jsx:69 src/util.tsx:41 src/util.tsx:44
-#: src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81 src/Images.jsx:191
+#: src/util.tsx:41 src/util.tsx:44 src/PruneUnusedContainersModal.jsx:69
+#: src/Images.jsx:191 src/ImageHistory.jsx:34 src/ContainerDetails.jsx:81
 msgid "Created"
 msgstr "Creat"
 
-#: src/PruneUnusedContainersModal.jsx:75 src/Containers.jsx:756
-#: src/ImageSearchModal.jsx:147 src/ContainerHeader.tsx:32
-#: src/PodCreateModal.jsx:171 src/ImageRunModal.jsx:831 src/Images.jsx:190
-msgid "Owner"
-msgstr "Proprietar"
-
-#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
-msgid "Prune unused containers"
-msgstr "Elimină containerele neutilizate"
-
-#: src/PruneUnusedContainersModal.jsx:96
-msgid "Removes selected non-running containers"
-msgstr "Elimină containerele selectate care nu rulează"
-
-#: src/PruneUnusedContainersModal.jsx:106
-#: src/PruneUnusedContainersModal.jsx:110
-msgid "Pruning containers"
-msgstr "Se elimină containerele"
-
-#: src/PruneUnusedContainersModal.jsx:110 src/PruneUnusedImagesModal.jsx:111
-msgid "Prune"
-msgstr "Eliminare"
-
-#: src/Containers.jsx:62
-msgid "Failed to force remove container $0"
-msgstr "Eliminarea forțată a containerului $0 a eșuat"
-
-#: src/Containers.jsx:72
-msgid "Deleting a running container will erase all data in it."
-msgstr ""
-"Ștergerea unui container care rulează va șterge toate datele din acesta."
-
-#: src/Containers.jsx:87
-msgid "Failed to stop container $0"
-msgstr "Oprirea containerului $0 a eșuat"
-
-#: src/Containers.jsx:96
-msgid "Failed to stop quadlet $0"
-msgstr "Nu s-a reușit oprirea quadlet-ului $0"
-
-#: src/Containers.jsx:105
-msgid "Failed to start quadlet $0"
-msgstr "Nu s-a reușit pornirea quadlet-ului $0"
-
-#: src/Containers.jsx:111
-msgid "Failed to start container $0"
-msgstr "Pornirea containerului $0 a eșuat"
-
-#: src/Containers.jsx:120
-msgid "Failed to resume container $0"
-msgstr "Reluarea containerului $0 a eșuat"
-
-#: src/Containers.jsx:128
-msgid "Failed to pause container $0"
-msgstr "Punerea în pauză a containerului $0 a eșuat"
-
-#: src/Containers.jsx:146
-msgid "Failed to restart container $0"
-msgstr "Repornirea containerului $0 a eșuat"
-
-#: src/Containers.jsx:154
-msgid "Failed to restart quadlet $0"
-msgstr "Nu s-a reușit repornirea quadlet-ului $0"
-
-#: src/Containers.jsx:182 src/ContainerRenameModal.jsx:95
-msgid "Rename"
-msgstr "Redenumește"
-
-#: src/Containers.jsx:194 src/Containers.jsx:205 src/ContainerHealthLogs.jsx:31
-#: src/PodActions.jsx:137 src/ImageRunModal.jsx:64
-msgid "Stop"
-msgstr "Stop"
-
-#: src/Containers.jsx:198 src/Containers.jsx:213 src/ContainerHealthLogs.jsx:30
-#: src/util.tsx:41 src/PodActions.jsx:152 src/ImageRunModal.jsx:63
+#: src/util.tsx:41 src/ImageRunModal.jsx:63 src/ContainerHealthLogs.jsx:30
+#: src/Containers.jsx:198 src/Containers.jsx:213 src/PodActions.jsx:152
 msgid "Restart"
 msgstr "Repornește"
 
-#: src/Containers.jsx:209 src/ContainerHealthLogs.jsx:32 src/PodActions.jsx:145
-#: src/ImageRunModal.jsx:65
-msgid "Force stop"
-msgstr "Forțează oprirea"
+#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
+msgid "Running"
+msgstr "În execuție"
 
-#: src/Containers.jsx:217 src/PodActions.jsx:160
-msgid "Force restart"
-msgstr "Forțează repornirea"
+#: src/util.tsx:44
+msgid "Error"
+msgstr "Eroare"
 
-#: src/Containers.jsx:225 src/PodActions.jsx:199
-msgid "Pause"
-msgstr "Pauză"
+#: src/Notification.tsx:38 src/Images.jsx:62
+msgid "Error message"
+msgstr "Mesaj de eroare"
 
-#: src/Containers.jsx:232 src/PodActions.jsx:184
-msgid "Resume"
-msgstr "Reluare"
+#: src/ContainerDeleteModal.jsx:26
+msgid "Failed to remove container $0"
+msgstr "Eliminarea containerului $0 a eșuat"
 
-#: src/Containers.jsx:255 src/PodActions.jsx:169
-msgid "Start"
-msgstr "Pornire"
+#: src/ContainerDeleteModal.jsx:36 src/ForceRemoveModal.jsx:22
+msgid "Delete $0?"
+msgstr "Ștergeți $0?"
 
-#: src/Containers.jsx:266 src/ContainerRestoreModal.jsx:69
-msgid "Restore"
-msgstr "Restaurare"
+#: src/ContainerDeleteModal.jsx:40
+msgid "Deleting a container will erase all data in it."
+msgstr "Ștergerea unui container va șterge toate datele din acesta."
 
-#: src/Containers.jsx:281 src/ContainerCommitModal.jsx:154
-msgid "Commit"
-msgstr "Validare"
-
-#: src/Containers.jsx:290 src/PodActions.jsx:68 src/PodActions.jsx:215
-#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459
+#: src/ContainerDeleteModal.jsx:43 src/Images.jsx:459 src/Containers.jsx:290
+#: src/PodActions.jsx:68 src/PodActions.jsx:215
 msgid "Delete"
 msgstr "Șterge"
 
-#: src/Containers.jsx:312
-msgid "Healthy"
-msgstr "Funcționare excelentă"
+#: src/ContainerDeleteModal.jsx:44 src/PruneUnusedImagesModal.jsx:113
+#: src/ContainerCommitModal.jsx:167 src/ImageDeleteModal.jsx:126
+#: src/ImageSearchModal.jsx:226 src/ContainerRenameModal.jsx:100
+#: src/PodCreateModal.jsx:223 src/ImageRunModal.jsx:1233
+#: src/PruneUnusedContainersModal.jsx:112 src/ContainerRestoreModal.jsx:73
+#: src/ContainerCheckpointModal.jsx:67 src/PodActions.jsx:72
+#: src/ForceRemoveModal.jsx:34
+msgid "Cancel"
+msgstr "Anulează"
 
-#: src/Containers.jsx:314
-msgid "Unhealthy"
-msgstr "Funcționare defectuoasă"
+#: src/PruneUnusedImagesModal.jsx:38
+msgid "Delete unused system images:"
+msgstr "Şterge imaginile de sistem neutilizate:"
 
-#: src/Containers.jsx:316
-msgid "Checking health"
-msgstr "Verificarea stării de funcționare"
+#: src/PruneUnusedImagesModal.jsx:39
+msgid "Delete unused images of user $0:"
+msgstr "Şterge imaginile neutilizate ale utilizatorului $0:"
 
-#: src/Containers.jsx:345
-msgid "Terminal not available"
-msgstr "Terminalul nu este disponibil"
+#: src/PruneUnusedImagesModal.jsx:55 src/ContainerIntegration.jsx:124
+msgid "Show more"
+msgstr "Afișează mai mult"
 
-#: src/Containers.jsx:345
-msgid "This browser does not support WebGL2."
-msgstr "Acest navigator nu are suport pentru WebGL2."
+#: src/PruneUnusedImagesModal.jsx:74
+msgid "Failed to prune unused images"
+msgstr "Eliminarea imaginilor neutilizate a eșuat"
 
-#: src/Containers.jsx:350
-msgid "View $0 logs"
-msgstr "Vizualizare $0 jurnale"
+#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
+msgid "Prune unused images"
+msgstr "Elimină imaginile neutilizate"
 
-#: src/Containers.jsx:440 src/Containers.jsx:441
-msgid "not available"
-msgstr "nu este disponibilă"
+#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
+msgid "Pruning images"
+msgstr "Se elimină imaginile"
 
-#: src/Containers.jsx:440 src/Containers.jsx:441
-msgid "n/a"
-msgstr "n/d"
-
-#
-#: src/Containers.jsx:461
-msgid "$0% of $1 limit"
-msgstr "$0% din limita de $1"
-
-#: src/Containers.jsx:477 src/Containers.jsx:1027
-msgid "service"
-msgstr "serviciu"
-
-#: src/Containers.jsx:528 src/ImageRunModal.jsx:828 src/Images.jsx:161
-msgid "Details"
-msgstr "Detalii"
-
-#: src/Containers.jsx:535 src/ImageRunModal.jsx:1043
-msgid "Integration"
-msgstr "Integrare"
-
-#: src/Containers.jsx:540 src/ContainerHealthLogs.jsx:92
-msgid "Logs"
-msgstr "Jurnale"
-
-#: src/Containers.jsx:554
-msgid "Console"
-msgstr "Consolă"
-
-#: src/Containers.jsx:572 src/ImageRunModal.jsx:1084
-msgid "Health check"
-msgstr "Verificarea stării de funcționare"
-
-#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
-msgid "CPU"
-msgstr "CPU"
-
-#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
-msgid "Memory"
-msgstr "Memorie"
-
-#: src/Containers.jsx:654
-msgid "Click to see published ports"
-msgstr "Faceți clic cu butonul mausului pentru a vedea porturile publicate"
-
-#: src/Containers.jsx:663
-msgid "ports"
-msgstr "porturi"
-
-#: src/Containers.jsx:669
-msgid "Click to see volumes"
-msgstr "Faceți clic cu butonul mausului pentru a vedea volumele"
-
-#: src/Containers.jsx:678
-msgid "volumes"
-msgstr "volume"
-
-#: src/Containers.jsx:755
-msgid "Container"
-msgstr "Container"
-
-#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
-msgid "State"
-msgstr "Stare"
-
-#: src/Containers.jsx:760
-msgid "Actions"
-msgstr "Acțiuni"
-
-#: src/Containers.jsx:768
-msgid "No containers"
-msgstr "Niciun container"
-
-#: src/Containers.jsx:769
-msgid "No containers in this pod"
-msgstr "Nu există containere în această capsulă"
-
-#: src/Containers.jsx:771 src/ImageUsedBy.jsx:15 src/Images.jsx:198
-msgid "Loading..."
-msgstr "Se încarcă…"
-
-#: src/Containers.jsx:773
-msgid "No containers that match the current filter"
-msgstr "Nu există containere care să corespundă filtrului actual"
-
-#: src/Containers.jsx:775
-msgid "No running containers"
-msgstr "Nu există containere în execuție"
-
-#: src/Containers.jsx:896
-msgid "Show"
-msgstr "Afișează"
-
-#: src/Containers.jsx:900 src/ContainerHeader.tsx:39 src/ImageRunModal.jsx:769
-#: src/ImageDeleteModal.jsx:105
-msgid "All"
-msgstr "Toate"
-
-#: src/Containers.jsx:901
-msgid "Only running"
-msgstr "Doar cele în execuție"
-
-#: src/Containers.jsx:909 src/PodCreateModal.jsx:212
-msgid "Create pod"
-msgstr "Creează capsulă „pod”"
-
-#: src/Containers.jsx:917 src/ImageRunModal.jsx:1219 src/Images.jsx:439
-#: src/Images.jsx:448
-msgid "Create container"
-msgstr "Creează container"
-
-#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
-msgid "Containers"
-msgstr "Containere"
-
-#: src/Containers.jsx:1006
-msgid "Create container in pod"
-msgstr "Creează container în capsulă „pod”"
-
-#: src/Containers.jsx:1026
-msgid "pod"
-msgstr "capsulă „pod”"
+#: src/PruneUnusedImagesModal.jsx:111 src/PruneUnusedContainersModal.jsx:110
+msgid "Prune"
+msgstr "Eliminare"
 
 #: src/PublishPort.jsx:26
 msgid "Must be a valid IP address"
@@ -408,186 +208,113 @@ msgstr "TCP"
 msgid "UDP"
 msgstr "UDP"
 
-#: src/PublishPort.jsx:135 src/Env.jsx:101 src/Volume.jsx:87
-msgid "Remove item"
-msgstr "Elimină elementul"
+#: src/ContainerCommitModal.jsx:40
+msgid "Image name is required"
+msgstr "Numele imaginii este obligatoriu"
 
-#: src/ContainerHealthLogs.jsx:25
-msgid "$0 second"
-msgid_plural "$0 seconds"
-msgstr[0] "$0 secundă"
-msgstr[1] "$0 secunde"
-msgstr[2] "$0 de secunde"
+#: src/ContainerCommitModal.jsx:49
+msgid "Image name is not unique"
+msgstr "Numele imaginii nu este unic"
 
-#: src/ContainerHealthLogs.jsx:29 src/ImageRunModal.jsx:62
-msgid "No action"
-msgstr "Nicio acțiune"
+#: src/ContainerCommitModal.jsx:86
+msgid "Failed to commit container $0"
+msgstr "Validarea containerului $0 a eșuat"
 
-#: src/ContainerHealthLogs.jsx:46
-msgid "Status"
-msgstr "Starea"
+#: src/ContainerCommitModal.jsx:95
+msgid "New image name"
+msgstr "Nume nou pentru imagine"
 
-#: src/ContainerHealthLogs.jsx:50 src/ImageDetails.jsx:56
-#: src/ContainerCommitModal.jsx:117 src/ImageRunModal.jsx:928
-#: src/ImageRunModal.jsx:1086 src/ContainerDetails.jsx:44
+#: src/ContainerCommitModal.jsx:103 src/ImageSearchModal.jsx:213
+msgid "Tag"
+msgstr "Eticheta"
+
+#: src/ContainerCommitModal.jsx:110
+msgid "Author"
+msgstr "Autor"
+
+#: src/ContainerCommitModal.jsx:112
+msgid "Example, Your Name <yourname@example.com>"
+msgstr "Exemplu: Numele dvs. <numele_dvs@example.com>"
+
+#: src/ContainerCommitModal.jsx:117 src/ImageDetails.jsx:56
+#: src/ImageRunModal.jsx:928 src/ImageRunModal.jsx:1086
+#: src/ContainerHealthLogs.jsx:50 src/ContainerDetails.jsx:44
 msgid "Command"
 msgstr "Comandă"
 
-#: src/ContainerHealthLogs.jsx:54 src/ImageRunModal.jsx:1092
-msgid "Interval"
-msgstr "Interval"
+#: src/ContainerCommitModal.jsx:123
+msgid "Options"
+msgstr "Opțiuni"
 
-#: src/ContainerHealthLogs.jsx:58 src/ImageRunModal.jsx:1161
-msgid "Retries"
-msgstr "Reîncercări"
+#: src/ContainerCommitModal.jsx:127
+msgid "Pause container when creating image"
+msgstr "Pune în pauză containerul la crearea imaginii"
 
-#: src/ContainerHealthLogs.jsx:62 src/ImageRunModal.jsx:1138
-msgid "Start period"
-msgstr "Perioada de pornire"
-
-#: src/ContainerHealthLogs.jsx:66 src/ImageRunModal.jsx:1115
-msgid "Timeout"
-msgstr "Timpul de așteptare"
-
-#: src/ContainerHealthLogs.jsx:70 src/ImageRunModal.jsx:1181
-msgid "When unhealthy"
-msgstr "Când starea de funcționare nu este bună"
-
-#: src/ContainerHealthLogs.jsx:74
-msgid "Failing streak"
-msgstr "O serie de eșecuri"
-
-#: src/ContainerHealthLogs.jsx:84
-msgid "Failed to run health check on container $0"
-msgstr "Executarea verificării stării de funcționare pe containerul $0 a eșuat"
-
-#: src/ContainerHealthLogs.jsx:88
-msgid "Run health check"
-msgstr "Rulați verificarea stării de funcționare"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Last 5 runs"
-msgstr "Ultimele 5 rulări"
-
-#: src/ContainerHealthLogs.jsx:95
-msgid "Started at"
-msgstr "A început la"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Passed health run"
-msgstr "Executarea verificării stării de funcționare a avut succes"
-
-#: src/ContainerHealthLogs.jsx:105
-msgid "Failed health run"
-msgstr "Executarea verificării stării de funcționare a eșuat"
-
-#: src/ContainerTerminal.jsx:250
-msgid "Container is not running"
-msgstr "Containerul nu este în execuție"
-
-#: src/ContainerTerminal.jsx:254
-msgid "Error occurred while connecting console"
-msgstr "A apărut o eroare la conectarea consolei"
-
-#: src/ForceRemoveModal.jsx:22 src/ContainerDeleteModal.jsx:36
-msgid "Delete $0?"
-msgstr "Ștergeți $0?"
-
-#: src/ForceRemoveModal.jsx:32 src/PodActions.jsx:68
-msgid "Force delete"
-msgstr "Forțează ștergerea"
-
-#: src/Env.jsx:22
-msgid "Key must not be empty"
-msgstr "Cheia nu trebuie să fie goală"
-
-#: src/Env.jsx:24
-msgid "Key must not begin with a digit"
-msgstr "Cheia nu trebuie să înceapă cu o cifră"
-
-#: src/Env.jsx:26
-msgid "Key contains invalid characters"
-msgstr "Cheia conține caractere nevalide"
-
-#: src/Env.jsx:67
-msgid "Key"
-msgstr "Cheie"
-
-#: src/Env.jsx:83
-msgid "Value"
-msgstr "Valoarea"
-
-#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
-msgid "Container name is required."
-msgstr "Numele containerului este obligatoriu."
-
-#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+#: src/ContainerCommitModal.jsx:131
 msgid ""
-"Invalid characters. Name can only contain letters, numbers, and certain "
-"punctuation (_ . -)."
+"Docker format is useful when sharing the image with Docker or Moby Engine"
 msgstr ""
-"Caractere nevalide. Numele poate conține doar litere, cifre și anumite semne "
-"de punctuație (_ . -)."
+"Formatul Docker este util atunci când se partajează imaginea cu Docker sau "
+"Moby Engine"
 
-#: src/ContainerRenameModal.jsx:52
-msgid "Failed to rename container $0"
-msgstr "Redenumirea containerului $0 a eșuat"
+#: src/ContainerCommitModal.jsx:132
+msgid "Use legacy Docker format"
+msgstr "Utilizează formatul Docker vechi"
 
-#: src/ContainerRenameModal.jsx:66
-msgid "New container name"
-msgstr "Nume nou pentru container"
+#: src/ContainerCommitModal.jsx:142
+msgid "Commit container"
+msgstr "Validare container"
 
-#: src/ContainerRenameModal.jsx:84
-msgid "Rename container $0"
-msgstr "Redenumește containerul $0"
+#: src/ContainerCommitModal.jsx:143
+msgid "Create a new image based on the current state of the $0 container."
+msgstr "Creează o nouă imagine pe baza stării actuale a containerului $0."
 
-#: src/app.jsx:51
-msgid "user"
-msgstr "utilizator"
+#: src/ContainerCommitModal.jsx:154 src/Containers.jsx:281
+msgid "Commit"
+msgstr "Validare"
 
-#: src/app.jsx:690 src/ImageRunModal.jsx:855
-msgid "User"
-msgstr "Utilizator"
+#: src/ContainerCommitModal.jsx:161
+msgid "Force commit"
+msgstr "Forțează validarea"
 
-#: src/app.jsx:842
-msgid "Podman service failed"
-msgstr "Serviciul Podman a eșuat"
+#: src/ImageDeleteModal.jsx:53
+msgid "Failed to force remove image $0"
+msgstr "Eliminarea forțată a imaginii $0 a eșuat"
 
-#: src/app.jsx:846
-msgid "Troubleshoot"
-msgstr "Soluționare probleme"
+#: src/ImageDeleteModal.jsx:65
+msgid "intermediate image"
+msgstr "imagine intermediară"
 
-#: src/ImageDetails.jsx:34
-msgid "Description"
-msgstr "Descriere"
+#: src/ImageDeleteModal.jsx:79
+msgid "Failed to remove image $0"
+msgstr "Eliminarea imaginii $0 a eșuat"
 
-#: src/ImageDetails.jsx:40
-msgid "Version"
-msgstr "Versiunea"
+#: src/ImageDeleteModal.jsx:85
+msgid "intermediate"
+msgstr "intermediară"
 
-#: src/ImageDetails.jsx:46
-msgid "Links"
-msgstr "Legături"
+#: src/ImageDeleteModal.jsx:98
+msgid "Delete $0 image?"
+msgstr "Ștergeți imaginea $0?"
 
-#: src/ImageDetails.jsx:49
-msgid "Documentation"
-msgstr "Documentație"
+#: src/ImageDeleteModal.jsx:103
+msgid "Multiple tags exist for this image. Select the tagged images to delete."
+msgstr ""
+"Există mai multe etichete asociate acestei imagini. Selectați imaginile "
+"etichetate pe care doriți să le ștergeți."
 
-#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
-msgid "Entrypoint"
-msgstr "Punct de intrare"
+#: src/ImageDeleteModal.jsx:105 src/ImageRunModal.jsx:769
+#: src/ContainerHeader.tsx:39 src/Containers.jsx:900
+msgid "All"
+msgstr "Toate"
 
-#: src/ImageDetails.jsx:68
-msgid "Tags"
-msgstr "Etichete"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete image"
+msgstr "Șterge imaginea"
 
-#: src/ImageDetails.jsx:74 src/Images.jsx:194
-msgid "Used by"
-msgstr "Utilizat de"
-
-#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
-msgid "Ports"
-msgstr "Porturi"
+#: src/ImageDeleteModal.jsx:124
+msgid "Delete tagged images"
+msgstr "Șterge imaginile etichetate"
 
 #: src/ImageSearchModal.jsx:97 src/ImageRunModal.jsx:389
 msgid "Failed to search for new images"
@@ -604,6 +331,12 @@ msgstr "Căutarea imaginilor a eșuat."
 #: src/ImageSearchModal.jsx:142
 msgid "Search for an image"
 msgstr "Căută o imagine"
+
+#: src/ImageSearchModal.jsx:147 src/PodCreateModal.jsx:171
+#: src/ImageRunModal.jsx:831 src/PruneUnusedContainersModal.jsx:75
+#: src/Images.jsx:190 src/ContainerHeader.tsx:32 src/Containers.jsx:756
+msgid "Owner"
+msgstr "Proprietar"
 
 #: src/ImageSearchModal.jsx:158
 msgid "Search for"
@@ -642,145 +375,78 @@ msgstr "Nu s-au găsit rezultate pentru $0"
 msgid "Retry another term."
 msgstr "Încercați cu un alt termen."
 
-#: src/ImageSearchModal.jsx:213 src/ContainerCommitModal.jsx:103
-msgid "Tag"
-msgstr "Eticheta"
-
 #: src/ImageSearchModal.jsx:223
 msgid "Download"
 msgstr "Descărcare"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ContainerDetails.jsx:18
-msgid "Exited"
-msgstr "Terminat"
+#: src/ImageDetails.jsx:34
+msgid "Description"
+msgstr "Descriere"
 
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Paused"
-msgstr "În pauză"
+#: src/ImageDetails.jsx:40
+msgid "Version"
+msgstr "Versiunea"
 
-#: src/util.tsx:41 src/util.tsx:44
-msgid "Stopped"
-msgstr "Oprit"
+#: src/ImageDetails.jsx:46
+msgid "Links"
+msgstr "Legături"
 
-#: src/util.tsx:41
-msgid "Removing"
-msgstr "Se elimină"
+#: src/ImageDetails.jsx:49
+msgid "Documentation"
+msgstr "Documentație"
 
-#: src/util.tsx:41
-msgid "Configured"
-msgstr "Configurat"
+#: src/ImageDetails.jsx:62 src/ImageRunModal.jsx:923
+msgid "Entrypoint"
+msgstr "Punct de intrare"
 
-#: src/util.tsx:41 src/util.tsx:44 src/ImageUsedBy.jsx:37
-msgid "Running"
-msgstr "În execuție"
+#: src/ImageDetails.jsx:68
+msgid "Tags"
+msgstr "Etichete"
 
-#: src/util.tsx:44
-msgid "Error"
-msgstr "Eroare"
+#: src/ImageDetails.jsx:74 src/Images.jsx:194
+msgid "Used by"
+msgstr "Utilizat de"
 
-#: src/Volume.jsx:26
-msgid "Container path must not be empty"
-msgstr "Ruta containerului nu trebuie să fie goală"
+#: src/ImageDetails.jsx:80 src/ContainerIntegration.jsx:151
+msgid "Ports"
+msgstr "Porturi"
 
-#: src/Volume.jsx:39
-msgid "Host path"
-msgstr "Ruta către gazdă"
+#: src/ContainerRenameModal.jsx:32 src/ContainerRenameModal.jsx:43
+msgid "Container name is required."
+msgstr "Numele containerului este obligatoriu."
 
-#: src/Volume.jsx:53
-msgid "Container path"
-msgstr "Ruta containerului"
+#: src/ContainerRenameModal.jsx:36 src/PodCreateModal.jsx:122
+msgid ""
+"Invalid characters. Name can only contain letters, numbers, and certain "
+"punctuation (_ . -)."
+msgstr ""
+"Caractere nevalide. Numele poate conține doar litere, cifre și anumite semne "
+"de punctuație (_ . -)."
 
-#: src/Volume.jsx:67
-msgid "Mode"
-msgstr "Mod"
+#: src/ContainerRenameModal.jsx:52
+msgid "Failed to rename container $0"
+msgstr "Redenumirea containerului $0 a eșuat"
 
-#: src/Volume.jsx:69
-msgid "Writable"
-msgstr "Poate fi scris"
+#: src/ContainerRenameModal.jsx:66
+msgid "New container name"
+msgstr "Nume nou pentru container"
 
-#: src/Volume.jsx:74
-msgid "SELinux"
-msgstr "SELinux"
+#: src/ContainerRenameModal.jsx:84
+msgid "Rename container $0"
+msgstr "Redenumește containerul $0"
 
-#: src/Volume.jsx:78
-msgid "No label"
-msgstr "Fără etichetă"
-
-#: src/Volume.jsx:79
-msgid "Shared"
-msgstr "Partajată"
-
-#: src/Volume.jsx:80
-msgid "Private"
-msgstr "Privat"
-
-#: src/ContainerHeader.tsx:46
-msgid "Type to filter…"
-msgstr "Tastați pentru a filtra…"
-
-#: src/ImageHistory.jsx:34
-msgid "Created by"
-msgstr "Creat de"
-
-#: src/ImageHistory.jsx:34
-msgid "Size"
-msgstr "Dimensiune"
-
-#: src/ImageHistory.jsx:34
-msgid "Comments"
-msgstr "Comentarii"
-
-#: src/ImageHistory.jsx:60
-msgid "Unable to load image history"
-msgstr "Nu se poate încărca istoricul imaginilor"
-
-#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
-msgid "Loading details..."
-msgstr "Se încarcă detaliile..."
-
-#: src/PodActions.jsx:48
-msgid "Force delete pod $0?"
-msgstr "Forțați ștergerea capsulei „pod” $0?"
-
-#: src/PodActions.jsx:49
-msgid "Delete pod $0?"
-msgstr "Ștergeți capsula $0?"
-
-#: src/PodActions.jsx:53
-msgid "An error occurred"
-msgstr "A apărut o eroare"
-
-#: src/PodActions.jsx:55
-msgid "Empty pod $0 will be permanently removed."
-msgstr "Capsula goală $0 va fi eliminată definitiv."
-
-#: src/PodActions.jsx:59
-msgid "Deleting this pod will remove the following containers:"
-msgstr "Ștergerea acestei capsule „pod” va elimina următoarele containere:"
-
-#: src/PodActions.jsx:85 src/PodActions.jsx:91
-msgid "Failed to start pod $0"
-msgstr "Pornirea capsulei „pod” $0 a eșuat"
-
-#: src/PodActions.jsx:100 src/PodActions.jsx:107
-msgid "Failed to stop pod $0"
-msgstr "Oprirea capsulei „pod” $0 a eșuat"
-
-#: src/PodActions.jsx:117 src/PodActions.jsx:124
-msgid "Failed to restart pod $0"
-msgstr "Repornirea capsulei „pod” $0 a eșuat"
-
-#: src/PodActions.jsx:180
-msgid "Failed to resume pod $0"
-msgstr "Reluarea capsulei „pod” $0 a eșuat"
-
-#: src/PodActions.jsx:195
-msgid "Failed to pause pod $0"
-msgstr "Punerea în pauză a capsulei „pod” $0 a eșuat"
+#: src/ContainerRenameModal.jsx:95 src/Containers.jsx:182
+msgid "Rename"
+msgstr "Redenumește"
 
 #: src/PodCreateModal.jsx:97
 msgid "Pod failed to be created"
 msgstr "Crearea capsulei a eșuat"
+
+#: src/PodCreateModal.jsx:153 src/ImageRunModal.jsx:810
+#: src/PruneUnusedContainersModal.jsx:68
+msgid "Name"
+msgstr "Nume"
 
 #: src/PodCreateModal.jsx:156
 msgid "Pod name"
@@ -820,88 +486,31 @@ msgstr "Volume"
 msgid "Add volume"
 msgstr "Adaugă volum"
 
+#: src/PodCreateModal.jsx:212 src/Containers.jsx:909
+msgid "Create pod"
+msgstr "Creează capsulă „pod”"
+
 #: src/PodCreateModal.jsx:220 src/ImageRunModal.jsx:1230
 msgid "Create"
 msgstr "Creează"
 
-#: src/Notification.tsx:38 src/Images.jsx:62
-msgid "Error message"
-msgstr "Mesaj de eroare"
+#: src/ContainerLogs.jsx:46
+msgid "Loading logs..."
+msgstr "Se încarcă jurnalele..."
 
-#: src/ContainerRestoreModal.jsx:36
-msgid "Failed to restore container $0"
-msgstr "Restaurarea containerului $0 a eșuat"
+#: src/ImageRunModal.jsx:62 src/ContainerHealthLogs.jsx:29
+msgid "No action"
+msgstr "Nicio acțiune"
 
-#: src/ContainerRestoreModal.jsx:49
-msgid "Restore container $0"
-msgstr "Restaurează containerul $0"
+#: src/ImageRunModal.jsx:64 src/ContainerHealthLogs.jsx:31
+#: src/Containers.jsx:194 src/Containers.jsx:205 src/PodActions.jsx:137
+msgid "Stop"
+msgstr "Stop"
 
-#: src/ContainerRestoreModal.jsx:54
-msgid "Restore with established TCP connections"
-msgstr "Restaurează cu conexiunile TCP stabilite"
-
-#: src/ContainerRestoreModal.jsx:57
-msgid "Ignore IP address if set statically"
-msgstr "Ignoră adresa IP dacă este definită static"
-
-#: src/ContainerRestoreModal.jsx:60
-msgid "Ignore MAC address if set statically"
-msgstr "Ignoră adresa MAC dacă este definită static"
-
-#: src/ContainerCommitModal.jsx:40
-msgid "Image name is required"
-msgstr "Numele imaginii este obligatoriu"
-
-#: src/ContainerCommitModal.jsx:49
-msgid "Image name is not unique"
-msgstr "Numele imaginii nu este unic"
-
-#: src/ContainerCommitModal.jsx:86
-msgid "Failed to commit container $0"
-msgstr "Validarea containerului $0 a eșuat"
-
-#: src/ContainerCommitModal.jsx:95
-msgid "New image name"
-msgstr "Nume nou pentru imagine"
-
-#: src/ContainerCommitModal.jsx:110
-msgid "Author"
-msgstr "Autor"
-
-#: src/ContainerCommitModal.jsx:112
-msgid "Example, Your Name <yourname@example.com>"
-msgstr "Exemplu: Numele dvs. <numele_dvs@example.com>"
-
-#: src/ContainerCommitModal.jsx:123
-msgid "Options"
-msgstr "Opțiuni"
-
-#: src/ContainerCommitModal.jsx:127
-msgid "Pause container when creating image"
-msgstr "Pune în pauză containerul la crearea imaginii"
-
-#: src/ContainerCommitModal.jsx:131
-msgid ""
-"Docker format is useful when sharing the image with Docker or Moby Engine"
-msgstr ""
-"Formatul Docker este util atunci când se partajează imaginea cu Docker sau "
-"Moby Engine"
-
-#: src/ContainerCommitModal.jsx:132
-msgid "Use legacy Docker format"
-msgstr "Utilizează formatul Docker vechi"
-
-#: src/ContainerCommitModal.jsx:142
-msgid "Commit container"
-msgstr "Validare container"
-
-#: src/ContainerCommitModal.jsx:143
-msgid "Create a new image based on the current state of the $0 container."
-msgstr "Creează o nouă imagine pe baza stării actuale a containerului $0."
-
-#: src/ContainerCommitModal.jsx:161
-msgid "Force commit"
-msgstr "Forțează validarea"
+#: src/ImageRunModal.jsx:65 src/ContainerHealthLogs.jsx:32
+#: src/Containers.jsx:209 src/PodActions.jsx:145
+msgid "Force stop"
+msgstr "Forțează oprirea"
 
 #: src/ImageRunModal.jsx:252
 msgid "Container failed to be started"
@@ -951,6 +560,10 @@ msgstr "Local"
 msgid "Container name"
 msgstr "Numele containerului"
 
+#: src/ImageRunModal.jsx:828 src/Images.jsx:161 src/Containers.jsx:528
+msgid "Details"
+msgstr "Detalii"
+
 #: src/ImageRunModal.jsx:833
 msgid "Owner help"
 msgstr "Ajutor pentru proprietar"
@@ -971,6 +584,10 @@ msgstr "Suport pentru puncte de control și restaurare"
 msgid "Ports under 1024 can be mapped"
 msgstr "Porturile cu numere sub 1024 pot fi asociate"
 
+#: src/ImageRunModal.jsx:855 src/app.jsx:690
+msgid "User"
+msgstr "Utilizator"
+
 #: src/ImageRunModal.jsx:858
 msgid "Ideal for development"
 msgstr "Ideal pentru dezvoltare"
@@ -979,7 +596,7 @@ msgstr "Ideal pentru dezvoltare"
 msgid "Restricted by user account permissions"
 msgstr "Restricționat de permisiunile contului de utilizator"
 
-#: src/ImageRunModal.jsx:881 src/ContainerDetails.jsx:39 src/Images.jsx:189
+#: src/ImageRunModal.jsx:881 src/Images.jsx:189 src/ContainerDetails.jsx:39
 msgid "Image"
 msgstr "Imagine"
 
@@ -1112,6 +729,10 @@ msgstr "Reduce numărul maxim de reîncercări"
 msgid "Increase maximum retries"
 msgstr "Mărește numărul maxim de reîncercări"
 
+#: src/ImageRunModal.jsx:1043 src/Containers.jsx:535
+msgid "Integration"
+msgstr "Integrare"
+
 #: src/ImageRunModal.jsx:1068
 msgid "No environment variables specified"
 msgstr "Nu au fost specificate variabile de mediu"
@@ -1130,6 +751,14 @@ msgid ""
 msgstr ""
 "Lipiți una sau mai multe linii de perechi cheie=valoare în orice câmp pentru "
 "importul în bloc"
+
+#: src/ImageRunModal.jsx:1084 src/Containers.jsx:572
+msgid "Health check"
+msgstr "Verificarea stării de funcționare"
+
+#: src/ImageRunModal.jsx:1092 src/ContainerHealthLogs.jsx:54
+msgid "Interval"
+msgstr "Interval"
 
 #: src/ImageRunModal.jsx:1094
 msgid "Health check interval help"
@@ -1152,6 +781,10 @@ msgstr "Mărește intervalul"
 msgid "seconds"
 msgstr "secunde"
 
+#: src/ImageRunModal.jsx:1115 src/ContainerHealthLogs.jsx:66
+msgid "Timeout"
+msgstr "Timpul de așteptare"
+
 #: src/ImageRunModal.jsx:1117
 msgid "Health check timeout help"
 msgstr "Ajutor pentru timpul de așteptare a verificării stării de funcționare"
@@ -1172,6 +805,10 @@ msgstr "Reduce timpul de așteptare"
 msgid "Increase timeout"
 msgstr "Mărește timpul de așteptare"
 
+#: src/ImageRunModal.jsx:1138 src/ContainerHealthLogs.jsx:62
+msgid "Start period"
+msgstr "Perioada de pornire"
+
 #: src/ImageRunModal.jsx:1140
 msgid "Health check start period help"
 msgstr "Ajutor pentru perioada de pornire a verificării stării de funcționare"
@@ -1187,6 +824,10 @@ msgstr "Reduce perioada de pornire"
 #: src/ImageRunModal.jsx:1154
 msgid "Increase start period"
 msgstr "Mărește perioada de pornire"
+
+#: src/ImageRunModal.jsx:1161 src/ContainerHealthLogs.jsx:58
+msgid "Retries"
+msgstr "Reîncercări"
 
 #: src/ImageRunModal.jsx:1163
 msgid "Health check retries help"
@@ -1208,6 +849,10 @@ msgstr "Reduce numărul de reîncercări"
 msgid "Increase retries"
 msgstr "Mărește numărul de reîncercări"
 
+#: src/ImageRunModal.jsx:1181 src/ContainerHealthLogs.jsx:70
+msgid "When unhealthy"
+msgstr "Când starea de funcționare nu este bună"
+
 #: src/ImageRunModal.jsx:1183
 msgid "Health failure check action help"
 msgstr ""
@@ -1222,123 +867,160 @@ msgstr "Acțiunea de efectuat odată ce containerul trece într-o stare nedorit�
 msgid "Create container in $0"
 msgstr "Creează container în $0"
 
+#: src/ImageRunModal.jsx:1219 src/Images.jsx:439 src/Images.jsx:448
+#: src/Containers.jsx:917
+msgid "Create container"
+msgstr "Creează container"
+
 #: src/ImageRunModal.jsx:1226
 msgid "Create and run"
 msgstr "Creează și execută"
 
-#: src/ContainerIntegration.jsx:83
-msgid "Read-write access"
-msgstr "Acces numai-pentru-scriere"
+#: src/Volume.jsx:26
+msgid "Container path must not be empty"
+msgstr "Ruta containerului nu trebuie să fie goală"
 
-#: src/ContainerIntegration.jsx:84
-msgid "Read-only access"
-msgstr "Acces numai-pentru-citire"
+#: src/Volume.jsx:39
+msgid "Host path"
+msgstr "Ruta către gazdă"
 
-#: src/ContainerIntegration.jsx:124
-msgid "Show less"
-msgstr "Afișează mai puțin"
+#: src/Volume.jsx:53
+msgid "Container path"
+msgstr "Ruta containerului"
 
-#: src/ContainerIntegration.jsx:124 src/PruneUnusedImagesModal.jsx:55
-msgid "Show more"
-msgstr "Afișează mai mult"
+#: src/Volume.jsx:67
+msgid "Mode"
+msgstr "Mod"
 
-#: src/ImageUsedBy.jsx:17
-msgid "No containers are using this image"
-msgstr "Niciun container nu utilizează această imagine"
+#: src/Volume.jsx:69
+msgid "Writable"
+msgstr "Poate fi scris"
 
-#: src/ContainerLogs.jsx:46
-msgid "Loading logs..."
-msgstr "Se încarcă jurnalele..."
+#: src/Volume.jsx:74
+msgid "SELinux"
+msgstr "SELinux"
 
-#: src/ImageDeleteModal.jsx:53
-msgid "Failed to force remove image $0"
-msgstr "Eliminarea forțată a imaginii $0 a eșuat"
+#: src/Volume.jsx:78
+msgid "No label"
+msgstr "Fără etichetă"
 
-#: src/ImageDeleteModal.jsx:65
-msgid "intermediate image"
-msgstr "imagine intermediară"
+#: src/Volume.jsx:79
+msgid "Shared"
+msgstr "Partajată"
 
-#: src/ImageDeleteModal.jsx:79
-msgid "Failed to remove image $0"
-msgstr "Eliminarea imaginii $0 a eșuat"
+#: src/Volume.jsx:80
+msgid "Private"
+msgstr "Privat"
 
-#: src/ImageDeleteModal.jsx:85
-msgid "intermediate"
-msgstr "intermediară"
+#: src/PruneUnusedContainersModal.jsx:35 src/app.jsx:51 src/app.jsx:677
+#: src/Images.jsx:145 src/Containers.jsx:503
+msgid "system"
+msgstr "sistem"
 
-#: src/ImageDeleteModal.jsx:98
-msgid "Delete $0 image?"
-msgstr "Ștergeți imaginea $0?"
+#: src/PruneUnusedContainersModal.jsx:35 src/Images.jsx:145
+#: src/Containers.jsx:503
+msgid "user:"
+msgstr "utilizator:"
 
-#: src/ImageDeleteModal.jsx:103
-msgid "Multiple tags exist for this image. Select the tagged images to delete."
-msgstr ""
-"Există mai multe etichete asociate acestei imagini. Selectați imaginile "
-"etichetate pe care doriți să le ștergeți."
+#: src/PruneUnusedContainersModal.jsx:61
+msgid "Failed to prune unused containers"
+msgstr "Eliminarea containerele neutilizate a eșuat"
 
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete image"
-msgstr "Șterge imaginea"
+#: src/PruneUnusedContainersModal.jsx:94 src/Containers.jsx:330
+msgid "Prune unused containers"
+msgstr "Elimină containerele neutilizate"
 
-#: src/ImageDeleteModal.jsx:124
-msgid "Delete tagged images"
-msgstr "Șterge imaginile etichetate"
+#: src/PruneUnusedContainersModal.jsx:96
+msgid "Removes selected non-running containers"
+msgstr "Elimină containerele selectate care nu rulează"
 
-#: src/ContainerDeleteModal.jsx:26
-msgid "Failed to remove container $0"
-msgstr "Eliminarea containerului $0 a eșuat"
+#: src/PruneUnusedContainersModal.jsx:106
+#: src/PruneUnusedContainersModal.jsx:110
+msgid "Pruning containers"
+msgstr "Se elimină containerele"
 
-#: src/ContainerDeleteModal.jsx:40
-msgid "Deleting a container will erase all data in it."
-msgstr "Ștergerea unui container va șterge toate datele din acesta."
+#: src/ContainerHealthLogs.jsx:25
+msgid "$0 second"
+msgid_plural "$0 seconds"
+msgstr[0] "$0 secundă"
+msgstr[1] "$0 secunde"
+msgstr[2] "$0 de secunde"
 
-#: src/ContainerDetails.jsx:16
-msgid "Up since:"
-msgstr "În funcțiune de:"
+#: src/ContainerHealthLogs.jsx:46
+msgid "Status"
+msgstr "Starea"
 
-#: src/ContainerDetails.jsx:35 src/Images.jsx:192
-msgid "ID"
-msgstr "ID"
+#: src/ContainerHealthLogs.jsx:74
+msgid "Failing streak"
+msgstr "O serie de eșecuri"
 
-#: src/ContainerDetails.jsx:50
-msgid "systemd service"
-msgstr "serviciu systemd"
+#: src/ContainerHealthLogs.jsx:84
+msgid "Failed to run health check on container $0"
+msgstr "Executarea verificării stării de funcționare pe containerul $0 a eșuat"
 
-#: src/ContainerDetails.jsx:54
-msgid "View $0"
-msgstr "Vizualizare $0"
+#: src/ContainerHealthLogs.jsx:88
+msgid "Run health check"
+msgstr "Rulați verificarea stării de funcționare"
 
-#: src/ContainerDetails.jsx:68
-msgid "Gateway"
-msgstr "Poartă de acces"
+#: src/ContainerHealthLogs.jsx:92 src/Containers.jsx:540
+msgid "Logs"
+msgstr "Jurnale"
 
-#: src/ContainerDetails.jsx:72
-msgid "MAC address"
-msgstr "Adresa MAC"
+#: src/ContainerHealthLogs.jsx:95
+msgid "Last 5 runs"
+msgstr "Ultimele 5 rulări"
 
-#: src/ContainerDetails.jsx:90
-msgid "Latest checkpoint"
-msgstr "Ultimul punct de control"
+#: src/ContainerHealthLogs.jsx:95
+msgid "Started at"
+msgstr "A început la"
 
-#: src/PruneUnusedImagesModal.jsx:38
-msgid "Delete unused system images:"
-msgstr "Şterge imaginile de sistem neutilizate:"
+#: src/ContainerHealthLogs.jsx:105
+msgid "Passed health run"
+msgstr "Executarea verificării stării de funcționare a avut succes"
 
-#: src/PruneUnusedImagesModal.jsx:39
-msgid "Delete unused images of user $0:"
-msgstr "Şterge imaginile neutilizate ale utilizatorului $0:"
+#: src/ContainerHealthLogs.jsx:105
+msgid "Failed health run"
+msgstr "Executarea verificării stării de funcționare a eșuat"
 
-#: src/PruneUnusedImagesModal.jsx:74
-msgid "Failed to prune unused images"
-msgstr "Eliminarea imaginilor neutilizate a eșuat"
+#: src/ContainerRestoreModal.jsx:36
+msgid "Failed to restore container $0"
+msgstr "Restaurarea containerului $0 a eșuat"
 
-#: src/PruneUnusedImagesModal.jsx:91 src/Images.jsx:385
-msgid "Prune unused images"
-msgstr "Elimină imaginile neutilizate"
+#: src/ContainerRestoreModal.jsx:49
+msgid "Restore container $0"
+msgstr "Restaurează containerul $0"
 
-#: src/PruneUnusedImagesModal.jsx:107 src/PruneUnusedImagesModal.jsx:111
-msgid "Pruning images"
-msgstr "Se elimină imaginile"
+#: src/ContainerRestoreModal.jsx:52 src/ContainerCheckpointModal.jsx:49
+msgid "Keep all temporary checkpoint files"
+msgstr "Păstrează toate fișierele temporare ale punctelor de control"
+
+#: src/ContainerRestoreModal.jsx:54
+msgid "Restore with established TCP connections"
+msgstr "Restaurează cu conexiunile TCP stabilite"
+
+#: src/ContainerRestoreModal.jsx:57
+msgid "Ignore IP address if set statically"
+msgstr "Ignoră adresa IP dacă este definită static"
+
+#: src/ContainerRestoreModal.jsx:60
+msgid "Ignore MAC address if set statically"
+msgstr "Ignoră adresa MAC dacă este definită static"
+
+#: src/ContainerRestoreModal.jsx:69 src/Containers.jsx:266
+msgid "Restore"
+msgstr "Restaurare"
+
+#: src/app.jsx:51
+msgid "user"
+msgstr "utilizator"
+
+#: src/app.jsx:842
+msgid "Podman service failed"
+msgstr "Serviciul Podman a eșuat"
+
+#: src/app.jsx:846
+msgid "Troubleshoot"
+msgstr "Soluționare probleme"
 
 #: src/Images.jsx:60
 msgid "Failed to download image $0:$1"
@@ -1359,6 +1041,10 @@ msgstr[2] "$0 de containere"
 msgid "History"
 msgstr "Istoric"
 
+#: src/Images.jsx:192 src/ContainerDetails.jsx:35
+msgid "ID"
+msgstr "ID"
+
 #: src/Images.jsx:193
 msgid "Disk space"
 msgstr "Spațiu pe disc"
@@ -1366,6 +1052,10 @@ msgstr "Spațiu pe disc"
 #: src/Images.jsx:196
 msgid "No images"
 msgstr "Nicio imagine"
+
+#: src/Images.jsx:198 src/Containers.jsx:771 src/ImageUsedBy.jsx:15
+msgid "Loading..."
+msgstr "Se încarcă…"
 
 #: src/Images.jsx:200
 msgid "No images that match the current filter"
@@ -1420,6 +1110,316 @@ msgstr "Descarcă toate imaginile"
 #: src/Images.jsx:453
 msgid "Pull"
 msgstr "Descarcă"
+
+#: src/ContainerTerminal.jsx:250
+msgid "Container is not running"
+msgstr "Containerul nu este în execuție"
+
+#: src/ContainerTerminal.jsx:254
+msgid "Error occurred while connecting console"
+msgstr "A apărut o eroare la conectarea consolei"
+
+#: src/ContainerCheckpointModal.jsx:33
+msgid "Failed to checkpoint container $0"
+msgstr "Crearea punctului de control al containerului $0 a eșuat"
+
+#: src/ContainerCheckpointModal.jsx:46
+msgid "Checkpoint container $0"
+msgstr "Punct de control container $0"
+
+#: src/ContainerCheckpointModal.jsx:51
+msgid "Leave running after writing checkpoint to disk"
+msgstr "Lasă rularea să continue după scrierea punctului de control pe disc"
+
+#: src/ContainerCheckpointModal.jsx:54
+msgid "Support preserving established TCP connections"
+msgstr "Suport pentru menținerea conexiunilor TCP stabilite"
+
+#: src/ContainerCheckpointModal.jsx:63 src/Containers.jsx:245
+msgid "Checkpoint"
+msgstr "Punct de control"
+
+#: src/ContainerHeader.tsx:46
+msgid "Type to filter…"
+msgstr "Tastați pentru a filtra…"
+
+#: src/ImageHistory.jsx:34
+msgid "Created by"
+msgstr "Creat de"
+
+#: src/ImageHistory.jsx:34
+msgid "Size"
+msgstr "Dimensiune"
+
+#: src/ImageHistory.jsx:34
+msgid "Comments"
+msgstr "Comentarii"
+
+#: src/ImageHistory.jsx:60
+msgid "Unable to load image history"
+msgstr "Nu se poate încărca istoricul imaginilor"
+
+#: src/ImageHistory.jsx:60 src/ContainerIntegration.jsx:135
+msgid "Loading details..."
+msgstr "Se încarcă detaliile..."
+
+#: src/Containers.jsx:62
+msgid "Failed to force remove container $0"
+msgstr "Eliminarea forțată a containerului $0 a eșuat"
+
+#: src/Containers.jsx:72
+msgid "Deleting a running container will erase all data in it."
+msgstr ""
+"Ștergerea unui container care rulează va șterge toate datele din acesta."
+
+#: src/Containers.jsx:87
+msgid "Failed to stop container $0"
+msgstr "Oprirea containerului $0 a eșuat"
+
+#: src/Containers.jsx:96
+msgid "Failed to stop quadlet $0"
+msgstr "Nu s-a reușit oprirea quadlet-ului $0"
+
+#: src/Containers.jsx:105
+msgid "Failed to start quadlet $0"
+msgstr "Nu s-a reușit pornirea quadlet-ului $0"
+
+#: src/Containers.jsx:111
+msgid "Failed to start container $0"
+msgstr "Pornirea containerului $0 a eșuat"
+
+#: src/Containers.jsx:120
+msgid "Failed to resume container $0"
+msgstr "Reluarea containerului $0 a eșuat"
+
+#: src/Containers.jsx:128
+msgid "Failed to pause container $0"
+msgstr "Punerea în pauză a containerului $0 a eșuat"
+
+#: src/Containers.jsx:146
+msgid "Failed to restart container $0"
+msgstr "Repornirea containerului $0 a eșuat"
+
+#: src/Containers.jsx:154
+msgid "Failed to restart quadlet $0"
+msgstr "Nu s-a reușit repornirea quadlet-ului $0"
+
+#: src/Containers.jsx:217 src/PodActions.jsx:160
+msgid "Force restart"
+msgstr "Forțează repornirea"
+
+#: src/Containers.jsx:225 src/PodActions.jsx:199
+msgid "Pause"
+msgstr "Pauză"
+
+#: src/Containers.jsx:232 src/PodActions.jsx:184
+msgid "Resume"
+msgstr "Reluare"
+
+#: src/Containers.jsx:255 src/PodActions.jsx:169
+msgid "Start"
+msgstr "Pornire"
+
+#: src/Containers.jsx:312
+msgid "Healthy"
+msgstr "Funcționare excelentă"
+
+#: src/Containers.jsx:314
+msgid "Unhealthy"
+msgstr "Funcționare defectuoasă"
+
+#: src/Containers.jsx:316
+msgid "Checking health"
+msgstr "Verificarea stării de funcționare"
+
+#: src/Containers.jsx:345
+msgid "Terminal not available"
+msgstr "Terminalul nu este disponibil"
+
+#: src/Containers.jsx:345
+msgid "This browser does not support WebGL2."
+msgstr "Acest navigator nu are suport pentru WebGL2."
+
+#: src/Containers.jsx:350
+msgid "View $0 logs"
+msgstr "Vizualizare $0 jurnale"
+
+#: src/Containers.jsx:440 src/Containers.jsx:441
+msgid "not available"
+msgstr "nu este disponibilă"
+
+#: src/Containers.jsx:440 src/Containers.jsx:441
+msgid "n/a"
+msgstr "n/d"
+
+#
+#: src/Containers.jsx:461
+msgid "$0% of $1 limit"
+msgstr "$0% din limita de $1"
+
+#: src/Containers.jsx:477 src/Containers.jsx:1027
+msgid "service"
+msgstr "serviciu"
+
+#: src/Containers.jsx:554
+msgid "Console"
+msgstr "Consolă"
+
+#: src/Containers.jsx:636 src/Containers.jsx:639 src/Containers.jsx:757
+msgid "CPU"
+msgstr "CPU"
+
+#: src/Containers.jsx:643 src/Containers.jsx:646 src/Containers.jsx:758
+msgid "Memory"
+msgstr "Memorie"
+
+#: src/Containers.jsx:654
+msgid "Click to see published ports"
+msgstr "Faceți clic cu butonul mausului pentru a vedea porturile publicate"
+
+#: src/Containers.jsx:663
+msgid "ports"
+msgstr "porturi"
+
+#: src/Containers.jsx:669
+msgid "Click to see volumes"
+msgstr "Faceți clic cu butonul mausului pentru a vedea volumele"
+
+#: src/Containers.jsx:678
+msgid "volumes"
+msgstr "volume"
+
+#: src/Containers.jsx:755
+msgid "Container"
+msgstr "Container"
+
+#: src/Containers.jsx:759 src/ContainerDetails.jsx:86
+msgid "State"
+msgstr "Stare"
+
+#: src/Containers.jsx:760
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: src/Containers.jsx:768
+msgid "No containers"
+msgstr "Niciun container"
+
+#: src/Containers.jsx:769
+msgid "No containers in this pod"
+msgstr "Nu există containere în această capsulă"
+
+#: src/Containers.jsx:773
+msgid "No containers that match the current filter"
+msgstr "Nu există containere care să corespundă filtrului actual"
+
+#: src/Containers.jsx:775
+msgid "No running containers"
+msgstr "Nu există containere în execuție"
+
+#: src/Containers.jsx:896
+msgid "Show"
+msgstr "Afișează"
+
+#: src/Containers.jsx:901
+msgid "Only running"
+msgstr "Doar cele în execuție"
+
+#: src/Containers.jsx:954 src/Containers.jsx:960 src/Containers.jsx:995
+msgid "Containers"
+msgstr "Containere"
+
+#: src/Containers.jsx:1006
+msgid "Create container in pod"
+msgstr "Creează container în capsulă „pod”"
+
+#: src/Containers.jsx:1026
+msgid "pod"
+msgstr "capsulă „pod”"
+
+#: src/ImageUsedBy.jsx:17
+msgid "No containers are using this image"
+msgstr "Niciun container nu utilizează această imagine"
+
+#: src/ContainerDetails.jsx:16
+msgid "Up since:"
+msgstr "În funcțiune de:"
+
+#: src/ContainerDetails.jsx:50
+msgid "systemd service"
+msgstr "serviciu systemd"
+
+#: src/ContainerDetails.jsx:54
+msgid "View $0"
+msgstr "Vizualizare $0"
+
+#: src/ContainerDetails.jsx:68
+msgid "Gateway"
+msgstr "Poartă de acces"
+
+#: src/ContainerDetails.jsx:72
+msgid "MAC address"
+msgstr "Adresa MAC"
+
+#: src/ContainerDetails.jsx:90
+msgid "Latest checkpoint"
+msgstr "Ultimul punct de control"
+
+#: src/PodActions.jsx:48
+msgid "Force delete pod $0?"
+msgstr "Forțați ștergerea capsulei „pod” $0?"
+
+#: src/PodActions.jsx:49
+msgid "Delete pod $0?"
+msgstr "Ștergeți capsula $0?"
+
+#: src/PodActions.jsx:53
+msgid "An error occurred"
+msgstr "A apărut o eroare"
+
+#: src/PodActions.jsx:55
+msgid "Empty pod $0 will be permanently removed."
+msgstr "Capsula goală $0 va fi eliminată definitiv."
+
+#: src/PodActions.jsx:59
+msgid "Deleting this pod will remove the following containers:"
+msgstr "Ștergerea acestei capsule „pod” va elimina următoarele containere:"
+
+#: src/PodActions.jsx:68 src/ForceRemoveModal.jsx:32
+msgid "Force delete"
+msgstr "Forțează ștergerea"
+
+#: src/PodActions.jsx:85 src/PodActions.jsx:91
+msgid "Failed to start pod $0"
+msgstr "Pornirea capsulei „pod” $0 a eșuat"
+
+#: src/PodActions.jsx:100 src/PodActions.jsx:107
+msgid "Failed to stop pod $0"
+msgstr "Oprirea capsulei „pod” $0 a eșuat"
+
+#: src/PodActions.jsx:117 src/PodActions.jsx:124
+msgid "Failed to restart pod $0"
+msgstr "Repornirea capsulei „pod” $0 a eșuat"
+
+#: src/PodActions.jsx:180
+msgid "Failed to resume pod $0"
+msgstr "Reluarea capsulei „pod” $0 a eșuat"
+
+#: src/PodActions.jsx:195
+msgid "Failed to pause pod $0"
+msgstr "Punerea în pauză a capsulei „pod” $0 a eșuat"
+
+#: src/ContainerIntegration.jsx:83
+msgid "Read-write access"
+msgstr "Acces numai-pentru-scriere"
+
+#: src/ContainerIntegration.jsx:84
+msgid "Read-only access"
+msgstr "Acces numai-pentru-citire"
+
+#: src/ContainerIntegration.jsx:124
+msgid "Show less"
+msgstr "Afișează mai puțin"
 
 #: src/manifest.json:0
 msgid "Podman containers"
